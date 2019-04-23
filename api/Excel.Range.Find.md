@@ -52,11 +52,15 @@ You can use the **[FindNext](Excel.Range.FindNext.md)** and **[FindPrevious](Exc
 
 When the search reaches the end of the specified search range, it wraps around to the beginning of the range. To stop a search when this wraparound occurs, save the address of the first found cell, and then test each successive found-cell address against this saved address.
 
-To find cells that match more complicated patterns, use a **For Each...Next** statement with the **Like** operator. For example, the following code searches for all cells in the range A1:C5 that use a font whose name starts with the letters Cour. When Microsoft Excel finds a match, it changes the font to Times New Roman.
+To find cells that match more complicated patterns, use a **For Each...Next** statement with the **Like** operator. For example, the following code searches for all cells in the range A1:C5 (in the active worksheet) that use a font whose name starts with the letters Cour. When a match is found, it changes the font to Times New Roman.
 
 ```vb
-For Each c In [A1:C5] If c.Font.Name Like "Cour*" Then c.Font.Name = "Times New Roman" End If Next`
-
+Dim c As Range
+For Each c In ActiveSheet.Range("A1:C5")
+    If c.Font.Name Like "Cour*" Then 
+        c.Font.Name = "Times New Roman" 
+    End If 
+Next
 ```
 
 ## Example
@@ -64,100 +68,100 @@ For Each c In [A1:C5] If c.Font.Name Like "Cour*" Then c.Font.Name = "Times New 
 This example finds all cells in the range A1:A500 on worksheet one that contain the value 2, and changes it to 5.
 
 ```vb
-With Worksheets(1).Range("a1:a500") 
-    Set c = .Find(2, lookin:=xlValues) 
-    If Not c Is Nothing Then 
-        firstAddress = c.Address 
+With ActiveWorkbook.Worksheets(1).Range("A1:A500") 
+    Dim findResult As Range
+    Set findResult = .Find(2, lookin:=xlValues) 
+    If Not findResult Is Nothing Then 
+        firstAddress = findResult.Address 
         Do 
-            c.Value = 5 
-            Set c = .FindNext(c) 
-        Loop While Not c Is Nothing
+            findResult.Value = 5 
+            Set findResult = .FindNext(c) 
+        Loop While Not findResult Is Nothing
     End If 
 End With
 ```
 
-<!-- ******Removed this sample by request in this issue: https://github.com/MicrosoftDocs/VBA-Docs/issues/133******
+<!-- is this attribution/advertisement still relevant?
 
 **Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&p=1).
+-->
 
-This example takes a path and name of a workbook and a search term, and searches the specified workbook for the search term. If the search term is found, the address of the result is stored in cell D10 of the current workbook.
+This example takes a path and name of a workbook and a search term, and searches the active sheet in the specified workbook for the search term. If the search term is found, the address of the result is stored in cell D10 of the current workbook.
 
 ```vb
 Option Explicit
 
-Sub FindAddress()
-    'Defining the variables.
-    Dim GCell As Range
-    Dim Page$, Txt$, MyPath$, MyWB$, MySheet$
+Public Sub FindAddress()
+    On Error GoTo CleanFail
     
-    
-    'The text for which to search.
-    Txt = "Hello"
-    'The path to the workbook in which to search.
-    MyPath = "C:\Your\File\Path\"
-    'The name of the workbook in which to search.
-    MyWB = "YourFileName.xls"
+    Dim searchText As String
+    searchText = "Hello"
     
     'Use the current sheet as the place to store the data for which to search.
-    MySheet = ActiveSheet.Name
+    Dim resultSheet As Worksheet
+    Set resultSheet = ActiveSheet
+
+    'The path & file name for the workbook in which to search.
+    Const wbPath As String = "C:\Your\File\Path\"
+    Const wbName As String = "YourFileName.xls"
     
-    'If an error occurs, use the error handling routine at the end of this file.
-    On Error GoTo ErrorHandler
+    Dim wb As Workbook
+    If Not TryGetWorkbookToSearch(wbPath & wbName, wb) Then
+        MsgBox "The workbook '" & wbName & "' could not be found in" & vbNewLine & "'" & wbPath & "'.", vbExclamation
+        Exit Sub
+    End If
     
-    'Turn off screen updating, and then open the target workbook.
     Application.ScreenUpdating = False
-    Workbooks.Open FileName:=MyPath & MyWB
     
-    'Search for the specified text
-    Set GCell = ActiveSheet.Cells.Find(Txt)
-    
-    'Record the address of the data, along with the date, in the current workbook.
-    With ThisWorkbook.ActiveSheet.Range("D10")
-        .Value = "Address of " & Txt & ":"
-        .Offset(0, 1).Value = "Date:"
-        .Offset(1, 0).Value = GCell.Address
-        .Offset(1, 1).Value = Date
-        .Columns.AutoFit
-        .Offset(1, 1).Columns.AutoFit
-    End With
-    
+    'Search for the specified text in whichever sheet is active in that workbook
+    Dim findResult As Range
+    Set findResult = wb.ActiveSheet.UsedRange.Find(searchText)
+    If Not findResult Is Nothing Then
+        'Record the address of the data, along with the date, in the current workbook.
+        With resultSheet.Range("D10")
+            .Value = "Address of " & searchText & ":"
+            .Offset(0, 1).Value = "Date:"
+            .Offset(1, 0).Value = findResult.Address
+            .Offset(1, 1).Value = Date
+            .Columns.AutoFit
+            .Offset(1, 1).Columns.AutoFit
+        End With
+    Else
+        MsgBox "The value '" & searchText & "' was not found in the active sheet of the specified workbook."
+    End If
+        
+CleanExit:
     'Close the data workbook, without saving any changes, and turn screen updating back on.
-    ActiveWorkbook.Close savechanges:=False
+    If Not wb Is Nothing Then wb.Close savechanges:=False
     Application.ScreenUpdating = True
-Exit Sub
+    Exit Sub
 
-'Error Handling section.
-ErrorHandler:
-Select Case Err.Number
-        'Common error #1: file path or workbook name is wrong.
-        Case 1004
-            Range("D10:E11").ClearContents
-            Application.ScreenUpdating = True
-            MsgBox "The workbook " & MyWB & " could not be found in the path" & vbCrLf & MyPath & "."
-        Exit Sub
-        
-        'Common error #2: the specified text wasn't in the target workbook.
-        Case 9, 91
-            ThisWorkbook.Sheets(MySheet).Range("D10:E11").ClearContents
-            Workbooks(MyWB).Close False
-            Application.ScreenUpdating = True
-            MsgBox "The value " & Txt & " was not found."
-        Exit Sub
-        
-        'General case: turn screenupdating back on, and exit.
-        Case Else
-            Application.ScreenUpdating = True
-        Exit Sub
-End Select
-
+CleanFail:
+    MsgBox Err.Description, vbExclamation
+    Resume CleanExit 'debug: place a breakpoint here (F9) and set the next statement to the "Resume" instruction underneath.
+    Resume 'set as next statement and press F8 to jump to the statement that raised the error.
 End Sub
+
+Private Function TryGetWorkbookToSearch(ByVal wbFullPath As String, ByRef outWorkbook As Workbook) As Boolean
+    On Error GoTo CleanFail
+    Dim result As Boolean
+    Set outWorkbook = Application.Workbooks.Open(wbFullPath)
+    result = True
+CleanExit:
+    TryGetWorkbookToSearch = result
+    Exit Function
+CleanFail:
+    Set outWorkbook = Nothing
+    result = False
+    Resume CleanExit
+End Function
 ```
 
-
+<!-- I count 8 contributors to this file, excluding myself.
 ### About the contributor
 
-Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. -->
-
+Holy Macro! Books publishes entertaining books for people who use Microsoft Office. See the complete catalog at MrExcel.com. 
+-->
 
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]
