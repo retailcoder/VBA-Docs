@@ -55,12 +55,9 @@ With Worksheets(1).Range("a1:a500")
         Do
             c.Value = 5
             Set c = .FindNext(c)
-        If c is Nothing Then
-            GoTo DoneFinding
-        End If
+            If c is Nothing Then Exit Do
         Loop While c.Address <> firstAddress
       End If
-      DoneFinding:
 End With
 ```
 
@@ -70,82 +67,35 @@ This example finds all the cells in the first four columns that have a constant 
 
 
 ```vb
-Sub Hide_Columns()
-
-    'Excel objects.
-    Dim m_wbBook As Workbook
-    Dim m_wsSheet As Worksheet
-    Dim m_rnCheck As Range
-    Dim m_rnFind As Range
-    Dim m_stAddress As String
-
-    'Initialize the Excel objects.
-    Set m_wbBook = ThisWorkbook
-    Set m_wsSheet = m_wbBook.Worksheets("Sheet1")
+Public Sub HideMarkedColumns()
     
-    'Search the four columns for any constants.
-    Set m_rnCheck = m_wsSheet.Range("A1:D1").SpecialCells(xlCellTypeConstants)
-    
-    'Retrieve all columns that contain an X. If there is at least one, begin the DO/WHILE loop.
-    With m_rnCheck
-        Set m_rnFind = .Find(What:="X")
-        If Not m_rnFind Is Nothing Then
-            m_stAddress = m_rnFind.Address
+    ' Sheet1 is the code name identifier referring to the ThisWorkbook.Worksheets("Sheet1") object.
+    ' there is no need to declare a new variable for a sheet that exists in ThisWorkbook at compile-time.
+    ' Set the "(Name)" property of each worksheet module in the Properties toolwindow (F4)    
+    With Sheet1.Range("A1:D1").SpecialCells(xlCellTypeConstants)
+        Dim findResult As Range
+        Set findResult = .Find(What:="X") ' note: omitted optional parameter values are carried from any previous search
+        If Not findResult Is Nothing Then ' Range.Find returns Nothing if there's no match
+            Dim firstAddress As String
+            firstAddress = findResult.Address
              
-            'Hide the column, and then find the next X.
             Do
-                m_rnFind.EntireColumn.Hidden = True
-                Set m_rnFind = .FindNext(m_rnFind)
-            Loop While Not m_rnFind Is Nothing And m_rnFind.Address <> m_stAddress
+                findResult.EntireColumn.Hidden = True
+                Set findResult = .FindNext(findResult)
+            Loop While findResult.Address <> firstAddress
         End If
     End With
 
 End Sub
 ```
 
-This example finds all the cells in the first four columns that have a constant "X" in them and unhides the column that contains the X.
+<!-- note: removed 3rd example, which added nothing relevant to the topic. -->
 
-
-
-
-```vb
-Sub Unhide_Columns()
-    'Excel objects.
-    Dim m_wbBook As Workbook
-    Dim m_wsSheet As Worksheet
-    Dim m_rnCheck As Range
-    Dim m_rnFind As Range
-    Dim m_stAddress As String
-    
-    'Initialize the Excel objects.
-    Set m_wbBook = ThisWorkbook
-    Set m_wsSheet = m_wbBook.Worksheets("Sheet1")
-    
-    'Search the four columns for any constants.
-    Set m_rnCheck = m_wsSheet.Range("A1:D1").SpecialCells(xlCellTypeConstants)
-    
-    'Retrieve all columns that contain X. If there is at least one, begin the DO/WHILE loop.
-    With m_rnCheck
-        Set m_rnFind = .Find(What:="X", LookIn:=xlFormulas)
-        If Not m_rnFind Is Nothing Then
-            m_stAddress = m_rnFind.Address
-            
-            'Unhide the column, and then find the next X.
-            Do
-                m_rnFind.EntireColumn.Hidden = False
-                Set m_rnFind = .FindNext(m_rnFind)
-            Loop While Not m_rnFind Is Nothing And m_rnFind.Address <> m_stAddress
-        End If
-    End With
-
-End Sub
-```
-
-
+<!-- is this section relevant? Or do I need to add my bio as well?
 ### About the contributor
 
 Dennis Wallentin is the author of VSTO & .NET & Excel, a blog that focuses on .NET Framework solutions for Excel and Excel Services. Dennis has been developing Excel solutions for over 20 years and is also the coauthor of "Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA and .NET (2nd Edition)." 
-
+-->
 
 ## See also
 
