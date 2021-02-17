@@ -19,14 +19,14 @@ Saves the specified template.
 
 ## Syntax
 
-_expression_. `Save`
+_expression_.**Save**
 
 _expression_ Required. A variable that represents a '[Template](Word.Template.md)' object.
 
 
 ## Remarks
 
-If the template has not been saved before, the  **Save As** dialog box prompts the user for a file name.
+If the template has not been saved before, the **Save As** dialog box prompts the user for a file name.
 
 
 ## See also

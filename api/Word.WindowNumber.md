@@ -19,14 +19,14 @@ Returns the window number of the document displayed in the specified window. For
 
 ## Syntax
 
-_expression_. `WindowNumber`
+_expression_.**WindowNumber**
 
- _expression_ An expression that returns a '[Window](Word.Window.md)' object.
+ _expression_ An expression that returns a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-Use the property to return the number of the specified window in the  **[Windows](Word.windows.md)** collection.
+Use the property to return the number of the specified window in the **[Windows](Word.windows.md)** collection.
 
 
 ## Example

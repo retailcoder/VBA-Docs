@@ -21,12 +21,12 @@ Returns a  **Long** indicating the key length of the algorithm Microsoft Word us
 
 _expression_. `PasswordEncryptionKeyLength`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify the key length Word uses when encrypting documents with passwords.
+Use the **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify the key length Word uses when encrypting documents with passwords.
 
 
 ## Example

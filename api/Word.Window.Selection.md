@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Window.Selection property (Word)
 
-Returns the  **Selection** object that represents a selected range or the insertion point. Read-only.
+Returns the **Selection** object that represents a selected range or the insertion point. Read-only.
 
 
 ## Syntax
 
 _expression_.**Selection**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example

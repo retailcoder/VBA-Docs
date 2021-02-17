@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # UserDefinedProperty.DisplayFormat property (Outlook)
 
-Returns a  **Long** value that represents the display format for the **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object. Read-only.
+Returns a **Long** value that represents the display format for the **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `DisplayFormat`
+_expression_.**DisplayFormat**
 
 _expression_ A variable that represents a [UserDefinedProperty](Outlook.UserDefinedProperty.md) object.
 

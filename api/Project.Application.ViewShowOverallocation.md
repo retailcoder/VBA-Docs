@@ -21,7 +21,7 @@ Displays overallocation information in the active Resource Graph view.
 
 _expression_. `ViewShowOverallocation`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `ViewShowOverallocation`
 
 ## Remarks
 
-The  **ViewShowOverallocation** method has no effect unless the active window contains the Resource Graph view.
+The **ViewShowOverallocation** method has no effect unless the active window contains the Resource Graph view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

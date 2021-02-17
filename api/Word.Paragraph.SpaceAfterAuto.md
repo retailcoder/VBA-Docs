@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SpaceAfterAuto`
 
- _expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
+_expression_ A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 
 
 ## Remarks
@@ -33,7 +33,7 @@ If  **SpaceAfterAuto** is set to **True**, the **SpaceAfter** property is ignore
 
 ## Example
 
-This example displays a report showing the  **SpaceAfterAuto** settings for the first paragraph in the active document.
+This example displays a report showing the **SpaceAfterAuto** settings for the first paragraph in the active document.
 
 
 ```vb

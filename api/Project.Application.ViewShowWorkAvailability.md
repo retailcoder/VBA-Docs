@@ -21,7 +21,7 @@ Displays work availability information in the active Resource Graph view.
 
 _expression_. `ViewShowWorkAvailability`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `ViewShowWorkAvailability`
 
 ## Remarks
 
-The  **ViewShowWorkAvailability** method has no effect unless the active window contains the Resource Graph view. The **ViewShowWorkAvailability** method is not available for material resources and returns a trappable error (error code 1100) when applied to material resources.
+The **ViewShowWorkAvailability** method has no effect unless the active window contains the Resource Graph view. The **ViewShowWorkAvailability** method is not available for material resources and returns a trappable error (error code 1100) when applied to material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

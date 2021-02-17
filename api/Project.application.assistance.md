@@ -14,19 +14,19 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Assistance`
+_expression_.**Assistance**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-For more information, see the  **IAssistance** object in the Microsoft Office Visual Basic Reference.
+For more information, see the **IAssistance** object in the Microsoft Office Visual Basic Reference.
 
 
 ## Example
 
-The following example displays the top-level page of the  **Project Help** window.
+The following example displays the top-level page of the **Project Help** window.
 
 
 ```vb

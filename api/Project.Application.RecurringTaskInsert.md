@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.RecurringTaskInsert method (Project)
 
-Displays the  **Recurring Task Information** dialog box, which prompts the user to insert a recurring task.
+Displays the **Recurring Task Information** dialog box, which prompts the user to insert a recurring task.
 
 
 ## Syntax
 
 _expression_. `RecurringTaskInsert`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

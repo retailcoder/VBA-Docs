@@ -21,17 +21,17 @@ Returns or sets the distance (in points) between the right edge of the page and 
 
 _expression_.**RightMargin**
 
- _expression_ A variable that represents a '[PageSetup](Word.PageSetup.md)' object.
+_expression_ A variable that represents a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
-If the  **[MirrorMargins](Word.PageSetup.MirrorMargins.md)** property is set to **True**, the **RightMargin** property controls the setting for outside margins and the **[LeftMargin](Word.PageSetup.LeftMargin.md)** property controls the setting for inside margins.
+If the **[MirrorMargins](Word.PageSetup.MirrorMargins.md)** property is set to **True**, the **RightMargin** property controls the setting for outside margins and the **[LeftMargin](Word.PageSetup.LeftMargin.md)** property controls the setting for inside margins.
 
 
 ## Example
 
-This example displays the right margin setting for the active document. The  **[PointsToInches](Word.Global.PointsToInches.md)** method is used to convert the result to inches.
+This example displays the right margin setting for the active document. The **[PointsToInches](Word.Global.PointsToInches.md)** method is used to convert the result to inches.
 
 
 ```vb
@@ -41,7 +41,7 @@ With ActiveDocument.PageSetup
 End With
 ```
 
-This example sets the right margin for section two in the selection. The  **[InchesToPoints](Word.Application.InchesToPoints.md)** method is used to convert inches to points.
+This example sets the right margin for section two in the selection. The **[InchesToPoints](Word.Application.InchesToPoints.md)** method is used to convert inches to points.
 
 
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextFrame2.ThreeD property (PowerPoint)
 
-Returns a  **[ThreeDFormat](PowerPoint.ThreeDFormat.md)** object that represents the three-dimensional formatting of the parent shape. Read-only.
+Returns a **[ThreeDFormat](PowerPoint.ThreeDFormat.md)** object that represents the three-dimensional formatting of the parent shape. Read-only.
 
 
 ## Syntax
 
 _expression_.**ThreeD**
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value

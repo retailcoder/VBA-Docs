@@ -11,17 +11,17 @@ localization_priority: Normal
 
 # DataRecordsets.ObjectType property (Visio)
 
-Returns  **visObjTypeDataRecordsets**, the type of a **DataRecordsets** object. Read-only.
+Returns **visObjTypeDataRecordsets**, the type of a **DataRecordsets** object. Read-only.
 
-
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-_expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ An expression that returns a [DataRecordsets](./Visio.DataRecordsets.md) object.
+_expression_ An expression that returns a **[DataRecordsets](Visio.DataRecordsets.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ Integer
 
 ## Remarks
 
-Constants representing object types are prefixed with  **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
+Constants representing object types are prefixed with **visObjType** and are declared by the Visio type library in **[VisObjectTypes](Visio.VisObjectTypes.md)**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

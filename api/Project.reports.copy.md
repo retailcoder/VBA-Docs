@@ -14,7 +14,7 @@ Copies a custom report and creates a new report with the same content.
 
 _expression_.**Copy** (_Source_, _NewName_)
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Parameters
@@ -37,7 +37,7 @@ The new report.
 
 ## Example
 
-The  **CopyAReport** macro checks whether the specified report to copy exists, and checks whether the new report already exists. The macro then uses one of the variants of the _Source_ parameter to create a copy of the report, and then displays the new report.
+The **CopyAReport** macro checks whether the specified report to copy exists, and checks whether the new report already exists. The macro then uses one of the variants of the _Source_ parameter to create a copy of the report, and then displays the new report.
 
 
 ```vb

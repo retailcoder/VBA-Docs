@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Adjustments property (Project)
-Gets an  **[Adjustments](https://msdn.microsoft.com/library/office/ff838852%28v=office.15%29)** object that contains adjustment values for all the adjustments in the shape. Applies to any **Shape** object that represents an AutoShape, WordArt, or a connector. Read-only **Adjustments**.
+Gets an **[Adjustments](https://msdn.microsoft.com/library/office/ff838852%28v=office.15%29)** object that contains adjustment values for all the adjustments in the shape. Applies to any **Shape** object that represents an AutoShape, WordArt, or a connector. Read-only **Adjustments**.
 
 ## Syntax
 
-_expression_. `Adjustments`
+_expression_.**Adjustments**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

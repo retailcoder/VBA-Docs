@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_.**Visible**
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-FSome methods and properties may be unavailable if the  **Visible** property is **False**.
+FSome methods and properties may be unavailable if the **Visible** property is **False**.
 
 
 ## Example

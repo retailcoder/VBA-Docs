@@ -19,9 +19,9 @@ Returns the row index of a cell. Read-only.
 
 ## Syntax
 
-_expression_. `Row`
+_expression_.**Row**
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
 ## Return value

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.Tags property (PowerPoint)
 
-Returns a  **[Tags](PowerPoint.Tags.md)** object that represents the tags for the specified object. Read-only.
+Returns a **[Tags](PowerPoint.Tags.md)** object that represents the tags for the specified object. Read-only.
 
 
 ## Syntax
 
 _expression_. `Tags`
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -32,7 +32,8 @@ Tags
 ## Example
 
 
- **Note**  Tag values are added and stored in uppercase text. You should perform tests on tag values using uppercase text, as shown in the second example.
+> [!NOTE] 
+> Tag values are added and stored in uppercase text. You should perform tests on tag values using uppercase text, as shown in the second example.
 
 This example adds a tag named "REGION" and a tag named "PRIORITY" to slide one in the active presentation.
 

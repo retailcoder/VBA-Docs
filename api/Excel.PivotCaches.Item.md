@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.PivotCaches.Item
 ms.assetid: 80a830fb-a1bf-f1dd-962c-339d99b6f80d
-ms.date: 06/08/2017
+ms.date: 05/03/2019
 localization_priority: Normal
 ---
 
@@ -21,12 +21,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [PivotCaches](Excel.PivotCaches.md) object.
+_expression_ A variable that represents a **[PivotCaches](Excel.PivotCaches.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,22 +32,17 @@ _expression_ A variable that represents a [PivotCaches](Excel.PivotCaches.md) ob
 
 ## Return value
 
-A  **[PivotCache](Excel.PivotCache.md)** object contained by the collection.
+A **[PivotCache](Excel.PivotCache.md)** object contained by the collection.
 
 
 ## Example
 
 This example refreshes cache one.
 
-
 ```vb
 ActiveWorkbook.PivotCaches.Item(1).Refresh
 ```
 
 
-## See also
-
-
-[PivotCaches Object](Excel.PivotCaches.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

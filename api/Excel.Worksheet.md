@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Worksheet
 ms.assetid: 182b705e-854a-81cc-a4b0-59b942de55ae
-ms.date: 04/03/2019
+ms.date: 05/15/2019
 localization_priority: Normal
 ---
 
@@ -78,7 +78,7 @@ Private Sub Worksheet_BeforeDoubleClick(ByVal Target As Range, Cancel As Boolean
    Cancel = True
    
    'Set the path to the files, the path to Notepad, the file extension of the files, and the names of the files,
-   'based on the information in the worksheet.
+   'based on the information on the worksheet.
    sPath = Range("D1").Value
    sExe = Range("D2").Value
    sSfx = Range("D3").Value
@@ -90,14 +90,14 @@ Private Sub Worksheet_BeforeDoubleClick(ByVal Target As Range, Cancel As Boolean
    'Go through each file in the list (separated by commas) and
    'create the path, call the executable, and move on to the next comma.
    Do While InStr(sFile, ",")
-      sTxt = sPath &amp; "\" &amp; Left(sFile, InStr(sFile, ",") - 1) &amp; "." &amp; sSfx
-      If Dir(sTxt) <> "" Then Shell sExe &amp; " " &amp; sTxt, vbNormalFocus
+      sTxt = sPath & "\" & Left(sFile, InStr(sFile, ",") - 1) & "." & sSfx
+      If Dir(sTxt) <> "" Then Shell sExe & " " & sTxt, vbNormalFocus
       sFile = Right(sFile, Len(sFile) - InStr(sFile, ","))
    Loop
    
    'Finish off the last file name in the list
-   sTxt = sPath &amp; "\" &amp; sFile &amp; "." &amp; sSfx
-   If Dir(sTxt) <> "" Then Shell sExe &amp; " " &amp; sTxt, vbNormalNoFocus
+   sTxt = sPath & "\" & sFile & "." & sSfx
+   If Dir(sTxt) <> "" Then Shell sExe & " " & sTxt, vbNormalNoFocus
 End Sub
 ```
 
@@ -165,6 +165,7 @@ End Sub
 - [CodeName](Excel.Worksheet.CodeName.md)
 - [Columns](Excel.Worksheet.Columns.md)
 - [Comments](Excel.Worksheet.Comments.md)
+- [CommentsThreaded](Excel.Worksheet.CommentsThreaded.md)
 - [ConsolidationFunction](Excel.Worksheet.ConsolidationFunction.md)
 - [ConsolidationOptions](Excel.Worksheet.ConsolidationOptions.md)
 - [ConsolidationSources](Excel.Worksheet.ConsolidationSources.md)

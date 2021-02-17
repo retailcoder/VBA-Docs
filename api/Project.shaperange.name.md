@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # ShapeRange.Name property (Project)
-Gets or sets the name of the shape range. Read-write  **String**.
+Gets or sets the name of the shape range. Read/write  **String**.
 
 ## Syntax
 
 _expression_.**Name**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

@@ -19,14 +19,12 @@ Returns a single text style from the specified  **[TextStyles](PowerPoint.TextSt
 
 ## Syntax
 
-_expression_. `Item`( `_Type_` )
+_expression_.**Item** (_Type_)
 
- _expression_ A variable that represents a [TextStyles](./PowerPoint.TextStyles.md) object.
+_expression_ A variable that represents a [TextStyles](PowerPoint.TextStyles.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,7 +37,7 @@ TextStyle
 
 ## Remarks
 
-The  **Item** method is the default member for a collection. For example, the following two lines of code are equivalent:
+The **Item** method is the default member for a collection. For example, the following two lines of code are equivalent:
 
  `ActivePresentation.Slides.Item(1)`
 

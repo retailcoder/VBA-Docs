@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.LoadWebPage event (Project)
 
-Occurs after the  **LoadWebBrowserControl** method is called. The method loads the Web browser control inside Project, and then the event is fired.
+Occurs after the **LoadWebBrowserControl** method is called. The method loads the web browser control inside Project, and then the event is fired.
 
 
 ## Syntax
 
 _expression_. `LoadWebPage`( `_Window_`, `_TargetPage_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ _expression_. `LoadWebPage`( `_Window_`, `_TargetPage_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

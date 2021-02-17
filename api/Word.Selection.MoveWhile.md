@@ -21,7 +21,7 @@ Moves the specified selection while any of the specified characters are found in
 
 _expression_. `MoveWhile`( `_Cset_` , `_Count_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,8 +30,8 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Cset_|Required| **Variant**|One or more characters. This argument is case sensitive.|
-| _Count_|Optional| **Variant**|The maximum number of characters by which the specified selection is to be moved. Can be a number or either the  **wdForward** or **wdBackward** constant. If Count is a positive number, the specified selection is moved forward in the document, beginning at the end position. If it is a negative number, the selection is moved backward, beginning at the start position. The default value is **wdForward**.|
+| _Cset_|Required| **Variant**|One or more characters. This argument is case-sensitive.|
+| _Count_|Optional| **Variant**|The maximum number of characters by which the specified selection is to be moved. Can be a number or either the **wdForward** or **wdBackward** constant. If Count is a positive number, the specified selection is moved forward in the document, beginning at the end position. If it is a negative number, the selection is moved backward, beginning at the start position. The default value is **wdForward**.|
 
 ## Remarks
 

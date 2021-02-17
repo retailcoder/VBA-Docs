@@ -21,20 +21,21 @@ localization_priority: Normal
 
 _expression_. `UserControl`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-The  **UserControl** property returns **False** if the application was created or opened programmatically from another Microsoft Office application with the **Open** method or the **CreateObject** or **GetObject** method.
+The **UserControl** property returns **False** if the application was created or opened programmatically from another Microsoft Office application with the **Open** method or the **CreateObject** or **GetObject** method.
 
 
- **Note**  If Word is visible to the user, or if you call the  **UserControl** property of an **Application** object from within a code module, this property will always return **True**.
+> [!NOTE] 
+> If Word is visible to the user, or if you call the **UserControl** property of an **Application** object from within a code module, this property will always return **True**.
 
 
 ## Example
 
-This example displays the status of the  **UserControl** property for the active document. This example will only work correctly when run from another Office application with the Word object library loaded.
+This example displays the status of the **UserControl** property for the active document. This example will only work correctly when run from another Office application with the Word object library loaded.
 
 
 ```vb

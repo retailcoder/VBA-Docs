@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.OMathAutoCorrect property (Word)
 
-Returns an  **OMathAutoCorrect** object that represents the auto correct entries for equations. Read-only.
+Returns an **OMathAutoCorrect** object that represents the auto correct entries for equations. Read-only.
 
 
 ## Syntax
 
 _expression_. `OMathAutoCorrect`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Return value

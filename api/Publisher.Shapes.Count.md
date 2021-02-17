@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Shapes.Count
 ms.assetid: 43052c93-461c-ca6a-3c8c-7142bd6d9ea1
-ms.date: 06/08/2017
+ms.date: 06/14/2019
 localization_priority: Normal
 ---
 
 
 # Shapes.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a  **Shapes** object.
+_expression_ A variable that represents a **[Shapes](Publisher.Shapes.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +35,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

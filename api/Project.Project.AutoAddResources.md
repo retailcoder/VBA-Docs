@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `AutoAddResources`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The following example prompts the user to set the  **AutoAddResources**, **AutoCalculate**, **AutoLinkTasks**, **AutoSplitTasks**, and **AutoTrack** properties.
+The following example prompts the user to set the **AutoAddResources**, **AutoCalculate**, **AutoLinkTasks**, **AutoSplitTasks**, and **AutoTrack** properties.
 
 
 ```vb

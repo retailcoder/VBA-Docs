@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `Use3DLook`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **Use3DLook** property has no effect in Project. The default value is **False**, and cannot be set to **True**.
+The **Use3DLook** property has no effect in Project. The default value is **False**, and cannot be set to **True**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

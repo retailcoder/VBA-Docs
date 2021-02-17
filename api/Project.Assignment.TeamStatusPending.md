@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `TeamStatusPending`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-To see whether the team member for the assignment has responded to an Update Progress request, add the  **TeamStatusPending** field to the **Task Usage** or **Resource Usage** view.
+To see whether the team member for the assignment has responded to an Update Progress request, add the **TeamStatusPending** field to the **Task Usage** or **Resource Usage** view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

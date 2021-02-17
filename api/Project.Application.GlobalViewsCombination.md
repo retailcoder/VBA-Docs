@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.GlobalViewsCombination property (Project)
 
-Gets or sets a  **[ViewsCombination](Project.ViewCombination.md)** collection representing the combination views of the Global.mpt file. Read/write **ViewsCombination**.
+Gets or sets a **[ViewsCombination](Project.ViewCombination.md)** collection representing the combination views of the Global.mpt file. Read/write **ViewsCombination**.
 
 
 ## Syntax
 
 _expression_. `GlobalViewsCombination`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks

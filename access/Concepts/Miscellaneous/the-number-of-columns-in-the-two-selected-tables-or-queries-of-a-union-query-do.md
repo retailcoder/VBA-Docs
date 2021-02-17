@@ -18,8 +18,8 @@ localization_priority: Normal
 
 The two tables or queries joined by the UNION operation must generate the same number of columns. Remove columns from the SELECT statement that has too many columns or include more columns in the SELECT statement that has too few.
 
-
- **Note**  You can include constants instead of columns in the SELECT statement that has too few columns. For example, the following union query generates three columns from the first SELECT statement but one column and two constants in the second SELECT statement. The query returns all countries in the Employees and Regions tables. From the Employees table, the query also returns the first and last name of an employee. If the country value is from the Regions table, however, the query returns Null in the First Name and Last Name columns.
+> [!NOTE] 
+> You can include constants instead of columns in the SELECT statement that has too few columns. For example, the following union query generates three columns from the first SELECT statement but one column and two constants in the second SELECT statement. The query returns all countries in the Employees and Regions tables. From the Employees table, the query also returns the first and last name of an employee. If the country value is from the Regions table, however, the query returns Null in the First Name and Last Name columns.
 
 
 
@@ -34,8 +34,8 @@ UNION SELECT Country, NULL, NULL FROM Regions;
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

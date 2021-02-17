@@ -21,12 +21,12 @@ Converts the specified shape in the drawing layer of a document to an inline sha
 
 _expression_. `ConvertToInlineShape`
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-Shapes that support attached text cannot be converted to inline shapes. For these shapes, use the  **ConvertToFrame** method.
+Shapes that support attached text cannot be converted to inline shapes. For these shapes, use the **ConvertToFrame** method.
 
 
 

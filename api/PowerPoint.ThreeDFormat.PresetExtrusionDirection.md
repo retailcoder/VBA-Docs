@@ -21,7 +21,7 @@ Returns the direction that the extrusion's sweep path takes away from the extrud
 
 _expression_. `PresetExtrusionDirection`
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -51,7 +51,7 @@ The value of the  **PresetExtrusionDirection** property can be one of these **Ms
 
 ## Example
 
-This example changes each extrusion on  _myDocument_ that extends toward the upper-left corner of the extrusion's front face to an extrusion that extends toward the lower-right corner of the front face.
+This example changes each extrusion on _myDocument_ that extends toward the upper-left corner of the extrusion's front face to an extrusion that extends toward the lower-right corner of the front face.
 
 
 ```vb

@@ -21,7 +21,7 @@ Starts the Visual Basic Editor.
 
 _expression_. `MacroShowVba`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `MacroShowVba`
 
 ## Remarks
 
-The  **MacroShowVba** method has the same effect as pressing the **Alt** and **F11** keys.
+The **MacroShowVba** method has the same effect as pressing the **Alt** and **F11** keys.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -5,7 +5,7 @@ f1_keywords:
 - vbapb10.chm5374020
 ms.prod: publisher
 ms.assetid: 72fb3acb-e405-a03a-1e12-88b775551f7f
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -19,17 +19,13 @@ Returns a **[GlowFormat](Publisher.glowformat.md)** object that represents the g
 
 _expression_.**Glow**
 
- _expression_ A variable that represents a  **Font** object.
+_expression_ A variable that represents a **[Font](Publisher.Font.md)** object.
 
 
 ## Return value
 
- **GLOWFORMAT**
+GlowFormat
 
 
-## See also
-
-
- [Font Object](Publisher.Font.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

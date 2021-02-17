@@ -11,12 +11,12 @@ localization_priority: Normal
 
 # MailItem.Open event (Outlook)
 
-Occurs when an instance of the parent object is being opened in an  **[Inspector](Outlook.Inspector.md)**.
+Occurs when an instance of the parent object is being opened in an **[Inspector](Outlook.Inspector.md)**.
 
 
 ## Syntax
 
-_expression_. `Open`( `_Cancel_` )
+_expression_.**Open** (_Cancel_)
 
 _expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 

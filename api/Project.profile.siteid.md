@@ -14,12 +14,12 @@ Gets the GUID of the Project Web App instance for the active profile. Read-only 
 
 _expression_. `SiteId`
 
- _expression_ A variable that represents a [Profile](./Project.Profile.md) object.
+_expression_ A variable that represents a [Profile](./Project.Profile.md) object.
 
 
 ## Remarks
 
-If the active profile is for the local computer, the  **SiteId** property is an empty string.
+If the active profile is for the local computer, the **SiteId** property is an empty string.
 
 
 ## Example

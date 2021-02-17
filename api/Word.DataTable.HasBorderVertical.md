@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `HasBorderVertical`
+_expression_.**HasBorderVertical**
 
- _expression_ A variable that represents a '[DataTable](Word.DataTable.md)' object.
+_expression_ A variable that represents a '[DataTable](Word.DataTable.md)' object.
 
 
 ## Example

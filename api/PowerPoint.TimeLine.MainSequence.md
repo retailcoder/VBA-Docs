@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TimeLine.MainSequence property (PowerPoint)
 
-Returns a  **[Sequence](PowerPoint.Sequence.md)** object that represents the collection of **[Effect](PowerPoint.Effect.md)** objects in the main animation sequence of a slide.
+Returns a **[Sequence](PowerPoint.Sequence.md)** object that represents the collection of **[Effect](PowerPoint.Effect.md)** objects in the main animation sequence of a slide.
 
 
 ## Syntax
 
 _expression_. `MainSequence`
 
- _expression_ A variable that represents a [TimeLine](./PowerPoint.TimeLine.md) object.
+_expression_ A variable that represents a [TimeLine](PowerPoint.TimeLine.md) object.
 
 
 ## Return value

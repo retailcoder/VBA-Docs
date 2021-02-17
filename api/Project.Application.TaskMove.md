@@ -21,7 +21,7 @@ Moves the start date of one or more selected tasks the specified number of days.
 
 _expression_. `TaskMove`( `_MoveForward_`, `_IsWorkingDuration_`, `_MoveDays_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,9 +41,9 @@ _expression_. `TaskMove`( `_MoveForward_`, `_IsWorkingDuration_`, `_MoveDays_` )
 
 ## Remarks
 
-The  **TaskMove** method does not override a predecessor task constraint for automatically scheduled tasks.
+The **TaskMove** method does not override a predecessor task constraint for automatically scheduled tasks.
 
-The  **TaskMove** method corresponds to various commands in the **Move Task** drop-down menu on the **TASK** ribbon. To move incomplete or complete parts of a task to the status date, use the **[TaskMoveToStatusDate](Project.Application.TaskMoveToStatusDate.md)** method.
+The **TaskMove** method corresponds to various commands in the **Move Task** drop-down menu on the **TASK** ribbon. To move incomplete or complete parts of a task to the status date, use the **[TaskMoveToStatusDate](Project.Application.TaskMoveToStatusDate.md)** method.
 
 
 ## Example

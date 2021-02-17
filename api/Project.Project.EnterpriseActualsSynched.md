@@ -21,11 +21,11 @@ localization_priority: Normal
 
 _expression_. `EnterpriseActualsSynched`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **EnterpriseActualsSynched** property is available only in Project Professional.
+The **EnterpriseActualsSynched** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

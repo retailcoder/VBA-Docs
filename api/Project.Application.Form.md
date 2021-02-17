@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Form method (Project)
 
-Displays a custom form. The  **Form** method produces an error if a resource form is specified when the active view is a task view, and vice versa.
+Displays a custom form. The **Form** method produces an error if a resource form is specified when the active view is a task view, and vice versa.
 
 
 ## Syntax
 
 _expression_. `Form`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

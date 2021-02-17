@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Range.CopyAsPicture method (Word)
 
-The  **CopyAsPicture** method works the same way as the **Copy** method.
+The **CopyAsPicture** method works the same way as the **Copy** method.
 
 
 ## Syntax
 
 _expression_. `CopyAsPicture`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

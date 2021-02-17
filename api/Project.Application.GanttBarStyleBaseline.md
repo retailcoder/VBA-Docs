@@ -21,7 +21,7 @@ Shows or hides the specified baseline on Gantt bars of the active view.
 
 _expression_. `GanttBarStyleBaseline`( `_Baseline_`, `_Show_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,7 @@ _expression_. `GanttBarStyleBaseline`( `_Baseline_`, `_Show_` )
 
 ## Remarks
 
-On the Ribbon, the  **GanttBarStyleBaseline** method corresponds to the **Baseline** drop-down list in the **Bar Styles** group on the **Format** tab for **Gantt Chart Tools**.
+On the Ribbon, the **GanttBarStyleBaseline** method corresponds to the **Baseline** drop-down list in the **Bar Styles** group on the **Format** tab for **Gantt Chart Tools**.
 
 
 ## Example

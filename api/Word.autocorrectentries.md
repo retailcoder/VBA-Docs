@@ -14,14 +14,14 @@ A collection of  **AutoCorrectEntry** objects that represent all the AutoCorrect
 
 ## Remarks
 
-Use the  **[Entries](Word.AutoCorrect.Entries.md)** property to return the **AutoCorrectEntries** collection. The following example displays the number of **[AutoCorrectEntry](Word.AutoCorrectEntry.md)** objects in the **AutoCorrectEntries** collection.
+Use the **[Entries](Word.AutoCorrect.Entries.md)** property to return the **AutoCorrectEntries** collection. The following example displays the number of **[AutoCorrectEntry](Word.AutoCorrectEntry.md)** objects in the **AutoCorrectEntries** collection.
 
 
 ```vb
 MsgBox AutoCorrect.Entries.Count
 ```
 
-Use the  **[Add](Word.AutoCorrectEntries.Add.md)** or **[AddRichText](Word.AutoCorrectEntries.AddRichText.md)** method to add an AutoCorrect entry to the list of available entries. The following example adds a plain-text AutoCorrect entry for the misspelling of the word "their."
+Use the **[Add](Word.AutoCorrectEntries.Add.md)** or **[AddRichText](Word.AutoCorrectEntries.AddRichText.md)** method to add an AutoCorrect entry to the list of available entries. The following example adds a plain-text AutoCorrect entry for the misspelling of the word "their."
 
 
 
@@ -58,10 +58,21 @@ MsgBox "Name = " & AutoCorrect.Entries(1).Name & vbCr & _
  "Value " & AutoCorrect.Entries(1).Value
 ```
 
+## Methods
+
+- [Add](Word.AutoCorrectEntries.Add.md)
+- [AddRichText](Word.AutoCorrectEntries.AddRichText.md)
+- [Item](Word.AutoCorrectEntries.Item.md)
+
+## Properties
+
+- [Application](Word.AutoCorrectEntries.Application.md)
+- [Count](Word.AutoCorrectEntries.Count.md)
+- [Creator](Word.AutoCorrectEntries.Creator.md)
+- [Parent](Word.AutoCorrectEntries.Parent.md)
 
 ## See also
 
-
-[Word Object Model Reference](overview/Word/object-model.md)
+- [Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

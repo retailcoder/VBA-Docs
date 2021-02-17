@@ -19,7 +19,7 @@ Returns a  **SignatureSet** collection that represents the digital signatures fo
 
 ## Syntax
 
-_expression_. `Signatures`
+_expression_.**Signatures**
 
  _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
@@ -31,7 +31,7 @@ To digitally sign Microsoft Word documents and verify other signatures in them, 
 
 ## Example
 
-This example displays the  **Signatures** dialog box with which you can add a digital signature to a document.
+This example displays the **Signatures** dialog box with which you can add a digital signature to a document.
 
 
 ```vb

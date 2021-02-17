@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.LayoutGuides.MarginLeft
 ms.assetid: 02d1a544-3e41-3875-3027-61bdc465e89b
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
 
 # LayoutGuides.MarginLeft property (Publisher)
 
-Returns or sets a  **Variant** that represents the amount of space (in points) between the text and the left edge of a cell, text frame, or page. Read/write.
+Returns or sets a **Variant** that represents the amount of space (in [points](../language/glossary/vbe-glossary.md#point)) between the text and the left edge of a cell, text frame, or page. Read/write.
 
 
 ## Syntax
 
 _expression_.**MarginLeft**
 
- _expression_ A variable that represents a  **LayoutGuides** object.
+_expression_ A variable that represents a **[LayoutGuides](Publisher.LayoutGuides.md)** object.
 
 
 ## Example
 
 This example sets the margins of the active publication to two inches.
-
 
 ```vb
 Sub SetPageMargins() 

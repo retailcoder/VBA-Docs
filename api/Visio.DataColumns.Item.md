@@ -14,26 +14,25 @@ localization_priority: Normal
 
 # DataColumns.Item property (Visio)
 
-Returns the  **DataColumn** object at the specified index position, or of the specified name, in the **DataColumns** collection. Read-only.
+Returns the **DataColumn** object at the specified index position, or of the specified name, in the **DataColumns** collection. Read-only.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-_expression_. `Item`( `_IndexOrName_` )
+_expression_.**Item** (_IndexOrName_)
 
- _expression_ A variable that represents a [DataColumns](./Visio.DataColumns.md) object.
+_expression_ A variable that represents a **[DataColumns](Visio.DataColumns.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _IndexOrName_|Required| **Variant**|The index (as a  **Long**) or the name (as a **String**) of the data column to retrieve.|
+| _IndexOrName_|Required| **Variant**|The index (as a **Long**) or the name (as a **String**) of the data column to retrieve.|
 
 ## Return value
 
@@ -44,7 +43,7 @@ DataColumn
 
  **Item** is the default property of the **DataColumns** collection.
 
-When you retrieve objects from a collection, you can omit  **Item** from the expression because it is the default property of all collections. The following statements are equivalent to the syntax example given above:
+When you retrieve objects from a collection, you can omit **Item** from the expression because it is the default property of all collections. The following statements are equivalent to the syntax example given above:
 
 
 

@@ -14,29 +14,27 @@ localization_priority: Normal
 
 # Window.Split property (Word)
 
- **True** if the window is split into multiple panes. Read/write **Boolean**.
+**True** if the window is split into multiple panes. Read/write **Boolean**.
 
 
 ## Syntax
 
-_expression_. `Split`
+_expression_.**Split**
 
-_expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example
 
 This example splits the active window into two equal-sized window panes.
 
-
 ```vb
 ActiveDocument.ActiveWindow.Split = True
 ```
 
+<br/>
+
 If the Document1 window is split, this example closes the active pane.
-
-
-
 
 ```vb
 If Windows("Document1").Split = True Then 
@@ -45,9 +43,5 @@ End If
 ```
 
 
-## See also
-
-
-[Window Object](Word.Window.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

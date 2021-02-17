@@ -18,13 +18,13 @@ Gets or sets the distance of the Project application window from the top edge of
 
 _expression_.**Top**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
 The position of the Project application window is measured from the top of the main screen.
 
-For the distance of the active window from the top of the window display area within the Project application window, see the  **[Top](Project.Window.Top.md)** property of the **Window** object.
+For the distance of the active window from the top of the window display area within the Project application window, see the **[Top](Project.Window.Top.md)** property of the **Window** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,22 +14,21 @@ localization_priority: Normal
 
 # DataRecordsets.DataRecordsetAdded event (Visio)
 
-Occurs when a  **DataRecordset** object is added to a **DataRecordsets** collection.
+Occurs when a **DataRecordset** object is added to a **DataRecordsets** collection.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-Private Sub  _expression_ _'DataRecordsetAdded'(**_ByVal DataRecordset As [IVDATARECORDSET]_**)
+_expression_.**DataRecordsetAdded** (_DataRecordset_)
 
- _expression_ An expression that returns a [DataRecordsets](./Visio.DataRecordsets.md) object.
+_expression_ An expression that returns a **[DataRecordsets](Visio.DataRecordsets.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,6 +38,12 @@ Private Sub  _expression_ _'DataRecordsetAdded'(**_ByVal DataRecordset As [IVDAT
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

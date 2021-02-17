@@ -21,7 +21,7 @@ The name of the presentation includes the file name extension (for file types th
 
 _expression_.**Name**
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ String
 
 ## Remarks
 
-You can use the object's name in conjunction with the  **Item** method to return a reference to the object if the **Item** method for the collection that contains the object takes a **Variant** argument. For example, if the value of the **Name** property for a shape is Rectangle 2, then `.Shapes("Rectangle 2")` will return a reference to that shape.
+You can use the object's name in conjunction with the  **Item** method to return a reference to the object if the **Item** method for the collection that contains the object takes a **Variant** argument. For example, if the value of the **Name** property for a shape is Rectangle 2, `.Shapes("Rectangle 2")` returns a reference to that shape.
 
 
 ## See also

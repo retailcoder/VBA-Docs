@@ -21,12 +21,12 @@ Returns or sets the heading style that marks a new chapter when chapter numbers 
 
 _expression_. `ChapterStyleLevel`
 
- _expression_ A variable that represents a '[CaptionLabel](Word.CaptionLabel.md)' object.
+_expression_ A variable that represents a '[CaptionLabel](Word.CaptionLabel.md)' object.
 
 
 ## Remarks
 
-The number 1 corresponds to Heading 1, 2 corresponds to Heading 2, and so on. The  **[IncludeChapterNumber](Word.CaptionLabel.IncludeChapterNumber.md)** property must be set to **True** for chapter numbers to be included with caption labels.
+The number 1 corresponds to Heading 1, 2 corresponds to Heading 2, and so on. The **[IncludeChapterNumber](Word.CaptionLabel.IncludeChapterNumber.md)** property must be set to **True** for chapter numbers to be included with caption labels.
 
 
 ## Example

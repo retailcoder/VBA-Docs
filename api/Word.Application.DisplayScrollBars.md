@@ -21,14 +21,14 @@ localization_priority: Normal
 
 _expression_. `DisplayScrollBars`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Setting the  **DisplayScrollBars** property to **True** displays horizontal and vertical scroll bars in all windows. Setting this property to **False** turns off all scroll bars in all windows.
+Setting the **DisplayScrollBars** property to **True** displays horizontal and vertical scroll bars in all windows. Setting this property to **False** turns off all scroll bars in all windows.
 
-Use the  **DisplayHorizontalScrollBar** and **DisplayVerticalScrollBar** properties to display individual scroll bars in the specified window.
+Use the **DisplayHorizontalScrollBar** and **DisplayVerticalScrollBar** properties to display individual scroll bars in the specified window.
 
 
 ## Example

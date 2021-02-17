@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.EditInsert method (Project)
 
-If a column is selected, brings up the  **Column Definition** dialog box. Otherwise, inserts a new row above the selected row or the row containing the active cell.
+If a column is selected, brings up the **Column Definition** dialog box. Otherwise, inserts a new row above the selected row or the row containing the active cell.
 
 
 ## Syntax
 
 _expression_. `EditInsert`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathBorderBox.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathBorderBox** object.
+Returns an **Object** that represents the parent object of the specified **OMathBorderBox** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathBorderBox](Word.OMathBorderBox.md)' object.
+_expression_ A variable that represents a '[OMathBorderBox](Word.OMathBorderBox.md)' object.
 
 
 ## See also

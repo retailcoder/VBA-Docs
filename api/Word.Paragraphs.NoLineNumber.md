@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `NoLineNumber`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-Use the  **[LineNumbering](Word.PageSetup.LineNumbering.md)** property of the **[PageSetup](Word.PageSetup.md)** object to set line numbers.
+Use the **[LineNumbering](Word.PageSetup.LineNumbering.md)** property of the **[PageSetup](Word.PageSetup.md)** object to set line numbers.
 
 
 ## Example

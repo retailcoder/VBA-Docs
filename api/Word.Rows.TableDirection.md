@@ -21,12 +21,12 @@ Returns or sets the direction in which Microsoft Word orders cells in the specif
 
 _expression_. `TableDirection`
 
-_expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Remarks
 
-If the  **TableDirection** property is set to **wdTableDirectionLtr**, the selected rows are arranged with the first column in the leftmost position. If the **TableDirection** property is set to **wdTableDirectionRtl**, the selected rows are arranged with the first column in the rightmost position.
+If the **TableDirection** property is set to **wdTableDirectionLtr**, the selected rows are arranged with the first column in the leftmost position. If the **TableDirection** property is set to **wdTableDirectionRtl**, the selected rows are arranged with the first column in the rightmost position.
 
 
 ## Example

@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # LookupTableEntry.Parent property (Project)
 
-Gets the parent of the  **LookupTableEntry** object. Read-only **OutlineCode**.
+Gets the parent of the **LookupTableEntry** object. Read-only **OutlineCode**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
+_expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

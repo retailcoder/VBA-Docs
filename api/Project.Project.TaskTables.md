@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Project.TaskTables property (Project)
 
-Gets a  **[Tables](Project.Table.md)** collection representing the task tables in the project. Read-only **Tables**.
+Gets a **[Tables](Project.Table.md)** collection representing the task tables in the project. Read-only **Tables**.
 
 
 ## Syntax
 
 _expression_. `TaskTables`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

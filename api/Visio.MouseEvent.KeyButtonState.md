@@ -21,7 +21,7 @@ Returns the state of mouse buttons and the SHIFT and CTRL keys associated with a
 
 _expression_. `KeyButtonState`
 
- _expression_ A variable that represents a [MouseEvent](./Visio.MouseEvent.md) object.
+_expression_ A variable that represents a **[MouseEvent](Visio.MouseEvent.md)** object.
 
 
 ## Return value
@@ -35,7 +35,7 @@ Possible values for  **KeyButtonState** can be a combination of any of the value
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visKeyControl**|8|
 | **visKeyShift**|4|
@@ -74,7 +74,7 @@ Private Sub vsoWindow_MouseDown(ByVal Button As Long, ByVal KeyButtonState As Lo
 End Sub
 ```
 
-Then, insert the following code in the  **ThisDocument** project.
+Then, insert the following code in the  **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** project.
 
 
 

@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Assignments.Count property (Project)
 
-Gets the number of items in the  **Assignments** collection. Read-only **Long**.
+Gets the number of items in the **Assignments** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents an 'Assignments' object.
+_expression_ A variable that represents an 'Assignments' object.
 
 
 ## Example

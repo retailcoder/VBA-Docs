@@ -19,14 +19,14 @@ Returns or sets an array of x values for a chart series. Read/write  **Variant**
 
 ## Syntax
 
-_expression_. `XValues`
+_expression_.**XValues**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks
 
-You can set the  **XValues** property to a range on a worksheet or to an array of values, but not to a combination of both.
+You can set the **XValues** property to a range on a worksheet or to an array of values, but not to a combination of both.
 
 For PivotChart reports, this property is read-only.
 

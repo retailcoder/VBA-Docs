@@ -19,7 +19,7 @@ Represents the author of an email message.
 
 ## Remarks
 
-Use the  **[CurrentEmailAuthor](Word.Email.CurrentEmailAuthor.md)** property to return the **EmailAuthor** object. The **EmailAuthor** object and its properties are valid only if the active document is an unsent forward, reply, or new email message.
+Use the **[CurrentEmailAuthor](Word.Email.CurrentEmailAuthor.md)** property to return the **EmailAuthor** object. The **EmailAuthor** object and its properties are valid only if the active document is an unsent forward, reply, or new email message.
 
 This example returns the style associated with the current author for unsent replies, forwards, or new email messages, and displays the name of the font associated with this style.
 
@@ -33,7 +33,8 @@ Msgbox MyEmailStyle.Font.Name
 ```
 
 
- **Note**  There is no EmailAuthors collection; each  **Email** object contains only one **EmailAuthor** object.
+> [!NOTE] 
+> There is no EmailAuthors collection; each  **Email** object contains only one **EmailAuthor** object.
 
 
 ## See also

@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # ChartCategory.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **ChartCategory** object.
+Returns an **Object** that represents the parent object of the specified **ChartCategory** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'ChartCategory' object.
+_expression_ A variable that represents a 'ChartCategory' object.
 
 
 ## Property value

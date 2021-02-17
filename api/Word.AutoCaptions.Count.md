@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AutoCaptions.Count property (Word)
 
-Returns the number of items in the  **AutoCaptions** collection. Read-only **Long**.
+Returns the number of items in the **AutoCaptions** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[AutoCaptions](Word.autocaptions.md)' object.
+_expression_ A variable that represents a '[AutoCaptions](Word.autocaptions.md)' object.
 
 
 ## See also

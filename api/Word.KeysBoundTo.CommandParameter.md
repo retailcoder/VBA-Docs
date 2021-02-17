@@ -21,12 +21,12 @@ Returns the command parameter assigned to the specified shortcut key. Read-only 
 
 _expression_. `CommandParameter`
 
- _expression_ A variable that represents a '[KeysBoundTo](Word.keysboundto.md)' object.
+_expression_ A variable that represents a '[KeysBoundTo](Word.keysboundto.md)' object.
 
 
 ## Remarks
 
-For information about commands that take parameters, see the  **[Add](Word.KeyBindings.Add.md)** method. Use the **Command** property to return the command name assigned to the specified shortcut key.
+For information about commands that take parameters, see the **[Add](Word.KeyBindings.Add.md)** method. Use the **Command** property to return the command name assigned to the specified shortcut key.
 
 
 ## Example

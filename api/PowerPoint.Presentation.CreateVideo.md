@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.CreateVideo method (PowerPoint)
 
-Creates a video in a  **Presentation** object.
+Creates a video in a **Presentation** object.
 
 
 ## Syntax
 
 _expression_. `CreateVideo`( `_FileName_`, `_UseTimingsAndNarrations_`, `_DefaultSlideDuration_`, `_VertResolution_`, `_FramesPerSecond_`, `_Quality_` )
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters

@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Project.ResourceFilters property (Project)
 
-Gets a  **[Filters](Project.filters.md)** collection that contains the resource filters of the project. Read-only **Filters**.
+Gets a **[Filters](Project.filters.md)** collection that contains the resource filters of the project. Read-only **Filters**.
 
 
 ## Syntax
 
 _expression_. `ResourceFilters`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

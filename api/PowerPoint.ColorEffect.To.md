@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ColorEffect.To property (PowerPoint)
 
-Sets or returns a  **ColorFormat** object that represents the RGB color value of an animation behavior. Read/write.
+Sets or returns a **ColorFormat** object that represents the RGB color value of an animation behavior. Read/write.
 
 
 ## Syntax
 
 _expression_. `To`
 
-_expression_ A variable that represents a [ColorEffect](./PowerPoint.ColorEffect.md) object.
+_expression_ A variable that represents a [ColorEffect](PowerPoint.ColorEffect.md) object.
 
 
 ## Return value

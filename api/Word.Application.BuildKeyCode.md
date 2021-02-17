@@ -19,9 +19,9 @@ Returns a unique number for the specified key combination.
 
 ## Syntax
 
-_expression_. `BuildKeyCode`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` )
+_expression_. `BuildKeyCode` (_Arg1_, _Arg2_, _Arg3_, _Arg4_)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -30,8 +30,8 @@ _expression_. `BuildKeyCode`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Arg1_|Required| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
-| _Arg2 - Arg4_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
+| _Arg1_|Required| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
+| _Arg2 - Arg4_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
 
 ## Example
 

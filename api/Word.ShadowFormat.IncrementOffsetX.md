@@ -19,9 +19,9 @@ Changes the horizontal offset of the shadow by the specified number of points.
 
 ## Syntax
 
-_expression_. `IncrementOffsetX`( `_Increment_` )
+_expression_.**IncrementOffsetX** (_Increment_)
 
-_expression_ Required. A variable that represents a '[ShadowFormat](Word.ShadowFormat.md)' object.
+_expression_ Required. A variable that represents a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_ Required. A variable that represents a '[ShadowFormat](Word.ShadowF
 
 ## Remarks
 
-Use the  **[OffsetX](Word.ShadowFormat.OffsetX.md)** property to set the absolute horizontal shadow offset.
+Use the **[OffsetX](Word.ShadowFormat.OffsetX.md)** property to set the absolute horizontal shadow offset.
 
 
 ## Example

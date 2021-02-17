@@ -19,9 +19,9 @@ Quits Microsoft PowerPoint. This is equivalent to clicking the  **Office** butto
 
 ## Syntax
 
-_expression_. `Quit`
+_expression_.**Quit**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Remarks

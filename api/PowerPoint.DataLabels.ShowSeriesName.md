@@ -16,7 +16,7 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `ShowSeriesName`
+_expression_.**ShowSeriesName**
 
 _expression_ A variable that represents a '[DataLabels](PowerPoint.DataLabels.md)' object.
 
@@ -26,7 +26,8 @@ _expression_ A variable that represents a '[DataLabels](PowerPoint.DataLabels.md
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example enables the series name to be shown for the data labels of the first series on the first chart.
 

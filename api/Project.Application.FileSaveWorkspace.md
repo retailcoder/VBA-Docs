@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.FileSaveWorkspace method (Project)
 
-Saves a list of open files and the current settings in the  **Options** dialog box.
+Saves a list of open files and the current settings in the **Options** dialog box.
 
 
 ## Syntax
 
 _expression_. `FileSaveWorkspace`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

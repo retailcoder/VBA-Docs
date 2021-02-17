@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Assignment.Cost2 property (Project)
 
-Gets or sets the value of the  **Cost2** roll-down custom field for the assignment. Read/write **Variant**.
+Gets or sets the value of the **Cost2** roll-down custom field for the assignment. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Cost2`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

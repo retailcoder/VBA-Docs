@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Sequence.ConvertToBuildLevel method (PowerPoint)
 
-Changes the build level information for a specified animation effect. Returns an  **[Effect](PowerPoint.Effect.md)** object that represents the build level information.
+Changes the build level information for a specified animation effect. Returns an **[Effect](PowerPoint.Effect.md)** object that represents the build level information.
 
 
 ## Syntax
 
 _expression_. `ConvertToBuildLevel`( `_Effect_`, `_Level_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
 ## Parameters

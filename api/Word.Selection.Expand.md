@@ -21,7 +21,7 @@ Expands the specified range or selection. Returns the number of characters added
 
 _expression_. `Expand`( `_Unit_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Unit_|Optional| **Variant**|A  **[WdUnits](Word.WdUnits.md)** constant that represents the unit by which to expand the range. The default value is **wdWord**.|
+| _Unit_|Optional| **Variant**|A **[WdUnits](Word.WdUnits.md)** constant that represents the unit by which to expand the range. The default value is **wdWord**.|
 
 ## Example
 

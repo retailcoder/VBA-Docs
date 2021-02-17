@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Cells.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Cells** object.
+Returns an **Object** that represents the parent object of the specified **Cells** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Cells](Word.cells.md)' object.
+_expression_ A variable that represents a '[Cells](Word.cells.md)' object.
 
 
 ## See also

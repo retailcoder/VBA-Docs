@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `HasDataLabel`
+_expression_.**HasDataLabel**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## Example
@@ -29,7 +29,8 @@ _expression_. `HasDataLabel`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example enables the data label for point seven in series three for the first chart in the active document, and then it sets the data label color to blue.
 

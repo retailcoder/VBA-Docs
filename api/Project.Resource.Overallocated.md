@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `Overallocated`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **Overallocated** property does not return any meaningful information for material resources.
+The **Overallocated** property does not return any meaningful information for material resources.
 
 
 ## Example

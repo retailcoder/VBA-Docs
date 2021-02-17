@@ -19,14 +19,12 @@ Returns an  **[Application](Word.Application.md)** object that represents the Mi
 
 _expression_.**Application**
 
- _expression_ A variable that represents a '[FullSeriesCollection](Word.fullseriescollection.md)' object.
+_expression_ A variable that represents a '[FullSeriesCollection](Word.fullseriescollection.md)' object.
 
 
 ## Property value
 
  **OBJECT**
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

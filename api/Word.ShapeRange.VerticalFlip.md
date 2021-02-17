@@ -19,14 +19,14 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `VerticalFlip`
+_expression_.**VerticalFlip**
 
 _expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Example
 
-This example restores each shape on  _myDocument_ to its original state if it has been flipped horizontally or vertically.
+This example restores each shape on _myDocument_ to its original state if it has been flipped horizontally or vertically.
 
 
 ```vb

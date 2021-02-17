@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.MailPostDocument method (Project)
 
-Displays the  **Send To Exchange Folder** dialog box to post a document to Microsoft Exchange.
+Displays the **Send To Exchange Folder** dialog box to post a document to Microsoft Exchange.
 
 
 ## Syntax
 
 _expression_. `MailPostDocument`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `MailPostDocument`
 
 ## Remarks
 
-The  **MailPostDocument** method is only available when a mail system utilizes a Microsoft Exchange server.
+The **MailPostDocument** method is only available when a mail system utilizes a Microsoft Exchange server.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

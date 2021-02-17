@@ -21,12 +21,12 @@ Returns or sets the font size in points. Read/write  **Single**.
 
 _expression_. `SizeBi`
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-The  **SizeBi** property applies to text in a right-to-left language.
+The **SizeBi** property applies to text in a right-to-left language.
 
 
 ## Example

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Window.WebBrowserControlFrame method (Project)
 
-Returns the DOM object of a specified frame in the Web browser control window hosted inside the active window.
+Returns the DOM object of a specified frame in the web browser control window hosted inside the active window.
 
 
 ## Syntax
 
 _expression_. `WebBrowserControlFrame`( `_FrameName_` )
 
- _expression_ A variable that represents a [Window](./Project.Window.md) object.
+_expression_ A variable that represents a [Window](./Project.Window.md) object.
 
 
 ## Parameters

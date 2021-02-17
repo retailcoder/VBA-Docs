@@ -21,7 +21,7 @@ Gets or sets the type of a menu. Read/write.
 
 _expression_. `TypeSpecific1`
 
- _expression_ A variable that represents a [Menu](./Visio.Menu.md) object.
+_expression_ A variable that represents a **[Menu](Visio.Menu.md)** object.
 
 
 ## Return value
@@ -32,13 +32,14 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 The value of an object's  **TypeSpecific1** property depends on the value of its **CntrlType** property.
 
 
 
-|** CntrlType value**|** TypeSpecific1 value**|
+|**CntrlType value**|**TypeSpecific1 value**|
 |:-----|:-----|
 | **visCtrlTypeBUTTON**|Any constant prefixed with  **visIconIX** that is declared by the Visio type library.|
 | **visCtrlTypeCOMBOBOX**|Zero (0).|

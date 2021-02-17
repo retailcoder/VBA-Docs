@@ -14,24 +14,24 @@ localization_priority: Normal
 
 # ProtectedViewWindow.Document property (Word)
 
-Returns a [Document](Word.Document.md) object associated with the protected view window. Read-only.
+Returns a [Document](Word.Document.md) object associated with the Protected View window. Read-only.
 
 
 ## Syntax
 
-_expression_. `Document`
+_expression_.**Document**
 
- _expression_ A variable that represents a '[ProtectedViewWindow](Word.ProtectedViewWindow.md)' object.
+_expression_ A variable that represents a '[ProtectedViewWindow](Word.ProtectedViewWindow.md)' object.
 
 
 ## Remarks
 
-A document displayed in a protected view window is not a member of the  **[Documents](Word.Application.Documents.md)** collection. Instead, use the **Document** property to access a document that is displayed in a protected view window.
+A document displayed in a Protected View window is not a member of the **[Documents](Word.Application.Documents.md)** collection. Instead, use the **Document** property to access a document that is displayed in a Protected View window.
 
 
 ## Example
 
-The following code example displays the name of the document in the active protected view window.
+The following code example displays the name of the document in the active Protected View window.
 
 
 ```vb

@@ -21,7 +21,7 @@ Represents the encryption session associated with the active presentation. Read-
 
 _expression_. `ActiveEncryptionSession`
 
- _expression_ An expression that returns a [Application](./PowerPoint.Application.md) object.
+ _expression_ An expression that returns an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value
@@ -34,7 +34,8 @@ Long
 The encryption provider mechanism manages each file on a separate process, so each file is associated with a separate encryption session.
 
 
- **Note**  This property applies only when a presentation implements custom encryption.
+> [!NOTE] 
+> This property applies only when a presentation implements custom encryption.
 
 
 ## See also

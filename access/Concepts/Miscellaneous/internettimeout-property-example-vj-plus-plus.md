@@ -3,7 +3,7 @@ title: InternetTimeout property example (VJ++)
 ROBOTS: INDEX
 ms.prod: access
 ms.assetid: 7c09cd0b-b418-936f-766a-4cc14eea8e0b
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -31,7 +31,7 @@ static void InternetTimeoutX(){
 new BufferedReader (new InputStreamReader(System.in));int intCount = 0;
 int intDisplaysize = 15; 
 try{
-IBindMgr dc = (IBindMgr) new DataControl();dc.setServer("http://MyServer");
+IBindMgr dc = (IBindMgr) new DataControl();dc.setServer("https://MyServer");
 dc.setConnect("DSN=pubs");dc.setSQL("SELECT * FROM Authors");
 dc.setInternetTimeout(20000); // Wait at least 20 seconds.dc.Refresh();
 rstAuthors = (Recordset)dc.getRecordset();while(!rstAuthors.getEOF())
@@ -86,8 +86,8 @@ System.out.println("\tDescription = " + je.getMessage() + "\n");}
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

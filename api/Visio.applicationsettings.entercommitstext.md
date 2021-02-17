@@ -14,16 +14,14 @@ Returns or sets a  **Boolean** that determines whether pressing **Enter** commit
 
 ## Syntax
 
-_expression_. `EnterCommitsText`
+_expression_.**EnterCommitsText**
 
- _expression_ A variable that represents a [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Property value
 
  **BOOL**
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

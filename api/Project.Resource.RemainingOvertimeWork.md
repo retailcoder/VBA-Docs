@@ -18,11 +18,11 @@ Gets the remaining overtime work (in minutes) for the resource. Read-only  **Var
 
 _expression_. `RemainingOvertimeWork`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **RemainingOvertimeWork** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
+The **RemainingOvertimeWork** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.FileDialog property (PowerPoint)
 
-Returns a  **FileDialog** object that represents a single instance of a file dialog box. Read-only.
+Returns a **FileDialog** object that represents a single instance of a file dialog box. Read-only.
 
 
 ## Syntax
 
 _expression_. `FileDialog`( `_Type_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters

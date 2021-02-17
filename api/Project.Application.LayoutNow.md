@@ -21,7 +21,7 @@ Lays out the active view according to its layout options.
 
 _expression_. `LayoutNow`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,8 +31,8 @@ _expression_. `LayoutNow`
 
 ## Remarks
 
-Layout options can be set with the  **Layout** method.
+Layout options can be set with the **Layout** method.
 
-The  **LayoutNow** method is only available when a Network Diagram or Calendar view is active.
+The **LayoutNow** method is only available when a Network Diagram or Calendar view is active.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

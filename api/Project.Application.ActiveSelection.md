@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ActiveSelection property (Project)
 
-Gets a  **[Selection](Project.Selection.md)** object that represents the active selection. Read-only **Selection**.
+Gets a **[Selection](Project.Selection.md)** object that represents the active selection. Read-only **Selection**.
 
 
 ## Syntax
 
 _expression_. `ActiveSelection`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Example

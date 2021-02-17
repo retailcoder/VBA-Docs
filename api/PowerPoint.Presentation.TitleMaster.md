@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.TitleMaster property (PowerPoint)
 
-Returns a  **[Master](PowerPoint.Master.md)** object that represents the title master for the specified presentation.
+Returns a **[Master](PowerPoint.Master.md)** object that represents the title master for the specified presentation.
 
 
 ## Syntax
 
 _expression_. `TitleMaster`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

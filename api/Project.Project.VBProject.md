@@ -14,18 +14,18 @@ localization_priority: Normal
 
 # Project.VBProject property (Project)
 
-Gets a  **VBProject** object that represents the Microsoft Visual Basic project. Read-only **VBProject**.
+Gets a **VBProject** object that represents the Microsoft Visual Basic project. Read-only **VBProject**.
 
 
 ## Syntax
 
 _expression_. `VBProject`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-To use the  **VBProject** object, set a reference to Microsoft Visual Basic for Applications Extensibility 5.3 (the VBIDE library).
+To use the **VBProject** object, set a reference to Microsoft Visual Basic for Applications Extensibility 5.3 (the VBIDE library).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

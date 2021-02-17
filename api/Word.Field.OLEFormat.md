@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Field.OLEFormat property (Word)
 
-Returns an  **OLEFormat** object that represents the OLE characteristics (other than linking) for the specified field. Read-only.
+Returns an **OLEFormat** object that represents the OLE characteristics (other than linking) for the specified field. Read-only.
 
 
 ## Syntax
 
-_expression_. `OLEFormat`
+_expression_.**OLEFormat**
 
- _expression_ A variable that represents a '[Field](Word.Field.md)' object.
+_expression_ A variable that represents a '[Field](Word.Field.md)' object.
 
 
 ## See also

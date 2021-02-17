@@ -21,7 +21,7 @@ Creates a new Microsoft Outlook item from an Outlook template (.oft) and returns
 
 _expression_. `CreateItemFromTemplate`( `_TemplatePath_` , `_InFolder_` )
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +35,7 @@ _expression_ A variable that represents an [Application](Outlook.Application.md)
 
 ## Return value
 
-An  **Object** value that represents the new Outlook item.
+An **Object** value that represents the new Outlook item.
 
 
 ## Remarks

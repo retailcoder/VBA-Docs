@@ -19,19 +19,19 @@ Returns the preset gradient type for the specified fill. Read-only  **MsoPresetG
 
 ## Syntax
 
-_expression_. `PresetGradientType`
+_expression_.**PresetGradientType**
 
- _expression_ An expression that represents a '[FillFormat](Word.FillFormat.md)' object.
+ _expression_ An expression that represents a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-Use the  **[PresetGradient](Word.FillFormat.PresetGradient.md)** method to set the preset gradient type for the fill.
+Use the **[PresetGradient](Word.FillFormat.PresetGradient.md)** method to set the preset gradient type for the fill.
 
 
 ## Example
 
-This example changes the fill for all shapes in  _myDocument_ with the Moss preset gradient fill to the Fog preset gradient fill.
+This example changes the fill for all shapes in _myDocument_ with the Moss preset gradient fill to the Fog preset gradient fill.
 
 
 ```vb

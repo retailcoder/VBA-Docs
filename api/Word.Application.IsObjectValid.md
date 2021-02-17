@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `IsObjectValid`( `_Object_` )
 
- _expression_ Optional. A variable that represents an '[Application](Word.Application.md)' object.
+ _expression_ Optional. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-The  **IsObjectValid** property returns **False** if the object referenced by the variable has been deleted.
+The **IsObjectValid** property returns **False** if the object referenced by the variable has been deleted.
 
 
 ## Example

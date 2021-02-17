@@ -21,7 +21,7 @@ Returns or sets the number of enclosures for a letter created by the Letter Wiza
 
 _expression_. `EnclosureNumber`
 
- _expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
+_expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example displays the number of enclosures specified in the active document.
 MsgBox ActiveDocument.GetLetterContent.EnclosureNumber
 ```
 
-This example retrieves letter elements from the active document, changes the number of enclosures by setting the  **[EnclosureNumber](Word.LetterContent.EnclosureNumber.md)** property, and then uses the **[SetLetterContent](Word.Document.SetLetterContent.md)** method to update the active document to reflect the changes.
+This example retrieves letter elements from the active document, changes the number of enclosures by setting the **[EnclosureNumber](Word.LetterContent.EnclosureNumber.md)** property, and then uses the **[SetLetterContent](Word.Document.SetLetterContent.md)** method to update the active document to reflect the changes.
 
 
 

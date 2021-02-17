@@ -19,9 +19,9 @@ Returns or sets the alignment for the specified WordArt. Read/write.
 
 ## Syntax
 
-_expression_. `Alignment`
+_expression_.**Alignment**
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Remarks

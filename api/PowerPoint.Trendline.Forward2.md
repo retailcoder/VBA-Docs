@@ -21,7 +21,7 @@ Returns or sets the number of periods (or units on a scatter chart) that the tre
 
 _expression_. `Forward2`
 
- _expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
 
 
 ## Example
@@ -29,7 +29,8 @@ _expression_. `Forward2`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the number of units that the trendline for the first chart in the active document extends forward and backward. You should run the example on a 2D column chart that contains a single series that has a trendline.
 

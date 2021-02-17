@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Player.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ A variable that represents a [Player](./PowerPoint.Player.md) object.
+_expression_ A variable that represents a [Player](PowerPoint.Player.md) object.
 
 
 ## See also

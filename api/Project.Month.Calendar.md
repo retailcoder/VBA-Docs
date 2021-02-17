@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `Calendar`
 
- _expression_ A variable that represents a [Month](./Project.Month.md) object.
+_expression_ A variable that represents a [Month](./Project.Month.md) object.
 
 
 ## Remarks
 
-For an example that resets the project calendar, see the  **[Calendar](Project.Project.Calendar.md)** property of the **Project** object.
+For an example that resets the project calendar, see the **[Calendar](Project.Project.Calendar.md)** property of the **Project** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

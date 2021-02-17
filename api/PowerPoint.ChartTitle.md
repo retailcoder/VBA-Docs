@@ -21,7 +21,7 @@ Represents the chart title.
 
 Use the  **[ChartTitle](PowerPoint.Chart.ChartTitle.md)** property to return the **ChartTitle** object.
 
-The  **ChartTitle** object does not exist and cannot be used unless the **[HasTitle](PowerPoint.Chart.HasTitle.md)** property for the chart is **True**.
+The **ChartTitle** object does not exist and cannot be used unless the **[HasTitle](PowerPoint.Chart.HasTitle.md)** property for the chart is **True**.
 
 
 ## Example
@@ -29,7 +29,8 @@ The  **ChartTitle** object does not exist and cannot be used unless the **[HasTi
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
  The following example adds a title to the first embedded chart in the document.
 

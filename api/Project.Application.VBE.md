@@ -14,18 +14,18 @@ localization_priority: Normal
 
 # Application.VBE property (Project)
 
-Gets the  **VBE** object that represents the Visual Basic Editor. Read-only **VBE**.
+Gets the **VBE** object that represents the Visual Basic Editor. Read-only **VBE**.
 
 
 ## Syntax
 
-_expression_. `VBE`
+_expression_.**VBE**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-To use the  **VBE** object, set a reference to the Microsoft Visual Basic for Applications Extensibility 5.3 (VBIDE) library.
+To use the **VBE** object, set a reference to the Microsoft Visual Basic for Applications Extensibility 5.3 (VBIDE) library.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # OlkTimeControl.AutoSize property (Outlook)
 
-Returns or sets a  **Boolean** that automatically sizes the control to display the entire contents. Read/write.
+Returns or sets a **Boolean** that automatically sizes the control to display the entire contents. Read/write.
 
 
 ## Syntax
 
-_expression_. `AutoSize`
+_expression_.**AutoSize**
 
 _expression_ A variable that represents an [OlkTimeControl](Outlook.OlkTimeControl.md) object.
 

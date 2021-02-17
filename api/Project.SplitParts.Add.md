@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # SplitParts.Add method (Project)
 
-Adds a  **SplitPart** object to a **SplitParts** collection.
+Adds a **SplitPart** object to a **SplitParts** collection.
 
 
 ## Syntax
 
-_expression_.**Add**( `_StartSplitPartOn_`, `_EndSplitPartOn_` )
+_expression_.**Add** (_StartSplitPartOn_, _EndSplitPartOn_)
 
- _expression_ A variable that represents a 'SplitParts' object.
+_expression_ A variable that represents a 'SplitParts' object.
 
 
 ## Parameters

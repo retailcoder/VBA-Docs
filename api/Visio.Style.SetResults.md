@@ -21,7 +21,7 @@ Sets the results or formulas of one or more cells.
 
 _expression_. `SetResults`( `_SRCStream()_` , `_UnitsNamesOrCodes()_` , `_resultArray()_` , `_Flags_` )
 
- _expression_ A variable that represents a [Style](./Visio.Style.md) object.
+_expression_ A variable that represents a **[Style](Visio.Style.md)** object.
 
 
 ## Parameters
@@ -57,7 +57,7 @@ For  **Style** objects, _SID_SRCStream()_ should be a one-dimensional array of 3
 
 where  _sectionIdx_ is the section index of the desired cell, _rowIdx_ is its row index, and _cellIdx_ is its cell index.
 
-The  _UnitsNamesOrCodes()_ array controls what measurement units individual entries in results are in. Each entry in the array can be a string such as "inches", "inch", "in.", or "i". Strings may be used for all supported Microsoft Office Visio units such as centimeters, meters, miles, and so on. You can also indicate desired units with integer constants (**visCentimeters**, **visInches**, and so on) declared by the Visio type library in **VisUnitCodes**. For a list of constants used for units of measure, see [About Units of Measure](../visio/Concepts/about-units-of-measure-visio.md). Note that the values specified in the  _UnitsNamesOrCodes()_ array have no effect if **visSetFormulas** is set in _Flags_.
+The  _UnitsNamesOrCodes()_ array controls what measurement units individual entries in results are in. Each entry in the array can be a string such as "inches", "inch", "in.", or "i". Strings may be used for all supported Microsoft Office Visio units such as centimeters, meters, miles, and so on. You can also indicate desired units with integer constants (**visCentimeters**, **visInches**, and so on) declared by the Visio type library in **VisUnitCodes**. For a list of constants used for units of measure, see [About units of measure](../visio/Concepts/about-units-of-measure-visio.md). Note that the values specified in the  _UnitsNamesOrCodes()_ array have no effect if **visSetFormulas** is set in _Flags_.
 
 If  _UnitsNamesOrCodes()_ is not empty, we expect it to be a one-dimensional array of 1 <= _u_ variants. Each entry can be a string or integer code, or empty (nothing). If the _i_ 'th entry is empty, the _i_ 'th entry in _resultArray()_ is in the units designated by _units(j)_ , where _j_ is the most recent prior entry that is not empty. Thus, if you want all entries in _resultArray()_ to be interpreted in the same units, you need only pass a _UnitsNamesOrCodes()_ array that has one entry. If there is no prior entry that is not empty, or if no _units_ array is supplied, **visNumber** (0x20) will be used. This causes the application to default to internal units (as does the **ResultIU** property of a **Cell** object).
 
@@ -74,7 +74,7 @@ The  _Flags_ parameter should be a bitmask of the following values.
 | **visSetTestCircular**|&H4|Test for establishment of circular cell references.|
 | **visSetUniversalSyntax**|&H8|Formulas are in universal syntax|
 
-The value returned by the  **SetResults** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i < n_ entries are processed correctly, but an error occurs on the _i_ + 1st entry, the **SetResults** method raises an exception and returns _i_ . Otherwise, _n_ is returned.
+The value returned by the  **SetResults** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i < n_ entries are processed correctly, but an error occurs on the _i_ + 1st entry, the **SetResults** method raises an exception and returns _i_. Otherwise, _n_ is returned.
 
 
 ## Example

@@ -21,7 +21,7 @@ Determines whether a thin frame is placed around the border of the printed slide
 
 _expression_. `FrameSlides`
 
- _expression_ A variable that represents a [PrintOptions](./PowerPoint.PrintOptions.md) object.
+_expression_ A variable that represents a [PrintOptions](PowerPoint.PrintOptions.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ MsoTriState
 
 ## Remarks
 
-The  **FrameSlides** property applies to printed slides, handouts, and notes pages.
+The **FrameSlides** property applies to printed slides, handouts, and notes pages.
 
 The value of the  **FrameSlides** property can be one of these **MsoTriState** constants.
 

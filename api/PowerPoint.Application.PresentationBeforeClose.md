@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.PresentationBeforeClose event (PowerPoint)
 
-Represents a  **Presentation** object before it closes.
+Represents a **Presentation** object before it closes.
 
 
 ## Syntax
 
 _expression_. `PresentationBeforeClose`( `_Pres_`, `_Cancel_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ A variable that represents an [Application](./PowerPoint.Applicatio
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Pres_|Required|**Presentation**|The  **Presentation** object.|
+| _Pres_|Required|**Presentation**|The **Presentation** object.|
 | _Cancel_|Required|**Boolean**|If set to  **True**, the presentation will not close.|
 
 ## Return value

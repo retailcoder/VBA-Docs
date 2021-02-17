@@ -19,9 +19,9 @@ Changes the brightness of the picture by the specified amount.
 
 ## Syntax
 
-_expression_. `IncrementBrightness`( `_Increment_` )
+_expression_.**IncrementBrightness** (_Increment_)
 
- _expression_ A variable that represents an [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents an [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ You cannot adjust the brightness of a picture past the upper or lower limit for 
 
 ## Example
 
-This example creates a duplicate of shape one on  _myDocument_ and then moves and darkens the duplicate. For the example to work, shape one must be either a picture or an OLE object.
+This example creates a duplicate of shape one on _myDocument_ and then moves and darkens the duplicate. For the example to work, shape one must be either a picture or an OLE object.
 
 
 ```vb

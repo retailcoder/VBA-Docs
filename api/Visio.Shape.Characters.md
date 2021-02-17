@@ -21,7 +21,7 @@ Returns a  **Characters** object that represents the text of a shape. Read-only.
 
 _expression_. `Characters`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Characters
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.Characters**

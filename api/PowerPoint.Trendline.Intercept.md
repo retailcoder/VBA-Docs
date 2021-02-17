@@ -21,7 +21,7 @@ Returns or sets the point where the trendline crosses the value axis. Read/write
 
 _expression_. `Intercept`
 
- _expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
 
 
 ## Remarks
@@ -34,7 +34,8 @@ Setting this property sets the  **[InterceptIsAuto](PowerPoint.Trendline.Interce
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets trendline one for the first chart in the active document to cross the value axis at 5. You should run the example on a 2D column chart that contains a single series that has a trendline.
 

@@ -19,9 +19,9 @@ Determines whether the specified shape is flipped around the vertical axis. Read
 
 ## Syntax
 
-_expression_. `VerticalFlip`
+_expression_.**VerticalFlip**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **VerticalFlip** property can be one of these **MsoTriState** 
 
 ## Example
 
-This example restores each shape on  _myDocument_ to its original state if it is been flipped horizontally or vertically.
+This example restores each shape on _myDocument_ to its original state if it is been flipped horizontally or vertically.
 
 
 ```vb

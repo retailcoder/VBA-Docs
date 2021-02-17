@@ -14,18 +14,18 @@ localization_priority: Normal
 
 # LookupTableEntry.Index property (Project)
 
-Gets the index of a  **LookupTableEntry** object in the containing **LookupTable** collection. Read-only **Long**.
+Gets the index of a **LookupTableEntry** object in the containing **LookupTable** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Index**
 
- _expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
+_expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
 
 
 ## Remarks
 
-The  **Index** properties of other objects are used in similar ways. For an example, see the **[Index](Project.Project.Index.md)** property of the **Project** object.
+The **Index** properties of other objects are used in similar ways. For an example, see the **[Index](Project.Project.Index.md)** property of the **Project** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,7 +21,7 @@ Occurs immediately before a reminder is displayed.
 
 _expression_. `Reminder`( `_Item_` )
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ A variable that represents an [Application](Outlook.Application.md)
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Item_|Required| **Object**|The  **[AppointmentItem](Outlook.AppointmentItem.md)**, **[MailItem](Outlook.MailItem.md)**, **[ContactItem](Outlook.ContactItem.md)**, or **[TaskItem](Outlook.TaskItem.md)** associated with the reminder. If the appointment associated with the reminder is a recurring appointment, _Item_ is the specific occurrence of the appointment that displayed the reminder, not the master appointment.|
+| _Item_|Required| **Object**|The **[AppointmentItem](Outlook.AppointmentItem.md)**, **[MailItem](Outlook.MailItem.md)**, **[ContactItem](Outlook.ContactItem.md)**, or **[TaskItem](Outlook.TaskItem.md)** associated with the reminder. If the appointment associated with the reminder is a recurring appointment, _Item_ is the specific occurrence of the appointment that displayed the reminder, not the master appointment.|
 
 ## Example
 

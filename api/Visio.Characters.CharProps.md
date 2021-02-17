@@ -19,14 +19,12 @@ Sets a character property of a  **Characters** object to a new value. Write-only
 
 ## Syntax
 
-_expression_. `CharProps`( `_CellIndex_` )
+_expression_.**CharProps** (_CellIndex_)
 
- _expression_ An expression that returns a [Characters](./Visio.Characters.md) object.
+ _expression_ An expression that returns a **[Characters](Visio.Characters.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -65,7 +63,7 @@ Constants for CellIndex and for the  **CharProps** property value are declared i
 | **visCharacterOverline**|9| **Boolean**|N/A|
 | **visCharacterStrikethru**|10| **Boolean**|N/A|
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVCharacters.set_CharProps**

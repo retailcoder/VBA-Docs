@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Sequence.ConvertToAnimateInReverse method (PowerPoint)
 
-Determines whether text will be animated in reverse order. Returns an  **[Effect](PowerPoint.Effect.md)** object representing the text animation.
+Determines whether text will be animated in reverse order. Returns an **[Effect](PowerPoint.Effect.md)** object representing the text animation.
 
 
 ## Syntax
 
 _expression_. `ConvertToAnimateInReverse`( `_Effect_`, `_animateInReverse_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
 ## Parameters

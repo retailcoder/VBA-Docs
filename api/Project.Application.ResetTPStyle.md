@@ -19,18 +19,16 @@ Resets the specified Team Planner style to the default values.
 
 ## Syntax
 
-_expression_. `ResetTPStyle`( `_Style_` )
+_expression_.**ResetTPStyle** (_Style_)
 
- _expression_ An expression that returns a [Application](./Project.Application.md) object.
+_expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Style_|Required|**PjTeamPlannerStyle**|Can be one of the  **[PjTeamPlannerStyle](Project.PjTeamPlannerStyle.md)** constants.|
+| _Style_|Required|**PjTeamPlannerStyle**|Can be one of the **[PjTeamPlannerStyle](Project.PjTeamPlannerStyle.md)** constants.|
 
 ## Return value
 
@@ -39,7 +37,7 @@ _expression_. `ResetTPStyle`( `_Style_` )
 
 ## Remarks
 
-The  **PjTeamPlannerStyle** constants are equivalent to the five styles shown in the **Format** tab of the **Team Planner Tools** in the ribbon, as follows:
+The **PjTeamPlannerStyle** constants are equivalent to the five styles shown in the **Format** tab of the **Team Planner Tools** in the ribbon, as follows:
 
 
 |||

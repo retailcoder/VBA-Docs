@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # JournalItem.End property (Outlook)
 
-Returns or sets a  **Date** indicating the end date and time of a Journal entry. Read/write.
+Returns or sets a **Date** indicating the end date and time of a Journal entry. Read/write.
 
 
 ## Syntax
 
-_expression_. `End`
+_expression_.**End**
 
 _expression_ A variable that represents a [JournalItem](Outlook.JournalItem.md) object.
 

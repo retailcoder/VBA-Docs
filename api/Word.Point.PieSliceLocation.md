@@ -19,9 +19,9 @@ Returns the vertical or horizontal position of a point on a chart item, in [poin
 
 ## Syntax
 
-_expression_. `PieSliceLocation`( `_loc_` , `_Index_` )
+_expression_.**PieSliceLocation** (_loc_, _Index_)
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_. `PieSliceLocation`( `_loc_` , `_Index_` )
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _loc_|Required| **[XlPieSliceLocation](Word.xlpieslicelocation.md)**|Specifies a horizontal or vertical coordinate.|
-| _Index_|Optional| **[XlPieSliceIndex](Word.xlpiesliceindex.md)**|Specifies which pie slice position coordinate to return. The default value is  **xlOuterCenterPoint**.|
+| _Index_|Optional| **[XlPieSliceIndex](Word.xlpiesliceindex.md)**|Specifies which pie slice position coordinate to return. The default value is **xlOuterCenterPoint**.|
 
 ## Return value
 

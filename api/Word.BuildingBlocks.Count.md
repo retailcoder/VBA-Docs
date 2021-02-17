@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # BuildingBlocks.Count property (Word)
 
-Returns the number of items in the  **BuildingBlocks** collection. Read-only **Long**.
+Returns the number of items in the **BuildingBlocks** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[BuildingBlocks](Word.BuildingBlocks.md)' object.
+_expression_ A variable that represents a '[BuildingBlocks](Word.BuildingBlocks.md)' object.
 
 
 ## See also

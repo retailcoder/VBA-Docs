@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # Application.Redo method (Project)
 
-Executes a redo action on items in the  **Redo** list.
+Executes a redo action on items in the **Redo** list.
 
 
 ## Syntax
 
-_expression_. `Redo`( `_HowManyRedos_` )
+_expression_.**Redo** (_HowManyRedos_)
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,6 +37,6 @@ _expression_. `Redo`( `_HowManyRedos_` )
 
 ## Remarks
 
-You can add items to the  **Redo** list by using the **[Undo](Project.Application.Undo.md)** method or clicking **Undo** in the Quick Access Toolbar.
+You can add items to the **Redo** list by using the **[Undo](Project.Application.Undo.md)** method or clicking **Undo** in the Quick Access Toolbar.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

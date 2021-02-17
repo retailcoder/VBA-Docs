@@ -21,12 +21,12 @@ Returns or sets the text that is displayed in the status bar when a form field h
 
 _expression_. `StatusText`
 
- _expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
+_expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
 
 
 ## Remarks
 
-If the  **[OwnStatus](Word.FormField.OwnStatus.md)** property is set to **True**, the **StatusText** property specifies the status bar text. If the **OwnStatus** property is set to **False**, the **StatusText** property specifies the name of an AutoText entry that contains status bar text for the form field.
+If the **[OwnStatus](Word.FormField.OwnStatus.md)** property is set to **True**, the **StatusText** property specifies the status bar text. If the **OwnStatus** property is set to **False**, the **StatusText** property specifies the name of an AutoText entry that contains status bar text for the form field.
 
 
 ## Example

@@ -18,11 +18,11 @@ Gets the path of the open project. Read-only  **String**.
 
 _expression_.**Path**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **Path** property returns an empty string ("") for an unsaved project.
+The **Path** property returns an empty string ("") for an unsaved project.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

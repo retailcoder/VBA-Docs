@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.Parent property (Project)
-Gets an object that represents the parent of the  **Shapes** object. Read-only **Object**.
+Gets an object that represents the parent of the **Shapes** object. Read-only **Object**.
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Property value

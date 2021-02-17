@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Range.ShowDependents
 ms.assetid: f2e062b2-733b-d0e5-b5ed-9587b104bbc7
-ms.date: 06/08/2017
+ms.date: 05/11/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Draws tracer arrows to the direct dependents of the range.
 
 ## Syntax
 
-_expression_. `ShowDependents`( `_Remove_` )
+_expression_.**ShowDependents** (_Remove_)
 
 _expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,16 +39,14 @@ Variant
 
 This example draws tracer arrows to dependents of the active cell on Sheet1.
 
-
 ```vb
 Worksheets("Sheet1").Activate 
 ActiveCell.ShowDependents
 ```
 
+<br/>
+
 This example removes the tracer arrow for one level of dependents of the active cell on Sheet1.
-
-
-
 
 ```vb
 Worksheets("Sheet1").Activate 
@@ -58,9 +54,6 @@ ActiveCell.ShowDependents Remove:=True
 ```
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

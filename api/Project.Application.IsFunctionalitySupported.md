@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.IsFunctionalitySupported event (Project)
 
-Occurs after the  **LoadWebBrowserControl** method is called with the third parameter ( _FunctionalityName_) set.
+Occurs after the **LoadWebBrowserControl** method is called with the third parameter ( _FunctionalityName_) set.
 
 
 ## Syntax
 
 _expression_. `IsFunctionalitySupported`( `_bstrFunctionality_`, `_Info_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,6 +32,6 @@ _expression_. `IsFunctionalitySupported`( `_bstrFunctionality_`, `_Info_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

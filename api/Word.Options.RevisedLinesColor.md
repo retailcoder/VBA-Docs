@@ -21,7 +21,7 @@ Returns or sets the color of changed lines in a document with tracked changes. R
 
 _expression_. `RevisedLinesColor`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets the color of changed lines to pink.
 Options.RevisedLinesColor = wdPink
 ```
 
-This example returns the current status of the  **Color** option under **Changed lines** on the **Track Changes** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Color** option under **Changed lines** on the **Track Changes** tab in the **Options** dialog box (**Tools** menu).
 
 
 

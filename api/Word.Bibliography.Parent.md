@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Bibliography.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Bibliography** object.
+Returns an **Object** that represents the parent object of the specified **Bibliography** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Bibliography](Word.Bibliography.md)' object.
+_expression_ A variable that represents a '[Bibliography](Word.Bibliography.md)' object.
 
 
 ## See also

@@ -19,17 +19,18 @@ Represents a set of utilities for sharing calendar information.
 
 ## Remarks
 
-You can use the  **[GetCalendarExporter](Outlook.Folder.GetCalendarExporter.md)** method of a **[Folder](Outlook.Folder.md)** object that represents a calendar folder to create a **CalendarSharing** object. The **GetCalendarExporter** method can only be used on calendar folders. An error occurs if you use the method on **Folder** objects that represent other folder types.
+You can use the **[GetCalendarExporter](Outlook.Folder.GetCalendarExporter.md)** method of a **[Folder](Outlook.Folder.md)** object that represents a calendar folder to create a **CalendarSharing** object. The **GetCalendarExporter** method can only be used on calendar folders. An error occurs if you use the method on **Folder** objects that represent other folder types.
 
-You can use the  **[SaveAsICal](Outlook.CalendarSharing.SaveAsICal.md)** method to save calendar information in an iCalendar (.ics) file for sharing a calendar as a URL, or use the **[ForwardAsICal](Outlook.CalendarSharing.ForwardAsICal.md)** method to create a **[MailItem](Outlook.MailItem.md)** for sharing a calendar as a payload.
+You can use the **[SaveAsICal](Outlook.CalendarSharing.SaveAsICal.md)** method to save calendar information in an iCalendar (.ics) file for sharing a calendar as a URL, or use the **[ForwardAsICal](Outlook.CalendarSharing.ForwardAsICal.md)** method to create a **[MailItem](Outlook.MailItem.md)** for sharing a calendar as a payload.
 
 
- **Note**  The  **CalendarSharing** object only supports exporting the iCalendar format.
+> [!NOTE] 
+> The **CalendarSharing** object only supports exporting the iCalendar format.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates a  **CalendarSharing** object for the Calendar folder, then exports the contents of the entire folder (including attachments and private items) to an iCalendar calendar (.ics) file.
+The following Visual Basic for Applications (VBA) example creates a **CalendarSharing** object for the Calendar folder, then exports the contents of the entire folder (including attachments and private items) to an iCalendar calendar (.ics) file.
 
 
 ```vb
@@ -107,7 +108,7 @@ ErrRoutine:
  
  Select Case Err.Number 
  
- Case 287 ' &amp;H0000011F 
+ Case 287 ' &H0000011F 
  
  ' The user denied access to the Address Book. 
  
@@ -121,9 +122,9 @@ ErrRoutine:
  
  vbOKOnly, _ 
  
- Err.Number &amp; " - " &amp; Err.Source 
+ Err.Number & " - " & Err.Source 
  
- Case -2147467259 ' &amp;H80004005 
+ Case -2147467259 ' &H80004005 
  
  ' Export failed. 
  
@@ -137,9 +138,9 @@ ErrRoutine:
  
  vbOKOnly, _ 
  
- Err.Number &amp; " - " &amp; Err.Source 
+ Err.Number & " - " & Err.Source 
  
- Case -2147221233 ' &amp;H8004010F 
+ Case -2147221233 ' &H8004010F 
  
  ' Operation failed. 
  
@@ -151,7 +152,7 @@ ErrRoutine:
  
  vbOKOnly, _ 
  
- Err.Number &amp; " - " &amp; Err.Source 
+ Err.Number & " - " & Err.Source 
  
  Case Else 
  
@@ -161,7 +162,7 @@ ErrRoutine:
  
  vbOKOnly, _ 
  
- Err.Number &amp; " - " &amp; Err.Source 
+ Err.Number & " - " & Err.Source 
  
  End Select 
  

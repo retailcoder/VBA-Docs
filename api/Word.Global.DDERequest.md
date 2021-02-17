@@ -21,7 +21,7 @@ Uses an open dynamic data exchange (DDE) channel to request information from the
 
 _expression_. `DDERequest`( `_Channel_` , `_Item_` )
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters
@@ -30,15 +30,10 @@ _expression_. `DDERequest`( `_Channel_` , `_Item_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Channel_|Required| **Long**|The channel number returned by the  **DDEInitiate** method.|
+| _Channel_|Required| **Long**|The channel number returned by the **DDEInitiate** method.|
 | _Item_|Required| **String**|The item to be requested.|
 
 ## Remarks
-
-
- **Security Note**  
-
-
 
 When you request information from the topic in the server application, you must specify the item in that topic whose contents you are requesting. In Microsoft Excel, for example, cells are valid items, and you refer to them by using either the "R1C1" format or named references.
 

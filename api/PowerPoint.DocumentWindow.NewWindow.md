@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # DocumentWindow.NewWindow method (PowerPoint)
 
-Opens a new window that contains the same document that is displayed in the specified window. Returns a  **[DocumentWindow](PowerPoint.DocumentWindow.md)** object that represents the new window.
+Opens a new window that contains the same document that is displayed in the specified window. Returns a **[DocumentWindow](PowerPoint.DocumentWindow.md)** object that represents the new window.
 
 
 ## Syntax
 
-_expression_. `NewWindow`
+_expression_.**NewWindow**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value

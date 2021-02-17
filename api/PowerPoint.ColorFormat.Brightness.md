@@ -19,14 +19,14 @@ Returns or sets the brightness of the specified picture or OLE object. The value
 
 ## Syntax
 
-_expression_. `Brightness`
+_expression_.**Brightness**
 
-_expression_ A variable that represents a [ColorFormat](./PowerPoint.ColorFormat.md) object.
+_expression_ A variable that represents a [ColorFormat](PowerPoint.ColorFormat.md) object.
 
 
 ## Example
 
-The following example sets the brightness for shape one on  _myDocument_. Shape one must be either a picture or an OLE object.
+The following example sets the brightness for shape one on _myDocument_. Shape one must be either a picture or an OLE object.
 
 
 ```vb

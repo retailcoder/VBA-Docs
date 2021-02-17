@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ChartTitle.Height property (PowerPoint)
 
-Returns or sets a  **Double** value that represents the height, in [points](../language/glossary/vbe-glossary.md#point), of the object. Read-only.
+Returns or sets a **Double** value that represents the height, in [points](../language/glossary/vbe-glossary.md#point), of the object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Height**
 
-_expression_ A variable that represents a [ChartTitle](./PowerPoint.ChartTitle.md) object.
+_expression_ A variable that represents a [ChartTitle](PowerPoint.ChartTitle.md) object.
 
 
 ## Return value

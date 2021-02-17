@@ -19,9 +19,9 @@ Gets or sets the command ID associated with a toolbar item. Read/write.
 
 ## Syntax
 
-_expression_. `CmdNum`
+_expression_.**CmdNum**
 
- _expression_ A variable that represents a [ToolbarItem](./Visio.ToolbarItem.md) object.
+_expression_ A variable that represents a **[ToolbarItem](Visio.ToolbarItem.md)** object.
 
 
 ## Return value
@@ -32,7 +32,8 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 When the  **AddOnName** property of a **ToolbarItem** object indicates an add-on to run, Microsoft Visio automatically assigns a **CmdNum** property.
 
@@ -43,7 +44,7 @@ Valid command IDs are declared by the Visio type library in  **[VisUICmds](Visio
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how use the  **CmdNum** property to get a particular built-in Visio toolbar button, and then it shows how to change the button's icon. The new icon persists as long as the document is active.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **CmdNum** property to get a particular built-in Visio toolbar button, and then it shows how to change the button's icon. The new icon persists as long as the document is active.
 
 This macro assumes you are not using a custom user interface (UI).
 

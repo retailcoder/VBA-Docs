@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # StartDriver.CalendarDrivers property (Project)
 
-Gets the  **[CalendarDrivers](Project.calendardrivers.md)** object for the task **StartDriver** object. Read-only **CalendarDrivers**.
+Gets the **[CalendarDrivers](Project.calendardrivers.md)** object for the task **StartDriver** object. Read-only **CalendarDrivers**.
 
 
 ## Syntax
 
 _expression_. `CalendarDrivers`
 
- _expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
+_expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
 
 
 ## See also

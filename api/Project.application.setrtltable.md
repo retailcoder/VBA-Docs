@@ -15,23 +15,23 @@ Sets column order from right to left, for a selected table in a report.
 
 ## Syntax
 
-_expression_. `SetRTLTable`
+_expression_.**SetRTLTable**
 
- _expression_ A variable that represents a [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
 
- **Boolean**
+**Boolean**
 
- **True** if the column order is set from right to left; otherwise, **False**.
+**True** if the column order is set from right to left; otherwise, **False**.
 
 
 ## Remarks
 
-The  **SetRTLTable** method can be used to change the table columns from left-to-right order for languages such as English, to right-to-left for languages such as Arabic, Farsi, and Hebrew.
+The **SetRTLTable** method can be used to change the table columns from left-to-right order for languages such as English, to right-to-left for languages such as Arabic, Farsi, and Hebrew.
 
-If a report is not active, the  **SetRTLTable** method displays a dialog box with run-time error 1100, "The method is not available in this situation."
+If a report is not active, the **SetRTLTable** method displays a dialog box with run-time error 1100, "The method is not available in this situation."
 
 
 ## See also

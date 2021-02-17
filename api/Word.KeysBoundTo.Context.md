@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # KeysBoundTo.Context property (Word)
 
-Returns an  **Object** that represents the storage location of the specified key binding. Read-only.
+Returns an **Object** that represents the storage location of the specified key binding. Read-only.
 
 
 ## Syntax
 
 _expression_. `Context`
 
- _expression_ A variable that represents a '[KeysBoundTo](Word.keysboundto.md)' object.
+_expression_ A variable that represents a '[KeysBoundTo](Word.keysboundto.md)' object.
 
 
 ## Remarks

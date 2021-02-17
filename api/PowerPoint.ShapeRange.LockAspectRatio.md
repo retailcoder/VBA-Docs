@@ -19,9 +19,9 @@ Determines whether the specified shape retains its original proportions when you
 
 ## Syntax
 
-_expression_. `LockAspectRatio`
+_expression_.**LockAspectRatio**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **LockAspectRatio** property can be one of these **MsoTriState
 
 ## Example
 
-This example adds a cube to  _myDocument_. The cube can be moved and resized, but not reproportioned.
+This example adds a cube to _myDocument_. The cube can be moved and resized, but not reproportioned.
 
 
 ```vb

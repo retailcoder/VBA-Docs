@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `HasDataLabel`
+_expression_.**HasDataLabel**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Example

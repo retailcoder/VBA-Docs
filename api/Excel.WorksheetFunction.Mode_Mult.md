@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.Mode_Mult
 ms.assetid: 13dfb3a9-2b9d-21de-29df-b3bc79b8fb59
-ms.date: 06/08/2017
+ms.date: 05/24/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Returns a vertical array of the most frequently occurring, or repetitive, values
 
 ## Syntax
 
-_expression_. `Mode_Mult`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` , `_Arg5_` , `_Arg6_` , `_Arg7_` , `_Arg8_` , `_Arg9_` , `_Arg10_` , `_Arg11_` , `_Arg12_` , `_Arg13_` , `_Arg14_` , `_Arg15_` , `_Arg16_` , `_Arg17_` , `_Arg18_` , `_Arg19_` , `_Arg20_` , `_Arg21_` , `_Arg22_` , `_Arg23_` , `_Arg24_` , `_Arg25_` , `_Arg26_` , `_Arg27_` , `_Arg28_` , `_Arg29_` , `_Arg30_` )
+_expression_.**Mode_Mult** (_Arg1_, _Arg2_, _Arg3_, _Arg4_, _Arg5_, _Arg6_, _Arg7_, _Arg8_, _Arg9_, _Arg10_, _Arg11_, _Arg12_, _Arg13_, _Arg14_, _Arg15_, _Arg16_, _Arg17_, _Arg18_, _Arg19_, _Arg20_, _Arg21_, _Arg22_, _Arg23_, _Arg24_, _Arg25_, _Arg26_, _Arg27_, _Arg28_, _Arg29_, _Arg30_)
 
-_expression_ A variable that represents a '[WorksheetFunction](Excel.WorksheetFunction.md)' object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,28 +33,19 @@ _expression_ A variable that represents a '[WorksheetFunction](Excel.WorksheetFu
 
 ## Return value
 
-Variant
+**Variant**
 
 
 ## Remarks
 
-
-
-
-- Arguments can either be numbers or names, arrays, or references that contain numbers.
+Arguments can either be numbers or names, arrays, or references that contain numbers.
     
-- If an array or reference argument contains text, logical values, or empty cells, those values are ignored; however, cells with the value zero are included.
+If an array or reference argument contains text, logical values, or empty cells, those values are ignored; however, cells with the value zero are included.
     
-- Arguments that are error values or text that cannot be translated into numbers cause errors.
+Arguments that are error values or text that cannot be translated into numbers cause errors.
     
-- If the data set contains no duplicate data points, MODE_MULT returns the #N/A error value.
+If the data set contains no duplicate data points, **Mode_Mult** returns the #N/A error value.
     
 
-
-
-## See also
-
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

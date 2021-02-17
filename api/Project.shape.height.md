@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Height property (Project)
-Gets or sets the height of the shape, in points. Read-write  **Single**.
+Gets or sets the height of the shape, in points. Read/write  **Single**.
 
 ## Syntax
 
 _expression_.**Height**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

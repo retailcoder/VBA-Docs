@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Document.Styles property (Visio)
 
-Returns the  **Styles** collection for a document. Read-only.
+Returns the **Styles** collection for a document. Read-only.
 
 
 ## Syntax
 
-_expression_. `Styles`
+_expression_.**Styles**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Styles
 
 ## Example
 
-The following macro shows how to use the  **Styles** property to add **Style** objects to the **Styles** collection. It shows how to add a new style based on an existing style as well as how to add a new style created from scratch.
+The following macro shows how to use the **Styles** property to add **Style** objects to the **Styles** collection. It shows how to add a new style based on an existing style as well as how to add a new style created from scratch.
 
 
 ```vb

@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # ShapeRange.Align method (Project)
-The  **Align** method is not implemented in Project.
+The **Align** method is not implemented in Project.
 
 ## Syntax
 
 _expression_. `Align` _(AlignCmd,_ _RelativeTo)_
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Return value
@@ -24,9 +24,9 @@ _expression_. `Align` _(AlignCmd,_ _RelativeTo)_
 
 ## Remarks
 
-In general for applications that implement Office Art, the  **Align** method aligns the shapes contained in the shape range. Project does not support automatic distribution or alignment of shapes in a report.
+In general for applications that implement Office Art, the **Align** method aligns the shapes contained in the shape range. Project does not support automatic distribution or alignment of shapes in a report.
 
-If you try to use the  **Align** method, such as `sRange1.Align msoAlignMiddles, msoFalse`, you get run-time error &H80070057, "The specified value is out of range."
+If you try to use the **Align** method, such as `sRange1.Align msoAlignMiddles, msoFalse`, you get run-time error &H80070057, "The specified value is out of range."
 
 
 ## See also

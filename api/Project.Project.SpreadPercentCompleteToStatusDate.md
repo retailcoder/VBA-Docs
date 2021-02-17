@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `SpreadPercentCompleteToStatusDate`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The following example checks the status date of the active project. If it has never changed from the default, but edits to total task percent complete are spread to the status date, the macro asks for a status date to use. If edits to total task percent complete are spread to the calculated stop date of the task, the macro asks the user if edits should be spread to a status date instead and, if so, asks for a status date to use.
+The following example checks the status date of the active project. If it has never changed from the default, but edits to total task percent complete are spread to the status date, the macro asks for a status date to use. If edits to total task percent complete are spread to the calculated stop date of the task, the macro asks the user if edits should be spread to a status date instead, and if so, asks for a status date to use.
 
 
 ```vb

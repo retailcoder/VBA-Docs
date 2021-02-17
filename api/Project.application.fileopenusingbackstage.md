@@ -11,25 +11,25 @@ localization_priority: Normal
 
 
 # Application.FileOpenUsingBackstage method (Project)
-Displays the  **Open** tab in the Backstage view.
+Displays the **Open** tab in the Backstage view.
 
 ## Syntax
 
 _expression_. `FileOpenUsingBackstage`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
 
  **Boolean**
 
-The return value is  **True** if Project displays the **Open** tab in the Backstage view; otherwise, **False** if there is an error.
+The return value is **True** if Project displays the **Open** tab in the Backstage view; otherwise, **False** if there is an error.
 
 
 ## Example
 
-The following line of code prints  `Open in Backstage: True` in the **Immediate** window of the VBE.
+The following line of code prints  `Open in Backstage: True` in the Immediate window of the VBE.
 
 
 ```vb

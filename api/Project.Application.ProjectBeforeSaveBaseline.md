@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.ProjectBeforeSaveBaseline event (Project)
 
-Occurs before a baseline is saved. Uses the  **EventInfo** object parameter.
+Occurs before a baseline is saved. Uses the **EventInfo** object parameter.
 
 
 ## Syntax
 
 _expression_. `ProjectBeforeSaveBaseline`( `_pj_`, `_Interim_`, `_bl_`, `_InterimCopy_`, `_InterimInto_`, `_AllTasks_`, `_RollupToSummaryTasks_`, `_RollupFromSubtasks_`, `_Info_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -35,11 +35,11 @@ _expression_. `ProjectBeforeSaveBaseline`( `_pj_`, `_Interim_`, `_bl_`, `_Interi
 | _AllTasks_|Required|**Boolean**|**True** if saving the entire project.|
 | _RollupToSummaryTasks_|Required|**Boolean**|**True** if you wish to roll up baselines to summary tasks.|
 | _RollupFromSubtasks_|Required|**Boolean**|**True** if you wish to roll up baselines from subtasks.|
-| _Info_|Required|**EventInfo**|EventInfo.Cancel is  **False** when the event occurs. If the event procedure sets this argument to **True**, the baseline is not saved.|
+| _Info_|Required|**EventInfo**|EventInfo.Cancel is **False** when the event occurs. If the event procedure sets this argument to **True**, the baseline is not saved.|
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

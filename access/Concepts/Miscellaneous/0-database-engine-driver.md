@@ -6,10 +6,9 @@ f1_keywords:
 ROBOTS: INDEX
 ms.prod: access
 ms.assetid: cff53f53-5848-72f7-82b0-e600e82bd3de
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
-
 
 # 0 Database Engine driver 
 
@@ -17,28 +16,26 @@ localization_priority: Normal
 
 When you install the Microsoft Access database engine database driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys. You must use the Registry Editor to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Access Database Engine database driver.
 
-
 ## Microsoft Jet Engine initialization settings
 
 The **Access Connectivity Engine\Engines** folder includes initialization settings for the msjet40.dll database engine, used for access to Microsoft Access databases. Typical initialization settings for the entries in this folder are shown in the following example.
-
+```jet
     SystemDB = <path>\System.mdb
 
     CompactBYPkey = 1
 
     PrevFormatCompactWithUNICODECompression=1
-
+```
 The Microsoft Access database engine uses the following entries.
-
-
 
 |**Entry**|**Description**|
 |:-----|:-----|
 |SystemDB|Specifies the full path and file name of the workgroup information file. The default is the appropriate path followed by the file name System.mdb. Values are of type REG_SZ.|
 |CompactByPKey|Specifies that when you compact tables they are copied in primary-key order, if a primary key exists on the table. If no primary key exists on a table, the tables are copied in base-table order. A value of 0 indicates that tables should be compacted in base-table order; a non-zero value indicates that tables should be compacted in primary-key order, if a primary key exists. The default value is non-zero. Values are of type REG_DWORD.|
-|PrevFormatCompactWithUNICODECompression|Microsoft Access database engine databases use the Unicode character set to store textual data. Compressing the Unicode data can significantly improve the performance of the database because of the reduced number of page read/write operations that are needed afterwards. This key determines if databases created by the Microsoft Jet database engine version 3.x or earlier should be created with compressed Unicode or un-compressed Unicode.<br/><br/>**NOTE**  This setting does not apply to compacting Microsoft Access database engine databases. Microsoft Access database engine databases will default to keep the compression settings with which they were created.|
+|PrevFormatCompactWithUNICODECompression|Microsoft Access database engine databases use the Unicode character set to store textual data. Compressing the Unicode data can significantly improve the performance of the database because of the reduced number of page read/write operations that are needed afterwards. This key determines if databases created by the Microsoft Jet database engine version 3.x or earlier should be created with compressed Unicode or un-compressed Unicode.<br/><br/>**NOTE** This setting does not apply to compacting Microsoft Access database engine databases. Microsoft Access database engine databases will default to keep the compression settings with which they were created.|
 
 The **Access Connectivity Engine\Engines\ACE** folder includes initialization settings for the Ace.dll database engine, used for access to Microsoft Access databases. Typical initialization settings for the entries in this folder are shown in the following example.
+```jet
 
     FlushTransactionTimeout=500
 
@@ -71,6 +68,7 @@ The **Access Connectivity Engine\Engines\ACE** folder includes initialization se
 The Microsoft Access database engine uses the following entries.
 
 <br/>
+```
 
 |Entry|Description|
 |:-----|:-----|
@@ -99,8 +97,8 @@ The Microsoft Access database engine uses the following entries.
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

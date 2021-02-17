@@ -19,14 +19,14 @@ Gets the maximum width available for a project window in points. Read-only Doubl
 
 ## Syntax
 
-_expression_. `UsableWidth`
+_expression_.**UsableWidth**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **UsableWidth** property equals the total amount of horizontal space inside the main window minus the space taken up by scroll bars.
+The **UsableWidth** property equals the total amount of horizontal space inside the main window minus the space taken up by scroll bars.
 
 
 ## Example

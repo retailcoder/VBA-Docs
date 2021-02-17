@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Chart property (Project)
-Gets a  **Chart** object that represents the chart contained in the shape. Read-only **Chart**.
+Gets a **Chart** object that represents the chart contained in the shape. Read-only **Chart**.
 
 ## Syntax
 
 _expression_.**Chart**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

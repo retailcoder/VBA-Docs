@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Document.DefaultTargetFrame property (Word)
 
-Returns or sets a  **String** indicating the browser frame in which to display a Web page reached through a hyperlink. Read/write.
+Returns or sets a  **String** indicating the browser frame in which to display a webpage reached through a hyperlink. Read/write.
 
 
 ## Syntax
@@ -26,7 +26,7 @@ _expression_. `DefaultTargetFrame`
 
 ## Remarks
 
-While the  **DefaultTargetFrame** property can use any user-defined string, it has the following predefined strings: "_top", "_blank", "_parent", and "_self".
+While the **DefaultTargetFrame** property can use any user-defined string, it has the following predefined strings: "_top", "_blank", "_parent", and "_self".
 
 
 ## Example

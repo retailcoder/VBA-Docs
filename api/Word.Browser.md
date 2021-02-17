@@ -19,7 +19,7 @@ Represents the browser tool used to move the insertion point to objects in a doc
 
 ## Remarks
 
-Use the  **[Browser](Word.Application.Browser.md)** property to return the **Browser** object. The following example moves the insertion point just before the next field in the active document.
+Use the **[Browser](Word.Application.Browser.md)** property to return the **Browser** object. The following example moves the insertion point just before the next field in the active document.
 
 
 ```vb
@@ -44,11 +44,20 @@ If Selection.Information(wdWithInTable) = True Then
 End If
 ```
 
+## Methods
+
+- [Next](Word.Browser.Next.md)
+- [Previous](Word.Browser.Previous.md)
+
+## Properties
+
+- [Application](Word.Browser.Application.md)
+- [Creator](Word.Browser.Creator.md)
+- [Parent](Word.Browser.Parent.md)
+- [Target](Word.Browser.Target.md)
 
 ## See also
 
-
-
-[Word Object Model Reference](overview/Word/object-model.md)
+- [Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

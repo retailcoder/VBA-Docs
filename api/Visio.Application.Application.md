@@ -7,7 +7,7 @@ ms.prod: visio
 api_name:
 - Visio.Application.Application
 ms.assetid: be058d51-6bfa-c653-da44-fa38e0b96c63
-ms.date: 06/08/2017
+ms.date: 06/24/2019
 localization_priority: Normal
 ---
 
@@ -21,18 +21,17 @@ Returns the instance of Microsoft Visio that is associated with an object. Read-
 
 _expression_.**Application**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
 
-Application
+**Application**
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the active document and prints its process ID number in the Immediate window.
-
+The following Microsoft Visual Basic for Applications (VBA) macro gets the **Application** object associated with the active document and prints its process ID number in the Immediate window.
 
 ```vb
  

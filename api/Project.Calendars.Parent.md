@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # Calendars.Parent property (Project)
 
-Gets the parent of the  **Calendars** object. Read-only **Project**.
+Gets the parent of the **Calendars** object. Read-only **Project**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'Calendars' object.
+_expression_ A variable that represents a 'Calendars' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

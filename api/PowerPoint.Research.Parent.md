@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Research.Parent property (PowerPoint)
 
-Returns an  **Object** that represents the parent object of the specified **Research** object. Read-only.
+Returns an **Object** that represents the parent object of the specified **Research** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ An expression that returns a [Research](./PowerPoint.Research.md) object.
+ _expression_ An expression that returns a [Research](PowerPoint.Research.md) object.
 
 
 ## Return value

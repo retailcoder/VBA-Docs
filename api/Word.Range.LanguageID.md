@@ -21,12 +21,12 @@ Returns or sets a  **[WdLanguageID](Word.WdLanguageID.md)** constant that repres
 
 _expression_. `LanguageID`
 
- _expression_ An expression that represents a '[Range](Word.Range.md)' object.
+ _expression_ An expression that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-Some of the  **WdLanguageID** constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
+Some of the **WdLanguageID** constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
 
 
 ## Example

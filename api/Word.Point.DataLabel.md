@@ -19,9 +19,9 @@ Returns the data label associated with the point. Read-only  **[DataLabel](Word.
 
 ## Syntax
 
-_expression_. `DataLabel`
+_expression_.**DataLabel**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Example

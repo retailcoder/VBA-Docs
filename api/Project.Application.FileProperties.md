@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.FileProperties method (Project)
 
-Displays the  **Properties** dialog box for the active project file.
+Displays the **Properties** dialog box for the active project file.
 
 
 ## Syntax
 
 _expression_. `FileProperties`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `FileProperties`
 
 ## Remarks
 
-See the  **[BuiltinDocumentProperties](Project.Project.BuiltinDocumentProperties.md)** and **[CustomDocumentProperties](Project.Project.CustomDocumentProperties.md)** properties, as well as the appropriate Visual Basic properties of the **[Project](Project.Project.md)** object, to manipulate the values of these properties.
+See the **[BuiltinDocumentProperties](Project.Project.BuiltinDocumentProperties.md)** and **[CustomDocumentProperties](Project.Project.CustomDocumentProperties.md)** properties, as well as the appropriate Visual Basic properties of the **[Project](Project.Project.md)** object, to manipulate the values of these properties.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

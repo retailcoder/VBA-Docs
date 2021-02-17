@@ -21,7 +21,7 @@ Activates the drawing feature.
 
 _expression_. `DrawingCreate`( `_Type_`, `_Behind_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,6 +40,6 @@ _expression_. `DrawingCreate`( `_Type_`, `_Behind_` )
 
 ## Remarks
 
-The  **DrawingCreate** method requires user interaction before additional code can be executed.
+The **DrawingCreate** method requires user interaction before additional code can be executed.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

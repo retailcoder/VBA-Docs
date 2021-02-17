@@ -19,7 +19,7 @@ Occurs before updating the document's XML data store with the value of a content
 
 ## Syntax
 
-Private Sub  _expression_ _'ContentControlBeforeStoreUpdate'(**_ContentControl_**, **_Content_**)
+_expression_.**ContentControlBeforeStoreUpdate'(**_ContentControl_**, **_Content_**)
 
  _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
@@ -36,9 +36,10 @@ Private Sub  _expression_ _'ContentControlBeforeStoreUpdate'(**_ContentControl_*
 ## Remarks
 
 
- **Note**  This event does not occur for repeating content controls.
+> [!NOTE] 
+> This event does not occur for repeating content controls.
 
-For information about using events with the  **Document** object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+For information about using events with the **Document** object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## See also

@@ -19,9 +19,9 @@ Moves the specified shape range vertically by the specified number of points.
 
 ## Syntax
 
-_expression_. `IncrementTop`( `_Increment_` )
+_expression_.**IncrementTop** (_Increment_)
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `IncrementTop`( `_Increment_` )
 
 ## Example
 
-This example duplicates shape one on  _myDocument_, sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
+This example duplicates shape one on _myDocument_, sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
 
 
 ```vb

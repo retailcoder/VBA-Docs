@@ -18,11 +18,11 @@ Gets or sets the name of the calendar to be used when scheduling the task. Read/
 
 _expression_. `Calendar`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-When there is no calendar set for the task, the  **Calendar** property is "None".
+When there is no calendar set for the task, the **Calendar** property is "None".
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

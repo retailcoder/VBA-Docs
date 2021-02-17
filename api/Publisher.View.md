@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.View
 ms.assetid: a865cf48-cd68-5789-6855-c09c05b7634b
-ms.date: 06/08/2017
+ms.date: 06/04/2019
 localization_priority: Normal
 ---
 
@@ -16,14 +16,13 @@ localization_priority: Normal
 
 Contains the view attributes (show all, field shading, table gridlines, and so on) for a window or pane.
  
+## Remarks
 
+Use the **[Document.ActiveView](Publisher.Document.ActiveView.md)** property to return the **View** object. 
 
 ## Example
 
-Use the  **[ActiveView](Publisher.Document.ActiveView.md)** property to return the **View** object. The following example specifies the zoom setting.
- 
-
- 
+The following example specifies the zoom setting.
 
 ```vb
 Sub ZoomFitSelection() 
@@ -31,12 +30,9 @@ Sub ZoomFitSelection()
 End Sub
 ```
 
+<br/>
+
 The following examples zoom in and out, respectively, on the active view.
- 
-
- 
-
-
 
 ```vb
 Sub ViewZoomIn() 
@@ -48,12 +44,9 @@ Sub ViewZoomOut()
 End Sub
 ```
 
+<br/>
+
 The following example scrolls the active view to the specified shape.
- 
-
- 
-
-
 
 ```vb
 Sub ScrollToShape() 
@@ -67,23 +60,21 @@ End Sub
 
 ## Methods
 
-
-
-|Name|
-|:-----|
-|[ScrollShapeIntoView](Publisher.View.ScrollShapeIntoView.md)|
-|[ZoomIn](Publisher.View.ZoomIn.md)|
-|[ZoomOut](Publisher.View.ZoomOut.md)|
+- [ScrollShapeIntoView](Publisher.View.ScrollShapeIntoView.md)
+- [ZoomIn](Publisher.View.ZoomIn.md)
+- [ZoomOut](Publisher.View.ZoomOut.md)
 
 ## Properties
 
+- [ActivePage](Publisher.View.ActivePage.md)
+- [Application](Publisher.View.Application.md)
+- [Parent](Publisher.View.Parent.md)
+- [Zoom](Publisher.View.Zoom.md)
+
+## See also
+
+- [Publisher Object Model Reference](overview/publisher/object-model.md)
 
 
-|Name|
-|:-----|
-|[ActivePage](Publisher.View.ActivePage.md)|
-|[Application](Publisher.View.Application.md)|
-|[Parent](Publisher.View.Parent.md)|
-|[Zoom](Publisher.View.Zoom.md)|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

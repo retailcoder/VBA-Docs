@@ -12,14 +12,14 @@ Gets or sets the chart type. Read/write  **Office.XlChartType**.
 
 ## Syntax
 
-_expression_. `ChartType`
+_expression_.**ChartType**
 
 _expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Remarks
 
-The  **ChartType** property corresponds to an action in the **Change Chart Type** dialog box. The command is on the ribbon under **CHART TOOLS**, on the  **DESIGN** tab.
+The **ChartType** property corresponds to an action in the **Change Chart Type** dialog box. The command is on the ribbon under **CHART TOOLS**, on the **DESIGN** tab.
 
 
 ## Example

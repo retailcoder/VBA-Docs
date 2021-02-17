@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Comment object (PowerPoint)
 
-Represents a comment on a given slide or slide range. The  **Comment** object is a member of the **[Comments](PowerPoint.Comments.md)** collection object.
+Represents a comment on a given slide or slide range. The **Comment** object is a member of the **[Comments](PowerPoint.Comments.md)** collection object.
 
 
 ## Remarks
@@ -33,7 +33,7 @@ Use the following properties to access comment data:
 
 ## Example
 
-Use  **[Comments](PowerPoint.Slide.Comments.md)** (index), where index is the number of the comment, or the **[Item](PowerPoint.Comments.Item.md)** method to access a single comment on a slide. This example displays the author of the first comment on the first slide. If there are no comments, it displays a message stating such.
+Use  **[Comments](PowerPoint.Slide.Comments.md)** (_index_), where _index_ is the number of the comment, or the **[Item](PowerPoint.Comments.Item.md)** method to access a single comment on a slide. This example displays the author of the first comment on the first slide. If there are no comments, it displays a message stating such.
 
 
 ```vb

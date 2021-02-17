@@ -19,14 +19,14 @@ Returns or sets the distance, in [points](../language/glossary/vbe-glossary.md#p
 
 ## Syntax
 
-_expression_. `InsideTop`
+_expression_.**InsideTop**
 
- _expression_ A variable that represents a '[PlotArea](Word.PlotArea.md)' object.
+_expression_ A variable that represents a '[PlotArea](Word.PlotArea.md)' object.
 
 
 ## Remarks
 
-The plot area used for this measurement does not include the axis labels. The  **[Top](Word.PlotArea.Top.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
+The plot area used for this measurement does not include the axis labels. The **[Top](Word.PlotArea.Top.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
 
 
 ## Example

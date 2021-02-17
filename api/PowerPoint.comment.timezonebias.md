@@ -12,14 +12,16 @@ localization_priority: Normal
 
 # Comment.TimeZoneBias property (PowerPoint)
 
-Returns a  **String** that specifies the local time zone adjustment for the contact. Read-only.
+Returns a **String** that specifies the local time zone adjustment for the contact. Read-only.
 
+> [!IMPORTANT]
+> This property does not work with modern comments.
 
 ## Syntax
 
 _expression_. `TimeZoneBias`
 
-_expression_ A variable that represents a [Comment](./PowerPoint.Comment.md) object.
+_expression_ A variable that represents a [Comment](PowerPoint.Comment.md) object.
 
 
 ## Property value

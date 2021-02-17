@@ -21,7 +21,7 @@ Positions the selected task boxes in the active Network Diagram view according t
 
 _expression_. `LayoutSelectionNow`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,9 +31,9 @@ _expression_. `LayoutSelectionNow`
 
 ## Remarks
 
-Layout options can be set with the  **BoxLayout** and **BoxLinks** methods.
+Layout options can be set with the **BoxLayout** and **BoxLinks** methods.
 
-The  **LayoutSelectionNow** method is only available when a Network Diagram view is active.
+The **LayoutSelectionNow** method is only available when a Network Diagram view is active.
 
 
 ## Example

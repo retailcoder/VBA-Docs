@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # FullSeriesCollection.Count property (PowerPoint)
 
-Returns a  **Long** that represents the number of full series in the collection. Read-only.
+Returns a **Long** that represents the number of full series in the collection. Read-only.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'FullSeriesCollection' object.
+_expression_ A variable that represents a **[FullSeriesCollection](powerpoint.fullseriescollection.md)** object.
 
 
 ## Property value

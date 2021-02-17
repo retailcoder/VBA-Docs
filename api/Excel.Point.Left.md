@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Point.Left
 ms.assetid: e219f939-b714-1229-f847-433d7ce6e2f6
-ms.date: 06/08/2017
+ms.date: 05/09/2019
 localization_priority: Normal
 ---
 
@@ -21,7 +21,7 @@ Returns a value that represents the distance, in [points](../language/glossary/v
 
 _expression_.**Left**
 
-_expression_ A variable that represents a [Point](Excel.Point-graph-object.md) object.
+_expression_ A variable that represents a **[Point](Excel.Point(object).md)** object.
 
 
 ## Return value
@@ -29,9 +29,6 @@ _expression_ A variable that represents a [Point](Excel.Point-graph-object.md) o
 Double
 
 
-## See also
 
-
-[Point Object](Excel.Point(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

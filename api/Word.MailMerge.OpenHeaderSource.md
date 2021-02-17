@@ -31,7 +31,7 @@ _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required| **String**|The file name of the header source.|
-| _Format_|Optional| **Variant**|The file converter used to open the document. Can be one of the  **WdOpenFormat** constants. To specify an external file format, use the **OpenFormat** property with a **FileConverter** object to determine the value to use with this argument.|
+| _Format_|Optional| **Variant**|The file converter used to open the document. Can be one of the **WdOpenFormat** constants. To specify an external file format, use the **OpenFormat** property with a **FileConverter** object to determine the value to use with this argument.|
 | _ConfirmConversions_|Optional| **Variant**| **True** to display the **Convert File** dialog box if the file isn't in Microsoft Word format.|
 | _ReadOnly_|Optional| **Variant**| **True** to open the header source on a read-only basis.|
 | _AddToRecentFiles_|Optional| **Variant**| **True** to add the file name to the list of recently used files at the bottom of the **File** menu.|
@@ -44,7 +44,8 @@ _expression_ Required. A variable that represents a '[MailMerge](Word.MailMerge.
 
 ## Security
 
-Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code. For recommended best practices on how to do this, see [Security Notes for Microsoft Office Solution Developers](https://msdn.microsoft.com/library/office/ff860261.aspx). 
+> [!IMPORTANT] 
+> Avoid using hard-coded passwords in your applications. If a password is required in a procedure, request the password from the user, store it in a variable, and then use the variable in your code. For recommended best practices on how to do this, see [Security notes for Office solution developers](../Library-Reference/Concepts/security-notes-for-microsoft-office-solution-developers.md). 
 
 
 ## Remarks

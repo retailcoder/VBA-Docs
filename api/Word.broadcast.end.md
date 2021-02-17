@@ -17,9 +17,9 @@ Ends the specified broadcast session.
 
 ## Syntax
 
-_expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents a 'Broadcast' object.
+_expression_ A variable that represents a **[Broadcast](Word.broadcast.md)** object.
 
 
 ## Return value
@@ -29,9 +29,9 @@ _expression_. `End`
 
 ## Remarks
 
-Calling the  **End** method terminates the broadcast session without displaying a confirmation prompt to the user. It also sets the value of the [Broadcast.AttendeeURL](Word.broadcast.attendeeurl.md) property to an empty string.
+Calling the **End** method terminates the broadcast session without displaying a confirmation prompt to the user. It also sets the value of the [Broadcast.AttendeeURL](Word.broadcast.attendeeurl.md) property to an empty string.
 
-If the document is not being broadcast, the method returns runtime error 4702.
+If the document is not being broadcast, the method returns run-time error 4702.
 
 
 ## See also

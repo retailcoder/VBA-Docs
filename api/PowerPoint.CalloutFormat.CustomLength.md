@@ -21,7 +21,7 @@ Specifies that the first segment of the callout line (the segment attached to th
 
 _expression_.**CustomLength** (_Length_)
 
-_expression_ A variable that represents a [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents a [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Parameters
@@ -46,7 +46,7 @@ Applying this method sets the [AutoLength](PowerPoint.CalloutFormat.AutoLength.m
 
 ## Example
 
-This example switches between an automatically scaling first segment and one with a fixed length for the callout line for shape one on  _myDocument_. For the example to work, shape one must be a callout.
+This example switches between an automatically scaling first segment and one with a fixed length for the callout line for shape one on _myDocument_. For the example to work, shape one must be a callout.
 
 
 ```vb

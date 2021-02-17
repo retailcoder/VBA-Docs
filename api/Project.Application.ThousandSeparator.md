@@ -18,11 +18,11 @@ Gets the thousands separator symbol. Read-only  **String**.
 
 _expression_. `ThousandSeparator`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project internally sets the  **ThousandSeparator** property equal to the corresponding value of the **Digit grouping symbol** in the **Regional and Language Options** dialog box in the Microsoft Windows Control Panel.
+Project internally sets the **ThousandSeparator** property equal to the corresponding value of the **Digit grouping symbol** in the **Regional and Language Options** dialog box in the Microsoft Windows Control Panel.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

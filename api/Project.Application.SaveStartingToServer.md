@@ -18,7 +18,7 @@ Occurs when Project Professional starts to save project changes to the Project S
 
 _expression_. `SaveStartingToServer`( `_bstrName_`, `_bstrprojGuid_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,11 +32,11 @@ _expression_. `SaveStartingToServer`( `_bstrName_`, `_bstrprojGuid_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-The  **SaveStartingToServer** event cannot be cancelled.
+The **SaveStartingToServer** event cannot be cancelled.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

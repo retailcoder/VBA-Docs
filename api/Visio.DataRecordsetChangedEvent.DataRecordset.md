@@ -14,17 +14,18 @@ localization_priority: Normal
 
 # DataRecordsetChangedEvent.DataRecordset property (Visio)
 
-Returns the  **DataRecordset** object associated with the **DataRecordsetChanged** event that fires when data in the data recordset are refreshed. Read-only.
+Returns the **DataRecordset** object associated with the **DataRecordsetChanged** event that fires when data in the data recordset are refreshed. Read-only.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-_expression_. `DataRecordset`
+_expression_.**DataRecordset**
 
- _expression_ An expression that returns a [DataRecordsetChangedEvent](./Visio.DataRecordsetChangedEvent.md) object.
+_expression_ An expression that returns a **[DataRecordsetChangedEvent](Visio.DataRecordsetChangedEvent.md)** object.
 
 
 ## Return value

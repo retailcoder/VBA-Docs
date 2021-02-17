@@ -21,14 +21,14 @@ Returns a  **[TextColumns](Word(textcolumns).md)** collection that represents th
 
 _expression_. `TextColumns`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
 There will always be at least one text column in the collection. When you create new text columns, you are adding to a collection of one column.
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

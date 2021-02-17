@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Project.ProjectSummaryTask property (Project)
 
-Gets a  **[Task](Project.Task.md)** object representing the project summary task for the active project. Read-only **Task**.
+Gets a **[Task](Project.Task.md)** object representing the project summary task for the active project. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_. `ProjectSummaryTask`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
@@ -26,7 +26,8 @@ _expression_. `ProjectSummaryTask`
 Local custom fields can be accessed directly from  **ProjectSummaryTask** as task custom fields.
 
 
- **Note**  Enterprise project fields are available when a project is opened from Project Server. To access enterprise custom fields, it is necessary to use the  **SetField** and **GetField** methods along with the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.
+> [!NOTE] 
+> Enterprise project fields are available when a project is opened from Project Server. To access enterprise custom fields, it is necessary to use the **SetField** and **GetField** methods along with the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.
 
 
 ## Example

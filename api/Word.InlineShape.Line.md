@@ -21,12 +21,12 @@ Returns a  **LineFormat** object that contains line formatting properties for th
 
 _expression_.**Line**
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Remarks
 
-For an inline shape with a border, the  **LineFormat** object represents the border.
+For an inline shape with a border, the **LineFormat** object represents the border.
 
 
 ## See also

@@ -26,12 +26,12 @@ _expression_. `NewColorOnReply`
 
 ## Remarks
 
-Use the  **NewColorOnReply** property if you want the reply text of email messages sent from Microsoft Word to be a different color than the original message.
+Use the **NewColorOnReply** property if you want the reply text of email messages sent from Microsoft Word to be a different color than the original message.
 
 
 ## Example
 
-This example checks to see if a user needs to choose a new color for email reply text and, if not, sets the reply font color to blue.
+This example checks to see if a user needs to choose a new color for email reply text, and if not, sets the reply font color to blue.
 
 
 ```vb

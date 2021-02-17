@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `PrintEvenPagesInAscendingOrder`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-If the ManualDuplexPrint argument of the  **[PrintOut](Word.Application.PrintOut.md)** method is **False**, this property is ignored.
+If the ManualDuplexPrint argument of the **[PrintOut](Word.Application.PrintOut.md)** method is **False**, this property is ignored.
 
 
 ## Example

@@ -19,9 +19,9 @@ Returns or sets the ending character position of a range. Read/write  **Long**.
 
 ## Syntax
 
-_expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks

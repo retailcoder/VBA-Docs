@@ -34,7 +34,7 @@ _expression_. `OpenSharedItem`( `_Path_` )
 
 ## Return value
 
-An  **Object** representing the appropriate Outlook item for the shared item.
+An **Object** representing the appropriate Outlook item for the shared item.
 
 
 ## Remarks
@@ -48,7 +48,8 @@ This method is used to open iCalendar appointment (.ics) files, vCard (.vcf) fil
 |vCard (.vcf) file| **[ContactItem](Outlook.ContactItem.md)**|
 |Outlook message (.msg) file|Type corresponds to the type of the item that was saved as the .msg file|
 
- **Note**  This method does not support iCalendar calendar (.ics) files. To open iCalendar calendar files, you can use the  **[OpenSharedFolder](Outlook.NameSpace.OpenSharedFolder.md)** method of the **NameSpace** object.
+> [!NOTE] 
+> This method does not support iCalendar calendar (.ics) files. To open iCalendar calendar files, you can use the  **[OpenSharedFolder](Outlook.NameSpace.OpenSharedFolder.md)** method of the **NameSpace** object.
 
 
 ## See also

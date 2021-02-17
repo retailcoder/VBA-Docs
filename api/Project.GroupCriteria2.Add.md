@@ -11,19 +11,17 @@ localization_priority: Normal
 
 # GroupCriteria2.Add method (Project)
 
-Adds a  **GroupCriterion2** object to the **GroupCriteria2** collection.
+Adds a **GroupCriterion2** object to the **GroupCriteria2** collection.
 
 
 ## Syntax
 
-_expression_.**Add**( `_FieldName_`, `_Ascending_`, `_FontName_`, `_FontSize_`, `_FontBold_`, `_FontItalic_`, `_FontUnderLine_`, `_FontColor_`, `_CellColor_`, `_Pattern_`, `_GroupOn_`, `_StartAt_`, `_GroupInterval_` )
+_expression_.**Add** (_FieldName_, _Ascending_, _FontName_, _FontSize_, _FontBold_, _FontItalic_, _FontUnderLine_, _FontColor_, _CellColor_, _Pattern_, _GroupOn_, _StartAt_, _GroupInterval_)
 
  _expression_ An expression that returns a 'GroupCriteria2' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,9 +33,9 @@ _expression_.**Add**( `_FieldName_`, `_Ascending_`, `_FontName_`, `_FontSize_`, 
 | _FontItalic_|Optional|**Boolean**|**True** if the font in a group definition is italic. The default value is **False**.|
 | _FontUnderLine_|Optional|**Boolean**|**True** if the font in a group definition is underlined. The default value is **False**.|
 | _FontColor_|Optional|**PjColor**| The color of the font in a group definition. Can be one of the **[PjColor](Project.PjColor.md)** constants. The default value is **pjBlack**.|
-| _CellColor_|Optional|**PjColor**|The color of the cell background in a group definition. Can be one of the  **PjColor** constants. The default value is **pjColorAutomatic**.|
-| _Pattern_|Optional|**PjBackgroundPattern**|The pattern for the cells in a group definition. Can be one of the  **[PjBackgroundPattern](Project.PjBackgroundPattern.md)** constants.|
-| _GroupOn_|Optional|**PjGroupOn**|The type of grouping in a group definition. Can be one of the  **[PjGroupOn](Project.PjGroupOn.md)** constants. The default value is **pjGroupOnEachValue**.|
+| _CellColor_|Optional|**PjColor**|The color of the cell background in a group definition. Can be one of the **PjColor** constants. The default value is **pjColorAutomatic**.|
+| _Pattern_|Optional|**PjBackgroundPattern**|The pattern for the cells in a group definition. Can be one of the **[PjBackgroundPattern](Project.PjBackgroundPattern.md)** constants.|
+| _GroupOn_|Optional|**PjGroupOn**|The type of grouping in a group definition. Can be one of the **[PjGroupOn](Project.PjGroupOn.md)** constants. The default value is **pjGroupOnEachValue**.|
 | _StartAt_|Optional|**Variant**|The start of the intervals in a group definition. The default value is 0 for all fields except date fields, where it is the string "Project Start Date".|
 | _GroupInterval_|Optional|**Variant**|The interval in a group definition. The default value is 1.|
 
@@ -48,7 +46,7 @@ GroupCriterion2
 
 ## Remarks
 
-To add a  **GroupCriterion2** object where colors can be hexadecimal values, use the **[AddEx](Project.GroupCriteria2.AddEx.md)** method.
+To add a **GroupCriterion2** object where colors can be hexadecimal values, use the **[AddEx](Project.GroupCriteria2.AddEx.md)** method.
 
 
 ## See also

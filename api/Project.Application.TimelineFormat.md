@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.TimelineFormat method (Project)
 
-Formats the  **Timeline** view to specify the number of text lines in timeline tasks and whether to show or hide details.
+Formats the **Timeline** view to specify the number of text lines in timeline tasks and whether to show or hide details.
 
 
 ## Syntax
 
 _expression_. `TimelineFormat`( `_NumLines_`, `_Minimized_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_. `TimelineFormat`( `_NumLines_`, `_Minimized_` )
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _NumLines_|Optional|**Variant**|Number of text lines to show in tasks on the timeline. Values can be 1 through 10; other values are ignored.|
-| _Minimized_|Optional|**Boolean**|If  **true**, minimizes the timeline so that tasks do not show details. If **false**, vertically expands the timeline so that tasks show detail text lines.|
+| _Minimized_|Optional|**Boolean**|If  **True**, minimizes the timeline so that tasks do not show details. If **False**, vertically expands the timeline so that tasks show detail text lines.|
 
 ## Return value
 
@@ -40,7 +40,7 @@ _expression_. `TimelineFormat`( `_NumLines_`, `_Minimized_` )
 
 ## Remarks
 
-The  **TimelineFormat** method parameters correspond to the **Text Lines** command and the **Detailed Timeline** command on the **Format** tab for **Timeline Tools** in the ribbon.
+The **TimelineFormat** method parameters correspond to the **Text Lines** command and the **Detailed Timeline** command on the **Format** tab for **Timeline Tools** in the ribbon.
 
 If the timeline does not show tasks, the  _Minimized_ parameter has no effect. If the **Timeline** view is not active, the **TimelineFormat** method results in run-time error 1100, "Application-defined or object-defined error."
 

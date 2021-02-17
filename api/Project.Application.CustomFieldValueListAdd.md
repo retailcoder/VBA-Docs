@@ -21,7 +21,7 @@ Adds an item to the value list for a custom field.
 
 _expression_. `CustomFieldValueListAdd`( `_FieldID_`, `_Value_`, `_Description_`, `_Phonetic_`, `_Index_`, `_FieldDefault_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `CustomFieldValueListAdd`( `_FieldID_`, `_Value_`, `_Description_`
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|The custom field. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Value_|Optional|**String**|The value to add to the list.|
 | _Description_|Optional|**String**|A description of the value.|
 | _Phonetic_|Optional|**String**|The phonetic spelling of  **Value**, used for sorting into syllabary order in Japanese. For languages other than Japanese, **Phonetic** is ignored.|

@@ -19,9 +19,9 @@ Returns a  **PageNumber** object that represents page numbers added to a header 
 
 ## Syntax
 
-_expression_.**Add**( `_PageNumberAlignment_` , `_FirstPage_` )
+_expression_.**Add** (_PageNumberAlignment_, _FirstPage_)
 
-_expression_ Required. A variable that represents a '[PageNumbers](Word.pagenumbers.md)' collection.
+_expression_ Required. A variable that represents a **[PageNumbers](Word.PageNumbers.md)** object.
 
 
 ## Parameters
@@ -35,7 +35,7 @@ _expression_ Required. A variable that represents a '[PageNumbers](Word.pagenumb
 
 ## Remarks
 
-If the  **LinkToPrevious** property for the **HeaderFooter** object is set to **True**, the page numbers will continue sequentially from one section to next throughout the document.
+If the **LinkToPrevious** property for the **HeaderFooter** object is set to **True**, the page numbers will continue sequentially from one section to next throughout the document.
 
 
 ## Example

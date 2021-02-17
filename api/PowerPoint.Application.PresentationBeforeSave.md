@@ -21,7 +21,7 @@ Occurs before a presentation is saved.
 
 _expression_. `PresentationBeforeSave`( `_Pres_`, `_Cancel_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ To access the  **Application** events, declare an **Application** variable in th
 
 ## Example
 
-This example checks if there are revisions in a presentation and, if there are, asks whether to save the presentation. If a user's response is no, the save process is canceled. This example assumes an  **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
+This example checks if there are revisions in a presentation, and if there are, asks whether to save the presentation. If a user's response is no, the save process is canceled. This example assumes an **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
 
 
 ```vb

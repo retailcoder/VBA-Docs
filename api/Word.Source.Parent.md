@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Source.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Source** object.
+Returns an **Object** that represents the parent object of the specified **Source** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Source](Word.Source.md)' object.
+_expression_ A variable that represents a '[Source](Word.Source.md)' object.
 
 
 ## See also

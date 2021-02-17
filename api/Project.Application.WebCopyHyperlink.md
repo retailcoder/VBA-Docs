@@ -21,7 +21,7 @@ Copies the hyperlink of the selected item to the Clipboard.
 
 _expression_. `WebCopyHyperlink`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `WebCopyHyperlink`
 
 ## Remarks
 
-The  **WebCopyHyperlink** method is unavailable if the selected item does not contain a hyperlink.
+The **WebCopyHyperlink** method is unavailable if the selected item does not contain a hyperlink.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

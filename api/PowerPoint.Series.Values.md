@@ -19,9 +19,9 @@ Returns or sets a collection of all the values in the series. Read/write  **Vari
 
 ## Syntax
 
-_expression_. `Values`
+_expression_.**Values**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks
@@ -34,7 +34,8 @@ The value of this property can be either the address of a range on the chart's w
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the series values from a range address.
 
@@ -56,7 +57,8 @@ End With
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 To assign a constant value to each individual data point, you must use an array, as shown in the following example.
 

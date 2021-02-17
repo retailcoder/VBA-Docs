@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Exception.Delete method (Project)
 
-Deletes the  **Exception** object from an **Exceptions** collection.
+Deletes the **Exception** object from an **Exceptions** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## See also

@@ -21,7 +21,7 @@ Turns on extend mode, or if extend mode is already on, extends the selection to 
 
 _expression_.**Extend** (_Character_)
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,11 +30,11 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Character_|Optional| **Variant**|The character through which the selection is extended. This argument is case sensitive and must evaluate to a  **String** or an error occurs. Also, if the value of this argument is longer than a single character, Microsoft Word ignores the command entirely.|
+| _Character_|Optional| **Variant**|The character through which the selection is extended. This argument is case-sensitive and must evaluate to a  **String** or an error occurs. Also, if the value of this argument is longer than a single character, Microsoft Word ignores the command entirely.|
 
 ## Remarks
 
-Using this method sets the  **ExtendMode** property to **True** if it is not already.
+Using this method sets the **ExtendMode** property to **True** if it is not already.
 
  The progression of selected units of text is as follows: word, sentence, paragraph, section, entire document. If Character is specified, this method extends the selection forward through the next instance of the specified character. The selection is extended by moving the active end of the selection.
 
@@ -57,7 +57,7 @@ With Selection
 End With
 ```
 
-Here is an example that accomplishes the same task without the  **Extend** method.
+Here is an example that accomplishes the same task without the **Extend** method.
 
 
 

@@ -12,7 +12,7 @@ Represents a collection of  **[Shape](./Project.shape.md)** objects in a custom 
 
 ## Example
 
-Use the  **[Report.Shapes](./Project.report.shapes.md)** property to get the **Shapes** collection object. In the following example, the report must be the active view to get the **Shapes** collection; otherwise, you get a run-time error 424 (Object required) in the `For Each oShape In oReport.Shapes` statement.
+Use the **[Report.Shapes](./Project.report.shapes.md)** property to get the **Shapes** collection object. In the following example, the report must be the active view to get the **Shapes** collection; otherwise, you get a run-time error 424 (Object required) in the `For Each oShape In oReport.Shapes` statement.
 
 
 ```vb
@@ -35,12 +35,12 @@ Sub ListShapesInReport()
         oReports(reportName).Apply
         
         Set oReport = oReports(reportName)
-        msgBoxTitle = "Shapes in report: '" &amp; oReport.Name &amp; "'"
+        msgBoxTitle = "Shapes in report: '" & oReport.Name & "'"
     
         For Each oShape In oReport.Shapes
             numShapes = numShapes + 1
-            msg = msg &amp; numShapes &amp; ". Shape type: " &amp; CStr(oShape.Type) _
-                &amp; ", '" &amp; oShape.Name &amp; "'" &amp; vbCrLf
+            msg = msg & numShapes & ". Shape type: " & CStr(oShape.Type) _
+                & ", '" & oShape.Name & "'" & vbCrLf
         Next oShape
         
         If numShapes > 0 Then
@@ -50,8 +50,8 @@ Sub ListShapesInReport()
                 Title:=msgBoxTitle
         End If
     Else
-         MsgBox Prompt:="The requested report, '" &amp; reportName _
-            &amp; "', does not exist.", Title:="Report error"
+         MsgBox Prompt:="The requested report, '" & reportName _
+            & "', does not exist.", Title:="Report error"
     End If
 End Sub
 ```

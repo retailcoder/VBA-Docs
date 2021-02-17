@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # EffectParameters.Amount property (PowerPoint)
 
-Returns or sets a  **Single** that represents the number of degrees an animated shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write.
+Returns or sets a **Single** that represents the number of degrees an animated shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write.
 
 
 ## Syntax
 
 _expression_. `Amount`
 
-_expression_ A variable that represents an [EffectParameters](./PowerPoint.EffectParameters.md) object.
+_expression_ A variable that represents an [EffectParameters](PowerPoint.EffectParameters.md) object.
 
 
 ## Return value

@@ -19,9 +19,9 @@ Returns the file name extensions associated with the specified  **FileConverter*
 
 ## Syntax
 
-_expression_. `Extensions`
+_expression_.**Extensions**
 
- _expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
 
 
 ## Example

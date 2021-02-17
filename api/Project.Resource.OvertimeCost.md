@@ -18,11 +18,11 @@ Gets the overtime cost for a resource. Read-only  **Variant**.
 
 _expression_. `OvertimeCost`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **OvertimeCost** property does not return any meaningful information for material resources.
+The **OvertimeCost** property does not return any meaningful information for material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

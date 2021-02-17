@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Window.SmallScroll
 ms.assetid: dcf1fdeb-36ab-06ed-a9fc-5b2bbaecc457
-ms.date: 06/08/2017
+ms.date: 05/21/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Scrolls the contents of the window by rows or columns.
 
 ## Syntax
 
-_expression_. `SmallScroll`( `_Down_` , `_Up_` , `_ToRight_` , `_ToLeft_` )
+_expression_.**SmallScroll** (_Down_, _Up_, _ToRight_, _ToLeft_)
 
-_expression_ A variable that represents a [Window](Excel.Window.md) object.
+_expression_ A variable that represents a **[Window](Excel.Window.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -42,9 +40,9 @@ Variant
 
 ## Remarks
 
-If  _Down_ and _Up_ are both specified, the contents of the window are scrolled by the difference of the arguments. For example, if _Down_ is 3 and _Up_ is 6, the contents are scrolled up three rows.
+If _Down_ and _Up_ are both specified, the contents of the window are scrolled by the difference of the arguments. For example, if _Down_ is 3 and _Up_ is 6, the contents are scrolled up three rows.
 
-If  _ToLeft_ and _ToRight_ are both specified, the contents of the window are scrolled by the difference of the arguments. For example, if _ToLeft_ is 3 and _ToRight_ is 6, the contents are scrolled to the right three columns.
+If _ToLeft_ and _ToRight_ are both specified, the contents of the window are scrolled by the difference of the arguments. For example, if _ToLeft_ is 3 and _ToRight_ is 6, the contents are scrolled to the right three columns.
 
 Any of these arguments can be a negative number.
 
@@ -53,16 +51,11 @@ Any of these arguments can be a negative number.
 
 This example scrolls the contents of the active window of Sheet1 down three rows.
 
-
 ```vb
 Worksheets("Sheet1").Activate 
 ActiveWindow.SmallScroll down:=3
 ```
 
 
-## See also
-
-
-[Window Object](Excel.Window.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

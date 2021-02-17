@@ -21,7 +21,7 @@ Returns the number of bulleted or numbered items and LISTNUM fields in the speci
 
 _expression_. `CountNumberedItems`
 
- _expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
+_expression_ A variable that represents a '[ListFormat](Word.ListFormat.md)' object.
 
 
 ## Example
@@ -45,7 +45,7 @@ Msgbox ActiveDocument.Content.ListFormat _
     .CountNumberedItems(Level:=1)
 ```
 
-This example counts the number of LISTNUM fields in the variable  _myRange_ . The result is displayed in a message box.
+This example counts the number of LISTNUM fields in the variable  _myRange_. The result is displayed in a message box.
 
 
 

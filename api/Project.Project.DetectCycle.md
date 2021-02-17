@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Project.DetectCycle property (Project)
 
-Gets a  **Tasks** collection that contains a set of circular task dependencies, if circular task references exist. Read-only **Tasks**.
+Gets a **Tasks** collection that contains a set of circular task dependencies, if circular task references exist. Read-only **Tasks**.
 
 
 ## Syntax
 
 _expression_. `DetectCycle`
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

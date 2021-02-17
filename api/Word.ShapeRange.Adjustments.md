@@ -19,9 +19,9 @@ Returns an  **[Adjustments](Word.Adjustments.md)** object that contains adjustme
 
 ## Syntax
 
-_expression_. `Adjustments`
+_expression_.**Adjustments**
 
- _expression_ A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## See also

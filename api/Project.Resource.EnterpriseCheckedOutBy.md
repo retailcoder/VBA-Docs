@@ -21,11 +21,11 @@ Gets the name of the user who has the enterprise resource checked out. Read-only
 
 _expression_. `EnterpriseCheckedOutBy`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **EnterpriseCheckedOutBy** property is available only in Project Professional.
+The **EnterpriseCheckedOutBy** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

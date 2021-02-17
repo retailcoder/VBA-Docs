@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.GroupShapes.Item
 ms.assetid: d0e2f8a6-6529-a274-410b-744c2bb55774
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -19,18 +19,16 @@ Returns an individual object in a specified collection.
 
 ## Syntax
 
-_expression_.**Item**(**_Index_**)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a  **GroupShapes** object.
+_expression_ A variable that represents a **[GroupShapes](Publisher.GroupShapes.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Variant**|The number or name of the field or list box item to return.|
+|_Index_|Required| **Variant**|The number or name of the field or list box item to return.|
 
 ## Return value
 
@@ -40,7 +38,6 @@ Shape
 ## Example
 
 This example returns the first shape inside a grouped shape.
-
 
 ```vb
 Dim shpTemp As Shape 

@@ -14,9 +14,9 @@ Returns the type of an object. Read-only.
 
 ## Syntax
 
-_expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a 'CoauthMergeEvent' object.
+_expression_ A variable that represents a **[CoauthMergeEvent](visio.coauthmergeevent.md)** object.
 
 
 ## Remarks

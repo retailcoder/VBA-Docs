@@ -17,14 +17,15 @@ localization_priority: Normal
 Gets the ID of the data row in the specified data recordset linked to the shape.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `GetLinkedDataRow`( `_DataRecordsetID_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -49,7 +50,7 @@ The  **GetLinkedDataRow** method fails if the shape is not linked to a data row.
 
  The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **GetLinkedDataRow** method to get the ID of the data row in the specified data recordset linked to the shape.
 
-Before running this macro, add at least one data recordset to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to a data row in the data recordset most recently added to the collection, gets the ID of the row, and then prints the ID of the row in the **Immediate** window.
+Before running this macro, add at least one data recordset to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to a data row in the data recordset most recently added to the collection, gets the ID of the row, and then prints the ID of the row in the Immediate window.
 
 
 

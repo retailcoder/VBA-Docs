@@ -21,7 +21,7 @@ Represents the error bars on a chart series.
 
  Error bars indicate the degree of uncertainty for chart data. Only series in area, bar, column, line, and scatter groups on a 2D chart can have error bars. Only series in scatter groups can have x and y error bars. This object is not a collection. There is no object that represents a single error bar; you either enable x error bars or y error bars for all points in a series or you disable them.
 
-The  **[ErrorBar](PowerPoint.Series.ErrorBar.md)** method changes the error bar format and type.
+The **[ErrorBar](PowerPoint.Series.ErrorBar.md)** method changes the error bar format and type.
 
 
 ## Example
@@ -29,7 +29,8 @@ The  **[ErrorBar](PowerPoint.Series.ErrorBar.md)** method changes the error bar 
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 Use the  **[ErrorBars](PowerPoint.Series.ErrorBars.md)** property to return the **ErrorBars** object. The following example enables error bars for series one of the first chart in the active document and then sets the end style for the error bars.
 

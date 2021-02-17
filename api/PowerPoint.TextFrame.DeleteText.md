@@ -19,14 +19,14 @@ Deletes the text associated with the specified shape.
 
 ## Syntax
 
-_expression_. `DeleteText`
+_expression_.**DeleteText**
 
- _expression_ A variable that represents a [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents a **[TextFrame](PowerPoint.TextFrame.md)** object.
 
 
 ## Example
 
-If shape two on  _myDocument_ contains text, this example deletes the text.
+If shape two on _myDocument_ contains text, this example deletes the text.
 
 
 ```vb

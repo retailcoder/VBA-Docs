@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.WebCommandButton.ButtonText
 ms.assetid: 0a9a7bd9-de7e-7e80-0aa2-7cefda17f354
-ms.date: 06/08/2017
+ms.date: 06/18/2019
 localization_priority: Normal
 ---
 
 
 # WebCommandButton.ButtonText property (Publisher)
 
-Returns or sets a  **String** that represents the text that appears on the face of a Web command button. Read/write.
+Returns or sets a **String** that represents the text that appears on the face of a web command button. Read/write.
 
 
 ## Syntax
 
 _expression_.**ButtonText**
 
- _expression_ A variable that represents a  **WebCommandButton** object.
+_expression_ A variable that represents a **[WebCommandButton](Publisher.WebCommandButton.md)** object.
 
 
 ## Return value
@@ -31,8 +31,7 @@ String
 
 ## Example
 
-This example creates a new Web command button, assigns text to appear on its face, and specifies an email address to which to send the form data.
-
+This example creates a new web command button, assigns text to appear on its face, and specifies an email address to which to send the form data.
 
 ```vb
 Sub NewWebForm() 

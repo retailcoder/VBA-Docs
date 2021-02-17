@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.About method (Project)
 
-Displays the  **About Microsoft Project** dialog box, which lists version, copyright, and license information about Project.
+Displays the **About Microsoft Project** dialog box, which lists version, copyright, and license information about Project.
 
 
 ## Syntax
 
 _expression_. `About`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

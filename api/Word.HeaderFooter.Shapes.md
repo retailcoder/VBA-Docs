@@ -21,14 +21,14 @@ Returns a  **Shapes** collection that represents all the **Shape** objects in a 
 
 _expression_.**Shapes**
 
- _expression_ A variable that represents a '[HeaderFooter](Word.HeaderFooter.md)' object.
+_expression_ A variable that represents a '[HeaderFooter](Word.HeaderFooter.md)' object.
 
 
 ## Remarks
 
-This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts. For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+This collection can contain drawings, shapes, pictures, OLE objects, ActiveX controls, text objects, and callouts. For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
-The  **Shapes** property, when applied to a document, returns all the **Shape** objects in the main story of the document, excluding the headers and footers. When applied to a **HeaderFooter** object, the **Shapes** property returns all the **Shape** objects found in all the headers and footers in the document.
+The **Shapes** property, when applied to a document, returns all the **Shape** objects in the main story of the document, excluding the headers and footers. When applied to a **HeaderFooter** object, the **Shapes** property returns all the **Shape** objects found in all the headers and footers in the document.
 
 
 ## Example

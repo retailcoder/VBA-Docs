@@ -8,18 +8,18 @@ localization_priority: Normal
 
 
 # Reports.Count property (Project)
-Gets the number of items in the  **Reports** collection. Read-only **Long**.
+Gets the number of items in the **Reports** collection. Read-only **Long**.
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Remarks
 
-For a code example that uses the  **Reports.Count** property, see the **[Report.Index](Project.report.index.md)** property.
+For a code example that uses the **Reports.Count** property, see the **[Report.Index](Project.report.index.md)** property.
 
 
 ## Property value

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AnimationBehavior.Timing property (PowerPoint)
 
-Returns a  **[Timing](PowerPoint.Timing.md)** object that represents the timing properties for an animation sequence.
+Returns a **[Timing](PowerPoint.Timing.md)** object that represents the timing properties for an animation sequence.
 
 
 ## Syntax
 
 _expression_. `Timing`
 
-_expression_ A variable that represents an [AnimationBehavior](./PowerPoint.AnimationBehavior.md) object.
+_expression_ A variable that represents an [AnimationBehavior](PowerPoint.AnimationBehavior.md) object.
 
 
 ## Return value

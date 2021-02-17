@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # Shape.Nodes property (PowerPoint)
 
-Returns a  **[ShapeNodes](PowerPoint.ShapeNodes.md)** collection that represents the geometric description of the specified shape. Applies to **Shape** objects that represent freeform drawings.
+Returns a **[ShapeNodes](PowerPoint.ShapeNodes.md)** collection that represents the geometric description of the specified shape. Applies to **Shape** objects that represent freeform drawings.
 
 
 ## Syntax
 
-_expression_. `Nodes`
+_expression_.**Nodes**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Example
 
-This example adds a smooth node with a curved segment after node four in shape three on  _myDocument_. Shape three must be a freeform drawing with at least four nodes.
+This example adds a smooth node with a curved segment after node four in shape three on _myDocument_. Shape three must be a freeform drawing with at least four nodes.
 
 
 ```vb

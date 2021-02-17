@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.PivotTable.ShowPages
 ms.assetid: 7ebb55ab-ecda-31f7-23d2-fdefc12ee161
-ms.date: 06/08/2017
+ms.date: 05/09/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Creates a new PivotTable report for each item in the page field. Each new report
 
 ## Syntax
 
-_expression_. `ShowPages`( `_PageField_` )
+_expression_.**ShowPages** (_PageField_)
 
-_expression_ A variable that represents a [PivotTable](Excel.PivotTable.md) object.
+_expression_ A variable that represents a **[PivotTable](Excel.PivotTable.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -44,8 +42,7 @@ This method isn't available for OLAP data sources.
 
 ## Example
 
-This example creates a new PivotTable report for each item in the page field, which is the field named ?Country.?
-
+This example creates a new PivotTable report for each item in the page field (the field named Country).
 
 ```vb
 Set pvtTable = Worksheets("Sheet1").Range("A3").PivotTable 
@@ -53,9 +50,6 @@ pvtTable.ShowPages "Country"
 ```
 
 
-## See also
 
-
-[PivotTable Object](Excel.PivotTable.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

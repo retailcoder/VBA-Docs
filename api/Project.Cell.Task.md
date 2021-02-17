@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Cell.Task property (Project)
 
-Gets a  **[Task](Project.Task.md)** object representing the task in the active cell. Read-only **Task**.
+Gets a **[Task](Project.Task.md)** object representing the task in the active cell. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_. `Task`
 
- _expression_ A variable that represents a [Cell](./Project.Cell.md) object.
+_expression_ A variable that represents a [Cell](./Project.Cell.md) object.
 
 
 ## Example

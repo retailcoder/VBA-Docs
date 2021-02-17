@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Calendar.WeekDays property (Project)
 
-Gets a  **[Weekdays](Project.WeekDay.md)** collection representing the weekdays in the calendar. Read-only **Weekdays**.
+Gets a **[Weekdays](Project.WeekDay.md)** collection representing the weekdays in the calendar. Read-only **Weekdays**.
 
 
 ## Syntax
 
 _expression_. `WeekDays`
 
- _expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
+_expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
 
 
 ## Example

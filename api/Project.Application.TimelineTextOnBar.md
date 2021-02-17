@@ -21,7 +21,7 @@ Changes the format of text to display as a callout or within the Timeline bar, f
 
 _expression_. `TimelineTextOnBar`( `_TextOnBar_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `TimelineTextOnBar`( `_TextOnBar_` )
 
 ## Remarks
 
-The  **TimelineTextOnBar** method is equivalent to the **Display as Bar** and **Display as Callout** commands in the **Current Selection** group on the **Format** tab on the ribbon.
+The **TimelineTextOnBar** method is equivalent to the **Display as Bar** and **Display as Callout** commands in the **Current Selection** group on the **Format** tab on the ribbon.
 
 
 ## Example

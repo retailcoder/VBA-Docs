@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Document.Tags
 ms.assetid: d8baaf50-86ad-1997-c1b3-e54a77a3ee5b
-ms.date: 06/08/2017
+ms.date: 06/06/2019
 localization_priority: Normal
 ---
 
 
 # Document.Tags property (Publisher)
 
-Returns a  **[Tags](Publisher.Tags.md)** collection representing tags or custom properties applied to a shape, shape range, page, or publication.
+Returns a **[Tags](Publisher.Tags.md)** collection representing tags or custom properties applied to a shape, shape range, page, or publication.
 
 
 ## Syntax
 
 _expression_.**Tags**
 
- _expression_ A variable that represents a  **Document** object.
+_expression_ A variable that represents a **[Document](Publisher.Document.md)** object.
 
 
 ## Example
 
 This example adds a tag to each oval shape on the first page of the active publication.
-
 
 ```vb
 Dim shp As Shape 

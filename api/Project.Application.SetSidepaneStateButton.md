@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.SetSidepaneStateButton method (Project)
 
-Sets the state of the  **Toggle** button in the Project Guide. Deprecated in Project.
+Sets the state of the **Toggle** button in the Project Guide. Deprecated in Project.
 
 
 ## Syntax
 
 _expression_. `SetSidepaneStateButton`( `_DisplayState_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

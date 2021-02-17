@@ -21,12 +21,12 @@ Returns or sets the interval (in points) between the default tab stops in the sp
 
 _expression_. `DefaultTabStop`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example
 
-This example sets the default tab stops in the active document to 1 inch. The  **[InchesToPoints](Word.Application.InchesToPoints.md)** method is used to convert inches to points.
+This example sets the default tab stops in the active document to 1 inch. The **[InchesToPoints](Word.Application.InchesToPoints.md)** method is used to convert inches to points.
 
 
 ```vb

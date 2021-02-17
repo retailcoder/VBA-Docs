@@ -21,17 +21,17 @@ Returns or sets the width of the page in points. Read/write  **Single**.
 
 _expression_. `PageWidth`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
-Setting the  **PageWidth** property changes the **[PaperSize](Word.PageSetup.PaperSize.md)** property to **wdPaperCustom**. Use the **PaperSize** property to set the page height and width to those of a predefined paper size, such as Letter or A4.
+Setting the **PageWidth** property changes the **[PaperSize](Word.PageSetup.PaperSize.md)** property to **wdPaperCustom**. Use the **PaperSize** property to set the page height and width to those of a predefined paper size, such as Letter or A4.
 
 
 ## Example
 
-This example returns the page width for Document1. The  **[PointsToInches](Word.Global.PointsToInches.md)** method is used to convert points to inches.
+This example returns the page width for Document1. The **[PointsToInches](Word.Global.PointsToInches.md)** method is used to convert points to inches.
 
 
 ```vb

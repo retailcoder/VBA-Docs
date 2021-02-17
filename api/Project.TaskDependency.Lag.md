@@ -21,7 +21,7 @@ The duration of lag time between linked tasks. Read/write  **Variant**.
 
 _expression_. `Lag`
 
- _expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
+_expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
 
 
 ## Remarks
@@ -31,7 +31,7 @@ To specify lead time between tasks, use a negative value. String values default 
 
 ## Example
 
-To use the  **SetLagWeeks** macro, create two tasks, where Task 2 is linked to Task 1. When you run the macro, the **Immediate** window shows 4800 and 9, where the lag time is 4800 minutes and the type of lag is 9 (**pjWeeks**).
+To use the **SetLagWeeks** macro, create two tasks, where Task 2 is linked to Task 1. When you run the macro, the Immediate window shows 4800 and 9, where the lag time is 4800 minutes and the type of lag is 9 (**pjWeeks**).
 
 
 ```vb

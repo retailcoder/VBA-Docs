@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.MailMergeFilterCriterion.Index
 ms.assetid: e66e5afd-db28-cd00-9692-3b1a6d557198
-ms.date: 06/08/2017
+ms.date: 06/11/2019
 localization_priority: Normal
 ---
 
 
 # MailMergeFilterCriterion.Index property (Publisher)
 
-Returns a  **Long** that represents the position of a particular item in a specified collection. .
+Returns a **Long** that represents the position of a particular item in a specified collection. 
 
 
 ## Syntax
 
 _expression_.**Index**
 
- _expression_ A variable that represents a  **MailMergeFilterCriterion** object.
+_expression_ A variable that represents a **[MailMergeFilterCriterion](Publisher.MailMergeFilterCriterion.md)** object.
 
 
 ## Example
 
-The following example loops through the  **MailMergeDataFields** collection and displays the **Index** and **Name** properties for each field.
-
+The following example loops through the **MailMergeDataFields** collection and displays the **Index** and **Name** properties for each field.
 
 ```vb
 Dim mmfLoop As MailMergeDataField 
@@ -44,10 +43,9 @@ With ActiveDocument.MailMerge.DataSource
 End With
 ```
 
-The following example loops through the  **Plates** collection and displays the **Index** and **Name** properties for each plate.
+<br/>
 
-
-
+The following example loops through the **Plates** collection and displays the **Index** and **Name** properties for each plate.
 
 ```vb
 Dim plaLoop As Plate 

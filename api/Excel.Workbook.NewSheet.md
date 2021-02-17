@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.NewSheet
 ms.assetid: 5abb254d-a2c3-7dac-e79f-0de74a081ecd
-ms.date: 06/08/2017
+ms.date: 05/29/2019
 localization_priority: Normal
 ---
 
@@ -19,28 +19,25 @@ Occurs when a new sheet is created in the workbook.
 
 ## Syntax
 
-_expression_. `NewSheet`( `_Sh_` )
+_expression_.**NewSheet** (_Sh_)
 
 _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Sh_|Required| **Object**|The new sheet. Can be a  **[Worksheet](Excel.Worksheet.md)** or **[Chart](Excel.Chart(object).md)** object.|
+| _Sh_|Required| **Object**|The new sheet. Can be a **[Worksheet](Excel.Worksheet.md)** or **[Chart](Excel.Chart(object).md)** object.|
 
 ## Return value
 
-Nothing
+**Nothing**
 
 
 ## Example
 
 This example moves new sheets to the end of the workbook.
-
 
 ```vb
 Private Sub Workbook_NewSheet(ByVal Sh as Object) 
@@ -49,9 +46,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

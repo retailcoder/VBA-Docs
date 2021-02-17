@@ -18,7 +18,7 @@ Occurs when a new task is created.
 
 _expression_. `ProjectTaskNew`( `_pj_`, `_ID_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ _expression_. `ProjectTaskNew`( `_pj_`, `_ID_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
@@ -107,7 +107,7 @@ End Sub
 
     
     
-3. Run the  **Initialize_App** procedure to start listening to the events.
+3. Run the **Initialize_App** procedure to start listening to the events.
     
 4. Create a task. The event handler shows a message box every time a new task is added.
 

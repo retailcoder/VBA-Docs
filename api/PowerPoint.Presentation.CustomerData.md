@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.CustomerData property (PowerPoint)
 
-Returns a  **CustomerData** object. Read-only.
+Returns a **CustomerData** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `CustomerData`
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

@@ -19,7 +19,7 @@ Contains data and results returned by the  **[Search](Outlook.Search.md)** objec
 
 ## Remarks
 
-The  **Results** object contains properties and methods that allow you to view and manipulate data. For example the **[GetNext](Outlook.Results.GetNext.md)**, **[GetPrevious](Outlook.Results.GetPrevious.md)**, **[GetFirst](Outlook.Results.GetFirst.md)**, and **[GetLast](Outlook.Results.GetLast.md)** methods allow you to search through the results and view the data by field. The **[Sort](Outlook.Results.Sort.md)** method allows you to sort the data.
+The **Results** object contains properties and methods that allow you to view and manipulate data. For example the **[GetNext](Outlook.Results.GetNext.md)**, **[GetPrevious](Outlook.Results.GetPrevious.md)**, **[GetFirst](Outlook.Results.GetFirst.md)**, and **[GetLast](Outlook.Results.GetLast.md)** methods allow you to search through the results and view the data by field. The **[Sort](Outlook.Results.Sort.md)** method allows you to sort the data.
 
 Use the  **SearchObject.Results** property to return a **Results** object.
 
@@ -36,11 +36,11 @@ Private Sub Application_AdvancedSearchComplete(ByVal SearchObject As Search)
  
  Dim objRsts As Outlook.Results 
  
- MsgBox "The search " &amp; SearchObject.Tag &amp; _ 
+ MsgBox "The search " & SearchObject.Tag & _ 
  
- "has completed. The scope of the search was " &amp; _ 
+ "has completed. The scope of the search was " & _ 
  
- SearchObject.Scope &amp; "." 
+ SearchObject.Scope & "." 
  
  Set objRsts = SearchObject.Results 
  

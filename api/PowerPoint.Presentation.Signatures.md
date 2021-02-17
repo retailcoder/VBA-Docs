@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.Signatures property (PowerPoint)
 
-Returns a  **SignatureSet** object that represents a collection of digital signatures. Read-only.
+Returns a **SignatureSet** object that represents a collection of digital signatures. Read-only.
 
 
 ## Syntax
 
-_expression_. `Signatures`
+_expression_.**Signatures**
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

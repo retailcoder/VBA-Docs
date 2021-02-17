@@ -19,7 +19,7 @@ Occurs before updating the content in a content control, but only when the conte
 
 ## Syntax
 
-Private Sub  _expression_ _'ContentControlBeforeContentUpdate'(**_ContentControl_**, **_Content_**)
+_expression_.**ContentControlBeforeContentUpdate'(**_ContentControl_**, **_Content_**)
 
  _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
@@ -36,9 +36,10 @@ Private Sub  _expression_ _'ContentControlBeforeContentUpdate'(**_ContentControl
 ## Remarks
 
 
- **Note**  This event does not occur for repeating content controls.
+> [!NOTE] 
+> This event does not occur for repeating content controls.
 
-For information about using events with the  **Document** object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+For information about using events with the **Document** object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## See also

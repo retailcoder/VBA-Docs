@@ -26,10 +26,11 @@ _expression_. `ShowCropMarks`
 
 ## Remarks
 
-Displaying crop marks does not allow a user to change the margins by dragging the crop marks. Crop marks are only displayed to indicate where margins are located in the page. This property corresponds to the  **Crop marks** check box in the **Advanced** tab of the **Word Options** dialog box.
+Displaying crop marks does not allow a user to change the margins by dragging the crop marks. Crop marks are only displayed to indicate where margins are located in the page. This property corresponds to the **Crop marks** check box in the **Advanced** tab of the **Word Options** dialog box.
 
 
- **Note**  Crop marks are shown by default in East Asian languages and are off by default in all other languages.
+> [!NOTE] 
+> Crop marks are shown by default in East Asian languages and are off by default in all other languages.
 
 
 ## See also

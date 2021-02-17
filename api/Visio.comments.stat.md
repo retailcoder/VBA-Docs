@@ -14,9 +14,9 @@ Returns status information for an object. Read-only  **Integer**.
 
 ## Syntax
 
-_expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a 'Comments' object.
+_expression_ A variable that represents a **[Comments](Visio.Comments.md)** object.
 
 
 ## Remarks

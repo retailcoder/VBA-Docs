@@ -1,8 +1,7 @@
 ---
 title: Run an AppleScript with VB
 ms.prod: office
-ms.date: 06/08/2017
-localization_priority: Priority
+ms.date: 06/08/2019
 ---
 
 # Run an AppleScript with VB
@@ -35,7 +34,7 @@ The following are the [bundle id] values for Excel, PowerPoint, and Word:
 For example, the corresponding AppleScript for Excel would be in a file named `MyAppleScriptFile.applescript` that is in ~/Library/Application Scripts/com.microsoft.Excel/.
 
 > [!IMPORTANT] 
-> The folders such as `com.microsoft.Excel` may not exist. In that case, just create them by using a standard **mk dir** command. 
+> The folders such as `com.microsoft.Excel` may not exist. In that case, just create them by using a standard **mkdir** command. 
 
 The following is an example of a handler.
 

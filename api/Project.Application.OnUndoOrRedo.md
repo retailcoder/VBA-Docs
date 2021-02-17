@@ -21,7 +21,7 @@ Occurs when a transaction is undone or redone.
 
 _expression_. `OnUndoOrRedo`( `_bstrLabel_`, `_bstrGUID_`, `_fUndo_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -36,11 +36,11 @@ _expression_. `OnUndoOrRedo`( `_bstrLabel_`, `_bstrGUID_`, `_fUndo_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
-You can use the  **OnUndoOrRedo** event to manage undo or redo actions that are specified by the global **OpenUndoTransaction** and **CloseUndoTransaction** methods.
+You can use the **OnUndoOrRedo** event to manage undo or redo actions that are specified by the global **OpenUndoTransaction** and **CloseUndoTransaction** methods.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

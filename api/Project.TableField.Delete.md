@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # TableField.Delete method (Project)
 
-Deletes the  **TableField** object from a **TableFields** collection.
+Deletes the **TableField** object from a **TableFields** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [TableField](./Project.TableField.md) object.
+_expression_ A variable that represents a [TableField](./Project.TableField.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

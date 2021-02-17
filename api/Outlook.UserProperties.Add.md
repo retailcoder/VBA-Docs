@@ -19,14 +19,12 @@ Creates a new user property in the  **[UserProperties](Outlook.UserProperties.md
 
 ## Syntax
 
-_expression_.**Add**( `_Name_` , `_Type_` , `_AddToFolderFields_` , `_DisplayFormat_` )
+_expression_.**Add** (_Name_, _Type_, _AddToFolderFields_, _DisplayFormat_)
 
-_expression_ A variable that represents an [UserProperties](Outlook.UserProperties.md) object.
+_expression_ A variable that represents a **[UserProperties](Outlook.UserProperties.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -50,12 +48,12 @@ To set for the first time a property created by the  **UserProperties.Add** meth
 
 If you want to view a custom property on an item, you must use the  **UserProperties.Add** method to create that property. Custom properties created by the **[PropertyAccessor](Outlook.PropertyAccessor.md)** are not supported in a custom view.
 
-You cannot add custom properties to Office document items such as Word, Excel, or PowerPoint files. You will receive an error when you try to programmatically add a user-defined field to a  **[DocumentItem](Outlook.DocumentItem.md)** object.
+You cannot add custom properties to Office document items such as Word, Excel, or PowerPoint files. You will receive an error when you try to programmatically add a user-defined field to a **[DocumentItem](Outlook.DocumentItem.md)** object.
 
 
 ## Example
 
-This VBA example creates a new  **[ContactItem](Outlook.ContactItem.md)** object and adds "LastDateSpokenWith" as a custom property.
+This VBA example creates a new **[ContactItem](Outlook.ContactItem.md)** object and adds "LastDateSpokenWith" as a custom property.
 
 
 ```vb
@@ -70,7 +68,7 @@ Sub AddUserProperty()
 End Sub
 ```
 
-This VBA example creates a new  **ContactItem** object and adds "Details" as a user property. The value is set by changing the **[Value](Outlook.UserProperty.Value.md)** property of the **UserProperty** object.
+This VBA example creates a new **ContactItem** object and adds "Details" as a user property. The value is set by changing the **[Value](Outlook.UserProperty.Value.md)** property of the **UserProperty** object.
 
 
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.TextEffect property (PowerPoint)
 
-Returns a  **[TextEffectFormat](PowerPoint.TextEffectFormat.md)** object that contains text-effect formatting properties for the specified shape. Read-only.
+Returns a **[TextEffectFormat](PowerPoint.TextEffectFormat.md)** object that contains text-effect formatting properties for the specified shape. Read-only.
 
 
 ## Syntax
 
-_expression_. `TextEffect`
+_expression_.**TextEffect**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ Applies to  **[Shape](PowerPoint.Shape.md)** objects that represent WordArt.
 
 ## Example
 
-This example sets the font style to bold for shape three on  _myDocument_ if the shape is WordArt.
+This example sets the font style to bold for shape three on _myDocument_ if the shape is WordArt.
 
 
 ```vb

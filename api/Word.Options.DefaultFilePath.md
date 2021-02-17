@@ -21,7 +21,7 @@ Returns or sets default folders for items such as documents, templates, and grap
 
 _expression_. `DefaultFilePath`( `_Path_` )
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Parameters
@@ -46,7 +46,7 @@ This example sets the default folder for Word documents.
 Options.DefaultFilePath(wdDocumentsPath) = "C:\Documents"
 ```
 
-This example returns the current default path for user templates (corresponds to the default path setting on the  **File Locations** tab in the **Options** dialog box).
+This example returns the current default path for user templates (corresponds to the default path setting on the **File Locations** tab in the **Options** dialog box).
 
 
 

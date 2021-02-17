@@ -21,12 +21,12 @@ Returns the disk or Web path to the specified object. Read-only  **String**.
 
 _expression_.**Path**
 
-_expression_ Required. A variable that represents a '[RecentFile](Word.RecentFile.md)' object.
+_expression_ Required. A variable that represents a **[RecentFile](Word.RecentFile.md)** object.
 
 
 ## Remarks
 
-The path doesn't include a trailing character — for example, "C:\MSOffice" or "https://MyServer". Use the  **[PathSeparator](Word.Application.PathSeparator.md)** property to add the character that separates folders and drive letters. Use the **[Name](Word.RecentFile.Name.md)** property to return the file name without the path.
+The path doesn't include a trailing character — for example, "C:\MSOffice" or "https://MyServer". Use the **[PathSeparator](Word.Application.PathSeparator.md)** property to add the character that separates folders and drive letters. Use the **[Name](Word.RecentFile.Name.md)** property to return the file name without the path.
 
 
 ## See also

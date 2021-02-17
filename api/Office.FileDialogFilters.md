@@ -66,7 +66,7 @@ Sub Main()
                 'vrtSelectedItem is aString that contains the path of each selected item. 
                 'You can use any file I/O functions that you want to work with this path. 
                 'This example displays the path in a message box. 
-                MsgBox "Path name: " &amp; vrtSelectedItem 
+                MsgBox "Path name: " & vrtSelectedItem 
  
             Next vrtSelectedItem 
         'The user pressed Cancel. 
@@ -104,7 +104,7 @@ Sub Main()
         'Display the description of filters that include 
         'Microsoft Excel files 
         If InStr(1, fdf.Extensions, "xls", vbTextCompare) > 0 Then 
-            MsgBox "Description of filter: " &amp; fdf.Description 
+            MsgBox "Description of filter: " & fdf.Description 
         End If 
     Next fdf 
  
@@ -112,7 +112,7 @@ End Sub
 ```
 
 > [!NOTE] 
-> A run-time error will occur if the **Filters** property is used in conjunction with the **Clear**, **Add**, or **Delete** methods when applied to a Save As **FileDialog** object. For example, **Application.FileDialog([msoFileDialogSaveAs](office.msofiledialogtype.md)).Filters.Clear** will result in a run-time error.
+> A run-time error occurs if the **Filters** property is used in conjunction with the **Clear**, **Add**, or **Delete** methods when applied to a Save As **FileDialog** object. For example, **Application.FileDialog([msoFileDialogSaveAs](office.msofiledialogtype.md)).Filters.Clear** will result in a run-time error.
 
 
 ## See also

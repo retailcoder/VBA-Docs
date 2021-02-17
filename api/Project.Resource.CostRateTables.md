@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Resource.CostRateTables property (Project)
 
-Gets a  **[CostRateTables](Project.CostRateTable.md)** collection representing the cost rate tables for the resource. Read-only **CostRateTables**.
+Gets a **[CostRateTables](Project.CostRateTable.md)** collection representing the cost rate tables for the resource. Read-only **CostRateTables**.
 
 
 ## Syntax
 
 _expression_. `CostRateTables`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Example

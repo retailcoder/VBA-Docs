@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SnapToGrid`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +39,7 @@ Options.SnapToGrid = True
 Documents.Add
 ```
 
-This example returns the status of the  **Snap to grid** option in the **Snap to Grid** dialog box.
+This example returns the status of the **Snap to grid** option in the **Snap to Grid** dialog box.
 
 
 

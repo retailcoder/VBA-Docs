@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Editor.ID property (Word)
 
-Returns or sets the identifying label for the specified object when the parent document is saved as a Web page. Read-only  **String**.
+Returns or sets the identifying label for the specified object when the parent document is saved as a webpage. Read-only  **String**.
 
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
 _expression_ Required. A variable that represents an '[Editor](Word.Editor.md)' object.
 

@@ -21,7 +21,7 @@ Returns the attributes of the a  **Font** object. Read-only.
 
 _expression_. `Attributes`
 
- _expression_ A variable that represents a [Font](./Visio.Font.md) object.
+_expression_ A variable that represents a **[Font](Visio.Font.md)** object.
 
 
 ## Return value
@@ -35,7 +35,7 @@ When you get the  **Attributes** property of a **Font** object, the following va
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visFont0Alias**|128|
 

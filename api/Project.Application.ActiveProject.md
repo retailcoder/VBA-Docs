@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # Application.ActiveProject property (Project)
 
-Gets a  **[Project](Project.Project.md)** object that represents the active project. Read-only **Project**.
+Gets a **[Project](Project.Project.md)** object that represents the active project. Read-only **Project**.
 
 
 ## Syntax
 
 _expression_. `ActiveProject`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Example
 
-The following example adds the date and time to the  **Comments** field in the project **Properties** dialog box and then saves the project.
+The following example adds the date and time to the **Comments** field in the project **Properties** dialog box and then saves the project.
 
 
 ```vb

@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Sources.Count property (Word)
 
-Returns the number of items in the  **Sources** collection. Read-only **Long**.
+Returns the number of items in the **Sources** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[Sources](Word.Sources.md)' object.
+_expression_ A variable that represents a '[Sources](Word.Sources.md)' object.
 
 
 ## See also

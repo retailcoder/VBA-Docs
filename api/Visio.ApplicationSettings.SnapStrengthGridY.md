@@ -19,9 +19,9 @@ Specifies the distance in pixels along the  _y_-axis that gridlines pull when sn
 
 ## Syntax
 
-_expression_. `SnapStrengthGridY`
+_expression_.**SnapStrengthGridY**
 
- _expression_ A variable that represents a [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value
@@ -38,7 +38,7 @@ The minimum allowable value for the  **SnapStrengthGridY** property is 0 (zero),
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SnapStrengthGridY** property to print the current snap strength grid _y_ -axis setting in the **Immediate** window. It also shows how to get an **ApplicationSettings** object from the Visio **Application** object.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SnapStrengthGridY** property to print the current snap strength grid _y_ -axis setting in the Immediate window. It also shows how to get an **ApplicationSettings** object from the Visio **Application** object.
 
 
 ```vb

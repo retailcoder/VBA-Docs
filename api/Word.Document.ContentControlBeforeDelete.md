@@ -19,7 +19,7 @@ Occurs before removing a content control from a document.
 
 ## Syntax
 
-Private Sub  _expression_ _'ContentControlBeforeDelete'(**_OldContentControl_**, **_InUndoRedo_**)
+_expression_.**ContentControlBeforeDelete'(**_OldContentControl_**, **_InUndoRedo_**)
 
  _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
@@ -35,7 +35,7 @@ Private Sub  _expression_ _'ContentControlBeforeDelete'(**_OldContentControl_**,
 
 ## Remarks
 
-For information about using events with the  **Document** object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+For information about using events with the **Document** object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## See also

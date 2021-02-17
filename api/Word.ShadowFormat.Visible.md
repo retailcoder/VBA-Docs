@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_.**Visible**
 
-_expression_ Required. A variable that represents a '[ShadowFormat](Word.ShadowFormat.md)' object.
+_expression_ Required. A variable that represents a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## Remarks
 
-Some methods and properties may be unavailable if the  **Visible** property is **False**.
+Some methods and properties may be unavailable if the **Visible** property is **False**.
 
 
 ## See also

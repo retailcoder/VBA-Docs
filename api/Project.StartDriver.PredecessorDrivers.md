@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # StartDriver.PredecessorDrivers property (Project)
 
-Gets the  **[PredecessorDrivers](Project.predecessordrivers.md)** collection object for the task start driver. Read-only **PredecessorDrivers**.
+Gets the **[PredecessorDrivers](Project.predecessordrivers.md)** collection object for the task start driver. Read-only **PredecessorDrivers**.
 
 
 ## Syntax
 
 _expression_. `PredecessorDrivers`
 
- _expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
+_expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
 
 
 ## See also

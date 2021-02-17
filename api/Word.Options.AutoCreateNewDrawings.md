@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `AutoCreateNewDrawings`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-The  **AutoCreateNewDrawings** property only affects shapes as they are added from within Word. If shapes are added through Visual Basic for Applications code, they are added as specified in the code regardless of whether this option is set to **True** or **False**.
+The **AutoCreateNewDrawings** property only affects shapes as they are added from within Word. If shapes are added through Visual Basic for Applications code, they are added as specified in the code regardless of whether this option is set to **True** or **False**.
 
 
 ## Example

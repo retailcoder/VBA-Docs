@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ProtectedViewWindow.Presentation property (PowerPoint)
 
-Returns a  **[Presentation](PowerPoint.Presentation.md)** object that represents the presentation in which the specified window was created. Read-only.
+Returns a **[Presentation](PowerPoint.Presentation.md)** object that represents the presentation in which the specified window was created. Read-only.
 
 
 ## Syntax
 
 _expression_. `Presentation`
 
- _expression_ A variable that represents a [ProtectedViewWindow](./PowerPoint.ProtectedViewWindow.md) object.
+_expression_ A variable that represents a [ProtectedViewWindow](PowerPoint.ProtectedViewWindow.md) object.
 
 
 ## See also

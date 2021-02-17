@@ -19,9 +19,9 @@ Returns an object from a collection. Read-only.
 
 ## Syntax
 
-_expression_. `ItemU`( `_NameOrIndex_` )
+_expression_.**ItemU** (_NameOrIndex_)
 
- _expression_ A variable that represents a [Styles](./Visio.Styles.md) object.
+_expression_ A variable that represents a **[Styles](Visio.Styles.md)** object.
 
 
 ## Parameters
@@ -62,10 +62,6 @@ To search all shapes in the collection, plus the shapes inside groups and the co
 ```vb
 objRet = vsoShapes.ItemU("*{2287DC42-B167-11CE-88E9-0020AFDDD917}")
 ```
-
-
- **Note**  
-
 
 ## Example
 

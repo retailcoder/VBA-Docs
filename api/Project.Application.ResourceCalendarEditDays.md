@@ -21,7 +21,7 @@ Edits days in a resource calendar.
 
 _expression_. `ResourceCalendarEditDays`( `_ProjectName_`, `_ResourceName_`, `_StartDate_`, `_EndDate_`, `_WeekDay_`, `_Working_`, `_Default_`, `_From1_`, `_To1_`, `_From2_`, `_To2_`, `_From3_`, `_To3_`, `_From4_`, `_To4_`, `_From5_`, `_To5_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `ResourceCalendarEditDays`( `_ProjectName_`, `_ResourceName_`, `_S
 | _ResourceName_|Required|**String**|The name of the resource to edit.|
 | _StartDate_|Optional|**Variant**|The first date to edit.|
 | _EndDate_|Optional|**Variant**|The last date to edit.|
-| _WeekDay_|Optional|**Long**|The weekday to edit. If StartDate and EndDate are specified, WeekDay is ignored. Can be one of the  **[PjWeekday](Project.PjWeekday.md)** constants.|
+| _WeekDay_|Optional|**Long**|The weekday to edit. If StartDate and EndDate are specified, WeekDay is ignored. Can be one of the **[PjWeekday](Project.PjWeekday.md)** constants.|
 | _Working_|Optional|**Boolean**|**True** if the days are working days. If Default is **True**, Working is ignored.|
 | _Default_|Optional|**Boolean**|**True** if the resource calendar uses the values in the corresponding base calendar as defaults. The default value is **False**.|
 | _From1_|Optional|**Variant**|The start time of the first shift.|
@@ -55,6 +55,6 @@ _expression_. `ResourceCalendarEditDays`( `_ProjectName_`, `_ResourceName_`, `_S
 
 ## Remarks
 
-The  **ResourceCalendarEditDays** method returns a trappable error (error code 1101) when applied to material resources.
+The **ResourceCalendarEditDays** method returns a trappable error (error code 1101) when applied to material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

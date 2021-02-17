@@ -7,26 +7,24 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.AveDev
 ms.assetid: 8fb937b3-4291-e257-f96a-7e52e6714b00
-ms.date: 06/08/2017
+ms.date: 05/22/2019
 localization_priority: Normal
 ---
 
 
 # WorksheetFunction.AveDev method (Excel)
 
-Returns the average of the absolute deviations of data points from their mean. AveDev is a measure of the variability in a data set.
+Returns the average of the absolute deviations of data points from their mean. **AveDev** is a measure of the variability in a data set.
 
 
 ## Syntax
 
-_expression_. `AveDev`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` , `_Arg5_` , `_Arg6_` , `_Arg7_` , `_Arg8_` , `_Arg9_` , `_Arg10_` , `_Arg11_` , `_Arg12_` , `_Arg13_` , `_Arg14_` , `_Arg15_` , `_Arg16_` , `_Arg17_` , `_Arg18_` , `_Arg19_` , `_Arg20_` , `_Arg21_` , `_Arg22_` , `_Arg23_` , `_Arg24_` , `_Arg25_` , `_Arg26_` , `_Arg27_` , `_Arg28_` , `_Arg29_` , `_Arg30_` )
+_expression_.**AveDev** (_Arg1_, _Arg2_, _Arg3_, _Arg4_, _Arg5_, _Arg6_, _Arg7_, _Arg8_, _Arg9_, _Arg10_, _Arg11_, _Arg12_, _Arg13_, _Arg14_, _Arg15_, _Arg16_, _Arg17_, _Arg18_, _Arg19_, _Arg20_, _Arg21_, _Arg22_, _Arg23_, _Arg24_, _Arg25_, _Arg26_, _Arg27_, _Arg28_, _Arg29_, _Arg30_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,31 +32,22 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
-
-
-
-- AveDev is influenced by the unit of measurement in the input data.
+**AveDev** is influenced by the unit of measurement in the input data.
     
-- Arguments must either be numbers or be names, arrays, or references that contain numbers.
+Arguments must either be numbers or be names, arrays, or references that contain numbers.
     
-- Logical values and text representations of numbers that you type directly into the list of arguments are counted.
+Logical values and text representations of numbers that you type directly into the list of arguments are counted.
     
-- If an array or reference argument contains text, logical values, or empty cells, those values are ignored; however, cells with the value zero are included.
+If an array or reference argument contains text, logical values, or empty cells, those values are ignored; however, cells with the value zero are included.
     
-- The equation for average deviation is:
-![Average deviation](../images/awfavedv_ZA06051110.gif)
+The equation for average deviation is ![Average deviation](../images/awfavedv_ZA06051110.gif)
 
 
-    
 
-## See also
-
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

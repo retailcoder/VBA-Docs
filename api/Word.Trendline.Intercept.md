@@ -21,12 +21,12 @@ Returns or sets the point where the trendline crosses the value axis. Read/write
 
 _expression_. `Intercept`
 
- _expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
 
 
 ## Remarks
 
-Setting this property sets the  **[InterceptIsAuto](Word.Trendline.InterceptIsAuto.md)** property to **False**.
+Setting this property sets the **[InterceptIsAuto](Word.Trendline.InterceptIsAuto.md)** property to **False**.
 
 
 ## Example

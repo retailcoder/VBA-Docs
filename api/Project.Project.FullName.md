@@ -18,12 +18,12 @@ Gets the path and file name of a project. Read-only  **String**.
 
 _expression_.**FullName**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **FullName** property returns the project name (as seen in the title bar) for an unsaved project.
+The **FullName** property returns the project name (as seen in the title bar) for an unsaved project.
 
 
 ## Example

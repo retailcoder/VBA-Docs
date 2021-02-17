@@ -21,7 +21,7 @@ Determines whether scroll bars are shown in the drawing window. Read/write.
 
 _expression_. `ShowScrollBars`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -35,7 +35,7 @@ The  **ShowScrollBars** property value can be any combination of the following *
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visScrollBarNeither**|&H0 |
 | **visScrollBarHoriz**|&H1 |

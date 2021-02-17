@@ -12,19 +12,19 @@ localization_priority: Normal
 
 # ParagraphFormat.CollapsedByDefault property (Word)
 
-Returns or sets whether the specified paragraph format is collapsed by default. Read-write  **Long**.
+Returns or sets whether the specified paragraph format is collapsed by default. Read/write  **Long**.
 
 
 ## Syntax
 
 _expression_. `CollapsedByDefault`
 
- _expression_ A variable that represents a [ParagraphFormat](./Word.ParagraphFormat.md) object.
+_expression_ A variable that represents a [ParagraphFormat](./Word.ParagraphFormat.md) object.
 
 
 ## Remarks
 
-The  **CollapsedByDefault** property setting corresponds to the setting of the **Collapsed by Default** box under general on the **Indents and Spacing** tab of the **Paragraph** dialog box.
+The **CollapsedByDefault** property setting corresponds to the setting of the **Collapsed by Default** box under general on the **Indents and Spacing** tab of the **Paragraph** dialog box.
 
 
 ## Property value

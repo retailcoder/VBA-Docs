@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Top property (Project)
-Gets or sets the vertical distance, in [points](../language/glossary/vbe-glossary.md#point), from the top of the report pane to the top edge of the shape. Read-write  **Single**.
+Gets or sets the vertical distance, in [points](../language/glossary/vbe-glossary.md#point), from the top of the report pane to the top edge of the shape. Read/write  **Single**.
 
 ## Syntax
 
 _expression_.**Top**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

@@ -21,7 +21,7 @@ Inserts a page, column, or section break.
 
 _expression_. `InsertBreak`( `_Type_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,14 +30,15 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Type_|Required| **[WdBreakType](Word.WdBreakType.md)**|the type of break to insert. The default value is  **wdPageBreak**. Some of the **WdBreakType** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.|
+| _Type_|Required| **[WdBreakType](Word.WdBreakType.md)**|the type of break to insert. The default value is **wdPageBreak**. Some of the **WdBreakType** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.|
 
 ## Remarks
 
-When you insert a page or column break, the break replaces the selection. If you don't want to replace the selection, use the  **[Collapse](Word.Selection.Collapse.md)** method before using the **InsertBreak** method.
+When you insert a page or column break, the break replaces the selection. If you don't want to replace the selection, use the **[Collapse](Word.Selection.Collapse.md)** method before using the **InsertBreak** method.
 
 
- **Note**  When you insert a section break, the break is inserted immediately preceding the selection.
+> [!NOTE] 
+> When you insert a section break, the break is inserted immediately preceding the selection.
 
 
 ## Example

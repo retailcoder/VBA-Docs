@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.ParentGroup property (PowerPoint)
 
-Returns a  **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
+Returns a **Shape** object that represents the common parent shape of a child shape or a range of child shapes.
 
 
 ## Syntax
 
-_expression_. `ParentGroup`
+_expression_.**ParentGroup**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

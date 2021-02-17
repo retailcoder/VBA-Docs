@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Breaks object (Word)
 
-A collection of page, column, or section breaks in a page. Use the  **Breaks** collection and the related objects and properties to programmatically define page layout in a document.
+A collection of page, column, or section breaks in a page. Use the **Breaks** collection and the related objects and properties to programmatically define page layout in a document.
 
 
 ## Remarks
 
-Use the  **[Breaks](Word.Page.Breaks.md)** property to return a **Breaks** collection. The following example returns the breaks in the first page of the active document.
+Use the **[Breaks](Word.Page.Breaks.md)** property to return a **Breaks** collection. The following example returns the breaks in the first page of the active document.
 
 
 ```vb
@@ -29,11 +29,19 @@ Set objBreaks = ActiveDocument.ActiveWindow _
  .Panes(1).Pages(1).Breaks
 ```
 
+## Methods
+
+- [Item](Word.Breaks.Item.md)
+
+## Properties
+
+- [Application](Word.Breaks.Application.md)
+- [Count](Word.Breaks.Count.md)
+- [Creator](Word.Breaks.Creator.md)
+- [Parent](Word.Breaks.Parent.md)
 
 ## See also
 
-
-
-[Word Object Model Reference](overview/Word/object-model.md)
+- [Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

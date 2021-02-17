@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # CodeMask.Count property (Project)
 
-Gets the number of items in the  **CodeMask** object. Read-only **Long**.
+Gets the number of items in the **CodeMask** object. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'CodeMask' object.
+_expression_ A variable that represents a 'CodeMask' object.
 
 
 ## Remarks
 
-Use of the  **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
+Use of the **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

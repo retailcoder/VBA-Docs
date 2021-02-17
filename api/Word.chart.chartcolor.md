@@ -12,19 +12,19 @@ localization_priority: Normal
 
 # Chart.ChartColor property (Word)
 
-Returns or sets an integer that represents the color scheme for the chart. Read-write.
+Returns or sets an integer that represents the color scheme for the chart. Read/write.
 
 
 ## Syntax
 
 _expression_. `ChartColor`
 
- _expression_ A variable that represents a [Chart](./Word.Chart.md) object.
+_expression_ A variable that represents a [Chart](./Word.Chart.md) object.
 
 
 ## Remarks
 
-Chart color schemes are numbered from 1 to 17; the setting of this property corresponds to the color schemes shown on the  **Change Colors** gallery on the **Chart Tools Design** ribbon tab.
+Chart color schemes are numbered from 1 to 17; the setting of this property corresponds to the color schemes shown on the **Change Colors** gallery on the **Chart Tools Design** ribbon tab.
 
 
 ## Property value

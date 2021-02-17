@@ -21,12 +21,12 @@ Returns a  **Variant** that represents a picture representation of how a range o
 
 _expression_. `EnhMetaFileBits`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-The  **EnhMetaFileBits** property returns an array of bytes, which can be used with the Microsoft Windows 32 Application Programming Interface from within the Microsoft Visual Basic or Microsoft C++ development environment.
+The **EnhMetaFileBits** property returns an array of bytes, which can be used with the Microsoft Windows 32 Application Programming Interface from within the Microsoft Visual Basic or Microsoft C++ development environment.
 
 
 ## See also

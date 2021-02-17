@@ -19,9 +19,9 @@ Determines the color of text in stencil windows in Microsoft Visio for the curre
 
 ## Syntax
 
-_expression_. `StencilTextColor`
+_expression_.**StencilTextColor**
 
- _expression_ A variable that represents a [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value
@@ -33,7 +33,7 @@ OLE_COLOR
 
 The  **StencilTextColor** property setting does not persist from one session of Visio to the next.
 
-Valid values for an  **OLE_COLOR** property within Visio can be one of the following:
+Valid values for an **OLE_COLOR** property within Visio can be one of the following:
 
 
 

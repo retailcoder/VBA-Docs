@@ -19,9 +19,9 @@ Adds a shortcut for a hyperlink address in the presently registered Favorites fo
 
 ## Syntax
 
-_expression_. `AddToFavorites`( `_FavoritesTitle_` )
+_expression_.**AddToFavorites**( `_FavoritesTitle_` )
 
- _expression_ A variable that represents a [Hyperlink](./Visio.Hyperlink.md) object.
+_expression_ A variable that represents a **[Hyperlink](Visio.Hyperlink.md)** object.
 
 
 ## Parameters

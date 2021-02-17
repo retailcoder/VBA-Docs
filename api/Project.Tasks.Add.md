@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Tasks.Add method (Project)
 
-Adds a  **Task** object to a **Tasks** collection.
+Adds a **Task** object to a **Tasks** collection.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Name_`, `_Before_` )
+_expression_.**Add** (_Name_, _Before_)
 
- _expression_ A variable that represents a 'Tasks' object.
+_expression_ A variable that represents a 'Tasks' object.
 
 
 ## Parameters

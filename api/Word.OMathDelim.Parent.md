@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathDelim.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathDelim** object.
+Returns an **Object** that represents the parent object of the specified **OMathDelim** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathDelim](Word.OMathDelim.md)' object.
+_expression_ A variable that represents a '[OMathDelim](Word.OMathDelim.md)' object.
 
 
 ## See also

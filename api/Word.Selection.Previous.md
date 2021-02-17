@@ -21,7 +21,7 @@ Moves the selected text by the specified number of units, and returns a  **Range
 
 _expression_.**Previous** (_Unit_, _Count_)
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Unit_|Optional| **Variant**|Specifies the type of unit by which to move the selection. Can be one of the  **[WdUnits](Word.WdUnits.md)** constants.|
+| _Unit_|Optional| **Variant**|Specifies the type of unit by which to move the selection. Can be one of the **[WdUnits](Word.WdUnits.md)** constants.|
 | _Count_|Optional| **Variant**|The number of units by which you want to move. The default value is 1.|
 
 ## Return value

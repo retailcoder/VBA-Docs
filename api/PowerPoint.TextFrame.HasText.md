@@ -19,9 +19,9 @@ Returns whether the specified shape has text associated with it. Read-only.
 
 ## Syntax
 
-_expression_. `HasText`
+_expression_.**HasText**
 
- _expression_ A variable that represents a [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents a **[TextFrame](PowerPoint.TextFrame.md)** object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **HasText** property can be one of these **MsoTriState** const
 
 ## Example
 
-If shape two on  _myDocument_ contains text, this example resizes the shape to fit the text.
+If shape two on _myDocument_ contains text, this example resizes the shape to fit the text.
 
 
 ```vb

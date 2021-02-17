@@ -18,7 +18,7 @@ Returns or sets the trendline type. Read/write  **[XlTrendlineType](PowerPoint.X
 
 _expression_.**Type**
 
- _expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
 
 
 ## Example
@@ -26,7 +26,8 @@ _expression_.**Type**
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example changes the trendline type for the first series of the first chart in the active document. If the series has no trendline, this example fails.
 

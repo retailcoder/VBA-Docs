@@ -18,7 +18,7 @@ Gets date the specified baseline was last saved. Read-only  **Variant**.
 
 _expression_. `BaselineSavedDate`( `_Baseline_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -27,7 +27,7 @@ _expression_. `BaselineSavedDate`( `_Baseline_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Baseline_|Required|**Long**|Can be one of the  **[PjBaselines](Project.PjBaselines.md)** constants.|
+| _Baseline_|Required|**Long**|Can be one of the **[PjBaselines](Project.PjBaselines.md)** constants.|
 
 ## Remarks
 

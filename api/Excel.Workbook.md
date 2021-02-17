@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook
 ms.assetid: 8c00aa60-c974-eed3-0812-3c9625eb0d4c
-ms.date: 04/03/2019
+ms.date: 05/15/2019
 localization_priority: Normal
 ---
 
@@ -137,6 +137,7 @@ End Sub
 - [CheckIn](Excel.Workbook.CheckIn.md)
 - [CheckInWithVersion](Excel.Workbook.CheckInWithVersion.md)
 - [Close](Excel.Workbook.Close.md)
+- [ConvertComments](Excel.Workbook.ConvertComments.md)
 - [CreateForecastSheet](Excel.workbook.createforecastsheet.md)
 - [DeleteNumberFormat](Excel.Workbook.DeleteNumberFormat.md)
 - [EnableConnections](Excel.Workbook.EnableConnections.md)

@@ -30,7 +30,7 @@ _expression_ A variable that represents an object that implements the 'FormRegio
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FormRegionName_|Required| **String**|The internal name of the form region. This can be indicated by the <name> tag in the corresponding form region XML manifest.|
+| _FormRegionName_|Required| **String**|The internal name of the form region. This can be indicated by the `<name>` tag in the corresponding form region XML manifest.|
 | _Item_|Required| **Object**|The Outlook item object that caused the loading of the form region.|
 | _LCID_|Required| **Long**|The current locale ID.|
 | _FormRegionMode_|Required| **[OlFormRegionMode](Outlook.OlFormRegionMode.md)**|The mode that the form region is being loaded into.|
@@ -38,7 +38,7 @@ _expression_ A variable that represents an object that implements the 'FormRegio
 
 ## Return value
 
-A  **Variant** object representing the storage that Outlook has allocated for the form region. The type of the return value can be: **String** representing that the return value is a local path to an Outlook Form Storage (.OFS) file; **Byte()** representing that the return value is an array of bytes that contains the contents of the .OFS file; **IStorage** representing that the return value is a COM storage object **IStorage** (for C++ only); **Nothing** or **Null**, representing that Outlook could not allocate storage for this form region and will not load the form region.
+A **Variant** object representing the storage that Outlook has allocated for the form region. The type of the return value can be: **String** representing that the return value is a local path to an Outlook Form Storage (.OFS) file; **Byte()** representing that the return value is an array of bytes that contains the contents of the .OFS file; **IStorage** representing that the return value is a COM storage object **IStorage** (for C++ only); **Nothing** or **Null**, representing that Outlook could not allocate storage for this form region and will not load the form region.
 
 
 ## Remarks

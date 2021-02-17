@@ -17,7 +17,7 @@ Opens the default web browser to a specified URL or the Windows Explorer to a sp
 
 _expression_. `OpenBrowser` _(URL)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -37,7 +37,7 @@ _expression_. `OpenBrowser` _(URL)_
 
 ## Remarks
 
-You can use the  **OpenBrowser** method to open the browser to a specified URL. If the _URL_ parameter is not specified, the **OpenBrowser** method opens the Windows Explorer to the **My Documents** folder on the local computer.
+You can use the **OpenBrowser** method to open the browser to a specified URL. If the _URL_ parameter is not specified, the **OpenBrowser** method opens the Windows Explorer to the **My Documents** folder on the local computer.
 
 If you specify an .MPP file path, Project opens the file.
 

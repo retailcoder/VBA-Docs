@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Selection.TextRange property (PowerPoint)
 
-Returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents the selected text. Read-only.
+Returns a **[TextRange](PowerPoint.TextRange.md)** object that represents the selected text. Read-only.
 
 
 ## Syntax
 
-_expression_. `TextRange`
+_expression_.**TextRange**
 
- _expression_ A variable that represents a [Selection](./PowerPoint.Selection.md) object.
+_expression_ A variable that represents a [Selection](PowerPoint.Selection.md) object.
 
 
 ## Return value

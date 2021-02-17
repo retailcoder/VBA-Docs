@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # MediaFormat.MediaBookmarks property (PowerPoint)
 
-Returns a  **MediaBookmarks** collection that represents the media bookmarks associated with the specified object. Read-only.
+Returns a **MediaBookmarks** collection that represents the media bookmarks associated with the specified object. Read-only.
 
 
 ## Syntax
 
 _expression_. `MediaBookmarks`
 
- _expression_ An expression that returns a [MediaFormat](./PowerPoint.MediaFormat.md) object.
+ _expression_ An expression that returns a [MediaFormat](PowerPoint.MediaFormat.md) object.
 
 
 ## Return value

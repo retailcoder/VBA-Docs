@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.SlideShowWindows property (PowerPoint)
 
-Returns a  **[SlideShowWindows](PowerPoint.SlideShowWindows.md)** collection that represents all open slide show windows. Read-only.
+Returns a **[SlideShowWindows](PowerPoint.SlideShowWindows.md)** collection that represents all open slide show windows. Read-only.
 
 
 ## Syntax
 
 _expression_. `SlideShowWindows`
 
-_expression_ A variable that represents a [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ SlideShowWindows
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../powerpoint/How-to/return-objects-from-collections.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../powerpoint/How-to/return-objects-from-collections.md).
 
 
 ## Example

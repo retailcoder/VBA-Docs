@@ -21,7 +21,7 @@ Saves a document to a server from a local computer, and sets the local document 
 
 _expression_. `CheckInWithVersion`( `_SaveChanges_` , `_Comments_` , `_MakePublic_` , `_VersionType_` )
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Parameters
@@ -44,7 +44,7 @@ To take advantage of the collaboration features built into Microsoft Word, docum
 
 ## Example
 
-The following example uses the  **[CanCheckin](Word.Document.CanCheckin.md)** method to determine whether the document has been stored on a Microsoft SharePoint Server. If the document has been stored on a server, the example calls the **CheckInWithVersion** method to check in the document along with the specified comments and version number, save changes to the server location, and submit the document for the approval process.
+The following example uses the **[CanCheckin](Word.Document.CanCheckin.md)** method to determine whether the document has been stored on a Microsoft SharePoint Server. If the document has been stored on a server, the example calls the **CheckInWithVersion** method to check in the document along with the specified comments and version number, save changes to the server location, and submit the document for the approval process.
 
 This example is for a document-level customization.
 

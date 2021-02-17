@@ -19,7 +19,7 @@ Returns a  **Window** object that represents a new window of a document.
 
 ## Syntax
 
-_expression_.**Add**( `_Window_` )
+_expression_.**Add** (_Window_)
 
 _expression_ Required. A variable that represents a '[Windows](Word.windows.md)' collection.
 
@@ -30,7 +30,7 @@ _expression_ Required. A variable that represents a '[Windows](Word.windows.md)'
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Window_|Optional| **Variant**|The  **Window** object you want to open another window for. If this argument is omitted, a new window is opened for the active document.|
+| _Window_|Optional| **Variant**|The **Window** object you want to open another window for. If this argument is omitted, a new window is opened for the active document.|
 
 ## Return value
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.CustomXMLParts property (PowerPoint)
 
-Returns a  **[CustomXMLParts](Office.CustomXMLParts.md)** object that represents the collection of custom XML parts associated with the specified **Presentation** object. Read-only.
+Returns a **[CustomXMLParts](Office.CustomXMLParts.md)** object that represents the collection of custom XML parts associated with the specified **Presentation** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `CustomXMLParts`
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

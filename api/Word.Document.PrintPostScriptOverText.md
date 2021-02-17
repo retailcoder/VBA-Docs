@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `PrintPostScriptOverText`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **PrintPostScriptOverText** property controls whether postscript code is printed in a converted Microsoft Word for Macintosh document. If the document contains no PRINT fields, this property has no effect.
+The **PrintPostScriptOverText** property controls whether postscript code is printed in a converted Microsoft Word for Macintosh document. If the document contains no PRINT fields, this property has no effect.
 
 
 ## Example

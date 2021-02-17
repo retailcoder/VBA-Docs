@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.SendMail
 ms.assetid: 581d197c-0748-2225-2986-64aa368aab39
-ms.date: 06/08/2017
+ms.date: 05/29/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Sends the workbook by using the installed mail system.
 
 ## Syntax
 
-_expression_. `SendMail`( `_Recipients_` , `_Subject_` , `_ReturnReceipt_` )
+_expression_.**SendMail** (_Recipients_, _Subject_, _ReturnReceipt_)
 
 _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -38,15 +36,10 @@ _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** obje
 
 This example sends the active workbook to a single recipient.
 
-
 ```vb
 ActiveWorkbook.SendMail recipients:="Jean Selva"
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.FormatPaste method (Project)
 
-Pastes formats (copied with the  **FormatCopy** method) into the selected cells.
+Pastes formats (copied with the **FormatCopy** method) into the selected cells.
 
 
 ## Syntax
 
 _expression_. `FormatPaste`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

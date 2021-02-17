@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # DocumentWindow.PointsToScreenPixelsX method (PowerPoint)
 
-Converts a horizontal measurement from points to pixels. Used to return a horizontal screen location for a text frame or shape. Returns the converted measurement as a  **Single**.
+Converts a horizontal measurement from points to pixels. Used to return a horizontal screen location for a text frame or shape. Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
-_expression_. `PointsToScreenPixelsX`( `_Points_` )
+_expression_.**PointsToScreenPixelsX** (_Points_)
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Parameters

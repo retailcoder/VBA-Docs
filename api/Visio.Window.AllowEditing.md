@@ -21,7 +21,7 @@ Determines whether the  **Edit Stencil** command is enabled or disabled in a ste
 
 _expression_. `AllowEditing`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -36,6 +36,7 @@ Use the  **AllowEditing** property to prevent unintentional editing in stencils.
 
 
 
- **Note**  Only user-created stencils are editable. By default, Visio stencils are not editable.
+> [!NOTE] 
+> Only user-created stencils are editable. By default, Visio stencils are not editable.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

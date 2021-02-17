@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Filters.Count property (Project)
 
-Gets the number of items in the  **Filters** collection. Read-only **Long**.
+Gets the number of items in the **Filters** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'Filters' object.
+_expression_ A variable that represents a 'Filters' object.
 
 
 ## Example

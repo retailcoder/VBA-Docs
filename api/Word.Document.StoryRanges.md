@@ -21,17 +21,17 @@ Returns a  **[StoryRanges](Word.storyranges.md)** collection that represents all
 
 _expression_. `StoryRanges`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
-This example steps through the  **StoryRanges** collection to determine whether **wdPrimaryFooterStory** is part of the **StoryRanges** collection.
+This example steps through the **StoryRanges** collection to determine whether **wdPrimaryFooterStory** is part of the **StoryRanges** collection.
 
 
 ```vb

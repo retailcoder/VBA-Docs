@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # Shape.Apply method (Word)
 
-Applies to the specified shape formatting that has been copied using the  **PickUp** method.
+Applies to the specified shape formatting that has been copied using the **PickUp** method.
 
 
 ## Syntax
 
 _expression_.**Apply**
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-If formatting for the  **Shape** object has not previously been copied using the **PickUp** method, using the **Apply** method generates an error.
+If formatting for the **Shape** object has not previously been copied using the **PickUp** method, using the **Apply** method generates an error.
 
 
 ## Example

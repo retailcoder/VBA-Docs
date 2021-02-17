@@ -21,12 +21,12 @@ Returns or sets the maximum number of consecutive lines that can end with hyphen
 
 _expression_. `ConsecutiveHyphensLimit`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-If the  **ConsecutiveHyphensLimit** property is set to 0 (zero), any number of consecutive lines can end with hyphens.
+If the **ConsecutiveHyphensLimit** property is set to 0 (zero), any number of consecutive lines can end with hyphens.
 
 
 ## Example

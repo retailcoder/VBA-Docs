@@ -19,9 +19,9 @@ Determines whether lines break automatically to fit inside the shape. Read/write
 
 ## Syntax
 
-_expression_. `WordWrap`
+_expression_.**WordWrap**
 
- _expression_ A variable that represents a [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents a **[TextFrame](PowerPoint.TextFrame.md)** object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **WordWrap** property can be one of these **MsoTriState** cons
 
 ## Example
 
-This example adds a rectangle that contains text to  _myDocument_ and then turns off word wrapping in the new rectangle.
+This example adds a rectangle that contains text to _myDocument_ and then turns off word wrapping in the new rectangle.
 
 
 ```vb

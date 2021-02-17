@@ -19,9 +19,9 @@ Returns status information for an object. Read-only.
 
 ## Syntax
 
-_expression_. `Stat`
+_expression_.**Stat**
 
- _expression_ A variable that represents a '[ServerPublishOptions](Visio.ServerPublishOptions.md)' object.
+_expression_ A variable that represents a **[ServerPublishOptions](Visio.ServerPublishOptions.md)** object.
 
 
 ## Return value

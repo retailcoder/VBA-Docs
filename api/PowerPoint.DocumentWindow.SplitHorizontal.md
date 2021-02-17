@@ -19,9 +19,9 @@ Returns or sets the percentage of the document window width that the outline pan
 
 ## Syntax
 
-_expression_. `SplitHorizontal`
+_expression_.**SplitHorizontal**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value

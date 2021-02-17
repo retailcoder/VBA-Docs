@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # ShapeRange.TextFrame property (Project)
-Gets a  **TextFrame** object that contains the alignment and anchoring properties of the shape range. Read-only **[TextFrame](https://msdn.microsoft.com/library/office/ff197860%28v=office.15%29)**.
+Gets a **TextFrame** object that contains the alignment and anchoring properties of the shape range. Read-only **[TextFrame](https://msdn.microsoft.com/library/office/ff197860%28v=office.15%29)**.
 
 ## Syntax
 
-_expression_. `TextFrame`
+_expression_.**TextFrame**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

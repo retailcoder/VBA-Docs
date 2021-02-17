@@ -21,12 +21,12 @@ Returns or sets a value that indicates whether the tick label spacing is automat
 
 _expression_. `TickLabelSpacingIsAuto`
 
- _expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-The  **[TickLabelSpacing](Word.Axis.TickLabelSpacing.md)** property returns the current tick label spacing, whether or not the setting is automatic.
+The **[TickLabelSpacing](Word.Axis.TickLabelSpacing.md)** property returns the current tick label spacing, whether or not the setting is automatic.
 
 
 ## See also

@@ -18,12 +18,12 @@ Gets or sets the position of the exception in the month, for a monthly or yearly
 
 _expression_. `MonthPosition`
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Remarks
 
-The  **MonthPosition** property can be one of the following **[PjExceptionPosition](Project.PjExceptionPosition.md)** constants: **pjFirst**, **pjSecond**, **pjThird**, **pjFourth**, **pjLast**. For example, if a monthly calendar exception is set for the second Wednesday every month, the value of **MonthPosition** is **pjSecond**.
+The **MonthPosition** property can be one of the following **[PjExceptionPosition](Project.PjExceptionPosition.md)** constants: **pjFirst**, **pjSecond**, **pjThird**, **pjFourth**, **pjLast**. For example, if a monthly calendar exception is set for the second Wednesday every month, the value of **MonthPosition** is **pjSecond**.
 
 
 ## See also

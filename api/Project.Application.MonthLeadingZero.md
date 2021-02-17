@@ -21,11 +21,11 @@ localization_priority: Normal
 
 _expression_. `MonthLeadingZero`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project sets the  **MonthLeadingZero** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel.
+Project sets the **MonthLeadingZero** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

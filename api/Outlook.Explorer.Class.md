@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Class property (Outlook)
 
-Returns an  **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
+Returns an **[OlObjectClass](Outlook.OlObjectClass.md)** constant indicating the object's class. Read-only.
 
 
 ## Syntax
 
 _expression_.**Class**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## See also

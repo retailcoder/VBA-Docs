@@ -19,7 +19,7 @@ Opens a new window with the same document as the specified window. Returns a  **
 
 ## Syntax
 
-_expression_. `NewWindow`
+_expression_.**NewWindow**
 
 _expression_ Required. A variable that represents a '[Global](Word.Global.md)' object.
 
@@ -31,7 +31,7 @@ Window
 
 ## Remarks
 
-If the  **NewWindow** method is used with the **Application** object, a new window is opened for the active window. The following two instructions are functionally equivalent.
+If the **NewWindow** method is used with the **Application** object, a new window is opened for the active window. The following two instructions are functionally equivalent.
 
 
 ```vb

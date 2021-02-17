@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `EmbedTrueTypeFonts`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
@@ -39,7 +39,7 @@ ActiveDocument.EmbedTrueTypeFonts = True
 ActiveDocument.Save
 ```
 
-This example returns the current status of the  **Embed TrueType** fonts check box in the **Save** options area on the **Save** tab in the **Options** dialog box.
+This example returns the current status of the **Embed TrueType** fonts check box in the **Save** options area on the **Save** tab in the **Options** dialog box.
 
 
 

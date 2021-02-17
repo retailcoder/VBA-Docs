@@ -21,7 +21,7 @@ Returns the y-coordinate of the location in the Microsoft Visio window where a  
 
 _expression_. `y`
 
- _expression_ A variable that represents a [MouseEvent](./Visio.MouseEvent.md) object.
+_expression_ A variable that represents a **[MouseEvent](Visio.MouseEvent.md)** object.
 
 
 ## Return value
@@ -91,7 +91,7 @@ Private Sub vsoWindow_MouseUp(ByVal Button As Long, ByVal KeyButtonState As Long
 End Sub
 ```
 
-Then, insert the following code in the  **ThisDocument** project.
+Then, insert the following code in the  **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** project.
 
 
 

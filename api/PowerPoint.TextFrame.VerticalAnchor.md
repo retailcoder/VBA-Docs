@@ -21,7 +21,7 @@ Returns or sets the vertical alignment of text in a text frame. Read/write.
 
 _expression_.**VerticalAnchor**
 
- _expression_ A variable that represents a [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents a **[TextFrame](PowerPoint.TextFrame.md)** object.
 
 
 ## Return value
@@ -46,7 +46,7 @@ The value of the  **VerticalAnchor** property can be one of these **MsoVerticalA
 
 ## Example
 
-This example sets the alignment of the text in shape one on  _myDocument_ to top centered.
+This example sets the alignment of the text in shape one on _myDocument_ to top centered.
 
 
 ```vb

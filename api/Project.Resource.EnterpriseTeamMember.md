@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Resource.EnterpriseTeamMember method (Project)
 
-Indicates whether the resource belongs to the project.  **True** if the resource is a member of the team for the specified project; otherwise **False**. Available in Project Professional only.
+Indicates whether the resource belongs to the project.  **True** if the resource is a member of the team for the specified project; otherwise, **False**. Available in Project Professional only.
 
 
 ## Syntax
 
 _expression_. `EnterpriseTeamMember`( `_Project_` )
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Parameters
@@ -27,7 +27,7 @@ _expression_. `EnterpriseTeamMember`( `_Project_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Project_|Required|**Object**|The  **Project** object against which the expression is checked. For example, **ActiveProject**.|
+| _Project_|Required|**Object**|The **Project** object against which the expression is checked. For example, **ActiveProject**.|
 
 ## Return value
 
@@ -36,8 +36,8 @@ _expression_. `EnterpriseTeamMember`( `_Project_` )
 
 ## Remarks
 
-The  **EnterpriseTeamMember** method returns **False** for summary resource assignments, because the assignment or resource is from another project.
+The **EnterpriseTeamMember** method returns **False** for summary resource assignments, because the assignment or resource is from another project.
 
-The  **EnterpriseTeamMember** method returns a trappable error (error code 1004) if the active view is not a Resource or Assignment view.
+The **EnterpriseTeamMember** method returns a trappable error (error code 1004) if the active view is not a Resource or Assignment view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

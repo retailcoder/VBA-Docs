@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.ColorSchemes property (PowerPoint)
 
-Returns a  **[ColorSchemes](PowerPoint.ColorSchemes.md)** collection that represents the color schemes in the specified presentation. Read-only.
+Returns a **[ColorSchemes](PowerPoint.ColorSchemes.md)** collection that represents the color schemes in the specified presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `ColorSchemes`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

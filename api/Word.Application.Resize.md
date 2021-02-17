@@ -21,7 +21,7 @@ Sizes the Word application window or the specified task window.
 
 _expression_.**Resize** (_Width_, _Height_)
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -35,7 +35,7 @@ _expression_ Required. A variable that represents an '[Application](Word.Applica
 
 ## Remarks
 
-If the window is maximized or minimized, an error occurs. Use the  **Width** or **Height** property to set the window width and height independently.
+If the window is maximized or minimized, an error occurs. Use the **Width** or **Height** property to set the window width and height independently.
 
 
 ## Example

@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # MailingLabel.LabelOptions method (Word)
 
-Displays the  **Label Options** dialog box.
+Displays the **Label Options** dialog box.
 
 
 ## Syntax
@@ -26,12 +26,12 @@ _expression_ Required. A variable that represents a '[MailingLabel](Word.Mailing
 
 ## Remarks
 
-The  **LabelOptions** method works only if the document is the main document of a mailing labels mail merge.
+The **LabelOptions** method works only if the document is the main document of a mailing labels mail merge.
 
 
 ## Example
 
-This example determines if the current document is a Mailing Label document and, if it is, displays the Label Options dialog box.
+This example determines if the current document is a Mailing Label document, and if it is, displays the Label Options dialog box.
 
 
 ```vb

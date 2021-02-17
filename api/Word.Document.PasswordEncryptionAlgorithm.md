@@ -21,12 +21,12 @@ Returns a  **String** indicating the algorithm Microsoft Word uses for encryptin
 
 _expression_. `PasswordEncryptionAlgorithm`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify the algorithm Word uses for encrypting documents with passwords.
+Use the **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify the algorithm Word uses for encrypting documents with passwords.
 
 
 ## Example

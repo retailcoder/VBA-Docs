@@ -21,7 +21,7 @@ Represents a collection of  **[BuildingBlockType](Word.BuildingBlockType.md)** o
 
 Building block types are represented by  **[WdBuildingBlockTypes](Word.WdBuildingBlockTypes.md)** constants. Use the **[Item](Word.BuildingBlockTypes.Item.md)** method to access a specific type in the **BuildingBlockTypes** collection.
 
-To loop through the different building block types, use a  **For** loop with the **[Count](Word.BuildingBlockTypes.Count.md)** property. The following example loops through the building block types and prints the name in the **Immediate Window**. (This example assumes that the  **Immediate Window** is visible.)
+To loop through the different building block types, use a  **For** loop with the **[Count](Word.BuildingBlockTypes.Count.md)** property. The following example loops through the building block types and prints the name in the **Immediate Window**. (This example assumes that the **Immediate Window** is visible.)
 
 
 
@@ -41,10 +41,19 @@ Next
 
 For more information about building blocks, see [Working with Building Blocks](../word/Concepts/Working-with-Word/working-with-building-blocks.md).
 
+## Methods
+
+- [Item](Word.BuildingBlockTypes.Item.md)
+
+## Properties
+
+- [Application](Word.BuildingBlockTypes.Application.md)
+- [Count](Word.BuildingBlockTypes.Count.md)
+- [Creator](Word.BuildingBlockTypes.Creator.md)
+- [Parent](Word.BuildingBlockTypes.Parent.md)
 
 ## See also
 
-
-[Word Object Model Reference](overview/Word/object-model.md)
+- [Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

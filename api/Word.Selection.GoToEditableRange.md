@@ -21,7 +21,7 @@ Returns a  **Range** object that represents an area of a document that can be mo
 
 _expression_. `GoToEditableRange`( `_EditorID_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Range
 
 ## Remarks
 
-You can also use the  **[NextRange](Word.Editor.NextRange.md)** property of the **Editor** object to return the next range for which the user has permission to modify.
+You can also use the **[NextRange](Word.Editor.NextRange.md)** property of the **Editor** object to return the next range for which the user has permission to modify.
 
 
 ## Example

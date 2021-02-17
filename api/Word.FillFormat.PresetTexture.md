@@ -19,19 +19,19 @@ Returns the preset texture for the specified fill. Read-only  **MsoPresetTexture
 
 ## Syntax
 
-_expression_. `PresetTexture`
+_expression_.**PresetTexture**
 
-_expression_ Required. An expression that returns a '[FillFormat](Word.FillFormat.md)' object.
+_expression_ Required. An expression that returns a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-Use the  **[PresetTextured](Word.FillFormat.PresetTextured.md)** method to specify the preset texture for the fill.
+Use the **[PresetTextured](Word.FillFormat.PresetTextured.md)** method to specify the preset texture for the fill.
 
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ and sets its preset texture to match that of shape two. For the example to work, shape two must have a preset textured fill.
+This example adds a rectangle to _myDocument_ and sets its preset texture to match that of shape two. For the example to work, shape two must have a preset textured fill.
 
 
 ```vb

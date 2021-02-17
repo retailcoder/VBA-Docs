@@ -14,12 +14,12 @@ Gets the number of rows in the table. Read-only  **Long**.
 
 _expression_. `RowsCount`
 
- _expression_ A variable that represents a 'ReportTable' object.
+_expression_ A variable that represents a 'ReportTable' object.
 
 
 ## Remarks
 
-For an example that uses the  **RowsCount** property, see the **ReportTable** object.
+For an example that uses the **RowsCount** property, see the **ReportTable** object.
 
 
 ## Property value

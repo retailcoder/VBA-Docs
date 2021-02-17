@@ -36,12 +36,12 @@ _expression_ Required. A variable that represents a '[Global](Word.Global.md)' o
 
 ## Remarks
 
-If the word is spelled correctly, the  **Count** property of the **[SpellingSuggestions](Word.spellingsuggestions.md)** object returns 0 (zero).
+If the word is spelled correctly, the **Count** property of the **[SpellingSuggestions](Word.spellingsuggestions.md)** object returns 0 (zero).
 
 
 ## Example
 
-This example looks for the alternate spelling suggestions for the word "?ook." Suggestions include replacements for the ? wildcard character. Any suggested spellings are displayed in message boxes.
+This example looks for the alternate spelling suggestions for the word `"*ook."` Suggestions include replacements for the `*` wildcard character. Any suggested spellings are displayed in message boxes.
 
 
 ```vb

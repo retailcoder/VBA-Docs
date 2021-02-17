@@ -19,14 +19,14 @@ Returns a  **[Windows](Word.windows.md)** collection that represents all documen
 
 ## Syntax
 
-_expression_. `Windows`
+_expression_.**Windows**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-The collection corresponds to the window names that appear at the bottom of the Window menu. For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+The collection corresponds to the window names that appear at the bottom of the Window menu. For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

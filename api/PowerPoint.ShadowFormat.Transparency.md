@@ -19,9 +19,9 @@ Returns or sets the degree of transparency of the specified fill, shadow, or lin
 
 ## Syntax
 
-_expression_. `Transparency`
+_expression_.**Transparency**
 
- _expression_ A variable that represents a [ShadowFormat](./PowerPoint.ShadowFormat.md) object.
+_expression_ A variable that represents a [ShadowFormat](PowerPoint.ShadowFormat.md) object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ The value of this property affects the appearance of solid-colored fills and lin
 
 ## Example
 
-This example sets the shadow for shape three on  _myDocument_ to semitransparent red. If the shape doesn't already have a shadow, this example adds one to it.
+This example sets the shadow for shape three on _myDocument_ to semitransparent red. If the shape doesn't already have a shadow, this example adds one to it.
 
 
 ```vb

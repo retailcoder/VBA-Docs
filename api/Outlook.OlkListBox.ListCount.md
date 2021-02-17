@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # OlkListBox.ListCount property (Outlook)
 
-Returns a  **Long** that specifies the number of elements in the drop-down list of the list box control. Read-only.
+Returns a **Long** that specifies the number of elements in the drop-down list of the list box control. Read-only.
 
 
 ## Syntax
 
-_expression_. `ListCount`
+_expression_.**ListCount**
 
 _expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 

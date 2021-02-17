@@ -18,12 +18,12 @@ Gets the Visual Report template type. Read-only  **PjVisualReportsTemplateType**
 
 _expression_. `TemplateType`
 
- _expression_ A variable that represents a [ReportTemplate](./Project.ReportTemplate.md) object.
+_expression_ A variable that represents a [ReportTemplate](./Project.ReportTemplate.md) object.
 
 
 ## Remarks
 
-The TemplateType property can be one of the  **[PjVisualReportsTemplateType](Project.PjVisualReportsTemplateType.md)** constants.
+The TemplateType property can be one of the **[PjVisualReportsTemplateType](Project.PjVisualReportsTemplateType.md)** constants.
 
 
 ## Example

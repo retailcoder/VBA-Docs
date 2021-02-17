@@ -21,12 +21,12 @@ Returns a  **[Languages](Word.languages.md)** collection that represents the pro
 
 _expression_. `Languages`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

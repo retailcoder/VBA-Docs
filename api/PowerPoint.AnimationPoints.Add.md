@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AnimationPoints.Add method (PowerPoint)
 
-Returns an  **[AnimationPoint](PowerPoint.AnimationPoint.md)** object that represents a new animation point.
+Returns an **[AnimationPoint](PowerPoint.AnimationPoint.md)** object that represents a new animation point.
 
 
 ## Syntax
 
 _expression_.**Add** (_Index_)
 
-_expression_ A variable that represents an [AnimationPoints](./PowerPoint.AnimationPoints.md) object.
+_expression_ A variable that represents an [AnimationPoints](PowerPoint.AnimationPoints.md) object.
 
 
 ## Parameters

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # PublishObject.Publish method (PowerPoint)
 
-Creates a Web presentation (HTML format) from any loaded presentation. You can view the published presentation in a Web browser.
+Creates a Web presentation (HTML format) from any loaded presentation. You can view the published presentation in a web browser.
 
 
 ## Syntax
 
-_expression_. `Publish`
+_expression_.**Publish**
 
- _expression_ A variable that represents a [PublishObject](./PowerPoint.PublishObject.md) object.
+_expression_ A variable that represents a [PublishObject](PowerPoint.PublishObject.md) object.
 
 
 ## Remarks

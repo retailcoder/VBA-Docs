@@ -19,14 +19,14 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `InsetPen`
+_expression_.**InsetPen**
 
-_expression_ Required. A variable that represents a '[LineFormat](Word.LineFormat.md)' object.
+_expression_ Required. A variable that represents a **[LineFormat](Word.LineFormat.md)** object.
 
 
 ## Remarks
 
-Use the  **InsetPen** property to match up the edges of shapes of equal width but whose line widths vary.
+Use the **InsetPen** property to match up the edges of shapes of equal width but whose line widths vary.
 
 
 ## Example

@@ -21,7 +21,7 @@ Removes the current group from the view.
 
 _expression_. `GroupClear`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `GroupClear`
 
 ## Remarks
 
-The  **GroupClear** method corresponds to the following command on the ribbon: On the **VIEW** tab, select the **Group by** drop-down list in the **Data** group, and then choose **Clear Group**.
+The **GroupClear** method corresponds to the following command on the ribbon: On the **VIEW** tab, select the **Group by** drop-down list in the **Data** group, and then choose **Clear Group**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

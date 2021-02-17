@@ -19,14 +19,14 @@ Closes the indicated instance of Microsoft Visio.
 
 ## Syntax
 
-_expression_. `Quit`
+_expression_.**Quit**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

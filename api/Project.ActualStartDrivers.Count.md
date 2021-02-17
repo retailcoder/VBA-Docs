@@ -18,14 +18,14 @@ Gets the number of  **Assignment** objects in the **ActualStartDrivers** collect
 
 _expression_.**Count**
 
- _expression_ A variable that represents an 'ActualStartDrivers' object.
+_expression_ A variable that represents an 'ActualStartDrivers' object.
 
 
 ## Remarks
 
 This property returns a read-only  **Long** value in the range 0 through 5; if **TotalDetectedCount** is greater than 5, **Count** returns 0.
 
-Use of the  **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
+Use of the **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
 
 
 ## See also

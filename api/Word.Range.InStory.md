@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `InStory`( `_Range_` )
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -44,7 +44,7 @@ A range can belong to only one story.
 
 ## Example
 
-This example determines whether  _Range1_ and _Range2_ are in the same story. If they are, bold formatting is applied to _Range1_ .
+This example determines whether  _Range1_ and _Range2_ are in the same story. If they are, bold formatting is applied to _Range1_.
 
 
 ```vb

@@ -19,18 +19,16 @@ Scrolls through the document window so the specified range or shape is displayed
 
 ## Syntax
 
-_expression_. `ScrollIntoView`( `_Obj_` , `_Start_` )
+_expression_.**ScrollIntoView** (_Obj_, _Start_)
 
-_expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Obj_|Required| **Object**|A  **Range** or **Shape** object.|
+| _Obj_|Required| **Object**|A **Range** or **Shape** object.|
 | _Start_|Optional| **Boolean**| **True** if the upper-left corner of the range or shape appears at the upper-left corner of the document window. **False** if the lower-right corner of the range or shape appears at the lower-right corner of the document window. The default value is **True**.|
 
 ## Remarks

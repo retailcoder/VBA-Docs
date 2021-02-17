@@ -19,9 +19,9 @@ Returns the identification type for the specified shape. Read-only  **Long**.
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## See also

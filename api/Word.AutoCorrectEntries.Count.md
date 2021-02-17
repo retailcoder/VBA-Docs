@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AutoCorrectEntries.Count property (Word)
 
-Returns the number of items in the  **AutoCorrectEntries** collection. Read-only **Long**.
+Returns the number of items in the **AutoCorrectEntries** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents an '[AutoCorrectEntries](Word.autocorrectentries.md)' object.
+_expression_ A variable that represents an '[AutoCorrectEntries](Word.autocorrectentries.md)' object.
 
 
 ## See also

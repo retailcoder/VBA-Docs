@@ -21,12 +21,12 @@ Returns or sets an  **MsoEncoding** constant representing the code page, or char
 
 _expression_. `DefaultTextEncoding`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Use the  **TextEncoding** property to set the encoding for an individual document. To set encoding for HTML documents, use the **Encoding** property.
+Use the **TextEncoding** property to set the encoding for an individual document. To set encoding for HTML documents, use the **Encoding** property.
 
 
 ## Example

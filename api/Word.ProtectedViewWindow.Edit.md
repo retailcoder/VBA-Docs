@@ -19,14 +19,12 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Edit`( `_PasswordTemplate_` , `_WritePasswordDocument_` , `_WritePasswordTemplate_` )
+_expression_.**Edit** (_PasswordTemplate_, _WritePasswordDocument_, _WritePasswordTemplate_)
 
- _expression_ An expression that returns a [ProtectedViewWindow](./Word.ProtectedViewWindow.md) object.
+_expression_ An expression that returns a [ProtectedViewWindow](./Word.ProtectedViewWindow.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -46,7 +44,7 @@ Avoid using hard-coded passwords in your applications. If a password is required
 
 ## Example
 
-The following code example opens (for editing) the document associated with the active protected view window.
+The following code example opens (for editing) the document associated with the active Protected View window.
 
 
 ```vb

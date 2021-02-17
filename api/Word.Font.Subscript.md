@@ -19,16 +19,16 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Subscript`
+_expression_.**Subscript**
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
 Returns  **True**, **False** or **wdUndefined** (a mixture of **True** and **False**). Can be set to **True**, **False**, or **wdToggle**.
 
-Setting the  **Subscript** property to **True** sets the **[Superscript](Word.Font.Superscript.md)** property to **False**, and vice versa.
+Setting the **Subscript** property to **True** sets the **[Superscript](Word.Font.Superscript.md)** property to **False**, and vice versa.
 
 
 ## Example

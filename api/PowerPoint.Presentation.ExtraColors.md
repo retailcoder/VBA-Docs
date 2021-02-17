@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.ExtraColors property (PowerPoint)
 
-Returns an  **[ExtraColors](PowerPoint.ExtraColors.md)** object that represents the extra colors available in the specified presentation. Read-only.
+Returns an **[ExtraColors](PowerPoint.ExtraColors.md)** object that represents the extra colors available in the specified presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `ExtraColors`
 
- _expression_ A variable that represents an [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents an [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

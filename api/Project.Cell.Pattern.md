@@ -16,13 +16,13 @@ Gets or sets the pattern of the cell for a field used as a criterion in a group 
 
 ## Syntax
 
-_expression_. `Pattern`
+_expression_.**Pattern**
 
- _expression_ A variable that represents a [Cell](./Project.Cell.md) object.
+_expression_ A variable that represents a [Cell](./Project.Cell.md) object.
 
 
 ## Remarks
 
-The  **Pattern** property can be one of the **[PjBackgroundPattern](Project.PjBackgroundPattern.md)** constants.
+The **Pattern** property can be one of the **[PjBackgroundPattern](Project.PjBackgroundPattern.md)** constants.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

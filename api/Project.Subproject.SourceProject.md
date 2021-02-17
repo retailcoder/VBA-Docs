@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Subproject.SourceProject property (Project)
 
-Gets a  **[Project](Project.Project.md)** object representing the master project. Read-only **Project**.
+Gets a **[Project](Project.Project.md)** object representing the master project. Read-only **Project**.
 
 
 ## Syntax
 
 _expression_. `SourceProject`
 
- _expression_ A variable that represents a [Subproject](./Project.Subproject.md) object.
+_expression_ A variable that represents a [Subproject](./Project.Subproject.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -7,26 +7,24 @@ ms.prod: excel
 api_name:
 - Excel.PivotCache.SaveAsODC
 ms.assetid: d7b553a5-70b1-41e7-9e35-088c23357570
-ms.date: 06/08/2017
+ms.date: 05/03/2019
 localization_priority: Normal
 ---
 
 
 # PivotCache.SaveAsODC method (Excel)
 
-Saves the PivotTable cache source as an Microsoft Office Data Connection file.
+Saves the PivotTable cache source as a Microsoft Office Data Connection file.
 
 
 ## Syntax
 
-_expression_. `SaveAsODC`( `_ODCFileName_` , `_Description_` , `_Keywords_` )
+_expression_.**SaveAsODC** (_ODCFileName_, _Description_, _Keywords_)
 
-_expression_ A variable that represents a [PivotCache](Excel.PivotCache.md) object.
+_expression_ A variable that represents a **[PivotCache](Excel.PivotCache.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,8 +34,7 @@ _expression_ A variable that represents a [PivotCache](Excel.PivotCache.md) obje
 
 ## Example
 
-The following example saves the cache source as an ODC file titled "ODCFile". This example assumes a PivotTable cache exists on the active worksheet.
-
+The following example saves the cache source as an ODC file titled ODCFile. This example assumes that a PivotTable cache exists on the active worksheet.
 
 ```vb
 Sub UseSaveAsODC() 
@@ -48,9 +45,6 @@ End Sub
 ```
 
 
-## See also
 
-
-[PivotCache Object](Excel.PivotCache.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

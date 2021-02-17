@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.Assignments property (Project)
 
-Gets an  **[Assignments](Project.Assignment.md)** collection representing the assignments for the resource. Read-only **Assignments**.
+Gets an **[Assignments](Project.Assignment.md)** collection representing the assignments for the resource. Read-only **Assignments**.
 
 
 ## Syntax
 
 _expression_. `Assignments`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

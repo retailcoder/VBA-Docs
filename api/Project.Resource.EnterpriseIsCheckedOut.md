@@ -21,11 +21,11 @@ localization_priority: Normal
 
 _expression_. `EnterpriseIsCheckedOut`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **EnterpriseIsCheckedOut** property is available only in Project Professional.
+The **EnterpriseIsCheckedOut** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

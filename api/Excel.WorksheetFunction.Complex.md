@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.Complex
 ms.assetid: 4ea29dda-7f01-1f48-5cda-f1bc7a0a52f2
-ms.date: 06/08/2017
+ms.date: 05/22/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Converts real and imaginary coefficients into a complex number of the form x + y
 
 ## Syntax
 
-_expression_. `Complex`( `_Arg1_` , `_Arg2_` , `_Arg3_` )
+_expression_.**Complex** (_Arg1_, _Arg2_, _Arg3_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,25 +34,21 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
-String
+**String**
 
 
 ## Remarks
 
-
-- If  _Arg1_ is nonnumeric, Complex generates an error.
+If _Arg1_ is nonnumeric, **Complex** generates an error.
     
-- If  _Arg2_ is nonnumeric, Complex generates an error.
+If _Arg2_ is nonnumeric, **Complex** generates an error.
     
-- If  _Arg3_ is neither "i" nor "j", Complex generates an error.
+If _Arg3_ is neither "i" nor "j", **Complex** generates an error.
     
-
- **Note**  All complex number functions accept "i" and "j" for suffix, but neither "I" nor "J". Using uppercase generates an error. All functions that accept two or more complex numbers require that all suffixes match.
-
-
-## See also
+> [!NOTE] 
+> All complex number functions accept "i" and "j" for suffix, but neither "I" nor "J". Using uppercase generates an error. All functions that accept two or more complex numbers require that all suffixes match.
 
 
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

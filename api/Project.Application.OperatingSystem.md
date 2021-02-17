@@ -18,11 +18,11 @@ Gets the name and version of the operating system. Read-only  **String**.
 
 _expression_. `OperatingSystem`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-For example, in a pre-release installation of 32-bit Microsoft Windows 7, the  **OperatingSystem** property is "Windows (32-bit) NT 6.1".
+For example, in a pre-release installation of 32-bit Microsoft Windows 7, the **OperatingSystem** property is "Windows (32-bit) NT 6.1".
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

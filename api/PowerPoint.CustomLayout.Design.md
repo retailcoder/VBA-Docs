@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.Design property (PowerPoint)
 
-Returns a  **[Design](PowerPoint.Design.md)** object that represents the design template associated with the specified custom layout.
+Returns a **[Design](PowerPoint.Design.md)** object that represents the design template associated with the specified custom layout.
 
 
 ## Syntax
 
 _expression_. `Design`
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

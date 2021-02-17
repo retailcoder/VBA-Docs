@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Assignment.Baseline9Cost property (Project)
 
-Gets or sets the baseline cost for an  **Assignment**. Read/write **Variant**.
+Gets or sets the baseline cost for an **Assignment**. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Baseline9Cost`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

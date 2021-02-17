@@ -21,7 +21,7 @@ Selects the specified task in the Team Planner view.
 
 _expression_. `SelectTPTask`( `_TaskUniqueID_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `SelectTPTask`( `_TaskUniqueID_` )
 
 ## Remarks
 
-If the Team Planner view is not open, the  **SelectTPTask** method generates run-time error 1100, "The method is not available in this situation."
+If the Team Planner view is not open, the **SelectTPTask** method generates run-time error 1100, "The method is not available in this situation."
 
 
 ## Example

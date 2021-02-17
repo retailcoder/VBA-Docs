@@ -21,12 +21,12 @@ Returns or sets a  **WdColorIndex** constant that represents the color for the s
 
 _expression_.**ColorIndex**
 
-_expression_ Required. A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ Required. A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-The  **wdByAuthor** constant is not a valid color for fonts.
+The **wdByAuthor** constant is not a valid color for fonts.
 
 
 ## Example

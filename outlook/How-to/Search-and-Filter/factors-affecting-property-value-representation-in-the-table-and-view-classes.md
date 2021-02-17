@@ -2,7 +2,7 @@
 title: Factors Affecting Property Value Representation in the Table and View Classes
 ms.prod: outlook
 ms.assetid: 13cf9945-a9e0-bb32-a2cb-74366a365ae1
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -16,7 +16,7 @@ There are a couple of factors that affect the type and format of a property in a
 
 The length of the value of a string property depends on the store provider. For Exchange and OST/PST stores, the length of the string value will not exceed 255 bytes. This means that string values longer than 255 bytes will be truncated at the first 255 characters. 
 
-For example, if you use **[Columns.Add](../../../api/Outlook.Columns.Add.md)** to add the **PR_INTERNET_TRANSPORT_HEADERS** property (referenced by namespace as `http://schemas.microsoft.com/mapi/proptag/0x007d001e`) to a **Table**, the **Table** will only store the first 255 characters of the full content of the property. If you need to determine the full content of the property, you must use the corresponding item's Entry ID in **[NameSpace.GetItemFromID](../../../api/Outlook.NameSpace.GetItemFromID.md)** to obtain a full item. Once you have the item, you can use the **[PropertyAccessor](../../../api/Outlook.PropertyAccessor.md)** to obtain the complete property value.
+For example, if you use **[Columns.Add](../../../api/Outlook.Columns.Add.md)** to add the **PR_INTERNET_TRANSPORT_HEADERS** property (referenced by namespace as `https://schemas.microsoft.com/mapi/proptag/0x007d001e`) to a **Table**, the **Table** will only store the first 255 characters of the full content of the property. If you need to determine the full content of the property, you must use the corresponding item's Entry ID in **[NameSpace.GetItemFromID](../../../api/Outlook.NameSpace.GetItemFromID.md)** to obtain a full item. Once you have the item, you can use the **[PropertyAccessor](../../../api/Outlook.PropertyAccessor.md)** to obtain the complete property value.
 
 
 ## Date, Binary, and Multi-valued Properties Affected by Property Reference
@@ -31,6 +31,6 @@ The type and format of a binary, date, or multi-valued property are affected by 
 |Date|Local time|Coordinated Universal Time (UTC)|
 |Multi-valued|String containing comma-separated values|1-dimensional array containing one element for each keyword|
 
- **Note**  For more information on referencing properties by namespace, see  [Referencing Properties by Namespace](../Navigation/referencing-properties-by-namespace.md).
+ **Note** For more information on referencing properties by namespace, see [Referencing Properties by Namespace](../Navigation/referencing-properties-by-namespace.md).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

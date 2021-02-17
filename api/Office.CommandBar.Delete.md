@@ -44,14 +44,14 @@ For Each bar In CommandBars
     If (bar.BuiltIn = False) And _ 
     (bar.Visible = False) Then 
         bar.Delete 
-        foundFlag =   
+        foundFlag = True
         delBars = delBars + 1 
     End If 
 Next bar 
 If Not foundFlag Then 
     MsgBox "No command bars have been deleted." 
 Else 
-    MsgBox delBars &amp; " custom bar(s) deleted." 
+    MsgBox delBars & " custom bar(s) deleted." 
 End If
 ```
 

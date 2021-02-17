@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Rows.VerticalPosition property (Word)
 
-Returns or sets the vertical distance between the edge of the rows and the item specified by the  **RelativeVerticalPosition** property. Read/write **Single**.
+Returns or sets the vertical distance between the edge of the rows and the item specified by the **RelativeVerticalPosition** property. Read/write **Single**.
 
 
 ## Syntax
 
 _expression_. `VerticalPosition`
 
-_expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Remarks

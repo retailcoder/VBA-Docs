@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # OlkListBox.ForeColor property (Outlook)
 
-Returns or sets a  **Long** that indicates the foreground color of the control. Read/write.
+Returns or sets a **Long** that indicates the foreground color of the control. Read/write.
 
 
 ## Syntax
 
-_expression_. `ForeColor`
+_expression_.**ForeColor**
 
 _expression_ A variable that represents an [OlkListBox](Outlook.OlkListBox.md) object.
 

@@ -21,7 +21,7 @@ Gets or sets the action text for a menu item. Read/write.
 
 _expression_. `ActionText`
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
 ## Return value
@@ -32,7 +32,8 @@ String
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 Action text is a string that describes the action on the  **Undo**,  **Redo**, and  **Repeat** menu items on the **Quick Access** toolbar.
 

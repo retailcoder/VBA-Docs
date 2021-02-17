@@ -21,12 +21,12 @@ Returns or sets the space (in points) between the right edge of the text and the
 
 _expression_. `DistanceFromRight`
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' object.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' object.
 
 
 ## Remarks
 
-Using this property with a page border, you can set either the space between the text and the right border or the space between the right edge of the page and the right border. Where the distance is measured from depends on the value of the  **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
+Using this property with a page border, you can set either the space between the text and the right border or the space between the right edge of the page and the right border. Where the distance is measured from depends on the value of the **[DistanceFrom](Word.Borders.DistanceFrom.md)** property.
 
 
 ## Example

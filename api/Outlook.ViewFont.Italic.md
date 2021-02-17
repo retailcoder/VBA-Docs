@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # ViewFont.Italic property (Outlook)
 
-Returns or sets a  **Boolean** value that indicates if the font is italicized in the **[ViewFont](Outlook.ViewFont.md)** object. Read/write.
+Returns or sets a **Boolean** value that indicates if the font is italicized in the **[ViewFont](Outlook.ViewFont.md)** object. Read/write.
 
 
 ## Syntax
 
-_expression_. `Italic`
+_expression_.**Italic**
 
 _expression_ A variable that represents a [ViewFont](Outlook.ViewFont.md) object.
 

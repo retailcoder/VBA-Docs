@@ -17,7 +17,7 @@ Sets or clears task driving predecessor highlighting for the task path feature.
 
 _expression_. `HighlightDrivingPredecessors` _(Set)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -37,12 +37,12 @@ _expression_. `HighlightDrivingPredecessors` _(Set)_
 
 ## Remarks
 
-The  **HighlightDrivingPredecessors** method corresponds to the **Driving Predecessors** item in the **Task Path** drop-down list, on the **FORMAT** tab, under **GANTT CHART TOOLS** on the ribbon.
+The **HighlightDrivingPredecessors** method corresponds to the **Driving Predecessors** item in the **Task Path** drop-down list, on the **FORMAT** tab, under **GANTT CHART TOOLS** on the ribbon.
 
 
 ## Example
 
-Create a project where task 2 is a driving predecessor of task 3, and then run the following statements in the  **Immediate** window of the VBE. The **PathDrivingPredecessor** statement prints **True**.
+Create a project where task 2 is a driving predecessor of task 3, and then run the following statements in the Immediate window of the VBE. The **PathDrivingPredecessor** statement prints **True**.
 
 
 ```vb

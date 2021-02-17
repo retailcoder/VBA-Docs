@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.CustomizeField method (Project)
 
-Displays the  **Customize Fields** dialog box.
+Displays the **Customize Fields** dialog box.
 
 
 ## Syntax
 
 _expression_. `CustomizeField`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `CustomizeField`
 
 ## Remarks
 
-The  **CustomizeField** method has the same effect as the **Custom Fields** command on the **Project** tab on the Ribbon.
+The **CustomizeField** method has the same effect as the **Custom Fields** command on the **Project** tab on the Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

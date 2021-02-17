@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Point.PieSliceLocation
 ms.assetid: 90a318d4-0ad2-d326-c26b-3c965b1ffe43
-ms.date: 06/08/2017
+ms.date: 05/09/2019
 localization_priority: Normal
 ---
 
@@ -19,19 +19,17 @@ Returns the vertical or horizontal position of a point on a chart item, in [poin
 
 ## Syntax
 
-_expression_. `PieSliceLocation`( `_loc_` , `_Index_` )
+_expression_.**PieSliceLocation** (_loc_, _Index_)
 
-_expression_ A variable that represents a '[Point](Excel.Point(object).md)' object.
+_expression_ A variable that represents a **[Point](Excel.Point(object).md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _loc_|Required| **[XlPieSliceLocation](Excel.XlPieSliceLocation.md)**|Specifies a horizontal or vertical coordinate.|
-| _Index_|Optional| **[XlPieSliceIndex](Excel.XlPieSliceIndex.md)**|Specifies which pie slice position coordinate to return. The default value is  **xlOuterCenterPoint**.|
+| _Index_|Optional| **[XlPieSliceIndex](Excel.XlPieSliceIndex.md)**|Specifies which pie slice position coordinate to return. The default value is **xlOuterCenterPoint**.|
 
 ## Return value
 
@@ -43,9 +41,6 @@ Double
 This property only applies to pie and doughnut chart types.
 
 
-## See also
 
-
-[Point Object](Excel.Point(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

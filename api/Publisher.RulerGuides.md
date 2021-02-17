@@ -7,23 +7,25 @@ ms.prod: publisher
 api_name:
 - Publisher.RulerGuides
 ms.assetid: c58d3cb2-8cf8-74fa-2bf4-a931dc95a26a
-ms.date: 06/08/2017
+ms.date: 06/01/2019
 localization_priority: Normal
 ---
 
 
 # RulerGuides object (Publisher)
 
-A collection of  **[RulerGuide](Publisher.RulerGuide.md)** objects that represents a gridline used to align objects on a page.
+A collection of **[RulerGuide](Publisher.RulerGuide.md)** objects that represents a gridline used to align objects on a page.
  
+## Remarks
+
+Use the **Add** method to add ruler gridlines to the **RulerGuides** collection. 
+
+Use the **Count** property to return the total number of ruler guides, horizontal and vertical, in the collection. 
 
 
 ## Example
 
-Use the  **[Add](Publisher.RulerGuides.Add.md)** method of the **RulerGuides** collection to add ruler gridlines to the **RulerGuides** collection. This example creates horizontal ruler guides and vertical ruler guides every half inch on the first page of the active publication.
- 
-
- 
+This example creates horizontal ruler guides and vertical ruler guides every half inch on the first page of the active publication.
 
 ```vb
 Sub SetRulerGuides() 
@@ -43,12 +45,9 @@ Sub SetRulerGuides()
 End Sub
 ```
 
-Use the  **[Count](Publisher.RulerGuides.Count.md)** property to return the total number of ruler guides, horizontal and vertical, in the collection. The following example uses the **Count** property to create a loop that deletes each of the ruler guides in the collection.
- 
+<br/>
 
- 
-
-
+The following example uses the **Count** property to create a loop that deletes each of the ruler guides in the collection.
 
 ```vb
 Sub RemoveAllGuides() 
@@ -64,21 +63,19 @@ End Sub
 
 ## Methods
 
-
-
-|Name|
-|:-----|
-|[Add](Publisher.RulerGuides.Add.md)|
+- [Add](Publisher.RulerGuides.Add.md)
 
 ## Properties
 
+- [Application](Publisher.RulerGuides.Application.md)
+- [Count](Publisher.RulerGuides.Count.md)
+- [Item](Publisher.RulerGuides.Item.md)
+- [Parent](Publisher.RulerGuides.Parent.md)
+
+## See also
+
+- [Publisher Object Model Reference](overview/publisher/object-model.md)
 
 
-|Name|
-|:-----|
-|[Application](Publisher.RulerGuides.Application.md)|
-|[Count](Publisher.RulerGuides.Count.md)|
-|[Item](Publisher.RulerGuides.Item.md)|
-|[Parent](Publisher.RulerGuides.Parent.md)|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

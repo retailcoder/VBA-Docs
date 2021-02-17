@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # LookupTableEntry.FullName property (Project)
 
-Gets the full name for the specified level and parent levels of the  **LookupTableEntry** for the outline code, complete with the separator string between the levels. Read-only **String**.
+Gets the full name for the specified level and parent levels of the **LookupTableEntry** for the outline code, complete with the separator string between the levels. Read-only **String**.
 
 
 ## Syntax
 
 _expression_.**FullName**
 
- _expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
+_expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
 
 
 ## Example
 
-The  **CreateLocationOutlineCode** macro example sets three **LookupTableEntry** levels for a custom task outline code named **Location**. After the **CreateLocationOutlineCode** macro is executed, entering the following line in the **Immediate** window of the Visual Basic Editor (VBE) returns the result shown.
+The **CreateLocationOutlineCode** macro example sets three **LookupTableEntry** levels for a custom task outline code named **Location**. After the **CreateLocationOutlineCode** macro is executed, entering the following line in the Immediate window of the Visual Basic Editor (VBE) returns the result shown.
 
 
 ```vb
@@ -34,7 +34,7 @@ Print ActiveProject.OutlineCodes.Item(1).LookupTable.Item(4).FullName
 WA.KING.RED
 ```
 
-Following is the  **CreateLocationOutlineCode** macro.
+Following is the **CreateLocationOutlineCode** macro.
 
 
 

@@ -19,9 +19,9 @@ Returns or sets the chart type. Read/write  **[XlChartType](Excel.XlChartType.md
 
 ## Syntax
 
-_expression_. `ChartType`
+_expression_.**ChartType**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks

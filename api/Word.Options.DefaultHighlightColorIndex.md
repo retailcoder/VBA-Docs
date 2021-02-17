@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Options.DefaultHighlightColorIndex property (Word)
 
-Returns or sets the color used to highlight text formatted with the  **Highlight** button (**Formatting** toolbar). Read/write **WdColorIndex**.
+Returns or sets the color used to highlight text formatted with the **Highlight** button (**Formatting** toolbar). Read/write **WdColorIndex**.
 
 
 ## Syntax
 
 _expression_. `DefaultHighlightColorIndex`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

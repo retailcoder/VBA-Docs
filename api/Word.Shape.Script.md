@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # Shape.Script property (Word)
 
-Returns a  **Script** object, which represents a block of script or code for an image on a Web page.
+Returns a  **Script** object, which represents a block of script or code for an image on a webpage.
 
 
 ## Syntax
 
 _expression_. `Script`
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-If the Web page contains no script, nothing is returned.
+If the webpage contains no script, nothing is returned.
 
 
 ## Example

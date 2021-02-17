@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Chart.Title property (PowerPoint)
 
-Gets or sets a  **String** that represents the title of the chart. Read/write.
+Gets or sets a **String** that represents the title of the chart. Read/write.
 
 
 ## Syntax
 
 _expression_.**Title**
 
-_expression_ A variable that represents a [Chart](./PowerPoint.Chart.md) object.
+_expression_ A variable that represents a [Chart](PowerPoint.Chart.md) object.
 
 
 ## See also

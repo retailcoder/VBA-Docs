@@ -21,7 +21,7 @@ Checks the spelling of text custom fields.
 
 _expression_. `SpellCheckField`( `_FieldName_`, `_EnableSpellCheck_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `SpellCheckField`( `_FieldName_`, `_EnableSpellCheck_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldName_|Optional|**PjSpellingField**|One of the  **[PjSpellingField](Project.PjSpellingField.md)** enumeration values.|
+| _FieldName_|Optional|**PjSpellingField**|One of the **[PjSpellingField](Project.PjSpellingField.md)** enumeration values.|
 | _EnableSpellCheck_|Optional|**Variant**|**True** if spell check is enabled; otherwise, **False**.|
 
 ## Return value
@@ -40,6 +40,6 @@ _expression_. `SpellCheckField`( `_FieldName_`, `_EnableSpellCheck_` )
 
 ## Remarks
 
-To check spelling in the entire project, including text custom fields, use the  **[SpellingCheck](Project.Application.SpellingCheck.md)** method. The **SpellingCheck** method is equivalent to the **Spelling** command on the **Project** tab of the Ribbon.
+To check spelling in the entire project, including text custom fields, use the **[SpellingCheck](Project.Application.SpellingCheck.md)** method. The **SpellingCheck** method is equivalent to the **Spelling** command on the **Project** tab of the Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

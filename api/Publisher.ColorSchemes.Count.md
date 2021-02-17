@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.ColorSchemes.Count
 ms.assetid: cd3fe69f-df35-8dcd-1133-634983155592
-ms.date: 06/08/2017
+ms.date: 06/06/2019
 localization_priority: Normal
 ---
 
 
 # ColorSchemes.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a  **ColorSchemes** object.
+_expression_ A variable that represents a **[ColorSchemes](Publisher.ColorSchemes.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +35,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

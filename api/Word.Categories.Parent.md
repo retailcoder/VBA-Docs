@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Categories.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Categories** collection.
+Returns an **Object** that represents the parent object of the specified **Categories** collection.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Categories](Word.Categories.md)' collection.
+_expression_ A variable that represents a '[Categories](Word.Categories.md)' collection.
 
 
 ## See also

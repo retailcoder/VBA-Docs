@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Find.MatchWildcards property (Word)
 
- **True** if the text to find contains wildcards. Read/write **Boolean**.
+**True** if the text to find contains wildcards. Read/write **Boolean**.
 
 
 ## Syntax
@@ -26,20 +26,19 @@ _expression_. `MatchWildcards`
 
 ## Remarks
 
-The  **MatchWildcards** property corresponds to the **Use wildcards** check box in the **Find and Replace** dialog box (**Edit** menu).
+The **MatchWildcards** property corresponds to the **Use wildcards** check box in the **Find and Replace** dialog box (**Edit** menu).
 
-Use the  **[Text](Word.Find.Text.md)** property of the **Find** object or use the FindText argument with the **[Execute](Word.Find.Execute.md)** method to specify the text to be located in a document.
+Use the **[Text](Word.Find.Text.md)** property of the **Find** object or use the FindText argument with the **[Execute](Word.Find.Execute.md)** method to specify the text to be located in a document.
 
 
 ## Example
 
 This example finds and selects the next three-letter word that begins with "s" and ends with "t."
 
-
 ```vb
 With Selection.Find 
  .ClearFormatting 
- .Text = "s?t" 
+ .Text = "s*t" 
  .MatchAllWordForms = False 
  .MatchSoundsLike = False 
  .MatchFuzzy = False 
@@ -49,9 +48,6 @@ End With
 ```
 
 
-## See also
 
-
-[Find Object](Word.Find.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

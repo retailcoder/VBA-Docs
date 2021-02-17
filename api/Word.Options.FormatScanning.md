@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `FormatScanning`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Enabling the  **FormatScanning** property allows you to identify all unique formatting in your document, so you can easily apply the same formatting to new text and quickly replace or modify all instances of a given formatting within a document.
+Enabling the **FormatScanning** property allows you to identify all unique formatting in your document, so you can easily apply the same formatting to new text and quickly replace or modify all instances of a given formatting within a document.
 
 
 ## Example

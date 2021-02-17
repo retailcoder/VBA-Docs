@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ProtectedViewWindows.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **ProtectedViewWindows** object.
+Returns an **Object** that represents the parent object of the specified **ProtectedViewWindows** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ An expression that returns a [ProtectedViewWindows](./Word.ProtectedViewWindows.md) object.
+_expression_ An expression that returns a **[ProtectedViewWindows](Word.ProtectedViewWindows.md)** object.
 
 
 ## See also

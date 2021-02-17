@@ -21,11 +21,11 @@ Gets or sets the separator character for enterprise lists. Read/write  **String*
 
 _expression_. `EnterpriseListSeparator`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **EnterpriseListSeparator** property is available only in Project Professional.
+The **EnterpriseListSeparator** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,9 +19,9 @@ Flips the specified shape around its horizontal or vertical axis.
 
 ## Syntax
 
-_expression_. `Flip`( `_FlipCmd_` )
+_expression_.**Flip** (_FlipCmd_)
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Parameters
@@ -44,7 +44,7 @@ The  _FlipCmd_ parameter value can be one of these **MsoFlipCmd** constants.
 
 ## Example
 
-This example adds a triangle to  _myDocument_, duplicates the triangle, and then flips the duplicate triangle vertically and makes it red.
+This example adds a triangle to _myDocument_, duplicates the triangle, and then flips the duplicate triangle vertically and makes it red.
 
 
 ```vb

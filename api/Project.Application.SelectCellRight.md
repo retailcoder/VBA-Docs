@@ -21,7 +21,7 @@ Selects cells to the right of the current selection.
 
 _expression_. `SelectCellRight`( `_NumCells_`, `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,6 +40,6 @@ _expression_. `SelectCellRight`( `_NumCells_`, `_Extend_` )
 
 ## Remarks
 
-The  **SelectCellRight** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
+The **SelectCellRight** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

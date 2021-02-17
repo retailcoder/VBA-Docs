@@ -18,11 +18,11 @@ Gets the object that contains the embedded project. Read-only  **Object**.
 
 _expression_. `Container`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-Use the  **Container** property to access the properties or methods of the object that contains the project. If the container doesn't support automation or the project is not embedded, the **Container** property fails with run-time error 1004.
+Use the **Container** property to access the properties or methods of the object that contains the project. If the container doesn't support automation or the project is not embedded, the **Container** property fails with run-time error 1004.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

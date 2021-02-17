@@ -19,14 +19,14 @@ Returns a [SmartArt](Office.SmartArt.md) object that provides a way to work with
 
 ## Syntax
 
-_expression_. `SmartArt`
+_expression_.**SmartArt**
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Remarks
 
-The  **SmartArt** property provides an entry point for interacting with a SmartArt graphic associated with the inline shape.
+The **SmartArt** property provides an entry point for interacting with a SmartArt graphic associated with the inline shape.
 
 
 ## Example

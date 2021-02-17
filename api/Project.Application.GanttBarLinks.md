@@ -21,7 +21,7 @@ Shows or hides task links on the Gantt Chart.
 
 _expression_. `GanttBarLinks`( `_Display_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `GanttBarLinks`( `_Display_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Display_|Optional|**Long**|Where links will be drawn from the ends of predecessor links. Can be one of the  **[PjGanttBarLink](Project.PjGanttBarLink.md)** constants. The default value is **PjNoGanttBarLinks**.|
+| _Display_|Optional|**Long**|Where links will be drawn from the ends of predecessor links. Can be one of the **[PjGanttBarLink](Project.PjGanttBarLink.md)** constants. The default value is **PjNoGanttBarLinks**.|
 
 ## Return value
 

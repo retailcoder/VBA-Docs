@@ -19,14 +19,14 @@ Gets a reference to the Microsoft Office  **[IAssistance](Office.IAssistance.md)
 
 ## Syntax
 
-_expression_. `Assistance`
+_expression_.**Assistance**
 
- _expression_ An expression that returns an [Application](./PowerPoint.Application.md) object.
+ _expression_ An expression that returns an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Remarks
 
-The  **IAssistance** object exposes methods that allow developers to display Help topics in the Office Help Viewer or to display Help topics that ship with Microsoft Office in the PowerPoint Help window.
+The **IAssistance** object exposes methods that allow developers to display Help topics in the Office Help Viewer or to display Help topics that ship with Microsoft Office in the PowerPoint Help window.
 
 
 ## See also

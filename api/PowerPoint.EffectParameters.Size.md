@@ -19,9 +19,9 @@ Returns or sets the character size, in points. Read/write.
 
 ## Syntax
 
-_expression_. `Size`
+_expression_.**Size**
 
-_expression_ A variable that represents an [EffectParameters](./PowerPoint.EffectParameters.md) object.
+_expression_ A variable that represents an [EffectParameters](PowerPoint.EffectParameters.md) object.
 
 
 ## Return value

@@ -12,14 +12,8 @@ localization_priority: Normal
 ## In this section
 
 
--  [Frame Object (Outlook Forms Script)](Outlook.frame.md)
+- [Frame Object (Outlook Forms Script)](Outlook.frame.md)
     
--  [Frame Members (Outlook Forms Script)](Outlook.frame(members).md)
-    
--  [Frame Properties (Outlook Forms Script)](Outlook.frame(properties).md)
-    
--  [Frame Methods (Outlook Forms Script)](Outlook.frame(methods).md)
-    
--  [Frame Events (Outlook Forms Script)](Outlook.frame(events).md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

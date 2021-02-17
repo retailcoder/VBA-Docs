@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Trendline.Order property (PowerPoint)
 
-Returns or sets the trendline order (an integer greater than 1) when the trendline type is  **xlPolynomial**. Read/write **Long**.
+Returns or sets the trendline order (an integer greater than 1) when the trendline type is **xlPolynomial**. Read/write **Long**.
 
 
 ## Syntax
 
-_expression_. `Order`
+_expression_.**Order**
 
- _expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
 
 
 ## See also

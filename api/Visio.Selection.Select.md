@@ -21,7 +21,7 @@ Selects or clears the selection of an object.
 
 _expression_.**Select** (_SheetObject_, _SelectAction_)
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters
@@ -99,7 +99,7 @@ Public Sub Select_Example()
  Dim vsoGroup As Visio.Shape 
  Set vsoGroup = vsoSelection.Group 
  
- 'There are now four shapes on the page?a group that contains three 
+ 'There are now four shapes on the page - a group that contains three 
  'subshapes, and three ungrouped shapes. Subselection is 
  'accomplished by selecting the parent shape first or one of the 
  'group's shapes already subselected. 

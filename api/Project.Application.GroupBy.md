@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.GroupBy method (Project)
 
-Displays the  **Customize Group By** dialog box.
+Displays the **Customize Group By** dialog box.
 
 
 ## Syntax
 
 _expression_. `GroupBy`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `GroupBy`
 
 ## Remarks
 
-The  **Group By** drop-down list on the **View** tab in the Ribbon does not include an option to show the **Customize Group By** dialog box. To manually show the dialog box, open the **Project Options** dialog box, click **Quick Access Toolbar** in the left pane, and then choose the command from the **All Commands** or **Commands Not in the Ribbon** list. Add the **Group By** command to the Quick Access Toolbar, and then click **OK**. You can then click the  **Group By** icon in the Quick Access Toolbar.
+The **Group By** drop-down list on the **View** tab in the Ribbon does not include an option to show the **Customize Group By** dialog box. To manually show the dialog box, open the **Project Options** dialog box, click **Quick Access Toolbar** in the left pane, and then choose the command from the **All Commands** or **Commands Not in the Ribbon** list. Add the **Group By** command to the Quick Access Toolbar, and then click **OK**. You can then click the **Group By** icon in the Quick Access Toolbar.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -7,26 +7,24 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.Delta
 ms.assetid: a8698aa3-88cf-fe5f-be57-f01daddfa4fd
-ms.date: 06/08/2017
+ms.date: 05/22/2019
 localization_priority: Normal
 ---
 
 
 # WorksheetFunction.Delta method (Excel)
 
-Tests whether two values are equal. Returns 1 if number1 = number2; returns 0 otherwise.
+Tests whether two values are equal. Returns 1 if number1 = number2; otherwise, returns 0.
 
 
 ## Syntax
 
-_expression_. `Delta`( `_Arg1_` , `_Arg2_` )
+_expression_.**Delta** (_Arg1_, _Arg2_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,22 +33,18 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
- Use this function to filter a set of values. For example, by summing several DELTA functions you calculate the count of equal pairs. This function is also known as the Kronecker Delta function.
+Use this function to filter a set of values. For example, by summing several DELTA functions, you calculate the count of equal pairs. This function is also known as the Kronecker Delta function.
 
-
-- If number1 is nonnumeric, DELTA returns the #VALUE! error value.
+If number1 is nonnumeric, **Delta** returns the #VALUE! error value.
     
-- If number2 is nonnumeric, DELTA returns the #VALUE! error value.
+If number2 is nonnumeric, **Delta** returns the #VALUE! error value.
     
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

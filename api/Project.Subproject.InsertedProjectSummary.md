@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Subproject.InsertedProjectSummary property (Project)
 
-Gets a  **[Task](Project.Task.md)** object that represents the summary task of the subproject in a master project. Read-only **Task**.
+Gets a **[Task](Project.Task.md)** object that represents the summary task of the subproject in a master project. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_. `InsertedProjectSummary`
 
- _expression_ A variable that represents a [Subproject](./Project.Subproject.md) object.
+_expression_ A variable that represents a [Subproject](./Project.Subproject.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

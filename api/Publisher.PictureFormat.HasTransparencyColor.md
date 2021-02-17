@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.PictureFormat.HasTransparencyColor
 ms.assetid: 2e6066e8-60b0-c33e-0bb0-1b6f83208fd0
-ms.date: 06/08/2017
+ms.date: 06/12/2019
 localization_priority: Normal
 ---
 
 
 # PictureFormat.HasTransparencyColor property (Publisher)
 
-Returns a  **Boolean** that indicates whether a transparency color has been applied to the specified picture. Read-only.
+Returns a **Boolean** that indicates whether a transparency color has been applied to the specified picture. Read-only.
 
 
 ## Syntax
 
 _expression_.**HasTransparencyColor**
 
- _expression_ A variable that represents a  **PictureFormat** object.
+_expression_ A variable that represents a **[PictureFormat](Publisher.PictureFormat.md)** object.
 
 
 ## Return value
@@ -32,7 +32,6 @@ Boolean
 ## Example
 
 The following example returns a list of the pictures with transparency colors in the active publication.
-
 
 ```vb
 Sub ListPicturesWithTransColors() 

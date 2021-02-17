@@ -21,12 +21,12 @@ Returns a  **[Cells](Word.cells.md)** collection that represents the table cells
 
 _expression_.**Cells**
 
- _expression_ A variable that represents a '[Row](Word.Row.md)' object.
+_expression_ A variable that represents a '[Row](Word.Row.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## See also

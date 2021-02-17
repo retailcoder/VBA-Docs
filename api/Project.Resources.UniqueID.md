@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Resources.UniqueID property (Project)
 
-Gets a  **[Resource](Project.Resource.md)** object from its containing collection. Read-only **Resource**.
+Gets a **[Resource](Project.Resource.md)** object from its containing collection. Read-only **Resource**.
 
 
 ## Syntax
 
 _expression_. `UniqueID` (_Index_)
 
- _expression_ A variable that represents a 'Resources' object.
+_expression_ A variable that represents a 'Resources' object.
 
 
 ## Parameters

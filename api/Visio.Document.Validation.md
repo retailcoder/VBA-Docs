@@ -14,18 +14,18 @@ localization_priority: Normal
 
 # Document.Validation property (Visio)
 
-Returns the  **[Validation](Visio.Validation.md)** object that is associated with the document. Read-only.
+Returns the **[Validation](Visio.Validation.md)** object that is associated with the document. Read-only.
 
 
 ## Syntax
 
-_expression_. `Validation`
+_expression_.**Validation**
 
- _expression_ A variable that represents a '[Document](Visio.Document.md)' object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
 
- **Validation**
+**Validation**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

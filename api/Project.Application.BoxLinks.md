@@ -21,7 +21,7 @@ Specifies the appearance of link lines in the active Network Diagram view.
 
 _expression_. `BoxLinks`( `_Style_`, `_ShowArrows_`, `_ShowLabels_`, `_ColorMode_`, `_CriticalColor_`, `_NoncriticalColor_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -33,8 +33,8 @@ _expression_. `BoxLinks`( `_Style_`, `_ShowArrows_`, `_ShowLabels_`, `_ColorMode
 | _Style_|Optional|**Long**|Specifies the style of link lines. Can be one of the following  **[PjLinkStyle](Project.PjLinkStyle.md)** constants: **pjLinkStraight** or **pjLinkRectilinear**.|
 | _ShowArrows_|Optional|**Boolean**|**True** if link lines have arrows showing the direction of the link; otherwise, **False**.|
 | _ShowLabels_|Optional|**Boolean**|**True** if link lines have labels showing the link type (FS, SS, SF, or FF); otherwise, **False**.|
-| _ColorMode_|Optional|**Long**|Specifies how the color of link lines is determined. Can be one of the  **[PjLinkColorMode](Project.PjLinkColorMode.md)** constants.|
-| _CriticalColor_|Optional|**Long**|The color of link lines between critical tasks. The default value is  **pjRed**. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
+| _ColorMode_|Optional|**Long**|Specifies how the color of link lines is determined. Can be one of the **[PjLinkColorMode](Project.PjLinkColorMode.md)** constants.|
+| _CriticalColor_|Optional|**Long**|The color of link lines between critical tasks. The default value is **pjRed**. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
 | _NoncriticalColor_|Optional|**Long**| The color of link lines between noncritical tasks. Can be one of the **[PjColor](Project.PjColor.md)** constants. The default value is **pjBlack**.|
 
 ## Return value
@@ -44,9 +44,9 @@ _expression_. `BoxLinks`( `_Style_`, `_ShowArrows_`, `_ShowLabels_`, `_ColorMode
 
 ## Remarks
 
-If no arguments are specified, the  **BoxLinks** method has no effect. If _ColorMode_ is **pjColorModePredecessor**, the _NoncriticalColor_ and _CriticalColor_ parameters are ignored.
+If no arguments are specified, the **BoxLinks** method has no effect. If _ColorMode_ is **pjColorModePredecessor**, the _NoncriticalColor_ and _CriticalColor_ parameters are ignored.
 
-To edit box link lines where the colors can be RGB values, use the  **[BoxLinksEx](Project.Application.BoxLinksEx.md)** method.
+To edit box link lines where the colors can be RGB values, use the **[BoxLinksEx](Project.Application.BoxLinksEx.md)** method.
 
 
 ## Example

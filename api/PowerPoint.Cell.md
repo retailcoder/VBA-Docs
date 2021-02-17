@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Cell object (PowerPoint)
 
-Represents a table cell. The  **Cell** object is a member of the **[CellRange](./PowerPoint.CellRange.md)** collection. The **CellRange** collection represents all the cells in the specified column or row. To use the **CellRange** collection, use the **Cells** keyword.
+Represents a table cell. The **Cell** object is a member of the **[CellRange](PowerPoint.CellRange.md)** collection. The **CellRange** collection represents all the cells in the specified column or row. To use the **CellRange** collection, use the **Cells** keyword.
 
 
 ## Remarks
@@ -24,7 +24,7 @@ You cannot programmatically add cells to or delete cells from a PowerPoint table
 
 ## Example
 
-Use  **Cell** (row, column), where row is the row number and column is the column number, or **Cells** (index), where index is the number of the cell in the specified row or column, to return a single **Cell** object. Cells are numbered from left to right in rows and from top to bottom in columns. With right-to-left language settings, this scheme is reversed. The following example merges the first two cells in row one of the table in shape five on slide two.
+Use  **Cell** (row, column), where row is the row number and column is the column number, or **Cells** (_index_), where _index_ is the number of the cell in the specified row or column, to return a single **Cell** object. Cells are numbered from left to right in rows and from top to bottom in columns. With right-to-left language settings, this scheme is reversed. The following example merges the first two cells in row one of the table in shape five on slide two.
 
 
 ```vb
@@ -50,7 +50,7 @@ With ActivePresentation.Slides(2).Shapes(5).Table.Columns(1) _
 End With
 ```
 
-Use the [Shape](./PowerPoint.Cell.Shape.md)property to access the  **Shape** object and to manipulate the contents of each cell. This example deletes the text in the first cell (row 1, column 1), inserts new text, and then sets the width of the entire column to 110 points.
+Use the [Shape](PowerPoint.Cell.Shape.md)property to access the  **Shape** object and to manipulate the contents of each cell. This example deletes the text in the first cell (row 1, column 1), inserts new text, and then sets the width of the entire column to 110 points.
 
 
 
@@ -74,9 +74,9 @@ End With
 
 |Name|
 |:-----|
-|[Merge](./PowerPoint.Cell.Merge.md)|
-|[Select](./PowerPoint.Cell.Select.md)|
-|[Split](./PowerPoint.Cell.Split.md)|
+|[Merge](PowerPoint.Cell.Merge.md)|
+|[Select](PowerPoint.Cell.Select.md)|
+|[Split](PowerPoint.Cell.Split.md)|
 
 ## Properties
 
@@ -84,11 +84,11 @@ End With
 
 |Name|
 |:-----|
-|[Application](./PowerPoint.Cell.Application.md)|
-|[Borders](./PowerPoint.Cell.Borders.md)|
-|[Parent](./PowerPoint.Cell.Parent.md)|
-|[Selected](./PowerPoint.Cell.Selected.md)|
-|[Shape](./PowerPoint.Cell.Shape.md)|
+|[Application](PowerPoint.Cell.Application.md)|
+|[Borders](PowerPoint.Cell.Borders.md)|
+|[Parent](PowerPoint.Cell.Parent.md)|
+|[Selected](PowerPoint.Cell.Selected.md)|
+|[Shape](PowerPoint.Cell.Shape.md)|
 
 ## See also
 

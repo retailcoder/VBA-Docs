@@ -19,7 +19,7 @@ Represents the display properties of an order field or view field in a view.
 
 ## Remarks
 
-The  **ColumnFormat** object represents the display properties, such as the alignment or field type, of an **[OrderField](Outlook.OrderField.md)** or **[ViewField](Outlook.ViewField.md)** object. Use the **[ColumnFormat](Outlook.ViewField.ColumnFormat.md)** property of the **ViewField** object to access the display properties of a view field.
+The **ColumnFormat** object represents the display properties, such as the alignment or field type, of an **[OrderField](Outlook.OrderField.md)** or **[ViewField](Outlook.ViewField.md)** object. Use the **[ColumnFormat](Outlook.ViewField.ColumnFormat.md)** property of the **ViewField** object to access the display properties of a view field.
 
 Use the  **[Label](Outlook.ColumnFormat.Label.md)** property to obtain or change the text used to label the field, or the **[Align](Outlook.ColumnFormat.Align.md)** property to determine the alignment of the contents within the field.
 
@@ -70,9 +70,9 @@ Private Sub DisplayTableViewFields()
  
  With objViewField 
  
- strOutput = strOutput &amp; .ColumnFormat.Label &amp; _ 
+ strOutput = strOutput & .ColumnFormat.Label & _ 
  
- " (" &amp; .ViewXMLSchemaName &amp; ")" &amp; vbCrLf 
+ " (" & .ViewXMLSchemaName & ")" & vbCrLf 
  
  End With 
  

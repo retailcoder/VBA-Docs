@@ -19,9 +19,9 @@ Determines whether Microsoft Visio prompts for document properties when it saves
 
 ## Syntax
 
-_expression_. `PromptForSummary`
+_expression_.**PromptForSummary**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -31,12 +31,12 @@ Integer
 
 ## Remarks
 
-This property corresponds to the  **Prompt for document properties on first save** check box on the **Save** tab in the **Visio Options** dialog box (click the **File** tab, and then click **Options**).
+This property corresponds to the **Prompt for document properties on first save** check box on the **Save** tab in the **Visio Options** dialog box (click the **File** tab, and then click **Options**).
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro switches the  **PromptForSummary** property of the Visio **Application** object.
+This Microsoft Visual Basic for Applications (VBA) macro switches the **PromptForSummary** property of the Visio **Application** object.
 
 
 ```vb

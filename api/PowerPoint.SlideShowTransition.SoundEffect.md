@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideShowTransition.SoundEffect property (PowerPoint)
 
-Returns a  **SoundEffect** object that represents the sound to be played during the transition to the specified slide. Read-only.
+Returns a **SoundEffect** object that represents the sound to be played during the transition to the specified slide. Read-only.
 
 
 ## Syntax
 
 _expression_. `SoundEffect`
 
- _expression_ A variable that represents a [SlideShowTransition](./PowerPoint.SlideShowTransition.md) object.
+_expression_ A variable that represents a [SlideShowTransition](PowerPoint.SlideShowTransition.md) object.
 
 
 ## Return value

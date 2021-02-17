@@ -21,7 +21,7 @@ Gets the distance in pixels between the left edge of the object and the left sid
 
 _expression_.**Left**
 
- _expression_ A variable that represents a [MenuSet](./Visio.MenuSet.md) object.
+_expression_ A variable that represents a **[MenuSet](Visio.MenuSet.md)** object.
 
 
 ## Return value
@@ -32,7 +32,8 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 The value of  **Left** must be greater than or equal to zero.
 

@@ -19,14 +19,14 @@ Returns a  **Long** that represents the number of records in the data source. Re
 
 ## Syntax
 
-_expression_. `RecordCount`
+_expression_.**RecordCount**
 
  _expression_ An expression that returns a '[MailMergeDataSource](Word.MailMergeDataSource.md)' object.
 
 
 ## Remarks
 
-If Microsoft Word cannot determine the number of records in a data source, the  **RecordCount** property will return a value of -1.
+If Microsoft Word cannot determine the number of records in a data source, the **RecordCount** property will return a value of -1.
 
 
 ## Example

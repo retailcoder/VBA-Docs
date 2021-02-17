@@ -19,9 +19,9 @@ Scales the width of the shape by a specified factor. For pictures and OLE object
 
 ## Syntax
 
-_expression_. `ScaleWidth`( `_Factor_`, `_RelativeToOriginalSize_`, `_fScale_` )
+_expression_.**ScaleWidth** (_Factor_, _RelativeToOriginalSize_, _fScale_)
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Parameters
@@ -58,7 +58,7 @@ The  _fScale_ parameter value can be one of the following **MsoScaleFrom** const
 
 ## Example
 
-This example scales all pictures and OLE objects on  _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
+This example scales all pictures and OLE objects on _myDocument_ to 175 percent of their original height and width, and it scales all other shapes to 175 percent of their current height and width.
 
 
 ```vb

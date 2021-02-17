@@ -18,12 +18,12 @@ Deprecated in Project.
 
 _expression_. `ReportList`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-In Project, the  **ReportList** property returns **Nothing**. In Project, the  **ReportList** property gets a **[List](Project.List.md)** object representing the reports in the active project.
+In Project, the **ReportList** property returns **Nothing**. In Project, the **ReportList** property gets a **[List](Project.List.md)** object representing the reports in the active project.
 
 
 ## Example

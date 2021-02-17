@@ -19,9 +19,9 @@ Returns the file name extensions associated with the specified  **FileConverter*
 
 ## Syntax
 
-_expression_. `Extensions`
+_expression_.**Extensions**
 
- _expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
 
 
 ## Example
@@ -29,7 +29,8 @@ _expression_. `Extensions`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 This example displays the name and file name extensions for the first file converter.
 

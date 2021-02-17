@@ -19,9 +19,9 @@ Returns email routing data for a document. Read-only.
 
 ## Syntax
 
-_expression_. `EmailRoutingData`
+_expression_.**EmailRoutingData**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value

@@ -7,7 +7,7 @@ ms.prod: visio
 api_name:
 - Visio.AccelTable.Delete
 ms.assetid: 737d0877-5937-35b7-6163-79f50b2f8fa8
-ms.date: 06/08/2017
+ms.date: 06/24/2019
 localization_priority: Normal
 ---
 
@@ -21,7 +21,7 @@ Deletes an object.
 
 _expression_.**Delete**
 
- _expression_ A variable that represents an [AccelTable](./Visio.AccelTable.md) object.
+_expression_ A variable that represents an **[AccelTable](Visio.AccelTable.md)** object.
 
 
 ## Return value

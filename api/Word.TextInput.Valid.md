@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `Valid`
 
- _expression_ A variable that represents a '[TextInput](Word.TextInput.md)' object.
+_expression_ A variable that represents a '[TextInput](Word.TextInput.md)' object.
 
 
 ## Example
 
-This example determines whether the first form field in the active document is a text form field. If the  **Valid** property is **True**, the contents of the text form field are changed to "Hello."
+This example determines whether the first form field in the active document is a text form field. If the **Valid** property is **True**, the contents of the text form field are changed to "Hello."
 
 
 ```vb

@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Assignment.Baseline6BudgetCost property (Project)
 
-Gets or sets the baseline6 budget cost for an  **Assignment**. Read/write **Variant**.
+Gets or sets the baseline6 budget cost for an **Assignment**. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Baseline6BudgetCost`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

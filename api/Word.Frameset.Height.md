@@ -21,12 +21,12 @@ Returns or sets a  **Float** that represents the height (in points) of the speci
 
 _expression_.**Height**
 
- _expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Remarks
 
-The  **HeightType** property determines the type of unit in which this value is expressed.
+The **HeightType** property determines the type of unit in which this value is expressed.
 
 
 ## Example

@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Saved`
+_expression_.**Saved**
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example

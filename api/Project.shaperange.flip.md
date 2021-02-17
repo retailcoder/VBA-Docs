@@ -12,9 +12,9 @@ Flips each shape in the shape range around its horizontal or vertical axis.
 
 ## Syntax
 
-_expression_. `Flip` _(FlipCmd)_
+_expression_.**Flip** (_FlipCmd_)
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Parameters

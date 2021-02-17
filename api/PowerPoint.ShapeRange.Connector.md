@@ -19,9 +19,9 @@ Determines whether the specified shape is a connector. Read-only.
 
 ## Syntax
 
-_expression_. `Connector`
+_expression_.**Connector**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **Connector** property can be one of these **MsoTriState** con
 
 ## Example
 
-This example deletes all connectors on  _myDocument_.
+This example deletes all connectors on _myDocument_.
 
 
 ```vb

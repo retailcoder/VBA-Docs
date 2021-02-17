@@ -19,9 +19,9 @@ Returns or sets the type of underline applied to the font. Read/write  **[WdUnde
 
 ## Syntax
 
-_expression_. `Underline`
+_expression_.**Underline**
 
-_expression_ Required. A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ Required. A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Example

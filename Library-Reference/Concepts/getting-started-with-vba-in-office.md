@@ -2,7 +2,7 @@
 title: Getting started with VBA in Office
 ms.prod: office
 ms.assetid: 7208a87a-a567-41d9-af5b-0df3884c58d9
-ms.date: 01/02/2019
+ms.date: 08/14/2019
 localization_priority: Priority
 ---
 
@@ -20,6 +20,8 @@ The Office suite of applications has a rich set of features. There are many diff
 Beyond the power of scripting VBA to accelerate every-day tasks, you can use VBA to add new functionality to Office applications or to prompt and interact with the user of your documents in ways that are specific to your business needs. For example, you could write some VBA code that displays a pop up message that reminds users to save a document to a particular network drive the first time they try to save it.
 
 This article explores some of the primary reasons to leverage the power of VBA programming. It explores the VBA language and the out-of-the-box tools that you can use to work with your solutions. Finally, it includes some tips and ways to avoid some common programming frustrations and missteps.
+
+[!include[Add-ins note](~/includes/addinsnote.md)]
 
 ## When to use VBA and why
 
@@ -259,7 +261,7 @@ Choose **OK** and change the text back to"Wow!".
 
 Runtime errors are harder to catch because the programming syntax looks correct, but the code fails when VBA tries to execute it.
 
-For example, open the Visual Basic Editor and change the **Value** property name toValueX in your Macro, deliberately introducing a runtime error since the **Range** object does not have a property called ValueX. Go back to the Excel document, open the **Macros** dialog box and run Macro1 again. You should see a Visual Basic message box that explains the run-time error with the text, "Object doesn't support this property of method." Although that text is clear, choose **Debug** to find out more.
+For example, open the Visual Basic Editor and change the **Value** property name to ValueX in your Macro, deliberately introducing a runtime error since the **Range** object does not have a property called ValueX. Go back to the Excel document, open the **Macros** dialog box and run Macro1 again. You should see a Visual Basic message box that explains the run-time error with the text, "Object doesn't support this property of method." Although that text is clear, choose **Debug** to find out more.
 
 When you return to the Visual Basic Editor, it is in a special debug mode that uses a yellow highlight to show you the line of code that failed. As expected, the line that includes the ValueX property is highlighted.
 

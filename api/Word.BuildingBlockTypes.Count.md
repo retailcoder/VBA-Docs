@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # BuildingBlockTypes.Count property (Word)
 
-Returns the number of items in the  **BuildingBlockTypes** collection. Read-only **Long**.
+Returns the number of items in the **BuildingBlockTypes** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[BuildingBlockTypes](Word.BuildingBlockTypes.md)' object.
+_expression_ A variable that represents a '[BuildingBlockTypes](Word.BuildingBlockTypes.md)' object.
 
 
 ## See also

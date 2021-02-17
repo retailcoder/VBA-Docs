@@ -19,9 +19,9 @@ Returns or sets the number of points that are cropped off the left side of the s
 
 ## Syntax
 
-_expression_. `CropLeft`
+_expression_.**CropLeft**
 
- _expression_ A variable that represents a [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents a [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ Cropping is calculated relative to the original size of the picture. For example
 
 ## Example
 
-This example crops 20 points off the left side of shape three on  _myDocument_. For the example to work, shape three must be either a picture or an OLE object.
+This example crops 20 points off the left side of shape three on _myDocument_. For the example to work, shape three must be either a picture or an OLE object.
 
 
 ```vb

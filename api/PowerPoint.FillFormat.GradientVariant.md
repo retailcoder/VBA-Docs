@@ -19,9 +19,9 @@ Returns the gradient variant for the specified fill as an integer value from 1 t
 
 ## Syntax
 
-_expression_. `GradientVariant`
+_expression_.**GradientVariant**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -40,7 +40,7 @@ This property is read-only. Use the [OneColorGradient](PowerPoint.FillFormat.One
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ and sets its fill gradient variant to match that of the shape named "rect1." For the example to work, rect1 must have a gradient fill.
+This example adds a rectangle to _myDocument_ and sets its fill gradient variant to match that of the shape named "rect1." For the example to work, rect1 must have a gradient fill.
 
 
 ```vb

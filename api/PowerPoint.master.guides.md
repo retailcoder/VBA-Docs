@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Master.Guides property (PowerPoint)
 
-Returns a  **[Guides](PowerPoint.guides.md)** collection that represents all of the drawing guides associated with the slide master, title master, handout master, notes master, or design master.
+Returns a **[Guides](PowerPoint.guides.md)** collection that represents all of the drawing guides associated with the slide master, title master, handout master, notes master, or design master.
 
 
 ## Syntax
 
 _expression_. `Guides`
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Property value

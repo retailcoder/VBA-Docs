@@ -21,7 +21,7 @@ Updates progress information and reschedules work for tasks in a project.
 
 _expression_. `UpdateProject`( `_All_`, `_UpdateDate_`, `_Action_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,9 +41,9 @@ _expression_. `UpdateProject`( `_All_`, `_UpdateDate_`, `_Action_` )
 
 ## Remarks
 
-Running the  **UpdateProject** method with no arguments displays the **Update Project** dialog box.
+Running the **UpdateProject** method with no arguments displays the **Update Project** dialog box.
 
-The  **UpdateProject** method corresponds to the **Update Project** command on the **PROJECT** tab of the ribbon.
+The **UpdateProject** method corresponds to the **Update Project** command on the **PROJECT** tab of the ribbon.
 
 
 ## Example

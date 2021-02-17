@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # SplitParts.Parent property (Project)
 
-Gets the parent of the  **SplitParts** object. Read-only **Task**.
+Gets the parent of the **SplitParts** object. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'SplitParts' object.
+_expression_ A variable that represents a 'SplitParts' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

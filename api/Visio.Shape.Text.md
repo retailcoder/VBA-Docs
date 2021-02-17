@@ -21,7 +21,7 @@ Returns all of the shape's text. Read/write.
 
 _expression_.**Text**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -38,15 +38,15 @@ If the shape is a group, the text returned is dependent on the value of the IsTe
 
 
 
-- If IsTextEditTarget is TRUE, the  **Text** property of the **Shape** object returns the text of the group.
+- If IsTextEditTarget is **True**, the  **Text** property of the **Shape** object returns the text of the group.
     
-- If IsTextEditTarget is FALSE, the  **Text** property of the **Shape** object returns the text of the shape in the group at the top of the stacking order.
+- If IsTextEditTarget is **False**, the  **Text** property of the **Shape** object returns the text of the shape in the group at the top of the stacking order.
     
 
 
 Objects from other applications and guides do not have a  **Text** property.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.Text**

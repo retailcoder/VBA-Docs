@@ -7,32 +7,30 @@ ms.prod: publisher
 api_name:
 - Publisher.WebNavigationBarSet.AddToEveryPage
 ms.assetid: d36a3281-a313-084c-0ae9-7a981a7d9713
-ms.date: 06/08/2017
+ms.date: 06/18/2019
 localization_priority: Normal
 ---
 
 
 # WebNavigationBarSet.AddToEveryPage method (Publisher)
 
-Adds a  **ShapeRange** of type **pbWebNavigationBar** to each page of the current document.
+Adds a **[ShapeRange](publisher.shaperange.md)** object of type **pbWebNavigationBar** (**[PbShapeType](publisher.pbshapetype.md)** enumeration) to each page of the current document.
 
 
 ## Syntax
 
-_expression_.**AddToEveryPage**(**_Left_**,  **_Top_**,  **_Width_**)
+_expression_.**AddToEveryPage** (_Left_, _Top_, _Width_)
 
- _expression_ A variable that represents a  **WebNavigationBarSet** object.
+_expression_ A variable that represents a **[WebNavigationBarSet](Publisher.WebNavigationBarSet.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Left|Required| **Variant**|The position of the left edge of the shape representing the Web navigation bar set.|
-|Top|Required| **Variant**|The position of the top edge of the shape representing the Web navigation bar set.|
-|Width|Optional| **Variant**|The width of the shape representing the Web navigation bar set.|
+|_Left_|Required| **Variant**|The position of the left edge of the shape representing the web navigation bar set.|
+|_Top_|Required| **Variant**|The position of the top edge of the shape representing the web navigation bar set.|
+|_Width_|Optional| **Variant**|The width of the shape representing the web navigation bar set.|
 
 ## Return value
 
@@ -41,13 +39,12 @@ ShapeRange
 
 ## Remarks
 
-The specified Web navigation bar set must exist before calling this method. 
+The specified web navigation bar set must exist before calling this method. 
 
 
 ## Example
 
-The following example adds a Web navigation bar set named "WebNavBarSet1" to the top of every page in the active document.
-
+The following example adds a web navigation bar set named WebNavBarSet1 to the top of every page in the active document.
 
 ```vb
 ActiveDocument.WebNavigationBarSets("WebNavBarSet1") _ 
@@ -55,10 +52,9 @@ ActiveDocument.WebNavigationBarSets("WebNavBarSet1") _
 
 ```
 
-The following example adds a new Web navigation bar set to the active document and adds it to every page of the publication.
+<br/>
 
-
-
+The following example adds a new web navigation bar set to the active document and adds it to every page of the publication.
 
 ```vb
 Dim objWebNavBarSet As WebNavigationBarSet 
@@ -70,5 +66,6 @@ Set objWebNavBarSet = ActiveDocument.WebNavigationBarSets.AddSet( _
  
 objWebNavBarSet.AddToEveryPage Left:=50, Top:=10, Width:=500
 ```
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

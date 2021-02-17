@@ -14,17 +14,18 @@ localization_priority: Normal
 
 # Application.ActiveDocument property (Word)
 
-Returns a  **[Document](Word.Document.md)** object that represents the active document (the document with the focus). If there are no documents open, an error occurs. Read-only.
+Returns a **[Document](Word.Document.md)** object that represents the active document (the document with the focus). If there are no documents open, an error occurs. Read-only.
 
 
- **Note**  The document in the active protected view window cannot be accessed using this property. Instead, use the [Document](Word.Document.md) property of the **[ActiveProtectedViewWindow](Word.Application.ActiveProtectedViewWindow.md)** object.
+> [!NOTE] 
+> The document in the active Protected View window cannot be accessed using this property. Instead, use the [Document](Word.Document.md) property of the **[ActiveProtectedViewWindow](Word.Application.ActiveProtectedViewWindow.md)** object.
 
 
 ## Syntax
 
-_expression_. `ActiveDocument`
+_expression_.**ActiveDocument**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

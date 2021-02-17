@@ -5,31 +5,27 @@ f1_keywords:
 - vbapb10.chm9568259
 ms.prod: publisher
 ms.assetid: e95a9764-4e36-5757-3d78-ae0344bf3562
-ms.date: 06/08/2017
+ms.date: 06/14/2019
 localization_priority: Normal
 ---
 
 
 # SoftEdgeFormat.Visible property (Publisher)
 
- **True** if the specified object, or the formatting applied to it, is visible. Read/write **MsoTriState**.
+**True** if the specified object, or the formatting applied to it, is visible. Read/write **[MsoTriState](office.msotristate.md)**.
 
 
 ## Syntax
 
 _expression_.**Visible**
 
- _expression_ A variable that represents a  **SoftEdgeFormat** object.
+_expression_ A variable that represents a **[SoftEdgeFormat](Publisher.SoftEdgeFormat.md)** object.
 
 
 ## Return value
 
- **MSOTRISTATE**
+MsoTriState
 
 
-## See also
-
-
- [SoftEdgeFormat Object](Publisher.softedgeformat.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

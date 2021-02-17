@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # TaskGroups.Add method (Project)
 
-Adds a  **Group** object to a **TaskGroups** collection.
+Adds a **Group** object to a **TaskGroups** collection.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Name_`, `_FieldName_` )
+_expression_.**Add** (_Name_, _FieldName_)
 
- _expression_ A variable that represents a 'TaskGroups' object.
+_expression_ A variable that represents a 'TaskGroups' object.
 
 
 ## Parameters

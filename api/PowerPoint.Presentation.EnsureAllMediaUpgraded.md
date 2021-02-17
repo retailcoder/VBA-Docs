@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.EnsureAllMediaUpgraded method (PowerPoint)
 
-Ensures that all media is up to date in a  **Presentation** object.
+Ensures that all media is up to date in a **Presentation** object.
 
 
 ## Syntax
 
 _expression_. `EnsureAllMediaUpgraded`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## See also

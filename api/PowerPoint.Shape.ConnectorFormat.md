@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.ConnectorFormat property (PowerPoint)
 
-Returns a  **[ConnectorFormat](PowerPoint.ConnectorFormat.md)** object that contains connector formatting properties. Applies to **Shape** or **ShapeRange** objects that represent connectors. Read-only.
+Returns a **[ConnectorFormat](PowerPoint.ConnectorFormat.md)** object that contains connector formatting properties. Applies to **Shape** or **ShapeRange** objects that represent connectors. Read-only.
 
 
 ## Syntax
 
-_expression_. `ConnectorFormat`
+_expression_.**ConnectorFormat**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ ConnectorFormat
 
 ## Example
 
-This example adds two rectangles to  _myDocument_, attaches them with a connector, automatically reroutes the connector along the shortest path, and then detaches the connector from the rectangles.
+This example adds two rectangles to _myDocument_, attaches them with a connector, automatically reroutes the connector along the shortest path, and then detaches the connector from the rectangles.
 
 
 ```vb

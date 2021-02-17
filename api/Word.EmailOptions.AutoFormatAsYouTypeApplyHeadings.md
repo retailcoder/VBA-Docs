@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatAsYouTypeApplyHeadings`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets Word to automatically apply the Heading1 through Heading 9 sty
 Options.AutoFormatAsYouTypeApplyHeadings = True
 ```
 
-This example returns the status of the  **Headings** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Headings** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

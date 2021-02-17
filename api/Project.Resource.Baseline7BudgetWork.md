@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.Baseline7BudgetWork property (Project)
 
-Gets or sets the baseline7 budget work (in hours) for a  **Resource**. Read/write **Variant**.
+Gets or sets the baseline7 budget work (in hours) for a **Resource**. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Baseline7BudgetWork`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

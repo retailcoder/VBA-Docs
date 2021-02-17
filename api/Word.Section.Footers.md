@@ -21,12 +21,12 @@ Returns a  **[HeadersFooters](Word.headersfooters.md)** collection that represen
 
 _expression_. `Footers`
 
- _expression_ A variable that represents a '[Section](Word.Section.md)' object.
+_expression_ A variable that represents a '[Section](Word.Section.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md). To return a  **HeadersFooters** collection that represents the headers for the specified section, use the **[Headers](Word.Section.Headers.md)** property.
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md). To return a  **HeadersFooters** collection that represents the headers for the specified section, use the **[Headers](Word.Section.Headers.md)** property.
 
 
 ## Example

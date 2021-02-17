@@ -21,12 +21,12 @@ Gets the cube type that is used to build the template. Read-only  **PjVisualRepo
 
 _expression_. `CubeType`
 
- _expression_ A variable that represents a [ReportTemplate](./Project.ReportTemplate.md) object.
+_expression_ A variable that represents a [ReportTemplate](./Project.ReportTemplate.md) object.
 
 
 ## Remarks
 
-Can be one of the  **[PjVisualReportsCubeType](Project.PjVisualReportsCubeType.md)** constants.
+Can be one of the **[PjVisualReportsCubeType](Project.PjVisualReportsCubeType.md)** constants.
 
 
 ## See also

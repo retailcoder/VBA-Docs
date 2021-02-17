@@ -21,7 +21,7 @@ Returns or sets the height of the specified object, in points. Read/write.
 
 _expression_.**Height**
 
- _expression_ A variable that represents a [Row](./PowerPoint.Row.md) object.
+_expression_ A variable that represents a [Row](PowerPoint.Row.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Single
 
 ## Remarks
 
-The  **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3D effects.
+The **Height** property of a **Shape** object returns or sets the height of the forward-facing surface of the specified shape. This measurement doesn't include shadows or 3D effects.
 
 
 ## Example

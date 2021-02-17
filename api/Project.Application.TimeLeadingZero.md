@@ -21,11 +21,11 @@ localization_priority: Normal
 
 _expression_. `TimeLeadingZero`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project internally sets the  **TimeLeadingZero** property equal to the corresponding value of the **Time format** drop-down list in the **Regional and Language Options** dialog box in the Microsoft Windows Control Panel.
+Project internally sets the **TimeLeadingZero** property equal to the corresponding value of the **Time format** drop-down list in the **Regional and Language Options** dialog box in the Microsoft Windows Control Panel.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

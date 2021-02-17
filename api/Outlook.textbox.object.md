@@ -12,12 +12,8 @@ localization_priority: Normal
 ## In this section
 
 
--  [TextBox Object (Outlook Forms Script)](Outlook.textbox.md)
+- [TextBox Object (Outlook Forms Script)](Outlook.textbox.md)
     
--  [TextBox Members (Outlook Forms Script)](Outlook.textbox(members).md)
-    
--  [TextBox Properties (Outlook Forms Script)](Outlook.textbox(properties).md)
-    
--  [TextBox Methods (Outlook Forms Script)](Outlook.textbox(methods).md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

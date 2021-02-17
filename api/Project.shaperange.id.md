@@ -12,9 +12,9 @@ Gets the identification type for the shape range. Read-only  **Long**.
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

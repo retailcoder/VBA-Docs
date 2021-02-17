@@ -19,7 +19,7 @@ Occurs when a user enters a content control.
 
 ## Syntax
 
-Private Sub  _expression_ _'ContentControlOnEnter'(**_ContentControl_**, )
+_expression_.**ContentControlOnEnter'(**_ContentControl_**, )
 
  _expression_ An expression that returns a **[Document](Word.Document.md)** object.
 
@@ -35,9 +35,10 @@ Private Sub  _expression_ _'ContentControlOnEnter'(**_ContentControl_**, )
 ## Remarks
 
 
- **Important**  This event fires only for the content control that you enter and not for parent content controls. For example, if you have a text box content control nested inside a group content control, and you place the cursor inside the text box content control, this event fires only once for the text box content control; it does not fire for the parent group content control.
+> [!IMPORTANT] 
+> This event fires only for the content control that you enter and not for parent content controls. For example, if you have a text box content control nested inside a group content control, and you place the cursor inside the text box content control, this event fires only once for the text box content control; it does not fire for the parent group content control.
 
-For information about using events with the  **Document** object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+For information about using events with the **Document** object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## See also

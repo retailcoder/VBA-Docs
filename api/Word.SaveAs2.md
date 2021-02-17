@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Document.SaveAs2 method (Word)
 
-Saves the specified document with a new name or format. Some of the arguments for this method correspond to the options in the  **Save As** dialog box (**File** tab).
+Saves the specified document with a new name or format. Some of the arguments for this method correspond to the options in the **Save As** dialog box (**File** tab).
 
 
 ## Syntax
@@ -98,7 +98,7 @@ Sub SaveAsTextFile()
 End Sub
 ```
 
-The following code example loops through all the installed converters and, if it finds the WordPerfect 6.0 converter, it saves the active document using the converter.
+The following code example loops through all the installed converters, and if it finds the WordPerfect 6.0 converter, it saves the active document using the converter.
 
 
 

@@ -21,7 +21,7 @@ Sets font-mapping options.
 
 _expression_. `SubstituteFont`( `_UnavailableFont_` , `_SubstituteFont_` )
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -35,7 +35,7 @@ _expression_ Required. A variable that represents an '[Application](Word.Applica
 
 ## Remarks
 
-You can find font-mapping options in the  **Font Substitution** dialog box.
+You can find font-mapping options in the **Font Substitution** dialog box.
 
 
 ## Example

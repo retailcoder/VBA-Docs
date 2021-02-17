@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideRange.CustomerData property (PowerPoint)
 
-Returns a  **[CustomerData](PowerPoint.CustomerData.md)** object. Read-only.
+Returns a **[CustomerData](PowerPoint.CustomerData.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `CustomerData`
 
- _expression_ An expression that returns a [SlideRange](./PowerPoint.SlideRange.md) object.
+ _expression_ An expression that returns a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Return value

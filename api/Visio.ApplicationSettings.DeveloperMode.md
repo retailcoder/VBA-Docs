@@ -19,9 +19,9 @@ Determines if certain user interface functions for the development environment i
 
 ## Syntax
 
-_expression_. `DeveloperMode`
+_expression_.**DeveloperMode**
 
- _expression_ A variable that represents an [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value

@@ -19,7 +19,7 @@ Returns or sets the shape used for every series in a 3D bar or column chart. Rea
 
 ## Syntax
 
-_expression_. `BarShape`
+_expression_.**BarShape**
 
 _expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** object.
 
@@ -29,7 +29,8 @@ _expression_ A variable that represents a **[Chart](PowerPoint.Chart.md)** objec
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the shape used with the first series of the first chart in the active document.
 

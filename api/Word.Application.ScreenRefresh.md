@@ -21,12 +21,12 @@ Updates the display on the monitor with the current information in the video mem
 
 _expression_.**ScreenRefresh**
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-You can use this method after using the  **ScreenUpdating** property to disable screen updates. **ScreenRefresh** turns on screen updating for just one instruction and then immediately turns it off. Subsequent instructions don't update the screen until screen updating is turned on again with the **ScreenUpdating** property.
+You can use this method after using the **ScreenUpdating** property to disable screen updates. **ScreenRefresh** turns on screen updating for just one instruction and then immediately turns it off. Subsequent instructions don't update the screen until screen updating is turned on again with the **ScreenUpdating** property.
 
 
 ## Example

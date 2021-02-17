@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Page.Drop method (Visio)
 
-Creates one or more new  **Shape** objects by dropping an object onto a receiving object such as a master, drawing page, shape, or group.
+Creates one or more new **Shape** objects by dropping an object onto a receiving object such as a master, drawing page, shape, or group.
 
 
 ## Syntax
 
 _expression_.**Drop** (_ObjectToDrop_, _xPos_, _yPos_)
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -47,7 +47,7 @@ To add a shape to a group or on a drawing page, apply the  **Drop** method to a 
 
 If ObjectToDrop is a  **Master**, the pin of the master is dropped at the specified coordinates. A master's pin is often, but not necessarily, at its center of rotation.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this method maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this method maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVPage.Drop(object, double, double)**

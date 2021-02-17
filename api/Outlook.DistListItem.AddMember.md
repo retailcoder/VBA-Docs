@@ -19,14 +19,12 @@ Adds a new member to the specified distribution list. The distribution list cont
 
 ## Syntax
 
-_expression_. `AddMember`( `_Recipient_` )
+_expression_.**AddMember** (_Recipient_)
 
 _expression_ A variable that represents a [DistListItem](Outlook.DistListItem.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,7 +37,7 @@ Use the  **[AddMembers](Outlook.DistListItem.AddMembers.md)** method to add mult
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) example creates a new  **DistributionList** object and adds a recipient to it. If the specified recipient is not valid, the **AddMember** method will fail. To run this example, replace 'Dan Wilson' with a valid recipient name.
+The following Microsoft Visual Basic for Applications (VBA) example creates a new **DistributionList** object and adds a recipient to it. If the specified recipient is not valid, the **AddMember** method will fail. To run this example, replace 'Dan Wilson' with a valid recipient name.
 
 
 ```vb

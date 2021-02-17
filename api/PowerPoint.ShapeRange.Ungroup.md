@@ -19,9 +19,9 @@ Ungroups any grouped shapes in the specified shape or range of shapes. Disassemb
 
 ## Syntax
 
-_expression_. `Ungroup`
+_expression_.**Ungroup**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ Because a group of shapes is treated as a single object, grouping and ungrouping
 
 ## Example
 
-This example ungroups any grouped shapes and disassembles any pictures or OLE objects on  _myDocument_.
+This example ungroups any grouped shapes and disassembles any pictures or OLE objects on _myDocument_.
 
 
 ```vb
@@ -49,7 +49,7 @@ For Each s In myDocument.Shapes
 Next
 ```
 
-This example ungroups any grouped shapes on  _myDocument_ without disassembling pictures or OLE objects on the slide.
+This example ungroups any grouped shapes on _myDocument_ without disassembling pictures or OLE objects on the slide.
 
 
 

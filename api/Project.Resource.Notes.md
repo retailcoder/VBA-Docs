@@ -18,12 +18,12 @@ Gets or sets the notes for a resource. Read/write  **String**.
 
 _expression_. `Notes`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **Notes** property does not accept characters with an ASCII value less than 32, except for the carriage return (ASCII 13) and linefeed (ASCII 10) characters.
+The **Notes** property does not accept characters with an ASCII value less than 32, except for the carriage return (ASCII 13) and linefeed (ASCII 10) characters.
 
 
 ## Example
@@ -31,7 +31,8 @@ The  **Notes** property does not accept characters with an ASCII value less than
 The following example adds a comment to the notes of the resource in the active cell.
 
 
- **Note**  If a resource is not selected, the code results in a run-time error 1004. 
+> [!NOTE] 
+> If a resource is not selected, the code results in a run-time error 1004. 
 
 
 ```vb

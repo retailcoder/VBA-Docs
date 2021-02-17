@@ -21,7 +21,7 @@ Inserts a paragraph mark after a range.
 
 _expression_. `InsertParagraphAfter`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
@@ -43,7 +43,7 @@ With myRange
 End With
 ```
 
-This example inserts a paragraph at the end of the active document. The  **Content** property returns a **Range** object.
+This example inserts a paragraph at the end of the active document. The **Content** property returns a **Range** object.
 
 
 

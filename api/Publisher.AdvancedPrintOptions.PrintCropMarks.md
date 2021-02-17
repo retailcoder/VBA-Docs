@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.AdvancedPrintOptions.PrintCropMarks
 ms.assetid: 0b777632-572c-7080-8f4d-b97a284d04e2
-ms.date: 06/08/2017
+ms.date: 06/04/2019
 localization_priority: Normal
 ---
 
 
 # AdvancedPrintOptions.PrintCropMarks property (Publisher)
 
- **True** to print crop marks for the specified publication. The default is **True**. Read/write  **Boolean**.
+**True** to print crop marks for the specified publication. The default is **True**. Read/write **Boolean**.
 
 
 ## Syntax
 
 _expression_.**PrintCropMarks**
 
- _expression_ A variable that represents a  **AdvancedPrintOptions** object.
+_expression_ A variable that represents an **[AdvancedPrintOptions](Publisher.AdvancedPrintOptions.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Boolean
 
 ## Remarks
 
-This property corresponds to the  **Crop marks** control on the **Page Settings** tab of the **Advanced Print Settings** dialog box.
+This property corresponds to the **Crop marks** control on the **Page Settings** tab of the **Advanced Print Settings** dialog box.
 
 Crop marks are used as guides when a printed publication is trimmed to its intended size.
 
@@ -58,9 +58,5 @@ End Sub
 ```
 
 
-## See also
-
-
- [AdvancedPrintOptions Object](Publisher.AdvancedPrintOptions.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

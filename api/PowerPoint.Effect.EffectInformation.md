@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Effect.EffectInformation property (PowerPoint)
 
-Returns an  **[EffectInformation](PowerPoint.EffectInformation.md)** object that represents information for a specified animation effect.
+Returns an **[EffectInformation](PowerPoint.EffectInformation.md)** object that represents information for a specified animation effect.
 
 
 ## Syntax
 
 _expression_. `EffectInformation`
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value

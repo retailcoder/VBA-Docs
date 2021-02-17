@@ -19,9 +19,9 @@ Returns or sets the type of background for text used in charts. Read/write  **Va
 
 ## Syntax
 
-_expression_. `Background`
+_expression_.**Background**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## Example

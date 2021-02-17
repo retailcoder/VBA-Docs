@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `UseDiffDiacColor`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
 
-This example checks the  **UseDiffDiacColor** property before setting the color of diacritics in the current selection.
+This example checks the **UseDiffDiacColor** property before setting the color of diacritics in the current selection.
 
 
 ```vb

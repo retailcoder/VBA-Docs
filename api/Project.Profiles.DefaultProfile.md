@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Profiles.DefaultProfile property (Project)
 
-Gets or sets a  **[Profile](Project.Profile.md)** object that represents the default profile. Read/write **Profile**.
+Gets or sets a **[Profile](Project.Profile.md)** object that represents the default profile. Read/write **Profile**.
 
 
 ## Syntax
 
 _expression_. `DefaultProfile`
 
- _expression_ A variable that represents a 'Profiles' object.
+_expression_ A variable that represents a 'Profiles' object.
 
 
 ## See also

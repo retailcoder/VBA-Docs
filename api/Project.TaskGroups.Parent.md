@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # TaskGroups.Parent property (Project)
 
-Gets the parent of the  **TaskGroups** object. Read-only **Project**.
+Gets the parent of the **TaskGroups** object. Read-only **Project**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'TaskGroups' object.
+_expression_ A variable that represents a 'TaskGroups' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

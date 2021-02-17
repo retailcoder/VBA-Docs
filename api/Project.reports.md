@@ -13,7 +13,7 @@ Contains a collection of  **[Report](Project.report.md)** objects, where each re
 
 ## Example
 
-The  **Reports** object is the collection of custom reports in a project. It does not include the built-in reports, such as **Project Overview**,  **Critical Tasks**, or  **Milestone Report**. Use the  **Project.Reports** property to get the **Reports** collection object, as in the following example:
+The **Reports** object is the collection of custom reports in a project. It does not include the built-in reports, such as **Project Overview**,  **Critical Tasks**, or  **Milestone Report**. Use the **Project.Reports** property to get the **Reports** collection object, as in the following example:
  
 
  
@@ -24,10 +24,10 @@ Sub ListCustomReports()
     Dim msg As String
     Dim msgBoxTitle As String
     msg = ""
-    msgBoxTitle = "Custom reports in '" &amp; ActiveProject.Name &amp; "'"
+    msgBoxTitle = "Custom reports in '" & ActiveProject.Name & "'"
     
     For Each oReport In ActiveProject.Reports
-        msg = msg &amp; oReport.Index &amp; ": " &amp; oReport.Name &amp; vbCrLf
+        msg = msg & oReport.Index & ": " & oReport.Name & vbCrLf
     Next oReport
         
     If ActiveProject.Reports.Count > 0 Then

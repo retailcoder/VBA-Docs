@@ -49,7 +49,7 @@ Sub Main()
  'Display the description of filters that include 
  'Microsoft Excel files. 
  If InStr(1, fdf.Extensions, "xls", vbTextCompare) > 0 Then 
- MsgBox "Filter description: " &amp; fdf.Description 
+ MsgBox "Filter description: " & fdf.Description 
  End If 
  Next fdf 
  
@@ -57,7 +57,7 @@ End Sub
 ```
 
 
-# See also
+## See also
 
 - [FileDialogFilter object members](overview/library-reference/filedialogfilter-members-office.md)
 

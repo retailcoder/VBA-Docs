@@ -19,12 +19,12 @@ Returns an [MSOBroadcastState](overview/Library-Reference/msobroadcaststate-enum
 
 _expression_. `State`
 
- _expression_ A variable that represents a 'Broadcast' object.
+_expression_ A variable that represents a **[Broadcast](Word.broadcast.md)** object.
 
 
 ## Remarks
 
-The  **State** property can return one of the following three states:
+The **State** property can return one of the following three states:
 
 
 - No broadcast (0)

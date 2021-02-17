@@ -21,7 +21,7 @@ Sets a custom icon file for a menu or toolbar item.
 
 _expression_. `IconFileName`( `_IconFileName_` )
 
- _expression_ A variable that represents a [Menu](./Visio.Menu.md) object.
+_expression_ A variable that represents a **[Menu](Visio.Menu.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,8 @@ Nothing
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 The  **IconFileName** method loads the file that contains the icon, saves the bits, and discards the file name.
 
@@ -51,7 +52,7 @@ Unless  _IconFileName_ is a fully qualified path, the application searches for t
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how use the  **IconFileName** method to set the icon for a toolbar button. It retrieves a copy of the built-in Visio toolbars, adds a toolbar button, and sets the button icon.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **IconFileName** method to set the icon for a toolbar button. It retrieves a copy of the built-in Visio toolbars, adds a toolbar button, and sets the button icon.
 
 Before running this code, replace  _path_ \ _filename_ with the full path to and name of a valid icon (.ico file) on your computer.
 

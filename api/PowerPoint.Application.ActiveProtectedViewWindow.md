@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ActiveProtectedViewWindow property (PowerPoint)
 
-Returns a  **[ProtectedViewWindow](PowerPoint.ProtectedViewWindow.md)** object that represents the active Protected View window (the window on top). Read-only.
+Returns a **[ProtectedViewWindow](PowerPoint.ProtectedViewWindow.md)** object that represents the active Protected View window (the window on top). Read-only.
 
 
 ## Syntax
 
 _expression_. `ActiveProtectedViewWindow`
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Remarks

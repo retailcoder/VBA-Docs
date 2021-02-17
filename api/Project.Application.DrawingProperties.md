@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.DrawingProperties method (Project)
 
-Displays the  **Format Drawing** dialog box, which prompts the user to customize the active drawing object.
+Displays the **Format Drawing** dialog box, which prompts the user to customize the active drawing object.
 
 
 ## Syntax
 
 _expression_. `DrawingProperties`( `_SizePositionTab_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,8 +39,8 @@ _expression_. `DrawingProperties`( `_SizePositionTab_` )
 
 ## Remarks
 
-The  **DrawingProperties** method displays an error unless a drawing object is active.
+The **DrawingProperties** method displays an error unless a drawing object is active.
 
-The  **DrawingProperties** method has the same effect as the **Properties** command in the **Drawing** drop-down menu on the **Format** tab in the Ribbon.
+The **DrawingProperties** method has the same effect as the **Properties** command in the **Drawing** drop-down menu on the **Format** tab in the Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

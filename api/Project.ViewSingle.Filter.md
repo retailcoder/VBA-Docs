@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # ViewSingle.Filter property (Project)
 
-Gets or sets a  **[Filter](Project.Filter.md)** object representing the filter used in a single view. Read/write **Filter**.
+Gets or sets a **[Filter](Project.Filter.md)** object representing the filter used in a single view. Read/write **Filter**.
 
 
 ## Syntax
 
 _expression_. `Filter`
 
- _expression_ A variable that represents a [ViewSingle](./Project.ViewSingle.md) object.
+_expression_ A variable that represents a [ViewSingle](./Project.ViewSingle.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

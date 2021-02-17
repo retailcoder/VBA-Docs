@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ColorFormat.ObjectThemeColor property (PowerPoint)
 
-Returns or sets the theme color of the specified  **ColorFormat** object. Read/Write.
+Returns or sets the theme color of the specified  **ColorFormat** object. Read/write.
 
 
 ## Syntax
 
 _expression_. `ObjectThemeColor`
 
- _expression_ An expression that returns a [ColorFormat](./PowerPoint.ColorFormat.md) object.
+ _expression_ An expression that returns a [ColorFormat](PowerPoint.ColorFormat.md) object.
 
 
 ## Return value

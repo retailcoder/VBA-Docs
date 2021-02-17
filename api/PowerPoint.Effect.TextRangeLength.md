@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Effect.TextRangeLength property (PowerPoint)
 
-Returns or sets a  **Long** that represents the length of a text range. Read-only.
+Returns or sets a **Long** that represents the length of a text range. Read-only.
 
 
 ## Syntax
 
 _expression_. `TextRangeLength`
 
-_expression_ A variable that represents a [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents a [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value

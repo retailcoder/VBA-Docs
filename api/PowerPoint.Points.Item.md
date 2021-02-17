@@ -18,7 +18,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[Points](PowerPoint.Points.md)' object.
+_expression_ A variable that represents a '[Points](PowerPoint.Points.md)' object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_.**Item** (_Index_)
 
 ## Return value
 
-A  **[Point](PowerPoint.Point.md)** object that the collection contains.
+A **[Point](PowerPoint.Point.md)** object that the collection contains.
 
 
 ## Example
@@ -39,7 +39,8 @@ A  **[Point](PowerPoint.Point.md)** object that the collection contains.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the marker style for the third point in series one in embedded chart one on worksheet one. The specified series must be a 2D line, scatter, or radar series.
 

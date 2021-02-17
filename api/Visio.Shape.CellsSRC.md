@@ -21,7 +21,7 @@ Returns a  **Cell** object that represents a ShapeSheet cell identified by secti
 
 _expression_. `CellsSRC`( `_Section_` , `_Row_` , `_Column_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -54,7 +54,7 @@ The  **CellsSRC** property is typically used to iterate through the cells in a s
 Set vsoCell = Cells("PinX")
 ```
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.get_CellsSRC**

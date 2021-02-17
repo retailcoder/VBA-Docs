@@ -18,13 +18,13 @@ Gets or sets the amount of time the assignment is delayed due to leveling. Read/
 
 _expression_. `LevelingDelay`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
 Project recalculates the leveling delay as resources are leveled across the project.
 
-The  **LevelingDelay** property does not return any meaningful information for assignments of material resources. Setting a value returns a trappable error (error code 1101) when applied to assignments of material resources.
+The **LevelingDelay** property does not return any meaningful information for assignments of material resources. Setting a value returns a trappable error (error code 1101) when applied to assignments of material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

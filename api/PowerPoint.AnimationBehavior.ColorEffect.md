@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AnimationBehavior.ColorEffect property (PowerPoint)
 
-Returns a  **[ColorEffect](PowerPoint.ColorEffect.md)** object that represents the color properties for a specified animation behavior.
+Returns a **[ColorEffect](PowerPoint.ColorEffect.md)** object that represents the color properties for a specified animation behavior.
 
 
 ## Syntax
 
 _expression_. `ColorEffect`
 
-_expression_ A variable that represents an [AnimationBehavior](./PowerPoint.AnimationBehavior.md) object.
+_expression_ A variable that represents an [AnimationBehavior](PowerPoint.AnimationBehavior.md) object.
 
 
 ## Return value

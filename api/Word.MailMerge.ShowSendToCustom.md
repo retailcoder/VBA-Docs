@@ -21,12 +21,12 @@ Returns or sets a  **String** corresponding to the caption on a custom button on
 
 _expression_. `ShowSendToCustom`
 
- _expression_ A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
+_expression_ A variable that represents a '[MailMerge](Word.MailMerge.md)' object.
 
 
 ## Remarks
 
-When a user clicks the custom button, the  **[MailMergeWizardSendToCustom](Word.Application.MailMergeWizardSendToCustom.md)** event executes.
+When a user clicks the custom button, the **[MailMergeWizardSendToCustom](Word.Application.MailMergeWizardSendToCustom.md)** event executes.
 
 
 ## Example

@@ -21,12 +21,12 @@ Shows or hides the ribbon.
 
 _expression_. `ToggleRibbon`
 
- _expression_ An expression that returns a '[Window](Word.Window.md)' object.
+ _expression_ An expression that returns a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-If the ribbon is visible, the  **ToggleRibbon** method hides it; if the ribbon is hidden, the **ToggleRibbon** method shows it.
+If the ribbon is visible, the **ToggleRibbon** method hides it; if the ribbon is hidden, the **ToggleRibbon** method shows it.
 
 
 ## See also

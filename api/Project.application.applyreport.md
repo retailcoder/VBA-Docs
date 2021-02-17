@@ -17,7 +17,7 @@ Displays the specified report.
 
 _expression_. `ApplyReport` _(Name,_ _ApplyTo)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ _expression_. `ApplyReport` _(Name,_ _ApplyTo)_
 
 ## Remarks
 
-The  **ApplyReport** method can be applied to custom reports and to built-in reports, such as Project Overview.
+The **ApplyReport** method can be applied to custom reports and to built-in reports, such as Project Overview.
 
 
 ## Example

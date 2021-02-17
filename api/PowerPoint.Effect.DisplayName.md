@@ -19,9 +19,9 @@ Returns the name of an animation effect. Read-only.
 
 ## Syntax
 
-_expression_. `DisplayName`
+_expression_.**DisplayName**
 
-_expression_ A variable that represents a [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents a [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value

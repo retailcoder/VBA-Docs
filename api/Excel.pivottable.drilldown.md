@@ -5,26 +5,24 @@ f1_keywords:
 - vbaxl10.chm235206
 ms.prod: excel
 ms.assetid: 01824849-6c03-d263-aeb5-68b6c331bf0f
-ms.date: 06/08/2017
+ms.date: 05/08/2019
 localization_priority: Normal
 ---
 
 
 # PivotTable.DrillDown method (Excel)
 
-Enables you to drill down into the data within an OLAP or PowerPivot based cube hierarchy.
+Enables you to drill down into the data within an OLAP-based or PowerPivot-based cube hierarchy.
 
 
 ## Syntax
 
-_expression_. `DrillDown`_(PivotItem,_ _PivotLine)_
+_expression_.**DrillDown** (_PivotItem_, _PivotLine_)
 
-_expression_ A variable that represents a [PivotTable](Excel.PivotTable.md) object.
+_expression_ A variable that represents a **[PivotTable](Excel.PivotTable.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -33,13 +31,12 @@ _expression_ A variable that represents a [PivotTable](Excel.PivotTable.md) obje
 
 ## Return value
 
- **VOID**
+**VOID**
 
 
 ## Example
 
-The following sample code demonstrates the  **DrillDown** method as used on a PivotTable.
-
+The following sample code demonstrates the **DrillDown** method as used on a PivotTable.
 
 ```vb
 ActiveSheet.PivotTables("PivotTable1").DrillDown ActiveSheet.PivotTables( _
@@ -48,10 +45,9 @@ ActiveSheet.PivotTables("PivotTable1").DrillDown ActiveSheet.PivotTables( _
       ActiveSheet.PivotTables("PivotTable1").PivotRowAxis.PivotLines(1)
 ```
 
-The following sample code demonstrates the  **DrillDown** method as used on a PivotChart.
+<br/>
 
-
-
+The following sample code demonstrates the **DrillDown** method as used on a PivotChart.
 
 ```vb
 ActiveChart.PivotLayout.PivotTable.DrillDown ActiveChart.PivotLayout.PivotTable _
@@ -61,9 +57,6 @@ ActiveChart.PivotLayout.PivotTable.DrillDown ActiveChart.PivotLayout.PivotTable 
 ```
 
 
-## See also
 
-
-[PivotTable Object](Excel.PivotTable.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,12 +21,12 @@ Returns the mail system (or systems) installed on the host computer. Read-only  
 
 _expression_. `MailSystem`
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Some of the  **WdMailSystem** constants are available only in Microsoft Office Macintosh Edition. For additional information about these constants, consult the language reference Help included with Microsoft Office Macintosh Edition.
+Some of the **WdMailSystem** constants are available only in Microsoft Office Macintosh Edition. For additional information about these constants, consult the language reference Help included with Microsoft Office Macintosh Edition.
 
 
 ## Example

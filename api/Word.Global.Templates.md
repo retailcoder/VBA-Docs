@@ -26,12 +26,12 @@ _expression_ Required. A variable that represents a '[Global](Word.Global.md)' o
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
-This example displays the name of each template in the  **Templates** collection.
+This example displays the name of each template in the **Templates** collection.
 
 
 ```vb
@@ -42,7 +42,7 @@ For Each aTemplate In Templates
 Next aTemplate
 ```
 
-In this example, if template one is a global template, its path is stored in  _thePath_ . The **ChDir** statement is used to make the folder with the path stored in _thePath_ the current folder. When this change is made, the **Open** dialog box is displayed.
+In this example, if template one is a global template, its path is stored in  _thePath_. The **ChDir** statement is used to make the folder with the path stored in _thePath_ the current folder. When this change is made, the **Open** dialog box is displayed.
 
 
 

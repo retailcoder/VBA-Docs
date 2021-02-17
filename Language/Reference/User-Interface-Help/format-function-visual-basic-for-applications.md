@@ -5,7 +5,7 @@ f1_keywords:
 - vblr6.chm1008925
 ms.prod: office
 ms.assetid: 67f60abf-0c77-49ec-924f-74ae6eb96ea8
-ms.date: 12/12/2018
+ms.date: 08/14/2019
 localization_priority: Priority
 ---
 
@@ -14,9 +14,11 @@ localization_priority: Priority
 
 Returns a **Variant (String)** containing an [expression](../../Glossary/vbe-glossary.md#expression) formatted according to instructions contained in a format expression.
 
+[!include[Add-ins note](~/includes/addinsnote.md)]
+
 ## Syntax
 
-**Format**(_Expression_, [_Format_], [_FirstDayOfWeek_], [_FirstWeekOfYear_])
+**Format**(_Expression_, [ _Format_ ], [ _FirstDayOfWeek_ ], [ _FirstWeekOfYear_ ])
 
 <br/>
 
@@ -63,6 +65,8 @@ The _firstweekofyear_ [argument](../../Glossary/vbe-glossary.md#argument) has th
 |Dates and times|Use predefined named date/time formats or create user-defined date/time formats.|
 |Date and time serial numbers|Use date and time formats or numeric formats.|
 |Strings|Create your own user-defined string formats.|
+
+**Format** truncates _format_ to 257 characters. 
 
 If you try to format a number without specifying _format_, **Format** provides functionality similar to the **Str** function, although it is internationally aware. However, positive numbers formatted as strings using **Format** don't include a leading space reserved for the sign of the value; those converted using **Str** retain the leading space.
 

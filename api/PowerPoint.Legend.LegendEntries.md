@@ -21,12 +21,12 @@ Returns a collection of legend entries for the legend.
 
 _expression_. `LegendEntries`
 
- _expression_ A variable that represents a '[Legend](PowerPoint.Legend.md)' object.
+_expression_ A variable that represents a '[Legend](PowerPoint.Legend.md)' object.
 
 
 ## Return value
 
-A  **[LegendEntries](PowerPoint.LegendEntries.md)** object that represents the legend entries for the legend.
+A **[LegendEntries](PowerPoint.LegendEntries.md)** object that represents the legend entries for the legend.
 
 
 ## Example
@@ -34,7 +34,8 @@ A  **[LegendEntries](PowerPoint.LegendEntries.md)** object that represents the l
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the font for legend entry one on the first chart in the active document.
 

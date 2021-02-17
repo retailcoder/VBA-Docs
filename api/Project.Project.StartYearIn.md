@@ -18,11 +18,11 @@ Gets or sets the month number for the start of the fiscal year for the project. 
 
 _expression_. `StartYearIn`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **StartYearIn** property can be one of the **[PjMonth](Project.PjMonth.md)** constants. The **Project Options** dialog box displays the value in the **Fiscal year starts in** drop-down list on the **Schedule** tab.
+The **StartYearIn** property can be one of the **[PjMonth](Project.PjMonth.md)** constants. The **Project Options** dialog box displays the value in the **Fiscal year starts in** drop-down list on the **Schedule** tab.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

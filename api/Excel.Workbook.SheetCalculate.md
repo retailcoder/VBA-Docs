@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.SheetCalculate
 ms.assetid: 0610bfa5-15dc-a57f-f362-cf897bd54b91
-ms.date: 06/08/2017
+ms.date: 05/29/2019
 localization_priority: Normal
 ---
 
@@ -19,23 +19,20 @@ Occurs after any worksheet is recalculated or after any changed data is plotted 
 
 ## Syntax
 
-_expression_. `SheetCalculate`( `_Sh_` , )
+_expression_.**SheetCalculate** (_Sh_)
 
- _expression_ An expression that returns a **[Workbook](Excel.Workbook.md)** object.
+_expression_ An expression that returns a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Sh_|Required| **Object**|Can be a  **[Chart](Excel.Chart(object).md)** or **[Worksheet](Excel.Worksheet.md)** object.|
+| _Sh_|Required| **Object**|Can be a **[Chart](Excel.Chart(object).md)** or **[Worksheet](Excel.Worksheet.md)** object.|
 
 ## Example
 
 This example sorts the range A1:A100 on worksheet one when any sheet in the workbook is calculated.
-
 
 ```vb
 Private Sub Workbook_SheetCalculate(ByVal Sh As Object) 
@@ -46,9 +43,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

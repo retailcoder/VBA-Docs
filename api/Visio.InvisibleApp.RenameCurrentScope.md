@@ -19,9 +19,9 @@ Renames the top-level open undo scope.
 
 ## Syntax
 
-_expression_. `RenameCurrentScope`( `_bstrScopeName_` )
+_expression_.**RenameCurrentScope** (_bstrScopeName_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `RenameCurrentScope`( `_bstrScopeName_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

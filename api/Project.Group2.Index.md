@@ -11,7 +11,7 @@ localization_priority: Normal
 
 # Group2.Index property (Project)
 
-Gets the index of a  **Group2** object in a **ResourceGroups2** collection or **TaskGroups2** collection. Read-only **Long**.
+Gets the index of a **Group2** object in a **ResourceGroups2** collection or **TaskGroups2** collection. Read-only **Long**.
 
 
 ## Syntax
@@ -23,7 +23,7 @@ _expression_.**Index**
 
 ## Example
 
-The following example displays the name of each  **Group2** object in the **TaskGroups2** collection in the **Immediate** window.
+The following example displays the name of each  **Group2** object in the **TaskGroups2** collection in the Immediate window.
 
 
 ```vb

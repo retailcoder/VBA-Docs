@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Document.Fonts property (Visio)
 
-Returns the  **Fonts** collection of a **Document** object. Read-only.
+Returns the **Fonts** collection of a **Document** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `Fonts`
+_expression_.**Fonts**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value

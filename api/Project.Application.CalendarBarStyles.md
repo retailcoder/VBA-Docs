@@ -21,7 +21,7 @@ Turns bar rounding on or off in the Calendar.
 
 _expression_. `CalendarBarStyles`( `_BarRounding_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `CalendarBarStyles`( `_BarRounding_` )
 
 ## Remarks
 
-The default start and default end times can be set with the  **OptionsCalendar** method.
+The default start and default end times can be set with the **OptionsCalendar** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

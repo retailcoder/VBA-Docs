@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Hyperlinks.Count
 ms.assetid: 36747f3e-b365-11ca-9cbe-f6148f7da235
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
 
 # Hyperlinks.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a  **Hyperlinks** object.
+_expression_ A variable that represents a **[Hyperlinks](Publisher.Hyperlinks.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +35,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

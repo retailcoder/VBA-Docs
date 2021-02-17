@@ -37,13 +37,13 @@ _expression_ A variable that represents a '[Conversation](Outlook.Conversation.m
 
 If the store specified by the  _Store_ parameter represents a non-delivery store such as an archive .pst store, the method returns a string of categories that are applied to conversation items in the default delivery store.
 
-The  **[ItemChange](Outlook.Items.ItemChange.md)** event of the **[Items](Outlook.Items.md)** object occurs when you call the **SetAlwaysAssignCategories** method on a conversation.
+The **[ItemChange](Outlook.Items.ItemChange.md)** event of the **[Items](Outlook.Items.md)** object occurs when you call the **SetAlwaysAssignCategories** method on a conversation.
 
 To determine existing master categories for the current user, examine the  **[Categories](Outlook.Store.Categories.md)** property of the **[Store](Outlook.Store.md)** object that is specified by the _Store_ parameter. If one or more categories specified by the _Categories_ parameter do not exist in the master categories collection, the categories will be assigned to the conversation but will not be added to the master categories collection.
 
 To determine the existing categories that are always assigned to items of the conversation in the specified store, use the  **[GetAlwaysAssignCategories](Outlook.Conversation.GetAlwaysAssignCategories.md)** method.
 
-If  **SetAlwaysAssignCategories** is called more than once, the result is cumulative. For example, if you call **SetAlwaysAssignCategories** specifying the category ?Important? and then call **SetAlwaysAssignCategories** again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".
+If  **SetAlwaysAssignCategories** is called more than once, the result is cumulative. For example, if you call **SetAlwaysAssignCategories** specifying the category "Important" and then call **SetAlwaysAssignCategories** again specifying the categories "Business" and "Social", the categories that are always assigned are "Important", "Business", and "Social".
 
 To stop the action of always assigning categories, use the  **[ClearAlwaysAssignCategories](Outlook.Conversation.ClearAlwaysAssignCategories.md)** method. After the **ClearAlwaysAssignCategories** method has been called, **GetAlwaysAssignCategories** returns an empty string.
 

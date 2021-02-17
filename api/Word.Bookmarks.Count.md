@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Bookmarks.Count property (Word)
 
-Returns the number of items in the  **Bookmarks** collection. Read-only **Long**.
+Returns the number of items in the **Bookmarks** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[Bookmarks](Word.bookmarks.md)' object.
+_expression_ A variable that represents a '[Bookmarks](Word.bookmarks.md)' object.
 
 
 ## See also

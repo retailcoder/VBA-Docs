@@ -21,7 +21,7 @@ Shows or hides the Timeline view.
 
 _expression_. `TimelineViewToggle`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `TimelineViewToggle`
 
 ## Remarks
 
-If the Timeline view is visible, the  **TimelineViewToggle** method hides it. If the Timeline view is not visible, **TimelineViewToggle** shows it.
+If the Timeline view is visible, the **TimelineViewToggle** method hides it. If the Timeline view is not visible, **TimelineViewToggle** shows it.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

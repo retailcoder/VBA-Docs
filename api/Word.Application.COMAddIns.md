@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # Application.COMAddIns property (Word)
 
-Returns a reference to the  **COMAddIns** collection that represents all the Component Object Model (COM) add-ins currently loaded in Microsoft Word.
+Returns a reference to the **COMAddIns** collection that represents all the Component Object Model (COM) add-ins currently loaded in Microsoft Word.
 
 
 ## Syntax
 
-_expression_. `COMAddIns`
+_expression_.**COMAddIns**
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-COM add-ins are listed in the  **COM Add-Ins** dialog box.
+COM add-ins are listed in the **COM Add-Ins** dialog box.
 
 
 ## See also

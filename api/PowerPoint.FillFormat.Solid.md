@@ -19,14 +19,14 @@ Sets the specified fill to a uniform color. Use this method to convert a gradien
 
 ## Syntax
 
-_expression_. `Solid`
+_expression_.**Solid**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Example
 
-This example converts all fills on  _myDocument_ to uniform red fills.
+This example converts all fills on _myDocument_ to uniform red fills.
 
 
 ```vb

@@ -19,7 +19,7 @@ Collapses all the headings in the document.
 
 _expression_. `CollapseAllHeadings`
 
- _expression_ A variable that represents a [View](./Word.View.md) object.
+_expression_ A variable that represents a [View](./Word.View.md) object.
 
 
 ## Return value
@@ -29,7 +29,7 @@ _expression_. `CollapseAllHeadings`
 
 ## Remarks
 
-This method corresponds to the  **Collapse All Headings** command on the **Expand/Collapse** submenu of the context menu that appears when you right-click a heading.
+This method corresponds to the **Collapse All Headings** command on the **Expand/Collapse** submenu of the context menu that appears when you right-click a heading.
 
 
 ## See also

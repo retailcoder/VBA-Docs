@@ -21,7 +21,7 @@ Edits the work breakdown structure (WBS) code mask.
 
 _expression_. `WBSCodeMaskEdit`( `_CodePrefix_`, `_Level_`, `_Sequence_`, `_Length_`, `_Separator_`, `_CodeGenerate_`, `_VerifyUniqueness_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -45,7 +45,7 @@ _expression_. `WBSCodeMaskEdit`( `_CodePrefix_`, `_Level_`, `_Sequence_`, `_Leng
 
 ## Remarks
 
-Using the  **WBSCodeMaskEdit** method without specifying any arguments brings up the **WBS Code Definition** dialog box.
+Using the **WBSCodeMaskEdit** method without specifying any arguments brings up the **WBS Code Definition** dialog box.
 
 
 ## Example

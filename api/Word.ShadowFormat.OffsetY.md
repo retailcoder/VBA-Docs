@@ -19,14 +19,14 @@ Returns or sets the vertical offset (in points) of the shadow from the specified
 
 ## Syntax
 
-_expression_. `OffsetY`
+_expression_.**OffsetY**
 
- _expression_ An expression that returns a '[ShadowFormat](Word.ShadowFormat.md)' object.
+ _expression_ An expression that returns a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## Remarks
 
-A positive value offsets the shadow below the shape; a negative value offsets it above the shape. If you want to nudge a shadow horizontally or vertically from its current position without having to specify an absolute position, use the  **[IncrementOffsetX](Word.ShadowFormat.IncrementOffsetX.md)** or **[IncrementOffsetY](Word.ShadowFormat.IncrementOffsetY.md)** method.
+A positive value offsets the shadow below the shape; a negative value offsets it above the shape. If you want to nudge a shadow horizontally or vertically from its current position without having to specify an absolute position, use the **[IncrementOffsetX](Word.ShadowFormat.IncrementOffsetX.md)** or **[IncrementOffsetY](Word.ShadowFormat.IncrementOffsetY.md)** method.
 
 
 ## Example

@@ -21,7 +21,7 @@ Selects one or more timescale data cells in a usage view.
 
 _expression_. `SelectTimescaleRange`( `_Row_`, `_StartTime_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ _expression_. `SelectTimescaleRange`( `_Row_`, `_StartTime_`, `_Width_`, `_Heigh
 
 ## Example
 
-The following example selects a five-day range of timescale data cells for the specified row. It assumes the timescale has not been changed from the default setting. The  **SelectRow** method is not required for this example, but is included to make the result easier to read.
+The following example selects a five-day range of timescale data cells for the specified row. It assumes the timescale has not been changed from the default setting. The **SelectRow** method is not required for this example, but is included to make the result easier to read.
 
 
 ```vb

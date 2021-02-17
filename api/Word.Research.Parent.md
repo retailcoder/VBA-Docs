@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Research.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Research** object.
+Returns an **Object** that represents the parent object of the specified **Research** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Research](Word.Research.md)' object.
+_expression_ A variable that represents a '[Research](Word.Research.md)' object.
 
 
 ## See also

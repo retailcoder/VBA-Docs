@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideShowWindow.View property (PowerPoint)
 
-Returns a  **[SlideShowView](PowerPoint.SlideShowView.md)** object. Read-only.
+Returns a **[SlideShowView](PowerPoint.SlideShowView.md)** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `View`
+_expression_.**View**
 
- _expression_ A variable that represents a [SlideShowWindow](./PowerPoint.SlideShowWindow.md) object.
+_expression_ A variable that represents a [SlideShowWindow](PowerPoint.SlideShowWindow.md) object.
 
 
 ## Return value

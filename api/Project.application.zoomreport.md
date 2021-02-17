@@ -17,7 +17,7 @@ Zooms (enlarges or shrinks) the active report to the specified percentage of its
 
 _expression_. `ZoomReport` _(Percent,_ _Entire)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_. `ZoomReport` _(Percent,_ _Entire)_
 
 The  _Percent_ parameter can have a value of 10 to 400. If the value is outside of that range, the **ZoomReport** method shows a run-time error 1101, "The argument value is not valid."
 
-The  **ZoomReport** method can be applied to custom reports and to built-in reports, such as Project Overview. When you change the report size, switch to another view, and then return to the previous report, the zoom level remains in effect. To restore the original size, use the following command: `ZoomReport 100`.
+The **ZoomReport** method can be applied to custom reports and to built-in reports, such as Project Overview. When you change the report size, switch to another view, and then return to the previous report, the zoom level remains in effect. To restore the original size, use the following command: `ZoomReport 100`.
 
 
 ## Example

@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # TaskRequestAcceptItem.Saved property (Outlook)
 
-Returns a  **Boolean** value that is **True** if the Outlook item has not been modified since the last save. Read-only.
+Returns a **Boolean** value that is **True** if the Outlook item has not been modified since the last save. Read-only.
 
 
 ## Syntax
 
-_expression_. `Saved`
+_expression_.**Saved**
 
 _expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 

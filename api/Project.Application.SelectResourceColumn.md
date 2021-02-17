@@ -21,7 +21,7 @@ Selects a column containing resource information.
 
 _expression_. `SelectResourceColumn`( `_Column_`, `_Additional_`, `_Extend_`, `_Add_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,12 +42,12 @@ _expression_. `SelectResourceColumn`( `_Column_`, `_Additional_`, `_Extend_`, `_
 
 ## Remarks
 
-The  **SelectResourceColumn** method is only available when the Resource Sheet or Resource Usage view is the active view.
+The **SelectResourceColumn** method is only available when the Resource Sheet or Resource Usage view is the active view.
 
 
 ## Example
 
-The following example selects the  **Indicators** column and the next two columns.
+The following example selects the **Indicators** column and the next two columns.
 
 
 ```vb

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Top property (Outlook)
 
-Returns or sets a  **Long** indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen. Read/write.
+Returns or sets a **Long** indicating the position (in pixels) of the top horizontal edge of an explorer window from the edge of the screen. Read/write.
 
 
 ## Syntax
 
 _expression_.**Top**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## See also

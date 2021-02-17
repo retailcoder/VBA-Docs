@@ -11,21 +11,21 @@ localization_priority: Normal
 
 # Task.GroupBySummary property (Project)
 
- **True** if the selected item in a task view is in a group summary row; otherwise, **false**. Read-only **Boolean**.
+ **True** if the selected item in a task view is in a group summary row; otherwise, **False**. Read-only **Boolean**.
 
 
 ## Syntax
 
 _expression_. `GroupBySummary`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-When you apply a  **Group by** command to a task view, the group summary rows show the group definition in the **Task Name** column. If a selected cell is in a group summary row, the **GroupBySummary** property is **True**.
+When you apply a **Group by** command to a task view, the group summary rows show the group definition in the **Task Name** column. If a selected cell is in a group summary row, the **GroupBySummary** property is **True**.
 
-The  **GroupBySummary** property is accessible through the `ActiveCell.Task` property, not through `ActiveProject.Tasks(x)`.
+The **GroupBySummary** property is accessible through the `ActiveCell.Task` property, not through `ActiveProject.Tasks(x)`.
 
 
 ## Example

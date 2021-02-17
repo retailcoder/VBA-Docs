@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Italic`
+_expression_.**Italic**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## Example

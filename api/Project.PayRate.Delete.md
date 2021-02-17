@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # PayRate.Delete method (Project)
 
-Deletes the  **PayRate** object from a **PayRates** collection.
+Deletes the **PayRate** object from a **PayRates** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
+_expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

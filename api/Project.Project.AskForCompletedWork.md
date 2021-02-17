@@ -18,11 +18,11 @@ Gets or sets the way completed work is reported in team status messages. Read/wr
 
 _expression_. `AskForCompletedWork`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **AskForCompletedWork** property can be one of the following **[PjTeamStatusCompletedWork](Project.PjTeamStatusCompletedWork.md)** constants: **pjBrokenDownByDay**, **pjBrokenDownByWeek**, or **pjTotalForEntirePeriod**.
+The **AskForCompletedWork** property can be one of the following **[PjTeamStatusCompletedWork](Project.PjTeamStatusCompletedWork.md)** constants: **pjBrokenDownByDay**, **pjBrokenDownByWeek**, or **pjTotalForEntirePeriod**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

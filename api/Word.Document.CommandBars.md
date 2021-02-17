@@ -19,18 +19,18 @@ Returns a  **CommandBars** collection that represents the menu bar and all the t
 
 ## Syntax
 
-_expression_. `CommandBars`
+_expression_.**CommandBars**
 
 _expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **CustomizationContext** property to set the template or document context prior to accessing the **CommandBars** collection.
+Use the **CustomizationContext** property to set the template or document context prior to accessing the **CommandBars** collection.
 
 
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 
@@ -59,7 +59,7 @@ With CommandBars("Drawing")
 End With
 ```
 
-This example adds the Versions command button to the Standard toolbar.
+This example adds the Versions command button to the **Standard** toolbar.
 
 
 

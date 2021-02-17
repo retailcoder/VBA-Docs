@@ -19,7 +19,7 @@ Shows or hides all revisions in a document that contains comments and tracked ch
 
 _expression_. `ToggleShowAllReviewers`
 
- _expression_ A variable that represents a 'RevisionsFilter' object.
+_expression_ A variable that represents a 'RevisionsFilter' object.
 
 
 ## Return value
@@ -29,7 +29,7 @@ _expression_. `ToggleShowAllReviewers`
 
 ## Remarks
 
-In previous versions of Word, the  **ToggleShowAllReviewers** method was on the **Window** object. As of Word, that method is hidden.
+In previous versions of Word, the **ToggleShowAllReviewers** method was on the **Window** object. As of Word, that method is hidden.
 
 
 ## See also

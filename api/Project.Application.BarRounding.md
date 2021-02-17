@@ -21,7 +21,7 @@ Controls whether the start times of tasks are reflected by their corresponding t
 
 _expression_. `BarRounding`( `_On_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `BarRounding`( `_On_` )
 
 ## Remarks
 
-The  **BarRounding** method affects only how tasks display on the Gantt Chart or Calendar. The duration of the tasks is not affected.
+The **BarRounding** method affects only how tasks display on the Gantt Chart or Calendar. The duration of the tasks is not affected.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

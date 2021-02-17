@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.ProjectBeforeSave2 event (Project)
 
-Occurs before a project is saved. Uses the  **EventInfo** object parameter.
+Occurs before a project is saved. Uses the **EventInfo** object parameter.
 
 
 ## Syntax
 
 _expression_. `ProjectBeforeSave2`( `_pj_`, `_SaveAsUi_`, `_Info_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -29,11 +29,11 @@ _expression_. `ProjectBeforeSave2`( `_pj_`, `_SaveAsUi_`, `_Info_` )
 |:-----|:-----|:-----|:-----|
 | _pj_|Required|**Project**|The project to be saved.|
 | _SaveAsUi_|Required|**Boolean**|**True** if the **Save As** dialog box is displayed.|
-| _Info_|Required|**EventInfo**|EventInfo.Cancel is  **False** when the event occurs. If the event procedure sets this argument to **True**, the project will not be saved when the procedure is finished.|
+| _Info_|Required|**EventInfo**|EventInfo.Cancel is **False** when the event occurs. If the event procedure sets this argument to **True**, the project will not be saved when the procedure is finished.|
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

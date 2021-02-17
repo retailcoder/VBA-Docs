@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.ThemeColorScheme property (PowerPoint)
 
-Returns a  **ThemeColorScheme** object that represents the color scheme of the theme associated with the specified custom layout. Read-only.
+Returns a **ThemeColorScheme** object that represents the color scheme of the theme associated with the specified custom layout. Read-only.
 
 
 ## Syntax
 
 _expression_. `ThemeColorScheme`
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

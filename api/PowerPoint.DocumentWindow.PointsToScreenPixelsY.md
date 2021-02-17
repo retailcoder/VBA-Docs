@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # DocumentWindow.PointsToScreenPixelsY method (PowerPoint)
 
-Converts a vertical measurement from points to pixels. Used to return a vertical screen location for a text frame or shape. Returns the converted measurement as a  **Single**.
+Converts a vertical measurement from points to pixels. Used to return a vertical screen location for a text frame or shape. Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
-_expression_. `PointsToScreenPixelsY`( `_Points_` )
+_expression_.**PointsToScreenPixelsY** (_Points_)
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Parameters

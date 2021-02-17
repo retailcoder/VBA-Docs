@@ -21,7 +21,7 @@ Determines the background color of the active Microsoft Visio drawing window and
 
 _expression_. `BackgroundColor`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ OLE_COLOR
 
 ## Remarks
 
-Valid values for an  **OLE_COLOR** property within Visio can be one of the following:
+Valid values for an **OLE_COLOR** property within Visio can be one of the following:
 
 
 

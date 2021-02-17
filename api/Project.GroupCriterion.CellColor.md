@@ -18,12 +18,12 @@ Gets or sets the color of the cell background for a field used as a criterion in
 
 _expression_. `CellColor`
 
- _expression_ A variable that represents a [GroupCriterion](./Project.GroupCriterion.md) object.
+_expression_ A variable that represents a [GroupCriterion](./Project.GroupCriterion.md) object.
 
 
 ## Remarks
 
-The  **CellColor** property can be one of the following **[PjColor](Project.PjColor.md)** constants:
+The **CellColor** property can be one of the following **[PjColor](Project.PjColor.md)** constants:
 
 
 |||
@@ -38,6 +38,6 @@ The  **CellColor** property can be one of the following **[PjColor](Project.PjCo
 |**pjLime**|**pjWhite**|
 |**pjMaroon**||
 
-To use a hexadecimal RGB value for the cell color, see the  **[CellColorEx](Project.GroupCriterion2.CellColorEx.md)** property of the **GroupCriterion2** object.
+To use a hexadecimal RGB value for the cell color, see the **[CellColorEx](Project.GroupCriterion2.CellColorEx.md)** property of the **GroupCriterion2** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

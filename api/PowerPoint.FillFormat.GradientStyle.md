@@ -19,9 +19,9 @@ Returns the gradient style for the specified fill. Read-only.
 
 ## Syntax
 
-_expression_. `GradientStyle`
+_expression_.**GradientStyle**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -49,7 +49,7 @@ The value returned by the  **GradientStyle** property can be one of these **MsoG
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ and sets its fill gradient style to match that of the shape named "rect1." For the example to work, rect1 must have a gradient fill.
+This example adds a rectangle to _myDocument_ and sets its fill gradient style to match that of the shape named "rect1." For the example to work, rect1 must have a gradient fill.
 
 
 ```vb

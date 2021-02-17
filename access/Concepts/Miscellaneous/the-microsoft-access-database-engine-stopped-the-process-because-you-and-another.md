@@ -18,16 +18,16 @@ localization_priority: Normal
 
 This error can occur in a multiuser environment.
 
-Another user has changed the data you are trying to update. This error can occur when multiple users open a table or create a  **Recordset** and use optimistic locking. Between the time you used the **Edit** method and the **Update** method, another user changed the same data.
-To overwrite the other user's changes with your own, execute the  **Update** method again.
+Another user has changed the data you are trying to update. This error can occur when multiple users open a table or create a **Recordset** and use optimistic locking. Between the time you used the **Edit** method and the **Update** method, another user changed the same data.
+To overwrite the other user's changes with your own, execute the **Update** method again.
 
 ## See also
 
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

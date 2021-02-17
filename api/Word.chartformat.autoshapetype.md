@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # ChartFormat.AutoShapeType property (Word)
 
-Returns or sets the auto shape type of the specified object. Read-write [MSOAutoShapeType](Office.MsoAutoShapeType.md).
+Returns or sets the auto shape type of the specified object. Read/write [MSOAutoShapeType](Office.MsoAutoShapeType.md).
 
 
 ## Syntax
 
-_expression_. `AutoShapeType`
+_expression_.**AutoShapeType**
 
- _expression_ A variable that represents a [ChartFormat](./Word.ChartFormat.md) object.
+_expression_ A variable that represents a [ChartFormat](./Word.ChartFormat.md) object.
 
 
 ## Property value

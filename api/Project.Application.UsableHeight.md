@@ -16,14 +16,14 @@ Gets the maximum height available for a project window in points. Read-only  **D
 
 ## Syntax
 
-_expression_. `UsableHeight`
+_expression_.**UsableHeight**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **UsableHeight** property equals the total amount of vertical space inside the main window minus the space taken up by the Ribbon, status bars, scroll bars, and the title bar.
+The **UsableHeight** property equals the total amount of vertical space inside the main window minus the space taken up by the Ribbon, status bars, scroll bars, and the title bar.
 
 
 ## Example

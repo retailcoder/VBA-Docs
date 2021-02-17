@@ -21,11 +21,11 @@ Gets the parent lookup table entry in a hierarchical lookup table. Read-only  **
 
 _expression_. `ParentEntry`
 
- _expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
+_expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
 
 
 ## Remarks
 
-The  **ParentEntry** property returns nothing if the lookup table entry has a level 1 value.
+The **ParentEntry** property returns nothing if the lookup table entry has a level 1 value.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

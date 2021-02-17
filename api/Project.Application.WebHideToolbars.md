@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.WebHideToolbars method (Project)
 
-Shows or hides all toolbars except the  **Menu** and **Web** toolbars. Obsolete in Project.
+Shows or hides all toolbars except the **Menu** and **Web** toolbars. Obsolete in Project.
 
 
 ## Syntax
 
 _expression_. `WebHideToolbars`( `_Hide_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

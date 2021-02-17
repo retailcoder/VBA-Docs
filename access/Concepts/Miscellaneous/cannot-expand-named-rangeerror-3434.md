@@ -5,7 +5,7 @@ f1_keywords:
 - jeterr40.chm5003434
 ms.prod: access
 ms.assetid: 356d3c98-498e-b5df-993a-ac17ba7c9139
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -23,8 +23,8 @@ Cells with values were encountered while attempting to add rows to a Microsoft E
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

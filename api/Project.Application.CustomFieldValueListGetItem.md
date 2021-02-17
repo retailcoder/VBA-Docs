@@ -21,7 +21,7 @@ Returns the value, description, or phonetic spelling of an item in the value lis
 
 _expression_. `CustomFieldValueListGetItem`( `_FieldID_`, `_Item_`, `_Index_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `CustomFieldValueListGetItem`( `_FieldID_`, `_Item_`, `_Index_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|The custom field. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Item_|Required|**Long**|The information to return. Can be one of the following  **PjValueListItem** constants: **pjValueListValue**, **pjValueListDescription**, or **pjValueListPhonetics**. The default value is **pjValueListValue**.|
 | _Index_|Required|**Long**|The row number of the value list item for which to return the information specified with Item.|
 

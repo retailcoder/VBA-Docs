@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.EnterpriseResSubstitutionWizard method (Project)
 
-Runs the  **Resource Substitution Wizard**. Available in Project Professional only.
+Runs the **Resource Substitution Wizard**. Available in Project Professional only.
 
 
 ## Syntax
 
 _expression_. `EnterpriseResSubstitutionWizard`( `_ProjectList_`, `_PoolOption_`, `_RBSorResourceList_`, `_FreezeHorizonDate_`, `_UpdateProjects_`, `_SaveReport_`, `_Path_`, `_AssignProposedResources_`, `_LevelProposedBookings_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -47,8 +47,8 @@ _expression_. `EnterpriseResSubstitutionWizard`( `_ProjectList_`, `_PoolOption_`
 
 ## Remarks
 
-No events are fired when using the  **EnterpriseResSubstitutionWizard** method.
+No events are fired when using the **EnterpriseResSubstitutionWizard** method.
 
-The  **EnterpriseResSubstitutionWizard** method does not include a parameter for specifying that resources from the enterprise resource pool should be used.
+The **EnterpriseResSubstitutionWizard** method does not include a parameter for specifying that resources from the enterprise resource pool should be used.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

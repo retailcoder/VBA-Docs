@@ -21,7 +21,7 @@ Returns a presentation from a local computer to a server, and sets the local fil
 
 _expression_. `CheckInWithVersion`( `_SaveChanges_`, `_Comments_`, `_MakePublic_`, `_VersionType_` )
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters
@@ -44,7 +44,7 @@ For the  _VersionType_ parameter, you can also pass a constant from the **[PpChe
 
 ## Example
 
-This example checks the server to see if the specified presentation can be checked in and, if so, closes the presentation and checks it back into server.
+This example checks the server to see if the specified presentation can be checked in, and if so, closes the presentation and checks it back into server.
 
 
 ```vb

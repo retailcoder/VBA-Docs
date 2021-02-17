@@ -19,9 +19,9 @@ Returns or sets the shape type for the specified  **Shape** object, which must r
 
 ## Syntax
 
-_expression_. `AutoShapeType`
+_expression_.**AutoShapeType**
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks

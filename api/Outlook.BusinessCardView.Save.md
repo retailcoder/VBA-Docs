@@ -19,14 +19,14 @@ Saves the view, or saves the changes to a view.
 
 ## Syntax
 
-_expression_. `Save`
+_expression_.**Save**
 
  _expression_ An expression that returns a [BusinessCardView](Outlook.BusinessCardView.md) object.
 
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example creates, saves, and applies a new  **BusinessCardView** object.
+The following Visual Basic for Applications (VBA) example creates, saves, and applies a new **BusinessCardView** object.
 
 
 ```vb

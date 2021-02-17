@@ -21,7 +21,7 @@ Automatically draws a connection in the specified direction between the shape an
 
 _expression_. `AutoConnect`( `_ToShape_` , `_PlacementDir_` , `_Connector_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -45,7 +45,7 @@ The  **AutoConnect** method lets you automatically draw connections between shap
 
 For the ToShape parameter, pass the  **Shape** object to which you want to draw the connection.
 
-For the PlacementDir parameter, pass a value from the  **VisAutoConnectDir** enumeration to specify the connection direction?that is, where to locate the connected shape with respect to the primary shape. Possible values for PlacementDir are as follows.
+For the PlacementDir parameter, pass a value from the  **VisAutoConnectDir** enumeration to specify the connection direction; that is, where to locate the connected shape with respect to the primary shape. Possible values for PlacementDir are as follows.
 
 
 
@@ -57,7 +57,7 @@ For the PlacementDir parameter, pass a value from the  **VisAutoConnectDir** enu
 |visAutoConnectDirRight|4|Connect to the right|
 |visAutoConnectDirUp|1|Connect up.|
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this method maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this method maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.AutoConnect(Microsoft.Office.Interop.Visio.Shape, Microsoft.Office.Interop.Visio.VisAutoConnectDir, object)**

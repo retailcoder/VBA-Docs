@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ChangeWorkingTimeEx method (Project)
 
-Displays the  **Change Working Time** dialog box, which prompts the user to change a calendar.
+Displays the **Change Working Time** dialog box, which prompts the user to change a calendar.
 
 
 ## Syntax
 
 _expression_. `ChangeWorkingTimeEx`( `_CalendarName_`, `_Locked_`, `_SelectedDate_`, `_ProjectName_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,6 +42,6 @@ _expression_. `ChangeWorkingTimeEx`( `_CalendarName_`, `_Locked_`, `_SelectedDat
 
 ## Remarks
 
-The  **ChangeWorkingTime** method has the same effect as the **Change Working Time** command on the **Project** tab in the Project Ribbon.
+The **ChangeWorkingTime** method has the same effect as the **Change Working Time** command on the **Project** tab in the Project Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

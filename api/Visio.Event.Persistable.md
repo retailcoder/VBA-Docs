@@ -21,7 +21,7 @@ Determines whether an event can potentially persist within its document. Read-on
 
 _expression_. `Persistable`
 
- _expression_ A variable that represents a [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Return value
@@ -63,13 +63,14 @@ If these conditions are met, any of the following events are persistable:
     
 
 
-Although an  **Event** object's **Persistable** property indicates whether an event can persist, its **Persistent** property indicates whether that event actually persists. When an **Event** object is first created, its **Persistent** property is set to the same value as its **Persistable** property. That is, a persistable event's **Persistent** property is set to **True**, and a nonpersistable event's **Persistent** property is set to **False**.
+Although an **Event** object's **Persistable** property indicates whether an event can persist, its **Persistent** property indicates whether that event actually persists. When an **Event** object is first created, its **Persistent** property is set to the same value as its **Persistable** property. That is, a persistable event's **Persistent** property is set to **True**, and a nonpersistable event's **Persistent** property is set to **False**.
 
 A nonpersistent event exists as long as a reference is held on the  **Event** object, the **EventList** object that contains the **Event** object, or the source object that has the **EventList** object. When the last reference to any of these objects is released, the nonpersistent event ceases to exist.
 
 You can change the initial setting for a persistable event by setting its  **Persistent** property to **False**. In this case, the event doesn't persist with its document, even though it could. However, you cannot change the **Persistent** property of a nonpersistent event; attempting to do so will cause an exception.
 
 
- **Note**  Events handled in a Microsoft Visual Basic for Applications (VBA) project are persistent.
+> [!NOTE] 
+> Events handled in a Microsoft Visual Basic for Applications (VBA) project are persistent.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,12 +21,12 @@ Returns a  **[Dialogs](Word.dialogs.md)** collection that represents all the bui
 
 _expression_. `Dialogs`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md). 
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md). 
 
 For a list of built-in dialog boxes, see the **[WdWordDialog](Word.WdWordDialog.md)** enumeration.
 
@@ -59,7 +59,7 @@ With Dialogs(wdDialogFileOpen)
 End With
 ```
 
-This example prints the active document, using the settings from the  **Print** dialog box.
+This example prints the active document, using the settings from the **Print** dialog box.
 
 
 

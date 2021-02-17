@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.EnterpriseResourcesImportEx method (Project)
 
-Imports local resources to the enterprise resource pool, or starts the  **Resource Import Wizard**.
+Imports local resources to the enterprise resource pool, or starts the **Resource Import Wizard**.
 
 
 ## Syntax
 
 _expression_. `EnterpriseResourcesImportEx`( `_LocalRUIDs_`, `_UseImportColumn_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,11 +40,12 @@ _expression_. `EnterpriseResourcesImportEx`( `_LocalRUIDs_`, `_UseImportColumn_`
 
 ## Remarks
 
-Using the  **EnterpriseResourcesImportEx** method with no arguments starts the **Resource Import Wizard**. Used that way, the method corresponds to the  **Import Resources to Enterprise** command in the **Add Resources** drop-down menu of the **Resource** tab in the Ribbon.
+Using the **EnterpriseResourcesImportEx** method with no arguments starts the **Resource Import Wizard**. Used that way, the method corresponds to the **Import Resources to Enterprise** command in the **Add Resources** drop-down menu of the **Resource** tab in the Ribbon.
 
 
- **Note**  The  **EnterpriseResourcesImportEx** method starts the file **Open** dialog box, with a list of enterprise projects. You can open an enterprise project that contains local resources or a local project. Alternately, you can use the **[ResourceMappingDialog](Project.Application.ResourceMappingDialog.md)** method instead of **EnterpriseResourcesImportEx** to avoid the extra step of opening a project.
+> [!NOTE] 
+> The **EnterpriseResourcesImportEx** method starts the file **Open** dialog box, with a list of enterprise projects. You can open an enterprise project that contains local resources or a local project. Alternately, you can use the **[ResourceMappingDialog](Project.Application.ResourceMappingDialog.md)** method instead of **EnterpriseResourcesImportEx** to avoid the extra step of opening a project.
 
-The  **EnterpriseResourcesImportEx** method is available in Project Professional only and requires a connection with Project Server.
+The **EnterpriseResourcesImportEx** method is available in Project Professional only and requires a connection with Project Server.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,9 +19,9 @@ Returns or sets the distance between the levels of labels, and the distance betw
 
 ## Syntax
 
-_expression_. `Offset`
+_expression_.**Offset**
 
- _expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
+_expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
 
 
 ## Remarks

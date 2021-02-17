@@ -18,12 +18,12 @@ Gets or sets the day of the week value for a monthly type of exception. Read/wri
 
 _expression_. `MonthItem`
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Remarks
 
-The  **MonthItem** property can be one of the following **[PjExceptionItem](Project.PjExceptionItem.md)** contants: **pjSunday**, **pjMonday**, **pjTuesday**, **pjWednesday**, **pjThursday**, **pjFriday**, and **pjSaturday**.
+The **MonthItem** property can be one of the following **[PjExceptionItem](Project.PjExceptionItem.md)** contants: **pjSunday**, **pjMonday**, **pjTuesday**, **pjWednesday**, **pjThursday**, **pjFriday**, and **pjSaturday**.
 
 
 ## See also

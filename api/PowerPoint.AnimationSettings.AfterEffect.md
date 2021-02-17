@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AnimationSettings.AfterEffect property (PowerPoint)
 
-Returns or sets a  **PpAfterEffect** constant that indicates whether the specified shape appears dimmed, hidden, or unchanged after it is built. Read/write.
+Returns or sets a **PpAfterEffect** constant that indicates whether the specified shape appears dimmed, hidden, or unchanged after it is built. Read/write.
 
 
 ## Syntax
 
 _expression_. `AfterEffect`
 
-_expression_ A variable that represents an [AnimationSettings](./PowerPoint.AnimationSettings.md) object.
+_expression_ A variable that represents an [AnimationSettings](PowerPoint.AnimationSettings.md) object.
 
 
 ## Remarks

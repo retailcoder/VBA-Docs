@@ -19,14 +19,14 @@ Returns a  **[Window](Word.Window.md)** object that represents the active window
 
 ## Syntax
 
-_expression_. `ActiveWindow`
+_expression_.**ActiveWindow**
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-If there are no windows open, using the  **ActiveWindow** property generates an error occurs.
+If there are no windows open, using the **ActiveWindow** property generates an error occurs.
 
 
 ## Example

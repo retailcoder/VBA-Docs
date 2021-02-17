@@ -21,7 +21,7 @@ Deprecated in Project. Shows an on-screen preview of a printed report.
 
 _expression_. `ReportPrintPreview`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `ReportPrintPreview`( `_Name_` )
 
 ## Remarks
 
-In Project, the  **ReportPrintPreview** method returns error 1100, "The method is not available in this situation." In Project, if you execute the **ReportPrintPreview** method with no argument, it displays the **Custom Reports** dialog box.
+In Project, the **ReportPrintPreview** method returns error 1100, "The method is not available in this situation." In Project, if you execute the **ReportPrintPreview** method with no argument, it displays the **Custom Reports** dialog box.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

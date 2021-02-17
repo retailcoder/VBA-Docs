@@ -21,7 +21,7 @@ Creates or removes a deliverable for the selected task. Available only in Projec
 
 _expression_. `TaskDeliverableCreate`( `_Create_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `TaskDeliverableCreate`( `_Create_` )
 
 ## Remarks
 
-When the selected task does not have a deliverable, following are results of running the  **TaskDeliverableCreate** method:
+When the selected task does not have a deliverable, following are results of running the **TaskDeliverableCreate** method:
 
 
 -  `TaskDeliverableCreate(True)` creates a deliverable for the selected task.
@@ -48,7 +48,7 @@ When the selected task does not have a deliverable, following are results of run
     
 
 
-When the selected task has an associated deliverable, following are results of running the  **TaskDeliverableCreate** method:
+When the selected task has an associated deliverable, following are results of running the **TaskDeliverableCreate** method:
 
 
 -  `TaskDeliverableCreate(True)` gives the error, **Cannot create a deliverable link for the selected subproject task.**, followed by the run-time error 1004, **An unexpected error occurred with the method.**
@@ -57,10 +57,11 @@ When the selected task has an associated deliverable, following are results of r
     
 
 
-The  **TaskDeliverableCreate** method is equivalent to the **Create Deliverables** command on the **Deliverable** drop-down menu on the **Task** tab of the Ribbon. If the selected task has no deliverable, the **Create Deliverables** command creates one. If the selected task has a deliverable, **Create Deliverables** shows an active icon, and selecting the command deletes the deliverable.
+The **TaskDeliverableCreate** method is equivalent to the **Create Deliverables** command on the **Deliverable** drop-down menu on the **Task** tab of the Ribbon. If the selected task has no deliverable, the **Create Deliverables** command creates one. If the selected task has a deliverable, **Create Deliverables** shows an active icon, and selecting the command deletes the deliverable.
 
 
- **Note**  You cannot create a task deliverable until you publish the project and create a project workspace. You also cannot create a deliverable on a summary task.
+> [!NOTE] 
+> You cannot create a task deliverable until you publish the project and create a project workspace. You also cannot create a deliverable on a summary task.
 
 
 ## Example

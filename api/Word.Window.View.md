@@ -19,9 +19,9 @@ Returns a  **[View](Word.View.md)** object that represents the view for the spec
 
 ## Syntax
 
-_expression_. `View`
+_expression_.**View**
 
-_expression_ Required. A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ Required. A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example switches the active window to full-screen view.
 ActiveDocument.ActiveWindow.View.FullScreen = True
 ```
 
-This example sets view options for each window in the  **Windows** collection.
+This example sets view options for each window in the **Windows** collection.
 
 
 

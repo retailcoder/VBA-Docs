@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # Characters.RunEnd property (Visio)
 
-Returns the ending index of a type of run?a sequence of characters that share a particular attribute, such as character, paragraph, or tab formatting; or a word, paragraph, or field. Read-only.
+Returns the ending index of a type of run&mdash;a sequence of characters that share a particular attribute, such as character, paragraph, or tab formatting; or a word, paragraph, or field. Read-only.
 
 
 ## Syntax
 
-_expression_. `RunEnd`( `_RunType_` )
+_expression_.**RunEnd** (_RunType_)
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.ProjectBeforeResourceDelete2 event (Project)
 
-Occurs before a resource is deleted. Uses the  **EventInfo** object parameter.
+Occurs before a resource is deleted. Uses the **EventInfo** object parameter.
 
 
 ## Syntax
 
 _expression_. `ProjectBeforeResourceDelete2`( `_res_`, `_Info_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -28,17 +28,17 @@ _expression_. `ProjectBeforeResourceDelete2`( `_res_`, `_Info_` )
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _res_|Required|**Resource**| The resource that is being deleted.|
-| _Info_|Required|**EventInfo**|EventInfo.Cancel is  **False** when the event occurs. If the event procedure sets this argument to **True**, the resource is not deleted.|
+| _Info_|Required|**EventInfo**|EventInfo.Cancel is **False** when the event occurs. If the event procedure sets this argument to **True**, the resource is not deleted.|
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
 Project events do not occur when the project is embedded in another document or application.
 
-The  **ProjectBeforeResourceDelete2** event doesn't occur when changes have been made using a custom form.
+the **ProjectBeforeResourceDelete2** event doesn't occur when changes have been made using a custom form.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

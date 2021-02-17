@@ -21,12 +21,12 @@ Returns a  **[Template](Word.Template.md)** object that represents the Normal te
 
 _expression_. `NormalTemplate`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example
 
-This example inserts the AutoText entry named "Test" from the Normal template, if this entry is contained in the  **AutoTextEntries** collection.
+This example inserts the AutoText entry named "Test" from the Normal template, if this entry is contained in the **AutoTextEntries** collection.
 
 
 ```vb

@@ -21,7 +21,7 @@ Defines a friendly name for a custom field.
 
 _expression_. `CustomFieldRename`( `_FieldID_`, `_NewName_`, `_Phonetic_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `CustomFieldRename`( `_FieldID_`, `_NewName_`, `_Phonetic_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The field to be renamed. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|The field to be renamed. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _NewName_|Optional|**String**|The friendly name for the custom field. A value of  **Null** removes the friendly name.|
 | _Phonetic_|Optional|**String**|The phonetic equivalent of the friendly name. The Phonetic argument is ignored unless the Japanese version of Project is used.|
 

@@ -14,21 +14,21 @@ localization_priority: Normal
 
 # WebOptions.BrowserLevel property (Word)
 
-Returns or sets  **WdBrowserLevel** that represents the level of Web browser at which you want to target the specified Web page. Read/write.
+Returns or sets  **WdBrowserLevel** that represents the level of web browser at which you want to target the specified Web page. Read/write.
 
 
 ## Syntax
 
 _expression_. `BrowserLevel`
 
-_expression_ Required. A variable that represents a '[WebOptions](Word.WebOptions.md)' collection.
+_expression_ Required. A variable that represents a **[WebOptions](Word.WebOptions.md)** collection.
 
 
 ## Remarks
 
-This property is ignored if the  **OptimizeForBrowser** property is set to **False**.
+This property is ignored if the **OptimizeForBrowser** property is set to **False**.
 
-After you set the  **BrowserLevel** property on the **DefaultWebOptions** object, the **BrowserLevel** property of any new Web pages you create in Word will be the same as the global setting.
+After you set the **BrowserLevel** property on the **DefaultWebOptions** object, the **BrowserLevel** property of any new Web pages you create in Word will be the same as the global setting.
 
 
 ## See also

@@ -21,7 +21,7 @@ Opens the document specified by a hyperlink address.
 
 _expression_. `WebOpenHyperlink`( `_Address_`, `_SubAddress_`, `_AddHistory_`, `_NewWindow_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ _expression_. `WebOpenHyperlink`( `_Address_`, `_SubAddress_`, `_AddHistory_`, `
 
 ## Remarks
 
-The  **WebOpenHyperlink** method is only available when the selected assignment, resource, or task field contains a hyperlink.
+The **WebOpenHyperlink** method is only available when the selected assignment, resource, or task field contains a hyperlink.
 
 
 ## Example
@@ -58,7 +58,7 @@ Sub WebOpen_Hyperlink()
  SelectRow Row:=2, RowRelative:=False 
  InsertHyperlink Name:="https://MSDN/", Address:="https://msdn.microsoft.com/", SubAddress:="", ScreenTip:="" 
  
- 'Open the web page 
+ 'Open the webpage 
  WebOpenHyperlink Address:="https://msdn.microsoft.com/", SubAddress:="" 
 End Sub
 ```

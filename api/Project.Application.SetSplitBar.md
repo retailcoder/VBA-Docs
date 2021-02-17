@@ -21,7 +21,7 @@ Positions the vertical split bar in a sheet view to display the specified number
 
 _expression_. `SetSplitBar`( `_ShowColumns_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,14 +39,14 @@ _expression_. `SetSplitBar`( `_ShowColumns_` )
 
 ## Remarks
 
-If the right pane of the view has been sized so that there is no left pane, the  **SetSplitBar** method has no effect.
+If the right pane of the view has been sized so that there is no left pane, the **SetSplitBar** method has no effect.
 
-If the split bar is partially hiding the right-most column, using the  **SetSplitBar** method with no argument moves the split bar to show the complete column.
+If the split bar is partially hiding the right-most column, using the **SetSplitBar** method with no argument moves the split bar to show the complete column.
 
 
 ## Example
 
-If the standard Gantt Chart is the active view, the following statement sets the split bar to show only the  **ID**,  **Indicators**,  **Task Mode**, and  **Task Name** columns.
+If the standard Gantt Chart is the active view, the following statement sets the split bar to show only the **ID**,  **Indicators**,  **Task Mode**, and  **Task Name** columns.
 
 
 ```vb

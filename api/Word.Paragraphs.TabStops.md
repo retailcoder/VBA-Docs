@@ -21,17 +21,17 @@ Returns or sets a  **TabStops** collection that represents all the custom tab st
 
 _expression_. `TabStops`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
-This example adds a centered tab stop at 2 inches to all the paragraphs in the active document. The  **InchesToPoints** method is used to convert inches to points.
+This example adds a centered tab stop at 2 inches to all the paragraphs in the active document. The **InchesToPoints** method is used to convert inches to points.
 
 
 ```vb

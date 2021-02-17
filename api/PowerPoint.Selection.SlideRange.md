@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Selection.SlideRange property (PowerPoint)
 
-Returns a  **[SlideRange](PowerPoint.SlideRange.md)** object that represents a range of selected slides. Read-only.
+Returns a **[SlideRange](PowerPoint.SlideRange.md)** object that represents a range of selected slides. Read-only.
 
 
 ## Syntax
 
 _expression_. `SlideRange`
 
- _expression_ A variable that represents a [Selection](./PowerPoint.Selection.md) object.
+_expression_ A variable that represents a [Selection](PowerPoint.Selection.md) object.
 
 
 ## Return value

@@ -21,14 +21,14 @@ Returns or sets the major units for the value axis. Read/write  **Double**.
 
 _expression_. `MajorUnit`
 
- _expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting this property sets the  **[MajorUnitIsAuto](Word.Axis.MajorUnitIsAuto.md)** property to **False**.
+Setting this property sets the **[MajorUnitIsAuto](Word.Axis.MajorUnitIsAuto.md)** property to **False**.
 
-Use the  **[TickMarkSpacing](Word.Axis.TickMarkSpacing.md)** property to set tick mark spacing on the category axis.
+Use the **[TickMarkSpacing](Word.Axis.TickMarkSpacing.md)** property to set tick mark spacing on the category axis.
 
 
 ## Example

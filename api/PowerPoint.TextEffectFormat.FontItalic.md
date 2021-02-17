@@ -21,7 +21,7 @@ Determines whether the font in the specified WordArt is italic. Read/write.
 
 _expression_. `FontItalic`
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **FontItalic** property can be one of these **MsoTriState** co
 
 ## Example
 
-This example sets the font to italic for the shape named "WordArt 4" on  _myDocument_.
+This example sets the font to italic for the shape named "WordArt 4" on _myDocument_.
 
 
 ```vb

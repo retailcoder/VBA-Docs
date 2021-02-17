@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Frameset.FrameDefaultURL property (Word)
 
-Returns or sets the Web page or other document to be displayed in the specified frame when the frames page is opened. Read/write  **String**.
+Returns or sets the webpage or other document to be displayed in the specified frame when the frames page is opened. Read/write  **String**.
 
 
 ## Syntax
 
 _expression_. `FrameDefaultURL`
 
- _expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Remarks

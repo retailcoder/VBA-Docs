@@ -18,11 +18,11 @@ Gets or sets the default method used to accrue fixed task costs in the project. 
 
 _expression_. `DefaultFixedCostAccrual`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **DefaultFixedCostAccrual** property can be one of the following **[PjAccrueAt](Project.PjAccrueAt.md)** constants: **pjStart**, **pjEnd**, or **pjProrated**.
+The **DefaultFixedCostAccrual** property can be one of the following **[PjAccrueAt](Project.PjAccrueAt.md)** constants: **pjStart**, **pjEnd**, or **pjProrated**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

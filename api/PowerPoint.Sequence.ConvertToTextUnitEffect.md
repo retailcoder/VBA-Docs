@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Sequence.ConvertToTextUnitEffect method (PowerPoint)
 
-Returns an  **[Effect](PowerPoint.Effect.md)** object that represents how text should be animated.
+Returns an **[Effect](PowerPoint.Effect.md)** object that represents how text should be animated.
 
 
 ## Syntax
 
 _expression_. `ConvertToTextUnitEffect`( `_Effect_`, `_unitEffect_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
 ## Parameters

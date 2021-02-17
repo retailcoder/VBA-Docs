@@ -21,7 +21,7 @@ Converts all Hangul characters to Hanja and all Hanja characters to Hangul in th
 
 _expression_. `ConvertHangulToHanja`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `ConvertHangulToHanja`
 
 ## Remarks
 
-The  **ConvertHangulToHanja** method produces tangible results only if an East Asian version of Project is used.
+The **ConvertHangulToHanja** method produces tangible results only if an East Asian version of Project is used.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

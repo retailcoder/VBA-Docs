@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # AppointmentItem.PrintOut method (Outlook)
 
-Prints the Outlook item using all default settings.The  **PrintOut** method is the only Outlook method that can be used for printing.
+Prints the Outlook item using all default settings.The **PrintOut** method is the only Outlook method that can be used for printing.
 
 
 ## Syntax
 
-_expression_. `PrintOut`
+_expression_.**PrintOut**
 
 _expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 

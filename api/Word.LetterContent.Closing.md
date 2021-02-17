@@ -21,7 +21,7 @@ Returns or sets the closing text for a letter created by the Letter Wizard (for 
 
 _expression_. `Closing`
 
- _expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
+_expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example displays the closing text from the active document.
 MsgBox ActiveDocument.GetLetterContent.Closing
 ```
 
-This example retrieves letter elements from the active document, changes the closing text by setting the  **Closing** property, and then uses the **[SetLetterContent](Word.Document.SetLetterContent.md)** method to update the document to reflect the changes.
+This example retrieves letter elements from the active document, changes the closing text by setting the **Closing** property, and then uses the **[SetLetterContent](Word.Document.SetLetterContent.md)** method to update the document to reflect the changes.
 
 
 

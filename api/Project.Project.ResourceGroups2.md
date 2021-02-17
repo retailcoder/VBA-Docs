@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Project.ResourceGroups2 property (Project)
 
-Gets a  **[ResourceGroups2](Project.resourcegroups2(object).md)** collection that represents all of the resource groups based on **Group2** objects. Read-only **ResourceGroups2**.
+Gets a **[ResourceGroups2](Project.resourcegroups2(object).md)** collection that represents all of the resource groups based on **Group2** objects. Read-only **ResourceGroups2**.
 
 
 ## Syntax
 
 _expression_. `ResourceGroups2`
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

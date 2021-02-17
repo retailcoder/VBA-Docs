@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Table.Cell method (PowerPoint)
 
-Returns a  **[Cell](PowerPoint.Cell.md)** object that represents a cell in a table.
+Returns a **[Cell](PowerPoint.Cell.md)** object that represents a cell in a table.
 
 
 ## Syntax
 
 _expression_. `Cell`( `_Row_`, `_Column_` )
 
- _expression_ A variable that represents a [Table](./PowerPoint.Table.md) object.
+_expression_ A variable that represents a [Table](PowerPoint.Table.md) object.
 
 
 ## Parameters

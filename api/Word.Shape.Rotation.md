@@ -21,12 +21,12 @@ Returns or sets the number of degrees the specified shape is rotated around the 
 
 _expression_.**Rotation**
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-To set the rotation of a three-dimensional shape around the x-axis or the y-axis, use the  **RotationX** property or the **RotationY** property of the **ThreeDFormat** object.
+To set the rotation of a three-dimensional shape around the x-axis or the y-axis, use the **RotationX** property or the **RotationY** property of the **ThreeDFormat** object.
 
 
 ## Example

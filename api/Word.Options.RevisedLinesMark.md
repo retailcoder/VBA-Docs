@@ -21,7 +21,7 @@ Returns or sets the placement of changed lines in a document with tracked change
 
 _expression_. `RevisedLinesMark`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets changed lines to appear in the left margin of every page.
 Options.RevisedLinesMark = wdRevisedLinesMarkLeftBorder
 ```
 
-This example returns the current status of the  **Mark** option under **Changed lines** on the **Track Changes** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Mark** option under **Changed lines** on the **Track Changes** tab in the **Options** dialog box (**Tools** menu).
 
 
 

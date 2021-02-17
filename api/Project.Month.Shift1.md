@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Month.Shift1 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the first work shift in a month. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the first work shift in a month. Read-only **Shift**.
 
 
 ## Syntax
 
 _expression_. `Shift1`
 
- _expression_ A variable that represents a [Month](./Project.Month.md) object.
+_expression_ A variable that represents a [Month](./Project.Month.md) object.
 
 
 ## Example

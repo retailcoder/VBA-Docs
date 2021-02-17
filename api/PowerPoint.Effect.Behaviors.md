@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Effect.Behaviors property (PowerPoint)
 
-Returns a specified slide animation behavior as an  **[AnimationBehaviors](PowerPoint.AnimationBehaviors.md)** collection.
+Returns a specified slide animation behavior as an **[AnimationBehaviors](PowerPoint.AnimationBehaviors.md)** collection.
 
 
 ## Syntax
 
 _expression_. `Behaviors`
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ AnimationBehaviors
 
 ## Remarks
 
-To return a single  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object in the **AnimationBehaviors** collection, use the **[Item](PowerPoint.AnimationBehaviors.Item.md)** method or **Behaviors** (index), where index is the index number of the **AnimationBehavior** object in the **AnimationBehaviors** collection.
+To return a single  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object in the **AnimationBehaviors** collection, use the **[Item](PowerPoint.AnimationBehaviors.Item.md)** method or **Behaviors** (_index_), where _index_ is the index number of the **AnimationBehavior** object in the **AnimationBehaviors** collection.
 
 
 ## Example

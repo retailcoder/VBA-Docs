@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AutoCorrect.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **AutoCorrect** object.
+Returns an **Object** that represents the parent object of the specified **AutoCorrect** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an '[AutoCorrect](Word.AutoCorrect.md)' object.
+_expression_ A variable that represents an '[AutoCorrect](Word.AutoCorrect.md)' object.
 
 
 ## See also

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AddIns.Add method (PowerPoint)
 
-Returns an  **AddIn** object that represents an add-in file added to the list of add-ins.
+Returns an **AddIn** object that represents an add-in file added to the list of add-ins.
 
 
 ## Syntax
 
-_expression_.**Add**( `_FileName_` )
+_expression_.**Add** (_FileName_)
 
-_expression_ A variable that represents an [AddIns](./PowerPoint.AddIns.md) object.
+_expression_ A variable that represents an [AddIns](PowerPoint.AddIns.md) object.
 
 
 ## Parameters

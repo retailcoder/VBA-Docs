@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextStyleLevel.Font property (PowerPoint)
 
-Returns a  **[Font](PowerPoint.Font.md)** object that represents character formatting. Read-only.
+Returns a **[Font](PowerPoint.Font.md)** object that represents character formatting. Read-only.
 
 
 ## Syntax
 
 _expression_.**Font**
 
- _expression_ A variable that represents a [TextStyleLevel](./PowerPoint.TextStyleLevel.md) object.
+_expression_ A variable that represents a [TextStyleLevel](PowerPoint.TextStyleLevel.md) object.
 
 
 ## Return value

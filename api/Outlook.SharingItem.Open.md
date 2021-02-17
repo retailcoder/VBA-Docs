@@ -11,12 +11,12 @@ localization_priority: Normal
 
 # SharingItem.Open event (Outlook)
 
-Occurs when an instance of the parent object is being opened in an  **[Inspector](Outlook.Inspector.md)**.
+Occurs when an instance of the parent object is being opened in an **[Inspector](Outlook.Inspector.md)**.
 
 
 ## Syntax
 
-_expression_. `Open`( `_Cancel_` )
+_expression_.**Open** (_Cancel_)
 
  _expression_ An expression that returns a [SharingItem](Outlook.SharingItem.md) object.
 

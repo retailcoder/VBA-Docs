@@ -16,9 +16,9 @@ Returns the locale ID of the currently installed version of Project. .
 
 ## Syntax
 
-_expression_. `LocaleID`
+_expression_.**LocaleID**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

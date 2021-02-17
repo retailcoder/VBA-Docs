@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Group.GroupCriteria property (Project)
 
-Gets or sets a  **[GroupCriteria](Project.GroupCriterion.md)** collection representing the fields in a group definition. Read/write **GroupCriteria**.
+Gets or sets a **[GroupCriteria](Project.GroupCriterion.md)** collection representing the fields in a group definition. Read/write **GroupCriteria**.
 
 
 ## Syntax
 
 _expression_. `GroupCriteria`
 
- _expression_ A variable that represents a [Group](./Project.Group.md) object.
+_expression_ A variable that represents a [Group](./Project.Group.md) object.
 
 
 ## Example

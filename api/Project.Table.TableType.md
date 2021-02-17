@@ -21,11 +21,11 @@ Gets the table type for the specified table. Read-only  **PjItemType**.
 
 _expression_. `TableType`
 
- _expression_ A variable that represents a [Table](./Project.Table.md) object.
+_expression_ A variable that represents a [Table](./Project.Table.md) object.
 
 
 ## Remarks
 
-The  **TableType** property can be one of the following **[PjItemType](Project.PjItemType.md)** constants: **pjOtherItem**, **pjResourceItem**, or **pjTaskItem**.
+The **TableType** property can be one of the following **[PjItemType](Project.PjItemType.md)** constants: **pjOtherItem**, **pjResourceItem**, or **pjTaskItem**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

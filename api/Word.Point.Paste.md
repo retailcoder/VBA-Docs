@@ -21,12 +21,12 @@ Pastes a picture from the Clipboard as the marker on the selected point.
 
 _expression_.**Paste**
 
- _expression_ A variable that represents a '[Point](Word.Point.md)' object.
+_expression_ A variable that represents a '[Point](Word.Point.md)' object.
 
 
 ## Remarks
 
-You can use this method on column, bar, line, or radar charts, and it sets the  **[MarkerStyle](Word.Point.MarkerStyle.md)** property to **xlMarkerStylePicture**.
+You can use this method on column, bar, line, or radar charts, and it sets the **[MarkerStyle](Word.Point.MarkerStyle.md)** property to **xlMarkerStylePicture**.
 
 
 ## Example

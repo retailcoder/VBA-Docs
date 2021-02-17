@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # CustomLabels.Add method (Word)
 
-Adds a custom mailing label to the  **CustomLabels** collection. Returns a **CustomLabel** object that represents the custom mailing label.
+Adds a custom mailing label to the **CustomLabels** collection. Returns a **CustomLabel** object that represents the custom mailing label.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Name_` , `_DotMatrix_` )
+_expression_.**Add** (_Name_, _DotMatrix_)
 
 _expression_ Required. A variable that represents a '[CustomLabels](Word.customlabels.md)' collection.
 

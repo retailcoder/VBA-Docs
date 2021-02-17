@@ -18,7 +18,7 @@ Returns the friendly name for a custom field.
 
 _expression_. `CustomFieldGetName`( `_FieldID_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -27,7 +27,7 @@ _expression_. `CustomFieldGetName`( `_FieldID_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|The custom field. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 
 ## Return value
 

@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # Day.Count property (Project)
 
-Gets the number of days in the  **Day** object, which is the value 1. Read-only **Integer**.
+Gets the number of days in the **Day** object, which is the value 1. Read-only **Integer**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a [Day](./Project.Day.md) object.
+_expression_ A variable that represents a [Day](./Project.Day.md) object.
 
 
 ## Example
 
-The  **Count** property for the **Day** object is the value 1, as in the following example.
+The **Count** property for the **Day** object is the value 1, as in the following example.
 
 
 ```vb

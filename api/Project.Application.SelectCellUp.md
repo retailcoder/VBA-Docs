@@ -21,7 +21,7 @@ Selects cells upward from the current selection.
 
 _expression_. `SelectCellUp`( `_NumCells_`, `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,6 +40,6 @@ _expression_. `SelectCellUp`( `_NumCells_`, `_Extend_` )
 
 ## Remarks
 
-The  **SelectCellUp** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
+The **SelectCellUp** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

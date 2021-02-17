@@ -18,11 +18,11 @@ Gets the character that separates the whole and fractional parts of a number. Re
 
 _expression_. `DecimalSeparator`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project sets the  **DecimalSeparator** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel.
+Project sets the **DecimalSeparator** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

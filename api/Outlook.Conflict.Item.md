@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Conflict.Item property (Outlook)
 
-Returns an  **Object** corresponding to the specified Outlook item. Read-only.
+Returns an **Object** corresponding to the specified Outlook item. Read-only.
 
 
 ## Syntax
 
-_expression_. `Item`
+_expression_.**Item**
 
 _expression_ A variable that represents a [Conflict](Outlook.Conflict.md) object.
 

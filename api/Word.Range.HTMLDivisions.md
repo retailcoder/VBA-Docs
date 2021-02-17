@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Range.HTMLDivisions property (Word)
 
-Returns an  **HTMLDivisions** object that represents an HTML division in a Web document.
+Returns an  **HTMLDivisions** object that represents an HTML division in a web document.
 
 
 ## Syntax
 
 _expression_. `HTMLDivisions`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

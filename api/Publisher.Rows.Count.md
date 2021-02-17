@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Rows.Count
 ms.assetid: 790c7616-e9f4-e518-0f4b-6960d144290d
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
 
 # Rows.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a  **Rows** object.
+_expression_ A variable that represents a **[Rows](Publisher.Rows.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +35,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `NoTextRotation`
 
- _expression_ A variable that represents a '[TextFrame](Word.TextFrame.md)' object.
+_expression_ A variable that represents a **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## Remarks
 
-Only the  **MsoTriState** constants **msoFalse** and **msoTrue** can be used to set this property.
+Only the **MsoTriState** constants **msoFalse** and **msoTrue** can be used to set this property.
 
 
 ## See also

@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # CodeMaskLevel.Parent property (Project)
 
-Gets the parent of the  **CodeMaskLevel** object. Read-only **OutlineCode**.
+Gets the parent of the **CodeMaskLevel** object. Read-only **OutlineCode**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
+_expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

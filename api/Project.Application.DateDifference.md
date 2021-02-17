@@ -21,7 +21,7 @@ Returns the duration between two dates in minutes, for an automatically schedule
 
 _expression_. `DateDifference`( `_StartDate_`, `_FinishDate_`, `_Calendar_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_. `DateDifference`( `_StartDate_`, `_FinishDate_`, `_Calendar_` )
 
 ## Remarks
 
-To get a difference between two dates for a manually scheduled task, which uses an effective calendar that can include non-working time, use the  **[EffectiveDateDifference](Project.StartDriver.EffectiveDateDifference.md)** property.
+To get a difference between two dates for a manually scheduled task, which uses an effective calendar that can include non-working time, use the **[EffectiveDateDifference](Project.StartDriver.EffectiveDateDifference.md)** property.
 
 
 ## Example

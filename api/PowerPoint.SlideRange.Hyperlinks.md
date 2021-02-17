@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideRange.Hyperlinks property (PowerPoint)
 
-Returns a  **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all the hyperlinks on the specified slide. Read-only.
+Returns a **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all the hyperlinks on the specified slide. Read-only.
 
 
 ## Syntax
 
 _expression_.**Hyperlinks**
 
- _expression_ A variable that represents a [SlideRange](./PowerPoint.SlideRange.md) object.
+_expression_ A variable that represents a [SlideRange](PowerPoint.SlideRange.md) object.
 
 
 ## Return value

@@ -19,9 +19,9 @@ Determines whether an object is a default Microsoft Visio user interface object 
 
 ## Syntax
 
-_expression_. `BuiltIn`
+_expression_.**BuiltIn**
 
- _expression_ A variable that represents a [Menu](./Visio.Menu.md) object.
+_expression_ A variable that represents a **[Menu](Visio.Menu.md)** object.
 
 
 ## Return value

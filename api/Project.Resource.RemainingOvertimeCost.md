@@ -18,13 +18,13 @@ Gets the remaining overtime cost for the resource. Read-only  **Variant**.
 
 _expression_. `RemainingOvertimeCost`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **RemainingOvertimeCost** property does not return any meaningful information for material resources.
+The **RemainingOvertimeCost** property does not return any meaningful information for material resources.
 
-For a code example that uses a  **Task** object, see **[RemainingOvertimeCost](Project.Task.RemainingOvertimeCost.md)**.
+For a code example that uses a **Task** object, see **[RemainingOvertimeCost](Project.Task.RemainingOvertimeCost.md)**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

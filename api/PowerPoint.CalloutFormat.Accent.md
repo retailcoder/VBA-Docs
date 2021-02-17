@@ -21,7 +21,7 @@ Determines whether a vertical accent bar separates the callout text from the cal
 
 _expression_.**Accent**
 
-_expression_ A variable that represents an [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents an [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **Accent** property can be one of these **MsoTriState** consta
 
 ## Example
 
-This example adds to  _myDocument_ an oval and a callout that points to the oval. The callout text won't have a border, but it will have a vertical accent bar that separates the text from the callout line.
+This example adds to _myDocument_ an oval and a callout that points to the oval. The callout text won't have a border, but it will have a vertical accent bar that separates the text from the callout line.
 
 
 ```vb

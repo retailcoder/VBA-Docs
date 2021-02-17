@@ -19,9 +19,9 @@ Gets the version of a saved document or sets the version in which to save a docu
 
 ## Syntax
 
-_expression_. `Version`
+_expression_.**Version**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,9 +31,9 @@ VisDocVersions
 
 ## Remarks
 
-Setting the  **Version** property of a document tells Microsoft Visio which file format version to save the document in the next time the document is saved. The Visio type library declares constants for file format versions in **[VisDocVersions](Visio.visdocversions.md)**.
+Setting the **Version** property of a document tells Microsoft Visio which file format version to save the document in the next time the document is saved. The Visio type library declares constants for file format versions in **[VisDocVersions](Visio.visdocversions.md)**.
 
-Microsoft Visio can save a document in the following file format versions. Note that there are two constants,  **visVersion120** and **visVersion110**, that have identical values.
+Microsoft Visio can save a document in the following file format versions. Note that there are two constants, **visVersion120** and **visVersion110**, that have identical values.
 
 
 

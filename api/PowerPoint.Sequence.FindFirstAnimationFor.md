@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Sequence.FindFirstAnimationFor method (PowerPoint)
 
-Returns an  **[Effect](PowerPoint.Effect.md)** object that represents the first animation for a given shape.
+Returns an **[Effect](PowerPoint.Effect.md)** object that represents the first animation for a given shape.
 
 
 ## Syntax
 
 _expression_. `FindFirstAnimationFor`( `_Shape_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
 ## Parameters

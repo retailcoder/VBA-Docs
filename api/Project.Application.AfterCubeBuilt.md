@@ -18,7 +18,7 @@ Occurs when the OLAP cube-building process completes.
 
 _expression_. `AfterCubeBuilt`( `_CubeFileName_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,6 +31,6 @@ _expression_. `AfterCubeBuilt`( `_CubeFileName_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,9 +19,9 @@ Determines the background gradient color of the Microsoft Visio drawing window f
 
 ## Syntax
 
-_expression_. `DrawingBackgroundColorGradient`
+_expression_.**DrawingBackgroundColorGradient**
 
- _expression_ A variable that represents an [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ OLE_COLOR
 
 ## Remarks
 
-Valid values for an  **OLE_COLOR** property within Visio can be one of the following:
+Valid values for an **OLE_COLOR** property within Visio can be one of the following:
 
 
 
@@ -66,7 +66,8 @@ Setting the  **BackgroundColorGradient** property of the active window to a valu
 
 
 
- **Note**  You can specify two colors for the drawing background. If users' screen resolution is adequate, one of the colors will grade into the other from the top to the bottom of the screen. To be able to use this feature, users must set their monitors to display 32-bit color. The ability to set drawing background color programmatically for users running in high-contrast mode is restricted.
+> [!NOTE] 
+> You can specify two colors for the drawing background. If users' screen resolution is adequate, one of the colors will grade into the other from the top to the bottom of the screen. To be able to use this feature, users must set their monitors to display 32-bit color. The ability to set drawing background color programmatically for users running in high-contrast mode is restricted.
 
 
 ## Example

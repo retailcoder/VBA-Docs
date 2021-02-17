@@ -18,7 +18,7 @@ Gets the file build identification number (ID) of the specified project. The bui
 
 _expression_. `FileBuildID`( `_Name_`, `_UserID_`, `_DatabasePassWord_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -33,12 +33,12 @@ _expression_. `FileBuildID`( `_Name_`, `_UserID_`, `_DatabasePassWord_` )
 
 ## Remarks
 
-The  **FileBuildID** property can get the file build ID of a project file without actually opening it.
+The **FileBuildID** property can get the file build ID of a project file without actually opening it.
 
 
 ## Example
 
-The following example gets the build ID for the Test.mpp project. If the Project build that created the file is 15.0.4027.1000, the  **FileBuildID** value is "15,0,4027,1000".
+The following example gets the build ID for the Test.mpp project. If the Project build that created the file is 15.0.4027.1000, the **FileBuildID** value is "15,0,4027,1000".
 
 
 ```vb

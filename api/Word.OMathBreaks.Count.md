@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathBreaks.Count property (Word)
 
-Returns the number of items in the  **OMathBreaks** collection. Read-only **Long**.
+Returns the number of items in the **OMathBreaks** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[OMathBreaks](Word.OMathBreaks.md)' object.
+_expression_ A variable that represents a '[OMathBreaks](Word.OMathBreaks.md)' object.
 
 
 ## See also

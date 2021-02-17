@@ -21,12 +21,12 @@ Returns a  **[Dictionaries](Word.dictionaries.md)** object that represents the c
 
 _expression_. `CustomDictionaries`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Active custom dictionaries are marked with a check in the  **Custom Dictionaries** dialog box. For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+Active custom dictionaries are marked with a check in the **Custom Dictionaries** dialog box. For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

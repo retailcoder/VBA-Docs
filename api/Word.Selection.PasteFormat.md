@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # Selection.PasteFormat method (Word)
 
-Applies formatting copied with the  **CopyFormat** method to the selection.
+Applies formatting copied with the **CopyFormat** method to the selection.
 
 
 ## Syntax
 
 _expression_. `PasteFormat`
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-If a paragraph mark was selected when the  **CopyFormat** method was used, Word applies paragraph formatting in addition to character formatting.
+If a paragraph mark was selected when the **CopyFormat** method was used, Word applies paragraph formatting in addition to character formatting.
 
 
 ## Example

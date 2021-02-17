@@ -21,7 +21,7 @@ Selects the last cell in the row containing the active cell.
 
 _expression_. `SelectRowEnd`( `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `SelectRowEnd`( `_Extend_` )
 
 ## Remarks
 
-The  **SelectRowEnd** method is only available when the Gantt Chart, Task Sheet, Task Usage view, Resource Sheet, or Resource Usage view is the active view.
+The **SelectRowEnd** method is only available when the Gantt Chart, Task Sheet, Task Usage view, Resource Sheet, or Resource Usage view is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

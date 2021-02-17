@@ -21,12 +21,12 @@ Returns or sets the text in the specified object. Read/write  **String**.
 
 _expression_.**Text**
 
- _expression_ A variable that represents a '[TextEffectFormat](Word.TextEffectFormat.md)' object.
+_expression_ A variable that represents a '[TextEffectFormat](Word.TextEffectFormat.md)' object.
 
 
 ## Remarks
 
-The  **Text** property returns the plain, unformatted text of the selection or range. When you set this property, the text of the range or selection is replaced.
+The **Text** property returns the plain, unformatted text of the selection or range. When you set this property, the text of the range or selection is replaced.
 
 
 ## See also

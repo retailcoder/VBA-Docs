@@ -18,13 +18,13 @@ Sets or gets the user name responsible for providing progress updates for assign
 
 _expression_. `DefaultAssignmentOwner`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **DefaultAssignmentOwner** property affects all assignments for the resource. The property must be set to a valid Project Server user or **null**.
+The **DefaultAssignmentOwner** property affects all assignments for the resource. The property must be set to a valid Project Server user or **null**.
 
-The  **DefaultAssignmentOwner** property is available only in Project Professional.
+The **DefaultAssignmentOwner** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # UpBars.Fill property (PowerPoint)
 
-Returns a  **[FillFormat](PowerPoint.FillFormat.md)** object for the parent chart element that contains fill formatting properties for the chart element. Read-only.
+Returns a **[FillFormat](PowerPoint.FillFormat.md)** object for the parent chart element that contains fill formatting properties for the chart element. Read-only.
 
 
 ## Syntax
 
-_expression_. `Fill`
+_expression_.**Fill**
 
- _expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
+_expression_ A variable that represents an '[UpBars](PowerPoint.UpBars.md)' object.
 
 
 ## See also

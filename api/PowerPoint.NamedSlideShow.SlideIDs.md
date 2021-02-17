@@ -21,7 +21,7 @@ Returns an array of slide IDs for the specified named slide show. Read-only.
 
 _expression_. `SlideIDs`
 
- _expression_ A variable that represents a [NamedSlideShow](./PowerPoint.NamedSlideShow.md) object.
+_expression_ A variable that represents a [NamedSlideShow](PowerPoint.NamedSlideShow.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Variant
 
 ## Example
 
-This example adds the current slide in the active window to the custom slide show named "Marketing Short Version." Note that to save a modified version of the custom slide show, you must delete the original custom show and then add it again, using the same name. Also note that if you want to resize an array contained in a  **Variant** variable, you must explicitly declare the variable before attempting to resize its array.
+This example adds the current slide in the active window to the custom slide show named "Marketing Short Version." Note that to save a modified version of the custom slide show, you must delete the original custom show and then add it again, using the same name. Also note that if you want to resize an array contained in a **Variant** variable, you must explicitly declare the variable before attempting to resize its array.
 
 
 ```vb

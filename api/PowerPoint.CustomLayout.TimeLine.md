@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.TimeLine property (PowerPoint)
 
-Returns a  **[TimeLine](PowerPoint.TimeLine.md)** object that represents the animation timeline for the slide associated with the specified custom layout. Read-only.
+Returns a **[TimeLine](PowerPoint.TimeLine.md)** object that represents the animation timeline for the slide associated with the specified custom layout. Read-only.
 
 
 ## Syntax
 
 _expression_. `TimeLine`
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

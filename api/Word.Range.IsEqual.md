@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `IsEqual`( `_Range_` )
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ Required. A variable that represents a '[Range](Word.Range.md)' obj
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Range_|Required| **Range**|The range to compare with the  **Range** object defined by expression.|
+| _Range_|Required| **Range**|The range to compare with the **Range** object defined by expression.|
 
 ## Return value
 

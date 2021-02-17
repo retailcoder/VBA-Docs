@@ -21,13 +21,13 @@ Gets or sets how the year label displays in rates. Read/write  **Integer**.
 
 _expression_. `YearLabelDisplay`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **YearLabelDisplay** property corresponds to the **Years** list on the **Advanced** tab of the **Project Options** dialog box. For example, setting the **YearLabelDisplay** property to 1 sets the **Years** list to the second value in the list ("yr").
+The **YearLabelDisplay** property corresponds to the **Years** list on the **Advanced** tab of the **Project Options** dialog box. For example, setting the **YearLabelDisplay** property to 1 sets the **Years** list to the second value in the list ("yr").
 
-Values of the  **YearLabelDisplay** property can be 0 to 2.
+Values of the **YearLabelDisplay** property can be 0 to 2.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

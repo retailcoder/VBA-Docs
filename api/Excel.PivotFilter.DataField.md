@@ -7,26 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.PivotFilter.DataField
 ms.assetid: 33757882-60d0-2473-c5b9-fe8cc7fc8221
-ms.date: 06/08/2017
+ms.date: 05/07/2019
 localization_priority: Normal
 ---
 
 
 # PivotFilter.DataField property (Excel)
 
-This property is applicable only to non-OLAP PivotTables and provides the  **Value** field (PivotField in the Values area) being filtered by for a value filter. Read/write **PivotField**.
+This property is applicable only to non-OLAP PivotTables and provides the **Value** field (PivotField in the Values area) being filtered by for a value filter. Read/write **PivotField**.
 
 
 ## Syntax
 
-_expression_. `DataField`
+_expression_.**DataField**
 
-_expression_ A variable that represents a [PivotFilter](Excel.PivotFilter.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[PivotFilter](Excel.PivotFilter.md)** object.
 
 
-[PivotFilter Object](Excel.PivotFilter.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

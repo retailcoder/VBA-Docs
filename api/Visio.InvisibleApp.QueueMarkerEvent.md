@@ -19,14 +19,12 @@ Queues a  **MarkerEvent** event that fires after all other queued events.
 
 ## Syntax
 
-_expression_. `QueueMarkerEvent`( `_ContextString_` , `_lpi4Ret_` )
+_expression_.**QueueMarkerEvent** (_ContextString_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -48,7 +46,7 @@ A client program can use either the sequence number or the string to correlate  
 
 ## Example
 
-Paste this example code into the  **ThisDocument** object and then run the **UseMarker** procedure. The output will be displayed in the Microsoft Visual Basic for Applications (VBA) Immediate window.
+Paste this example code into the  **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** object and then run the **UseMarker** procedure. The output will be displayed in the Microsoft Visual Basic for Applications (VBA) Immediate window.
 
 
 ```vb

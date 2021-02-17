@@ -21,7 +21,7 @@ Creates a shape that has the geometric characteristics of the specified  **[Free
 
 _expression_. `ConvertToShape`
 
- _expression_ A variable that represents a [FreeformBuilder](./PowerPoint.FreeformBuilder.md) object.
+_expression_ A variable that represents a [FreeformBuilder](PowerPoint.FreeformBuilder.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Shape
 
 ## Remarks
 
-You must apply the [AddNodes](PowerPoint.FreeformBuilder.AddNodes.md)method to a  **FreeformBuilder** object at least once before you use the **ConvertToShape** method.
+You must apply the [AddNodes](PowerPoint.FreeformBuilder.AddNodes.md)method to a **FreeformBuilder** object at least once before you use the **ConvertToShape** method.
 
 
 ## Example

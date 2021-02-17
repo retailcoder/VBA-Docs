@@ -21,12 +21,12 @@ Returns or sets the format code for the object. Read/write  **String**.
 
 _expression_.**NumberFormat**
 
- _expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
+_expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
 
 
 ## Remarks
 
-The format code is the same string as the  **Format Codes** option in the **Format Cells** dialog box. The **Format** function uses different format code strings than do the **NumberFormat** and **[NumberFormatLocal](Word.TickLabels.NumberFormatLocal.md)** properties.
+The format code is the same string as the **Format Codes** option in the **Format Cells** dialog box. The **Format** function uses different format code strings than do the **NumberFormat** and **[NumberFormatLocal](Word.TickLabels.NumberFormatLocal.md)** properties.
 
 
 ## See also

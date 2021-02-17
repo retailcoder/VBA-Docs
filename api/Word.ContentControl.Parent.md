@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ContentControl.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **ContentControl** object.
+Returns an **Object** that represents the parent object of the specified **ContentControl** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[ContentControl](Word.ContentControl.md)' object.
+_expression_ A variable that represents a '[ContentControl](Word.ContentControl.md)' object.
 
 
 ## See also

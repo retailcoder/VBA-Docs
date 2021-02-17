@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # GroupCriteria.Parent property (Project)
 
-Gets the parent of the  **GroupCriteria** object. Read-only **Group**.
+Gets the parent of the **GroupCriteria** object. Read-only **Group**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'GroupCriteria' object.
+_expression_ A variable that represents a 'GroupCriteria' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

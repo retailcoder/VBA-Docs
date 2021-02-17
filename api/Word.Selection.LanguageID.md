@@ -21,12 +21,12 @@ Returns or sets the language for the specified object. Read/write .
 
 _expression_. `LanguageID`
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-For a custom dictionary, you must first set the  **LanguageSpecific** property to **True** before specifying the **LanguageID** property. Custom dictionaries that are language-specific check only text that is formatted for that language.
+For a custom dictionary, you must first set the **LanguageSpecific** property to **True** before specifying the **LanguageID** property. Custom dictionaries that are language-specific check only text that is formatted for that language.
 
 Some of the constants listed above may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
 

@@ -21,12 +21,12 @@ Pastes a picture from the Clipboard as the marker on the selected series.
 
 _expression_.**Paste**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Remarks
 
-You can use this method on column, bar, line, or radar charts, and it sets the  **[MarkerStyle](Word.Series.MarkerStyle.md)** property to **xlMarkerStylePicture**.
+You can use this method on column, bar, line, or radar charts, and it sets the **[MarkerStyle](Word.Series.MarkerStyle.md)** property to **xlMarkerStylePicture**.
 
 
 ## Example

@@ -21,7 +21,7 @@ Returns the preset extrusion format. Read-only.
 
 _expression_. `PresetThreeDFormat`
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -64,7 +64,7 @@ The value of the  **PresetThreeDFormat** property can be one of these **MsoPrese
 
 ## Example
 
-This example sets the extrusion format for shape one on  _myDocument_ to 3D Style 12 if the shape initially has a custom extrusion format.
+This example sets the extrusion format for shape one on _myDocument_ to 3D Style 12 if the shape initially has a custom extrusion format.
 
 
 ```vb

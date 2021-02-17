@@ -18,17 +18,18 @@ Gets the identification number of the local outline code. Read-only  **PjCustomF
 
 _expression_. `FieldID`
 
- _expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
+_expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
 
 
 ## Remarks
 
-To get the ID of an enterprise text custom field, use the  **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.
+To get the ID of an enterprise text custom field, use the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method.
 
 
- **Note**  In Office Project 2007 and later versions, the enterprise constants in  **PjCustomField** do not apply. Project Server can have an unlimited number of enterprise text custom fields that use a hierarchical lookup table. For usability and performance reasons, the number of enterprise custom fields should be limited to a few hundred or less.
+> [!NOTE] 
+> In Office Project 2007 and later versions, the enterprise constants in  **PjCustomField** do not apply. Project Server can have an unlimited number of enterprise text custom fields that use a hierarchical lookup table. For usability and performance reasons, the number of enterprise custom fields should be limited to a few hundred or less.
 
-You can access project outline codes and custom fields through the project summary task, which is  `Task(0)`. For a task outline code, the  **FieldID** can be one of the following **[PjCustomField](Project.PjCustomField.md)** constants:
+You can access project outline codes and custom fields through the project summary task, which is  `Task(0)`. For a task outline code, the **FieldID** can be one of the following **[PjCustomField](Project.PjCustomField.md)** constants:
 
 
 ||
@@ -44,7 +45,7 @@ You can access project outline codes and custom fields through the project summa
 |**pjCustomTaskOutlineCode9**|
 |**pjCustomTaskOutlineCode10**|
 
-For a resource outline code, the  **FieldID** can be one of the following **PjCustomField** constants:
+For a resource outline code, the **FieldID** can be one of the following **PjCustomField** constants:
 
 
 ||

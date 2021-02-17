@@ -3,7 +3,7 @@ title: Execute method (ADO connection)
 ROBOTS: INDEX
 ms.prod: access
 ms.assetid: af190bd9-7167-df59-29ca-a9a86c4957fd
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -49,7 +49,7 @@ Returns a [Recordset](https://msdn.microsoft.com/library/0f963bf8-f066-dc8a-b754
 
 ## Remarks
 
-Using the **Execute** method on a [Connection](https://msdn.microsoft.com/library/c16023aa-0321-2513-ee71-255d6ffba03d%28Office.15%29.aspx) object executes whatever query you pass to the method in the _CommandText_ argument on the specified connection. If the _CommandText_ argument specifies a row-returning query, any results that the execution generates are stored in a new **Recordset** object. If the command is not intended to return results (for example, an SQL UPDATE query) the provider returns **Nothing** as long as the option **adExecuteNoRecords** is specified; otherwise Execute returns a closed **Recordset**.
+Using the **Execute** method on a [Connection](https://msdn.microsoft.com/library/c16023aa-0321-2513-ee71-255d6ffba03d%28Office.15%29.aspx) object executes whatever query you pass to the method in the _CommandText_ argument on the specified connection. If the _CommandText_ argument specifies a row-returning query, any results that the execution generates are stored in a new **Recordset** object. If the command is not intended to return results (for example, an SQL UPDATE query) the provider returns **Nothing** as long as the option **adExecuteNoRecords** is specified; otherwise, Execute returns a closed **Recordset**.
 
 The returned **Recordset** object is always a read-only, forward-only cursor. If you need a **Recordset** object with more functionality, first create a **Recordset** object with the desired property settings, then use the **Recordset** object's [Open](https://msdn.microsoft.com/library/87ef19a4-28e1-dec7-ed33-4ae500b9c460%28Office.15%29.aspx) method to execute the query and return the desired cursor type.
 
@@ -66,8 +66,8 @@ An [ExecuteComplete](https://msdn.microsoft.com/library/47317d97-e373-32f4-9438-
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

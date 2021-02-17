@@ -19,16 +19,16 @@ Returns or sets a  **Long** that specifies the vertical offset of the texture fr
 
 ## Syntax
 
-_expression_. `TextureOffsetY`
+_expression_.**TextureOffsetY**
 
- _expression_ An expression that returns a '[FillFormat](Word.FillFormat.md)' object.
+ _expression_ An expression that returns a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
 The position of the origin is determined by the setting of the [TextureAlignment](Word.FillFormat.TextureAlignment.md) property.
 
-The setting of the  **TextureOffsetY** property corresponds to the setting of the **Offset Y** box under **Tiling Options** on the **Fill** pane of the **Format Picture** dialog box in the Microsoft Word user interface (under **Drawing Tools**, on the  **Format** tab, expand the **Shape Styles** group.)
+The setting of the **TextureOffsetY** property corresponds to the setting of the **Offset Y** box under **Tiling Options** on the **Fill** pane of the **Format Picture** dialog box in the Microsoft Word user interface (under **Drawing Tools**, on the **Format** tab, expand the **Shape Styles** group.)
 
 
 ## See also

@@ -21,12 +21,12 @@ Returns or sets the distance (in points) between the header and the top of the p
 
 _expression_. `HeaderDistance`
 
- _expression_ A variable that represents a '[PageSetup](Word.PageSetup.md)' object.
+_expression_ A variable that represents a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Example
 
-This example displays the distance between the header and the top of the page. The  **[PointsToInches](Word.Global.PointsToInches.md)** method is used to convert points to inches.
+This example displays the distance between the header and the top of the page. The **[PointsToInches](Word.Global.PointsToInches.md)** method is used to convert points to inches.
 
 
 ```vb

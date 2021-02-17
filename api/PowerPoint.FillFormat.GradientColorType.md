@@ -19,9 +19,9 @@ Returns the gradient color type for the specified fill. Read-only.
 
 ## Syntax
 
-_expression_. `GradientColorType`
+_expression_.**GradientColorType**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -45,7 +45,7 @@ The value returned by the  **GradientColorType** property can be one of these **
 
 ## Example
 
-This example changes the fill for all shapes in  _myDocument_ that have a two-color gradient fill to a preset gradient fill.
+This example changes the fill for all shapes in _myDocument_ that have a two-color gradient fill to a preset gradient fill.
 
 
 ```vb

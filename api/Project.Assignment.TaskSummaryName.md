@@ -18,7 +18,7 @@ Gets the name of the summary task for the task in the assignment. Read-only  **S
 
 _expression_. `ResourceUniqueID`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
@@ -26,6 +26,7 @@ _expression_. `ResourceUniqueID`
 
 
 
- **Note**  Assignments should not be made on summary tasks.
+> [!NOTE] 
+> Assignments should not be made on summary tasks.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.FilePageSetup method (Project)
 
-Displays the  **Page Setup** dialog box. Equivalent to clicking **Page Setup** on the **File** menu.
+Displays the **Page Setup** dialog box. Equivalent to clicking **Page Setup** on the **File** menu.
 
 
 ## Syntax
 
 _expression_. `FilePageSetup`( `_Name_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

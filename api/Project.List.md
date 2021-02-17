@@ -18,7 +18,7 @@ Represents a collection of strings or numbers that contain field identification 
 
  **Using the List Object**
 
-Use a property such as the  **[ReportList](./Project.Project.ReportList.md)** property to return a **List** object. The following example displays a list of all the reports available in the active project.
+Use a property such as the **[ReportList](./Project.Project.ReportList.md)** property to return a **List** object. The following example displays a list of all the reports available in the active project.
 
 
 
@@ -27,11 +27,11 @@ Use a property such as the  **[ReportList](./Project.Project.ReportList.md)** pr
 Dim Items As Integer, ReportNames As String 
  
 For Items = 1 To ActiveProject.ReportList.Count 
- ReportNames = ActiveProject.ReportList(Items) &amp; _ 
- ListSeparator &amp; " " &amp; ReportNames 
+ ReportNames = ActiveProject.ReportList(Items) & _ 
+ ListSeparator & " " & ReportNames 
 Next Items 
  
-MsgBox Left$(ReportNames, Len(ReportNames) - Len(ListSeparator &amp; " "))
+MsgBox Left$(ReportNames, Len(ReportNames) - Len(ListSeparator & " "))
 ```
 
 

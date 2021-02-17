@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # NavigationFolder.DisplayName property (Outlook)
 
-Returns a  **String** representing the display name of the **[NavigationFolder](Outlook.NavigationFolder.md)** object. Read-only.
+Returns a **String** representing the display name of the **[NavigationFolder](Outlook.NavigationFolder.md)** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `DisplayName`
+_expression_.**DisplayName**
 
 _expression_ A variable that represents a [NavigationFolder](Outlook.NavigationFolder.md) object.
 

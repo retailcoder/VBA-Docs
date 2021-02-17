@@ -19,9 +19,9 @@ Determines the user initials associated with the Microsoft Visio file. Read/writ
 
 ## Syntax
 
-_expression_. `UserInitials`
+_expression_.**UserInitials**
 
- _expression_ A variable that represents an [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value

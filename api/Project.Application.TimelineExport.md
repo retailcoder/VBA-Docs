@@ -21,7 +21,7 @@ Copies an image of the active Timeline view to the Clipboard, for pasting into o
 
 _expression_. `TimelineExport`( `_SelectionOnly_`, `_ExportWidth_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,25 +41,26 @@ _expression_. `TimelineExport`( `_SelectionOnly_`, `_ExportWidth_` )
 ## Remarks
 
 
- **Note**  The Timeline view must be selected.
+> [!NOTE] 
+> The Timeline view must be selected.
 
 Selecting a task in the Gantt chart does not select the same task on the timeline. To select items for export, click or control-click them on the timeline.
 
-The  **TimelineExport** method can duplicate commands in the **Copy Timeline** drop-down menu on the **Format** tab on the ribbon, when the Timeline pane is selected. If the ExportWidth argument is specified, the size of the copied image is based on the value of ExportWidth, not on the size of the Project window or the Timeline pane.
+The **TimelineExport** method can duplicate commands in the **Copy Timeline** drop-down menu on the **Format** tab on the ribbon, when the Timeline pane is selected. If the ExportWidth argument is specified, the size of the copied image is based on the value of ExportWidth, not on the size of the Project window or the Timeline pane.
 
 Values of ExportWidth are limited to a range of 100 to 10000. Values outside that range are changed to 100 or 10000. The actual width of the image is less than ExportWidth. For example, if the value of ExportWidth is 10000, the actual width is 9957 pixels.
 
 
 ## Example
 
-The following statement corresponds to the  **Full Size** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is the width of the Timeline pane.
+The following statement corresponds to the **Full Size** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is the width of the Timeline pane.
 
 
 ```vb
 TimelineExport
 ```
 
-The following statement corresponds to the  **For Presentation** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is 891 pixels.
+The following statement corresponds to the **For Presentation** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is 891 pixels.
 
 
 
@@ -68,7 +69,7 @@ The following statement corresponds to the  **For Presentation** command in the 
 TimelineExport ExportWidth:=916
 ```
 
-The following statement corresponds to the  **For Email** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is 554 pixels.
+The following statement corresponds to the **For Email** command in the **Copy Timeline** drop-down menu. The actual width of the exported image is 554 pixels.
 
 
 

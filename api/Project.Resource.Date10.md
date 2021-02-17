@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.Date10 property (Project)
 
-Gets or sets the value of the  **Date10** custom field for the resource. Read/write **Variant**.
+Gets or sets the value of the **Date10** custom field for the resource. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Date10`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

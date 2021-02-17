@@ -19,14 +19,12 @@ Returns the index of the row in the Character section of a ShapeSheet window tha
 
 ## Syntax
 
-_expression_. `CharPropsRow`( `_BiasLorR_` )
+_expression_.**CharPropsRow** (_BiasLorR_)
 
- _expression_ An expression that returns a [Characters](./Visio.Characters.md) object.
+ _expression_ An expression that returns a **[Characters](Visio.Characters.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -47,7 +45,7 @@ If the  **Characters** object represents an insertion point rather than a sequen
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visBiasLetVisioChoose**|0 |
 | **visBiasLeft**|1 |

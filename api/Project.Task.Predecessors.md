@@ -18,11 +18,11 @@ Gets or sets a list of the identification numbers of a task's predecessors. Read
 
 _expression_. `Predecessors`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-If the predecessors of the specified task have identification numbers of 2 and 10, and the list separator character is the comma, the  **Predecessors** property returns "2,10".
+If the predecessors of the specified task have identification numbers of 2 and 10, and the list separator character is the comma, the **Predecessors** property returns "2,10".
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

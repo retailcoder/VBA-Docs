@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.SectionProperties property (PowerPoint)
 
-Returns a  **SectionProperties** object. Read-only.
+Returns a **SectionProperties** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `SectionProperties`
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Page.DropManyU method (Visio)
 
-Creates one or more new  **Shape** objects on a page, in a master, or in a group. It returns an array of the IDs of the **Shape** objects it produces.
+Creates one or more new **Shape** objects on a page, in a master, or in a group. It returns an array of the IDs of the **Shape** objects it produces.
 
 
 ## Syntax
 
 _expression_. `DropManyU`( `_ObjectsToInstance()_` , `_xyArray()_` , `_IDArray()_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -60,15 +60,15 @@ Passing integers (master indices) or strings (master names) to  **DropManyU** is
     
 
 
-The  _xyArray()_ parameter should be a one-dimensional array of 2 _m_ doubles with lower bound _xylb_ and upper bound _xyub_ , where _m_ >= _n_ . The values in the array tell the **DropManyU** method where to position the **Shape** objects it produces. _ObjectsToInstance()_( _vlb_ + ( _i_ - 1)) is dropped at ( _xy_ [( _i_ - 1)2 + _xylb_ ], _xy_ [(i - 1)2 + _xylb_ + 1]) for 1 <= _i_ <= _n_ .
+The  _xyArray()_ parameter should be a one-dimensional array of 2 _m_ doubles with lower bound _xylb_ and upper bound _xyub_ , where _m_ >= _n_. The values in the array tell the **DropManyU** method where to position the **Shape** objects it produces. _ObjectsToInstance()_( _vlb_ + ( _i_ - 1)) is dropped at ( _xy_ [( _i_ - 1)2 + _xylb_ ], _xy_ [(i - 1)2 + _xylb_ + 1]) for 1 <= _i_ <= _n_.
 
 Note that  _m_ > _n_ is allowed. For _n_ < _i_ <= _m_ , the _i_ 'th thing instanced is the same thing as the _n_ 'th thing instanced. Thus to make _m_ >= 1 instances of the same thing, you can pass an _ObjectsToInstance()_ array with one entry and an _m_ entry _xyArray()_ array.
 
-If the entity being instanced is a master, the pin of the new  **Shape** object is positioned at the given _xy_ . Otherwise, the center of the **Shape** objects is positioned at the given _xy_ .
+If the entity being instanced is a master, the pin of the new **Shape** object is positioned at the given _xy_. Otherwise, the center of the **Shape** objects is positioned at the given _xy_.
 
 The  **Integer** value returned by the **DropManyU** method is the number of _xy_ entries in _xyArray_ that the **DropManyU** method successfully processed. If all entries were processed successfully, _m_ is returned. If some entries are successfully processed prior to an error occurring, the produced **Shape** objects are not deleted and this raises an exception but still returns a positive integer.
 
-Presuming all  _m_ _xy_ entries are processed correctly, the number of new **Shape** objects produced by the **DropManyU** method is usually equal to _m_ . In rare cases (for example, if a **Selection** object gets instanced), more than _m_**Shape** objects may be produced. The caller can determine the number of produced **Shape** objects by comparing the number of shapes in the target object before and after the **DropManyU** method is executed. The caller can assert the new **Shape** objects are those with the highest indices in the target object's **Shapes** collection.
+Presuming all  _m_ _xy_ entries are processed correctly, the number of new **Shape** objects produced by the **DropManyU** method is usually equal to _m_. In rare cases (for example, if a **Selection** object gets instanced), more than _m_**Shape** objects may be produced. The caller can determine the number of produced **Shape** objects by comparing the number of shapes in the target object before and after the **DropManyU** method is executed. The caller can assert the new **Shape** objects are those with the highest indices in the target object's **Shapes** collection.
 
 If the  **DropManyU** method returns zero (0), _IDArray()_ returns null (**Nothing**). Otherwise, it returns a one-dimensional array of _m_ integers indexed from 0 to _m_ - 1. _IDArray()_ is an out parameter that is allocated by the **DropManyU** method and ownership is passed to the program that called the **DropManyU** method. The caller should eventually perform the **SafeArrayDestroy** procedure on the returned array. (Microsoft Visual Basic and Microsoft Visual Basic for Applications take care of this for you.)
 
@@ -77,7 +77,8 @@ If  _IDArray()_ returns non-null (not **Nothing**), _IDArray_( _i_ - 1), 1 <= _i
 
 
 
- **Note**  Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
+> [!NOTE] 
+> Beginning with Microsoft Visio 2000, you can use both local and universal names to refer to Visio shapes, masters, documents, pages, rows, add-ons, cells, hyperlinks, styles, fonts, master shortcuts, UI objects, and layers. When a user names a shape, for example, the user is specifying a local name. Beginning with Microsoft Office Visio 2003, the ShapeSheet spreadsheet displays only universal names in cell formulas and values. (In prior versions, universal names were not visible in the user interface.) 
 
 As a developer, you can use universal names in a program when you don't want to change a name each time a solution is localized. Use the  **DropMany** method to drop more than one shape when you are using local names to identify the shapes. Use the **DropManyU** method to drop more than one shape when you are using universal names to identify the shapes.
 

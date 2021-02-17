@@ -18,12 +18,12 @@ Deletes the object.
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
+_expression_ A variable that represents a '[LegendKey](PowerPoint.LegendKey.md)' object.
 
 
 ## Remarks
 
-Deleting a  **LegendKey** object deletes the entire series.
+Deleting a **LegendKey** object deletes the entire series.
 
 
 ## See also

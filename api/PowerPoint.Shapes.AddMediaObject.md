@@ -14,14 +14,15 @@ localization_priority: Normal
 
 # Shapes.AddMediaObject method (PowerPoint)
 
-Deprecated in PowerPoint 2013. See [Shapes.AddMediaObject2 method (PowerPoint)](PowerPoint.Shapes.AddMediaObject2.md). Creates a media object. Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the new media object.
+> [!IMPORTANT]
+> Deprecated in PowerPoint 2013. See [Shapes.AddMediaObject2 method (PowerPoint)](PowerPoint.Shapes.AddMediaObject2.md). Creates a media object. Returns a **[Shape](PowerPoint.Shape.md)** object that represents the new media object.
 
 
 ## Syntax
 
 _expression_. `AddMediaObject`( `_FileName_`, `_Left_`, `_Top_`, `_Width_`, `_Height_` )
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Parameters
@@ -43,7 +44,7 @@ Shape
 
 ## Example
 
-This example adds the movie named "Clock.avi" to  _myDocument_.
+This example adds the movie named "Clock.avi" to _myDocument_.
 
 
 ```vb

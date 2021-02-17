@@ -21,14 +21,14 @@ Gets the latest date that a resource is available for work on the project, as sp
 
 _expression_. `AvailableTo`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-You can set availability information on the  **General** tab of the **Resource Information** dialog box in the **Resource Availability** grid. The current row is the row in which the date range specified by the **Available From** and **Available To** columns includes the current date.
+You can set availability information on the **General** tab of the **Resource Information** dialog box in the **Resource Availability** grid. The current row is the row in which the date range specified by the **Available From** and **Available To** columns includes the current date.
 
-The  **AvailableTo** property does not return any meaningful information for material resources.
+The **AvailableTo** property does not return any meaningful information for material resources.
 
 
 ## Example

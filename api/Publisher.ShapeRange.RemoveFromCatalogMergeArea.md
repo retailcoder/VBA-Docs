@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.RemoveFromCatalogMergeArea
 ms.assetid: 732cd277-9c2e-0a01-c2b5-8d016637884a
-ms.date: 06/08/2017
+ms.date: 06/14/2019
 localization_priority: Normal
 ---
 
@@ -21,20 +21,19 @@ Removes a shape from the specified page's catalog merge area. Removed shapes are
 
 _expression_.**RemoveFromCatalogMergeArea**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Remarks
 
-Use the  **[AddToCatalogMergeArea](Publisher.Shape.AddToCatalogMergeArea.md)** method of the **[Shape](Publisher.Shape.md)** or **[ShapeRange](Publisher.ShapeRange.md)** objects to add shapes to a catalog merge area.
+Use the **[AddToCatalogMergeArea](Publisher.ShapeRange.AddToCatalogMergeArea.md)** method of the **[Shape](Publisher.Shape.md)** or **ShapeRange** objects to add shapes to a catalog merge area.
 
-Use the  **[RemoveCatalogMergeArea](Publisher.Shape.RemoveCatalogMergeArea.md)** method of the **[Shape](Publisher.Shape.md)** object to remove the catalog merge area from a publication page, but leave the shapes it contains.
+Use the **[RemoveCatalogMergeArea](Publisher.Shape.RemoveCatalogMergeArea.md)** method of the **Shape** object to remove the catalog merge area from a publication page, but leave the shapes that it contains.
 
 
 ## Example
 
 The following example tests whether any page of the specified publication contains a catalog merge area. If any page does, all the shapes are removed from the catalog merge area and deleted, and the catalog merge area is then removed from the publication.
-
 
 ```vb
 Sub DeleteCatalogMergeAreaAndAllShapesWithin() 

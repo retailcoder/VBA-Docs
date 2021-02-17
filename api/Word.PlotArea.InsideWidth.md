@@ -19,14 +19,14 @@ Returns or sets the inside width, in [points](../language/glossary/vbe-glossary.
 
 ## Syntax
 
-_expression_. `InsideWidth`
+_expression_.**InsideWidth**
 
- _expression_ A variable that represents a '[PlotArea](Word.PlotArea.md)' object.
+_expression_ A variable that represents a '[PlotArea](Word.PlotArea.md)' object.
 
 
 ## Remarks
 
-The plot area used for this measurement does not include the axis labels. The  **[Width](Word.PlotArea.Width.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
+The plot area used for this measurement does not include the axis labels. The **[Width](Word.PlotArea.Width.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
 
 
 ## Example

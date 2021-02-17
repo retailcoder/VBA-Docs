@@ -23,7 +23,7 @@ _expression_ A variable that represents a **[ChartGroup](PowerPoint.ChartGroup.m
 
 ## Return value
 
-A  **[SeriesCollection](PowerPoint.SeriesCollection.md)** object that represents all the series in the chart group.
+A **[SeriesCollection](PowerPoint.SeriesCollection.md)** object that represents all the series in the chart group.
 
 
 ## Example
@@ -31,7 +31,8 @@ A  **[SeriesCollection](PowerPoint.SeriesCollection.md)** object that represents
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example turns on data labels for the first series of the first chart in the active document.
 

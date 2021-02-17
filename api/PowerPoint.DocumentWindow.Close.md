@@ -19,9 +19,9 @@ Closes the specified document window.
 
 ## Syntax
 
-_expression_. `Close`
+_expression_.**Close**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Remarks

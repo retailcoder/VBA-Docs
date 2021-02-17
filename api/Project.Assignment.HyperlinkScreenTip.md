@@ -18,11 +18,11 @@ Gets or sets a ScreenTip for the hyperlink. Read/write  **String**.
 
 _expression_. `HyperlinkScreenTip`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-The  **HyperlinkScreenTip** property is limited to 255 characters.
+The **HyperlinkScreenTip** property is limited to 255 characters.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

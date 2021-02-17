@@ -17,14 +17,14 @@ Set to  **True** to display the **Value From Cells** range field in all the char
 
 ## Syntax
 
-_expression_. `ShowRange`
+_expression_.**ShowRange**
 
- _expression_ A variable that represents a [DataLabels](./Word.DataLabels.md) object.
+_expression_ A variable that represents a [DataLabels](./Word.DataLabels.md) object.
 
 
 ## Example
 
-The following example displays the  **Value From Cells** range field for all the data labels of the first series in the first chart.
+The following example displays the **Value From Cells** range field for all the data labels of the first series in the first chart.
 
 
 ```vb

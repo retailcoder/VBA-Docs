@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.TextFrame property (PowerPoint)
 
-Returns a  **[TextFrame](PowerPoint.TextFrame.md)** object that contains the alignment and anchoring properties for the specified shape or master text style.
+Returns a **[TextFrame](PowerPoint.TextFrame.md)** object that contains the alignment and anchoring properties for the specified shape or master text style.
 
 
 ## Syntax
 
-_expression_. `TextFrame`
+_expression_.**TextFrame**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -38,7 +38,7 @@ Use the  **HasTextFrame** property to determine whether a shape contains a text 
 
 ## Example
 
-This example adds a rectangle to  _myDocument_, adds text to the rectangle, and sets the top margin for the text frame.
+This example adds a rectangle to _myDocument_, adds text to the rectangle, and sets the top margin for the text frame.
 
 
 ```vb

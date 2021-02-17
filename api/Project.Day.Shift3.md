@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Day.Shift3 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the third work shift in a day. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the third work shift in a day. Read-only **Shift**.
 
 
 ## Syntax
 
 _expression_. `Shift3`
 
- _expression_ A variable that represents a [Day](./Project.Day.md) object.
+_expression_ A variable that represents a [Day](./Project.Day.md) object.
 
 
 ## Example

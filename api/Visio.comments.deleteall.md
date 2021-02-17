@@ -14,27 +14,15 @@ Deletes all the comments from the active document.
 
 ## Syntax
 
-_expression_. `DeleteAll`
+_expression_.**DeleteAll**
 
- _expression_ A variable that represents a 'Comments' object.
+_expression_ A variable that represents a **[Comments](Visio.Comments.md)** object.
 
-
-## Parameters
-
-
-
-|Name|Required/Optional|Data type|Description|
-|:-----|:-----|:-----|:-----|
-|||||
 
 ## Return value
 
- **VOID**
+**VOID**
 
 
-## See also
-
-
-[Comments Collection](Visio.comments.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

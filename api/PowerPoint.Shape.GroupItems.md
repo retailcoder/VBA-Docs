@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.GroupItems property (PowerPoint)
 
-Returns a  **[GroupShapes](PowerPoint.GroupShapes.md)** object that represents the individual shapes in the specified group. Use the **Item** method of the **GroupShapes** object to return a single shape from the group. Read-only.
+Returns a **[GroupShapes](PowerPoint.GroupShapes.md)** object that represents the individual shapes in the specified group. Use the **Item** method of the **GroupShapes** object to return a single shape from the group. Read-only.
 
 
 ## Syntax
 
 _expression_. `GroupItems`
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ GroupShapes
 
 ## Example
 
-This example adds three triangles to  _myDocument_, groups them, sets a color for the entire group, and then changes the color for the second triangle only.
+This example adds three triangles to _myDocument_, groups them, sets a color for the entire group, and then changes the color for the second triangle only.
 
 
 ```vb

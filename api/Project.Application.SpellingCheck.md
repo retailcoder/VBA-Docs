@@ -21,7 +21,7 @@ Checks the spelling in the active project.
 
 _expression_. `SpellingCheck`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `SpellingCheck`
 
 ## Remarks
 
-The  **SpellingCheck** method is equivalent to the **Spelling** command on the **Project** tab of the Ribbon.
+The **SpellingCheck** method is equivalent to the **Spelling** command on the **Project** tab of the Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

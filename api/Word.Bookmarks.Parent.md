@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Bookmarks.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Bookmarks** collection.
+Returns an **Object** that represents the parent object of the specified **Bookmarks** collection.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an '[Bookmarks](Word.bookmarks.md)' collection.
+_expression_ A variable that represents an '[Bookmarks](Word.bookmarks.md)' collection.
 
 
 ## See also

@@ -18,12 +18,12 @@ Gets or sets the name of the view that appears when you start Project. Read/writ
 
 _expression_. `DefaultView`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **DefaultView** property can be the name of a custom view or one of the following built-in views:
+The **DefaultView** property can be the name of a custom view or one of the following built-in views:
 
 
 |||

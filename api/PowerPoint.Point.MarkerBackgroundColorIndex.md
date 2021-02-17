@@ -16,9 +16,9 @@ Returns or sets the marker background color as an index into the current color p
 
 ## Syntax
 
-_expression_. `MarkerBackgroundColorIndex`
+_expression_.**MarkerBackgroundColorIndex**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## Remarks
@@ -31,7 +31,8 @@ The property applies only to line, scatter, and radar charts.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the marker background and foreground colors for the second point in series one for the first chart in the active document.
 

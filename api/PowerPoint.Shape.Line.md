@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.Line property (PowerPoint)
 
-Returns a  **[LineFormat](PowerPoint.LineFormat.md)** object that contains line formatting properties for the specified shape. (For a line, the **LineFormat** object represents the line itself; for a shape with a border, the **LineFormat** object represents the border.) Read-only.
+Returns a **[LineFormat](PowerPoint.LineFormat.md)** object that contains line formatting properties for the specified shape. (For a line, the **LineFormat** object represents the line itself; for a shape with a border, the **LineFormat** object represents the border.) Read-only.
 
 
 ## Syntax
 
 _expression_.**Line**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ LineFormat
 
 ## Example
 
-This example adds a blue dashed line to  _myDocument_.
+This example adds a blue dashed line to _myDocument_.
 
 
 ```vb

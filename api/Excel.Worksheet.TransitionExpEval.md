@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Worksheet.TransitionExpEval
 ms.assetid: a92d8efb-5f19-4b41-11b2-a20b3ad5bf1d
-ms.date: 06/08/2017
+ms.date: 05/30/2019
 localization_priority: Normal
 ---
 
@@ -19,24 +19,19 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `TransitionExpEval`
+_expression_.**TransitionExpEval**
 
 _expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** object.
 
 
 ## Example
 
-This example causes Microsoft Excel to use Lotus 1-2-3 expression evaluation rules for Sheet1.
-
+This example causes Excel to use Lotus 1-2-3 expression evaluation rules for Sheet1.
 
 ```vb
 Worksheets("Sheet1").TransitionExpEval = True
 ```
 
 
-## See also
-
-
-[Worksheet Object](Excel.Worksheet.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

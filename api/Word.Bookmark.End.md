@@ -19,14 +19,14 @@ Returns or sets the ending character position of a selection, range, or bookmark
 
 ## Syntax
 
-_expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents a '[Bookmark](Word.Bookmark.md)' object.
+_expression_ A variable that represents a **[Bookmark](Word.Bookmark.md)** object.
 
 
 ## Remarks
 
-If this property is set to a value smaller than the  **[Start](Word.Bookmark.Start.md)** property, the **Start** property is set to the same value (that is, the **Start** and **End** properties are equal).
+If this property is set to a value smaller than the **[Start](Word.Bookmark.Start.md)** property, the **Start** property is set to the same value (that is, the **Start** and **End** properties are equal).
 
 This property returns the ending character position relative to the beginning of the story. The main document story (wdMainTextStory) begins with character position 0 (zero). You can change the size of a bookmark by setting this property.
 

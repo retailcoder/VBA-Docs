@@ -19,9 +19,9 @@ Sets or returns a value that represents the pattern applied to the specified fil
 
 ## Syntax
 
-_expression_. `Pattern`
+_expression_.**Pattern**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ Use the  **[BackColor](PowerPoint.FillFormat.BackColor.md)** and **[ForeColor](P
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ and sets its fill pattern to match that of the shape named "rect1." The new rectangle has the same pattern as rect1, but not necessarily the same colors. The colors used in the pattern are set with the **BackColor** and **ForeColor** properties.
+This example adds a rectangle to _myDocument_ and sets its fill pattern to match that of the shape named "rect1." The new rectangle has the same pattern as rect1, but not necessarily the same colors. The colors used in the pattern are set with the **BackColor** and **ForeColor** properties.
 
 
 ```vb

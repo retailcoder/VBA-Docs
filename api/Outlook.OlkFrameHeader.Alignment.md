@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # OlkFrameHeader.Alignment property (Outlook)
 
-Returns or sets an  **[olAlignment](Outlook.OlAlignment.md)** constant that indicates the position of a control relative to its caption. Read/write.
+Returns or sets an **[olAlignment](Outlook.OlAlignment.md)** constant that indicates the position of a control relative to its caption. Read/write.
 
 
 ## Syntax
 
-_expression_. `Alignment`
+_expression_.**Alignment**
 
 _expression_ A variable that represents an [OlkFrameHeader](Outlook.OlkFrameHeader.md) object.
 
 
 ## Remarks
 
-The default value is  **olAlignmentLeft**.
+The default value is **olAlignmentLeft**.
 
 
 ## See also

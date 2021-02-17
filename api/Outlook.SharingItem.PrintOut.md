@@ -19,14 +19,14 @@ Prints the  **[SharingItem](Outlook.SharingItem.md)** using all default settings
 
 ## Syntax
 
-_expression_. `PrintOut`
+_expression_.**PrintOut**
 
 _expression_ A variable that represents a [MailItem](Outlook.MailItem.md) object.
 
 
 ## Remarks
 
-The  **PrintOut** method is the only Outlook method that can be used for printing.
+The **PrintOut** method is the only Outlook method that can be used for printing.
 
 
 ## See also

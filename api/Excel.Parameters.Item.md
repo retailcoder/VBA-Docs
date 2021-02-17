@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Parameters.Item
 ms.assetid: 66db6a11-b0e3-4417-0589-b0085f67c77a
-ms.date: 06/08/2017
+ms.date: 05/03/2019
 localization_priority: Normal
 ---
 
@@ -21,12 +21,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [Parameters](Excel.Parameters.md) object.
+_expression_ A variable that represents a **[Parameters](Excel.Parameters.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,18 +32,17 @@ _expression_ A variable that represents a [Parameters](Excel.Parameters.md) obje
 
 ## Return value
 
-A  **[Parameter](Excel.Parameter.md)** object contained by the collection.
+A **[Parameter](Excel.Parameter.md)** object contained by the collection.
 
 
 ## Remarks
 
-The text name of the object is the value of the  **[Name](Excel.Parameter.Name.md)** and **[Value](Excel.Parameter.Value.md)** properties.
+The text name of the object is the value of the **[Name](Excel.Parameter.Name.md)** and **[Value](Excel.Parameter.Value.md)** properties.
 
 
 ## Example
 
 This example modifies the parameter prompt string.
-
 
 ```vb
 With Worksheets(1).QueryTables(1).Parameters.Item(1) 
@@ -54,9 +51,6 @@ End With
 ```
 
 
-## See also
 
-
-[Parameters Object](Excel.Parameters.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

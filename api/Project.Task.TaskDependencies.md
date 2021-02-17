@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Task.TaskDependencies property (Project)
 
-Gets a  **[TaskDependencies](Project.TaskDependency.md)** collection of dependent (predecessor and successor) tasks. Read-only **TaskDependencies**.
+Gets a **[TaskDependencies](Project.TaskDependency.md)** collection of dependent (predecessor and successor) tasks. Read-only **TaskDependencies**.
 
 
 ## Syntax
 
 _expression_. `TaskDependencies`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks

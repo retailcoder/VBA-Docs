@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Borders.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Borders** collection.
+Returns an **Object** that represents the parent object of the specified **Borders** collection.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Borders](Word.borders.md)' collection.
+_expression_ A variable that represents a '[Borders](Word.borders.md)' collection.
 
 
 ## See also

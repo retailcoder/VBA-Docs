@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.PrintableRect.Parent
 ms.assetid: 4c275f11-022a-3ad8-f9f4-0296c5e4521b
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
@@ -21,6 +21,7 @@ Returns an object that represents the parent object of the specified object. Rea
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a  **PrintableRect** object.
+_expression_ A variable that represents a **[PrintableRect](Publisher.PrintableRect.md)** object.
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

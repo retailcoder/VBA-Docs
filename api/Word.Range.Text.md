@@ -21,12 +21,12 @@ Returns or sets the text in the specified range or selection. Read/write  **Stri
 
 _expression_.**Text**
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-The  **Text** property returns the plain, unformatted text of the range. When you set this property, the existing text in the range is replaced.
+The **Text** property returns the plain, unformatted text of the range. When you set this property, the existing text in the range is replaced.
 
 
 ## Example

@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `ShowGrammaticalErrors`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-To view grammatical errors in your document, you must set the  **[CheckGrammarAsYouType](Word.Options.CheckGrammarAsYouType.md)** property to **True**.
+To view grammatical errors in your document, you must set the **[CheckGrammarAsYouType](Word.Options.CheckGrammarAsYouType.md)** property to **True**.
 
 
 ## Example

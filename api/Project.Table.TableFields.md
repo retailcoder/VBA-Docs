@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Table.TableFields property (Project)
 
-Gets a  **[TableFields](Project.TableField.md)** collection representing the fields in the table. Read-only **TableFields**.
+Gets a **[TableFields](Project.TableField.md)** collection representing the fields in the table. Read-only **TableFields**.
 
 
 ## Syntax
 
 _expression_. `TableFields`
 
- _expression_ A variable that represents a [Table](./Project.Table.md) object.
+_expression_ A variable that represents a [Table](./Project.Table.md) object.
 
 
 ## Example

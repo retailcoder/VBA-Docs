@@ -21,7 +21,7 @@ Returns a unique name that identifies the file converter. Read-only  **String**.
 
 _expression_. `ClassName`
 
- _expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](PowerPoint.FileConverter.md)' object.
 
 
 ## Example
@@ -29,7 +29,8 @@ _expression_. `ClassName`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 This example displays the class name and format name of the first converter in the FileConverters collection.
 

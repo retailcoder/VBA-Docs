@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `BackgroundSave`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example allows users to continue working in a document while Word is saving
 Options.BackgroundSave = True
 ```
 
-This example returns the current status of the  **Allow background saves** option on the **Save** tab in the **Options** dialog box.
+This example returns the current status of the **Allow background saves** option on the **Save** tab in the **Options** dialog box.
 
 
 

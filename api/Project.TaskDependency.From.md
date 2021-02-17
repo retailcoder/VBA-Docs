@@ -14,19 +14,19 @@ localization_priority: Normal
 
 # TaskDependency.From property (Project)
 
-Gets a  **[Task](Project.Task.md)** object that is the predecessor in a task dependency. Read-only **Task**.
+Gets a **[Task](Project.Task.md)** object that is the predecessor in a task dependency. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_. `From`
 
- _expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
+_expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
 
 
 ## Example
 
-In the following example, the  **From** property appears to get both a **Task** object and a **Long** value. However, because **UniqueID** is the default property of a **Task** object, the second assignment using the **From** property is equivalent to the statement, `taskId = ActiveProject.Tasks(2).TaskDependencies(i).From.UniqueID`.
+In the following example, the **From** property appears to get both a **Task** object and a **Long** value. However, because **UniqueID** is the default property of a **Task** object, the second assignment using the **From** property is equivalent to the statement, `taskId = ActiveProject.Tasks(2).TaskDependencies(i).From.UniqueID`.
 
 
 ```vb

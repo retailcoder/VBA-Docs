@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.TextFrame.NextLinkedTextFrame
 ms.assetid: 5ba08ab5-8515-4efe-59a3-79a11f6a7c4e
-ms.date: 06/08/2017
+ms.date: 06/15/2019
 localization_priority: Normal
 ---
 
 
 # TextFrame.NextLinkedTextFrame property (Publisher)
 
-Returns or sets a  **[TextFrame](Publisher.TextFrame.md)** object representing the text frame to which text flows from the specified text frame. Read/write.
+Returns or sets a **TextFrame** object representing the text frame to which text flows from the specified text frame. Read/write.
 
 
 ## Syntax
 
 _expression_.**NextLinkedTextFrame**
 
- _expression_ A variable that represents a  **TextFrame** object.
+_expression_ A variable that represents a **[TextFrame](Publisher.TextFrame.md)** object.
 
 
 ## Return value
@@ -37,7 +37,6 @@ If the specified text frame is not part of a chain of linked frames or is the la
 ## Example
 
 The following example returns the next linked text frame of shape three on page one of the active publication and sets its font to Times New Roman.
-
 
 ```vb
 Dim txtFrame As TextFrame 

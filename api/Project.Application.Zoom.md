@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Zoom method (Project)
 
-Displays the  **Zoom** dialog box, which prompts the user to change the timescale range of the active view.
+Displays the **Zoom** dialog box, which prompts the user to change the timescale range of the active view.
 
 
 ## Syntax
 
-_expression_. `Zoom`
+_expression_.**Zoom**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `DisplayPasteOptions`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
 
-This example enables the  **Paste Options** button if the option has been disabled.
+This example enables the **Paste Options** button if the option has been disabled.
 
 
 ```vb

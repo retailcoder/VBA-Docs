@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Shape** object.
+Returns an **Object** that represents the parent object of the specified **Shape** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## See also

@@ -21,7 +21,7 @@ Customizes headings in the Calendar.
 
 _expression_. `CalendarWeekHeadingsEx`( `_MonthTitle_`, `_WeekTitle_`, `_DayTitle_`, `_ShowPreview_`, `_DaysPerWeek_`, `_ShowTitleBeginningEndDates_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -44,6 +44,6 @@ _expression_. `CalendarWeekHeadingsEx`( `_MonthTitle_`, `_WeekTitle_`, `_DayTitl
 
 ## Remarks
 
-Using the  **CalendarWeekHeadingsEx** method without specifying any arguments displays the **Timescale** dialog box with the **Week Headings** tab selected.
+Using the **CalendarWeekHeadingsEx** method without specifying any arguments displays the **Timescale** dialog box with the **Week Headings** tab selected.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

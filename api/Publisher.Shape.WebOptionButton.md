@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.WebOptionButton
 ms.assetid: 0c43387c-0cb6-5d6f-68cb-d1883ce17243
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
 
 # Shape.WebOptionButton property (Publisher)
 
-Returns the  **[WebOptionButton](Publisher.WebOptionButton.md)** object associated with the specified shape.
+Returns the **[WebOptionButton](Publisher.WebOptionButton.md)** object associated with the specified shape.
 
 
 ## Syntax
 
 _expression_.**WebOptionButton**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Return value
@@ -31,8 +31,7 @@ WebOptionButton
 
 ## Example
 
-This example creates a new Web option button and specifies that its default state is selected.
-
+This example creates a new web option button and specifies that its default state is selected.
 
 ```vb
 Dim shpNew As Shape 

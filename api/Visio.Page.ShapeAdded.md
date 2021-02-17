@@ -19,9 +19,9 @@ Occurs after one or more shapes are added to a document.
 
 ## Syntax
 
-Private Sub  _expression_ _'ShapeAdded'(**_ByVal Shape As [IVSHAPE]_**)
+_expression_.**ShapeAdded** (_Shape_)
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,13 @@ To determine if a  **ShapeAdded** event was triggered by a new shape or group of
 
 If you are using Microsoft Visual Basic or Visual Basic for Applications (VBA), the syntax in this topic describes a common, efficient way to handle events.
 
-If you want to create your own  **Event** objects, use the **Add** or **AddAdvise** method. To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. To create an **Event** object that receives notification, use the **AddAdvise** method. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
+If you want to create your own **Event** objects, use the **[Add](visio.eventlist.add.md)** or **[AddAdvise](visio.eventlist.addadvise.md)** method. 
+
+To create an **Event** object that runs an add-on, use the **Add** method as it applies to the **EventList** collection. 
+
+To create an **Event** object that receives notification, use the **AddAdvise** method. 
+
+To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md).
 
 
 ## Example
@@ -51,7 +57,7 @@ This VBA example shows how to count shapes added to a drawing that are based on 
 
 The  **DocumentSaved** event handler runs when the active document is saved. The handler initializes an integer variable, _intNumberOfSquares_ , which is used to store the count.
 
-The  **ShapeAdded** event handler runs each time a shape is added to the drawing page, whether the shape is dragged from a stencil, drawn with a drawing tool, or pasted from the Clipboard. The handler checks the **Master** property of the new shape and, if the shape is based on the **Square** master, increments _intNumberOfSquares_ .
+The  **ShapeAdded** event handler runs each time a shape is added to the drawing page, whether the shape is dragged from a stencil, drawn with a drawing tool, or pasted from the Clipboard. The handler checks the **Master** property of the new shape, and if the shape is based on the **Square** master, increments _intNumberOfSquares_.
 
 
 

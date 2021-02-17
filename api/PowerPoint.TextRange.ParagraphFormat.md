@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.ParagraphFormat property (PowerPoint)
 
-Returns a  **[ParagraphFormat](PowerPoint.ParagraphFormat.md)** object that represents paragraph formatting for the specified text. Read-only.
+Returns a **[ParagraphFormat](PowerPoint.ParagraphFormat.md)** object that represents paragraph formatting for the specified text. Read-only.
 
 
 ## Syntax
 
 _expression_. `ParagraphFormat`
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Return value

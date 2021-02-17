@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.CustomerData property (PowerPoint)
 
-Returns a  **[CustomerData](PowerPoint.CustomerData.md)** object.
+Returns a **[CustomerData](PowerPoint.CustomerData.md)** object.
 
 
 ## Syntax
 
 _expression_. `CustomerData`
 
- _expression_ An expression that returns a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+ _expression_ An expression that returns a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

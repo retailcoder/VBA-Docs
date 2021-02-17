@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # ViewCombination.Delete method (Project)
 
-Deletes the  **ViewCombination** object from a **ViewsCombination** collection.
+Deletes the **ViewCombination** object from a **ViewsCombination** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
+_expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # Month.Parent property (Project)
 
-Gets the parent of the  **Month** object. Read-only **Year**.
+Gets the parent of the **Month** object. Read-only **Year**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [Month](./Project.Month.md) object.
+_expression_ A variable that represents a [Month](./Project.Month.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

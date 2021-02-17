@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.DCount
 ms.assetid: 02b489ef-dd7c-4f10-2ba4-972314a45eb4
-ms.date: 06/08/2017
+ms.date: 05/22/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Counts the cells that contain numbers in a column of a list or database that mat
 
 ## Syntax
 
-_expression_. `DCount`( `_Arg1_` , `_Arg2_` , `_Arg3_` )
+_expression_.**DCount** (_Arg1_, _Arg2_, _Arg3_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,28 +34,25 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
+Because the equal sign is used to indicate a formula when you type text or a value in a cell, Microsoft Excel evaluates what you type; however, this may cause unexpected filter results. To indicate an equality comparison operator for either text or a value, type the criteria as a string expression in the appropriate cell in the criteria range:
 
+> ="=_entry_", where _entry_ is the text or value that you want to find. 
 
-
-- Because the equal sign is used to indicate a formula when you type text or a value in a cell, Microsoft Excel evaluates what you type; however, this may cause unexpected filter results. To indicate an equality comparison operator for either text or a value, type the criteria as a string expression in the appropriate cell in the criteria range: **=''=**_entry_**''**Where  _entry_ is the text or value you want to find. For example:
+For example:
     
-
-|**What you type in the cell**|**What Excel evaluates and displays**|
+|What you type in the cell|What Excel evaluates and displays|
 |:-----|:-----|
 |="=Davolio"|=Davolio|
 |="=3000"|=3000|
 
-- When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.
+When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.
     
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,7 +21,7 @@ Called by the Undo Manager to tell an undo unit to perform its action.
 
 _expression_. `Do`( `_pMgr_` )
 
- _expression_ A variable that represents an 'IVBUndoUnit' object.
+_expression_ A variable that represents an **[IVBUndoUnit](visio.ivbundounit.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `Do`( `_pMgr_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _pMgr_|Required| **[IVBUNDOMANAGER]**|A pointer to an  **IVBUndoManager** interface.|
+| _pMgr_|Required| **[IVBUNDOMANAGER]**|A pointer to an **IVBUndoManager** interface.|
 
 ## Return value
 

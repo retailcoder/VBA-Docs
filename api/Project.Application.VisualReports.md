@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.VisualReports method (Project)
 
-Opens the  **Visual Reports - Create Report** dialog box to the specified tab.
+Opens the **Visual Reports - Create Report** dialog box to the specified tab.
 
 
 ## Syntax
 
 _expression_. `VisualReports`( `_PjVisualReportsTab_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `VisualReports`( `_PjVisualReportsTab_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _PjVisualReportsTab_|Optional|**Long**|Specifies which tab to display. Can be one of the  **[PjVisualReportsTab](Project.PjVisualReportsTab.md)** constants. The default is **pjTabAll**.|
+| _PjVisualReportsTab_|Optional|**Long**|Specifies which tab to display. Can be one of the **[PjVisualReportsTab](Project.PjVisualReportsTab.md)** constants. The default is **pjTabAll**.|
 
 ## Return value
 
@@ -39,11 +39,12 @@ _expression_. `VisualReports`( `_PjVisualReportsTab_` )
 
 ## Remarks
 
-The  **VisualReports** method returns **False** if successful.
+The **VisualReports** method returns **False** if successful.
 
-The  **VisualReports** method corresponds to the **Visual Reports** command on the **REPORT** tab of the ribbon, which accesses the reports that use Excel and Visio templates. For the newer Office Art types of reports, see the **[ReportsDialog](Project.application.reportsdialog.md)** method.
+The **VisualReports** method corresponds to the **Visual Reports** command on the **REPORT** tab of the ribbon, which accesses the reports that use Excel and Visio templates. For the newer Office Art types of reports, see the **[ReportsDialog](Project.application.reportsdialog.md)** method.
 
 
- **Note**  The  **[Reports](Project.Application.Reports.md)** method, for the older style of reports that require connection with a printer, is deprecated in Project.
+> [!NOTE] 
+> The **[Reports](Project.Application.Reports.md)** method, for the older style of reports that require connection with a printer, is deprecated in Project.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `FormattingShowClear`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example
 
-This example disables display of the  **Clear Formatting** button in the list of styles.
+This example disables display of the **Clear Formatting** button in the list of styles.
 
 
 ```vb

@@ -21,12 +21,12 @@ Sorts paragraphs or table rows within the selection in descending alphanumeric o
 
 _expression_. `SortDescending`
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-This method offers a simplified form of sorting intended for mail-merge data sources that contain columns of data. For most sorting tasks, use the  **[Sort](Word.Selection.Sort.md)** method.
+This method offers a simplified form of sorting intended for mail-merge data sources that contain columns of data. For most sorting tasks, use the **[Sort](Word.Selection.Sort.md)** method.
 
 
 ## See also

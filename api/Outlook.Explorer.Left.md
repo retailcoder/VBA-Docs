@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Left property (Outlook)
 
-Returns or sets a  **Long** specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen. Read/write.
+Returns or sets a **Long** specifying the position (in pixels) of the left vertical edge of an explorer window from the edge of the screen. Read/write.
 
 
 ## Syntax
 
 _expression_.**Left**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## See also

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Path property (PowerPoint)
 
-Returns a  **String** that represents the path to the specified **[Application](PowerPoint.Application.md)** object. Read-only.
+Returns a **String** that represents the path to the specified **[Application](PowerPoint.Application.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Path**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

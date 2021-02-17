@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Period.Shift2 property (Project)
 
-Gets a  **[Shift](Project.Shift.md)** object representing the second work shift in a time period. Read-only **Shift**.
+Gets a **[Shift](Project.Shift.md)** object representing the second work shift in a time period. Read-only **Shift**.
 
 
 ## Syntax
 
 _expression_. `Shift2`
 
- _expression_ A variable that represents a [Period](./Project.Period.md) object.
+_expression_ A variable that represents a [Period](./Project.Period.md) object.
 
 
 ## Example

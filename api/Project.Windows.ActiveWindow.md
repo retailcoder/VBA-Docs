@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Windows.ActiveWindow property (Project)
 
-Gets a  **[Window](Project.Window.md)** object that represents the active window. Read-only **Window**. .
+Gets a **[Window](Project.Window.md)** object that represents the active window. Read-only **Window**. .
 
 
 ## Syntax
 
-_expression_. `ActiveWindow`
+_expression_.**ActiveWindow**
 
- _expression_ A variable that represents a 'Windows' object.
+_expression_ A variable that represents a 'Windows' object.
 
 
 ## See also

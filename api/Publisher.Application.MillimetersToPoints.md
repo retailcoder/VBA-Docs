@@ -7,30 +7,28 @@ ms.prod: publisher
 api_name:
 - Publisher.Application.MillimetersToPoints
 ms.assetid: 40ec9abd-cc1e-9f44-3312-d6689b4822e4
-ms.date: 06/08/2017
+ms.date: 06/05/2019
 localization_priority: Normal
 ---
 
 
 # Application.MillimetersToPoints method (Publisher)
 
-Converts a measurement from millimeters to points (1 mm = 2.835 points). Returns the converted measurement as a  **Single**.
+Converts a measurement from millimeters to [points](../language/glossary/vbe-glossary.md#point) (1 mm = 2.835 points). Returns the converted measurement as a **Single**.
 
 
 ## Syntax
 
-_expression_.**MillimetersToPoints**(**_Value_**)
+_expression_.**MillimetersToPoints** (_Value_)
 
- _expression_ A variable that represents an  **Application** object.
+_expression_ A variable that represents an **[Application](Publisher.Application.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Value|Required| **Single**|The millimeter value to be converted to points.|
+|_Value_|Required| **Single**|The millimeter value to be converted to points.|
 
 ## Return value
 
@@ -39,13 +37,12 @@ Single
 
 ## Remarks
 
-Use the  **[PointsToMillimeters](Publisher.Application.PointsToMillimeters.md)** method to convert measurements in points to millimeters.
+Use the **[PointsToMillimeters](Publisher.Application.PointsToMillimeters.md)** method to convert measurements in points to millimeters.
 
 
 ## Example
 
 This example converts measurements in millimeters entered by the user to measurements in points.
-
 
 ```vb
 Dim strInput As String 
@@ -71,9 +68,6 @@ Loop
 ```
 
 
-## See also
 
-
- [Application Object](Publisher.Application.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

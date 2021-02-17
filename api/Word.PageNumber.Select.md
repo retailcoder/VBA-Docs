@@ -21,12 +21,12 @@ Selects the specified page number.
 
 _expression_.**Select**
 
-_expression_ Required. A variable that represents a '[PageNumber](Word.PageNumber.md)' object.
+_expression_ Required. A variable that represents a **[PageNumber](Word.PageNumber.md)** object.
 
 
 ## Remarks
 
-After using this method, use the  **Selection** property to work with the selected items. For more information, see [Working with the Selection Object](../word/Concepts/Working-with-Word/working-with-the-selection-object.md).
+After using this method, use the **Selection** property to work with the selected items. For more information, see [Working with the Selection Object](../word/Concepts/Working-with-Word/working-with-the-selection-object.md).
 
 
 ## See also

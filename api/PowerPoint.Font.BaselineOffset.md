@@ -21,7 +21,7 @@ Returns or sets the baseline offset for the specified superscript or subscript c
 
 _expression_. `BaselineOffset`
 
- _expression_ A variable that represents a [Font](./PowerPoint.Font.md) object.
+_expression_ A variable that represents a [Font](PowerPoint.Font.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Single
 
 ## Remarks
 
-The  **BaselineOffset** property value be a floating-point value from - 1 through 1. A value of - 1 represents an offset of - 100 percent, and a value of 1 represents an offset of 100 percent.
+The **BaselineOffset** property value be a floating-point value from - 1 through 1. A value of - 1 represents an offset of - 100 percent, and a value of 1 represents an offset of 100 percent.
 
 Setting the  **BaselineOffset** property to a negative value automatically sets the **Subscript** property to **True** and the **Superscript** property to **False**.
 

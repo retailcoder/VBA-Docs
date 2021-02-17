@@ -19,9 +19,9 @@ Returns the  **Windows** collection for a Microsoft Visio instance or window. Re
 
 ## Syntax
 
-_expression_. `Windows`
+_expression_.**Windows**
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Windows
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVWindow.Windows**

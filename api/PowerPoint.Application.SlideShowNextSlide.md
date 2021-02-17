@@ -21,7 +21,7 @@ Occurs immediately before the transition to the next slide. For the first slide,
 
 _expression_. `SlideShowNextSlide`(_Wn_)
 
- _expression_ An expression that returns a [Application](./PowerPoint.Application.md) object.
+ _expression_ An expression that returns an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -81,7 +81,8 @@ End Sub
 This example sets a global counter variable to zero. Then it calculates the number of shapes on the slide following this event, determines which shapes have animation, and fills a global array with the animation order and the number of each shape.
 
 
- **Note**  The array created in this example is also used in the  **SlideShowNextBuild** event example.
+> [!NOTE] 
+> The array created in this example is also used in the  **SlideShowNextBuild** event example.
 
 
 

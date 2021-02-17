@@ -16,9 +16,9 @@ Returns the data label that is associated with the trendline. Read-only  **[Data
 
 ## Syntax
 
-_expression_. `DataLabel`
+_expression_.**DataLabel**
 
- _expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](PowerPoint.Trendline.md)' object.
 
 
 ## Remarks

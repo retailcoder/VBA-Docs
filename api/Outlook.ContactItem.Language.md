@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # ContactItem.Language property (Outlook)
 
-Returns or sets a  **String** that represents the language in which the contact writes messages. Read/write.
+Returns or sets a **String** that represents the language in which the contact writes messages. Read/write.
 
 
 ## Syntax
 
-_expression_. `Language`
+_expression_.**Language**
 
 _expression_ A variable that represents a [ContactItem](Outlook.ContactItem.md) object.
 

@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # SharingItem.Size property (Outlook)
 
-Returns a  **Long** indicating the size (in bytes) of the **[SharingItem](Outlook.SharingItem.md)**. Read-only.
+Returns a **Long** indicating the size (in bytes) of the **[SharingItem](Outlook.SharingItem.md)**. Read-only.
 
 
 ## Syntax
 
-_expression_. `Size`
+_expression_.**Size**
 
 _expression_ A variable that represents a [SharingItem](Outlook.SharingItem.md) object.
 

@@ -19,14 +19,14 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `AutoText`
+_expression_.**AutoText**
 
- _expression_ A variable that represents a '[DataLabels](Word.DataLabels.md)' object.
+_expression_ A variable that represents a **[DataLabels](Word.DataLabels.md)** object.
 
 
 ## Remarks
 
-Setting the value of this property sets the  **[AutoText](Word.DataLabel.AutoText.md)** property of all **[DataLabel](Word.DataLabel.md)** objects contained by the collection. This property returns **True** only when the **AutoText** property for all **DataLabel** objects contained in the collection is set to **True**; otherwise, this property returns **False**.
+Setting the value of this property sets the **[AutoText](Word.DataLabel.AutoText.md)** property of all **[DataLabel](Word.DataLabel.md)** objects contained by the collection. This property returns **True** only when the **AutoText** property for all **DataLabel** objects contained in the collection is set to **True**; otherwise, this property returns **False**.
 
 
 ## Example

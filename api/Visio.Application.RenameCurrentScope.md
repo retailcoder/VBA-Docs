@@ -19,14 +19,12 @@ Renames the top-level open undo scope.
 
 ## Syntax
 
-_expression_. `RenameCurrentScope`( `_bstrScopeName_` )
+_expression_.**RenameCurrentScope** (_bstrScopeName_)
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,6 +37,6 @@ Nothing
 
 ## Remarks
 
-The new name assigned to the undo scope appears on the  **Undo** menu as the item name. If there is no open undo scope, the **RenameCurrentScope** method raises an exception.
+The new name assigned to the undo scope appears on the **Undo** menu as the item name. If there is no open undo scope, the **RenameCurrentScope** method raises an exception.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

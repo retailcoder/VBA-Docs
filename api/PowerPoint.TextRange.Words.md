@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.Words method (PowerPoint)
 
-Returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents the specified subset of text words.
+Returns a **[TextRange](PowerPoint.TextRange.md)** object that represents the specified subset of text words.
 
 
 ## Syntax
 
 _expression_. `Words`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

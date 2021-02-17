@@ -19,9 +19,9 @@ Returns the cell from which this cell inherited its value. Read-only.
 
 ## Syntax
 
-_expression_. `InheritedValueSource`
+_expression_.**InheritedValueSource**
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
 ## Return value

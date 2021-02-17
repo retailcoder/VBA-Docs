@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.WebPageOptions.BackgroundSoundLoopCount
 ms.assetid: 34d34a04-5fdb-3d43-9140-fcf10b420efd
-ms.date: 06/08/2017
+ms.date: 06/18/2019
 localization_priority: Normal
 ---
 
 
 # WebPageOptions.BackgroundSoundLoopCount property (Publisher)
 
-Returns a  **Long** value that specifies the number of times the background sound attached to a Web page is played when the page is loaded in a Web browser. Read-only.
+Returns a **Long** value that specifies the number of times the background sound attached to a webpage is played when the page is loaded in a web browser. Read-only.
 
 
 ## Syntax
 
 _expression_.**BackgroundSoundLoopCount**
 
- _expression_ A variable that represents a  **WebPageOptions** object.
+_expression_ A variable that represents a **[WebPageOptions](Publisher.WebPageOptions.md)** object.
 
 
 ## Return value
@@ -31,15 +31,14 @@ Long
 
 ## Remarks
 
-The  **[SetBackgroundSoundRepeat](Publisher.WebPageOptions.SetBackgroundSoundRepeat.md)** method can be used to specify the number of times the background sound file is played when the page is loaded. If using the **SetBackgroundSoundRepeat** method to specify the number of times the background file is played, the **BackgroundSoundLoopCount** property will be equal to that specified value. Note that valid values range from 1 to 999, inclusive. Attempting to set this value outside this range will result in a run-time error.
+The **[SetBackgroundSoundRepeat](Publisher.WebPageOptions.SetBackgroundSoundRepeat.md)** method can be used to specify the number of times that the background sound file is played when the page is loaded. If using the **SetBackgroundSoundRepeat** method to specify the number of times that the background file is played, the **BackgroundSoundLoopCount** property will be equal to that specified value. Note that valid values range from 1 to 999, inclusive. Attempting to set this value outside this range will result in a run-time error.
 
-Until the  **SetBackgroundSoundRepeat** method is used to change the number of times the background sound file is played, **BackgroundSoundLoopCount** is 1.
+Until the **SetBackgroundSoundRepeat** method is used to change the number of times that the background sound file is played, **BackgroundSoundLoopCount** is 1.
 
 
 ## Example
 
-The following example sets the background sound for page four of the active Web publication to a .wav file on the local computer. If  **BackgroundSoundLoopCount** is less than three, the **SetBackgroundSoundRepeat** method is used to specify that the background sound be repeated three times. The **BackgroundSoundLoopCount** property will now be three.
-
+The following example sets the background sound for page four of the active web publication to a .wav file on the local computer. If **BackgroundSoundLoopCount** is less than three, the **SetBackgroundSoundRepeat** method is used to specify that the background sound be repeated three times. The **BackgroundSoundLoopCount** property will now be three.
 
 ```vb
 Dim theWPO As WebPageOptions 

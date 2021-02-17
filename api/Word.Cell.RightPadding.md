@@ -21,12 +21,12 @@ Returns or sets the amount of space (in points) to add to the right of the conte
 
 _expression_.**RightPadding**
 
- _expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Remarks
 
-The setting of the  **RightPadding** property for a single cell overrides the setting of the **RightPadding** property for the entire table.
+The setting of the **RightPadding** property for a single cell overrides the setting of the **RightPadding** property for the entire table.
 
 
 ## Example

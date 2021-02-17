@@ -19,14 +19,14 @@ Returns the data label that is associated with the trendline. Read-only  **[Data
 
 ## Syntax
 
-_expression_. `DataLabel`
+_expression_.**DataLabel**
 
- _expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
 
 
 ## Remarks
 
-To enable data labels for a trendline, you need to set the  **[DisplayEquation](Word.Trendline.DisplayEquation.md)** property or the **[DisplayRSquared](Word.Trendline.DisplayRSquared.md)** property to **True**.
+To enable data labels for a trendline, you need to set the **[DisplayEquation](Word.Trendline.DisplayEquation.md)** property or the **[DisplayRSquared](Word.Trendline.DisplayRSquared.md)** property to **True**.
 
 
 ## See also

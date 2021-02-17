@@ -26,7 +26,7 @@ _expression_ A variable that represents an '[Axis](PowerPoint.Axis.md)' object.
 
 ## Remarks
 
-An axis title is represented by an  **[AxisTitle](PowerPoint.AxisTitle.md)** object.
+An axis title is represented by an **[AxisTitle](PowerPoint.AxisTitle.md)** object.
 
 
 ## Example
@@ -34,7 +34,8 @@ An axis title is represented by an  **[AxisTitle](PowerPoint.AxisTitle.md)** obj
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example adds an axis label to the category axis for the first chart in the active document.
 

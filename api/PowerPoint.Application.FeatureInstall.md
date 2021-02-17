@@ -21,7 +21,7 @@ Returns or sets how Microsoft PowerPoint handles calls to methods and properties
 
 _expression_. `FeatureInstall`
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value
@@ -34,7 +34,8 @@ MsoFeatureInstall
 You can use the  **msoFeatureInstallOnDemandWithUI** constant to prevent users from believing that the application is not responding while a feature is being installed. Use the **msoFeatureInstallNone** constant with error trapping routines to exclude end-user feature installation.
 
 
- **Note**  If you refer to an uninstalled presentation design template in a string, a run-time error is generated. The template is not installed automatically regardless of your  **FeatureInstall** property setting. To use the **[ApplyTemplate](PowerPoint.Presentation.ApplyTemplate.md)** method for a template that is not currently installed, you first must install the additional design templates. To do so, install the Additional Design Templates for PowerPoint by running the Microsoft Office installation program (available by clicking the **Add/Remove Programs** icon in Windows Control Panel).
+> [!NOTE] 
+> If you refer to an uninstalled presentation design template in a string, a run-time error is generated. The template is not installed automatically regardless of your  **FeatureInstall** property setting. To use the **[ApplyTemplate](PowerPoint.Presentation.ApplyTemplate.md)** method for a template that is not currently installed, you first must install the additional design templates. To do so, install the Additional Design Templates for PowerPoint by running the Microsoft Office installation program (available by clicking the **Add/Remove Programs** icon in Windows Control Panel).
 
 The value of the  **FeatureInstall** property can be one of these **MsoFeatureInstall** constants.
 

@@ -21,7 +21,7 @@ Shows or hides slippage for the specified baseline on Gantt bars of the active v
 
 _expression_. `GanttBarStyleSlippage`( `_Baseline_`, `_Show_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,6 +40,6 @@ _expression_. `GanttBarStyleSlippage`( `_Baseline_`, `_Show_` )
 
 ## Remarks
 
-On the Ribbon, the  **GanttBarStyleSlippage** method corresponds to the **Slippage** drop-down list in the **Bar Styles** group on the **Format** tab for **Gantt Chart Tools**.
+On the Ribbon, the **GanttBarStyleSlippage** method corresponds to the **Slippage** drop-down list in the **Bar Styles** group on the **Format** tab for **Gantt Chart Tools**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # Designs.Add method (PowerPoint)
 
-Returns a  **[Design](PowerPoint.Design.md)** object that represents a new slide design.
+Returns a **[Design](PowerPoint.Design.md)** object that represents a new slide design.
 
 
 ## Syntax
 
-_expression_.**Add**( `_designName_`, `_Index_` )
+_expression_.**Add** (_designName_, _Index_)
 
-_expression_ A variable that represents a [Designs](./PowerPoint.Designs.md) object.
+_expression_ A variable that represents a [Designs](PowerPoint.Designs.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

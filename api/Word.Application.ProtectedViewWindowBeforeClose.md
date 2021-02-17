@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ProtectedViewWindowBeforeClose event (Word)
 
-Occurs immediately before a protected view window or a document in a protected view window closes.
+Occurs immediately before a Protected View window or a document in a Protected View window closes.
 
 
 ## Syntax
 
 _expression_. `ProtectedViewWindowBeforeClose`( `_PvWindow_` , `_CloseReason_` , `_Cancel_` )
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -30,16 +30,17 @@ _expression_. `ProtectedViewWindowBeforeClose`( `_PvWindow_` , `_CloseReason_` ,
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _PvWindow_|Required| **ProtectedViewWindow**|The protected view window that is closed.|
-| _CloseReason_|Required| **[INT]**|A constant in the [WdProtectedViewCloseReason](Word.WdProtectedViewCloseReason.md) enumeration that specifies the reason the protected view window is closed.|
+| _PvWindow_|Required| **ProtectedViewWindow**|The Protected View window that is closed.|
+| _CloseReason_|Required| **[INT]**|A constant in the [WdProtectedViewCloseReason](Word.WdProtectedViewCloseReason.md) enumeration that specifies the reason the Protected View window is closed.|
 | _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, the window does not close when the procedure is finished.
- **Note**  If the  **ProtectedViewWindowsBeforeClose** event is called as part of the [ProtectedView.Edit](Word.ProtectedViewWindow.Edit.md) method, setting _Cancel_ to **True** produces no action.
+> [!NOTE] 
+> If the **ProtectedViewWindowsBeforeClose** event is called as part of the [ProtectedView.Edit](Word.ProtectedViewWindow.Edit.md) method, setting _Cancel_ to **True** produces no action.
 
 |
 
 ## Example
 
-The following code example prompts the user for a yes or no response before closing any document. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work. For more information about how to do this, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+The following code example prompts the user for a yes or no response before closing any document. This code must be placed in a class module, and an instance of the class must be correctly initialized to see this example work. For more information about how to do this, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 The following code example assumes that you have declared an application variable called "App" in your general declarations and have set the variable equal to the Word Application object.
 

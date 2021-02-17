@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.CountBlank
 ms.assetid: e5446c10-ec41-ac83-5bc6-ca6ad98e3f7a
-ms.date: 06/08/2017
+ms.date: 05/22/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Counts empty cells in a specified range of cells.
 
 ## Syntax
 
-_expression_. `CountBlank`( `_Arg1_` )
+_expression_.**CountBlank** (_Arg1_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +32,7 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
@@ -42,9 +40,6 @@ Double
 Cells with formulas that return "" (empty text) are also counted. Cells with zero values are not counted.
 
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

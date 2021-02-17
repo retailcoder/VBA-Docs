@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.AddLine method (Project)
-Adds a line to a report, and returns a  **Shape** object that represents the line.
+Adds a line to a report, and returns a **Shape** object that represents the line.
 
 ## Syntax
 
 _expression_. `AddLine` _(BeginX,_ _BeginY,_ _EndX,_ _EndY)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,7 @@ _expression_. `AddLine` _(BeginX,_ _BeginY,_ _EndX,_ _EndY)_
 
 ## Remarks
 
-To format the line, use the  **Shape.Line** property.
+To format the line, use the **Shape.Line** property.
 
 
 ## Example

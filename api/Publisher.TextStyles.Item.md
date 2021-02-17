@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.TextStyles.Item
 ms.assetid: 14d1871f-c2cb-31af-e22d-10b3cf59b6fc
-ms.date: 06/08/2017
+ms.date: 06/15/2019
 localization_priority: Normal
 ---
 
@@ -19,28 +19,25 @@ Returns an individual object in a specified collection.
 
 ## Syntax
 
-_expression_.**Item**(**_Index_**)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a  **TextStyles** object.
+_expression_ A variable that represents a **[TextStyles](Publisher.TextStyles.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Index|Required| **Variant**|The number or name of the field or list box item to return.|
+|_Index_|Required| **Variant**|The number or name of the field or list box item to return.|
 
 ## Return value
 
-TextStyle
+**[TextStyle](Publisher.TextStyle.md)**
 
 
 ## Example
 
-This example returns the "Normal" text style from the active publication.
-
+This example returns the Normal text style from the active publication.
 
 ```vb
 Dim txtStyle As TextStyle 

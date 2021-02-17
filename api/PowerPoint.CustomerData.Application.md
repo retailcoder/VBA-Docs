@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomerData.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified **CustomerData** object. Read-only.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified **CustomerData** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ An expression that returns a [CustomerData](./PowerPoint.CustomerData.md) object.
+ _expression_ An expression that returns a [CustomerData](PowerPoint.CustomerData.md) object.
 
 
 ## Return value

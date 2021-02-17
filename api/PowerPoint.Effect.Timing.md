@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Effect.Timing property (PowerPoint)
 
-Returns a  **[Timing](PowerPoint.Timing.md)** object that represents the timing properties for an animation sequence.
+Returns a **[Timing](PowerPoint.Timing.md)** object that represents the timing properties for an animation sequence.
 
 
 ## Syntax
 
 _expression_. `Timing`
 
-_expression_ A variable that represents an [Effect](./PowerPoint.Effect.md) object.
+_expression_ A variable that represents an [Effect](PowerPoint.Effect.md) object.
 
 
 ## Return value

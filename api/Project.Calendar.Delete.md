@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # Calendar.Delete method (Project)
 
-Deletes the  **Calendar** object from a **Calendars** collection.
+Deletes the **Calendar** object from a **Calendars** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
+_expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
 
 
 ## Remarks
 
-The  **Delete** method does not apply to resource calendars.
+The **Delete** method does not apply to resource calendars.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

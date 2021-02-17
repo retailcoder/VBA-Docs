@@ -11,19 +11,17 @@ localization_priority: Normal
 
 # Projects.Add method (Project)
 
-Adds a  **Project** object to a **Projects** collection.
+Adds a **Project** object to a **Projects** collection.
 
 
 ## Syntax
 
-_expression_.**Add**( `_DisplayProjectInfo_`, `_Template_`, `_FileNewDialog_` )
+_expression_.**Add** (_DisplayProjectInfo_, _Template_, _FileNewDialog_)
 
- _expression_ A variable that represents a 'Projects' object.
+_expression_ A variable that represents a 'Projects' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Axis.DisplayUnitLabel property (Word)
 
-Returns the  **[DisplayUnitLabel](Word.DisplayUnitLabel.md)** object for the specified axis. Returns **null** if the **[HasDisplayUnitLabel](Word.Axis.HasDisplayUnitLabel.md)** property is set to **False**. Read-only.
+Returns the **[DisplayUnitLabel](Word.DisplayUnitLabel.md)** object for the specified axis. Returns **null** if the **[HasDisplayUnitLabel](Word.Axis.HasDisplayUnitLabel.md)** property is set to **False**. Read-only.
 
 
 ## Syntax
 
 _expression_.**DisplayUnitLabel**
 
- _expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Example

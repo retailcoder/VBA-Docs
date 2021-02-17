@@ -17,14 +17,14 @@ Sets or returns a [WdRevisionsView](Word.WdRevisionsView.md) constant that repre
 
 ## Syntax
 
-_expression_. `View`
+_expression_.**View**
 
- _expression_ A variable that represents a 'RevisionsFilter' object.
+_expression_ A variable that represents a 'RevisionsFilter' object.
 
 
 ## Remarks
 
-The  **RevisionsFilter.View** property replaces the **View.RevisionsView** property that was in previous version of Word.
+The **RevisionsFilter.View** property replaces the **View.RevisionsView** property that was in previous version of Word.
 
 
 ## Example

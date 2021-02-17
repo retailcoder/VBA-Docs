@@ -21,11 +21,11 @@ Gets or sets the default method for calculating earned value for a project. Read
 
 _expression_. `DefaultEarnedValueMethod`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **DefaultEarnedValueMethod** property can be one of the following **[PjEarnedValueMethod](Project.PjEarnedValueMethod.md)** constants: **pjPercentComplete** or **pjPhysicalPercentComplete**
+The **DefaultEarnedValueMethod** property can be one of the following **[PjEarnedValueMethod](Project.PjEarnedValueMethod.md)** constants: **pjPercentComplete** or **pjPhysicalPercentComplete**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

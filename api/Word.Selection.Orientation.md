@@ -21,14 +21,14 @@ Returns or sets the orientation of text in a selection when the Text Direction f
 
 _expression_.**Orientation**
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-Some of the  **WdTextOrientation** constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
+Some of the **WdTextOrientation** constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
 
-You can set the orientation for a text frame or for a selection that happens to occur inside a text frame. For information about the difference between a text frame and a text box, see the  **[TextFrame](Word.TextFrame.md)** object.
+You can set the orientation for a text frame or for a selection that happens to occur inside a text frame. For information about the difference between a text frame and a text box, see the **[TextFrame](Word.TextFrame.md)** object.
 
 
 ## See also

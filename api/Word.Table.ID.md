@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Table.ID property (Word)
 
-Returns or sets the identifying label for the specified table when the document is saved as a Web page. Read/write  **String**.
+Returns or sets the identifying label for the specified table when the document is saved as a webpage. Read/write  **String**.
 
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
 _expression_ Required. A variable that represents a '[Table](Word.Table.md)' object.
 

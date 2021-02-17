@@ -31,7 +31,7 @@ _expression_ A variable that represents a '[ChartGroups](PowerPoint.ChartGroups.
 
 ## Return value
 
-A  **[ChartGroup](PowerPoint.ChartGroup.md)** object contained by the collection.
+A **[ChartGroup](PowerPoint.ChartGroup.md)** object contained by the collection.
 
 
 ## Example
@@ -39,7 +39,8 @@ A  **[ChartGroup](PowerPoint.ChartGroup.md)** object contained by the collection
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example adds drop lines to chart group one for the first chart group of the first chart in the active document.
 

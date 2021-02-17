@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Calendar.Exceptions property (Project)
 
-Gets the  **[Exceptions](Project.exceptions.md)** collection object. Read-only **Exceptions**.
+Gets the **[Exceptions](Project.exceptions.md)** collection object. Read-only **Exceptions**.
 
 
 ## Syntax
 
 _expression_. `Exceptions`
 
- _expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
+_expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # TaskRequestAcceptItem.Size property (Outlook)
 
-Returns a  **Long** indicating the size (in bytes) of the Outlook item. Read-only.
+Returns a **Long** indicating the size (in bytes) of the Outlook item. Read-only.
 
 
 ## Syntax
 
-_expression_. `Size`
+_expression_.**Size**
 
 _expression_ A variable that represents a [TaskRequestAcceptItem](Outlook.TaskRequestAcceptItem.md) object.
 

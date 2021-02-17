@@ -21,11 +21,11 @@ Gets or sets the color used to denote unfollowed hyperlinks. Read/write  **PjCol
 
 _expression_. `HyperlinkColor`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **HyperlinkColor** property is one of the **[PjColor](Project.PjColor.md)** constants. To get a hexadecimal RGB value for the color, use the **[HyperlinkColorEx](Project.Project.HyperlinkColorEx.md)** property.
+The **HyperlinkColor** property is one of the **[PjColor](Project.PjColor.md)** constants. To get a hexadecimal RGB value for the color, use the **[HyperlinkColorEx](Project.Project.HyperlinkColorEx.md)** property.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,9 +19,9 @@ Returns a [ReflectionFormat](Word.ReflectionFormat.md) object that represents th
 
 ## Syntax
 
-_expression_. `Reflection`
+_expression_.**Reflection**
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## See also

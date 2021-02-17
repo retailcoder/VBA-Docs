@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `SuppressEndnotes`
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
-Suppressed endnotes are printed before the endnotes in that section. This property takes effect only if the  **[Location](Word.Endnotes.Location.md)** property is set to **wdEndOfSection**.
+Suppressed endnotes are printed before the endnotes in that section. This property takes effect only if the **[Location](Word.Endnotes.Location.md)** property is set to **wdEndOfSection**.
 
 
 ## Example

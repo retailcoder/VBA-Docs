@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.Delete method (Project)
 
-Deletes the  **Resource** object from a **Resources** collection.
+Deletes the **Resource** object from a **Resources** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Project.ResourceTables property (Project)
 
-Gets a  **[Tables](Project.tables.md)** collection that contains the resource tables of the project. Read-only **Tables**.
+Gets a **[Tables](Project.tables.md)** collection that contains the resource tables of the project. Read-only **Tables**.
 
 
 ## Syntax
 
 _expression_. `ResourceTables`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

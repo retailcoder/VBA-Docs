@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_.**Visible**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **Visible** property can only be set to **False** if the **Application**. **[UserControl](Project.Application.UserControl.md)** property is **False** and there are no visible projects. If the **UserControl** property is **True**, the Project application is under user control rather than programmatic control, and the **Visible** property is also **True**.
+The **Visible** property can only be set to **False** if the **Application**. **[UserControl](Project.Application.UserControl.md)** property is **False** and there are no visible projects. If the **UserControl** property is **True**, the Project application is under user control rather than programmatic control, and the **Visible** property is also **True**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

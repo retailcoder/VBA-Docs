@@ -19,9 +19,9 @@ Specifies whether Microsoft Visual Basic for Applications (VBA) is enabled in th
 
 ## Syntax
 
-_expression_. `VBAEnabled`
+_expression_.**VBAEnabled**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -52,7 +52,7 @@ The  **VBAEnabled** property is set to **True** if the **Trust access to the VBA
 
 You may have a document that requires VBA to be enabled to run properly, for example, code in a document's  **DocumentOpened** event handler. The following code can be run from an add-on to verify whether VBA is enabled in the application before a document that depends on VBA is opened.
 
-Before running this procedure, supply a valid document file name for the variable  _filename_ .
+Before running this procedure, supply a valid document file name for the variable  _filename_.
 
 
 

@@ -19,9 +19,9 @@ Returns or sets a  **MsoShadowType** that represents the type of shadow formatti
 
 ## Syntax
 
-_expression_. `Style`
+_expression_.**Style**
 
- _expression_ An expression that returns a '[ShadowFormat](Word.ShadowFormat.md)' object.
+ _expression_ An expression that returns a **[ShadowFormat](Word.ShadowFormat.md)** object.
 
 
 ## See also

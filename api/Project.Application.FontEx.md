@@ -21,7 +21,7 @@ Sets the font for the text in the active cells.
 
 _expression_. `FontEx`( `_Name_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_`, `_Reset_`, `_CellColor_`, `_Pattern_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -35,10 +35,10 @@ _expression_. `FontEx`( `_Name_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`,
 | _Bold_|Optional|**Variant**|**True** if the font is bold.|
 | _Italic_|Optional|**Boolean**|**True** if the font is italic; otherwise, **False**.|
 | _Underline_|Optional|**Boolean**|**True** if the font is underlined; otherwise, **False**.|
-| _Color_|Optional|**Long**|The color of the font. Can be one of the  **[PjColor](Project.PjColor.md)** constants.|
+| _Color_|Optional|**Long**|The color of the font. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
 | _Reset_|Optional|**Boolean**|**True** if the font is reset to its default characteristics. All other arguments are ignored. The default value is **False**.|
-| _CellColor_|Optional|**Variant**|The color of the cell. Can be one of the  **[PjColor](Project.PjColor.md)** constants.|
-| _Pattern_|Optional|**Variant**|Background pattern of the cell. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
+| _CellColor_|Optional|**Variant**|The color of the cell. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
+| _Pattern_|Optional|**Variant**|Background pattern of the cell. Can be one of the **[PjFillPattern](Project.PjFillPattern.md)** constants.|
 
 ## Return value
 
@@ -47,7 +47,7 @@ _expression_. `FontEx`( `_Name_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`,
 
 ## Remarks
 
-To set the font with an RGB hexadecimal value for color or with a strikethrough format, use the  **[Font32Ex](Project.Application.Font32Ex.md)** method.
+To set the font with an RGB hexadecimal value for color or with a strikethrough format, use the **[Font32Ex](Project.Application.Font32Ex.md)** method.
 
 
 ## Example

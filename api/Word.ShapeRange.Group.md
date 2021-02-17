@@ -19,14 +19,14 @@ Groups the shapes in the specified range, and returns the grouped shapes as a si
 
 ## Syntax
 
-_expression_. `Group`
+_expression_.**Group**
 
 _expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Remarks
 
-Because a group of shapes is treated as a single shape, grouping and ungrouping shapes changes the number of items in the  **Shapes** collection and changes the index numbers of items that come after the affected items in the collection.
+Because a group of shapes is treated as a single shape, grouping and ungrouping shapes changes the number of items in the **Shapes** collection and changes the index numbers of items that come after the affected items in the collection.
 
 
 ## Example

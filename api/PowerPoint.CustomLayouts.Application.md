@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayouts.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object. Read-only.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Application**
 
-_expression_ A variable that represents a [CustomLayouts](./PowerPoint.CustomLayouts.md) object.
+_expression_ A variable that represents a [CustomLayouts](PowerPoint.CustomLayouts.md) object.
 
 
 ## Return value

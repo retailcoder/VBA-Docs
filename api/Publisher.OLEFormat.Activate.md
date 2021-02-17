@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.OLEFormat.Activate
 ms.assetid: 43c01633-f624-c5ef-ba2c-d1ff62e91ec5
-ms.date: 06/08/2017
+ms.date: 06/11/2019
 localization_priority: Normal
 ---
 
@@ -21,27 +21,25 @@ Activates a window or OLE object.
 
 _expression_.**Activate**
 
- _expression_ A variable that represents an  **OLEFormat** object.
+_expression_ A variable that represents an **[OLEFormat](Publisher.OLEFormat.md)** object.
 
 
 ## Remarks
 
-Because Microsoft Publisher runs in a single window, using the  **Activate** method with a **Window** object makes Publisher the active application.
+Because Microsoft Publisher runs in a single window, using the **Activate** method with a **Window** object makes Publisher the active application.
 
 
 ## Example
 
 The following example makes Publisher the active application.
 
-
 ```vb
 Application.ActiveWindow.Activate
 ```
 
+<br/>
+
 The following example adds an Excel spreadsheet to the first page of the active publication and activates the spreadsheet for editing.
-
-
-
 
 ```vb
 Dim shpSheet As Shape 

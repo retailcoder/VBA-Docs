@@ -26,12 +26,12 @@ _expression_. `ToggleRibbon`
 
 ## Remarks
 
-If the ribbon is visible, the  **ToggleRibbon** method hides it; if the ribbon is hidden, the **ToggleRibbon** method shows it.
+If the ribbon is visible, the **ToggleRibbon** method hides it; if the ribbon is hidden, the **ToggleRibbon** method shows it.
 
 
 ## Example
 
-The following code example toggles the ribbon for the active protected view window.
+The following code example toggles the ribbon for the active Protected View window.
 
 
 ```vb

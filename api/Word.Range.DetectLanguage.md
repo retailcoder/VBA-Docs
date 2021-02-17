@@ -21,12 +21,12 @@ Analyzes the specified text to determine the language that it is written in.
 
 _expression_. `DetectLanguage`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-The results of the  **DetectLanguage** method are stored in the **LanguageID** property on a character-by-character basis. To read the **[LanguageID](Word.Language.ID.md)** property, you must first specify a selection or range of text.
+The results of the **DetectLanguage** method are stored in the **LanguageID** property on a character-by-character basis. To read the **[LanguageID](Word.Language.ID.md)** property, you must first specify a selection or range of text.
 
 
 
@@ -34,7 +34,7 @@ When applied to a  **Document** object, the **DetectLanguage** method checks all
 
 
 
-If the  **DetectLanguage** method has already been applied to the specified text, the **LanguageDetected** property is set to **True**. To reevaluate the language of the specified text, you must first set the **[LanguageDetected](Word.Document.LanguageDetected.md)** property to **False**.
+If the **DetectLanguage** method has already been applied to the specified text, the **LanguageDetected** property is set to **True**. To reevaluate the language of the specified text, you must first set the **[LanguageDetected](Word.Document.LanguageDetected.md)** property to **False**.
 
 
 

@@ -19,9 +19,9 @@ Returns or sets an array of x values for a chart series. Read/write  **Variant**
 
 ## Syntax
 
-_expression_. `XValues`
+_expression_.**XValues**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks
@@ -36,7 +36,8 @@ For PivotChart reports, this property is read-only.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the values from a range address.
 
@@ -58,7 +59,8 @@ End With
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 To assign a constant value to each individual data point, you must use an array, as shown in the following example.
 

@@ -21,7 +21,7 @@ Inserts the specified text at the end of a range.
 
 _expression_. `InsertAfter`( `_Text_` )
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -59,7 +59,7 @@ Also, if the range is a bookmark, Word inserts the specified text but does not e
 
 ## Example
 
-This example inserts text at the end of the active document. The  **Content** property returns a **Range** object.
+This example inserts text at the end of the active document. The **Content** property returns a **Range** object.
 
 
 ```vb

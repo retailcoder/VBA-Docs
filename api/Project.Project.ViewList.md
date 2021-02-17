@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Project.ViewList property (Project)
 
-Gets the  **[List](Project.List.md)** object for the project. Read-only **List**.
+Gets the **[List](Project.List.md)** object for the project. Read-only **List**.
 
 
 ## Syntax
 
 _expression_. `ViewList`
 
- _expression_ An expression that returns a [Project](./Project(enumerations).md) object.
+ _expression_ An expression that returns a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

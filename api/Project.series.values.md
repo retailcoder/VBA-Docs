@@ -15,14 +15,14 @@ Gets the vertical (Y) axis values for the data series on a chart. Read-only  **V
 
 ## Syntax
 
-_expression_. `Values`
+_expression_.**Values**
 
- _expression_ A variable that represents a 'Series' object.
+_expression_ A variable that represents a 'Series' object.
 
 
 ## Remarks
 
-For a code example that uses the  **Values** property, see the **[Series](Project.series.md)** object.
+For a code example that uses the **Values** property, see the **[Series](Project.series.md)** object.
 
 
 ## See also

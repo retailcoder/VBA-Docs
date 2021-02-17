@@ -7,36 +7,32 @@ ms.prod: excel
 api_name:
 - Excel.Window.EnableResize
 ms.assetid: cc94ca6f-0553-8d63-c30d-0fe6fdbff551
-ms.date: 06/08/2017
+ms.date: 05/21/2019
 localization_priority: Normal
 ---
 
 
 # Window.EnableResize property (Excel)
 
- **True** if the window can be resized. Read/write **Boolean**.
+**True** if the window can be resized. Read/write **Boolean**.
 
 
 ## Syntax
 
-_expression_. `EnableResize`
+_expression_.**EnableResize**
 
-_expression_ A variable that represents a [Window](Excel.Window.md) object.
+_expression_ A variable that represents a **[Window](Excel.Window.md)** object.
 
 
 ## Example
 
 This example sets the active window so that it cannot be resized.
 
-
 ```vb
 ActiveWindow.EnableResize = False
 ```
 
 
-## See also
 
-
-[Window Object](Excel.Window.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -18,11 +18,11 @@ Gets or sets how much slack causes a task to be displayed as a critical task. Re
 
 _expression_. `ShowCriticalSlack`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-If the slack time of a task does not exceed the number of days returned by the  **ShowCriticalSlack** property, Project displays the task as critical.
+If the slack time of a task does not exceed the number of days returned by the **ShowCriticalSlack** property, Project displays the task as critical.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

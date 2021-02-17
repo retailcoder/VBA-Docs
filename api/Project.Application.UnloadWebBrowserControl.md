@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.UnloadWebBrowserControl method (Project)
 
-Unloads the Web browser control and returns to the regular Project interface.
+Unloads the web browser control and returns to the regular Project interface.
 
 
 ## Syntax
 
 _expression_. `UnloadWebBrowserControl`( `_Window_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

@@ -16,13 +16,13 @@ Gets or sets the calculation mode. Read/write  **PjCalculation**.
 
 ## Syntax
 
-_expression_. `Calculation`
+_expression_.**Calculation**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **Calculation** value can be one of the following **[PjCalculation](Project.PjCalculation.md)** constants: **pjAutomatic** or **pjManual**.
+The **Calculation** value can be one of the following **[PjCalculation](Project.PjCalculation.md)** constants: **pjAutomatic** or **pjManual**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

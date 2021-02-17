@@ -19,9 +19,9 @@ Returns or sets the blur radius of the specified shadow, in points. Read/write.
 
 ## Syntax
 
-_expression_. `Blur`
+_expression_.**Blur**
 
- _expression_ A variable that represents a [ShadowFormat](./PowerPoint.ShadowFormat.md) object.
+_expression_ A variable that represents a [ShadowFormat](PowerPoint.ShadowFormat.md) object.
 
 
 ## Return value

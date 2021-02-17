@@ -18,12 +18,12 @@ Gets or sets the month for a yearly type of exception. Read/write  **PjMonth**.
 
 _expression_. `Month`
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Remarks
 
-The  **Month** property can be one of the **[PjMonth](Project.PjMonth.md)** constants. The defauilt is **pjJanuary**.
+The **Month** property can be one of the **[PjMonth](Project.PjMonth.md)** constants. The defauilt is **pjJanuary**.
 
 
 ## See also

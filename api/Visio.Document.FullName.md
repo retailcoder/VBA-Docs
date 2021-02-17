@@ -21,7 +21,7 @@ Returns the name of a document, including the drive and path. Read-only.
 
 _expression_.**FullName**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ String
 
 ## Remarks
 
-Use the  **FullName** property to obtain a document's drive, folder path, and file name as one string. The returned value can include UNC drive names (for example, \\ _drive\folder_ ).
+Use the **FullName** property to obtain a document's drive, folder path, and file name as one string. The returned value can include UNC drive names (for example, \\ _drive\folder_ ).
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

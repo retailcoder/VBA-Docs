@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # FormDescription.Number property (Outlook)
 
-Returns or sets a  **String** corresponding to the number for the specified form. Read/write.
+Returns or sets a **String** corresponding to the number for the specified form. Read/write.
 
 
 ## Syntax
 
-_expression_. `Number`
+_expression_.**Number**
 
 _expression_ A variable that represents a [FormDescription](Outlook.FormDescription.md) object.
 

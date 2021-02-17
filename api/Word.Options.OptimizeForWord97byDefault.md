@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `OptimizeForWord97byDefault`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
 
-To optimize a single document for Word 97, use the  **[OptimizeForWord97](Word.Document.OptimizeForWord97.md)** property.
+To optimize a single document for Word 97, use the **[OptimizeForWord97](Word.Document.OptimizeForWord97.md)** property.
 
 
 ## Example

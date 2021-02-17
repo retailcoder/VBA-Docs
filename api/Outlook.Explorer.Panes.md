@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Panes property (Outlook)
 
-Returns a  **[Panes](Outlook.Panes.md)** collection object representing the panes displayed by the specified explorer.
+Returns a **[Panes](Outlook.Panes.md)** collection object representing the panes displayed by the specified explorer.
 
 
 ## Syntax
 
-_expression_. `Panes`
+_expression_.**Panes**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Example

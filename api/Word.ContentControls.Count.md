@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ContentControls.Count property (Word)
 
-Returns the number of items in the  **ContentControls** collection. Read-only **Long**.
+Returns the number of items in the **ContentControls** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[ContentControls](Word.ContentControls.md)' object.
+_expression_ A variable that represents a '[ContentControls](Word.ContentControls.md)' object.
 
 
 ## See also

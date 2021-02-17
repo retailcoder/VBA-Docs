@@ -21,15 +21,16 @@ Returns a  **[CoAuthLocks](Word.CoAuthLocks.md)** collection object that represe
 
 _expression_. `Locks`
 
- _expression_ An expression that returns a '[Range](Word.Range.md)' object.
+ _expression_ An expression that returns a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-Use the  **Locks** property to return the **[CoAuthLocks](Word.CoAuthLocks.md)** collection.
+Use the **Locks** property to return the **[CoAuthLocks](Word.CoAuthLocks.md)** collection.
 
 
- **Note**  This property is only available for co authoring enabled documents. If you attempt to access this property on a document that is not enabled for co authoring, you will receive a run-time error.
+> [!NOTE] 
+> This property is only available for co authoring enabled documents. If you attempt to access this property on a document that is not enabled for co authoring, you will receive a run-time error.
 
 
 ## Example

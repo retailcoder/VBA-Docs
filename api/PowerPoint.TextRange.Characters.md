@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.Characters method (PowerPoint)
 
-Returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents the specified subset of text characters. For information about counting or looping through the characters in a text range, see the **[TextRange](PowerPoint.TextRange.md)** object.
+Returns a **[TextRange](PowerPoint.TextRange.md)** object that represents the specified subset of text characters. For information about counting or looping through the characters in a text range, see the **[TextRange](PowerPoint.TextRange.md)** object.
 
 
 ## Syntax
 
 _expression_. `Characters`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

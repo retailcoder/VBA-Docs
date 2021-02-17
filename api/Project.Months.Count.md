@@ -11,26 +11,26 @@ localization_priority: Normal
 
 # Months.Count property (Project)
 
-Gets the number of items in the  **Months** collection for a specified year from 1984 - 2149. Read-only **Integer**.
+Gets the number of items in the **Months** collection for a specified year from 1984 - 2149. Read-only **Integer**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'Months' object.
+_expression_ A variable that represents a 'Months' object.
 
 
 ## Examples
 
-The following example in the  **Immediate** window of the VBE returns 12, the number of months in 2012. If you set the year to 1983 or 2150, the result is "Run-time error '1101'; the argument is not valid."
+The following example in the Immediate window of the VBE returns 12, the number of months in 2012. If you set the year to 1983 or 2150, the result is "Run-time error '1101'; the argument is not valid."
 
 
 ```vb
 ? activeproject.Resources(1).Calendar.Years(2012).Months.Count
 ```
 
-The following example shows the use of the  **Count** property for the **Assignments** object. It prompts the user for the name of a resource and then assigns that resource to tasks without any resources.
+The following example shows the use of the **Count** property for the **Assignments** object. It prompts the user for the name of a resource and then assigns that resource to tasks without any resources.
 
 
 

@@ -21,7 +21,7 @@ Initiates the creation of a custom undo record.
 
 _expression_. `StartCustomRecord`( `_Name_` )
 
- _expression_ A variable that represents an '[UndoRecord](Word.UndoRecord.md)' object.
+_expression_ A variable that represents an '[UndoRecord](Word.UndoRecord.md)' object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `StartCustomRecord`( `_Name_` )
 
 ## Remarks
 
- **StartCustomRecord** begins the creation of a custom undo record, which records all actions done to the application while it is active under a record defined by _Name_ .
+ **StartCustomRecord** begins the creation of a custom undo record, which records all actions done to the application while it is active under a record defined by _Name_.
 
 
 ## Example

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.PageSetup property (PowerPoint)
 
-Returns a  **[PageSetup](PowerPoint.PageSetup.md)** object whose properties control slide setup attributes for the specified presentation. Read-only.
+Returns a **[PageSetup](PowerPoint.PageSetup.md)** object whose properties control slide setup attributes for the specified presentation. Read-only.
 
 
 ## Syntax
 
 _expression_.**PageSetup**
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

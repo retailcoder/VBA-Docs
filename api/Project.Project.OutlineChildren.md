@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Project.OutlineChildren property (Project)
 
-Gets a  **[Tasks](Project.Task.md)** collection representing the children of a task in the outline structure. Read-only **Tasks**.
+Gets a **[Tasks](Project.Task.md)** collection representing the children of a task in the outline structure. Read-only **Tasks**.
 
 
 ## Syntax
 
 _expression_. `OutlineChildren`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

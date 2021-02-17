@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # CodeMaskLevel.Delete method (Project)
 
-Deletes the  **CodeMaskLevel** object from a **CodeMask** collection.
+Deletes the **CodeMaskLevel** object from a **CodeMask** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
+_expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

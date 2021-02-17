@@ -19,14 +19,14 @@ Returns the name of the custom texture file for the specified fill. Read-only  *
 
 ## Syntax
 
-_expression_. `TextureName`
+_expression_.**TextureName**
 
- _expression_ An expression that returns a '[FillFormat](Word.FillFormat.md)' object.
+_expression_ An expression that returns a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-Use the  **[UserTextured](Word.FillFormat.UserTextured.md)** method to set the texture file for the fill.
+Use the **[UserTextured](Word.FillFormat.UserTextured.md)** method to set the texture file for the fill.
 
 
 ## Example

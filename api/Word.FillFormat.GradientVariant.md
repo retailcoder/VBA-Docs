@@ -19,16 +19,16 @@ Returns the gradient variant for the specified fill as an integer value from 1 t
 
 ## Syntax
 
-_expression_. `GradientVariant`
+_expression_.**GradientVariant**
 
- _expression_ A variable that represents a '[FillFormat](Word.FillFormat.md)' object.
+_expression_ A variable that represents a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-If the gradient style is  **msoGradientFromCenter**, this property returns either 1 or 2. The values for this property correspond to the gradient variants (numbered from left to right and from top to bottom) on the **Gradient** tab in the **Fill Effects** dialog box.
+If the gradient style is **msoGradientFromCenter**, this property returns either 1 or 2. The values for this property correspond to the gradient variants (numbered from left to right and from top to bottom) on the **Gradient** tab in the **Fill Effects** dialog box.
 
-Use the  **[OneColorGradient](Word.FillFormat.OneColorGradient.md)** or **[TwoColorGradient](Word.FillFormat.TwoColorGradient.md)** method to set the gradient variant for the fill.
+Use the **[OneColorGradient](Word.FillFormat.OneColorGradient.md)** or **[TwoColorGradient](Word.FillFormat.TwoColorGradient.md)** method to set the gradient variant for the fill.
 
 
 ## Example

@@ -21,7 +21,7 @@ Sets the font for the text in the active cells, where the text color can be a he
 
 _expression_. `Font32Ex`( `_Name_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_`, `_Color_`, `_Reset_`, `_CellColor_`, `_Pattern_`, `_Strikethrough_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ _expression_. `Font32Ex`( `_Name_`, `_Size_`, `_Bold_`, `_Italic_`, `_Underline_
 | _Color_|Optional|**Long**|The color of the font. Can be a hexadecimal RGB value, where red is the last byte. For example, &H0000FF is red.|
 | _Reset_|Optional|**Boolean**|**True** if the font is reset to its default characteristics. All other arguments are ignored. The default value is **False**.|
 | _CellColor_|Optional|**Variant**|The color of the cell. Can be a hexadecimal RGB value, where red is the last byte. For example, &HFFFF99 is cyan.|
-| _Pattern_|Optional|**Variant**|Background pattern of the cell. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
+| _Pattern_|Optional|**Variant**|Background pattern of the cell. Can be one of the **[PjFillPattern](Project.PjFillPattern.md)** constants.|
 | _Strikethrough_|Optional|**Variant**|**True** if the font is the strikethrough format.|
 
 ## Return value
@@ -63,6 +63,7 @@ End Sub
 ```
 
 
- **Note**  If you use any of the  **PjColor** constants for the Color or CellColor parameters, the color will be nearly black. For example, the value of **pjGreen** is 9, which in the **Fon32Ex** method is a very dark red. To use only the sixteen colors available with **PjColor** constants, use the **[FontEx](Project.Application.FontEx.md)** method.
+> [!NOTE] 
+> If you use any of the **PjColor** constants for the Color or CellColor parameters, the color will be nearly black. For example, the value of **pjGreen** is 9, which in the **Fon32Ex** method is a very dark red. To use only the sixteen colors available with **PjColor** constants, use the **[FontEx](Project.Application.FontEx.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

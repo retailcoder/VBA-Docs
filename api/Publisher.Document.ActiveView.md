@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.Document.ActiveView
 ms.assetid: 1448c8c6-30e5-2e2a-f124-ebf544d8f297
-ms.date: 06/08/2017
+ms.date: 06/06/2019
 localization_priority: Normal
 ---
 
 
 # Document.ActiveView property (Publisher)
 
-Returns a  **[View](Publisher.View.md)** object representing the view attributes for the specified document. Read-only.
+Returns a **[View](Publisher.View.md)** object representing the view attributes for the specified document. Read-only.
 
 
 ## Syntax
 
 _expression_.**ActiveView**
 
- _expression_ A variable that represents a  **Document** object.
+_expression_ A variable that represents a **[Document](Publisher.Document.md)** object.
 
 
 ## Return value
@@ -32,7 +32,6 @@ View
 ## Example
 
 The following example sets the active publication zoom to fill the screen.
-
 
 ```vb
 Sub SetActiveZoom() 

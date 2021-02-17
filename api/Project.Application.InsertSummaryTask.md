@@ -21,7 +21,7 @@ Inserts a new summary task above the selected task row or cell in a Gantt chart.
 
 _expression_. `InsertSummaryTask`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `InsertSummaryTask`
 
 ## Remarks
 
-The summary task is the same mode (manual or automatic) as the selected task and is at the level of the selected task. The selected task is indented one level below the new summary task. The  **InsertSummaryTask** method corresponds to the **Summary** command in the **Insert** group of the **TASK** tab on the ribbon.
+The summary task is the same mode (manual or automatic) as the selected task and is at the level of the selected task. The selected task is indented one level below the new summary task. The **InsertSummaryTask** method corresponds to the **Summary** command in the **Insert** group of the **TASK** tab on the ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

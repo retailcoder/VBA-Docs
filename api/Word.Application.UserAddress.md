@@ -21,7 +21,7 @@ Returns or sets the user's mailing address. Read/write  **String**.
 
 _expression_. `UserAddress`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
@@ -39,7 +39,7 @@ Application.UserAddress = "4200 Third Street NE" & Chr(10) _
  & "Anytown, WA 98999"
 ```
 
-This example returns the address found in the  **Mailing address** box on the **User Information** tab in the **Options** dialog box (**Tools** menu).
+This example returns the address found in the **Mailing address** box on the **User Information** tab in the **Options** dialog box (**Tools** menu).
 
 
 

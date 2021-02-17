@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.WindowViewChange event (Project)
 
-Occurs after the top pane view is changed within a project window. The  **WindowViewChange** event returns a success argument that tells whether the view change action was successful.
+Occurs after the top pane view is changed within a project window. The **WindowViewChange** event returns a success argument that tells whether the view change action was successful.
 
 
 ## Syntax
 
 _expression_. `WindowViewChange`( `_Window_`, `_prevView_`, `_newView_`, `_success_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `WindowViewChange`( `_Window_`, `_prevView_`, `_newView_`, `_succe
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

@@ -21,12 +21,12 @@ Returns or sets a  **[WdRelativeVerticalSize](Word.WdRelativeVerticalSize.md)** 
 
 _expression_. `RelativeVerticalSize`
 
- _expression_ An expression that returns a '[Shape](Word.Shape.md)' object.
+ _expression_ An expression that returns a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-Use this property with the  **[HeightRelative](Word.Shape.HeightRelative.md)** property.
+Use this property with the **[HeightRelative](Word.Shape.HeightRelative.md)** property.
 
 
 ## See also

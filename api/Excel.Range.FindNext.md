@@ -7,30 +7,28 @@ ms.prod: excel
 api_name:
 - Excel.Range.FindNext
 ms.assetid: 308c6241-2398-13e6-ba68-17ec713376f6
-ms.date: 06/08/2017
+ms.date: 05/10/2019
 localization_priority: Normal
 ---
 
 
 # Range.FindNext method (Excel)
 
-Continues a search that was begun with the  **[Find](Excel.Range.Find.md)** method. Finds the next cell that matches those same conditions and returns a **[Range](Excel.Range(object).md)** object that represents that cell. This does not affect the selection or the active cell.
+Continues a search that was begun with the **[Find](Excel.Range.Find.md)** method. Finds the next cell that matches those same conditions and returns a **Range** object that represents that cell. This does not affect the selection or the active cell.
 
 
 ## Syntax
 
-_expression_. `FindNext`( `_After_` )
+_expression_.**FindNext** (_After_)
 
 _expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _After_|Optional| **Variant**|The cell after which you want to search. This corresponds to the position of the active cell when a search is done from the user interface. Be aware that  _After_ must be a single cell in the range. Remember that the search begins after this cell; the specified cell is not searched until the method wraps back around to this cell. If this argument is not specified, the search starts after the cell in the upper-left corner of the range.|
+| _After_|Optional| **Variant**|The cell after which you want to search. This corresponds to the position of the active cell when a search is done from the user interface. Be aware that _After_ must be a single cell in the range.<br/><br/> Remember that the search begins after this cell; the specified cell is not searched until the method wraps back around to this cell. If this argument is not specified, the search starts after the cell in the upper-left corner of the range.|
 
 ## Return value
 
@@ -44,30 +42,31 @@ When the search reaches the end of the specified search range, it wraps around t
 
 ## Example
 
-This example finds all cells in the range A1:A500 that contain the value 2 and changes their values to 5.
-
+This example finds all cells in the range A1:A500 on worksheet one that contain the value 2, and changes the entire cell value to 5.  That is, the values 1234 and 99299 both contain 2 and both cell values will become 5.
 
 ```vb
-With Worksheets(1).Range("a1:a500")
-     Set c = .Find(2, lookin:=xlValues)
-     If Not c Is Nothing Then
-        firstAddress = c.Address
-        Do
-            c.Value = 5
-            Set c = .FindNext(c)
-        If c is Nothing Then
-            GoTo DoneFinding
-        End If
-        Loop While c.Address <> firstAddress
-      End If
-      DoneFinding:
-End With
+Sub FindValue()
+    
+    Dim c As Range
+    Dim firstAddress As String
+    
+    With Worksheets(1).Range("A1:A500") 
+        Set c = .Find(2, lookin:=xlValues) 
+        If Not c Is Nothing Then 
+            firstAddress = c.Address 
+            Do 
+                c.Value = 5 
+                Set c = .FindNext(c) 
+            Loop While Not c Is Nothing
+        End If 
+    End With
+    
+End Sub
 ```
 
-This example finds all the cells in the first four columns that have a constant "X" in them and hides the column that contains the X.
+<br/>
 
-
-
+This example finds all the cells in the first four columns that contain a constant X, and hides the column that contains the X.
 
 ```vb
 Sub Hide_Columns()
@@ -103,10 +102,9 @@ Sub Hide_Columns()
 End Sub
 ```
 
-This example finds all the cells in the first four columns that have a constant "X" in them and unhides the column that contains the X.
+<br/>
 
-
-
+This example finds all the cells in the first four columns that contain a constant X, and unhides the column that contains the X.
 
 ```vb
 Sub Unhide_Columns()
@@ -142,14 +140,6 @@ End Sub
 ```
 
 
-### About the contributor
 
-Dennis Wallentin is the author of VSTO & .NET & Excel, a blog that focuses on .NET Framework solutions for Excel and Excel Services. Dennis has been developing Excel solutions for over 20 years and is also the coauthor of "Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel, VBA and .NET (2nd Edition)." 
-
-
-## See also
-
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

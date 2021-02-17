@@ -11,7 +11,7 @@ localization_priority: Normal
 
 # SplitPart object (Project)
 
-Represents a task portion. The  **SplitPart** object is a member of the **[SplitParts](Project.splitparts.md)** collection.
+Represents a task portion. The **SplitPart** object is a member of the **[SplitParts](Project.splitparts.md)** collection.
  
 
 
@@ -33,9 +33,9 @@ Dim Part As Long, Portions As String
 
 For Part = 1 To ActiveCell.Task.SplitParts.Count
     With ActiveCell.Task
-        Portions = Portions &amp; "Task portion " &amp; Part &amp; ": Start on " &amp; _
-            .SplitParts(Part).Start &amp; ", Finish on " &amp; _
-            .SplitParts(Part).Finish &amp; vbCrLf
+        Portions = Portions & "Task portion " & Part & ": Start on " & _
+            .SplitParts(Part).Start & ", Finish on " & _
+            .SplitParts(Part).Finish & vbCrLf
     End With
 Next Part
 
@@ -46,7 +46,7 @@ MsgBox Portions
  
 
  
-Use the  **[SplitParts](Project.Task.SplitParts.md)** property to return a **SplitParts** collection. The following example returns the number of task portions for each task in the active project.
+Use the **[SplitParts](Project.Task.SplitParts.md)** property to return a **SplitParts** collection. The following example returns the number of task portions for each task in the active project.
  
 
  
@@ -58,13 +58,13 @@ Dim T As Task
 
 For Each T In ActiveProject.Tasks
     If Not (T Is Nothing) Then
-        MsgBox T.Name &amp; ": " &amp; T.SplitParts.Count
+        MsgBox T.Name & ": " & T.SplitParts.Count
     End If
 
 Next T
 ```
 
-Use the  **[Split](Project.Task.Split.md)** method (**Task** object) to add a **SplitPart** object to the **SplitParts** collection. (The **Split** method creates a split in a task.) The following example creates a split in the task from Wednesday to Monday, in October of 2012.
+Use the **[Split](Project.Task.Split.md)** method (**Task** object) to add a **SplitPart** object to the **SplitParts** collection. (The **Split** method creates a split in a task.) The following example creates a split in the task from Wednesday to Monday, in October of 2012.
  
 
  

@@ -21,12 +21,12 @@ Returns a  **[Borders](Word.borders.md)** collection that represents all the bor
 
 _expression_.**Borders**
 
-_expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 

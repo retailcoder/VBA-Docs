@@ -21,7 +21,7 @@ Sends a command or series of commands to an application through the specified dy
 
 _expression_. `DDEExecute`( `_Channel_` , `_Command_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Parameters
@@ -30,13 +30,13 @@ _expression_. `DDEExecute`( `_Channel_` , `_Command_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Channel_|Required| **Long**|The channel number returned by the  **DDEInitiate** method.|
+| _Channel_|Required| **Long**|The channel number returned by the **DDEInitiate** method.|
 | _Command_|Required| **String**|A command or series of commands recognized by the receiving application (the DDE server). If the receiving application cannot perform the specified command, an error occurs.|
 
 ## Remarks
 
 
- **Security Note**  
+  
 
 
 

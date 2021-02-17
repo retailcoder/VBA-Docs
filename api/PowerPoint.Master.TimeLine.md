@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Master.TimeLine property (PowerPoint)
 
-Returns a  **[TimeLine](PowerPoint.TimeLine.md)** object that represents the animation timeline for the slide. Read-only.
+Returns a **[TimeLine](PowerPoint.TimeLine.md)** object that represents the animation timeline for the slide. Read-only.
 
 
 ## Syntax
 
 _expression_. `TimeLine`
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value

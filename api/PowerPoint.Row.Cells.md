@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Row.Cells property (PowerPoint)
 
-Returns a  **[CellRange](PowerPoint.CellRange.md)** collection that represents the cells in a table column or row. Read-only.
+Returns a **[CellRange](PowerPoint.CellRange.md)** collection that represents the cells in a table column or row. Read-only.
 
 
 ## Syntax
 
 _expression_.**Cells**
 
- _expression_ A variable that represents a [Row](./PowerPoint.Row.md) object.
+_expression_ A variable that represents a [Row](PowerPoint.Row.md) object.
 
 
 ## Return value

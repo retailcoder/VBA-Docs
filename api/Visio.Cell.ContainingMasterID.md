@@ -19,9 +19,9 @@ Returns the ID of the  **Master** object that contains an object. Read-only.
 
 ## Syntax
 
-_expression_. `ContainingMasterID`
+_expression_.**ContainingMasterID**
 
- _expression_ A variable that represents a [Cell](./Visio.Cell.md) object.
+_expression_ A variable that represents a **[Cell](Visio.Cell.md)** object.
 
 
 ## Return value

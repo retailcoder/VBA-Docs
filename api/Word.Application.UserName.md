@@ -21,7 +21,7 @@ Returns or sets the user's name, which is used on envelopes and for the Author d
 
 _expression_. `UserName`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets the user's name.
 Application.UserName = "Andrew Fuller"
 ```
 
-This example returns the name found in the  **Name** box on the **User Information** tab in the **Options** dialog box (**Tools** menu).
+This example returns the name found in the **Name** box on the **User Information** tab in the **Options** dialog box (**Tools** menu).
 
 
 

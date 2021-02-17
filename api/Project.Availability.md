@@ -14,7 +14,7 @@ localization_priority: Normal
 
  
 
-Represents a line from the  **Resource Availability** grid for a resource. The **Availability** object is a member of the **[Availabilities](Project.availabilities.md)** collection.
+Represents a line from the **Resource Availability** grid for a resource. The **Availability** object is a member of the **[Availabilities](Project.availabilities.md)** collection.
  
  **Using the Availability Object**
  
@@ -24,13 +24,13 @@ Use  **Availabilities(***Index* **)**, where*Index* is the availability index nu
 
 
 ```vb
-MsgBox ActiveProject.Resources("Tom").Name &amp; " is available from " &amp; _ 
-    ActiveProject.Resources("Tom").Availabilities(1).AvailableFrom &amp; " to " &amp; _ 
-    ActiveProject.Resources("Tom").Availabilities(1).AvailableTo &amp; "." 
+MsgBox ActiveProject.Resources("Tom").Name & " is available from " & _ 
+    ActiveProject.Resources("Tom").Availabilities(1).AvailableFrom & " to " & _ 
+    ActiveProject.Resources("Tom").Availabilities(1).AvailableTo & "." 
 
 ```
 
-Use the  **[Availabilities](Project.Resource.Availabilities.md)** property to return an **Availabilities** collection. The following example displays the range of dates during which the specified resource is available for work.
+Use the **[Availabilities](Project.Resource.Availabilities.md)** property to return an **Availabilities** collection. The following example displays the range of dates during which the specified resource is available for work.
  
 
 
@@ -39,12 +39,12 @@ Use the  **[Availabilities](Project.Resource.Availabilities.md)** property to re
 Dim Avail As Availability 
  
 For Each Avail In ActiveProject.Resources("Tom").Availabilities 
-    MsgBox "From " &amp; Avail.AvailableFrom &amp; " to " &amp; Avail.AvailableTo 
+    MsgBox "From " & Avail.AvailableFrom & " to " & Avail.AvailableTo 
 Next Avail 
 
 ```
 
-Use the  **[Add](Project.Availabilities.Add.md)** method to add an **Availability** object to the **Availabilities** collection. The following example adds a line to the **Resource Availability** grid showing that the specified resource is available only half-time during the month of April.
+Use the **[Add](Project.Availabilities.Add.md)** method to add an **Availability** object to the **Availabilities** collection. The following example adds a line to the **Resource Availability** grid showing that the specified resource is available only half-time during the month of April.
  
 
 

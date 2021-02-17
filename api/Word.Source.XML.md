@@ -19,14 +19,14 @@ Returns a  **String** that represents the XML markup for a **Source** object. Re
 
 ## Syntax
 
-_expression_. `XML`
+_expression_.**XML**
 
  _expression_ An expression that returns a [Source](./Word.Source.md) object.
 
 
 ## Remarks
 
-The Data parameter of the  **[Add](Word.Sources.Add.md)** method for the **[Sources](Word.Sources.md)** object requires a valid XML string that contains data for the necessary elements. Depending on the type of source that you add, the XML may change. To determine what the correct XML needs to be for a specific type of source, create a source through the **Create Source** dialog box, and then use the **XML** property to return the correct XML syntax.
+The Data parameter of the **[Add](Word.Sources.Add.md)** method for the **[Sources](Word.Sources.md)** object requires a valid XML string that contains data for the necessary elements. Depending on the type of source that you add, the XML may change. To determine what the correct XML needs to be for a specific type of source, create a source through the **Create Source** dialog box, and then use the **XML** property to return the correct XML syntax.
 
 
 ## See also

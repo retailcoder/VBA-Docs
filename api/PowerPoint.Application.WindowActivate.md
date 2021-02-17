@@ -21,7 +21,7 @@ Occurs when the application window or any document window is activated.
 
 _expression_.**WindowActivate** (_Pres_, _Wn_)
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -40,9 +40,9 @@ For information about using events with the  **Application** object, see [How to
 If your Visual Studio solution includes the  **Microsoft.Office.Interop.PowerPoint** reference, this event maps to the following types:
 
 
--  **Microsoft.Office.Interop.PowerPoint.EApplication_WindowActivateEventHandler** (the **WindowActivate** delegate.)
+- **Microsoft.Office.Interop.PowerPoint.EApplication_WindowActivateEventHandler** (the **WindowActivate** delegate.)
     
--  **Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate** (the **WindowActivate** event.)
+- **Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate** (the **WindowActivate** event.)
     
 
 ## Example

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # HeadersFooters.Footer property (PowerPoint)
 
-Returns a  **[HeaderFooter](PowerPoint.HeaderFooter.md)** object that represents the footer that appears at the bottom of a slide or in the lower-left corner of a notes page, handout, or outline. Read-only.
+Returns a **[HeaderFooter](PowerPoint.HeaderFooter.md)** object that represents the footer that appears at the bottom of a slide or in the lower-left corner of a notes page, handout, or outline. Read-only.
 
 
 ## Syntax
 
 _expression_. `Footer`
 
- _expression_ A variable that represents a [HeadersFooters](./PowerPoint.HeadersFooters.md) object.
+_expression_ A variable that represents a [HeadersFooters](PowerPoint.HeadersFooters.md) object.
 
 
 ## Return value

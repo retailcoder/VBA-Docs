@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Slide.SlideShowTransition property (PowerPoint)
 
-Returns a  **[SlideShowTransition](PowerPoint.SlideShowTransition.md)** object that represents the special effects for the specified slide transition. Read-only.
+Returns a **[SlideShowTransition](PowerPoint.SlideShowTransition.md)** object that represents the special effects for the specified slide transition. Read-only.
 
 
 ## Syntax
 
 _expression_. `SlideShowTransition`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

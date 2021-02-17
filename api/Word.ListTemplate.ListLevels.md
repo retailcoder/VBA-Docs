@@ -26,12 +26,12 @@ _expression_. `ListLevels`
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
-This example sets the variable myListTemp to the first list template (excluding None) on the  **Outline Numbered** tab in the **Bullets and Numbering** dialog box (**Format** menu). Each level in the list has a matching heading style linked to it.
+This example sets the variable myListTemp to the first list template (excluding None) on the **Outline Numbered** tab in the **Bullets and Numbering** dialog box (**Format** menu). Each level in the list has a matching heading style linked to it.
 
 
 ```vb

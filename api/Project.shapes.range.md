@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.Range method (Project)
-Returns a  **ShapeRange** object that represents a subset of shapes in the **Shapes** collection.
+Returns a **ShapeRange** object that represents a subset of shapes in the **Shapes** collection.
 
 ## Syntax
 
 _expression_.**Range** (_Index_)
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -37,9 +37,10 @@ The range of shapes that are specified by the  _Index_ parameter.
 ## Remarks
 
 
- **Note**  Most operations that you can do with a  **Shape** object you can also do with a **ShapeRange** object that contains a single shape. Some operations, when performed on a **ShapeRange** object that contains multiple shapes, produce an error.
+> [!NOTE] 
+> Most operations that you can do with a **Shape** object you can also do with a **ShapeRange** object that contains a single shape. Some operations, when performed on a **ShapeRange** object that contains multiple shapes, produce an error.
 
-Although you can use the  **Range** property to return any number of shapes on a report, it is simpler to use the default **Value** property to return a single **Shape** in the collection. For example, `Shapes(1)` is simpler than `Shapes.Range(1)`.
+Although you can use the **Range** property to return any number of shapes on a report, it is simpler to use the default **Value** property to return a single **Shape** in the collection. For example, `Shapes(1)` is simpler than `Shapes.Range(1)`.
 
 To specify an array of integers or strings for the  _Index_ parameter, you can use the **Array** function. For example, the following macro selects two shapes that are specified by name.
 

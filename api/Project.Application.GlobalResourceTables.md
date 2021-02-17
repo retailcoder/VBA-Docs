@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.GlobalResourceTables property (Project)
 
-Gets or sets a  **[Tables](Project.Table.md)** collection representing the resource tables of the Global.mpt file. Read/write **Tables**.
+Gets or sets a **[Tables](Project.Table.md)** collection representing the resource tables of the Global.mpt file. Read/write **Tables**.
 
 
 ## Syntax
 
 _expression_. `GlobalResourceTables`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks

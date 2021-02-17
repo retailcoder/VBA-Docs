@@ -21,12 +21,12 @@ Returns or sets a  **[Template](Word.Template.md)** or **[Document](Word.Documen
 
 _expression_. `CustomizationContext`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-Corresponds to the value of the  **Save in** box on the **Commands** tab in the **Customize** dialog box (**Tools** menu).
+Corresponds to the value of the **Save in** box on the **Commands** tab in the **Customize** dialog box (**Tools** menu).
 
 
 ## Example
@@ -41,7 +41,7 @@ KeyBindings.Add KeyCode:=BuildKeyCode(wdKeyControl, _
  KeyCategory:=wdKeyCategoryCommand, Command:="FileClose"
 ```
 
-This example adds the File Versions button to the Standard toolbar. The command bar customization is saved in the template attached to the active document.
+This example adds the File Versions button to the **Standard** toolbar. The command bar customization is saved in the template attached to the active document.
 
 
 

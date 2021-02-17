@@ -16,12 +16,14 @@ localization_priority: Normal
 
 Returns the parent object for the specified object.
 
+> [!IMPORTANT]
+> This property has been deprecated and is no longer supported.
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [Comments](./PowerPoint.Comments.md) object.
+_expression_ A variable that represents a **[Comments](PowerPoint.Comments.md)** object.
 
 
 ## Return value

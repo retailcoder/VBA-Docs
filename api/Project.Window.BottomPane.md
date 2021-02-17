@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Window.BottomPane property (Project)
 
-Gets a  **[Pane](Project.Pane.md)** object representing the bottom pane of a window. Read-only **Pane**.
+Gets a **[Pane](Project.Pane.md)** object representing the bottom pane of a window. Read-only **Pane**.
 
 
 ## Syntax
 
 _expression_. `BottomPane`
 
- _expression_ A variable that represents a [Window](./Project.Window.md) object.
+_expression_ A variable that represents a [Window](./Project.Window.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,9 +19,9 @@ Returns a unique number for the specified key combination.
 
 ## Syntax
 
-_expression_. `BuildKeyCode`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` )
+_expression_. `BuildKeyCode` (_Arg1_, _Arg2_, _Arg3_, _Arg4_)
 
- _expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
+_expression_ A variable that represents a '[Global](Word.Global.md)' object. Optional.
 
 
 ## Parameters
@@ -30,10 +30,10 @@ _expression_. `BuildKeyCode`( `_Arg1_` , `_Arg2_` , `_Arg3_` , `_Arg4_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Arg1_|Required| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
-| _Arg2_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
-| _Arg3_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
-| _Arg4_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the  **WdKey** constants.|
+| _Arg1_|Required| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
+| _Arg2_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
+| _Arg3_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
+| _Arg4_|Optional| **[WdKey](Word.WdKey.md)**|A key you specify by using one of the **WdKey** constants.|
 
 ## Example
 

@@ -21,7 +21,7 @@ Opens the **Build Team** dialog box if you are connected to Project Server and a
 
 _expression_. `AddResourcesFromProjectServer`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,12 +31,12 @@ _expression_. `AddResourcesFromProjectServer`
 
 ## Remarks
 
-The  **AddResourcesFromProjectServer** method is only available in resource views and returns a trappable error (error code 1100) when applied in a non-resource view.
+The **AddResourcesFromProjectServer** method is only available in resource views and returns a trappable error (error code 1100) when applied in a non-resource view.
 
 
 ## Example
 
-The following example displays the  **Build Team from Project Server** dialog box. First, Project adds the URL specified in **Collaboration Options** (**Collaborate** menu) to Microsoft Internet Explorer's list of trusted sites. Upon confirmation, Project switches to a **Resource Sheet** view and displays the **Build Team from Project Server** dialog box, if connected to My Computer in workgroup mode. Project displays the ** Build Team from <Project Name>** dialog box when connected to Project Server.
+The following example displays the **Build Team from Project Server** dialog box. First, Project adds the URL specified in **Collaboration Options** (**Collaborate** menu) to Microsoft Internet Explorer's list of trusted sites. Upon confirmation, Project switches to a **Resource Sheet** view and displays the **Build Team from Project Server** dialog box, if connected to My Computer in workgroup mode. Project displays the ** Build Team from <Project Name>** dialog box when connected to Project Server.
 
 
 ```vb

@@ -21,7 +21,7 @@ Occurs after a color scheme is changed.
 
 _expression_. `ColorSchemeChanged`( `_SldRange_` )
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ To access the  **Application** events, declare an **Application** variable in th
 
 ## Example
 
-This example displays a message when the color scheme for the selected slide or slides is changed. This example assumes an  **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
+This example displays a message when the color scheme for the selected slide or slides is changed. This example assumes an **Application** object called PPTApp has been declared by using the **WithEvents** keyword.
 
 
 ```vb

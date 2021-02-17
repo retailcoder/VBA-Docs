@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Paragraph.CollapsedState property (Word)
 
-Returns or sets whether the specified paragraph is currently in a collapsed state. Read-write  **Boolean**.
+Returns or sets whether the specified paragraph is currently in a collapsed state. Read/write  **Boolean**.
 
 
 ## Syntax
 
 _expression_. `CollapsedState`
 
- _expression_ A variable that represents a [Paragraph](./Word.Paragraph.md) object.
+_expression_ A variable that represents a [Paragraph](./Word.Paragraph.md) object.
 
 
 ## Property value

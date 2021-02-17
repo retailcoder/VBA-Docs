@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.OLEFormat property (PowerPoint)
 
-Returns an  **[OLEFormat](PowerPoint.OLEFormat.md)** object that contains OLE formatting properties for the specified shape. Applies to **Shape** or **ShapeRange** objects that represent OLE objects. Read-only.
+Returns an **[OLEFormat](PowerPoint.OLEFormat.md)** object that contains OLE formatting properties for the specified shape. Applies to **Shape** or **ShapeRange** objects that represent OLE objects. Read-only.
 
 
 ## Syntax
 
-_expression_. `OLEFormat`
+_expression_.**OLEFormat**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

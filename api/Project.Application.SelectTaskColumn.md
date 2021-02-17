@@ -21,7 +21,7 @@ Selects a column containing task information.
 
 _expression_. `SelectTaskColumn`( `_Column_`, `_Additional_`, `_Extend_`, `_Add_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,6 +42,6 @@ _expression_. `SelectTaskColumn`( `_Column_`, `_Additional_`, `_Extend_`, `_Add_
 
 ## Remarks
 
-The  **SelectTaskColumn** method is only available when the Gantt Chart, Task Sheet, or Task Usage view is the active view.
+The **SelectTaskColumn** method is only available when the Gantt Chart, Task Sheet, or Task Usage view is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

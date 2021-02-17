@@ -21,12 +21,12 @@ Returns or sets a  **Single** that represents the relative top position of a sha
 
 _expression_. `TopRelative`
 
- _expression_ An expression that returns a '[Shape](Word.Shape.md)' object.
+ _expression_ An expression that returns a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-Use this property with the  **[RelativeHorizontalPosition](Word.Shape.RelativeHorizontalPosition.md)** property. When set to **wdShapePositionRelativeNone** (-999999) (see the **[WdShapePositionRelative](Word.WdShapePositionRelative.md)** enumeration), this property should be ignored because the shape does not use percent positioning. The vertical position is solely determined by the **[Top](Word.Shape.Top.md)** property.
+Use this property with the **[RelativeHorizontalPosition](Word.Shape.RelativeHorizontalPosition.md)** property. When set to **wdShapePositionRelativeNone** (-999999) (see the **[WdShapePositionRelative](Word.WdShapePositionRelative.md)** enumeration), this property should be ignored because the shape does not use percent positioning. The vertical position is solely determined by the **[Top](Word.Shape.Top.md)** property.
 
 
 ## See also

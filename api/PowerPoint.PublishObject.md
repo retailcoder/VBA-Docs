@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # PublishObject object (PowerPoint)
 
-Represents a complete or partial loaded presentation that is available for publishing to HTML. The  **PublishObject** object is a member of the **[PublishObjects](PowerPoint.PublishObjects.md)** collection.
+Represents a complete or partial loaded presentation that is available for publishing to HTML. The **PublishObject** object is a member of the **[PublishObjects](PowerPoint.PublishObjects.md)** collection.
 
 
 ## Remarks
@@ -24,7 +24,7 @@ You can specify the content and attributes of the published presentation by sett
 
 ## Example
 
-Use  **PublishObjects** (index), where index is always "1", to return the single object for a loaded presentation. There can be only one **PublishObject** object for each loaded presentation. This example publishes slides three through five of presentation two to HTML. It names the published presentation Mallard.htm.
+Use  **PublishObjects** (_index_), where _index_ is always "1", to return the single object for a loaded presentation. There can be only one **PublishObject** object for each loaded presentation. This example publishes slides three through five of presentation two to HTML. It names the published presentation Mallard.htm.
 
 
 ```vb

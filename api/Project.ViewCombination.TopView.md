@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # ViewCombination.TopView property (Project)
 
-Gets or sets a  **[ViewSingle](Project.ViewSingle.md)** object representing the top view of the combination view. Read/write **ViewSingle**.
+Gets or sets a **[ViewSingle](Project.ViewSingle.md)** object representing the top view of the combination view. Read/write **ViewSingle**.
 
 
 ## Syntax
 
 _expression_. `TopView`
 
- _expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
+_expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

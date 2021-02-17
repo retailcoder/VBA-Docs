@@ -19,9 +19,9 @@ Returns a VBE object that represents the Visual Basic Editor.
 
 ## Syntax
 
-_expression_. `VBE`
+_expression_.**VBE**
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Example

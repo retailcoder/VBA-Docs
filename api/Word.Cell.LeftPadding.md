@@ -21,12 +21,12 @@ Returns or sets the amount of space (in points) to add to the left of the conten
 
 _expression_.**LeftPadding**
 
- _expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Remarks
 
-The setting of the  **LeftPadding** property for a single cell overrides the setting of the **LeftPadding** property for the entire table.
+The setting of the **LeftPadding** property for a single cell overrides the setting of the **LeftPadding** property for the entire table.
 
 
 ## Example

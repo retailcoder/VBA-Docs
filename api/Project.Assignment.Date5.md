@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Assignment.Date5 property (Project)
 
-Gets or sets the value of the  **Date5** custom field for the assignment. Read/write **Variant**.
+Gets or sets the value of the **Date5** custom field for the assignment. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Date5`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

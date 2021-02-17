@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # OMathMatCols.Add method (Word)
 
-Creates an equation column and adds it to a matrix and returns an  **OMathMatCol** object.
+Creates an equation column and adds it to a matrix and returns an **OMathMatCol** object.
 
 
 ## Syntax
 
-_expression_.**Add**( `_BeforeCol_` )
+_expression_.**Add** (_BeforeCol_)
 
  _expression_ An expression that returns a [OMathMatCols](./Word.OMathMatCols.md) object.
 

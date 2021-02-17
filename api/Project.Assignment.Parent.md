@@ -11,20 +11,20 @@ localization_priority: Normal
 
 # Assignment.Parent property (Project)
 
-Gets the parent of the  **Assignment** object. Read-only **Object**.
+Gets the parent of the **Assignment** object. Read-only **Object**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-The parent of an  **Assignment** object can be a **Task** or a **Resource**.
+The parent of an **Assignment** object can be a **Task** or a **Resource**.
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

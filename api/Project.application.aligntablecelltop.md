@@ -17,7 +17,7 @@ Aligns text at the top of the cell, for selected cells in a report table.
 
 _expression_. `AlignTableCellTop`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -27,7 +27,7 @@ _expression_. `AlignTableCellTop`
 
 ## Example
 
-In the following example, the  **AlignTableCells** macro aligns the text for all tables in the specified report.
+In the following example, the **AlignTableCells** macro aligns the text for all tables in the specified report.
 
 
 ```vb

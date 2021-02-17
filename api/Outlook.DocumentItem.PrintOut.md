@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # DocumentItem.PrintOut method (Outlook)
 
-Prints the Outlook item using all default settings.The  **PrintOut** method is the only Outlook method that can be used for printing.
+Prints the Outlook item using all default settings.The **PrintOut** method is the only Outlook method that can be used for printing.
 
 
 ## Syntax
 
-_expression_. `PrintOut`
+_expression_.**PrintOut**
 
 _expression_ A variable that represents a [DocumentItem](Outlook.DocumentItem.md) object.
 

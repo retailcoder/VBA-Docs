@@ -19,9 +19,9 @@ Returns or sets the size of the font. Read/write  **Variant**.
 
 ## Syntax
 
-_expression_. `Size`
+_expression_.**Size**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## Example

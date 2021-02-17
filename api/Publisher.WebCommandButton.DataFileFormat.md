@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.WebCommandButton.DataFileFormat
 ms.assetid: 7594b575-b39f-3cd4-d0b9-c13c04299345
-ms.date: 06/08/2017
+ms.date: 06/18/2019
 localization_priority: Normal
 ---
 
 
 # WebCommandButton.DataFileFormat property (Publisher)
 
-Sets or returns a  **PbSubmitDataFormatType** constant that represents the format to use when saving Web form data to a file. Read/write.
+Sets or returns a **[PbSubmitDataFormatType](Publisher.PbSubmitDataFormatType.md)** constant that represents the format to use when saving web form data to a file. Read/write.
 
 
 ## Syntax
 
 _expression_.**DataFileFormat**
 
- _expression_ A variable that represents a  **WebCommandButton** object.
+_expression_ A variable that represents a **[WebCommandButton](Publisher.WebCommandButton.md)** object.
 
 
 ## Return value
@@ -31,20 +31,19 @@ PbSubmitDataFormatType
 
 ## Remarks
 
-The  **DataFileFormat** property value can be one of the **[PbSubmitDataFormatType](Publisher.PbSubmitDataFormatType.md)** constants declared in the Microsoft Publisher type library.
+The **DataFileFormat** property value can be one of the **PbSubmitDataFormatType** constants declared in the Microsoft Publisher type library.
 
 
 ## Example
 
-This example sets Microsoft Publisher to process Web form data by saving it to a comma-delimited text file on the same Web server as the form is stored. (Note that Filename must be replaced with a valid file name for this example to work.)
-
+This example sets Microsoft Publisher to process web form data by saving it to a comma-delimited text file on the same web server as the form is stored. Note that `FileName` must be replaced with a valid file name for this example to work.
 
 ```vb
 Sub WebDataFile() 
  With ThisDocument.Pages(1).Shapes(1).WebCommandButton 
  .DataRetrievalMethod = pbSubmitDataRetrievalSaveOnServer 
  .DataFileFormat = pbSubmitDataFormatCSV 
- .DataFileName = "Filename" 
+ .DataFileName = "FileName" 
  End With 
 End Sub
 ```

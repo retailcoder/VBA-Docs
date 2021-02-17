@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.AddLabel method (Project)
-Creates a label in a report, and returns a  **Shape** object that represents the new label.
+Creates a label in a report, and returns a **Shape** object that represents the new label.
 
 ## Syntax
 
 _expression_. `AddLabel` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters

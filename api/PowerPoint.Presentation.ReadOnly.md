@@ -19,9 +19,9 @@ Returns whether the specified presentation is read-only. Read-only.
 
 ## Syntax
 
-_expression_. `ReadOnly`
+_expression_.**ReadOnly**
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

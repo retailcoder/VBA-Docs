@@ -21,7 +21,7 @@ Sets calculation options.
 
 _expression_. `OptionsCalculation`( `_Automatic_`, `_AutoTrack_`, `_SpreadPercentToStatusDate_`, `_SpreadCostsToStatusDate_`, `_AutoCalcCosts_`, `_FixedCostAccrual_`, `_CalcMultipleCriticalPaths_`, `_CriticalSlack_`, `_SetDefaults_`, `_CalcInsProjLikeSummTask_`, `_MoveCompleted_`, `_AndMoveRemaining_`, `_MoveRemaining_`, `_AndMoveCompleted_`, `_EVMethod_`, `_EVBaseline_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -54,8 +54,8 @@ _expression_. `OptionsCalculation`( `_Automatic_`, `_AutoTrack_`, `_SpreadPercen
 
 ## Remarks
 
-If an argument is omitted, its default value is specified by the setting on the  **Schedule** tab of the **Project Options** dialog box.
+If an argument is omitted, its default value is specified by the setting on the **Schedule** tab of the **Project Options** dialog box.
 
-Using the  **OptionsCalculation** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
+Using the **OptionsCalculation** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

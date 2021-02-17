@@ -4,7 +4,7 @@ ms.prod: visio
 api_name:
 - Visio.InvisibleApp.Application
 ms.assetid: 3d257372-c728-a758-9890-5cc695f70d89
-ms.date: 06/08/2017
+ms.date: 06/24/2019
 localization_priority: Normal
 ---
 
@@ -18,11 +18,11 @@ Returns the instance of Microsoft Visio that is associated with an object. Read-
 
 _expression_.**Application**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -18,11 +18,11 @@ Hides the Office task pane if it is visible.
 
 _expression_. `OfficeTaskPaneHide`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-To determine if the Office task pane is visible, use the  **[IsOfficeTaskPaneVisible](Project.Application.IsOfficeTaskPaneVisible.md)** method.
+To determine if the Office task pane is visible, use the **[IsOfficeTaskPaneVisible](Project.Application.IsOfficeTaskPaneVisible.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

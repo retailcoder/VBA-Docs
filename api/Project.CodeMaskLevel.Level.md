@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # CodeMaskLevel.Level property (Project)
 
-Gets the level number of the code mask, as it appears in the left column of the grid in the  **Code Mask Definition** dialog box. Read-only **Long**.
+Gets the level number of the code mask, as it appears in the left column of the grid in the **Code Mask Definition** dialog box. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_. `Level`
 
- _expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
+_expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

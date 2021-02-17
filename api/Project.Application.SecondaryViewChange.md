@@ -18,7 +18,7 @@ Event occurs when a secondary view pane changes within a project window.
 
 _expression_. `SecondaryViewChange`( `_Window_`, `_prevView_`, `_newView_`, `_success_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -34,6 +34,6 @@ _expression_. `SecondaryViewChange`( `_Window_`, `_prevView_`, `_newView_`, `_su
 
 ## Return value
 
-nothing
+**Nothing**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

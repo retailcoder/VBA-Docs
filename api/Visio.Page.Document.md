@@ -19,9 +19,9 @@ Gets the  **Document** object that is associated with an object. Read-only.
 
 ## Syntax
 
-_expression_. `Document`
+_expression_.**Document**
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Document
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVPage.Document**

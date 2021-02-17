@@ -21,14 +21,14 @@ localization_priority: Normal
 
 _expression_. `CheckIfWordIsDefaultHTMLEditor`
 
- _expression_ A variable that represents a '[DefaultWebOptions](Word.DefaultWebOptions.md)' object.
+_expression_ A variable that represents a **[DefaultWebOptions](Word.DefaultWebOptions.md)** object.
 
 
 ## Remarks
 
-The  **CheckIfWordIsDefaultHTMLEditor** property returns **False** if Word does not perform this check. The default value is **True**.
+The **CheckIfWordIsDefaultHTMLEditor** property returns **False** if Word does not perform this check. The default value is **True**.
 
-This property is used only if the Web browser you are using supports HTML editing and HTML editors. To use a different HTML editor, you must set this property to  **False** and then register the editor as the default system HTML editor.
+This property is used only if the web browser you are using supports HTML editing and HTML editors. To use a different HTML editor, you must set this property to  **False** and then register the editor as the default system HTML editor.
 
 
 ## Example

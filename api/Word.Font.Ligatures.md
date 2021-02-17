@@ -21,12 +21,12 @@ Returns or sets the ligatures setting for the specified  **Font** object. Read/w
 
 _expression_. `Ligatures`
 
- _expression_ An expression that returns a '[Font](Word.Font.md)' object.
+ _expression_ An expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-Open Type fonts support the use of ligatures. The  **Ligatures** property specifies the Word ligatures setting to apply to an Open Type font.
+Open Type fonts support the use of ligatures. The **Ligatures** property specifies the Word ligatures setting to apply to an Open Type font.
 
 The following table lists the four basic values for ligatures.
 

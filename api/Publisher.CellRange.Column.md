@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.CellRange.Column
 ms.assetid: 77925e68-c8ff-9732-32c4-4f082eb3fd1c
-ms.date: 06/08/2017
+ms.date: 06/06/2019
 localization_priority: Normal
 ---
 
 
 # CellRange.Column property (Publisher)
 
-Returns a  **Long** that represents the table column containing the specified cell. Read-only.
+Returns a **Long** that represents the table column containing the specified cell. Read-only.
 
 
 ## Syntax
 
 _expression_.**Column**
 
- _expression_ A variable that represents a  **CellRange** object.
+_expression_ A variable that represents a **[CellRange](Publisher.CellRange.md)** object.
 
 
 ## Example
 
 This example adds a page to the active publication, creates a table on that new page, and diagonally splits all cells in even-numbered columns.
-
 
 ```vb
 Sub CreateNewTable() 

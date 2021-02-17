@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # OMathBreaks.Add method (Word)
 
-Inserts a break into an equation and returns an  **OMathBreak** object that represents the break.
+Inserts a break into an equation and returns an **OMathBreak** object that represents the break.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Range_` )
+_expression_.**Add** (_Range_)
 
  _expression_ An expression that returns a [OMathBreaks](./Word.OMathBreaks.md) object.
 

@@ -18,11 +18,11 @@ Gets or sets the way Project Professional users are identified to Project Server
 
 _expression_. `ServerIdentification`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **ServerIdentification** property can be one of the following **[PjAuthentication](Project.PjAuthentication.md)** constants: **pjWindowsUserAccount** or **pjUserName**.
+The **ServerIdentification** property can be one of the following **[PjAuthentication](Project.PjAuthentication.md)** constants: **pjWindowsUserAccount** or **pjUserName**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

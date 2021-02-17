@@ -21,19 +21,19 @@ Controls whether text enclosed in chevron characters (« ») is converted to mer
 
 _expression_. `ConvertMacWordChevrons`
 
- _expression_ A variable that represents a '[FileConverters](Word.fileconverters.md)' collection.
+_expression_ A variable that represents a '[FileConverters](Word.fileconverters.md)' collection.
 
 
 ## Remarks
 
-The  **ConvertMacWordChevrons** property can be any **WdChevronConvertRule** constants.
+The **ConvertMacWordChevrons** property can be any **WdChevronConvertRule** constants.
 
 Word for the Macintosh version 4.0 and 5.x documents use chevron characters to denote mail merge fields.
 
 
 ## Example
 
-This example sets the  **ConvertMacWordChevrons** property to convert the text enclosed in chevrons to mail merge fields, and then it opens the document named "Mac Word Document."
+This example sets the **ConvertMacWordChevrons** property to convert the text enclosed in chevrons to mail merge fields, and then it opens the document named "Mac Word Document."
 
 
 ```vb

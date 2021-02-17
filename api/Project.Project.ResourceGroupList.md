@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Project.ResourceGroupList property (Project)
 
-Gets a  **[List](Project.List.md)** object representing the resource groups in the active project. Read-only **List**.
+Gets a **[List](Project.List.md)** object representing the resource groups in the active project. Read-only **List**.
 
 
 ## Syntax
 
 _expression_. `ResourceGroupList`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

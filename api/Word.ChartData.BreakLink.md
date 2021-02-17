@@ -21,17 +21,17 @@ Removes the link between the data for a chart and a Microsoft Excel workbook.
 
 _expression_. `BreakLink`
 
- _expression_ A variable that represents a '[ChartData](Word.ChartData.md)' object.
+_expression_ A variable that represents a '[ChartData](Word.ChartData.md)' object.
 
 
 ## Remarks
 
-Calling this method sets the  **[IsLinked](Word.ChartData.IsLinked.md)** property of the **ChartData** object to **False**.
+Calling this method sets the **[IsLinked](Word.ChartData.IsLinked.md)** property of the **ChartData** object to **False**.
 
 
 ## Example
 
-The following example removes the link between the  **ChartData** object for the first chart in the active document and the Excel workbook that provided the data for the chart.
+The following example removes the link between the **ChartData** object for the first chart in the active document and the Excel workbook that provided the data for the chart.
 
 
 ```vb

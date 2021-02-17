@@ -19,14 +19,14 @@ Opens a message window for sending the specified document through Microsoft Exch
 
 ## Syntax
 
-_expression_. `SendMail`
+_expression_.**SendMail**
 
 _expression_ Required. A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **SendMailAttach** property to control whether the document is sent as text in the message window or as an attachment.
+Use the **SendMailAttach** property to control whether the document is sent as text in the message window or as an attachment.
 
 
 ## Example

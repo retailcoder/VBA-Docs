@@ -19,9 +19,9 @@ Returns or sets the alignment for the specified phonetic text or tick label. Rea
 
 ## Syntax
 
-_expression_. `Alignment`
+_expression_.**Alignment**
 
- _expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
+_expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
 
 
 ## See also

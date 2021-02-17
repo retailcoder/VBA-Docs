@@ -21,7 +21,7 @@ Sets the value of the active cell.
 
 _expression_. `SetActiveCell`( `_Value_`, `_Create_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,7 @@ _expression_. `SetActiveCell`( `_Value_`, `_Create_` )
 
 ## Remarks
 
-The  **SetActiveCell** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
+The **SetActiveCell** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
 
 
 ## Example

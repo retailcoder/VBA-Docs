@@ -21,7 +21,7 @@ Displays or hides a specific pane in the explorer.
 
 _expression_. `ShowPane`( `_Pane_` , `_Visible_` )
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,8 @@ _expression_ A variable that represents an [Explorer](Outlook.Explorer.md) objec
 
 
 
- **Note**  You can also use the  **[Visible](Outlook.OutlookBarPane.Visible.md)** property of the **[OutlookBarPane](Outlook.OutlookBarPane.md)** object to display or hide the Outlook Bar.
+> [!NOTE] 
+> You can also use the  **[Visible](Outlook.OutlookBarPane.Visible.md)** property of the **[OutlookBarPane](Outlook.OutlookBarPane.md)** object to display or hide the Outlook Bar.
 
 
 ## Example

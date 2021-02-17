@@ -19,9 +19,9 @@ Determines whether Microsoft Visio uses an animated transition to show certain s
 
 ## Syntax
 
-_expression_. `TransitionsEnabled`
+_expression_.**TransitionsEnabled**
 
- _expression_ A variable that represents an '[ApplicationSettings](Visio.ApplicationSettings.md)' object.
+_expression_ A variable that represents an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value

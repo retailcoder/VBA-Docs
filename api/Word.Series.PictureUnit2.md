@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Series.PictureUnit2 property (Word)
 
-Returns or sets the unit for each picture on the chart if the  **[PictureType](Word.Series.PictureType.md)** property is set to **xlStackScale**; otherwise, this property is ignored. Read/write **Double**.
+Returns or sets the unit for each picture on the chart if the **[PictureType](Word.Series.PictureType.md)** property is set to **xlStackScale**; otherwise, this property is ignored. Read/write **Double**.
 
 
 ## Syntax
 
-_expression_. `PictureUnit2`
+_expression_.**PictureUnit2**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Example

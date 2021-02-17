@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Presentation.ChartDataPointTrack property (PowerPoint)
 
-Returns or sets a  **Boolean** that specifies whether charts use cell-reference data-point tracking. Read-write.
+Returns or sets a **Boolean** that specifies whether charts use cell-reference data-point tracking. Read/write.
 
 
 ## Syntax
 
 _expression_. `ChartDataPointTrack`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Property value

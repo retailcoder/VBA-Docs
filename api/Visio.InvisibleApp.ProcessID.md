@@ -19,9 +19,9 @@ Returns the unique identity of the current Microsoft Visio process. Read-only.
 
 ## Syntax
 
-_expression_. `ProcessID`
+_expression_.**ProcessID**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
@@ -34,7 +34,8 @@ _expression_. `ProcessID`
 The  **ProcessID** property returns a value unique to the indicated instance. The application doesn't reuse the value until 4294967296 (2^32) more threads have been created on the current workstation.
 
 
- **Important**  The value returned by  **ProcessID** is not the same as the Windows Process ID of the current Visio instance.
+> [!IMPORTANT] 
+> The value returned by  **ProcessID** is not the same as the Windows Process ID of the current Visio instance.
 
 
 ## Example

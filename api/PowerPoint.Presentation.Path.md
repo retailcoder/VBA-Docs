@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.Path property (PowerPoint)
 
-Returns a  **String** that represents the path to the specified **[Presentation](PowerPoint.Presentation.md)** object. Read-only.
+Returns a **String** that represents the path to the specified **[Presentation](PowerPoint.Presentation.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Path**
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

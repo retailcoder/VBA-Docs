@@ -21,7 +21,7 @@ Sets attributes associated with a custom field.
 
 _expression_. `CustomFieldPropertiesEx`( `_FieldID_`, `_Attribute_`, `_SummaryCalc_`, `_GraphicalIndicators_`, `_Required_`, `_AutomaticallyRolldownToAssn_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,9 +30,9 @@ _expression_. `CustomFieldPropertiesEx`( `_FieldID_`, `_Attribute_`, `_SummaryCa
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|The custom field. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Attribute_|Optional|**Long**|The attribute to associate with the field specified with FieldID. Can be one of the following  **[PjCustomFieldAttribute](Project.PjCustomFieldAttribute.md)** constants: **pjFieldAttributeNone**, **pjFieldAttributeFormula**, or **pjFieldAttributeValueList**.|
-| _SummaryCalc_|Optional|**Long**|The calculation to be performed on the custom field for summary rows and grouping summary rows. Can be one of the  **[PjSummaryCalc](Project.PjSummaryCalc.md)** constants.|
+| _SummaryCalc_|Optional|**Long**|The calculation to be performed on the custom field for summary rows and grouping summary rows. Can be one of the **[PjSummaryCalc](Project.PjSummaryCalc.md)** constants.|
 | _GraphicalIndicators_|Optional|**Boolean**|**True** if graphical indicators display instead of data for the custom field.|
 | _Required_|Optional|**Boolean**|**True** if the custom field is required.|
 | _AutomaticallyRolldownToAssn_|Optional|**Boolean**|**True** if the custom field automatically rolls down to assignments.|

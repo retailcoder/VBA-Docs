@@ -21,12 +21,12 @@ Returns or sets the time interval in minutes for saving AutoRecover information.
 
 _expression_. `SaveInterval`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Set the  **SaveInterval** property to 0 (zero) to turn off saving AutoRecover information.
+Set the **SaveInterval** property to 0 (zero) to turn off saving AutoRecover information.
 
 
 ## Example
@@ -47,7 +47,7 @@ This example prevents Word from saving AutoRecover information.
 Options.SaveInterval = 0
 ```
 
-This example returns the current status of the  **Save AutoRecover info every** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Save AutoRecover info every** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
 
 
 

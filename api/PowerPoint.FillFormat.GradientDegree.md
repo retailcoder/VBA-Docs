@@ -19,9 +19,9 @@ Returns a value that indicates how dark or light a one-color gradient fill is. R
 
 ## Syntax
 
-_expression_. `GradientDegree`
+_expression_.**GradientDegree**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -38,7 +38,7 @@ This property is read-only. Use the  **[OneColorGradient](PowerPoint.FillFormat.
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ and sets the degree of its fill gradient to match that of the shape named "Rectangle 2." If Rectangle 2 doesn't have a one-color gradient fill, this example fails.
+This example adds a rectangle to _myDocument_ and sets the degree of its fill gradient to match that of the shape named "Rectangle 2." If Rectangle 2 doesn't have a one-color gradient fill, this example fails.
 
 
 ```vb

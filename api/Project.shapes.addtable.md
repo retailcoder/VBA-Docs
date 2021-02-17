@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.AddTable method (Project)
-Adds a table to the report, and returns a  **Shape** object that represents the table.
+Adds a table to the report, and returns a **Shape** object that represents the table.
 
 ## Syntax
 
 _expression_. `AddTable` _(NumRows,_ _NumColumns,_ _Left,_ _Top,_ _Width,_ _Height)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -54,7 +54,7 @@ Project ignores  _NumRows_ and _NumColumns_ when the **AddTable** method creates
 
 ## Example
 
-The  **TestReportTable** macro creates the table shown in Figure 1, and then selects the table to display the **Table Data** task pane.
+The **TestReportTable** macro creates the table shown in Figure 1, and then selects the table to display the **Table Data** task pane.
 
 
 ```vb
@@ -100,7 +100,7 @@ Sub TestReportTable()
 End Sub
 ```
 
-To specify fields for the table, use the  **UpdateTableData** method. Add the following code after the `Set theReportTable = tableShape.Table` line in the previous macro. The _OutlineLevel_ parameter specifies level 1 tasks, and filters out the project summary task.
+To specify fields for the table, use the **UpdateTableData** method. Add the following code after the `Set theReportTable = tableShape.Table` line in the previous macro. The _OutlineLevel_ parameter specifies level 1 tasks, and filters out the project summary task.
 
 
 

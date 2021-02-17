@@ -7,7 +7,7 @@ ms.prod: visio
 api_name:
 - Visio.AccelItems.Add
 ms.assetid: f21034e3-0fbb-6291-ca56-81445a585def
-ms.date: 06/08/2017
+ms.date: 06/24/2019
 localization_priority: Normal
 ---
 
@@ -21,19 +21,18 @@ Adds a new object to a collection.
 
 _expression_.**Add**
 
- _expression_ A variable that represents an [AccelItems](./Visio.AccelItems.md) collection.
+_expression_ A variable that represents an **[AccelItems](Visio.AccelItems.md)** object.
 
 
 ## Return value
 
-AccelItem
+**[AccelItem](Visio.AccelItem.md)**
 
 
 ## Remarks
 
-
- **Note**  
-
 All properties of the new object are initialized to zero, so you need to set only the properties that you want to change.
+
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

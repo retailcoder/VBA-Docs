@@ -17,14 +17,15 @@ localization_priority: Normal
 Breaks the link between the shape and the data row to which it is linked in the specified data recordset.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `BreakLinkToData`( `_DataRecordsetID_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters

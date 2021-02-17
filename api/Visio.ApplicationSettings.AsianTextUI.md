@@ -19,9 +19,9 @@ Gets whether Asian text is displayed in the Microsoft Visio user interface. Read
 
 ## Syntax
 
-_expression_. `AsianTextUI`
+_expression_.**AsianTextUI**
 
- _expression_ An expression that returns a [ApplicationSettings](./Visio.ApplicationSettings.md) object.
+ _expression_ An expression that returns an **[ApplicationSettings](Visio.ApplicationSettings.md)** object.
 
 
 ## Return value

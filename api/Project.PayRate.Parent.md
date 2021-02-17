@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # PayRate.Parent property (Project)
 
-Gets the parent of the  **PayRate** object. Read-only **Resource**.
+Gets the parent of the **PayRate** object. Read-only **Resource**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
+_expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

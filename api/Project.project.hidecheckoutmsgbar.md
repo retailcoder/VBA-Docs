@@ -17,7 +17,7 @@ Hides the project checkout message bar.
 
 _expression_. `HideCheckoutMsgBar`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Return value
@@ -27,7 +27,7 @@ _expression_. `HideCheckoutMsgBar`
 
 ## Remarks
 
-The checkout message bar is the yellow information bar near the top of the Project window that shows  **READ-ONLY This project was opened in read-only mode**, and contains a  **Check Out** button. If the checkout message bar is not visible, the **HideCheckoutMsgBar** method displays run-time error 1004, "An unexpected error occurred with the method."
+The checkout message bar is the yellow information bar near the top of the Project window that shows  **READ-ONLY This project was opened in read-only mode**, and contains a **Check Out** button. If the checkout message bar is not visible, the **HideCheckoutMsgBar** method displays run-time error 1004, "An unexpected error occurred with the method."
 
 
 ## Example

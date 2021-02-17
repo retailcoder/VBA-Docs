@@ -19,9 +19,9 @@ Returns an object from a collection. The  **Item** property is the default prope
 
 ## Syntax
 
-_expression_. `Item`( `_lIndex_` )
+_expression_.**Item** (_lIndex_)
 
- _expression_ A variable that represents a [ToolbarSets](./Visio.ToolbarSets.md) collection.
+_expression_ A variable that represents a **[ToolbarSets](Visio.ToolbarSets.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,8 @@ ToolbarSet
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 When retrieving objects from a collection, you can omit  **Item** from the expression because it is the default property for all collections. The following statement is equivalent to the syntax example given above:
 

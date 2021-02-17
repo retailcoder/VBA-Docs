@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # ShapeRange.Chart property (Project)
-Gets a  **Chart** object that represents the chart contained in the shape range. Read-only **Chart**.
+Gets a **Chart** object that represents the chart contained in the shape range. Read-only **Chart**.
 
 ## Syntax
 
 _expression_.**Chart**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

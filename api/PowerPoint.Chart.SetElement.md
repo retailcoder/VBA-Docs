@@ -43,7 +43,7 @@ For charts, the following commands in the  **Layout** tab correspond to the **Se
     
 - Everything in the  **Analysis** group.
     
--  **PlotArea**,  **Chart Wall**, and  **Chart Floor** buttons.
+- **PlotArea**,  **Chart Wall**, and  **Chart Floor** buttons.
     
 
 
@@ -55,7 +55,8 @@ For charts, the following commands in the  **Layout** tab correspond to the **Se
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets chart elements by using the various constant values to an active chart.
 

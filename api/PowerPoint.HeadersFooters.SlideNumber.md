@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # HeadersFooters.SlideNumber property (PowerPoint)
 
-Returns a  **[HeaderFooter](PowerPoint.HeaderFooter.md)** object that represents the slide number in the lower-right corner of a slide, or the page number in the lower-right corner of a notes page or a page of a printed handout or outline. Read-only.
+Returns a **[HeaderFooter](PowerPoint.HeaderFooter.md)** object that represents the slide number in the lower-right corner of a slide, or the page number in the lower-right corner of a notes page or a page of a printed handout or outline. Read-only.
 
 
 ## Syntax
 
 _expression_. `SlideNumber`
 
- _expression_ A variable that represents a [HeadersFooters](./PowerPoint.HeadersFooters.md) object.
+_expression_ A variable that represents a [HeadersFooters](PowerPoint.HeadersFooters.md) object.
 
 
 ## Return value

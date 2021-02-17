@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `DisplayVerticalRuler`
 
- _expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## Remarks
 
-A vertical ruler appears only in print layout view, and only if the  **DisplayRulers** property is set to **True**.
+A vertical ruler appears only in print layout view, and only if the **DisplayRulers** property is set to **True**.
 
 
 ## Example

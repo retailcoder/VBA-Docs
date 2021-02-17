@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Pane.Selection property (Word)
 
-Returns the  **Selection** object that represents a selection or the insertion point within a document pane. Read-only.
+Returns the **Selection** object that represents a selection or the insertion point within a document pane. Read-only.
 
 
 ## Syntax
 
 _expression_.**Selection**
 
- _expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
+_expression_ A variable that represents a '[Pane](Word.Pane.md)' object.
 
 
 ## See also

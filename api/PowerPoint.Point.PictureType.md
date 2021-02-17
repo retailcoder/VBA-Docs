@@ -16,9 +16,9 @@ Returns or sets a value that specifies how pictures are displayed on a column or
 
 ## Syntax
 
-_expression_. `PictureType`
+_expression_.**PictureType**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## See also

@@ -18,12 +18,12 @@ Gets the code name for the project. Read-only  **String**.
 
 _expression_. `CodeName`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The code name is the name of the module that stores event macros (and other macros you may have defined) for a project. The default name for the module is "ThisProject"; you can view it in the  **Project** window in the Visual Basic Editor.
+The code name is the name of the module that stores event macros (and other macros you may have defined) for a project. The default name for the module is "ThisProject"; you can view it in the **Project** window in the Visual Basic Editor.
 
 Changing the project name doesn't change the code name, and changing the code name (using the  Properties window in the Visual Basic Editor) doesn't change the project name.
 

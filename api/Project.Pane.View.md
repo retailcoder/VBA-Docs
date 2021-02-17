@@ -16,9 +16,9 @@ Returns the active  **View** object.
 
 ## Syntax
 
-_expression_. `View`
+_expression_.**View**
 
- _expression_ A variable that represents a [Pane](./Project.Pane.md) object.
+_expression_ A variable that represents a [Pane](./Project.Pane.md) object.
 
 
 ## Return value
@@ -28,7 +28,7 @@ _expression_. `View`
 
 ## Example
 
-The following statement prints the name of the view in the  **Immediate** window in the VBE. For example, if the Team Planner view is active, the statement prints "Team Planner".
+The following statement prints the name of the view in the Immediate window in the VBE. For example, if the Team Planner view is active, the statement prints "Team Planner".
 
 
 ```vb

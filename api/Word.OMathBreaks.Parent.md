@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathBreaks.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathBreaks** object.
+Returns an **Object** that represents the parent object of the specified **OMathBreaks** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathBreaks](Word.OMathBreaks.md)' object.
+_expression_ A variable that represents a '[OMathBreaks](Word.OMathBreaks.md)' object.
 
 
 ## See also

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathLimUpp.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathLimUpp** object.
+Returns an **Object** that represents the parent object of the specified **OMathLimUpp** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathLimUpp](Word.OMathLimUpp.md)' object.
+_expression_ A variable that represents a '[OMathLimUpp](Word.OMathLimUpp.md)' object.
 
 
 ## See also

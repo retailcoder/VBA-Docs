@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.DefaultShape property (PowerPoint)
 
-Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the default shape for the presentation. Read-only.
+Returns a **[Shape](PowerPoint.Shape.md)** object that represents the default shape for the presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `DefaultShape`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Task.Resources property (Project)
 
-Gets a  **[Resources](Project.Resource.md)** collection that contains the resources assigned to the task. Read-only **Resources**.
+Gets a **[Resources](Project.Resource.md)** collection that contains the resources assigned to the task. Read-only **Resources**.
 
 
 ## Syntax
 
 _expression_. `Resources`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

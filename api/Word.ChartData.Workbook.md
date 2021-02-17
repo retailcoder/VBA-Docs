@@ -19,9 +19,9 @@ Returns the workbook that contains the chart data associated with the chart. Rea
 
 ## Syntax
 
-_expression_. `Workbook`
+_expression_.**Workbook**
 
- _expression_ A variable that represents a '[ChartData](Word.ChartData.md)' object.
+_expression_ A variable that represents a '[ChartData](Word.ChartData.md)' object.
 
 
 ## Remarks
@@ -29,7 +29,8 @@ _expression_. `Workbook`
 
 
 
- **Note**  You must call the  **[Activate](Word.ChartData.Activate.md)** method before referencing this property; otherwise, an error occurs.
+> [!NOTE] 
+> You must call the **[Activate](Word.ChartData.Activate.md)** method before referencing this property; otherwise, an error occurs.
 
 
 ## Example

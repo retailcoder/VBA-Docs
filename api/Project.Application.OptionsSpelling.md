@@ -21,7 +21,7 @@ Sets options for the spelling checker.
 
 _expression_. `OptionsSpelling`( `_TaskName_`, `_TaskNotes_`, `_TaskText1_`, `_TaskText2_`, `_TaskText3_`, `_TaskText4_`, `_TaskText5_`, `_TaskText6_`, `_TaskText7_`, `_TaskText8_`, `_TaskText9_`, `_TaskText10_`, `_ResourceCode_`, `_ResourceName_`, `_ResourceNotes_`, `_ResourceGroup_`, `_ResourceText1_`, `_ResourceText2_`, `_ResourceText3_`, `_ResourceText4_`, `_ResourceText5_`, `_AssignNotes_`, `_IgnoreUppercase_`, `_IgnoreNumberWords_`, `_AlwaysSuggest_`, `_UseCustomDictionary_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -64,13 +64,14 @@ _expression_. `OptionsSpelling`( `_TaskName_`, `_TaskNotes_`, `_TaskText1_`, `_T
 
 ## Remarks
 
-If an argument is omitted, the default value is specified by the setting on the  **Proofing** tab of the **Project Options** dialog box.
+If an argument is omitted, the default value is specified by the setting on the **Proofing** tab of the **Project Options** dialog box.
 
 
- **Note**  The list of fields to check for spelling on the  **Proofing** tab includes fields up to **Text30** for task, resource, and assignment custom fields.
+> [!NOTE] 
+> The list of fields to check for spelling on the **Proofing** tab includes fields up to **Text30** for task, resource, and assignment custom fields.
 
-Using the  **OptionsSpelling** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
+Using the **OptionsSpelling** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
 
-You can also use the  **[SpellCheckField](Project.Application.SpellCheckField.md)** method to change the state of a spell check field.
+You can also use the **[SpellCheckField](Project.Application.SpellCheckField.md)** method to change the state of a spell check field.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

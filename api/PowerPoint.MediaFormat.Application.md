@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # MediaFormat.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ An expression that returns a [MediaFormat](./PowerPoint.MediaFormat.md) object.
+ _expression_ An expression that returns a [MediaFormat](PowerPoint.MediaFormat.md) object.
 
 
 ## Return value

@@ -21,7 +21,7 @@ Returns or sets the intensity of the extrusion lighting. Read/write.
 
 _expression_. `PresetLightingSoftness`
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -43,7 +43,7 @@ The value of the  **PresetLightingSoftness** property can be one of these **MsoP
 
 ## Example
 
-This example specifies that the extrusion for shape one on  _myDocument_ be lit brightly from the left.
+This example specifies that the extrusion for shape one on _myDocument_ be lit brightly from the left.
 
 
 ```vb

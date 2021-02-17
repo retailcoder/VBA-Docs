@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.SelectAll method (Project)
-Selects all shapes in the  **Shapes** collection.
+Selects all shapes in the **Shapes** collection.
 
 ## Syntax
 
-_expression_. `SelectAll`
+_expression_.**SelectAll**
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Return value

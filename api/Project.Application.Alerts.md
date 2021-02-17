@@ -21,7 +21,7 @@ Determines whether alerts appear when a macro runs.
 
 _expression_. `Alerts`( `_Show_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `Alerts`( `_Show_` )
 
 ## Remarks
 
-The  **Alerts** method applies only to the macro that contains the method.
+The **Alerts** method applies only to the macro that contains the method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # DocumentWindow.Panes property (PowerPoint)
 
-Returns a  **[Panes](PowerPoint.Panes.md)** collection that represents the panes in the document window. Read-only.
+Returns a **[Panes](PowerPoint.Panes.md)** collection that represents the panes in the document window. Read-only.
 
 
 ## Syntax
 
-_expression_. `Panes`
+_expression_.**Panes**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value

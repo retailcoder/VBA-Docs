@@ -21,12 +21,12 @@ Returns a  **[KeyBindings](Word.keybindings.md)** collection that represents cus
 
 _expression_. `KeyBindings`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example
 
-This example assigns the CTRL+ALT+W key combination to the  **FileClose** command. This keyboard customization is saved in the Normal template.
+This example assigns the CTRL+ALT+W key combination to the **FileClose** command. This keyboard customization is saved in the Normal template.
 
 
 ```vb

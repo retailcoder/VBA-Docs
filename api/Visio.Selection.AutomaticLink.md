@@ -17,14 +17,15 @@ localization_priority: Normal
 Links selected shapes to data rows in the specified data recordset automatically, without requiring you to specify the exact correspondence of all shapes and data rows. Returns the number of shapes linked.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `AutomaticLink`( `_DataRecordsetID_` , `_ColumnNames()_` , `_AutoLinkFieldTypes()_` , `_FieldNames()_` , `_AutoLinkBehavior_` , `_ShapeIDs()_` )
 
- _expression_ An expression that returns a [Selection](./Visio.Selection.md) object.
+ _expression_ An expression that returns a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters
@@ -84,7 +85,7 @@ If you pass a value for AutoLinkBehavior, it modifies the default behavior, whic
     
 For the ShapeIDs() parameter, pass an empty, dimensionless array of type  **Long**. Visio will return the array filled with the IDs of the shapes that were linked to data by the method.
 
-To provide Visio with enough information to create the links, you must supply at least one set of matching data: the name of a column in the data recordset, a shape attribute type, and, if necessary, a shape value, all at the same index position of the corresponding arrays you pass to the method. The shape attribute type indicates the attribute of the shape to base the matching upon. The attribute can be the value of a shape data item, shape text, or another of the values specified in the  **VisAutoLinkFieldTypes** enumeration.
+To provide Visio with enough information to create the links, you must supply at least one set of matching data: the name of a column in the data recordset, a shape attribute type, and if necessary, a shape value, all at the same index position of the corresponding arrays that you pass to the method. The shape attribute type indicates the attribute of the shape to base the matching upon. The attribute can be the value of a shape data item, shape text, or another of the values specified in the  **VisAutoLinkFieldTypes** enumeration.
 
 For example, say that your drawing contains a selection of shapes representing different employees and that the shape text, which in this case displays the respective employee's names, identifies the shapes. As shown in the example in this topic, you would pass the method the following parameters:
 
@@ -93,7 +94,7 @@ For example, say that your drawing contains a selection of shapes representing d
     
 - For the AutoLinkFieldTypes() parameter, enumeration value  **visAutoLinkShapeText** at array position 0.
     
-- For the FieldNames() parameter, an empty string (''") at array position 0, because, when AutoLinkFieldTypes() is  **visAutoLinkShapeText**, it is not necessary to specify the FieldNames() value.
+- For the FieldNames() parameter, an empty string (''") at array position 0, because, when AutoLinkFieldTypes() is **visAutoLinkShapeText**, it is not necessary to specify the FieldNames() value.
     
 
 ## Example

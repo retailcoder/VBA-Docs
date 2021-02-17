@@ -21,7 +21,7 @@ Returns a date in the specified format.
 
 _expression_. `DateFormat`( `_Date_`, `_Format_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_. `DateFormat`( `_Date_`, `_Format_` )
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Date_|Required|**Variant**|The date to format.|
-| _Format_|Optional|**Long**|The date format. Can be one of the  **[PjDateFormat](Project.PjDateFormat.md)** constants. The default value is **pjDateDefault**.|
+| _Format_|Optional|**Long**|The date format. Can be one of the **[PjDateFormat](Project.PjDateFormat.md)** constants. The default value is **pjDateDefault**.|
 
 ## Return value
 

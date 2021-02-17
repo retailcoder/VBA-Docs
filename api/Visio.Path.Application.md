@@ -21,12 +21,12 @@ Returns the instance of Microsoft Visio that is associated with an object. Read-
 
 _expression_.**Application**
 
- _expression_ A variable that represents a [Path](./Visio.Path.md) object.
+_expression_ A variable that represents a **[Path](Visio.Path.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Example

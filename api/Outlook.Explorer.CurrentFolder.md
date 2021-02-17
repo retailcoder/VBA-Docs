@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.CurrentFolder property (Outlook)
 
-Returns or sets a  **[Folder](Outlook.Folder.md)** object that represents the current folder displayed in the explorer. Read/write.
+Returns or sets a **[Folder](Outlook.Folder.md)** object that represents the current folder displayed in the explorer. Read/write.
 
 
 ## Syntax
 
 _expression_. `CurrentFolder`
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Remarks

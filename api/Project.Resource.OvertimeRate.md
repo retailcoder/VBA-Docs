@@ -18,12 +18,12 @@ Gets or sets the overtime rate of a resource. Read/write  **Variant**.
 
 _expression_. `OvertimeRate`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **OvertimeRate** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
+The **OvertimeRate** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
 
 
 ## Example

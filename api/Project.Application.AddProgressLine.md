@@ -21,7 +21,7 @@ Enters interactive progress line mode, enabling the user to manually draw progre
 
 _expression_. `AddProgressLine`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,8 +31,8 @@ _expression_. `AddProgressLine`
 
 ## Remarks
 
-The  **AddProgressLine** method has no effect unless the active view is a Gantt view.
+The **AddProgressLine** method has no effect unless the active view is a Gantt view.
 
-The  **AddProgressLine** method requires user interaction before additional code can be executed.
+The **AddProgressLine** method requires user interaction before additional code can be executed.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

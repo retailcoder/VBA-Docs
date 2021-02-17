@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Report.Index property (Project)
-Gets the index of a custom report in the  **Reports** collection. Read-only **Long**.
+Gets the index of a custom report in the **Reports** collection. Read-only **Long**.
 
 ## Syntax
 
 _expression_.**Index**
 
- _expression_ A variable that represents a 'Report' object.
+_expression_ A variable that represents a 'Report' object.
 
 
 ## Example

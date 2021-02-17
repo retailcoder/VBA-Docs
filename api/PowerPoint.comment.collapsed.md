@@ -14,12 +14,14 @@ localization_priority: Normal
 
 Returns whether the replies to a comment are shown (expanded) or hidden (collapsed). Ready-only.
 
+> [!IMPORTANT]
+> This property will always return “false” for modern comments.
 
 ## Syntax
 
 _expression_. `Collapsed`
 
-_expression_ A variable that represents a [Comment](./PowerPoint.Comment.md) object.
+_expression_ A variable that represents a [Comment](PowerPoint.Comment.md) object.
 
 
 ## Property value

@@ -21,14 +21,14 @@ Returns a  **[ProofreadingErrors](Word.proofreadingerrors.md)** collection that 
 
 _expression_. `GrammaticalErrors`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-There can be more than one error per sentence. If there are no grammatical errors, the  **Count** property for the **[ProofreadingErrors](Word.proofreadingerrors.md)** collection returned by the **GrammaticalErrors** property returns 0 (zero).
+There can be more than one error per sentence. If there are no grammatical errors, the **Count** property for the **[ProofreadingErrors](Word.proofreadingerrors.md)** collection returned by the **GrammaticalErrors** property returns 0 (zero).
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

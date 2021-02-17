@@ -21,17 +21,17 @@ Returns the instance of Microsoft Visio that is associated with an object. Read-
 
 _expression_.**Application**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVShape.Application**

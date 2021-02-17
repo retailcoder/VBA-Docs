@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideShowSettings.NamedSlideShows property (PowerPoint)
 
-Returns a  **[NamedSlideShows](PowerPoint.NamedSlideShows.md)** collection that represents all the named slide shows (custom slide shows) in the specified presentation. Read-only.
+Returns a **[NamedSlideShows](PowerPoint.NamedSlideShows.md)** collection that represents all the named slide shows (custom slide shows) in the specified presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `NamedSlideShows`
 
- _expression_ A variable that represents a [SlideShowSettings](./PowerPoint.SlideShowSettings.md) object.
+_expression_ A variable that represents a [SlideShowSettings](PowerPoint.SlideShowSettings.md) object.
 
 
 ## Return value

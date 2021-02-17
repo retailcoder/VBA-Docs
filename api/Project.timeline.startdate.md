@@ -9,16 +9,14 @@ localization_priority: Normal
 
 # Timeline.StartDate property (Project)
 
-Indicates the start date for a  **Timeline** bar based on the input argument. Introduced in Office 2016.
+Indicates the start date for a **Timeline** bar based on the input argument. Introduced in Office 2016.
 
 
 ## Syntax
 
-_expression_. `StartDate`
+_expression_.**StartDate**
 
- _expression_ A variable that represents a 'Timeline' object.
+_expression_ A variable that represents a 'Timeline' object.
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

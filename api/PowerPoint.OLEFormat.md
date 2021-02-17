@@ -19,7 +19,7 @@ Contains properties and methods that apply to OLE objects.
 
 ## Remarks
 
-The  **[LinkFormat](PowerPoint.LinkFormat.md)** object contains properties and methods that apply to linked OLE objects only. The **[PictureFormat](PowerPoint.PictureFormat.md)** object contains properties and methods that apply to pictures and OLE objects.
+The **[LinkFormat](PowerPoint.LinkFormat.md)** object contains properties and methods that apply to linked OLE objects only. The **[PictureFormat](PowerPoint.PictureFormat.md)** object contains properties and methods that apply to pictures and OLE objects.
 
 
 ## Example
@@ -54,8 +54,8 @@ Next
 
 |Name|
 |:-----|
-|[Activate](./PowerPoint.OLEFormat.Activate.md)|
-|[DoVerb](./PowerPoint.OLEFormat.DoVerb.md)|
+|[Activate](PowerPoint.OLEFormat.Activate.md)|
+|[DoVerb](PowerPoint.OLEFormat.DoVerb.md)|
 
 ## Properties
 
@@ -63,12 +63,12 @@ Next
 
 |Name|
 |:-----|
-|[Application](./PowerPoint.OLEFormat.Application.md)|
-|[FollowColors](./PowerPoint.OLEFormat.FollowColors.md)|
-|[Object](./PowerPoint.OLEFormat.Object.md)|
-|[ObjectVerbs](./PowerPoint.OLEFormat.ObjectVerbs.md)|
-|[Parent](./PowerPoint.OLEFormat.Parent.md)|
-|[ProgID](./PowerPoint.OLEFormat.ProgID.md)|
+|[Application](PowerPoint.OLEFormat.Application.md)|
+|[FollowColors](PowerPoint.OLEFormat.FollowColors.md)|
+|[Object](PowerPoint.OLEFormat.Object.md)|
+|[ObjectVerbs](PowerPoint.OLEFormat.ObjectVerbs.md)|
+|[Parent](PowerPoint.OLEFormat.Parent.md)|
+|[ProgID](PowerPoint.OLEFormat.ProgID.md)|
 
 ## See also
 

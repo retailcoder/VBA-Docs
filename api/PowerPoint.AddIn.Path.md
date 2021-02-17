@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AddIn.Path property (PowerPoint)
 
-Returns a  **String** that represents the path to the specified **[AddIn](PowerPoint.AddIn.md)** object. Read-only.
+Returns a **String** that represents the path to the specified **[AddIn](PowerPoint.AddIn.md)** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Path**
 
-_expression_ A variable that represents an [AddIn](./PowerPoint.AddIn.md) object.
+_expression_ A variable that represents an [AddIn](PowerPoint.AddIn.md) object.
 
 
 ## Return value

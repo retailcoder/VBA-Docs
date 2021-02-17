@@ -7,52 +7,37 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.InsertPageNumber
 ms.assetid: f71d3b40-0263-93fa-d7e3-d815b90f71f7
-ms.date: 06/08/2017
+ms.date: 06/15/2019
 localization_priority: Normal
 ---
 
 
 # TextRange.InsertPageNumber method (Publisher)
 
-Returns a  **[TextRange](Publisher.TextRange.md)** object that represents a page number field in a publication.
+Returns a **TextRange** object that represents a page number field in a publication.
 
 
 ## Syntax
 
-_expression_.**InsertPageNumber**(**_Type_**)
+_expression_.**InsertPageNumber** (_Type_)
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Type|Optional| **PbPageNumberType**|Specifies whether the page number is the current page number or the next or previous page number of a linked text box.|
+|_Type_|Optional| **[PbPageNumberType](publisher.pbpagenumbertype.md)** |Specifies whether the page number is the current page number or the next or previous page number of a linked text box. Can be one of the **PbPageNumberType** constants.|
 
 ## Return value
 
 TextRange
 
 
-## Remarks
-
-Type can be one of these  **PbPageNumberType** constants.
-
-
-
-|Constant|Description|
-|:-----|:-----|
-| **pbPageNumberCurrent**|The default.|
-| **pbPageNumberNextInStory**|Inserts the page number of the next linked text box.|
-| **pbPageNumberPreviousInStory**|Inserts the page number of the previous linked text box.|
-
 ## Example
 
 This example inserts a page number field in a shape on the master page so that the current page number appears at the top of each page.
-
 
 ```vb
 Sub PageNumberShape() 

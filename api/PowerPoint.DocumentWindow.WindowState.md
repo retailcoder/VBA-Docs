@@ -19,9 +19,9 @@ Returns or sets the state of the specified window. Read/write.
 
 ## Syntax
 
-_expression_. `WindowState`
+_expression_.**WindowState**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ PpWindowState
 
 ## Remarks
 
-The value of the  **WindowState** property can be one of these **PpWindowState** constants.
+The value of the **WindowState** property can be one of these **PpWindowState** constants.
 
 
 ||
@@ -40,12 +40,12 @@ The value of the  **WindowState** property can be one of these **PpWindowState**
 |**ppWindowMinimized**|
 |**ppWindowNormal**|
 
-When the state of the window is  **ppWindowNormal**, the window is neither maximized nor minimized.
+When the state of the window is **ppWindowNormal**, the window is neither maximized nor minimized.
 
 
 ## Example
 
-This example maximizes the first member of the  **DocumentWindows** collection.
+This example maximizes the first member of the **DocumentWindows** collection.
 
 
 ```vb

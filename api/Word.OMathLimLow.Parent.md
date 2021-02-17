@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathLimLow.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathLimLow** object.
+Returns an **Object** that represents the parent object of the specified **OMathLimLow** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathLimLow](Word.OMathLimLow.md)' object.
+_expression_ A variable that represents a '[OMathLimLow](Word.OMathLimLow.md)' object.
 
 
 ## See also

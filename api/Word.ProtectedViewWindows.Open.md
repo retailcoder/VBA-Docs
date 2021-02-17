@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # ProtectedViewWindows.Open method (Word)
 
-Opens the specified document in a new protected view window.
+Opens the specified document in a new Protected View window.
 
 
 ## Syntax
 
-_expression_. `Open`( `_FileName_` , `_AddToRecentFiles_` , `_PasswordDocument_` , `_Visible_` , `_OpenAndRepair_` )
+_expression_.**Open** (_FileName_, _AddToRecentFiles_, _PasswordDocument_, _Visible_, _OpenAndRepair_)
 
- _expression_ An expression that returns a [ProtectedViewWindows](./Word.ProtectedViewWindows.md) object.
+_expression_ An expression that returns a **[ProtectedViewWindows](Word.ProtectedViewWindows.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -48,7 +46,7 @@ Avoid using hard-coded passwords in your applications. If a password is required
 
 ## Example
 
-The following code example opens a document in a new protected view window.
+The following code example opens a document in a new Protected View window.
 
 
 ```vb

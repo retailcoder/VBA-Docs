@@ -19,14 +19,14 @@ Returns a  **[Document](Word.Document.md)** object associated with the specified
 
 ## Syntax
 
-_expression_. `Document`
+_expression_.**Document**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Example
 
-This example sets myDoc to the document associated with the active window. The focus is changed to the next window, and the window is split. The  **Activate** method is used to switch back to the original document.
+This example sets myDoc to the document associated with the active window. The focus is changed to the next window, and the window is split. The **Activate** method is used to switch back to the original document.
 
 
 ```vb

@@ -21,14 +21,14 @@ Sets the reading order and alignment of the specified run to left-to-right.
 
 _expression_. `LtrRun`
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
 For the specified run, this method sets the reading order to left-to-right. If a paragraph in the run with a right-to-left reading order is also right-aligned, this method reverses its reading order and sets its paragraph alignment to left-aligned.
 
-Use the  **ReadingOrder** property to change the reading order without affecting paragraph alignment.
+Use the **ReadingOrder** property to change the reading order without affecting paragraph alignment.
 
 
 ## Example

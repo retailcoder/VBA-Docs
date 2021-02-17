@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # ViewsCombination.Copy method (Project)
 
-Makes a copy of a group definition for the  **ViewsCombination** collection and returns a reference to the **[View](Project.View.md)** object.
+Makes a copy of a group definition for the **ViewsCombination** collection and returns a reference to the **[View](Project.View.md)** object.
 
 
 ## Syntax
 
 _expression_.**Copy** (_Source_, _NewName_)
 
- _expression_ A variable that represents a 'ViewsCombination' object.
+_expression_ A variable that represents a 'ViewsCombination' object.
 
 
 ## Parameters

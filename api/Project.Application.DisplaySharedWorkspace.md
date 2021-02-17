@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.DisplaySharedWorkspace method (Project)
 
-Displays the  **Shared Workspace** pane. Available only in Project Professional.
+Displays the **Shared Workspace** pane. Available only in Project Professional.
 
 
 ## Syntax
 
 _expression_. `DisplaySharedWorkspace`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

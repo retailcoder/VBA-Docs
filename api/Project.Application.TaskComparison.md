@@ -21,7 +21,7 @@ In a project comparison report, shows the Gantt Chart view in all three project 
 
 _expression_. `TaskComparison`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,12 +31,12 @@ _expression_. `TaskComparison`
 
 ## Remarks
 
-Use the  **CompareProjectVersions** method to create a project comparison report, or choose **Compare Projects** on the **PROJECT** ribbon.
+Use the **CompareProjectVersions** method to create a project comparison report, or choose **Compare Projects** on the **PROJECT** ribbon.
 
 
 
-After you run a  **Compare Projects** command, Project displays the **COMPARE PROJECTS** ribbon. The **TaskComparison** method is equivalent to the **Task Comparison** command on the **COMPARE PROJECTS** ribbon.
+After you run a **Compare Projects** command, Project displays the **COMPARE PROJECTS** ribbon. The **TaskComparison** method is equivalent to the **Task Comparison** command on the **COMPARE PROJECTS** ribbon.
 
-To compare resources in a comparison report, use the  **[ResourceComparison](Project.Application.ResourceComparison.md)** method.
+To compare resources in a comparison report, use the **[ResourceComparison](Project.Application.ResourceComparison.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

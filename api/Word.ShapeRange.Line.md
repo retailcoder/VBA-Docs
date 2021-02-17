@@ -21,12 +21,12 @@ Returns a  **LineFormat** object that contains line formatting properties for th
 
 _expression_.**Line**
 
- _expression_ A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
 
 ## Remarks
 
-For a line, the  **LineFormat** object represents the line itself; for a range of shapes with a border, the **LineFormat** object represents the border.
+For a line, the **LineFormat** object represents the line itself; for a range of shapes with a border, the **LineFormat** object represents the border.
 
 
 ## See also

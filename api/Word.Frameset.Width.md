@@ -21,12 +21,12 @@ Returns or sets the width (in points) of the specified  **Frameset** object. Rea
 
 _expression_.**Width**
 
- _expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
+_expression_ A variable that represents a '[Frameset](Word.Frameset.md)' object.
 
 
 ## Remarks
 
-Use the  **[WidthType](Word.Frameset.WidthType.md)** property to specify the type of unit in which this value is expressed.
+Use the **[WidthType](Word.Frameset.WidthType.md)** property to specify the type of unit in which this value is expressed.
 
 
 ## Example

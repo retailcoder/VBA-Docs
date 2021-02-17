@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `DisableFeaturesbyDefault`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Remarks
 
-The  **DisableFeaturesByDefault** property sets a global option for the application. If you want to disable features introduced after Word 97 for Windows for the document only, use the **[DisableFeatures](Word.Document.DisableFeatures.md)** property.
+The **DisableFeaturesByDefault** property sets a global option for the application. If you want to disable features introduced after Word 97 for Windows for the document only, use the **[DisableFeatures](Word.Document.DisableFeatures.md)** property.
 
 
 ## Example

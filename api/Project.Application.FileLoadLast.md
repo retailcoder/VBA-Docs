@@ -21,7 +21,7 @@ Opens one of the recently used files.
 
 _expression_. `FileLoadLast`( `_Number_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `FileLoadLast`( `_Number_` )
 
 ## Remarks
 
-To specify the number of files to show on the  **Recent** tab of the Backstage view, change the value in the **Show this number of recent documents** drop-down list in the **Display** section of the **Advanced** tab of the **Project Options** dialog box. The maximum number possible is 50.
+To specify the number of files to show on the **Recent** tab of the Backstage view, change the value in the **Show this number of recent documents** drop-down list in the **Display** section of the **Advanced** tab of the **Project Options** dialog box. The maximum number possible is 50.
 
 
 ## Example

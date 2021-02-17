@@ -19,9 +19,9 @@ Reroutes connectors so that they take the shortest possible path between the sha
 
 ## Syntax
 
-_expression_. `RerouteConnections`
+_expression_.**RerouteConnections**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Remarks
@@ -33,7 +33,7 @@ If this method is applied to a connector, only that connector will be rerouted. 
 
 ## Example
 
-This example adds two rectangles to  _myDocument_, connects them with a curved connector, and then reroutes the connector so that it takes the shortest possible path between the two rectangles. Note that the  **RerouteConnections** method adjusts the size and position of the connector and determines which connecting sites it attaches to, so the values you initially specify for the ConnectionSite arguments used with the **BeginConnect** and **EndConnect** methods are irrelevant.
+This example adds two rectangles to _myDocument_, connects them with a curved connector, and then reroutes the connector so that it takes the shortest possible path between the two rectangles. Note that the  **RerouteConnections** method adjusts the size and position of the connector and determines which connecting sites it attaches to, so the values you initially specify for the ConnectionSite arguments used with the **BeginConnect** and **EndConnect** methods are irrelevant.
 
 
 ```vb

@@ -11,19 +11,17 @@ localization_priority: Normal
 
 # Application.WindowDeactivate event (Project)
 
-Occurs when any window within Project is deactivated. The  **WindowDeactivate** event does not occur when the application window is deactivated.
+Occurs when any window within Project is deactivated. The **WindowDeactivate** event does not occur when the application window is deactivated.
 
 
 ## Syntax
 
-_expression_. `WindowDeactivate`( `_deactivatedWindow_`, )
+_expression_.**WindowDeactivate** (_deactivatedWindow_)
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -31,7 +29,7 @@ _expression_. `WindowDeactivate`( `_deactivatedWindow_`, )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

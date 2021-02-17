@@ -14,9 +14,9 @@ Returns a [Document](Visio.Document.md) object that represents the state of the 
 
 ## Syntax
 
-_expression_. `BaseDocument`
+_expression_.**BaseDocument**
 
- _expression_ A variable that represents a 'CoauthMergeEvent' object.
+_expression_ A variable that represents a **[CoauthMergeEvent](visio.coauthmergeevent.md)** object.
 
 
 ## Property value

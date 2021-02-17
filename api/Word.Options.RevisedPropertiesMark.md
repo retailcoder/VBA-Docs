@@ -21,7 +21,7 @@ Returns or sets the mark used to show formatting changes while change tracking i
 
 _expression_. `RevisedPropertiesMark`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +34,7 @@ Options.RevisedPropertiesMark = _
  wdRevisedPropertiesMarkDoubleUnderline
 ```
 
-This example returns the option selected in the  **Formatting** box under **Track Changes** options on the **Track Changes** tab in the **Options** dialog box (**Tools** menu).
+This example returns the option selected in the **Formatting** box under **Track Changes** options on the **Track Changes** tab in the **Options** dialog box (**Tools** menu).
 
 
 

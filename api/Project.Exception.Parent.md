@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # Exception.Parent property (Project)
 
-Gets the parent of the  **Exception** object. Read-only **Calendar**.
+Gets the parent of the **Exception** object. Read-only **Calendar**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an [Exception](./Project.Exception.md) object.
+_expression_ A variable that represents an [Exception](./Project.Exception.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

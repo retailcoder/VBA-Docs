@@ -16,20 +16,18 @@ Adds an account  **[Profile](Project.Profile.md)** object to the **Profiles** co
 
 ## Syntax
 
-_expression_.**Add**( `_Name_`, `_Server_`, `_LoginType_`, `_UserName_` )
+_expression_.**Add** (_Name_, _Server_, _LoginType_, _UserName_)
 
- _expression_ A variable that represents a 'Profiles' object.
+_expression_ A variable that represents a 'Profiles' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Required|**String**| The name of the profile.|
 | _Server_|Required|**String**|A string representing the URL of the Project Server.|
-| _LoginType_|Optional|**Long**|The login type for the Project Server. Can be one of the  **[PjLoginType](Project.PjLoginType.md)** constants. The default value is **pjWindowsLogin**.|
+| _LoginType_|Optional|**Long**|The login type for the Project Server. Can be one of the **[PjLoginType](Project.PjLoginType.md)** constants. The default value is **pjWindowsLogin**.|
 | _UserName_|Optional|**String**| A string representing the user name.|
 
 ## Return value
@@ -39,7 +37,7 @@ _expression_.**Add**( `_Name_`, `_Server_`, `_LoginType_`, `_UserName_` )
 
 ## Remarks
 
-The UserName argument can be either a Project Server user name, if the LoginType is  **pjProjectServerLogin**, or a user name for a Windows account. For example, if the LoginType is **pjWindowsLogin**, a user name might be **DOMAIN\jsmith**.
+The UserName argument can be either a Project Server user name, if the LoginType is **pjProjectServerLogin**, or a user name for a Windows account. For example, if the LoginType is **pjWindowsLogin**, a user name might be **DOMAIN\jsmith**.
 
 
 ## See also

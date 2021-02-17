@@ -18,7 +18,7 @@ Occurs before one or more resources are created.
 
 _expression_. `ProjectBeforeResourceNew`( `_pj_`, `_Cancel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,13 +32,13 @@ _expression_. `ProjectBeforeResourceNew`( `_pj_`, `_Cancel_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks
 
 Project events do not occur when the project is embedded in another document or application.
 
-The  **ProjectBeforeResourceNew** event doesn't occur during resource pool operations, when inserting or removing a subproject, or when changes have been made using a custom form.
+The **ProjectBeforeResourceNew** event doesn't occur during resource pool operations, when inserting or removing a subproject, or when changes have been made using a custom form.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,13 +21,13 @@ Gets or sets the abbreviation for "minute" that is displayed for values such as 
 
 _expression_. `MinuteLabelDisplay`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **MinuteLabelDisplay** property corresponds to the **Minutes** list on the **Advanced** tab of the **Project Options** dialog box. For example, setting the **MinuteLabelDisplay** property to 1 sets the **Minutes** list to the second value in the list ("min").
+The **MinuteLabelDisplay** property corresponds to the **Minutes** list on the **Advanced** tab of the **Project Options** dialog box. For example, setting the **MinuteLabelDisplay** property to 1 sets the **Minutes** list to the second value in the list ("min").
 
-Values of the  **MinuteLabelDisplay** property can be 0 to 2.
+Values of the **MinuteLabelDisplay** property can be 0 to 2.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

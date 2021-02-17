@@ -7,23 +7,22 @@ ms.prod: publisher
 api_name:
 - Publisher.WebHiddenFields
 ms.assetid: 8ced4021-fa99-39dd-e880-b9793426871f
-ms.date: 06/08/2017
+ms.date: 06/04/2019
 localization_priority: Normal
 ---
 
 
 # WebHiddenFields object (Publisher)
 
-Represents hidden Web fields that allow a Web page to pass non-visible data to the Web server when a Web page is submitted. The  **WebHiddenFields** object enables control of all the hidden fields attached to a Submit command button.
+Represents hidden web fields that allow a webpage to pass non-visible data to the web server when a webpage is submitted. The **WebHiddenFields** object enables control of all the hidden fields attached to a **Submit** command button.
  
+## Remarks
 
+Use the **[HiddenFields](publisher.webcommandbutton.hiddenfields.md)** property of the **WebCommandButton** object to access hidden web fields. 
 
 ## Example
 
-Use the  **HiddenFields** property to access hidden Web fields. This example adds a new hidden Web field to a new Submit command button.
- 
-
- 
+This example adds a new hidden web field to a new **Submit** command button.
 
 ```vb
 Sub CreateActionWebButton() 
@@ -42,23 +41,21 @@ End Sub
 
 ## Methods
 
-
-
-|Name|
-|:-----|
-|[Add](Publisher.WebHiddenFields.Add.md)|
-|[Delete](Publisher.WebHiddenFields.Delete.md)|
-|[Item](Publisher.WebHiddenFields.Item.md)|
-|[Name](Publisher.WebHiddenFields.Name.md)|
+- [Add](Publisher.WebHiddenFields.Add.md)
+- [Delete](Publisher.WebHiddenFields.Delete.md)
+- [Item](Publisher.WebHiddenFields.Item.md)
+- [Name](Publisher.WebHiddenFields.Name.md)
 
 ## Properties
 
+- [Application](Publisher.WebHiddenFields.Application.md)
+- [Count](Publisher.WebHiddenFields.Count.md)
+- [Parent](Publisher.WebHiddenFields.Parent.md)
+
+## See also
+
+- [Publisher Object Model Reference](overview/publisher/object-model.md)
 
 
-|Name|
-|:-----|
-|[Application](Publisher.WebHiddenFields.Application.md)|
-|[Count](Publisher.WebHiddenFields.Count.md)|
-|[Parent](Publisher.WebHiddenFields.Parent.md)|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

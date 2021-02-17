@@ -21,7 +21,7 @@ Sets the segment type of the segment that follows the specified node.
 
 _expression_. `SetSegmentType`( `_Index_`, `_SegmentType_` )
 
- _expression_ A variable that represents a [ShapeNodes](./PowerPoint.ShapeNodes.md) object.
+_expression_ A variable that represents a **[ShapeNodes](PowerPoint.ShapeNodes.md)** object.
 
 
 ## Parameters
@@ -47,7 +47,7 @@ The  _SegmentType_ parameter value can be one of these **MsoSegmentType** consta
 
 ## Example
 
-This example changes all straight segments to curved segments in shape three on  _myDocument_. Shape three must be a freeform drawing.
+This example changes all straight segments to curved segments in shape three on _myDocument_. Shape three must be a freeform drawing.
 
 
 ```vb

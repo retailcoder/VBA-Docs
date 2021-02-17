@@ -21,12 +21,12 @@ Returns a  **[MailMerge](Word.MailMerge.md)** object that represents the mail me
 
 _expression_. `MailMerge`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The  **MailMerge** object is available regardless of whether the specified document is a mail merge main document. Use the **State** property to determine the current state of the mail merge operation.
+The **MailMerge** object is available regardless of whether the specified document is a mail merge main document. Use the **State** property to determine the current state of the mail merge operation.
 
 
 ## Example

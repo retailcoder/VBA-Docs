@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # Project.Open event (Project)
 
-Occurs when the project opens, but before the  **Activate** event.
+Occurs when the project opens, but before the **Activate** event.
 
 
 ## Syntax
 
-_expression_. `Open`( `_pj_` )
+_expression_.**Open** (_pj_)
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,7 +32,7 @@ _expression_. `Open`( `_pj_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

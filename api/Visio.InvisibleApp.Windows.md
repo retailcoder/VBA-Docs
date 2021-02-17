@@ -19,9 +19,9 @@ Returns the  **Windows** collection for a Microsoft Visio instance or window. Re
 
 ## Syntax
 
-_expression_. `Windows`( `_lpdispRet_` )
+_expression_.**Windows** (_lpdispRet_)
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value

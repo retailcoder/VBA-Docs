@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # SharingItem.AllowWriteAccess property (Outlook)
 
-Returns or sets a  **Boolean** value that indicates whether a sharing invitation should include write access to the folder. Read/write.
+Returns or sets a **Boolean** value that indicates whether a sharing invitation should include write access to the folder. Read/write.
 
 
 ## Syntax
@@ -26,7 +26,7 @@ _expression_. `AllowWriteAccess`
 
 ## Return value
 
- **True** if the recipient of the sharing invitation should receive write access; otherwise **False**. The default is **false**.
+ **True** if the recipient of the sharing invitation should receive write access; otherwise, **False**. The default is **False**.
 
 
 ## Remarks

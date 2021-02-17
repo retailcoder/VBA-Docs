@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # UserDefinedProperties.Add method (Outlook)
 
-Creates a new  **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object and appends it to the collection.
+Creates a new **[UserDefinedProperty](Outlook.UserDefinedProperty.md)** object and appends it to the collection.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Name_` , `_Type_` , `_DisplayFormat_` , `_Formula_` )
+_expression_.**Add** (_Name_, _Type_, _DisplayFormat_, _Formula_)
 
 _expression_ A variable that represents a [UserDefinedProperties](Outlook.UserDefinedProperties.md) object.
 

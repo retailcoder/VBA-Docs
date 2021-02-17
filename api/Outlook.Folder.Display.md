@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Folder.Display method (Outlook)
 
-Displays a new  **[Explorer](Outlook.Explorer.md)** object for the folder.
+Displays a new **[Explorer](Outlook.Explorer.md)** object for the folder.
 
 
 ## Syntax
@@ -50,7 +50,8 @@ End Sub
 This Visual Basic for Applications example displays the first item in the Inbox folder. This example will return an error if the Inbox is empty, because you are trying to display a specific item. If there are no items in the folder, a message box will be displayed to inform the user.
 
 
- **Note**  The items in the  **Items** collection object are not guaranteed to be in any particular order.
+> [!NOTE] 
+> The items in the  **Items** collection object are not guaranteed to be in any particular order.
 
 
 

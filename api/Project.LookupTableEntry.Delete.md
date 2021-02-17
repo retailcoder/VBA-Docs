@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # LookupTableEntry.Delete method (Project)
 
-Deletes the  **LookupTableEntry** object from a **LookupTable** collection.
+Deletes the **LookupTableEntry** object from a **LookupTable** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
+_expression_ A variable that represents a [LookupTableEntry](./Project.LookupTableEntry.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

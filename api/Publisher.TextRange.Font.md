@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.TextRange.Font
 ms.assetid: c5795f33-4e7b-f765-9ba8-f5b6706561d6
-ms.date: 06/08/2017
+ms.date: 06/15/2019
 localization_priority: Normal
 ---
 
 
 # TextRange.Font property (Publisher)
 
-Sets or returns a  **[Font](Publisher.Font.md)** object that represents character formatting attributes applied to the specified object. Read/write.
+Sets or returns a **[Font](Publisher.Font.md)** object that represents character formatting attributes applied to the specified object. Read/write.
 
 
 ## Syntax
 
 _expression_.**Font**
 
- _expression_ A variable that represents a  **TextRange** object.
+_expression_ A variable that represents a **[TextRange](Publisher.TextRange.md)** object.
 
 
 ## Example
 
 This example selects text and formats the font as bold.
-
 
 ```vb
 Sub test2() 

@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SaveNormalPrompt`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +39,7 @@ Options.SaveNormalPrompt = False
 Application.Quit
 ```
 
-This example returns the current status of the  **Prompt to save Normal template** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Prompt to save Normal template** option on the **Save** tab in the **Options** dialog box (**Tools** menu).
 
 
 

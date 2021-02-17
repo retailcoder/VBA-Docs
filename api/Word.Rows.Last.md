@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Rows.Last property (Word)
 
-Returns the last item in the  **Rows** collection as a **Row** object.
+Returns the last item in the **Rows** collection as a **Row** object.
 
 
 ## Syntax
 
 _expression_. `Last`
 
-_expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## Example

@@ -19,14 +19,14 @@ Returns a  **[Panes](Word.panes.md)** collection that represents all the window 
 
 ## Syntax
 
-_expression_. `Panes`
+_expression_.**Panes**
 
- _expression_ An expression that returns a '[Window](Word.Window.md)' object.
+ _expression_ An expression that returns a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example

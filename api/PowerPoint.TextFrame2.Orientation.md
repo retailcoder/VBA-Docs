@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_.**Orientation**
 
- _expression_ An expression that returns a [TextFrame2](./PowerPoint.TextFrame2.md) object.
+ _expression_ An expression that returns a **[TextFrame2](PowerPoint.TextFrame2.md)** object.
 
 
 ## Return value
@@ -44,7 +44,8 @@ The value of the  **Orientation** property can be one of these **MsoTextOrientat
 |**msoTextOrientationVertical**|
 |**msoTextOrientationVerticalFarEast**|
 
- **Note**  Some of these constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
+> [!NOTE] 
+> Some of these constants may not be available to you, depending on the language support (U.S. English, for example) that you've selected or installed.
 
 
 ## Example

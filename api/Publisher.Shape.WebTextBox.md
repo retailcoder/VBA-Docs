@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.Shape.WebTextBox
 ms.assetid: 8a3f8389-728f-b8ae-3c89-dc8d03a3818e
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
 
 # Shape.WebTextBox property (Publisher)
 
-Returns the  **[WebTextBox](Publisher.WebTextBox.md)** object associated with the specified shape.
+Returns the **[WebTextBox](Publisher.WebTextBox.md)** object associated with the specified shape.
 
 
 ## Syntax
 
 _expression_.**WebTextBox**
 
- _expression_ A variable that represents a  **Shape** object.
+_expression_ A variable that represents a **[Shape](Publisher.Shape.md)** object.
 
 
 ## Return value
@@ -31,8 +31,7 @@ WebTextBox
 
 ## Example
 
-This example creates a new Web text box, specifies default text, indicates that entry is required, and limits entry to 50 characters.
-
+This example creates a new web text box, specifies default text, indicates that entry is required, and limits entry to 50 characters.
 
 ```vb
 Dim shpNew As Shape 

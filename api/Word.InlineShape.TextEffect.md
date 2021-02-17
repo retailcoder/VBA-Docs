@@ -19,14 +19,14 @@ Returns a  **TextEffectFormat** object that contains text-effect formatting prop
 
 ## Syntax
 
-_expression_. `TextEffect`
+_expression_.**TextEffect**
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## Example
 
-This example sets the font style to bold for shape three on  _myDocument_ if the shape is WordArt.
+This example sets the font style to bold for shape three on _myDocument_ if the shape is WordArt.
 
 
 ```vb

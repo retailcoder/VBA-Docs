@@ -16,13 +16,13 @@ Gets or sets the phonetic representation of a resource name. Read/write  **Strin
 
 ## Syntax
 
-_expression_. `Phonetics`
+_expression_.**Phonetics**
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **Phonetics** property only produces tangible results if the Japanese version of Project is used.
+The **Phonetics** property only produces tangible results if the Japanese version of Project is used.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

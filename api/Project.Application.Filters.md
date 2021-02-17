@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Filters method (Project)
 
-Displays the  **More Filters** dialog box, which prompts the user to use a filter.
+Displays the **More Filters** dialog box, which prompts the user to use a filter.
 
 
 ## Syntax
 
 _expression_. `Filters`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `Filters`
 
 ## Remarks
 
-The  **Filters** method is equivalent to the **More Filters** command in the **Filter** drop-down list, available on the **VIEW** tab of the ribbon in Project.
+The **Filters** method is equivalent to the **More Filters** command in the **Filter** drop-down list, available on the **VIEW** tab of the ribbon in Project.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

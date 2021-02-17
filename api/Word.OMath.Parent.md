@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMath.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMath** object.
+Returns an **Object** that represents the parent object of the specified **OMath** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMath](Word.OMath.md)' object.
+_expression_ A variable that represents a '[OMath](Word.OMath.md)' object.
 
 
 ## See also

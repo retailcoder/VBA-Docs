@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # DocumentWindow.Selection property (PowerPoint)
 
-Returns a  **[Selection](PowerPoint.Selection.md)** object that represents the selection in the specified document window. Read-only.
+Returns a **[Selection](PowerPoint.Selection.md)** object that represents the selection in the specified document window. Read-only.
 
 
 ## Syntax
 
 _expression_.**Selection**
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value

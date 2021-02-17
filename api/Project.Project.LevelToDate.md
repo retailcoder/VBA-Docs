@@ -18,12 +18,12 @@ Gets or sets the ending date of a range in which overallocated resources are lev
 
 _expression_. `LevelToDate`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-You can also set the  **LevelToDate** property in the **Resource Leveling** dialog box. To access the setting, click **Leveling Options** on the **Resource** tab of the Ribbon, and then click the **Level** option and set the **To** date.
+You can also set the **LevelToDate** property in the **Resource Leveling** dialog box. To access the setting, click **Leveling Options** on the **Resource** tab of the Ribbon, and then click the **Level** option and set the **To** date.
 
 
 ## Example

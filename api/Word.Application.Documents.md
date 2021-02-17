@@ -14,27 +14,28 @@ localization_priority: Normal
 
 # Application.Documents property (Word)
 
-Returns a  **[Documents](Word.documents.md)** collection that represents all the open documents. Read-only.
+Returns a **[Documents](Word.documents.md)** collection that represents all the open documents. Read-only.
 
 
 ## Syntax
 
-_expression_. `Documents`
+_expression_.**Documents**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
- **Note**  A document displayed in a protected view window is not a member of the  **[Documents](Word.Application.Documents.md)** collection. Instead, use the [Document](Word.Document.md) property of the [ProtectedViewWindow](Word.ProtectedViewWindow.md) object to access a document that is displayed in a protected view window.
+> [!NOTE] 
+> A document displayed in a Protected View window is not a member of the **[Documents](Word.Application.Documents.md)** collection. Instead, use the [Document](Word.Document.md) property of the [ProtectedViewWindow](Word.ProtectedViewWindow.md) object to access a document that is displayed in a Protected View window.
 
 
 ## Example
 
-This example creates a new document based on the Normal template and then displays the  **Save As** dialog box.
+This example creates a new document based on the Normal template and then displays the **Save As** dialog box.
 
 
 ```vb

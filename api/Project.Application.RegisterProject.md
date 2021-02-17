@@ -21,7 +21,7 @@ Registers the active project on Project Server.
 
 _expression_. `RegisterProject`( `_WaitForCompletion_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `RegisterProject`( `_WaitForCompletion_` )
 
 ## Remarks
 
-The  **RegisterProject** method is available only in Project Professional.
+The **RegisterProject** method is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

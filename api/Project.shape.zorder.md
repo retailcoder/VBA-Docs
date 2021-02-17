@@ -14,7 +14,7 @@ Moves the shape in front of or behind other shapes (that is, changes the positio
 
 _expression_. `ZOrder` _(ZOrderCmd)_
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Parameters
@@ -33,7 +33,7 @@ _expression_. `ZOrder` _(ZOrderCmd)_
 
 ## Remarks
 
-Use the  **ZOrderPosition** property to determine the current position of a shape in the z-order.
+Use the **ZOrderPosition** property to determine the current position of a shape in the z-order.
 
 
 ## See also

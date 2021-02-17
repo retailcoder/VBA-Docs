@@ -21,12 +21,12 @@ Returns or sets a  **Single** that represents the percentage of the relative hei
 
 _expression_. `HeightRelative`
 
- _expression_ An expression that returns a '[Shape](Word.Shape.md)' object.
+ _expression_ An expression that returns a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-Use this property with the  **[RelativeVerticalSize](Word.Shape.RelativeVerticalSize.md)** property. When set to **wdShapeSizeRelativeNone** (-999999) (see the **[WdShapeSizeRelative](Word.WdShapeSizeRelative.md)** enumeration), this property should be ignored because the shape does not use percent sizing. The height is solely determined by the **[Height](Word.Shape.Height.md)** property.
+Use this property with the **[RelativeVerticalSize](Word.Shape.RelativeVerticalSize.md)** property. When set to **wdShapeSizeRelativeNone** (-999999) (see the **[WdShapeSizeRelative](Word.WdShapeSizeRelative.md)** enumeration), this property should be ignored because the shape does not use percent sizing. The height is solely determined by the **[Height](Word.Shape.Height.md)** property.
 
 
 ## See also

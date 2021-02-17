@@ -16,13 +16,13 @@ Gets or sets the default duration units. Read/write  **PjUnit**.
 
 ## Syntax
 
-_expression_. `DefaultDurationUnits`
+_expression_.**DefaultDurationUnits**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **DefaultDurationUnits** property can be one of the following **[PjUnit](Project.PjUnit.md)** constants: **pjMinute**, **pjHour**, **pjDay**, **pjWeek**, or **pjMonthUnit**.
+The **DefaultDurationUnits** property can be one of the following **[PjUnit](Project.PjUnit.md)** constants: **pjMinute**, **pjHour**, **pjDay**, **pjWeek**, or **pjMonthUnit**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

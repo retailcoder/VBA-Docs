@@ -19,9 +19,9 @@ Returns a reference to the  **IDispatch** interface of a **VisSaveAsWeb** object
 
 ## Syntax
 
-_expression_. `SaveAsWebObject`
+_expression_.**SaveAsWebObject**
 
- _expression_ A variable that represents an [InvisibleApp](./Visio.InvisibleApp.md) object.
+_expression_ A variable that represents an **[InvisibleApp](Visio.InvisibleApp.md)** object.
 
 
 ## Return value
@@ -45,9 +45,9 @@ To be able to work with the Save as Web Page API, you must get a reference to th
 
 ## Example
 
-This VBA macro shows how to use the  **SaveAsWebObject** property to get a **VisSaveAsWeb** object. It also shows how to get a **VisWebPageSettings** object, configure Web-page settings, and create a Web page to display the active Visio document. The macro gets a Visio **Application** object and passes it to the **SaveAsWeb** procedure, which gets the **VisSaveAsWeb** object, configures the settings, and creates the Web page.
+This VBA macro shows how to use the  **SaveAsWebObject** property to get a **VisSaveAsWeb** object. It also shows how to get a **VisWebPageSettings** object, configure Web-page settings, and create a webpage to display the active Visio document. The macro gets a Visio **Application** object and passes it to the **SaveAsWeb** procedure, which gets the **VisSaveAsWeb** object, configures the settings, and creates the webpage.
 
-Before running this macro, get a reference to the  **Microsoft Visio 14.0 Save As Web Type Library** as described above, and replace _path\filename_ in the code with the full path to and name of the .htm file you want to create on your computer to display the Web page.
+Before running this macro, get a reference to the  **Microsoft Visio 14.0 Save As Web Type Library** as described above, and replace `path\filename` in the code with the full path to and name of the .htm file you want to create on your computer to display the webpage.
 
 
 

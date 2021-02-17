@@ -11,20 +11,20 @@ localization_priority: Normal
 
 # Day.Name property (Project)
 
-Gets the name of a  **Day** object. Read-only **String**.
+Gets the name of a **Day** object. Read-only **String**.
 
 
 ## Syntax
 
 _expression_.**Name**
 
- _expression_ A variable that represents a [Day](./Project.Day.md) object.
+_expression_ A variable that represents a [Day](./Project.Day.md) object.
 
 
 ## Remarks
 
  **Name** is the default property of the **Day** object.
 
-For a code example that uses the  **Task** object, see **[Name](Project.Task.Name.md)**.
+For a code example that uses the **Task** object, see **[Name](Project.Task.Name.md)**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

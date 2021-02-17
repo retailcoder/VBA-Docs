@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.ProtectedViewWindows.Open
 ms.assetid: bb003d53-949e-842a-f6f1-3ca30f396837
-ms.date: 06/08/2017
+ms.date: 05/09/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Opens the specified workbook in a new Protected View window.
 
 ## Syntax
 
-_expression_. `Open`( `_FileName_` , `_Password_` , `_AddToMru_` , `_RepairMode_` )
+_expression_.**Open** (_FileName_, _Password_, _AddToMru_, _RepairMode_)
 
-_expression_ A variable that represents a '[ProtectedViewWindows](Excel.ProtectedViewWindows.md)' object.
+_expression_ A variable that represents a **[ProtectedViewWindows](Excel.ProtectedViewWindows.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,7 +35,7 @@ _expression_ A variable that represents a '[ProtectedViewWindows](Excel.Protecte
 
 ## Return value
 
- **[ProtectedViewWindow](Excel.ProtectedViewWindow.md)**
+**[ProtectedViewWindow](Excel.ProtectedViewWindow.md)**
 
 
 ## Remarks
@@ -49,16 +47,12 @@ Avoid using hard-coded passwords in your applications. If a password is required
 
 The following code example opens a workbook in a new Protected View window.
 
-
 ```vb
 ProtectedViewWindows.Open FileName:="C:\MyFiles\MyWorkbook.xls" 
 
 ```
 
 
-## See also
 
-
-[ProtectedViewWindows Object](Excel.ProtectedViewWindows.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,14 +19,12 @@ Returns a  **Long** that represents the number of categories in the collection. 
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[CategoryCollection](Word.categorycollection.md)' object.
+_expression_ A variable that represents a '[CategoryCollection](Word.categorycollection.md)' object.
 
 
 ## Property value
 
  **INT32**
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

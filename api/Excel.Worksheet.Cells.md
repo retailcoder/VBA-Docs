@@ -7,14 +7,14 @@ ms.prod: excel
 api_name:
 - Excel.Worksheet.Cells
 ms.assetid: 19c14e41-7d8e-b56f-fd60-717df64edee8
-ms.date: 06/08/2017
+ms.date: 05/30/2019
 localization_priority: Normal
 ---
 
 
 # Worksheet.Cells property (Excel)
 
-Returns a  **[Range](Excel.Range(object).md)** object that represents all the cells on the worksheet (not just the cells that are currently in use).
+Returns a **[Range](Excel.Range(object).md)** object that represents all the cells on the worksheet (not just the cells that are currently in use).
 
 
 ## Syntax
@@ -26,33 +26,30 @@ _expression_ A variable that represents a **[Worksheet](Excel.Worksheet.md)** ob
 
 ## Remarks
 
-Because the  **[Item](Excel.Range.Item.md)** property is the default property for the **Range** object, you can specify the row and column index immediately after the **Cells** keyword. For more information, see the **Item** property and the examples for this topic.
+Because the default member of **Range** forwards calls with parameters to the **[Item](Excel.Range.Item.md)** property, you can specify the row and column index immediately after the **Cells** keyword instead of an explicit call to **[Item](Excel.Range.Item.md)**.
 
-Using this property without an object qualifier returns a  **Range** object that represents all the cells on the active worksheet.
+Using this property without an object qualifier returns a **Range** object that represents all the cells on the active worksheet.
 
 
 ## Example
 
-This example sets the font size for cell C5 on Sheet1 to 14 points.
-
+This example sets the font size for cell C5 on Sheet1 of the active workbook to 14 points.
 
 ```vb
 Worksheets("Sheet1").Cells(5, 3).Font.Size = 14
 ```
 
-This example clears the formula in cell one on Sheet1.
+<br/>
 
-
-
+This example clears the formula in cell one on Sheet1 of the active workbook.
 
 ```vb
 Worksheets("Sheet1").Cells(1).ClearContents
 ```
 
-This example sets the font and font size for every cell on Sheet1 to 8-point Arial
+<br/>
 
-
-
+This example sets the font and font size for every cell on Sheet1 to 8-point Arial.
 
 ```vb
 With Worksheets("Sheet1").Cells.Font 
@@ -61,12 +58,9 @@ With Worksheets("Sheet1").Cells.Font
 End With
 ```
 
- **Sample code provided by:** Tom Urtis, [Atlas Programming Management](https://www.atlaspm.com/)
+<br/>
 
 This example toggles a sort between ascending and descending order when you double-click any cell in the data range. The data is sorted based on the column of the cell that is double-clicked.
-
-
-
 
 ```vb
 Option Explicit
@@ -100,15 +94,30 @@ Private Sub Worksheet_BeforeDoubleClick(ByVal Target As Range, Cancel As Boolean
 End Sub
 ```
 
+<br/>
 
-### About the contributor
+This example looks through column C of the active sheet, and for every cell that has a comment, it puts the comment text into column D and deletes the comment from column C.
 
-MVP Tom Urtis is the founder of Atlas Programming Management, a full-service Microsoft Office and Excel business solutions company in Silicon Valley. Tom has over 25 years of experience in business management and developing Microsoft Office applications, and is the co author of "Holy Macro! It's 2,500 Excel VBA Examples." 
+```vb
+Public Sub SplitCommentsOnActiveSheet()
+   'Set up your variables
+   Dim cmt As Comment
+   Dim rowIndex As Integer
+   
+   'Go through all the cells in Column C, and check to see if the cell has a comment.
+   For rowIndex = 1 To WorksheetFunction.CountA(Columns(3))
+      Set cmt = Cells(rowIndex, 3).Comment
+      If Not cmt Is Nothing Then
+      
+         'If there is a comment, paste the comment text into column D and delete the original comment.
+         Cells(rowIndex, 4) = Cells(rowIndex, 3).Comment.Text
+         Cells(rowIndex, 3).Comment.Delete
+      End If
+   Next
+End Sub
+```
 
 
-## See also
 
-
-[Worksheet Object](Excel.Worksheet.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

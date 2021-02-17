@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Application.AddEngagement method (Project)
 
-Adds a  **Resource Plan** view, enabling users to display and edit engagement data to Project when connected to Project Online. Introduced in Office 2016.
+Adds a **Resource Plan** view, enabling users to display and edit engagement data to Project when connected to Project Online. Introduced in Office 2016.
 
 
 ## Syntax
 
 _expression_. `AddEngagement`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

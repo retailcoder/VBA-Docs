@@ -19,7 +19,7 @@ Returns a  **ListTemplate** object that represents a new list template.
 
 ## Syntax
 
-_expression_.**Add**( `_OutlineNumbered_` , `_Name_` )
+_expression_.**Add** (_OutlineNumbered_, _Name_)
 
 _expression_ Required. A variable that represents a '[ListTemplates](Word.listtemplates.md)' collection.
 
@@ -40,7 +40,7 @@ ListTemplate
 
 ## Remarks
 
-You cannot use the  **Add** method on **ListTemplates** objects returned from a **ListGallery** object. You can, however, modify the existing list templates in the galleries.
+You cannot use the **Add** method on **ListTemplates** objects returned from a **ListGallery** object. You can, however, modify the existing list templates in the galleries.
 
 
 ## Example

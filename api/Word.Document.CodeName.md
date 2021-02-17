@@ -21,12 +21,12 @@ Returns the code name for the specified document. Read-only  **String**.
 
 _expression_. `CodeName`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-The code name is the name for the module that houses event macros for a document. The default name for the module is "ThisDocument"; you can view it in the Project window. For information about using events with the Document object, see [Using Events with the Document Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
+The code name is the name for the module that houses event macros for a document. The default name for the module is "ThisDocument"; you can view it in the Project window. For information about using events with the Document object, see [Using events with the Document object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-document-object.md).
 
 
 ## Example

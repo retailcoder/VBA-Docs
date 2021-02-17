@@ -19,16 +19,16 @@ Returns a  **String** that represents the identification for a content control. 
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
  _expression_ An expression that returns a [ContentControl](./Word.ContentControl.md) object.
 
 
 ## Remarks
 
-The  **ID** property is an internal number that you cannot change but that you can use to identify a content control in code. This number is unique for each content control and does not change.
+The **ID** property is an internal number that you cannot change but that you can use to identify a content control in code. This number is unique for each content control and does not change.
 
-When you get the  **ID** property value at runtime, it is returned as an unsigned value. However, when saved into the Office Open XML file format, it is saved as a signed value. If your solution attempts to map programmatically returned values to values saved in the file format, you must check for both the unsigned and signed version of the value obtained from this property.
+When you get the **ID** property value at runtime, it is returned as an unsigned value. However, when saved into the Office Open XML file format, it is saved as a signed value. If your solution attempts to map programmatically returned values to values saved in the file format, you must check for both the unsigned and signed version of the value obtained from this property.
 
 
 ## See also

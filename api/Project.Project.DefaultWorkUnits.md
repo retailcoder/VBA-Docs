@@ -18,11 +18,11 @@ Gets or sets the default work units for the project. Read/write  **PjUnit**.
 
 _expression_. `DefaultWorkUnits`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **DefaultWorkUnits** property can be one of the following **[PjUnit](Project.PjUnit.md)** constants: **pjMinute**, **pjHour**, **pjDay, pjWeek**, or **pjMonthUnit**.
+The **DefaultWorkUnits** property can be one of the following **[PjUnit](Project.PjUnit.md)** constants: **pjMinute**, **pjHour**, **pjDay, pjWeek**, or **pjMonthUnit**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

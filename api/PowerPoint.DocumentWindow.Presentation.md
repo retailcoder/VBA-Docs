@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # DocumentWindow.Presentation property (PowerPoint)
 
-Returns a  **[Presentation](PowerPoint.Presentation.md)** object that represents the presentation in which the specified document window or slide show window was created. Read-only.
+Returns a **[Presentation](PowerPoint.Presentation.md)** object that represents the presentation in which the specified document window or slide show window was created. Read-only.
 
 
 ## Syntax
 
 _expression_. `Presentation`
 
-_expression_ A variable that represents a [DocumentWindow](./PowerPoint.DocumentWindow.md) object.
+_expression_ A variable that represents a [DocumentWindow](PowerPoint.DocumentWindow.md) object.
 
 
 ## Return value

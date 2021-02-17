@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.GroupNew method (Project)
 
-Displays the  **Group Definition** dialog box.
+Displays the **Group Definition** dialog box.
 
 
 ## Syntax
 
 _expression_. `GroupNew`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `GroupNew`
 
 ## Remarks
 
-The  **GroupNew** method corresponds to the following command on the Ribbon: On the **View** tab, click the **Group by** drop-down list in the **Data** group, and then click **New Group By**.
+The **GroupNew** method corresponds to the following command on the Ribbon: On the **View** tab, click the **Group by** drop-down list in the **Data** group, and then click **New Group By**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

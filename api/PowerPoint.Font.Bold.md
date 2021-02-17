@@ -19,9 +19,9 @@ Determines whether the character format is bold. Read/write.
 
 ## Syntax
 
-_expression_. `Bold`
+_expression_.**Bold**
 
- _expression_ A variable that represents a [Font](./PowerPoint.Font.md) object.
+_expression_ A variable that represents a [Font](PowerPoint.Font.md) object.
 
 
 ## Return value

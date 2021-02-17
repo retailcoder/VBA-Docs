@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathRad.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathRad** object.
+Returns an **Object** that represents the parent object of the specified **OMathRad** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathRad](Word.OMathRad.md)' object.
+_expression_ A variable that represents a '[OMathRad](Word.OMathRad.md)' object.
 
 
 ## See also

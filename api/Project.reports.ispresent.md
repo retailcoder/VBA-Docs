@@ -14,7 +14,7 @@ Indicates whether the specified custom report exists in the project.
 
 _expression_. `IsPresent` _(Name)_
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `IsPresent` _(Name)_
 
 ## Example
 
-The following example uses the  **IsPresent** method to determine whether a report exists and can be displayed.
+The following example uses the **IsPresent** method to determine whether a report exists and can be displayed.
 
 
 ```vb

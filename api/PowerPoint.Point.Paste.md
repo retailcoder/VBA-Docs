@@ -18,7 +18,7 @@ Pastes a picture from the Clipboard as the marker on the selected point.
 
 _expression_.**Paste**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## Remarks
@@ -31,7 +31,8 @@ You can use this method on column, bar, line, or radar charts, and it sets the  
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example pastes a picture from the Clipboard into point one in series one for the first chart in the active document.
 

@@ -21,12 +21,12 @@ Returns or sets a  **Single** that represents the relative left position of a sh
 
 _expression_. `LeftRelative`
 
- _expression_ An expression that returns a '[Shape](Word.Shape.md)' object.
+ _expression_ An expression that returns a **[Shape](Word.Shape.md)** object.
 
 
 ## Remarks
 
-Use this property with the  **[RelativeHorizontalPosition](Word.Shape.RelativeHorizontalPosition.md)** property. When set to **wdShapePositionRelativeNone** (-999999) (see the **[WdShapePositionRelative](Word.WdShapePositionRelative.md)** enumeration), this property should be ignored because the shape does not use percent positioning. The horizontal position is solely determined by the **[Left](Word.Shape.Left.md)** property.
+Use this property with the **[RelativeHorizontalPosition](Word.Shape.RelativeHorizontalPosition.md)** property. When set to **wdShapePositionRelativeNone** (-999999) (see the **[WdShapePositionRelative](Word.WdShapePositionRelative.md)** enumeration), this property should be ignored because the shape does not use percent positioning. The horizontal position is solely determined by the **[Left](Word.Shape.Left.md)** property.
 
 
 ## See also

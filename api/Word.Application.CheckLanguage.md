@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `CheckLanguage`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-If you haven't set up Word for multilingual editing, the  **CheckLanguage** property always returns **False**.
+If you haven't set up Word for multilingual editing, the **CheckLanguage** property always returns **False**.
 
 
 ## Example

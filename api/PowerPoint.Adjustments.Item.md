@@ -21,7 +21,7 @@ Returns or sets the adjustment value specified by the Index argument. Read/write
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents an [Adjustments](./PowerPoint.Adjustments.md) object.
+_expression_ A variable that represents an [Adjustments](PowerPoint.Adjustments.md) object.
 
 
 ## Parameters
@@ -39,14 +39,14 @@ Single
 
 ## Remarks
 
-For linear adjustments, an adjustment value of 0.0 generally corresponds to the left or top edge of the shape, and a value of 1.0 generally corresponds to the right or bottom edge of the shape. However, adjustments can pass beyond shape boundaries for some shapes. For radial adjustments, an adjustment value of 1.0 corresponds to the width of the shape. For angular adjustments, the adjustment value is specified in degrees. The  **Item** property applies only to shapes that have adjustments.
+For linear adjustments, an adjustment value of 0.0 generally corresponds to the left or top edge of the shape, and a value of 1.0 generally corresponds to the right or bottom edge of the shape. However, adjustments can pass beyond shape boundaries for some shapes. For radial adjustments, an adjustment value of 1.0 corresponds to the width of the shape. For angular adjustments, the adjustment value is specified in degrees. The **Item** property applies only to shapes that have adjustments.
 
 AutoShapes, connectors, and WordArt objects can have up to eight adjustments.
 
 
 ## Example
 
-This example adds two crosses to  _myDocument_ and then sets the value for adjustment one (the only one on this type of AutoShape) on each cross.
+This example adds two crosses to _myDocument_ and then sets the value for adjustment one (the only one on this type of AutoShape) on each cross.
 
 
 ```vb

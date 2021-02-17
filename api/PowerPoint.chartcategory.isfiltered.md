@@ -12,12 +12,12 @@ localization_priority: Normal
 
 # ChartCategory.IsFiltered property (PowerPoint)
 
-Returns or sets a  **Boolean** that determines whether the specified chart category is filtered out from the chart. Read-write.
+Returns or sets a **Boolean** that determines whether the specified chart category is filtered out from the chart. Read/write.
 
 
 ## Syntax
 
-_expression_. `IsFiltered`
+_expression_.**IsFiltered**
 
 _expression_ A variable that represents a 'ChartCategory' object.
 

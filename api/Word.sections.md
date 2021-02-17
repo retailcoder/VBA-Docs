@@ -17,7 +17,7 @@ A collection of  **Section** objects in a selection, range, or document.
 
 ## Remarks
 
-Use the  **Sections** property to return the **Sections** collection. The following example inserts text at the end of the last section in the active document.
+Use the **Sections** property to return the **Sections** collection. The following example inserts text at the end of the last section in the active document.
 
 
 ```vb
@@ -27,7 +27,7 @@ With ActiveDocument.Sections.Last.Range
 End With
 ```
 
-Use the  **Add** method or the **InsertBreak** method to add a new section to a document. The following example adds a new section at the beginning of the active document.
+Use the **Add** method or the **InsertBreak** method to add a new section to a document. The following example adds a new section at the beginning of the active document.
 
 
 
@@ -44,13 +44,13 @@ The following example displays the number of sections in the active document, ad
 
 
 ```vb
-MsgBox ActiveDocument.Sections.Count &amp; " sections" 
+MsgBox ActiveDocument.Sections.Count & " sections" 
 Selection.Paragraphs(1).Range.InsertBreak _ 
  Type:=wdSectionBreakContinuous 
-MsgBox ActiveDocument.Sections.Count &amp; " sections"
+MsgBox ActiveDocument.Sections.Count & " sections"
 ```
 
-Use  **Sections** (index), where index is the index number, to return a single **Section** object. The following example changes the left and right page margins for the first section in the active document.
+Use  **Sections** (_index_), where _index_ is the index number, to return a single **Section** object. The following example changes the left and right page margins for the first section in the active document.
 
 
 

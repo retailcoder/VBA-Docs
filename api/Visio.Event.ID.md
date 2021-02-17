@@ -19,9 +19,9 @@ Gets the ID of an object. Read-only.
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Return value

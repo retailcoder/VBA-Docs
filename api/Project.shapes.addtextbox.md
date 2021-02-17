@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.AddTextbox method (Project)
-Adds a text box to the report, and returns a  **Shape** object that represents the new text box.
+Adds a text box to the report, and returns a **Shape** object that represents the new text box.
 
 ## Syntax
 
 _expression_. `AddTextbox` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ _expression_. `AddTextbox` _(Orientation,_ _Left,_ _Top,_ _Width,_ _Height)_
 
 ## Example
 
-The following example adds a text box with a light yellow background and a visible border. The text string is formatted and manipulated by using members of the  **TextFrame2** object.
+The following example adds a text box with a light yellow background and a visible border. The text string is formatted and manipulated by using members of the **TextFrame2** object.
 
 
 ```vb

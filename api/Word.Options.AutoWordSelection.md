@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoWordSelection`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets Word to select individual characters instead of entire words w
 Options.AutoWordSelection = False
 ```
 
-This example returns the status of the  **When selecting, automatically select entire word** option on the **Edit** tab in the **Options** dialog box.
+This example returns the status of the **When selecting, automatically select entire word** option on the **Edit** tab in the **Options** dialog box.
 
 
 

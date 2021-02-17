@@ -17,14 +17,15 @@ localization_priority: Normal
 Returns a new shape on the drawing page linked to data in a data recordset.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `DropLinked`( `_ObjectToDrop_` , `_x_` , `_y_` , `_DataRecordsetID_` , `_DataRowID_` , `_ApplyDataGraphicAfterLink_` )
 
- _expression_ An expression that returns a [Page](./Visio.Page.md) object.
+ _expression_ An expression that returns a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters

@@ -21,7 +21,7 @@ Selects all cells in the active table.
 
 _expression_. `SelectSheet`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `SelectSheet`
 
 ## Remarks
 
-The  **SelectSheet** method is only available when the Gantt Chart, Task Sheet, Task Usage view, Resource Sheet, or Resource Usage view is the active view.
+The **SelectSheet** method is only available when the Gantt Chart, Task Sheet, Task Usage view, Resource Sheet, or Resource Usage view is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.SlideShowTransition property (PowerPoint)
 
-Returns a  **[SlideShowTransition](PowerPoint.SlideShowTransition.md)** object that represents the special effects for the specified custom layout. Read-only.
+Returns a **[SlideShowTransition](PowerPoint.SlideShowTransition.md)** object that represents the special effects for the specified custom layout. Read-only.
 
 
 ## Syntax
 
 _expression_. `SlideShowTransition`
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

@@ -30,7 +30,7 @@ The **UserDefinedProperty** object represents only the definition of a user-defi
 
 ## Example
 
-The following Visual Basic for Applications (VBA) example displays the name of a specified **Folder** object, as well as the name and type of every **UserDefinedProperty** object contained in the **UserDefinedProperties** collection of the specified **Folder** object, to the **Immediate** window.
+The following Visual Basic for Applications (VBA) example displays the name of a specified **Folder** object, as well as the name and type of every **UserDefinedProperty** object contained in the **UserDefinedProperties** collection of the specified **Folder** object, to the Immediate window.
 
 
 ```vb
@@ -39,7 +39,7 @@ Sub DisplayUserProperties(ByRef FolderToCheck As Folder)
  
  ' Print the name of the specified Folder object 
  ' reference to the Immediate window. 
- Debug.Print "--- Folder: " &amp; FolderToCheck.Name 
+ Debug.Print "--- Folder: " & FolderToCheck.Name 
  
  ' Check if there are any user-defined properties 
  ' associated with the Folder object reference. 
@@ -55,35 +55,35 @@ Sub DisplayUserProperties(ByRef FolderToCheck As Folder)
  ' Retrieve the type of the user-defined property. 
  Select Case objProperty.Type 
  Case OlUserPropertyType.olCombination 
- strPropertyInfo = strPropertyInfo &amp; " (Combination)" 
+ strPropertyInfo = strPropertyInfo & " (Combination)" 
  Case OlUserPropertyType.olCurrency 
- strPropertyInfo = strPropertyInfo &amp; " (Currency)" 
+ strPropertyInfo = strPropertyInfo & " (Currency)" 
  Case OlUserPropertyType.olDateTime 
- strPropertyInfo = strPropertyInfo &amp; " (Date/Time)" 
+ strPropertyInfo = strPropertyInfo & " (Date/Time)" 
  Case OlUserPropertyType.olDuration 
- strPropertyInfo = strPropertyInfo &amp; " (Duration)" 
+ strPropertyInfo = strPropertyInfo & " (Duration)" 
  Case OlUserPropertyType.olEnumeration 
- strPropertyInfo = strPropertyInfo &amp; " (Enumeration)" 
+ strPropertyInfo = strPropertyInfo & " (Enumeration)" 
  Case OlUserPropertyType.olFormula 
- strPropertyInfo = strPropertyInfo &amp; " (Formula)" 
+ strPropertyInfo = strPropertyInfo & " (Formula)" 
  Case OlUserPropertyType.olInteger 
- strPropertyInfo = strPropertyInfo &amp; " (Integer)" 
+ strPropertyInfo = strPropertyInfo & " (Integer)" 
  Case OlUserPropertyType.olKeywords 
- strPropertyInfo = strPropertyInfo &amp; " (Keywords)" 
+ strPropertyInfo = strPropertyInfo & " (Keywords)" 
  Case OlUserPropertyType.olNumber 
- strPropertyInfo = strPropertyInfo &amp; " (Number)" 
+ strPropertyInfo = strPropertyInfo & " (Number)" 
  Case OlUserPropertyType.olOutlookInternal 
- strPropertyInfo = strPropertyInfo &amp; " (Outlook Internal)" 
+ strPropertyInfo = strPropertyInfo & " (Outlook Internal)" 
  Case OlUserPropertyType.olPercent 
- strPropertyInfo = strPropertyInfo &amp; " (Percent)" 
+ strPropertyInfo = strPropertyInfo & " (Percent)" 
  Case OlUserPropertyType.olSmartFrom 
- strPropertyInfo = strPropertyInfo &amp; " (Smart From)" 
+ strPropertyInfo = strPropertyInfo & " (Smart From)" 
  Case OlUserPropertyType.olText 
- strPropertyInfo = strPropertyInfo &amp; " (Text)" 
+ strPropertyInfo = strPropertyInfo & " (Text)" 
  Case OlUserPropertyType.olYesNo 
- strPropertyInfo = strPropertyInfo &amp; " (Yes/No)" 
+ strPropertyInfo = strPropertyInfo & " (Yes/No)" 
  Case Else 
- strPropertyInfo = strPropertyInfo &amp; " (Unknown)" 
+ strPropertyInfo = strPropertyInfo & " (Unknown)" 
  End Select 
  
  ' Print the name and type of the user-defined property 

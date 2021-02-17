@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.CommandBars property (PowerPoint)
 
-Returns a  **CommandBars** collection that represents all the command bars in Microsoft PowerPoint. Read-only.
+Returns a **CommandBars** collection that represents all the command bars in Microsoft PowerPoint. Read-only.
 
 
 ## Syntax
 
-_expression_. `CommandBars`
+_expression_.**CommandBars**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## See also

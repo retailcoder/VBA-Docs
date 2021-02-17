@@ -17,14 +17,14 @@ Set to  **True** to display the **Value From Cells** range field for the specifi
 
 ## Syntax
 
-_expression_. `ShowRange`
+_expression_.**ShowRange**
 
- _expression_ A variable that represents a [DataLabel](./Word.DataLabel.md) object.
+_expression_ A variable that represents a [DataLabel](./Word.DataLabel.md) object.
 
 
 ## Example
 
-The following example displays the  **Value From Cells** range field for the first data label of the first series on the first chart.
+The following example displays the **Value From Cells** range field for the first data label of the first series on the first chart.
 
 
 ```vb

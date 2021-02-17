@@ -30,17 +30,17 @@ Dim TaskName As String, Assigned As String, Results As String
 
 For Temp = 1 To ActiveProject.Tasks.Count 
 
- TaskName = "Task: " &amp; ActiveProject.Tasks(Temp).Name &amp; vbCrLf 
+ TaskName = "Task: " & ActiveProject.Tasks(Temp).Name & vbCrLf 
 
  For Each A In ActiveProject.Tasks(Temp).Assignments 
 
- Assigned = A.ResourceName &amp; ListSeparator &amp; " " &amp; Assigned 
+ Assigned = A.ResourceName & ListSeparator & " " & Assigned 
 
  Next A 
 
- Results = Results &amp; TaskName &amp; "Resources: " &amp; _ 
+ Results = Results & TaskName & "Resources: " & _ 
 
- Left$(Assigned, Len(Assigned) - Len(ListSeparator &amp; " ")) &amp; vbCrLf &amp; vbCrLf 
+ Left$(Assigned, Len(Assigned) - Len(ListSeparator & " ")) & vbCrLf & vbCrLf 
 
  TaskName = "" 
 
@@ -53,7 +53,7 @@ Next Temp
 MsgBox Results
 ```
 
-Use the  **[Tasks](./Project.Selection.Tasks.md)** property to return a **Tasks** collection. The following example displays the name of every task in the selection.
+Use the **[Tasks](./Project.Selection.Tasks.md)** property to return a **Tasks** collection. The following example displays the name of every task in the selection.
 
 
 
@@ -65,7 +65,7 @@ Dim T As Task, Names As String
 
 For Each T In ActiveSelection.Tasks 
 
- Names = Names &amp; T.Name &amp; vbCrLf 
+ Names = Names & T.Name & vbCrLf 
 
 Next T 
 
@@ -74,7 +74,7 @@ Next T
 MsgBox Names
 ```
 
-Use the  **[Add](./Project.Tasks.Add.md)** method to add a **Task** object to the **Tasks** collection. The following example adds a new task to the end of the task list.
+Use the **[Add](./Project.Tasks.Add.md)** method to add a **Task** object to the **Tasks** collection. The following example adds a new task to the end of the task list.
 
 
 

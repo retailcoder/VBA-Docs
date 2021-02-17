@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Interior.Pattern property (PowerPoint)
 
-Returns or sets a  **Variant** value, containing an **[XlPattern](PowerPoint.XlPattern.md)** constant, that represents the interior pattern.
+Returns or sets a **Variant** value, containing an **[XlPattern](PowerPoint.XlPattern.md)** constant, that represents the interior pattern.
 
 
 ## Syntax
 
-_expression_. `Pattern`
+_expression_.**Pattern**
 
- _expression_ A variable that represents an '[Interior](PowerPoint.Interior.md)' object.
+_expression_ A variable that represents an '[Interior](PowerPoint.Interior.md)' object.
 
 
 ## Example
@@ -29,7 +29,8 @@ _expression_. `Pattern`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example enables up and down bars, then adds a criss-cross pattern to the down bars and sets the pattern color to red, for the first chart group of the first chart in the active document.
 

@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `ApplyPictToSides`
+_expression_.**ApplyPictToSides**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Example

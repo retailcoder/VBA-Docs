@@ -21,7 +21,7 @@ Activates a window.
 
 _expression_. `WindowActivate`( `_WindowName_`, `_DialogID_`, `_TopPane_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_. `WindowActivate`( `_WindowName_`, `_DialogID_`, `_TopPane_` )
 
 ## Example
 
-The following examples allow the user to specify and activate a "hot" window. If you assign the  **ActivateBookmarkedWindow** macro to a shortcut key, you can press that key to quickly activate the bookmarked window.
+The following examples allow the user to specify and activate a "hot" window. If you assign the **ActivateBookmarkedWindow** macro to a shortcut key, you can press that key to quickly activate the bookmarked window.
 
 
 ```vb

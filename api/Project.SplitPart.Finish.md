@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # SplitPart.Finish property (Project)
 
-Gets or sets the finish date of the part of a split task represented by the  **SplitPart** object. Read/write **Variant**.
+Gets or sets the finish date of the part of a split task represented by the **SplitPart** object. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Finish`
 
- _expression_ A variable that represents a [SplitPart](./Project.SplitPart.md) object.
+_expression_ A variable that represents a [SplitPart](./Project.SplitPart.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

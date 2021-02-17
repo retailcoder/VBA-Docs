@@ -21,7 +21,7 @@ Returns the instance of Microsoft Visio that is associated with an object. Read-
 
 _expression_.**Application**
 
- _expression_ A variable that represents a '[Validation](Visio.Validation.md)' object.
+_expression_ A variable that represents a **[Validation](Visio.Validation.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ _expression_.**Application**
 
 ## Example
 
-The following Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the **Validation** object for the active document and prints its process ID number in the **Immediate** window.
+The following Visual Basic for Applications (VBA) macro gets the  **Application** object associated with the **Validation** object for the active document and prints its process ID number in the Immediate window.
 
 
 ```vb

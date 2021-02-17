@@ -9,24 +9,21 @@ localization_priority: Normal
 
 # Documents.AfterDocumentMerge event (Visio)
 
-Occurs when Visio incorporates changes from other users? versions of a document into a merged, co authored document.
+Occurs when Visio incorporates changes from other users' versions of a document into a merged, co authored document.
 
 
 ## Syntax
 
-_expression_. `AfterDocumentMerge`_(coauthMergeObjects)_
+_expression_.**AfterDocumentMerge** (_coauthMergeObjects_)
 
- _expression_ A variable that represents a [Documents](./Visio.Documents.md) object.
+_expression_ A variable that represents a **[Documents](Visio.Documents.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|||||
-| _coauthMergeObjects_|Required|IVCOAUTHMERGEEVENT|An object that represents different versions of the merged, co authored document.|
+| _coauthMergeObjects_|Required|**[IVCOAUTHMERGEEVENT]**|An object that represents different versions of the merged, co authored document.|
 
 ## See also
 

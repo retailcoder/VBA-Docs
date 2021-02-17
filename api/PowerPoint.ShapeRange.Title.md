@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.Title property (PowerPoint)
 
-Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the slide title. Read-only.
+Returns a **[Shape](PowerPoint.Shape.md)** object that represents the slide title. Read-only.
 
 
 ## Syntax
 
 _expression_.**Title**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Remarks
@@ -31,7 +31,7 @@ You can also use the  **[Item](PowerPoint.Placeholders.Item.md)** method of the 
 
 ## Example
 
-The following example sets the title text on  _myDocument_.
+The following example sets the title text on _myDocument_.
 
 
 ```vb

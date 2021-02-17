@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideShowWindow.Presentation property (PowerPoint)
 
-Returns a  **[Presentation](PowerPoint.Presentation.md)** object that represents the presentation in which the specified document window or slide show window was created. Read-only.
+Returns a **[Presentation](PowerPoint.Presentation.md)** object that represents the presentation in which the specified document window or slide show window was created. Read-only.
 
 
 ## Syntax
 
 _expression_. `Presentation`
 
- _expression_ A variable that represents a [SlideShowWindow](./PowerPoint.SlideShowWindow.md) object.
+_expression_ A variable that represents a [SlideShowWindow](PowerPoint.SlideShowWindow.md) object.
 
 
 ## Return value

@@ -7,21 +7,21 @@ ms.prod: publisher
 api_name:
 - Publisher.TextStyle.BaseStyle
 ms.assetid: c8d1665c-c232-ecdf-3c1c-f614c7374c1e
-ms.date: 06/08/2017
+ms.date: 06/15/2019
 localization_priority: Normal
 ---
 
 
 # TextStyle.BaseStyle property (Publisher)
 
-Returns or sets a  **String** that represents the style upon which the formatting of another style is based. Read/write.
+Returns or sets a **String** that represents the style upon which the formatting of another style is based. Read/write.
 
 
 ## Syntax
 
 _expression_.**BaseStyle**
 
- _expression_ A variable that represents a  **TextStyle** object.
+_expression_ A variable that represents a **[TextStyle](Publisher.TextStyle.md)** object.
 
 
 ## Return value
@@ -32,7 +32,6 @@ String
 ## Example
 
 This example sets the base formatting of the style named Body Text to the formatting of the Normal style.
-
 
 ```vb
 Sub SetBaseStyle() 

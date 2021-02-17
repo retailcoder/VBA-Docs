@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideShowSettings.Run method (PowerPoint)
 
-Runs a slide show of the specified presentation. Returns a  **[SlideShowWindow](PowerPoint.SlideShowWindow.md)** object.
+Runs a slide show of the specified presentation. Returns a **[SlideShowWindow](PowerPoint.SlideShowWindow.md)** object.
 
 
 ## Syntax
 
-_expression_. `Run`
+_expression_.**Run**
 
- _expression_ A variable that represents a [SlideShowSettings](./PowerPoint.SlideShowSettings.md) object.
+_expression_ A variable that represents a [SlideShowSettings](PowerPoint.SlideShowSettings.md) object.
 
 
 ## Return value

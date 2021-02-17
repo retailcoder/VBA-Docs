@@ -16,7 +16,7 @@ Closes the bottom pane of a window.
 
 ## Syntax
 
-_expression_. `Close`
+_expression_.**Close**
 
  _expression_ An expression that returns a [Pane](./Project.Pane.md) object.
 
@@ -28,14 +28,14 @@ _expression_. `Close`
 
 ## Example
 
-The following commands exercise the  **Close** method for **Pane** objects.
+The following commands exercise the **Close** method for **Pane** objects.
 
 
 1. Create and apply a combination view named  **Combo View**.
     
 2. Close the bottom pane.
     
-3. Apply the  **Combo View** again to open the bottom pane.
+3. Apply the **Combo View** again to open the bottom pane.
     
 4. Activate the top pane.
     

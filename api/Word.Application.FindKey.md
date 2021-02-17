@@ -21,7 +21,7 @@ Returns a  **[KeyBinding](Word.KeyBinding.md)** object that represents the speci
 
 _expression_. `FindKey`( `_KeyCode_` , `_ KeyCode2_` )
 
- _expression_ Optional. An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ Optional. An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -30,12 +30,12 @@ _expression_. `FindKey`( `_KeyCode_` , `_ KeyCode2_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _KeyCode_|Required| **Long**|A key you specify by using one of the  **WdKey** constants.|
-| _KeyCode2_|Optional| **Variant**|A second key you specify by using one of the  **WdKey** constants.|
+| _KeyCode_|Required| **Long**|A key you specify by using one of the **WdKey** constants.|
+| _KeyCode2_|Optional| **Variant**|A second key you specify by using one of the **WdKey** constants.|
 
 ## Remarks
 
-You can use the  **[BuildKeyCode](Word.Application.BuildKeyCode.md)** method to create the _KeyCode_ or _KeyCode2_ argument.
+You can use the **[BuildKeyCode](Word.Application.BuildKeyCode.md)** method to create the _KeyCode_ or _KeyCode2_ argument.
 
 
 ## Example

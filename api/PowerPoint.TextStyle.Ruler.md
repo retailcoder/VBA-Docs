@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextStyle.Ruler property (PowerPoint)
 
-Returns a  **[Ruler](PowerPoint.Ruler.md)** object that represents the ruler for the specified text. Read-only.
+Returns a **[Ruler](PowerPoint.Ruler.md)** object that represents the ruler for the specified text. Read-only.
 
 
 ## Syntax
 
 _expression_. `Ruler`
 
- _expression_ A variable that represents a [TextStyle](./PowerPoint.TextStyle.md) object.
+_expression_ A variable that represents a [TextStyle](PowerPoint.TextStyle.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Ruler
 
 ## Example
 
-This example sets a left-aligned tab stop at 2 inches (144 points) for the text in shape two on  _myDocument_.
+This example sets a left-aligned tab stop at 2 inches (144 points) for the text in shape two on _myDocument_.
 
 
 ```vb

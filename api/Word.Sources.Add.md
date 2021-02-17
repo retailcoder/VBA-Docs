@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Sources.Add method (Word)
 
-Add a new source to the sources listed in the  **Source Manager** dialog box.
+Add a new source to the sources listed in the **Source Manager** dialog box.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Data_` )
+_expression_.**Add** (_Data_)
 
  _expression_ An expression that returns a '[Sources](Word.Sources.md)' object.
 

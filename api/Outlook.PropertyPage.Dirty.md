@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # PropertyPage.Dirty property (Outlook)
 
-Returns a  **Boolean** value that indicates whether the contents of a custom property page have been altered. Read-only.
+Returns a **Boolean** value that indicates whether the contents of a custom property page have been altered. Read-only.
 
 
 ## Syntax
 
-_expression_. `Dirty`( `_Dirty_` )
+_expression_.**Dirty** (_Dirty_)
 
 _expression_ A variable that represents a [PropertyPage](Outlook.PropertyPage.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

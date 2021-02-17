@@ -21,7 +21,7 @@ Returns the  **ToolbarSet** object for an ID within a collection. Read-only.
 
 _expression_. `ItemAtID`( `_lID_` )
 
- _expression_ A variable that represents a [ToolbarSets](./Visio.ToolbarSets.md) object.
+_expression_ A variable that represents a **[ToolbarSets](Visio.ToolbarSets.md)** object.
 
 
 ## Parameters
@@ -34,13 +34,14 @@ _expression_. `ItemAtID`( `_lID_` )
 
 ## Return value
 
-ToolbarSet
+**[ToolbarSet](visio.toolbarset.md)**
 
 
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 The ID corresponds to a window or context menu. Constants for IDs are prefixed with  **visUIObjectSet** and are declared by the Visio type library in **[VisUIObjSets](Visio.visuiobjsets.md)**.
 

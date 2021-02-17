@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.WizardValue.ID
 ms.assetid: d8d1ec6b-e2e7-8729-b4d2-a62a578ead11
-ms.date: 06/08/2017
+ms.date: 06/18/2019
 localization_priority: Normal
 ---
 
 
 # WizardValue.ID property (Publisher)
 
-Returns a  **Long** that represents the type of a shape, range of shapes, or property, type, or value of a wizard. Read-only.
+Returns a **Long** that represents the type of a shape, range of shapes, or property, type, or value of a wizard. Read-only.
 
 
 ## Syntax
 
 _expression_.**ID**
 
- _expression_ A variable that represents a  **WizardValue** object.
+_expression_ A variable that represents a **[WizardValue](Publisher.WizardValue.md)** object.
 
 
 ## Example
 
 This example displays the type for each shape on the first page of the active publication.
-
 
 ```vb
 Sub ShapeID() 

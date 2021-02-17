@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shapes.Placeholders property (PowerPoint)
 
-Returns a  **[Placeholders](PowerPoint.Placeholders.md)** collection that represents the collection of all the placeholders on a slide. Read-only.
+Returns a **[Placeholders](PowerPoint.Placeholders.md)** collection that represents the collection of all the placeholders on a slide. Read-only.
 
 
 ## Syntax
 
 _expression_. `Placeholders`
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Return value

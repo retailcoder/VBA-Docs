@@ -18,7 +18,7 @@ Returns or sets the position of the legend on the chart. Read/write  **[XlLegend
 
 _expression_.**Position**
 
- _expression_ A variable that represents a '[Legend](PowerPoint.Legend.md)' object.
+_expression_ A variable that represents a '[Legend](PowerPoint.Legend.md)' object.
 
 
 ## Example
@@ -26,7 +26,8 @@ _expression_.**Position**
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example moves the chart legend to the bottom of the chart.
 

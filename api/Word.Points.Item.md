@@ -21,7 +21,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[Points](Word.Points.md)' object.
+_expression_ A variable that represents a '[Points](Word.Points.md)' object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_.**Item** (_Index_)
 
 ## Return value
 
-A  **[Point](Word.Point.md)** object that the collection contains.
+A **[Point](Word.Point.md)** object that the collection contains.
 
 
 ## Example

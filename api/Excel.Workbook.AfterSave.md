@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.AfterSave
 ms.assetid: 97fee36a-f77c-29ab-de1d-b6069b2d74d8
-ms.date: 06/08/2017
+ms.date: 05/25/2019
 localization_priority: Normal
 ---
 
@@ -19,28 +19,25 @@ Occurs after the workbook is saved.
 
 ## Syntax
 
-_expression_. `AfterSave`( `_Success_` )
+_expression_.**AfterSave** (_Success_)
 
-_expression_ A variable that represents a '[Workbook](Excel.Workbook.md)' object.
+_expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Success_|Required| **Boolean**|Returns  **True** if the save operation was successful; otherwise **False**.|
+| _Success_|Required| **Boolean**|Returns **True** if the save operation was successful; otherwise, **False**.|
 
 ## Return value
 
-Nothing
+**Nothing**
 
 
 ## Example
 
 The following code example displays a message box if the workbook was successfully saved.
-
 
 ```vb
 Private Sub Workbook_AfterSave(ByVal Success As Boolean) 
@@ -51,9 +48,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

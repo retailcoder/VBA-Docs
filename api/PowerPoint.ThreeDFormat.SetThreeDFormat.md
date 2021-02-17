@@ -21,7 +21,7 @@ Sets the preset extrusion format.
 
 _expression_. `SetThreeDFormat`( `_PresetThreeDFormat_` )
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Parameters
@@ -66,7 +66,7 @@ The value of the PresetThreeDFormat parameter can be one of these  **MsoPresetTh
 
 ## Example
 
-This example adds an oval to  _myDocument_ and sets its extrusion format to 3D Style 12.
+This example adds an oval to _myDocument_ and sets its extrusion format to 3D Style 12.
 
 
 ```vb

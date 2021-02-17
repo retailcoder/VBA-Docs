@@ -21,7 +21,7 @@ Moves the specified shape in front of or behind other shapes in the collection (
 
 _expression_.**ZOrder** (_ZOrderCmd_)
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Parameters
@@ -46,14 +46,14 @@ The  _ZOrderCmd_ parameter value can be one of these **MsoZOrderCmd** constants.
 |**msoSendBehindText**|
 |**msoSendToBack**|
 
-The  **msoBringInFrontOfText** and **msoSendBehindText** constants should be used only in Microsoft Office Word.
+The **msoBringInFrontOfText** and **msoSendBehindText** constants should be used only in Microsoft Office Word.
 
 Use the  **ZOrderPosition** property to determine a shape's current position in the z-order.
 
 
 ## Example
 
-This example adds an oval to  _myDocument_ and then places the oval second from the back in the z-order if there is at least one other shape on the slide.
+This example adds an oval to _myDocument_ and then places the oval second from the back in the z-order if there is at least one other shape on the slide.
 
 
 ```vb

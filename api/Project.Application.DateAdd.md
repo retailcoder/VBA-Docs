@@ -18,7 +18,7 @@ Returns the date and time that follows another date by a specified duration, for
 
 _expression_. `DateAdd`( `_StartDate_`, `_Duration_`, `_Calendar_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ _expression_. `DateAdd`( `_StartDate_`, `_Duration_`, `_Calendar_` )
 
 ## Remarks
 
-To add a duration to a date for a manually scheduled task, which uses an effective calendar that can include non-working time, use the  **[EffectiveDateAdd](Project.StartDriver.EffectiveDateAdd.md)** property.
+To add a duration to a date for a manually scheduled task, which uses an effective calendar that can include non-working time, use the **[EffectiveDateAdd](Project.StartDriver.EffectiveDateAdd.md)** property.
 
 
 ## Example

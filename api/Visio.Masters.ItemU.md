@@ -21,7 +21,7 @@ Returns an object from a collection. Read-only.
 
 _expression_. `ItemU`( `_NameUIDOrIndex_` )
 
- _expression_ A variable that represents a [Masters](./Visio.Masters.md) object.
+_expression_ A variable that represents a **[Masters](Visio.Masters.md)** object.
 
 
 ## Parameters
@@ -64,7 +64,6 @@ objRet = vsoShapes.ItemU("*{2287DC42-B167-11CE-88E9-0020AFDDD917}")
 ```
 
 
- **Note**  
 
 
 ## Example

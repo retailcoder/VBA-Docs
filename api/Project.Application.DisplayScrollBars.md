@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `DisplayScrollBars`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Example
 
-The following example changes the setting of the  **DisplayScrollBars** property.
+The following example changes the setting of the **DisplayScrollBars** property.
 
 
 ```vb

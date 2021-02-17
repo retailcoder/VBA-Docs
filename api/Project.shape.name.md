@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Name property (Project)
-Gets or sets the name of the shape. Read-write  **String**.
+Gets or sets the name of the shape. Read/write  **String**.
 
 ## Syntax
 
 _expression_.**Name**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

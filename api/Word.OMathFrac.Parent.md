@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathFrac.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathFrac** object.
+Returns an **Object** that represents the parent object of the specified **OMathFrac** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathFrac](Word.OMathFrac.md)' object.
+_expression_ A variable that represents a '[OMathFrac](Word.OMathFrac.md)' object.
 
 
 ## See also

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Windows property (PowerPoint)
 
-Returns a  **[DocumentWindows](PowerPoint.DocumentWindows.md)** collection that represents all open document windows. Read-only.
+Returns a **[DocumentWindows](PowerPoint.DocumentWindows.md)** collection that represents all open document windows. Read-only.
 
 
 ## Syntax
 
-_expression_. `Windows`
+_expression_.**Windows**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

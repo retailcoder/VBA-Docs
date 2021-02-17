@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shapes.AddCurve method (Project)
-Adds a Bézier curve to a report, and returns a  **Shape** object that represents the curve.
+Adds a Bézier curve to a report, and returns a **Shape** object that represents the curve.
 
 ## Syntax
 
 _expression_. `AddCurve` _(SafeArrayOfPoints)_
 
- _expression_ A variable that represents a 'Shapes' object.
+_expression_ A variable that represents a **[Shapes](Project.Shapes.md)** object.
 
 
 ## Parameters

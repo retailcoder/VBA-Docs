@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.LinkFormat property (PowerPoint)
 
-Returns a  **[LinkFormat](PowerPoint.LinkFormat.md)** object that contains the properties that are unique to linked OLE objects. Read-only.
+Returns a **[LinkFormat](PowerPoint.LinkFormat.md)** object that contains the properties that are unique to linked OLE objects. Read-only.
 
 
 ## Syntax
 
 _expression_. `LinkFormat`
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

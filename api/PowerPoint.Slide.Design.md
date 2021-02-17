@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Slide.Design property (PowerPoint)
 
-Returns a  **Design** object representing a design.
+Returns a **Design** object representing a design.
 
 
 ## Syntax
 
 _expression_. `Design`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

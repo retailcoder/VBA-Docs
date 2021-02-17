@@ -19,9 +19,9 @@ Sets the specified fill to a pattern.
 
 ## Syntax
 
-_expression_. `Patterned`( `_Pattern_` )
+_expression_.**Patterned** (_Pattern_)
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Parameters
@@ -93,7 +93,7 @@ The value of the Pattern parameter can be one of these  **MsoPatternType** const
 
 ## Example
 
-This example adds an oval with a patterned fill to  _myDocument_.
+This example adds an oval with a patterned fill to _myDocument_.
 
 
 ```vb

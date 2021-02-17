@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # ViewCombination.BottomView property (Project)
 
-Gets or sets a  **[ViewSingle](Project.ViewSingle.md)** object representing the lower view of the combination view of the project. Read/write **ViewSingle**.
+Gets or sets a **[ViewSingle](Project.ViewSingle.md)** object representing the lower view of the combination view of the project. Read/write **ViewSingle**.
 
 
 ## Syntax
 
 _expression_. `BottomView`
 
- _expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
+_expression_ A variable that represents a [ViewCombination](./Project.ViewCombination.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

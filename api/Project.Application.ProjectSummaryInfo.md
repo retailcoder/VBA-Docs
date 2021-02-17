@@ -21,7 +21,7 @@ Sets information about a project.
 
 _expression_. `ProjectSummaryInfo`( `_Project_`, `_Title_`, `_Subject_`, `_Author_`, `_Company_`, `_Manager_`, `_Keywords_`, `_Comments_`, `_Start_`, `_Finish_`, `_ScheduleFrom_`, `_CurrentDate_`, `_Calendar_`, `_StatusDate_`, `_Priority_`, `_PartiallyDisabled_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -38,8 +38,8 @@ _expression_. `ProjectSummaryInfo`( `_Project_`, `_Title_`, `_Subject_`, `_Autho
 | _Manager_|Optional|**String**|The manager of the project.|
 | _Keywords_|Optional|**String**|The keywords associated with the project.|
 | _Comments_|Optional|**String**|The comments associated with the project.|
-| _Start_|Optional|**Variant**|The start date of the project. If ScheduleFrom is  **pjProjectFinish**, Start is ignored.|
-| _Finish_|Optional|**Variant**|The finish date of the project. If ScheduleFrom is  **pjProjectStart**, Finish is ignored.|
+| _Start_|Optional|**Variant**|The start date of the project. If ScheduleFrom is **pjProjectFinish**, Start is ignored.|
+| _Finish_|Optional|**Variant**|The finish date of the project. If ScheduleFrom is **pjProjectStart**, Finish is ignored.|
 | _ScheduleFrom_|Optional|**Integer**|Can be one of the following  **[PjScheduleProjectFrom](Project.PjScheduleProjectFrom.md)** constants: **pjProjectStart** or **pjProjectFinish**.|
 | _CurrentDate_|Optional|**Variant**|The current date for the project.|
 | _Calendar_|Optional|**String**|The name of the base calendar for the project.|
@@ -54,6 +54,6 @@ _expression_. `ProjectSummaryInfo`( `_Project_`, `_Title_`, `_Subject_`, `_Autho
 
 ## Remarks
 
-Using the  **ProjectSummaryInfo** method with no arguments displays the **Project Information** dialog box.
+Using the **ProjectSummaryInfo** method with no arguments displays the **Project Information** dialog box.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

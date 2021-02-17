@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # FormField object (Word)
 
-Represents a single form field. The  **FormField** object is a member of the **FormFields** collection.
+Represents a single form field. The **FormField** object is a member of the **FormFields** collection.
 
 
 ## Remarks
 
-Use  **FormFields** (index), where index is a bookmark name or index number, to return a single **FormField** object. The following example sets the result of the Text1 form field to "Don Funk."
+Use  **FormFields** (_index_), where _index_ is a bookmark name or index number, to return a single **FormField** object. The following example sets the result of the Text1 form field to "Don Funk."
 
 
 ```vb
@@ -37,7 +37,7 @@ If Selection.FormFields.Count >= 1 Then
 End If
 ```
 
-Use the  **Add** method with the **[FormFields](Word.formfields.md)** object to add a form field. The following example adds a check box at the beginning of the active document and then selects the check box.
+Use the **Add** method with the **[FormFields](Word.formfields.md)** object to add a form field. The following example adds a check box at the beginning of the active document and then selects the check box.
 
 
 
@@ -49,7 +49,7 @@ Set ffield = ActiveDocument.FormFields.Add( _
 ffield.CheckBox.Value = True
 ```
 
-Use the  **CheckBox**, **DropDown**, and **TextInput** properties with the **FormField** object to return the **CheckDown**, **DropDown**, and **TextInput** objects. The following example selects the check box named "Check1."
+Use the **CheckBox**, **DropDown**, and **TextInput** properties with the **FormField** object to return the **CheckDown**, **DropDown**, and **TextInput** objects. The following example selects the check box named "Check1."
 
 
 

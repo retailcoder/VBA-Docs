@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `LevelWithinSlack`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-You can set the  **LevelWithinSlack** property in the **Resource Leveling** dialog box. To access the setting, click **Leveling Options** on the **Resource** tab of the Ribbon, and then click **Level only within available slack**.
+You can set the **LevelWithinSlack** property in the **Resource Leveling** dialog box. To access the setting, click **Leveling Options** on the **Resource** tab of the Ribbon, and then click **Level only within available slack**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

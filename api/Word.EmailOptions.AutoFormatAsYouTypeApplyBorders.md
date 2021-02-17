@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatAsYouTypeApplyBorders`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
@@ -38,7 +38,7 @@ This example causes sequences of three or more hyphens (-), equal signs (=), or 
 Options.AutoFormatAsYouTypeApplyBorders = True
 ```
 
-This example returns the current setting for the  **Borders** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the current setting for the **Borders** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

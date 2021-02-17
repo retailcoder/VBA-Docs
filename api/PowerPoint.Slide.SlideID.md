@@ -21,7 +21,7 @@ Returns a unique ID number for the specified slide. Read-only.
 
 _expression_. `SlideID`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ Unlike the  **SlideIndex** property, the **SlideID** property of a **Slide** obj
 
 ## Example
 
-This example demonstrates how to retrieve the unique ID number for a  **Slide** object and then use this number to return that **Slide** object from the **Slides** collection.
+This example demonstrates how to retrieve the unique ID number for a **Slide** object and then use this number to return that **Slide** object from the **Slides** collection.
 
 
 ```vb

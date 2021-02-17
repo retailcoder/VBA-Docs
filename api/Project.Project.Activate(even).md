@@ -18,7 +18,7 @@ Occurs when switching to the project from another project, including when the pr
 
 _expression_.**Activate** (_pj_)
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -29,7 +29,7 @@ _expression_.**Activate** (_pj_)
 
 ## Remarks
 
-When you switch between two windows showing the same project, the  **Activate** event for the project doesn't occur.
+When you switch between two windows showing the same project, the **Activate** event for the project doesn't occur.
 
 This event doesn't occur when you create a new window. 
 

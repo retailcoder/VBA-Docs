@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `DefaultAutoFilter`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **DefaultAutoFilter** property corresponds to the **Set AutoFilter on for new projects** setting on the **Advanced** tab of the **Project Options** dialog box.
+The **DefaultAutoFilter** property corresponds to the **Set AutoFilter on for new projects** setting on the **Advanced** tab of the **Project Options** dialog box.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

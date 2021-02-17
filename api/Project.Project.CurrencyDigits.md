@@ -21,11 +21,11 @@ Sets or returns the number of digits following the decimal separator character i
 
 _expression_. `CurrencyDigits`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-Project sets the  **CurrencyDigits** property equal to the corresponding value in the **Customize Regional Options** dialog box of the Windows Control Panel.
+Project sets the **CurrencyDigits** property equal to the corresponding value in the **Customize Regional Options** dialog box of the Windows Control Panel.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

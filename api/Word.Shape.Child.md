@@ -19,14 +19,14 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Child`
+_expression_.**Child**
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example
 
-This example selects the first shape in the canvas and, if the selected shape is a child shape, fills the shape with the specified color. This example assumes that the first shape in the active document is a drawing canvas that contains multiple shapes.
+This example selects the first shape in the canvas, and if the selected shape is a child shape, fills the shape with the specified color. This example assumes that the first shape in the active document is a drawing canvas that contains multiple shapes.
 
 
 ```vb

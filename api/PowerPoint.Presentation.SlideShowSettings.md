@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.SlideShowSettings property (PowerPoint)
 
-Returns a  **[SlideShowSettings](PowerPoint.SlideShowSettings.md)** object that represents the slide show settings for the specified presentation. Read-only.
+Returns a **[SlideShowSettings](PowerPoint.SlideShowSettings.md)** object that represents the slide show settings for the specified presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `SlideShowSettings`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

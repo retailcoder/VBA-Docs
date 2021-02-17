@@ -21,7 +21,7 @@ Returns or sets the carbon copy (CC) recipients for a letter created by the Lett
 
 _expression_. `CCList`
 
- _expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
+_expression_ A variable that represents a '[LetterContent](Word.LetterContent.md)' object.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example displays the CC list text for the active document.
 MsgBox ActiveDocument.GetLetterContent.CCList
 ```
 
-This example creates a new  **LetterContent** object, sets the courtesy copies by setting the CClist property, and then runs the Letter Wizard by using the **[RunLetterWizard](Word.Document.RunLetterWizard.md)** method.
+This example creates a new **LetterContent** object, sets the courtesy copies by setting the CClist property, and then runs the Letter Wizard by using the **[RunLetterWizard](Word.Document.RunLetterWizard.md)** method.
 
 
 

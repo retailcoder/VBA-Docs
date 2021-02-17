@@ -21,7 +21,7 @@ Selects a cell.
 
 _expression_. `SelectCell`( `_Row_`, `_Column_`, `_RowRelative_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_. `SelectCell`( `_Row_`, `_Column_`, `_RowRelative_` )
 
 ## Remarks
 
-Using the  **SelectCell** method without specifying any arguments retains the current cell as the active cell.
+Using the **SelectCell** method without specifying any arguments retains the current cell as the active cell.
 
 
 ## Example

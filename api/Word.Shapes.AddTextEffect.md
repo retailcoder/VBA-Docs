@@ -21,7 +21,7 @@ Adds a WordArt shape to a drawing canvas. Returns a  **Shape** object that repre
 
 _expression_. `AddTextEffect`( `_PresetTextEffect_` , `_Text_` , `_FontName_` , `_FontSize_` , `_FontBold_` , `_FontItalic_` , `_Left_` , `_Top_` )
 
-_expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' collection.
+_expression_ Required. A variable that represents a **[Shapes](Word.Shapes.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ Required. A variable that represents a '[Shapes](Word.shapes.md)' c
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _PresetTextEffect_|Required| **MsoPresetTextEffect**|A preset text effect. The values of the  **MsoPresetTextEffect** constants correspond to the formats listed in the **WordArt Gallery** dialog box (numbered from left to right and from top to bottom).|
+| _PresetTextEffect_|Required| **MsoPresetTextEffect**|A preset text effect. The values of the **MsoPresetTextEffect** constants correspond to the formats listed in the **WordArt Gallery** dialog box (numbered from left to right and from top to bottom).|
 | _Text_|Required| **String**|The text in the WordArt.|
 | _FontName_|Required| **String**|The name of the font used in the WordArt.|
 | _FontSize_|Required| **Single**|The size (in points) of the font used in the WordArt.|

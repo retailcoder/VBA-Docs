@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # ChartFormat.Fill property (PowerPoint)
 
-Returns a  **[FillFormat](PowerPoint.FillFormat.md)** object for the parent chart element that contains fill formatting properties for the chart element. Read-only.
+Returns a **[FillFormat](PowerPoint.FillFormat.md)** object for the parent chart element that contains fill formatting properties for the chart element. Read-only.
 
 
 ## Syntax
 
-_expression_. `Fill`
+_expression_.**Fill**
 
 _expression_ A variable that represents a '[ChartFormat](PowerPoint.ChartFormat.md)' object.
 

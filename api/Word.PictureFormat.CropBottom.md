@@ -19,14 +19,14 @@ Returns or sets the number of points that are cropped off the bottom of the spec
 
 ## Syntax
 
-_expression_. `CropBottom`
+_expression_.**CropBottom**
 
- _expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
+_expression_ A variable that represents a '[PictureFormat](Word.PictureFormat.md)' object.
 
 
 ## Remarks
 
-Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the  **CropBottom** property to 50, 100 points (not 50) will be cropped off the bottom of your picture.
+Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it is 200 points high, and then set the **CropBottom** property to 50, 100 points (not 50) will be cropped off the bottom of your picture.
 
 
 ## Example

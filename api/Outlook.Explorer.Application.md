@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Application property (Outlook)
 
-Returns an  **[Application](Outlook.Application.md)** object that represents the parent Outlook application for the object. Read-only.
+Returns an **[Application](Outlook.Application.md)** object that represents the parent Outlook application for the object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Application**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## See also

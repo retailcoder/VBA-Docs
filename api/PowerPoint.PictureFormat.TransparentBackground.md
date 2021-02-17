@@ -19,9 +19,9 @@ Determines whether parts of the picture that are the color defined as the transp
 
 ## Syntax
 
-_expression_. `TransparentBackground`
+_expression_.**TransparentBackground**
 
- _expression_ A variable that represents a [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents a [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Return value
@@ -46,7 +46,7 @@ The value of the  **TransparentBackground** property can be one of these **MsoTr
 
 ## Example
 
-This example sets the color that has the RGB value returned by the function RGB(0, 24, 240) as the transparent color for shape one on  _myDocument_. For the example to work, shape one must be a bitmap.
+This example sets the color that has the RGB value returned by the function RGB(0, 24, 240) as the transparent color for shape one on _myDocument_. For the example to work, shape one must be a bitmap.
 
 
 ```vb

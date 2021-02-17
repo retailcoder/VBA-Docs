@@ -21,7 +21,7 @@ Returns a value that indicates where the callout line attaches to the callout te
 
 _expression_.**DropType**
 
-_expression_ A variable that represents a [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents a [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -31,11 +31,11 @@ MsoCalloutDropType
 
 ## Remarks
 
-If the callout drop type is  **msoCalloutDropCustom**, the values of the [Drop](PowerPoint.CalloutFormat.Drop.md)and  **[AutoAttach](PowerPoint.CalloutFormat.AutoAttach.md)** properties and the relative positions of the callout text box and callout line origin (the place that the callout points to) are used to determine where the callout line attaches to the text box.
+If the callout drop type is **msoCalloutDropCustom**, the values of the [Drop](PowerPoint.CalloutFormat.Drop.md)and  **[AutoAttach](PowerPoint.CalloutFormat.AutoAttach.md)** properties and the relative positions of the callout text box and callout line origin (the place that the callout points to) are used to determine where the callout line attaches to the text box.
 
-This property is read-only. Use the  **[PresetDrop](PowerPoint.CalloutFormat.PresetDrop.md)** method to set the value of this property.
+This property is read-only. Use the **[PresetDrop](PowerPoint.CalloutFormat.PresetDrop.md)** method to set the value of this property.
 
-The value returned by the  **DropType** property can be one of these **MsoCalloutDropType** constants.
+The value returned by the **DropType** property can be one of these **MsoCalloutDropType** constants.
 
 
 ||
@@ -48,7 +48,7 @@ The value returned by the  **DropType** property can be one of these **MsoCallou
 
 ## Example
 
-This example checks to determine whether shape three on  _myDocument_ is a callout with a custom drop. If it is, the code replaces the custom drop with one of two preset drops, depending on whether the custom drop value is greater than or less than half the height of the callout text box.
+This example checks to determine whether shape three on _myDocument_ is a callout with a custom drop. If it is, the code replaces the custom drop with one of two preset drops, depending on whether the custom drop value is greater than or less than half the height of the callout text box.
 
 
 ```vb

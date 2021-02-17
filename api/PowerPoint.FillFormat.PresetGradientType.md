@@ -19,9 +19,9 @@ Returns the preset gradient type for the specified fill. Read-only.
 
 ## Syntax
 
-_expression_. `PresetGradientType`
+_expression_.**PresetGradientType**
 
- _expression_ A variable that represents a [FillFormat](./PowerPoint.FillFormat.md) object.
+_expression_ A variable that represents a **[FillFormat](powerpoint.fillformat.md)** object.
 
 
 ## Return value
@@ -66,7 +66,7 @@ The value of the  **PresetGradientType** property can be one of these **MsoPrese
 
 ## Example
 
-This example changes the fill for all shapes in  _myDocument_ with the Moss preset gradient fill to the Fog preset gradient fill.
+This example changes the fill for all shapes in _myDocument_ with the Moss preset gradient fill to the Fog preset gradient fill.
 
 
 ```vb

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.Sentences method (PowerPoint)
 
-Returns a  **TextRange** object that represents the specified subset of text sentences.
+Returns a **TextRange** object that represents the specified subset of text sentences.
 
 
 ## Syntax
 
 _expression_. `Sentences`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

@@ -21,7 +21,7 @@ Sets save options for project files.
 
 _expression_. `OptionsSave`( `_DefaultSaveFormat_`, `_DefaultProjectsPath_`, `_DefaultUserTemplatesPath_`, `_DefaultWorkgroupTemplatesPath_`, `_ExpandDatabaseTimephasedData_`, `_AutomaticSave_`, `_AutomaticSaveInterval_`, `_AutomaticSaveOptions_`, `_AutomaticSavePrompt_`, `_SetDefaultsDatabase_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -48,9 +48,9 @@ _expression_. `OptionsSave`( `_DefaultSaveFormat_`, `_DefaultProjectsPath_`, `_D
 
 ## Remarks
 
-If an argument is omitted, the default value is specified by the corresponding setting on the  **Save** tab of the **Project Options** dialog box.
+If an argument is omitted, the default value is specified by the corresponding setting on the **Save** tab of the **Project Options** dialog box.
 
-Using the  **OptionsSave** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
+Using the **OptionsSave** method without specifying any arguments displays the **Project Options** dialog box with the **General** tab selected.
 
 
 ## Example

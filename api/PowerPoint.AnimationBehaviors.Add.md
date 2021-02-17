@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # AnimationBehaviors.Add method (PowerPoint)
 
-Returns an  **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object that represents a new animation behavior.
+Returns an **[AnimationBehavior](PowerPoint.AnimationBehavior.md)** object that represents a new animation behavior.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Type_`, `_Index_` )
+_expression_.**Add** (_Type_, _Index_)
 
-_expression_ A variable that represents an [AnimationBehaviors](./PowerPoint.AnimationBehaviors.md) object.
+_expression_ A variable that represents an [AnimationBehaviors](PowerPoint.AnimationBehaviors.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

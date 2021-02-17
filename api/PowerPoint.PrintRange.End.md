@@ -19,9 +19,9 @@ Returns the number of the last slide in the specified print range. Read-only.
 
 ## Syntax
 
-_expression_. `End`
+_expression_.**End**
 
- _expression_ A variable that represents an [PrintRange](./PowerPoint.PrintRange.md) object.
+_expression_ A variable that represents an [PrintRange](PowerPoint.PrintRange.md) object.
 
 
 ## Return value

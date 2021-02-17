@@ -19,14 +19,14 @@ Returns a  **String** that specifies a unique identifier for the specified autho
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
  _expression_ An expression that returns a [CoAuthor](./Word.CoAuthor.md) object.
 
 
 ## Remarks
 
-The unique identifier returned by the  **ID** property should not be assumed to have a particular length or format.
+The unique identifier returned by the **ID** property should not be assumed to have a particular length or format.
 
 
 ## Example

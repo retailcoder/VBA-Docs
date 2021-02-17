@@ -19,9 +19,9 @@ Returns the maximum width (in points) to which you can set the width of a Micros
 
 ## Syntax
 
-_expression_. `UsableWidth`
+_expression_.**UsableWidth**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

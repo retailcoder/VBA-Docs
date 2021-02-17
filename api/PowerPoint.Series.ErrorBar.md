@@ -19,29 +19,28 @@ Applies error bars to the series.
 
 ## Syntax
 
-_expression_. `ErrorBar`( `_Direction_`, `_Include_`, `_Type_`, `_Amount_`, `_MinusValues_` )
+_expression_.**ErrorBar** (_Direction_, _Include_, _Type_, _Amount_, _MinusValues_)
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Direction_|Required|**[XlErrorBarDirection](PowerPoint.XlErrorBarDirection.md)**|One of the enumeration values that specifies the error bar direction.|
 | _Include_|Required|**[XlErrorBarInclude](PowerPoint.XlErrorBarInclude.md)**|One of the enumeration values that specifies the error bar parts to include.|
 | _Type_|Required|**[XlErrorBarType](PowerPoint.XlErrorBarType.md)**|One of the enumeration values that specifies the error bar type.|
-| _Amount_|Optional|**Variant**|The error amount. Used for only the positive error amount when Type is  **xlErrorBarTypeCustom**.|
-| _MinusValues_|Optional|**Variant**|The negative error amount when Type is  **xlErrorBarTypeCustom**.|
+| _Amount_|Optional|**Variant**|The error amount. Used for only the positive error amount when Type is **xlErrorBarTypeCustom**.|
+| _MinusValues_|Optional|**Variant**|The negative error amount when Type is **xlErrorBarTypeCustom**.|
 
 ## Example
 
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example applies standard error bars along the y-axis for series one of the first chart in the active document. The error bars are applied in the positive and negative directions. The example should be run on a 2D line chart.
 

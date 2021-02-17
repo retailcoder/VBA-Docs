@@ -12,7 +12,7 @@ localization_priority: Normal
 
 # XMLNamespaces.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **XMLNamespaces** object.
+Returns an **Object** that represents the parent object of the specified **XMLNamespaces** object.
 
 
 ## Syntax
@@ -21,7 +21,5 @@ _expression_.**Parent**
 
 _expression_ Required. A variable that represents a '' collection.
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

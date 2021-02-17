@@ -17,7 +17,7 @@ Sets or clears task predecessor highlighting for the task path feature.
 
 _expression_. `HighlightPredecessors` _(Set)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -37,12 +37,12 @@ _expression_. `HighlightPredecessors` _(Set)_
 
 ## Remarks
 
-The  **HighlightPredecessors** method corresponds to the **Predecessors** item in the **Task Path** drop-down list, on the **FORMAT** tab, under **GANTT CHART TOOLS** on the ribbon.
+The **HighlightPredecessors** method corresponds to the **Predecessors** item in the **Task Path** drop-down list, on the **FORMAT** tab, under **GANTT CHART TOOLS** on the ribbon.
 
 
 ## Example
 
-Create a project where task 2 is a predecessor of task 3, and then run the following statements in the  **Immediate** window of the VBE. The **PathPredecessor** statement prints **True**.
+Create a project where task 2 is a predecessor of task 3, and then run the following statements in the Immediate window of the VBE. The **PathPredecessor** statement prints **True**.
 
 
 ```vb

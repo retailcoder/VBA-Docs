@@ -21,7 +21,7 @@ Returns the original master that produced this open master. Read-only.
 
 _expression_. `Original`
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ Master
 
 ## Remarks
 
-If this  **Master** object is not an open copy of another **Master** object, the **Original** property returns **Nothing**.
+If this **Master** object is not an open copy of another **Master** object, the **Original** property returns **Nothing**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

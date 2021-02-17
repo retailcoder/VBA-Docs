@@ -21,7 +21,7 @@ Gets or sets the value of the  **Data2** field for a **Shape** object. Read/writ
 
 _expression_. `Data2`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ Use the  **Data2** property to supply additional information about a shape. The 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to set a shape's  **Data1**, **Data2**, and **Data3** properties. It prints the values of these properties in the **Immediate** window. You can also verify that these values have been set by opening the **Special** dialog box.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to set a shape's  **Data1**, **Data2**, and **Data3** properties. It prints the values of these properties in the Immediate window. You can also verify that these values have been set by opening the **Special** dialog box.
 
 
 ```vb

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # EffectInformation.PlaySettings property (PowerPoint)
 
-Returns a  **[PlaySettings](PowerPoint.PlaySettings.md)** object that contains information about how the specified media clip plays during a slide show. Read-only.
+Returns a **[PlaySettings](PowerPoint.PlaySettings.md)** object that contains information about how the specified media clip plays during a slide show. Read-only.
 
 
 ## Syntax
 
 _expression_. `PlaySettings`
 
-_expression_ A variable that represents an [EffectInformation](./PowerPoint.EffectInformation.md) object.
+_expression_ A variable that represents an [EffectInformation](PowerPoint.EffectInformation.md) object.
 
 
 ## Return value

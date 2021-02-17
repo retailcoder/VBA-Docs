@@ -21,7 +21,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[Trendlines](Word.Trendlines.md)' object.
+_expression_ A variable that represents a '[Trendlines](Word.Trendlines.md)' object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_.**Item** (_Index_)
 
 ## Return value
 
-A  **[Trendline](Word.Trendline.md)** object that the collection contains.
+A **[Trendline](Word.Trendline.md)** object that the collection contains.
 
 
 ## Example

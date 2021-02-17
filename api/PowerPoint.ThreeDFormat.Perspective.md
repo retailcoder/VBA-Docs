@@ -21,7 +21,7 @@ Determines whether the extrusion appears in perspective. Read/write.
 
 _expression_.**Perspective**
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -37,12 +37,12 @@ The value of the  **Perspective** property can be one of these **MsoTriState** c
 
 |Constant|Description|
 |:-----|:-----|
-|**msoFalse**|The extrusion is a parallel, or orthographic, projection?that is, if the walls don't narrow toward a vanishing point. |
-|**msoTrue**| The extrusion appears in perspective?that is, if the walls of the extrusion narrow toward a vanishing point.|
+|**msoFalse**|The extrusion is a parallel, or orthographic, projection; that is, if the walls don't narrow toward a vanishing point. |
+|**msoTrue**| The extrusion appears in perspective; that is, if the walls of the extrusion narrow toward a vanishing point.|
 
 ## Example
 
-This example sets the extrusion depth for shape one on  _myDocument_ to 100 points and specifies that the extrusion be parallel, or orthographic.
+This example sets the extrusion depth for shape one on _myDocument_ to 100 points and specifies that the extrusion be parallel, or orthographic.
 
 
 ```vb

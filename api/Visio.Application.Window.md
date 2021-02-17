@@ -19,9 +19,9 @@ Returns the window associated with the current instance of Microsoft Visio. Read
 
 ## Syntax
 
-_expression_. `Window`
+_expression_.**Window**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Window
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVApplication.Window**

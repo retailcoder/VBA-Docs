@@ -5,7 +5,7 @@ f1_keywords:
 - vbaxl10.chm965074
 ms.prod: excel
 ms.assetid: 8c40b267-91b3-f7ab-1cdf-7329789dc0eb
-ms.date: 06/08/2017
+ms.date: 05/01/2019
 localization_priority: Normal
 ---
 
@@ -24,7 +24,7 @@ _expression_ A variable that represents a **[ModelColumnChange](Excel.modelcolum
 
 ## Remarks
 
-Because the object was created in Microsoft Excel, this property returns the hexadecimal value, 5843454C, which represents the string "XCEL".
+Because the object was created in Microsoft Excel, this property returns the hexadecimal value, 5843454C, which represents the string XCEL.
 
 
 ## Property value

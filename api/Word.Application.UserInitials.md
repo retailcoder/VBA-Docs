@@ -21,7 +21,7 @@ Returns or sets the user's initials, which Microsoft Word uses to construct comm
 
 _expression_. `UserInitials`
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets the user's initials.
 Application.UserInitials = "baa"
 ```
 
-This example returns the letters found in the  **Initials** box on the **User Information** tab in the **Options** dialog box (**Tools** menu).
+This example returns the letters found in the **Initials** box on the **User Information** tab in the **Options** dialog box (**Tools** menu).
 
 
 

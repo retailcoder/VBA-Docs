@@ -21,11 +21,11 @@ Gets the type of resource for the assignment. Read-only  **PjResourceTypes**.
 
 _expression_. `ResourceType`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-The  **ResourceType** property can be one of the following **[PjResourceTypes](Project.PjResourceTypes.md)** constants: **pjResourceTypeWork** or **pjResourceTypeMaterial**.
+The **ResourceType** property can be one of the following **[PjResourceTypes](Project.PjResourceTypes.md)** constants: **pjResourceTypeWork** or **pjResourceTypeMaterial**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

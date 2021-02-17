@@ -21,11 +21,11 @@ Gets or sets the character that separates items in lists. Read/write  **String**
 
 _expression_. `ListSeparator`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project sets the  **ListSeparator** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel. The **ListSeparator** property can only be set through the Control Panel.
+Project sets the **ListSeparator** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel. The **ListSeparator** property can only be set through the Control Panel.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

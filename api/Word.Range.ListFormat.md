@@ -21,7 +21,7 @@ Returns a  **[ListFormat](Word.ListFormat.md)** object that represents all the l
 
 _expression_. `ListFormat`
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example
@@ -37,7 +37,7 @@ Set myRange = _
 myRange.ListFormat.ApplyOutlineNumberDefault
 ```
 
-This example applies the second list template on the  **Numbered** tab in the **Bullets and Numbering** dialog box to all the paragraphs in the selection.
+This example applies the second list template on the **Numbered** tab in the **Bullets and Numbering** dialog box to all the paragraphs in the selection.
 
 
 

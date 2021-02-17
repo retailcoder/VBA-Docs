@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Task.Baseline6FixedCost property (Project)
 
-Gets or sets the baseline6 fixed cost of any nonresource expense for a  **Task**. Read/write **Variant**.
+Gets or sets the baseline6 fixed cost of any nonresource expense for a **Task**. Read/write **Variant**.
 
 
 ## Syntax
 
 _expression_. `Baseline6FixedCost`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

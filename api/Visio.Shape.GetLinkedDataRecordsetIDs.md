@@ -17,14 +17,15 @@ localization_priority: Normal
 Gets the IDs of all the data recordsets that contain data rows linked to the shape.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `GetLinkedDataRecordsetIDs`( `_DataRecordsetIDs()_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -49,7 +50,7 @@ For the DataRecordsetIDs() parameter, pass an empty, dimensionless array of type
 
  The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **GetLinkedDataRecordsetIDs** method to get the IDs of all the data recordsets that contain data rows linked to the shape.
 
-Before running this macro, add at least two data recordsets to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to data in the two data recordsets most recently added to the collection, and then prints the IDs of the linked data recordsets returned by the **GetLinkedDataRecordsetIDs** method in the **Immediate** window.
+Before running this macro, add at least two data recordsets to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to data in the two data recordsets most recently added to the collection, and then prints the IDs of the linked data recordsets returned by the **GetLinkedDataRecordsetIDs** method in the Immediate window.
 
 
 

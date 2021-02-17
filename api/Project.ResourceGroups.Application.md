@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # ResourceGroups.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ A variable that represents a 'ResourceGroups' object.
+_expression_ A variable that represents a 'ResourceGroups' object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

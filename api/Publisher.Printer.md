@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Printer
 ms.assetid: 46f8c6a2-4cf1-bb6a-1214-a751440870f2
-ms.date: 06/08/2017
+ms.date: 06/01/2019
 localization_priority: Normal
 ---
 
 
 # Printer object (Publisher)
 
-A  **Printer** object represents a printer installed on your computer.
+A **Printer** object represents a printer installed on your computer.
 
 
 ## Remarks
 
-Many of the properties, such as  **PaperSize**, **PaperSource**, and **PaperOrientation**, of the **Printer** object correspond to the settings in the **Print Setup** dialog box (**File** menu) in the Microsoft Publisher user interface .
+Many of the properties of the **Printer** object, such as **PaperSize**, **PaperSource**, and **PaperOrientation**, correspond to the settings in the **Print Setup** dialog box (**File** menu) in the Microsoft Publisher user interface.
 
-The collection of all the printers installed on your computer is represented by the  **InstalledPrinters** collection.
+The collection of all the printers installed on your computer is represented by the **InstalledPrinters** collection.
 
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how you can use the  **PrinterName** and **IsActivePrinter** properties of the **Printer** object to get a list of all the installed printers on the computer, determine which of them is currently the active printer, and get some of the settings of the active printer. The macro displays the results in the **Immediate** window.
-
+The following Microsoft Visual Basic for Applications (VBA) macro shows how you can use the **PrinterName** and **IsActivePrinter** properties of the **Printer** object to get a list of all the installed printers on the computer, determine which of them is currently the active printer, and get some of the settings of the active printer. The macro displays the results in the Immediate window.
 
 ```vb
 Public Sub Printer_Example() 
@@ -55,24 +54,26 @@ End Sub
 
 ## Properties
 
+- [Application](Publisher.Printer.Application.md)
+- [DriverType](Publisher.Printer.DriverType.md)
+- [Index](Publisher.Printer.Index.md)
+- [IsActivePrinter](Publisher.Printer.IsActivePrinter.md)
+- [IsColor](Publisher.Printer.IsColor.md)
+- [IsDuplex](Publisher.Printer.IsDuplex.md)
+- [PaperHeight](Publisher.Printer.PaperHeight.md)
+- [PaperOrientation](Publisher.Printer.PaperOrientation.md)
+- [PaperSize](Publisher.Printer.PaperSize.md)
+- [PaperSource](Publisher.Printer.PaperSource.md)
+- [PaperWidth](Publisher.Printer.PaperWidth.md)
+- [Parent](Publisher.Printer.Parent.md)
+- [PrintableRect](Publisher.Printer.PrintableRect.md)
+- [PrinterName](Publisher.Printer.PrinterName.md)
+- [PrintMode](Publisher.Printer.PrintMode.md)
+
+## See also
+
+- [Publisher Object Model Reference](overview/publisher/object-model.md)
 
 
-|Name|
-|:-----|
-|[Application](./Publisher.Printer.Application.md)|
-|[DriverType](./Publisher.Printer.DriverType.md)|
-|[Index](./Publisher.Printer.Index.md)|
-|[IsActivePrinter](./Publisher.Printer.IsActivePrinter.md)|
-|[IsColor](./Publisher.Printer.IsColor.md)|
-|[IsDuplex](./Publisher.Printer.IsDuplex.md)|
-|[PaperHeight](./Publisher.Printer.PaperHeight.md)|
-|[PaperOrientation](./Publisher.Printer.PaperOrientation.md)|
-|[PaperSize](./Publisher.Printer.PaperSize.md)|
-|[PaperSource](./Publisher.Printer.PaperSource.md)|
-|[PaperWidth](./Publisher.Printer.PaperWidth.md)|
-|[Parent](./Publisher.Printer.Parent.md)|
-|[PrintableRect](./Publisher.Printer.PrintableRect.md)|
-|[PrinterName](./Publisher.Printer.PrinterName.md)|
-|[PrintMode](./Publisher.Printer.Printer.PrintMode.md)|
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,7 +21,7 @@ Inserts the specified number of new rows above the row that contains the selecti
 
 _expression_. `InsertRows`( `_NumRows_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 ## Remarks
 
-You can also insert rows by using the  **[Add](Word.Rows.Add.md)** method of the **Rows** object.
+You can also insert rows by using the **[Add](Word.Rows.Add.md)** method of the **Rows** object.
 
 
 ## Example

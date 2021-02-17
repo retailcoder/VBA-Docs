@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ToggleTPUnscheduled method (Project)
 
-Shows or hides the  **Unscheduled Tasks** column in the Team Planner view.
+Shows or hides the **Unscheduled Tasks** column in the Team Planner view.
 
 
 ## Syntax
 
 _expression_. `ToggleTPUnscheduled`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `ToggleTPUnscheduled`
 
 ## Remarks
 
-The  **ToggleTPUnscheduled** method corresponds to the **Unscheduled Tasks** check box on the **Format** tab under **Team Planner Tools** on the ribbon.
+The **ToggleTPUnscheduled** method corresponds to the **Unscheduled Tasks** check box on the **Format** tab under **Team Planner Tools** on the ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

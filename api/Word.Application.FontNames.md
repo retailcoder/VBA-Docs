@@ -21,12 +21,12 @@ Returns a  **[FontNames](Word.FontNames.md)** object that includes the names of 
 
 _expression_. `FontNames`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example
 
-This example displays the font names in the  **FontNames** collection.
+This example displays the font names in the **FontNames** collection.
 
 
 ```vb

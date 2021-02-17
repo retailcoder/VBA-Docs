@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.RulerGuides.Count
 ms.assetid: 92a93b1a-80c1-7a41-cb94-ac0859a4a470
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
 
 # RulerGuides.Count property (Publisher)
 
-Returns a  **Long** that represents the number of items in the specified collection.
+Returns a **Long** that represents the number of items in the specified collection.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a  **RulerGuides** object.
+_expression_ A variable that represents a **[RulerGuides](Publisher.RulerGuides.md)** object.
 
 
 ## Example
 
 This example displays the number of pages in the active document.
-
 
 ```vb
 Sub CountNumberOfPages() 
@@ -36,10 +35,9 @@ Sub CountNumberOfPages()
 End Sub
 ```
 
+<br/>
+
 This example displays the number of shapes in the active document.
-
-
-
 
 ```vb
 Sub CountNumberOfShapes() 

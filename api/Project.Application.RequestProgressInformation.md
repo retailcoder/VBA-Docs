@@ -18,7 +18,7 @@ Requests progress information from resources, republishes, and saves the active 
 
 _expression_. `RequestProgressInformation`( `_ShowDialog_`, `_ItemsScope_`, `_NotifyTaskLead_`, `_NotificationText_`, `_ReportingPeriodFrom_`, `_ReportingPeriodTo_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -36,6 +36,6 @@ _expression_. `RequestProgressInformation`( `_ShowDialog_`, `_ItemsScope_`, `_No
 
 ## Remarks
 
-Using the  **RequestProgressInformation** method with no arguments displays the **Request Progress Information** dialog box. The **RequestProgressInformation** method is available only in Project Professional.
+Using the **RequestProgressInformation** method with no arguments displays the **Request Progress Information** dialog box. The **RequestProgressInformation** method is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.Adjustments property (PowerPoint)
 
-Returns an  **[Adjustments](PowerPoint.Adjustments.md)** object that contains adjustment values for all the adjustments in the specified shape. Applies to any **Shape** object that represents an AutoShape, WordArt, or a connector. Read-only.
+Returns an **[Adjustments](PowerPoint.Adjustments.md)** object that contains adjustment values for all the adjustments in the specified shape. Applies to any **Shape** object that represents an AutoShape, WordArt, or a connector. Read-only.
 
 
 ## Syntax
 
-_expression_. `Adjustments`
+_expression_.**Adjustments**
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Adjustments
 
 ## Example
 
-This example sets to 0.25 the value of adjustment one for shape three on  _myDocument_.
+This example sets to 0.25 the value of adjustment one for shape three on _myDocument_.
 
 
 ```vb

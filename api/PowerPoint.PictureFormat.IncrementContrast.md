@@ -19,9 +19,9 @@ Changes the contrast of the picture by the specified amount.
 
 ## Syntax
 
-_expression_. `IncrementContrast`( `_Increment_` )
+_expression_.**IncrementContrast** (_Increment_)
 
- _expression_ A variable that represents an [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents an [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ You cannot adjust the contrast of a picture past the upper or lower limit for th
 
 ## Example
 
-This example increases the contrast for all pictures on  _myDocument_ that aren't already set to maximum contrast.
+This example increases the contrast for all pictures on _myDocument_ that aren't already set to maximum contrast.
 
 
 ```vb

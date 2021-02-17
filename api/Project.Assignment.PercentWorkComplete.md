@@ -18,12 +18,12 @@ Gets or sets the percentage of work complete for an assignment. Read/write  **Va
 
 _expression_. `PercentWorkComplete`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Example
 
-The following example sets the  **Marked** property to **True** for each task in the active project with a percentage of work complete that exceeds the percentage specified by the user.
+The following example sets the **Marked** property to **True** for each task in the active project with a percentage of work complete that exceeds the percentage specified by the user.
 
 
 ```vb

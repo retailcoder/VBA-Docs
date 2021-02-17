@@ -5,7 +5,7 @@ f1_keywords:
 - jeterr40.chm5003183
 ms.prod: access
 ms.assetid: ba122b0f-2445-705c-f24d-810ebc9ddeb9
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -22,7 +22,7 @@ For example, you may be trying to create a query that creates temporary files la
 You can increase the amount of available temporary disk space in several ways:
 
 
-- Select fewer records. Dynaset-type, forward-only — type, and snapshot-type  **Recordset** objects record keys and data to the temporary disk.
+- Select fewer records. Dynaset-type, forward-only — type, and snapshot-type **Recordset** objects record keys and data to the temporary disk.
     
 - Select a different drive for your temporary disk.
     
@@ -40,8 +40,8 @@ You can increase the amount of available temporary disk space in several ways:
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

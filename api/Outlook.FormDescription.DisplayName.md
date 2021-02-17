@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # FormDescription.DisplayName property (Outlook)
 
-Returns or sets a  **String** representing the name of the form, which is displayed in the **Choose Forms** dialog box. Read/write.
+Returns or sets a **String** representing the name of the form, which is displayed in the **Choose Forms** dialog box. Read/write.
 
 
 ## Syntax
 
-_expression_. `DisplayName`
+_expression_.**DisplayName**
 
 _expression_ A variable that represents a [FormDescription](Outlook.FormDescription.md) object.
 

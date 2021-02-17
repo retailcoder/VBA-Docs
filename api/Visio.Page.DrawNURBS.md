@@ -21,7 +21,7 @@ Creates a new shape whose path consists of a single NURBS (nonuniform rational B
 
 _expression_. `DrawNURBS`( `_degree_` , `_Flags_` , `_xyArray()_` , `_knots()_` , `_weights_` )
 
- _expression_ A variable that represents a [Page](./Visio.Page.md) object.
+_expression_ A variable that represents a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -58,9 +58,9 @@ The  _knots_ argument is unit-less. The sequence of _knots_ should be non-decrea
     
 - Any knot between the first and last may not be repeated more than  _degree_ times.
     
-- If the first knot is repeated less than  _degree_ + 1 times, the spline is _periodic_ .
+- If the first knot is repeated less than  _degree_ + 1 times, the spline is _periodic_.
     
-- The list of weights is optional. Its absence signals that the spline is  _non-rational_ . Weights are unit-less.
+- The list of weights is optional. Its absence signals that the spline is  _non-rational_. Weights are unit-less.
     
 
 
@@ -71,7 +71,7 @@ The following rules apply to the sizes of the lists. For a spline with n control
 
 - If the spline is periodic,  _n_ > 2. Otherwise, _n_ > _degree_.
     
-- The size of  _xyArray_ is 2 _n_ .
+- The size of  _xyArray_ is 2 _n_.
     
 - The size of the  _weights_ array is _n_ (if present).
     

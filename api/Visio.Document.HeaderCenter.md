@@ -19,9 +19,9 @@ Contains the text string that appears in the center portion of a document's head
 
 ## Syntax
 
-_expression_. `HeaderCenter`
+_expression_.**HeaderCenter**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value

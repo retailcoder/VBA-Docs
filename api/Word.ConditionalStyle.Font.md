@@ -21,12 +21,12 @@ Returns or sets a  **[Font](Word.Font.md)** object that represents the character
 
 _expression_.**Font**
 
- _expression_ A variable that represents a '[ConditionalStyle](Word.ConditionalStyle.md)' object.
+_expression_ A variable that represents a '[ConditionalStyle](Word.ConditionalStyle.md)' object.
 
 
 ## Remarks
 
-To set the  **Font** property, specify an expression that returns a **[Font](Word.Font.md)** object.
+To set the **Font** property, specify an expression that returns a **[Font](Word.Font.md)** object.
 
 
 ## See also

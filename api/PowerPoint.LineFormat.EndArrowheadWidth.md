@@ -19,9 +19,9 @@ Returns or sets the width of the arrowhead at the end of the specified line. Rea
 
 ## Syntax
 
-_expression_. `EndArrowheadWidth`
+_expression_.**EndArrowheadWidth**
 
- _expression_ A variable that represents an [LineFormat](./PowerPoint.LineFormat.md) object.
+_expression_ A variable that represents an [LineFormat](PowerPoint.LineFormat.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ MsoArrowheadWidth
 
 ## Remarks
 
-The  **EndArrowheadWidth** property value can be one of these **MsoArrowheadWidth** constants.
+The **EndArrowheadWidth** property value can be one of these **MsoArrowheadWidth** constants.
 
 
 ||
@@ -43,7 +43,7 @@ The  **EndArrowheadWidth** property value can be one of these **MsoArrowheadWidt
 
 ## Example
 
-This example adds a line to  _myDocument_. There's a short, narrow oval on the line's starting point and a long, wide triangle on its endpoint.
+This example adds a line to _myDocument_. There's a short, narrow oval on the line's starting point and a long, wide triangle on its endpoint.
 
 
 ```vb

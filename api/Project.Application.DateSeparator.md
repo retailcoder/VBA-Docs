@@ -21,11 +21,11 @@ Gets the date separator character. Read-only  **String**.
 
 _expression_. `DateSeparator`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project sets the  **DateSeparator** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel. For example, if the current format is set to **French (France)**, the  **DateSeparator** property value is "/".
+Project sets the **DateSeparator** property equal to the corresponding value in the **Regional and Language Options** dialog box of the Microsoft Windows Control Panel. For example, if the current format is set to **French (France)**, the **DateSeparator** property value is "/".
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

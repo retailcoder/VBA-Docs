@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `PrintHiddenText`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Setting the  **PrintHiddenText** property to **False** automatically sets the **[PrintComments](Word.Options.PrintComments.md)** property to **False**. However, setting the **PrintHiddenText** property to **True** has no effect on the setting of the **PrintComments** property.
+Setting the **PrintHiddenText** property to **False** automatically sets the **[PrintComments](Word.Options.PrintComments.md)** property to **False**. However, setting the **PrintHiddenText** property to **True** has no effect on the setting of the **PrintComments** property.
 
 
 ## Example
@@ -39,7 +39,7 @@ Options.PrintHiddenText = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Hidden text** option on the **Print** tab in the **Options** dialog box.
+This example returns the current status of the **Hidden text** option on the **Print** tab in the **Options** dialog box.
 
 
 

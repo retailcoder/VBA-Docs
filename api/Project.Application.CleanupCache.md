@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.CleanupCache method (Project)
 
-Displays the  **Cleanup Cache** dialog box. Available only in Project Professional.
+Displays the **Cleanup Cache** dialog box. Available only in Project Professional.
 
 
 ## Syntax
 
 _expression_. `CleanupCache`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

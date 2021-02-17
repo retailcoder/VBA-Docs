@@ -19,15 +19,16 @@ Returns a [Reviewers](Word.Reviewers.md) object that represents the collection o
 
 _expression_. `Reviewers`
 
- _expression_ A variable that represents a 'RevisionsFilter' object.
+_expression_ A variable that represents a 'RevisionsFilter' object.
 
 
 ## Remarks
 
-The  **Reviewers** collection returned by **Reviewers** contains the names of all reviewers who have reviewed documents opened or edited on a computer.
+The **Reviewers** collection returned by **Reviewers** contains the names of all reviewers who have reviewed documents opened or edited on a computer.
 
 
- **Note**  The  **Reviewers** property replaces the **View.Reviewers** property found in previous versions of Word, which is now deprecated.
+> [!NOTE] 
+> The **Reviewers** property replaces the **View.Reviewers** property found in previous versions of Word, which is now deprecated.
 
 
 ## Example

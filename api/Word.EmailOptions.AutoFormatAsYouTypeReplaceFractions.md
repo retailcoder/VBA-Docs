@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatAsYouTypeReplaceFractions`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example turns off the automatic replacement of typed fractions.
 Options.AutoFormatAsYouTypeReplaceFractions = False
 ```
 
-This example returns the status of the  **Fractions (1/2) with fraction character (½)** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Fractions (1/2) with fraction character (½)** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

@@ -19,14 +19,12 @@ Prints the specified presentation.
 
 ## Syntax
 
-_expression_. `PrintOut`( `_From_`, `_To_`, `_PrintToFile_`, `_Copies_`, `_Collate_` )
+_expression_.**PrintOut** (_From_, _To_, _PrintToFile_, _Copies_, _Collate_)
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -49,7 +47,7 @@ The  _Collate_ parameter value can be one of these **MsoTriState** constants.
 
 ## Example
 
-This example prints two uncollated copies of each slide ? whether visible or hidden ? from slide two to slide five in the active presentation.
+This example prints two uncollated copies of each slide&mdash;whether visible or hidden&mdash;from slide two to slide five in the active presentation.
 
 
 ```vb

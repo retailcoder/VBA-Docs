@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # WebOptions object (Word)
 
-Contains document-level attributes used by Microsoft Word when you save a document as a Web page or open a Web page.
+Contains document-level attributes used by Microsoft Word when you save a document as a webpage or open a webpage.
 
 
 ## Remarks
 
  You can return or set attributes either at the application (global) level or at the document level. (Note that attribute values can be different from one document to another, depending on the attribute value at the time the document was saved.) Document-level attribute settings override application-level attribute settings. Application-level attributes are contained in the **DefaultWebOptions** object.
 
-Use the  **WebOptions** property to return the **WebOptions** object. The following example checks to see whether PNG (Portable Network Graphics) is allowed as an image format and then sets the _strImageFileType_ variable accordingly.
+Use the **WebOptions** property to return the **WebOptions** object. The following example checks to see whether PNG (Portable Network Graphics) is allowed as an image format and then sets the _strImageFileType_ variable accordingly.
 
 
 

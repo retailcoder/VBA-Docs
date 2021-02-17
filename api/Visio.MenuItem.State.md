@@ -21,7 +21,7 @@ Determines a menu item's state, pressed or not pressed. Read/write.
 
 _expression_. `State`
 
- _expression_ A variable that represents a [MenuItem](./Visio.MenuItem.md) object.
+_expression_ A variable that represents a **[MenuItem](Visio.MenuItem.md)** object.
 
 
 ## Return value
@@ -32,13 +32,14 @@ Integer
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-The  **State** property can be one of the following constants declared by the Visio type library in **VisUIButtonState**.
+The **State** property can be one of the following constants declared by the Visio type library in **VisUIButtonState**.
 
 
 
-|** Constant**|** Value**|** Description**|
+|Constant|Value|Description|
 |:-----|:-----|:-----|
 | **visButtonUp**|0|Button is not pressed|
 | **visButtonDown**|-1|Button is pressed|

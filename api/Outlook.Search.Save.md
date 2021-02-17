@@ -19,7 +19,7 @@ Saves the search results to a Search Folder.
 
 ## Syntax
 
-_expression_. `Save` `_SchFldrName_`
+_expression_.**Save** (_SchFldrName_)
 
 _expression_ A variable that represents a [Search](Outlook.Search.md) object.
 
@@ -34,7 +34,7 @@ _expression_ A variable that represents a [Search](Outlook.Search.md) object.
 
 ## Remarks
 
-The  **Save** method displays an error if a Search Folder with the same name already exists.
+The **Save** method displays an error if a Search Folder with the same name already exists.
 
 
 ## Example

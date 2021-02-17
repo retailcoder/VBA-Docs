@@ -19,14 +19,14 @@ Returns the texture type for the specified fill. Read-only  **MsoTextureType**.
 
 ## Syntax
 
-_expression_. `TextureType`
+_expression_.**TextureType**
 
- _expression_ An expression that represents a '[FillFormat](Word.FillFormat.md)' object.
+ _expression_ An expression that represents a **[FillFormat](word.fillformat.md)** object.
 
 
 ## Remarks
 
-This property is read-only. Use the  **[PresetTextured](Word.FillFormat.PresetTextured.md)**, **[UserPicture](Word.FillFormat.UserPicture.md)**, or **[UserTextured](Word.FillFormat.UserTextured.md)** method to set the texture type for the fill.
+This property is read-only. Use the **[PresetTextured](Word.FillFormat.PresetTextured.md)**, **[UserPicture](Word.FillFormat.UserPicture.md)**, or **[UserTextured](Word.FillFormat.UserTextured.md)** method to set the texture type for the fill.
 
 
 ## Example

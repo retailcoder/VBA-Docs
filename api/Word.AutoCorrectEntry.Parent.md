@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AutoCorrectEntry.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **AutoCorrectEntry** object.
+Returns an **Object** that represents the parent object of the specified **AutoCorrectEntry** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an '[AutoCorrectEntry](Word.AutoCorrectEntry.md)' object.
+_expression_ A variable that represents an '[AutoCorrectEntry](Word.AutoCorrectEntry.md)' object.
 
 
 ## See also

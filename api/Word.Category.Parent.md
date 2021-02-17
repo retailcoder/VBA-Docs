@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Category.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Category** object.
+Returns an **Object** that represents the parent object of the specified **Category** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Category](Word.Category.md)' object.
+_expression_ A variable that represents a '[Category](Word.Category.md)' object.
 
 
 ## See also

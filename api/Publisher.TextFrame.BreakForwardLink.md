@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.TextFrame.BreakForwardLink
 ms.assetid: 60a7a798-ebd3-e00d-032d-685dd0d5a042
-ms.date: 06/08/2017
+ms.date: 06/15/2019
 localization_priority: Normal
 ---
 
@@ -21,18 +21,17 @@ Breaks the forward link for the specified text frame, if such a link exists.
 
 _expression_.**BreakForwardLink**
 
- _expression_ A variable that represents a  **TextFrame** object.
+_expression_ A variable that represents a **[TextFrame](Publisher.TextFrame.md)** object.
 
 
 ## Remarks
 
-Applying this method to a shape in the middle of a chain of shapes with linked text frames will break the chain, leaving two sets of linked shapes. All of the text, however, will remain in the first series of linked shapes.
+Applying this method to a shape in the middle of a chain of shapes with linked text frames breaks the chain, leaving two sets of linked shapes. All of the text, however, remains in the first series of linked shapes.
 
 
 ## Example
 
 This example creates a new publication, adds a chain of three linked text boxes to it, and then breaks the link after the second text box.
-
 
 ```vb
 Sub BreakTextLink() 

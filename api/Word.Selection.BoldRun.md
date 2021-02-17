@@ -7,7 +7,7 @@ ms.prod: word
 api_name:
 - Word.Selection.BoldRun
 ms.assetid: 0998afe2-dcd9-c1e4-9614-a1af4c6bbeaf
-ms.date: 06/08/2017
+ms.date: 06/25/2020
 localization_priority: Normal
 ---
 
@@ -16,12 +16,14 @@ localization_priority: Normal
 
 Adds the bold character format to or removes it from the current run.
 
+> [!IMPORTANT]
+> This method has changed. Using VBA Selection commands like `Selection.BoldRun` on user selection with Comments no longer applies bold formatting on user-selected text.
 
 ## Syntax
 
 _expression_. `BoldRun`
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks

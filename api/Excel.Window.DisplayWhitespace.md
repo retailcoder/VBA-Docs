@@ -7,26 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.Window.DisplayWhitespace
 ms.assetid: 3baa40f7-f1f1-bc9e-55ab-abaf9653393a
-ms.date: 06/08/2017
+ms.date: 05/21/2019
 localization_priority: Normal
 ---
 
 
 # Window.DisplayWhitespace property (Excel)
 
- **True** if whitespace is displayed. Read/write **Boolean**.
+**True** if whitespace is displayed. Read/write **Boolean**.
 
 
 ## Syntax
 
-_expression_. `DisplayWhitespace`
+_expression_.**DisplayWhitespace**
 
-_expression_ A variable that represents a [Window](Excel.Window.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[Window](Excel.Window.md)** object.
 
 
-[Window Object](Excel.Window.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

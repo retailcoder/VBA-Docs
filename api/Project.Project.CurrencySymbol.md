@@ -21,12 +21,12 @@ Gets or sets the characters that denote currency values. Read/write  **String**.
 
 _expression_. `CurrencySymbol`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-Project sets the  **CurrencySymbol** property equal to the corresponding value in the **Customize Regional Options** dialog box of the Windows Control Panel.
+Project sets the **CurrencySymbol** property equal to the corresponding value in the **Customize Regional Options** dialog box of the Windows Control Panel.
 
 
 ## Example

@@ -1,27 +1,28 @@
 ---
-title: pbPictureInsertFit enumeration (Publisher)
+title: PbPictureInsertFit enumeration (Publisher)
 keywords: vbapb10.chm65641
 f1_keywords:
 - vbapb10.chm65641
 ms.prod: publisher
 ms.assetid: 0c5b495d-ace9-4c87-b045-883b47b56020
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
 
-# pbPictureInsertFit enumeration (Publisher)
-
-Insert introduction here.
+# PbPictureInsertFit enumeration (Publisher)
 
 
-## Section heading
+Whether the inserted picture is fit to the frame or fills the frame.
 
-Insert section body here.
+<br/>
+
+|Name|Value|Description|
+|:-----|:-----|:-----|
+| **pbFit** |1|The inserted picture is fit to the frame.|
+| **pbFill** |2|The inserted picture fills the frame.|
 
 
-### Subsection heading
 
-Insert subsection body here.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

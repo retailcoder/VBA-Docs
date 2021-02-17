@@ -16,9 +16,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `ApplyPictToEnd`
+_expression_.**ApplyPictToEnd**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Example
@@ -26,7 +26,8 @@ _expression_. `ApplyPictToEnd`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example applies pictures to the end of all points in the first series of the first chart in the active document. The series must already have pictures applied to it (setting this property changes the picture orientation).
 

@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # ViewSingle.Delete method (Project)
 
-Deletes the  **ViewSingle** object from a **ViewsSingle** collection.
+Deletes the **ViewSingle** object from a **ViewsSingle** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [ViewSingle](./Project.ViewSingle.md) object.
+_expression_ A variable that represents a [ViewSingle](./Project.ViewSingle.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

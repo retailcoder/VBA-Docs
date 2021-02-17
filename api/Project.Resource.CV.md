@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.CV property (Project)
 
-Gets the cost variance for a  **Resource**. Read-only **Variant**.
+Gets the cost variance for a **Resource**. Read-only **Variant**.
 
 
 ## Syntax
 
 _expression_. `CV`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

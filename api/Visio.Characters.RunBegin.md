@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # Characters.RunBegin property (Visio)
 
-Returns the beginning index of a type of run?a sequence of characters that share a particular attribute, such as character, paragraph, or tab formatting; or a word, paragraph, or field. Read-only.
+Returns the beginning index of a type of run&mdash;a sequence of characters that share a particular attribute, such as character, paragraph, or tab formatting; or a word, paragraph, or field. Read-only.
 
 
 ## Syntax
 
-_expression_. `RunBegin`( `_RunType_` )
+_expression_.**RunBegin** (_RunType_)
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

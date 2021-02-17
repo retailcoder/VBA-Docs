@@ -21,7 +21,7 @@ Removes an item from the value list for a custom field.
 
 _expression_. `CustomFieldValueListDelete`( `_FieldID_`, `_Index_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,8 +30,8 @@ _expression_. `CustomFieldValueListDelete`( `_FieldID_`, `_Index_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
-| _Index_|Required|**Integer**|The row number of the value list item to delete from the  **Value List** dialog box.|
+| _FieldID_|Required|**Long**|The custom field. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _Index_|Required|**Integer**|The row number of the value list item to delete from the **Value List** dialog box.|
 
 ## Return value
 

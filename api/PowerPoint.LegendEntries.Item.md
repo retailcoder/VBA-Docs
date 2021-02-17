@@ -18,7 +18,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[LegendEntries](PowerPoint.LegendEntries.md)' object.
+_expression_ A variable that represents a '[LegendEntries](PowerPoint.LegendEntries.md)' object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_.**Item** (_Index_)
 
 ## Return value
 
-A  **[LegendEntry](PowerPoint.LegendEntry.md)** object that the collection contains.
+A **[LegendEntry](PowerPoint.LegendEntry.md)** object that the collection contains.
 
 
 ## Example
@@ -39,7 +39,8 @@ A  **[LegendEntry](PowerPoint.LegendEntry.md)** object that the collection conta
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example changes the font for the text of the legend entry at the top of the legend (this is usually the legend for series one) for the first chart in the active document.
 

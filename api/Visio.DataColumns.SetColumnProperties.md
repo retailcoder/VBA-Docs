@@ -17,19 +17,18 @@ localization_priority: Normal
 Sets one or more data-column properties for one or more data columns.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_.**SetColumnProperties** (_ColumnNames()_, _Properties()_, _Values()_)
 
-_expression_ An expression that returns a [DataColumns](Visio.DataColumns.md) object.
+_expression_ An expression that returns a **[DataColumns](Visio.DataColumns.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -49,8 +48,6 @@ The **SetColumnProperties** method is a more efficient way to set properties for
 For the ColumnNames() parameter, pass an array of the names of the data columns whose properties you want to change. If you want to change multiple properties of the same column, you can either place the same name in multiple array positions, or you can place the column name in one array position and place empty strings in the succeeding positions that correspond to the array positions of the properties you want to change. 
 
 Possible values for items in the Properties() parameter array are declared in **VisDataColumnProperties**, and are shown in the following table.
-
-
 
 |Constant|Value|Description|
 |:-----|:-----|:-----|
@@ -73,8 +70,6 @@ The following Microsoft Visual Basic for Applications (VBA) macro shows how to s
 The macro changes the display name of the first column to "Dept." and sets the **Hyperlink** property of the second column to **True**. Thereafter (if you used ORGDATA as your data source), the email address of shapes linked to data in the data recordset will act as a hyperlink.
 
 Note that changing the display name of a data column changes only its **[DisplayName](Visio.DataColumn.DisplayName.md)** property, and does not change the column's programmatic name, which is specified by its **[Name](Visio.DataColumn.Name.md)** property.
-
-
 
 
 ```vb

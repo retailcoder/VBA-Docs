@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.PublishObjects.Item
 ms.assetid: 5327f5b3-8dd0-cb10-49b5-9824d0376667
-ms.date: 06/08/2017
+ms.date: 05/09/2019
 localization_priority: Normal
 ---
 
@@ -21,12 +21,10 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
-_expression_ A variable that represents a [PublishObjects](Excel.PublishObjects.md) object.
+_expression_ A variable that represents a **[PublishObjects](Excel.PublishObjects.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -34,8 +32,7 @@ _expression_ A variable that represents a [PublishObjects](Excel.PublishObjects.
 
 ## Example
 
-This example obtains the identifier from a <DIV> tag and finds the line in a web page (q198.htm) that you saved from a workbook. The example then creates a copy of the web page (newq1.htm) and inserts a comment line before the <DIV> tag in the copy of the file.
-
+This example obtains the identifier from a `<DIV>` tag and finds the line in a webpage (q198.htm) that you saved from a workbook. The example then creates a copy of the webpage (newq1.htm) and inserts a comment line before the `<DIV>` tag in the copy of the file.
 
 ```vb
 strTargetDivID = ActiveWorkbook.PublishObjects.Item(1).DivID 
@@ -54,9 +51,5 @@ Close #1
 ```
 
 
-## See also
-
-
-[PublishObjects Object](Excel.PublishObjects.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

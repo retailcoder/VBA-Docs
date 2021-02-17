@@ -21,7 +21,7 @@ Selects a resource field.
 
 _expression_. `SelectResourceField`( `_Row_`, `_Column_`, `_RowRelative_`, `_Width_`, `_Height_`, `_Extend_`, `_Add_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -45,7 +45,7 @@ _expression_. `SelectResourceField`( `_Row_`, `_Column_`, `_RowRelative_`, `_Wid
 
 ## Example
 
-The following example selects the  **Name** column and the next two columns of the third and fourth rows.
+The following example selects the **Name** column and the next two columns of the third and fourth rows.
 
 
 ```vb

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ChartTitle.Width property (PowerPoint)
 
-Returns or sets a  **Double** value that represents the width, in [points](../language/glossary/vbe-glossary.md#point), of the object. Read-only.
+Returns or sets a **Double** value that represents the width, in [points](../language/glossary/vbe-glossary.md#point), of the object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Width**
 
-_expression_ A variable that represents a [ChartTitle](./PowerPoint.ChartTitle.md) object.
+_expression_ A variable that represents a [ChartTitle](PowerPoint.ChartTitle.md) object.
 
 
 ## Return value

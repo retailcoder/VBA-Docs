@@ -18,7 +18,7 @@ Links a deliverable or a dependency to a project.
 
 _expression_. `DeliverableLinkToProject`( `_DeliverableGuid_` )
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Parameters
@@ -36,6 +36,6 @@ _expression_. `DeliverableLinkToProject`( `_DeliverableGuid_` )
 
 ## Remarks
 
-The  **DeliverableLinkToProject** method unlinks the deliverable or dependency from a task.
+The **DeliverableLinkToProject** method unlinks the deliverable or dependency from a task.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # Year.Parent property (Project)
 
-Gets the parent of the  **Year** object. Read-only **Calendar**.
+Gets the parent of the **Year** object. Read-only **Calendar**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [Year](./Project.Year.md) object.
+_expression_ A variable that represents a [Year](./Project.Year.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

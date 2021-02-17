@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Design.Index property (PowerPoint)
 
-Returns a  **Long** that represents the index number for an animation effect or design. Read-only.
+Returns a **Long** that represents the index number for an animation effect or design. Read-only.
 
 
 ## Syntax
 
 _expression_.**Index**
 
-_expression_ A variable that represents a [Design](./PowerPoint.Design.md) object.
+_expression_ A variable that represents a [Design](PowerPoint.Design.md) object.
 
 
 ## Return value

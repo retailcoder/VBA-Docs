@@ -21,11 +21,11 @@ Gets or sets the type of work contour for the assignment. Read/write  **PjWorkCo
 
 _expression_. `WorkContour`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-The  **WorkContour** property can be one of the following **[PjWorkContourType](Project.PjWorkContourType.md)** constants: **pjBackLoaded**, **pjBell**, **pjContour**, **pjDoublePeak**, **pjEarlyPeak**, **pjFlat**, **pjFrontLoaded**, **pjLatePeak**, or **pjTurtle**. The default value is **pjFlat**.
+The **WorkContour** property can be one of the following **[PjWorkContourType](Project.PjWorkContourType.md)** constants: **pjBackLoaded**, **pjBell**, **pjContour**, **pjDoublePeak**, **pjEarlyPeak**, **pjFlat**, **pjFrontLoaded**, **pjLatePeak**, or **pjTurtle**. The default value is **pjFlat**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

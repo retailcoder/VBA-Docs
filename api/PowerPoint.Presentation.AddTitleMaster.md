@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.AddTitleMaster method (PowerPoint)
 
-Adds a title master to the specified presentation and returns a  **[Master](PowerPoint.Master.md)** object that represents the title master.
+Adds a title master to the specified presentation and returns a **[Master](PowerPoint.Master.md)** object that represents the title master.
 
 
 ## Syntax
 
 _expression_. `AddTitleMaster`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

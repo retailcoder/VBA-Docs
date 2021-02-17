@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Slide.Hyperlinks property (PowerPoint)
 
-Returns a  **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all the hyperlinks on the specified slide. Read-only.
+Returns a **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all the hyperlinks on the specified slide. Read-only.
 
 
 ## Syntax
 
 _expression_.**Hyperlinks**
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `StrictRussianE`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Setting this property has the same effect as checking or unchecking the  **Russian: Enforce strict ë** checkbox in the **Word Options** dialog (**Proofing**,  **When correcting spelling in Microsoft Office programs**).
+Setting this property has the same effect as checking or unchecking the **Russian: Enforce strict ë** checkbox in the **Word Options** dialog (**Proofing**,  **When correcting spelling in Microsoft Office programs**).
 
 
 ## See also

@@ -21,7 +21,7 @@ Selects cells to the left of the current selection.
 
 _expression_. `SelectCellLeft`( `_NumCells_`, `_Extend_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,6 +40,6 @@ _expression_. `SelectCellLeft`( `_NumCells_`, `_Extend_` )
 
 ## Remarks
 
-The  **SelectCellLeft** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
+The **SelectCellLeft** method is not available when the Calendar, Network Diagram, or Resource Graph is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

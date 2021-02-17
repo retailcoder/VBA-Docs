@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ContentControlListEntries.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **ContentControlListEntries** object.
+Returns an **Object** that represents the parent object of the specified **ContentControlListEntries** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[ContentControlListEntries](Word.ContentControlListEntries.md)' object.
+_expression_ A variable that represents a '[ContentControlListEntries](Word.ContentControlListEntries.md)' object.
 
 
 ## See also

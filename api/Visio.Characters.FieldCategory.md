@@ -19,9 +19,9 @@ Returns the field category for a field represented by an object. Read-only.
 
 ## Syntax
 
-_expression_. `FieldCategory`
+_expression_.**FieldCategory**
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
 ## Return value
@@ -41,7 +41,7 @@ The following constants for field categories are declared by the Visio type libr
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visFCatCustom**|0 |
 | **visFCatDateTime**|1 |

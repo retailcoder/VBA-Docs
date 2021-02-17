@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # TaskDependencies.Parent property (Project)
 
-Gets the parent of the  **TaskDependencies** object. Read-only **Task**.
+Gets the parent of the **TaskDependencies** object. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'TaskDependencies' object.
+_expression_ A variable that represents a 'TaskDependencies' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

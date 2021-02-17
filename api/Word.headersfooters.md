@@ -14,7 +14,7 @@ A collection of  **[HeaderFooter](Word.HeaderFooter.md)** objects that represent
 
 ## Remarks
 
-Use the  **Headers** or **Footers** property to return the **HeadersFooters** collection. The following example displays the text from the primary footer in the first section of the active document.
+Use the **Headers** or **Footers** property to return the **HeadersFooters** collection. The following example displays the text from the primary footer in the first section of the active document.
 
 
 ```vb
@@ -28,7 +28,8 @@ End With
 ```
 
 
- **Note**  You cannot add  **HeaderFooter** objects to the **HeadersFooters** collection.
+> [!NOTE] 
+> You cannot add  **HeaderFooter** objects to the **HeadersFooters** collection.
 
 Use  **Headers** (Index) or **Footers** (Index), where index is one of the **WdHeaderFooterIndex** constants (**wdHeaderFooterEvenPages**, **wdHeaderFooterFirstPage**, or **wdHeaderFooterPrimary**), to return a single **HeaderFooter** object. The following example changes the text of both the primary header and the primary footer the first section of the active document.
 
@@ -44,7 +45,7 @@ End With
 
 You can also return a single  **HeaderFooter** object by using the **HeaderFooter** property with a **Selection** object.
 
-Use the  **DifferentFirstPageHeaderFooter** property with the **PageSetup** object to specify a different first page. The following example inserts text into the first page footer in the active document.
+Use the **DifferentFirstPageHeaderFooter** property with the **PageSetup** object to specify a different first page. The following example inserts text into the first page footer in the active document.
 
 
 
@@ -58,9 +59,9 @@ With ActiveDocument
 End With
 ```
 
-Use the  **OddAndEvenPagesHeaderFooter** property with the **PageSetup** object to specify different odd and even page headers and footers. If the **OddAndEvenPagesHeaderFooter** property is **True**, you can return an odd header or footer by using **wdHeaderFooterPrimary**, and you can return an even header or footer by using **wdHeaderFooterEvenPages**.
+Use the **OddAndEvenPagesHeaderFooter** property with the **PageSetup** object to specify different odd and even page headers and footers. If the **OddAndEvenPagesHeaderFooter** property is **True**, you can return an odd header or footer by using **wdHeaderFooterPrimary**, and you can return an even header or footer by using **wdHeaderFooterEvenPages**.
 
-Use the  **Add** method with the **PageNumbers** object to add a page number to a header or footer. The following example adds page numbers to the first page footer in the first section in the active document.
+Use the **Add** method with the **PageNumbers** object to add a page number to a header or footer. The following example adds page numbers to the first page footer in the first section in the active document.
 
 
 

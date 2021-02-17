@@ -19,9 +19,9 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `Subscript`
+_expression_.**Subscript**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## See also

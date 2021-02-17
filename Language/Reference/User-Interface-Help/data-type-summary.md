@@ -59,7 +59,7 @@ A **Variant** containing an array requires 12 bytes more than the array alone.
 
 ## Convert between data types
 
-See [Type conversion functions](../../concepts/getting-started/type-conversion-functions.md) for examples of how to use the following functions to coerce an expression to a specific data type: **CBool**, **CByte**, **CCur**, **CDate**, **CDbl**, **CDec**, **CInt**, **CLng**, **CLngLng**, **CLngPtr**, **CSng**, **[CStr](#returns-for-cstr)**, and **CVar**.
+See [Type conversion functions](../../concepts/getting-started/type-conversion-functions.md) for examples of how to use the following functions to coerce an expression to a specific data type: **CBool**, **CByte**, **CCur**, **CDate**, **CDbl**, **CDec**, **CInt**, **CLng**, **CLngLng**, **CLngPtr**, **CSng**, **[CStr](#return-values-for-cstr)**, and **CVar**.
 
 For the following, see the respective function pages: **[CVErr](cverr-function.md)**, **[Fix](int-fix-functions.md)**, and **[Int](int-fix-functions.md)**.
 
@@ -79,7 +79,7 @@ To verify data types, see the following functions:
 - [IsNumeric](isnumeric-function.md)
 - [IsObject](isobject-function.md)
 
-## Returns for CStr
+## Return values for CStr
 
 |If _expression_ is|CStr returns|
 |:-----------------|:-----------|

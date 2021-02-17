@@ -21,7 +21,7 @@ Instructs the active object to perform an action.
 
 _expression_. `ObjectVerb`( `_Verb_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `ObjectVerb`( `_Verb_` )
 
 ## Remarks
 
-For a list of the actions an object can perform, select the object, and then run the  **Object** command.
+For a list of the actions an object can perform, select the object, and then run the **Object** command.
 
 To determine the number associated with a particular action, run regedit.exe by clicking the Windows  **Start** button and then clicking **Run**. The RegEdit.exe file is in the `%windir%` folder.
 

@@ -9,14 +9,14 @@ localization_priority: Normal
 
 # Application.GetDpiScaleFactor method (Project)
 
-Indicates the  **DPI Scale Factor**, used for optimizing scale settings. Introduced in Office 2016.
+Indicates the **DPI Scale Factor**, used for optimizing scale settings. Introduced in Office 2016.
 
 
 ## Syntax
 
-_expression_. `GetDpiScaleFactor`
+_expression_.**GetDpiScaleFactor**
 
- _expression_ A variable that represents a [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -24,9 +24,6 @@ _expression_. `GetDpiScaleFactor`
  **VARIANT**
 
 
-## See also
 
-
-[Application object (Project)](Project.Application.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,7 +21,7 @@ Returns a  **[KeysBoundTo](Word.keysboundto.md)** object that represents all the
 
 _expression_. `KeysBoundTo`( `_KeyCategory_` , `_Command_` , `_CommandParameter_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object. Optional.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object.  Optional.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ _expression_. `KeysBoundTo`( `_KeyCategory_` , `_Command_` , `_CommandParameter_
 |:-----|:-----|:-----|:-----|
 | _KeyCategory_|Required| **WdKeyCategory**|The category of the key combination.|
 | _Command_|Required| **String**|The name of the command.|
-| _CommandParameter_|Optional| **Variant**|Additional text, if any, required for the command specified by Command. For more information, see the "Remarks" section in the  **Add** method for the **KeyBindings** object.|
+| _CommandParameter_|Optional| **Variant**|Additional text, if any, required for the command specified by Command. For more information, see the "Remarks" section in the **Add** method for the **KeyBindings** object.|
 
 ## Example
 

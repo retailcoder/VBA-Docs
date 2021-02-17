@@ -21,7 +21,7 @@ Returns the key associated with  **KeyDown** and **KeyUp** events. Read-only.
 
 _expression_. `KeyCode`
 
- _expression_ A variable that represents a [KeyboardEvent](./Visio.KeyboardEvent.md) object.
+_expression_ A variable that represents a **[KeyboardEvent](Visio.KeyboardEvent.md)** object.
 
 
 ## Return value
@@ -79,7 +79,7 @@ Private Sub vsoWindow_KeyUp(ByVal KeyCode As Long, ByVal KeyButtonState As Long,
 End Sub
 ```
 
-Then, insert the following code in the  **ThisDocument** project.
+Then, insert the following code in the **[ThisDocument](../visio/Concepts/about-the-thisdocument-object-visio.md)** project.
 
 
 

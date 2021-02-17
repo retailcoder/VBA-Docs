@@ -9,16 +9,14 @@ localization_priority: Normal
 
 # Timeline.BarCount property (Project)
 
-Indicates the number of bars in a  **Timeline** view. Introduced in Office 2016.
+Indicates the number of bars in a **Timeline** view. Introduced in Office 2016.
 
 
 ## Syntax
 
 _expression_. `BarCount`
 
- _expression_ A variable that represents a 'Timeline' object.
+_expression_ A variable that represents a 'Timeline' object.
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

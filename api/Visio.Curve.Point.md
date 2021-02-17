@@ -19,14 +19,12 @@ Returns a point at a position along a curve.
 
 ## Syntax
 
-_expression_. `Point`( `_t_` , `_x_` , `_y_` )
+_expression_.**Point** (_t_, _x_, _y_)
 
- _expression_ A variable that represents a [Curve](./Visio.Curve.md) object.
+_expression_ A variable that represents a **[Curve](Visio.Curve.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,12 +39,12 @@ Nothing
 
 ## Remarks
 
-A  **Curve** object is described in terms of its parameter domain, which is the range [Start(),End()]. The **Point** method of a **Curve** object returns the _x,y_ coordinates at position _t_, which is any position along the curve's path. The  **Point** method can be used to extrapolate the curve's path outside [Start(),End()].
+A **Curve** object is described in terms of its parameter domain, which is the range [Start(),End()]. The **Point** method of a **Curve** object returns the _x,y_ coordinates at position _t_, which is any position along the curve's path. The **Point** method can be used to extrapolate the curve's path outside [Start(),End()].
 
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro draws a circle (a special case of an oval) on the document's active page. Then it iterates through the  **Paths** collection of the circle and each **Path** object to display the coordinates of various points along the curve. Because the shape drawn is a circle, it is a **Curve** object that has only one path.
+This Microsoft Visual Basic for Applications (VBA) macro draws a circle (a special case of an oval) on the document's active page. Then it iterates through the **Paths** collection of the circle and each **Path** object to display the coordinates of various points along the curve. Because the shape drawn is a circle, it is a **Curve** object that has only one path.
 
 
 ```vb

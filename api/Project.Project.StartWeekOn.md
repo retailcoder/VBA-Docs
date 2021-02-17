@@ -18,11 +18,11 @@ Gets or sets the first day of the week for the project. Read/write  **PjWeekday*
 
 _expression_. `StartWeekOn`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **StartWeekOn** property can be one of the **[PjWeekday](Project.PjWeekday.md)** constants. The **Project Options** dialog box displays the value in the **Week starts on** drop-down list on the **Schedule** tab.
+The **StartWeekOn** property can be one of the **[PjWeekday](Project.PjWeekday.md)** constants. The **Project Options** dialog box displays the value in the **Week starts on** drop-down list on the **Schedule** tab.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

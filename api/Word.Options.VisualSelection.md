@@ -21,12 +21,12 @@ Returns or sets the selection behavior based on visual cursor movement in a righ
 
 _expression_. `VisualSelection`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-The  **CursorMovement** property must be set to **wdCursorMovementVisual** to use this property.
+The **CursorMovement** property must be set to **wdCursorMovementVisual** to use this property.
 
 
 ## Example

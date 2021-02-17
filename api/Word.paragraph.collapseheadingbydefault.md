@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Paragraph.CollapseHeadingByDefault property (Word)
 
-Returns or sets whether the specified paragraph is collapsed by default when the document loads. Read-write  **Boolean**.
+Returns or sets whether the specified paragraph is collapsed by default when the document loads. Read/write  **Boolean**.
 
 
 ## Syntax
 
 _expression_. `CollapseHeadingByDefault`
 
- _expression_ A variable that represents a [Paragraph](./Word.Paragraph.md) object.
+_expression_ A variable that represents a [Paragraph](./Word.Paragraph.md) object.
 
 
 ## Property value

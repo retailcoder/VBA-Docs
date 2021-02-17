@@ -19,14 +19,14 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `ScreenUpdating`
+_expression_.**ScreenUpdating**
 
- _expression_ An expression that returns an '[Application](Word.Application.md)' object.
+ _expression_ An expression that returns an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-The  **ScreenUpdating** property controls most display changes on the monitor while a procedure is running. When screen updating is turned off, toolbars remain visible and Word still allows the procedure to display or retrieve information using status bar prompts, input boxes, dialog boxes, and message boxes. You can increase the speed of some procedures by keeping screen updating turned off. You must set the **ScreenUpdating** property to **True** when the procedure finishes or when it stops after an error.
+The **ScreenUpdating** property controls most display changes on the monitor while a procedure is running. When screen updating is turned off, toolbars remain visible and Word still allows the procedure to display or retrieve information using status bar prompts, input boxes, dialog boxes, and message boxes. You can increase the speed of some procedures by keeping screen updating turned off. You must set the **ScreenUpdating** property to **True** when the procedure finishes or when it stops after an error.
 
 
 ## Example

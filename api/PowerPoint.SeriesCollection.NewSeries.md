@@ -19,14 +19,14 @@ Creates a new series.
 
 ## Syntax
 
-_expression_. `NewSeries`
+_expression_.**NewSeries**
 
- _expression_ A variable that represents a '[SeriesCollection](PowerPoint.SeriesCollection.md)' object.
+_expression_ A variable that represents a '[SeriesCollection](PowerPoint.SeriesCollection.md)' object.
 
 
 ## Return value
 
-A  **[Series](PowerPoint.Series.md)** object that represents the new series.
+A **[Series](PowerPoint.Series.md)** object that represents the new series.
 
 
 ## Remarks
@@ -39,7 +39,8 @@ This method is not available for PivotChart charts.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example adds a new series to the first chart in the active document.
 

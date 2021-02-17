@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathMatRow.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathMatRow** object.
+Returns an **Object** that represents the parent object of the specified **OMathMatRow** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathMatRow](Word.OMathMatRow.md)' object.
+_expression_ A variable that represents a '[OMathMatRow](Word.OMathMatRow.md)' object.
 
 
 ## See also

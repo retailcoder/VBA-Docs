@@ -18,12 +18,12 @@ Gets or sets the cost per use for the pay rate. Read/write  **Variant**.
 
 _expression_. `CostPerUse`
 
- _expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
+_expression_ A variable that represents a [PayRate](./Project.PayRate.md) object.
 
 
 ## Remarks
 
-If the specified pay rate does not exist, the  **CostPerUse** property results in a run-time error 1101.
+If the specified pay rate does not exist, the **CostPerUse** property results in a run-time error 1101.
 
 
 ## Example

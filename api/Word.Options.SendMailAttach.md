@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SendMailAttach`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +39,7 @@ Options.SendMailAttach = True
 ActiveDocument.SendMail
 ```
 
-This example returns the state of the  **Mail as attachment** option on the **General** tab of the **Options** dialog box.
+This example returns the state of the **Mail as attachment** option on the **General** tab of the **Options** dialog box.
 
 
 

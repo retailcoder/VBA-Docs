@@ -7,21 +7,23 @@ ms.prod: visio
 api_name:
 - Visio.Application.CustomMenus
 ms.assetid: c8ccb1fa-2654-17db-166f-c724da345626
-ms.date: 06/08/2017
+ms.date: 06/25/2019
 localization_priority: Normal
 ---
 
 
 # Application.CustomMenus property (Visio)
 
-Gets a  **UIObject** object that represents the current custom menus and accelerators of an **Application** object. Read-only.
+Gets a **[UIObject](visio.uiobject.md)** object that represents the current custom menus and accelerators of an **Application** object. Read-only.
 
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 ## Syntax
 
-_expression_. `CustomMenus`
+_expression_.**CustomMenus**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value
@@ -31,16 +33,12 @@ UIObject
 
 ## Remarks
 
-
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
-
-If Microsoft Visio menus and accelerators have not been customized, either programmatically, by a Visio solution, or in the user interface, the  **CustomMenus** property returns **Nothing**.
+If Microsoft Visio menus and accelerators have not been customized, either programmatically, by a Visio solution, or in the user interface, the **CustomMenus** property returns **Nothing**.
 
 
 ## Example
 
 This Microsoft Visual Basic for Applications (VBA) macro shows how to get the currently active user interface (UI) for your document without replacing the application-level custom UI. You must write additional code to add your custom UI items.
-
 
 ```vb
  

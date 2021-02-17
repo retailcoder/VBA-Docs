@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `PrintDrawingObjects`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +34,7 @@ Options.PrintDrawingObjects = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Drawing objects** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Drawing objects** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

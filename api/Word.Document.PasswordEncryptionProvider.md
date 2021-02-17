@@ -21,12 +21,12 @@ Returns a  **String** specifying the name of the algorithm encryption provider t
 
 _expression_. `PasswordEncryptionProvider`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-Use the  **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify the name of the algorithm encryption provider Word uses when encrypting documents with passwords.
+Use the **[SetPasswordEncryptionOptions](Word.Document.SetPasswordEncryptionOptions.md)** method to specify the name of the algorithm encryption provider Word uses when encrypting documents with passwords.
 
 
 ## Example

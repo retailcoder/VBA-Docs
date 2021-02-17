@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `Working`
 
- _expression_ A variable that represents a [Period](./Project.Period.md) object.
+_expression_ A variable that represents a [Period](./Project.Period.md) object.
 
 
 ## Remarks
 
-For an example that uses the  **Month** object, see **[Working](Project.Month.Working.md)**.
+For an example that uses the **Month** object, see **[Working](Project.Month.Working.md)**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

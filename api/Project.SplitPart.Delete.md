@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # SplitPart.Delete method (Project)
 
-Deletes the  **SplitPart** object from a **SplitParts** collection.
+Deletes the **SplitPart** object from a **SplitParts** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [SplitPart](./Project.SplitPart.md) object.
+_expression_ A variable that represents a [SplitPart](./Project.SplitPart.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

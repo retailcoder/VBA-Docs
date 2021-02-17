@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # Period.Parent property (Project)
 
-Gets the parent of the  **Period** object. Read-only **Calendar**.
+Gets the parent of the **Period** object. Read-only **Calendar**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [Period](./Project.Period.md) object.
+_expression_ A variable that represents a [Period](./Project.Period.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -21,7 +21,7 @@ Clears the format of the active cells.
 
 _expression_. `EditClearFormats`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `EditClearFormats`
 
 ## Remarks
 
-The  **EditClearFormats** method has the same effect as the **Formats** command on the **Clear** submenu, which is found on the **Edit** menu.
+The **EditClearFormats** method has the same effect as the **Formats** command on the **Clear** submenu, which is found on the **Edit** menu.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

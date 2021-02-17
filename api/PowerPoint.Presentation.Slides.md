@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.Slides property (PowerPoint)
 
-Returns a  **[Slides](PowerPoint.Slides.md)** collection that represents all slides in the specified presentation. Read-only.
+Returns a **[Slides](PowerPoint.Slides.md)** collection that represents all slides in the specified presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `Slides`
 
- _expression_ A variable that represents a [PlaySettings](./PowerPoint.PlaySettings.md) object.
+_expression_ A variable that represents a [PlaySettings](PowerPoint.PlaySettings.md) object.
 
 
 ## Return value

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ConnectorFormat.BeginConnectedShape property (PowerPoint)
 
-Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the shape that the beginning of the specified connector is attached to. Read-only.
+Returns a **[Shape](PowerPoint.Shape.md)** object that represents the shape that the beginning of the specified connector is attached to. Read-only.
 
 
 ## Syntax
 
 _expression_. `BeginConnectedShape`
 
-_expression_ A variable that represents a [ConnectorFormat](./PowerPoint.ConnectorFormat.md) object.
+_expression_ A variable that represents a [ConnectorFormat](PowerPoint.ConnectorFormat.md) object.
 
 
 ## Return value

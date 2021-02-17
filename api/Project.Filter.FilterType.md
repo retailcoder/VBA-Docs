@@ -21,11 +21,11 @@ Gets the type of the filter. Read-only  **PjItemType**.
 
 _expression_. `FilterType`
 
- _expression_ A variable that represents a [Filter](./Project.Filter.md) object.
+_expression_ A variable that represents a [Filter](./Project.Filter.md) object.
 
 
 ## Remarks
 
-The  **FilterType** property can be one of the following **[PjItemType](Project.PjItemType.md)** constants: **pjOtherItem**, **pjResourceItem**, or **pjTaskItem**.
+The **FilterType** property can be one of the following **[PjItemType](Project.PjItemType.md)** constants: **pjOtherItem**, **pjResourceItem**, or **pjTaskItem**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

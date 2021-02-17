@@ -19,9 +19,9 @@ Returns or sets the source type of the presentation to be published to HTML. Rea
 
 ## Syntax
 
-_expression_. `SourceType`
+_expression_.**SourceType**
 
- _expression_ A variable that represents a [PublishObject](./PowerPoint.PublishObject.md) object.
+_expression_ A variable that represents a [PublishObject](PowerPoint.PublishObject.md) object.
 
 
 ## Return value

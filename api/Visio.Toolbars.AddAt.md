@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Toolbars.AddAt method (Visio)
 
-Creates a new  **Toolbar** object at a specified index in the **Toolbars** collection. .
+Creates a new **Toolbar** object at a specified index in the **Toolbars** collection. .
 
 
 ## Syntax
 
 _expression_. `AddAt`( `_lIndex_` )
 
- _expression_ A variable that represents a [Toolbars](./Visio.Toolbars.md) object.
+_expression_ A variable that represents a **[Toolbars](Visio.Toolbars.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,8 @@ Toolbar
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If the index is zero (0), the object is added at the beginning of the collection.
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Application** object.
+Returns an **Object** that represents the parent object of the specified **Application** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## See also

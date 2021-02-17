@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Application.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

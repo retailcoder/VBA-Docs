@@ -19,7 +19,7 @@ Adds a new shortcut to a group in the  **Shortcuts** pane.
 
 ## Syntax
 
-_expression_.**Add**( `_Target_` , `_Name_` , `_Index_` )
+_expression_.**Add** (_Target_, _Name_, _Index_)
 
 _expression_ A variable that represents an [OutlookBarShortcuts](Outlook.OutlookBarShortcuts.md) object.
 
@@ -36,7 +36,7 @@ _expression_ A variable that represents an [OutlookBarShortcuts](Outlook.Outlook
 
 ## Return value
 
-An  **[OutlookBarShortcut](Outlook.OutlookBarShortcut.md)** object that represents the new shortcut.
+An **[OutlookBarShortcut](Outlook.OutlookBarShortcut.md)** object that represents the new shortcut.
 
 
 ## Example

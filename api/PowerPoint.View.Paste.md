@@ -21,7 +21,7 @@ Pastes the contents of the Clipboard into the active view. Attempting to paste a
 
 _expression_.**Paste**
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Remarks
@@ -40,7 +40,7 @@ Use the  **[ViewType](PowerPoint.DocumentWindow.ViewType.md)** property to set t
 
 ## Example
 
-This example copies the selection in window one to the Clipboard and copies it into the view in window two. If the Clipboard contents cannot be pasted into the view in window two ? for example, if you try to paste a shape into slide sorter view ? this example fails.
+This example copies the selection in window one to the Clipboard and copies it into the view in window two. If the Clipboard contents cannot be pasted into the view in window two (for example, if you try to paste a shape into slide sorter view), this example fails.
 
 
 ```vb

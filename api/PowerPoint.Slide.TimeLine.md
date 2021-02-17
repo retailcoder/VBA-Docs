@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Slide.TimeLine property (PowerPoint)
 
-Returns a  **[TimeLine](PowerPoint.TimeLine.md)** object that represents the animation timeline for the slide. Read-only.
+Returns a **[TimeLine](PowerPoint.TimeLine.md)** object that represents the animation timeline for the slide. Read-only.
 
 
 ## Syntax
 
 _expression_. `TimeLine`
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

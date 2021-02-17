@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # RecentFiles.Maximum property (Word)
 
-Returns or sets the maximum number of recently used files that can appear on the  **File** menu. Can be a number from 0 (zero) through 9. Read/write **Long**.
+Returns or sets the maximum number of recently used files that can appear on the **File** menu. Can be a number from 0 (zero) through 9. Read/write **Long**.
 
 
 ## Syntax
 
-_expression_. `Maximum`
+_expression_.**Maximum**
 
 _expression_ Required. A variable that represents a '[RecentFiles](Word.recentfiles.md)' collection.
 

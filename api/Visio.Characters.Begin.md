@@ -19,9 +19,9 @@ Gets or sets the beginning index of a  **Characters** object, which represents a
 
 ## Syntax
 
-_expression_. `Begin`
+_expression_.**Begin**
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
 ## Return value
@@ -37,7 +37,7 @@ The  **Begin** property can have a value from zero (0) to the value of the **Cha
 
 The value of the  **Begin** property must always be less than or equal to the value of the **End** property. If you attempt to set the value of the **Begin** property to a value greater than the **End** property, Visio sets both the **Begin** and **End** properties to the value specified for the **Begin** property.
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
 -  **Microsoft.Office.Interop.Visio.IVCharacters.Begin**

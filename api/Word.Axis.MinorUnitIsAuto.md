@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `MinorUnitIsAuto`
 
- _expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting the  **[MinorUnit](Word.Axis.MinorUnit.md)** property sets this property to **False**.
+Setting the **[MinorUnit](Word.Axis.MinorUnit.md)** property sets this property to **False**.
 
 
 ## Example

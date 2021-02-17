@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # ChartFormat.PictureFormat property (PowerPoint)
 
-Returns a  **[PictureFormat](PowerPoint.PictureFormat.md)** object for a specified chart that contains pictures. Read-only.
+Returns a **[PictureFormat](PowerPoint.PictureFormat.md)** object for a specified chart that contains pictures. Read-only.
 
 
 ## Syntax
 
-_expression_. `PictureFormat`
+_expression_.**PictureFormat**
 
 _expression_ A variable that represents a '[ChartFormat](PowerPoint.ChartFormat.md)' object.
 

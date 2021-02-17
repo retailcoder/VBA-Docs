@@ -21,7 +21,7 @@ Determines the zoom behavior for a Microsoft Visio document or window. Read/writ
 
 _expression_. `ZoomBehavior`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -53,7 +53,8 @@ If  **ZoomBehavior** is set to **visZoomVisioExact**, you can set the zoom to an
 
 
 
- **Note**  The default behavior (**visZoomNone**) is different from the behavior used in versions earlier than Visio 2002. (In Visio 2002, the default was **visZoomVisio**.) To replicate the behavior seen in earlier versions, set this value to **visZoomInPlaceContainer**.
+> [!NOTE] 
+> The default behavior (**visZoomNone**) is different from the behavior used in versions earlier than Visio 2002. (In Visio 2002, the default was **visZoomVisio**.) To replicate the behavior seen in earlier versions, set this value to **visZoomInPlaceContainer**.
 
 
 ## Example

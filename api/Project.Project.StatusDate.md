@@ -21,12 +21,12 @@ Gets or sets the current status date for the project. If there is no status date
 
 _expression_. `StatusDate`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The following example checks the status date of the active project. If it has never changed from the default, but edits to total task percent complete are spread to the status date, it asks for a status date to use. If edits to total task percent complete are spread to the calculated stop date of the task, it asks the user if the edits should be spread to a status date instead and, if so, asks for a status date to use.
+The following example checks the status date of the active project. If it has never changed from the default, but edits to total task percent complete are spread to the status date, it asks for a status date to use. If edits to total task percent complete are spread to the calculated stop date of the task, it asks the user if the edits should be spread to a status date instead, and if so, asks for a status date to use.
 
 
 ```vb

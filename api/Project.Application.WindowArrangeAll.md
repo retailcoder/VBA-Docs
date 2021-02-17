@@ -21,7 +21,7 @@ Arranges all of the open windows in Project.
 
 _expression_. `WindowArrangeAll`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `WindowArrangeAll`
 
 ### Remarks
 
-The  **WindowArrangeAll** method is equivalent to the **Arrange All** command on the **VIEW** ribbon.
+The **WindowArrangeAll** method is equivalent to the **Arrange All** command on the **VIEW** ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

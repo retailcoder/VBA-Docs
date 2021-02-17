@@ -16,13 +16,13 @@ Gets the version number of the Project application. Read-only  **String**.
 
 ## Syntax
 
-_expression_. `Version`
+_expression_.**Version**
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **Version** property returns "15.0" for Project.
+The **Version** property returns "15.0" for Project.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

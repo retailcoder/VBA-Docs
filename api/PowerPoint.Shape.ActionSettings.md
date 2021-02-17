@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.ActionSettings property (PowerPoint)
 
-Returns an  **[ActionSettings](PowerPoint.ActionSettings.md)** object that contains information about what action occurs when the user clicks or moves the mouse over the specified shape or text range during a slide show. Read-only.
+Returns an **[ActionSettings](PowerPoint.ActionSettings.md)** object that contains information about what action occurs when the user clicks or moves the mouse over the specified shape or text range during a slide show. Read-only.
 
 
 ## Syntax
 
 _expression_. `ActionSettings`
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value

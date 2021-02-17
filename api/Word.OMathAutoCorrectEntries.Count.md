@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathAutoCorrectEntries.Count property (Word)
 
-Returns the number of items in the  **OMathAutoCorrectEntries** collection. Read-only **Long**.
+Returns the number of items in the **OMathAutoCorrectEntries** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[OMathAutoCorrectEntries](Word.OMathAutoCorrectEntries.md)' object.
+_expression_ A variable that represents a '[OMathAutoCorrectEntries](Word.OMathAutoCorrectEntries.md)' object.
 
 
 ## See also

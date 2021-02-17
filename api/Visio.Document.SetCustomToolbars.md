@@ -19,18 +19,16 @@ Replaces the current built-in or custom toolbars of an application or document.
 
 ## Syntax
 
-_expression_. `SetCustomToolbars`( `_ToolbarsObject_` )
+_expression_.**SetCustomToolbars** (_ToolbarsObject_)
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a  **UIObject** object that represents the new custom toolbars.|
+| _ToolbarsObject_|Required| **[IVUIOBJECT]**|An expression that returns a **UIObject** object that represents the new custom toolbars.|
 
 ## Return value
 
@@ -44,12 +42,9 @@ If the  _ToolbarsObject_ object was created in a separate process by using the V
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **SetCustomToolbars** method to replace the built-in toolbar set with the custom set. It retrieves a copy of the built-in Visio toolbars, adds a toolbar and a toolbar button, sets the button icon, and then replaces the toolbar set.
 
 Before running this macro, replace  _path\filename_ in the code with the full path to and filename of an icon file (.ico) on your computer.
-
-
-
 
 ```vb
 Public Sub SetCustomToolbarItems_Example() 

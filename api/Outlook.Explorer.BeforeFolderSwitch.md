@@ -21,7 +21,7 @@ Occurs before the explorer goes to a new folder, either as a result of user acti
 
 _expression_. `BeforeFolderSwitch`( `_NewFolder_` , `_Cancel_` )
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_ A variable that represents an [Explorer](Outlook.Explorer.md) objec
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _NewFolder_|Required| **Object**|The  **[Folder](Outlook.Folder.md)** object the explorer is switching to.|
+| _NewFolder_|Required| **Object**|The **[Folder](Outlook.Folder.md)** object the explorer is switching to.|
 | _Cancel_|Required| **Boolean**| **False** when the event occurs. If the event procedure sets this argument to **True**, navigation is cancelled, and the current folder is not changed.|
 
 ## Remarks

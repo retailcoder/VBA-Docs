@@ -11,21 +11,21 @@ localization_priority: Normal
 
 # ChildDrivers.Count property (Project)
 
-Gets the number of items in the  **[ChildDrivers](Project.childdrivers.md)** collection. Read-only **Long**.
+Gets the number of items in the **[ChildDrivers](Project.childdrivers.md)** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'ChildDrivers' object.
+_expression_ A variable that represents a 'ChildDrivers' object.
 
 
 ## Remarks
 
 If  **TotalDetectedCount** is greater than 5 then count is 0.
 
-Use of the  **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
+Use of the **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
 
 
 ## See also

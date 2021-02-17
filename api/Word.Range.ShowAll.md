@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `ShowAll`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
@@ -34,7 +34,8 @@ This property only affects the specified range when  **Show Markup** is set to *
 The following example displays all the text in the specified range, excluding deleted text.
 
 
- **Note**  This example assumes that the active document has change tracking enabled, that  **Show Markup** is set to **Show Revisions in Balloons**, and that some text has been deleted from the document.
+> [!NOTE] 
+> This example assumes that the active document has change tracking enabled, that  **Show Markup** is set to **Show Revisions in Balloons**, and that some text has been deleted from the document.
 
 
 ```vb

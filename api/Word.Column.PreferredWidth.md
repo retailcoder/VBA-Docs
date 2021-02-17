@@ -19,14 +19,14 @@ Returns or sets the preferred width (in points or as a percentage of the window 
 
 ## Syntax
 
- _expression_**PreferredWidth**
+ _expression_.**PreferredWidth**
 
 _expression_ Required. An expression that returns a '[Column](Word.Column.md)' object.
 
 
 ## Remarks
 
-If the  **[PreferredWidthType](Word.Column.PreferredWidthType.md)** property is set to **wdPreferredWidthPoints**, the **PreferredWidth** property returns or sets the width in points. If the **PreferredWidthType** property is set to **wdPreferredWidthPercent**, the **PreferredWidth** property returns or sets the width as a percentage of the window width.
+If the **[PreferredWidthType](Word.Column.PreferredWidthType.md)** property is set to **wdPreferredWidthPoints**, the **PreferredWidth** property returns or sets the width in points. If the **PreferredWidthType** property is set to **wdPreferredWidthPercent**, the **PreferredWidth** property returns or sets the width as a percentage of the window width.
 
 
 ## See also

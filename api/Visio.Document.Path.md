@@ -21,7 +21,7 @@ Returns the drive and folder path of the Microsoft Visio document. Read-only.
 
 _expression_.**Path**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ String
 
 ## Remarks
 
-If the document has not been saved, the  **Path** property of the **Document** object returns a zero-length string ("").
+If the document has not been saved, the **Path** property of the **Document** object returns a zero-length string ("").
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

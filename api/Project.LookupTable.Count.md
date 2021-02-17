@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # LookupTable.Count property (Project)
 
-Gets the number of items in the  **LookupTable** collection. Read-only **Long**.
+Gets the number of items in the **LookupTable** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'LookupTable' object.
+_expression_ A variable that represents a 'LookupTable' object.
 
 
 ## Example

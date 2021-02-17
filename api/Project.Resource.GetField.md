@@ -18,7 +18,7 @@ Returns the value of the specified resource custom field.
 
 _expression_. `GetField`( `_FieldID_` )
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Parameters
@@ -27,7 +27,7 @@ _expression_. `GetField`( `_FieldID_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|For a local custom field, can be one of the  **[PjField](Project.PjField.md)** constants for resource custom fields. For an enterprise custom field, use the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method to get the FieldID.|
+| _FieldID_|Required|**Long**|For a local custom field, can be one of the **[PjField](Project.PjField.md)** constants for resource custom fields. For an enterprise custom field, use the **[FieldNameToFieldConstant](Project.Application.FieldNameToFieldConstant.md)** method to get the FieldID.|
 
 ## Return value
 
@@ -62,6 +62,6 @@ Sub DisplayField()
 End Sub
 ```
 
-For an example that uses an enterprise resource custom field, see the  **[SetField](Project.Resource.SetField.md)** method.
+For an example that uses an enterprise resource custom field, see the **[SetField](Project.Resource.SetField.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

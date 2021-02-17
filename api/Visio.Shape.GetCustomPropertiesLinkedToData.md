@@ -17,14 +17,15 @@ localization_priority: Normal
 Gets the IDs of the shape-data-item (custom property) rows in the Shape Data section of the shape's ShapeSheet spreadsheet linked to the specified data recordset.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `GetCustomPropertiesLinkedToData`( `_DataRecordsetID_` , `_CustomPropertyIndices()_` )
 
- _expression_ An expression that returns a [Shape](./Visio.Shape.md) object.
+ _expression_ An expression that returns a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -46,14 +47,15 @@ Nothing
 Knowing how shapes are linked to data can help prevent conflicts and broken links when you refresh the data in one or more data recordsets.
 
 
- **Note**  In some previous versions of Visio, shape data were called custom properties.
+> [!NOTE] 
+> In some previous versions of Visio, shape data were called custom properties.
 
 
 ## Example
 
  The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the **GetCustomPropertiesLinkedToData** method to get the IDs of the shape-data-item (custom property) rows linked to a data column in a data recordset.
 
-Before running this macro, add at least one data recordset to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to data in the data recordset most recently added to the collection, and then tests to make sure the linking is successful. If it is, it gets the row IDs of all ShapeSheet rows linked to data prints the IDs of the rows in the **Immediate** window.
+Before running this macro, add at least one data recordset to the  **[DataRecordsets](Visio.DataRecordsets.md)** collection of the document. The macro drops a shape onto the page, links the shape to data in the data recordset most recently added to the collection, and then tests to make sure the linking is successful. If it is, it gets the row IDs of all ShapeSheet rows linked to data prints the IDs of the rows in the Immediate window.
 
 
 

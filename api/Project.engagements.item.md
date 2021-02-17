@@ -14,9 +14,9 @@ The Item property for the Engagements object. Introduced in Office 2016.
 
 ## Syntax
 
-_expression_. `Item`
+_expression_.**Item**
 
- _expression_ A variable that represents a 'Engagements' object.
+_expression_ A variable that represents a 'Engagements' object.
 
 
 ## See also

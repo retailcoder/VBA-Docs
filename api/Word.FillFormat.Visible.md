@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_.**Visible**
 
- _expression_ An expression that represents a [FillFormat](./Word.FillFormat.md) object.
+_expression_ An expression that represents a **[FillFormat](Word.FillFormat.md)** object.
 
 
 ## Remarks
 
-For any object, some methods and properties may be unavailable if the  **Visible** property is **False**.
+For any object, some methods and properties may be unavailable if the **Visible** property is **False**.
 
 
 ## See also

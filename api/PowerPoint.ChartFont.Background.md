@@ -19,7 +19,7 @@ Returns or sets the type of background for text used in charts. Read/write  **Va
 
 ## Syntax
 
-_expression_. `Background`
+_expression_.**Background**
 
 _expression_ A variable that represents a '[ChartFont](PowerPoint.ChartFont.md)' object.
 
@@ -29,7 +29,8 @@ _expression_ A variable that represents a '[ChartFont](PowerPoint.ChartFont.md)'
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example adds a chart title to the first chart in the active document and then sets the font size and specifies a transparent background for the title.
 

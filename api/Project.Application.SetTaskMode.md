@@ -21,7 +21,7 @@ Changes the mode of the selected tasks, to manually scheduled or automatically s
 
 _expression_. `SetTaskMode`( `_Manual_`, `_IsStickyDates_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,8 +30,8 @@ _expression_. `SetTaskMode`( `_Manual_`, `_IsStickyDates_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Manual_|Optional|**Boolean**|If  **true**, changes the selected tasks to manually scheduled. If **false**, changes the tasks to automatically scheduled.|
-| _IsStickyDates_|Optional|**Boolean**|If  **true**, when a manually scheduled task is changed to automatically scheduled, the constraint type is set to **Start No Earlier Than** and the constraint date is set to the previous start date.|
+| _Manual_|Optional|**Boolean**|If  **True**, changes the selected tasks to manually scheduled. If **False**, changes the tasks to automatically scheduled.|
+| _IsStickyDates_|Optional|**Boolean**|If  **True**, when a manually scheduled task is changed to automatically scheduled, the constraint type is set to **Start No Earlier Than** and the constraint date is set to the previous start date.|
 
 ## Return value
 
@@ -40,6 +40,6 @@ _expression_. `SetTaskMode`( `_Manual_`, `_IsStickyDates_` )
 
 ## Remarks
 
-The  **SetTaskMode** method corresponds to the **Manually Schedule** command and the **Auto Schedule** command on the **TASK** ribbon.
+The **SetTaskMode** method corresponds to the **Manually Schedule** command and the **Auto Schedule** command on the **TASK** ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

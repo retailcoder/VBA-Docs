@@ -5,23 +5,20 @@ f1_keywords:
 - acmain11.chm1032160
 ms.prod: access
 ms.assetid: dcc90f49-3674-8f95-ab25-82513f7e2cfa
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
-
 # 5 Database Engine driver (1 of 2)
-
  
 **Applies to:** Access 2013 | Access 2016
 
 When you install the Microsoft Jet version 3.5 Engine database driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys. You must use the Registry Editor to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Jet Engine database driver.
 
-
 ## Microsoft Jet Engine initialization settings
 
 The **Access Connectivity Engine\Engines\Jet 3.x** folder includes initialization settings for the Acer3x.dll driver, used for access to Microsoft Access 97 worksheets. Typical initialization settings for the entries in this folder are shown in the following example.
-
+```jet
     win32=<path>\ Acer3x.dll
 
     FlushTransactionTimeout=500
@@ -49,6 +46,7 @@ The **Access Connectivity Engine\Engines\Jet 3.x** folder includes initializatio
     RecycleLVs=0
 
     SortMemorySource=0
+```
 
 The Microsoft Access database engine uses the following entries.
 
@@ -89,8 +87,8 @@ The **Jet\4.0\ISAM Formats\Jet 3.x** folder contains the following entries.
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

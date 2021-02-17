@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.EPostagePropertyDialog event (Word)
 
-Occurs when a user clicks the  **E-postage Properties** (**Labels and Envelopes** dialog box) button or **Print Electronic Postage** button.
+Occurs when a user clicks the **E-postage Properties** (**Labels and Envelopes** dialog box) button or **Print Electronic Postage** button.
 
 
 ## Syntax
 
-_expression_. `Private Sub object_EPostagePropertyDialog`( `_ByVal Doc As Document_` )
+_expression_.**EPostagePropertyDialog** (_Doc_)
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+_expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## Parameters
@@ -39,7 +39,7 @@ This event allows a third-party software application to intercept and show their
 
 ## Example
 
-This example displays a message when a user clicks either the  **Add Electronic Postage** button or the **Print Electronic Postage** button.
+This example displays a message when a user clicks either the **Add Electronic Postage** button or the **Print Electronic Postage** button.
 
 
 ```vb

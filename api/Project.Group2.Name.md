@@ -11,7 +11,7 @@ localization_priority: Normal
 
 # Group2.Name property (Project)
 
-Gets or sets the name of a  **Group2** object. Read/write **String**.
+Gets or sets the name of a **Group2** object. Read/write **String**.
 
 
 ## Syntax
@@ -23,7 +23,7 @@ _expression_.**Name**
 
 ## Example
 
-The following example displays the name of each  **Group2** object in the **TaskGroups2** collection in the **Immediate** window.
+The following example displays the name of each  **Group2** object in the **TaskGroups2** collection in the Immediate window.
 
 
 ```vb

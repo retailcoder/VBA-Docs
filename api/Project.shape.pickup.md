@@ -12,9 +12,9 @@ Copies the formatting of a shape.
 
 ## Syntax
 
-_expression_. `PickUp`
+_expression_.**PickUp**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Return value
@@ -24,7 +24,7 @@ _expression_. `PickUp`
 
 ### Remarks
 
-Use the  **[Apply](Project.shape.apply.md)** method to apply copied formatting to another shape.
+Use the **[Apply](Project.shape.apply.md)** method to apply copied formatting to another shape.
 
 
 ## Example

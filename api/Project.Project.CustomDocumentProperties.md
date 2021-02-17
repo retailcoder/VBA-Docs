@@ -11,28 +11,28 @@ localization_priority: Normal
 
 # Project.CustomDocumentProperties property (Project)
 
-Gets a  **DocumentProperties** collection representing the custom properties of the document. Read-only **Object**.
+Gets a **DocumentProperties** collection representing the custom properties of the document. Read-only **Object**.
 
 
 ## Syntax
 
 _expression_. `CustomDocumentProperties`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
 For more information, see  _DocumentProperties Collection Object_ in the Microsoft Office Visual Basic Reference.
 
-To use this property, you must include a reference to the Microsoft Office 14.0 Object Library by using the  **References** command on the **Tools** menu. The Object Library contains definitions for the Visual Basic objects, properties, methods, and constants used to manipulate document properties.
+To use this property, you must include a reference to the Microsoft Office 14.0 Object Library by using the **References** command on the **Tools** menu. The Object Library contains definitions for the Visual Basic objects, properties, methods, and constants used to manipulate document properties.
 
-Use the  **BuiltinDocumentProperties** property to return the collection of built-in document properties.
+Use the **BuiltinDocumentProperties** property to return the collection of built-in document properties.
 
 
 ## Example
 
-In the following example, the  **Date completed** custom property value would be **Nothing** if the property is added to the project, but the project is not completed. Before you run the **TestDocProps** example, add some tasks to the active project and assign them to a resource.
+In the following example, the **Date completed** custom property value would be **Nothing** if the property is added to the project, but the project is not completed. Before you run the **TestDocProps** example, add some tasks to the active project and assign them to a resource.
 
 
 ```vb
@@ -56,7 +56,7 @@ Sub TestDocProps()
 End Sub
 ```
 
-Following are the results of the  **TestDocProps** macro, for a project that does not have the **Date completed** property added:
+Following are the results of the **TestDocProps** macro, for a project that does not have the **Date completed** property added:
 
 
 

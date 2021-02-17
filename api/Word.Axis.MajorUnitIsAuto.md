@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `MajorUnitIsAuto`
 
- _expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
-Setting the  **[MajorUnit](Word.Axis.MajorUnit.md)** property sets this property to **False**.
+Setting the **[MajorUnit](Word.Axis.MajorUnit.md)** property sets this property to **False**.
 
 
 ## Example

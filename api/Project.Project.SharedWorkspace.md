@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Project.SharedWorkspace property (Project)
 
-Gets a  **SharedWorkspace** object that represents the document workspace for the project. Read-only **SharedWorkspace**.
+Gets a **SharedWorkspace** object that represents the document workspace for the project. Read-only **SharedWorkspace**.
 
 
 ## Syntax
 
-_expression_. `SharedWorkspace`
+_expression_.**SharedWorkspace**
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

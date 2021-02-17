@@ -21,7 +21,7 @@ Returns or sets the camera field of view for the specified  **ThreeDFormat** obj
 
 _expression_. `FieldOfView`
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Single
 
 ## Remarks
 
-The  **FieldOfView** property controls the amount of perspective that is applied to a scene, between 0 and 180 degrees.
+The **FieldOfView** property controls the amount of perspective that is applied to a scene, between 0 and 180 degrees.
 
 
 ## See also

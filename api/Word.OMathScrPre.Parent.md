@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathScrPre.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathScrPre** object.
+Returns an **Object** that represents the parent object of the specified **OMathScrPre** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathScrPre](Word.OMathScrPre.md)' object.
+_expression_ A variable that represents a '[OMathScrPre](Word.OMathScrPre.md)' object.
 
 
 ## See also

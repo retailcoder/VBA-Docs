@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # KeyBinding.Context property (Word)
 
-Returns an  **Object** that represents the storage location of the specified key binding. Read-only.
+Returns an **Object** that represents the storage location of the specified key binding. Read-only.
 
 
 ## Syntax
 
 _expression_. `Context`
 
- _expression_ A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
+_expression_ A variable that represents a '[KeyBinding](Word.KeyBinding.md)' object.
 
 
 ## Remarks

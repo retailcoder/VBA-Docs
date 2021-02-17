@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.HelpAbout method (Project)
 
-Displays the  **About Microsoft Project** dialog box, which lists version, copyright, and license information.
+Displays the **About Microsoft Project** dialog box, which lists version, copyright, and license information.
 
 
 ## Syntax
 
 _expression_. `HelpAbout`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `HelpAbout`
 
 ## Remarks
 
-The  **HelpAbout** method has the same effect as the **[About](Project.Application.About.md)** method.
+The **HelpAbout** method has the same effect as the **[About](Project.Application.About.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

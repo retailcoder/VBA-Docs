@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.LanguageSettings property (PowerPoint)
 
-Returns a  **LanguageSettings** object that contains information about the language settings in Microsoft PowerPoint. Read-only.
+Returns a **LanguageSettings** object that contains information about the language settings in Microsoft PowerPoint. Read-only.
 
 
 ## Syntax
 
-_expression_. `LanguageSettings`
+_expression_.**LanguageSettings**
 
-_expression_ A variable that represents a [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## See also

@@ -21,7 +21,7 @@ Deprecated in Project. Prints a report.
 
 _expression_. `ReportPrint`( `_Name_`, `_FromPage_`, `_ToPage_`, `_PageBreaks_`, `_Draft_`, `_Copies_`, `_FromDate_`, `_ToDate_`, `_Preview_`, `_Color_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -48,7 +48,7 @@ _expression_. `ReportPrint`( `_Name_`, `_FromPage_`, `_ToPage_`, `_PageBreaks_`,
 
 ## Remarks
 
-In Project, the  **ReportPrint** method returns error 1100, "The method is not available in this situation." In Project, using the **ReportPrint** method no arguments displays the **Custom Reports** dialog box.
+In Project, the **ReportPrint** method returns error 1100, "The method is not available in this situation." In Project, using the **ReportPrint** method no arguments displays the **Custom Reports** dialog box.
 
 
 ## Example

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathRecognizedFunctions.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathRecognizedFunctions** object.
+Returns an **Object** that represents the parent object of the specified **OMathRecognizedFunctions** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathRecognizedFunctions](Word.OMathRecognizedFunctions.md)' object.
+_expression_ A variable that represents a '[OMathRecognizedFunctions](Word.OMathRecognizedFunctions.md)' object.
 
 
 ## See also

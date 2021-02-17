@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # Group.Parent property (Project)
 
-Returns the parent of the  **Group** object. Read-only **Project**.
+Returns the parent of the **Group** object. Read-only **Project**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [Group](./Project.Group.md) object.
+_expression_ A variable that represents a [Group](./Project.Group.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

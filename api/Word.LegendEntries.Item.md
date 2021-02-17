@@ -21,7 +21,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[LegendEntries](Word.LegendEntries.md)' object.
+_expression_ A variable that represents a '[LegendEntries](Word.LegendEntries.md)' object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_.**Item** (_Index_)
 
 ## Return value
 
-A  **[LegendEntry](Word.LegendEntry.md)** object that the collection contains.
+A **[LegendEntry](Word.LegendEntry.md)** object that the collection contains.
 
 
 ## Example

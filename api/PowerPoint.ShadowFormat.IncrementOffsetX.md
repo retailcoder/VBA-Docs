@@ -19,14 +19,12 @@ Changes the horizontal offset of the shadow by the specified number of points.
 
 ## Syntax
 
-_expression_. `IncrementOffsetX`( `_Increment_` )
+_expression_.**IncrementOffsetX** (_Increment_)
 
- _expression_ A variable that represents an [ShadowFormat](./PowerPoint.ShadowFormat.md) object.
+_expression_ A variable that represents an [ShadowFormat](PowerPoint.ShadowFormat.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -39,7 +37,7 @@ Use the  **[OffsetX](PowerPoint.ShadowFormat.OffsetX.md)** property to set the a
 
 ## Example
 
-This example moves the shadow for shape three on  _myDocument_ to the left by 3 points.
+This example moves the shadow for shape three on _myDocument_ to the left by 3 points.
 
 
 ```vb

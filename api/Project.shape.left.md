@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Left property (Project)
-Gets or sets the horizontal distance, in [points](../language/glossary/vbe-glossary.md#point), from the left side of the report to the left edge of the shape. Read-write  **Single**.
+Gets or sets the horizontal distance, in [points](../language/glossary/vbe-glossary.md#point), from the left side of the report to the left edge of the shape. Read/write  **Single**.
 
 ## Syntax
 
 _expression_.**Left**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

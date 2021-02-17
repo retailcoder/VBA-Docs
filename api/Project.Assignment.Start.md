@@ -16,8 +16,8 @@ Gets or sets the start date of the assignment. Read/write  **Variant**.
 
 ## Syntax
 
-_expression_. `Start`
+_expression_.**Start**
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

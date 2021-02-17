@@ -19,14 +19,12 @@ Begins a spelling check for the specified document or range.
 
 ## Syntax
 
-_expression_. `CheckSpelling`( `_CustomDictionary_` , `_IgnoreUppercase_` , `_AlwaysSuggest_` , `_CustomDictionary2_` , `_CustomDictionary3_` , `_CustomDictionary4_` , `_CustomDictionary5_` , `_CustomDictionary6_` , `_CustomDictionary7_` , `_CustomDictionary8_` , `_CustomDictionary9_` , `_CustomDictionary10_` )
+_expression_.**CheckSpelling** (_CustomDictionary_, _IgnoreUppercase_, _AlwaysSuggest_, _CustomDictionary2_, _CustomDictionary3_, _CustomDictionary4_, _CustomDictionary5_, _CustomDictionary6_, _CustomDictionary7_, _CustomDictionary8_, _CustomDictionary9_, _CustomDictionary10_)
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -45,7 +43,7 @@ _expression_ Required. A variable that represents a '[Range](Word.Range.md)' obj
 
 ## Remarks
 
-If the document or range contains errors, this method displays the  **Spelling and Grammar** dialog box, with the **Check grammar** check box cleared.
+If the document or range contains errors, this method displays the **Spelling and Grammar** dialog box, with the **Check grammar** check box cleared.
 
 
 ## Example

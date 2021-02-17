@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Project.ViewsSingle property (Project)
 
-Gets a  **[ViewsSingle](Project.ViewSingle.md)** collection representing the single views of the project. Read-only **ViewsSingle**.
+Gets a **[ViewsSingle](Project.ViewSingle.md)** collection representing the single views of the project. Read-only **ViewsSingle**.
 
 
 ## Syntax
 
 _expression_. `ViewsSingle`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

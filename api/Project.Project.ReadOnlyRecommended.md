@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `ReadOnlyRecommended`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-To change the value of the  **ReadOnlyRecommended** property, use the **[FileSaveAs](Project.Application.FileSaveAs.md)** method with the ReadOnly argument set to **True**.
+To change the value of the **ReadOnlyRecommended** property, use the **[FileSaveAs](Project.Application.FileSaveAs.md)** method with the ReadOnly argument set to **True**.
 
 
 ## Example

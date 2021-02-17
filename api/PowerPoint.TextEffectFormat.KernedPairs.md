@@ -21,7 +21,7 @@ Determines whether the character pairs in the specified WordArt are kerned. Read
 
 _expression_. `KernedPairs`
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value returned by the  **KernedPairs** property can be one of these **MsoTri
 
 ## Example
 
-This example turns on character pair kerning for shape three on  _myDocument_ if the shape is WordArt.
+This example turns on character pair kerning for shape three on _myDocument_ if the shape is WordArt.
 
 
 ```vb

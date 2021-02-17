@@ -17,14 +17,15 @@ localization_priority: Normal
 Returns the date and time the data recordset was last refreshed. Read-only.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-_expression_. `TimeRefreshed`
+_expression_.**TimeRefreshed**
 
- _expression_ An expression that returns a [DataRecordset](./Visio.DataRecordset.md) object.
+_expression_ An expression that returns a **[DataRecordset](Visio.DataRecordset.md)** object.
 
 
 ## Return value
@@ -34,10 +35,10 @@ Date
 
 ## Remarks
 
-The  **TimeRefreshed** property value is returned in Coordinated Universal Time (Greenwich Mean Time).
+The **TimeRefreshed** property value is returned in Coordinated Universal Time (Greenwich Mean Time).
 
-If you successfully create a data recordset but it fails to retrieve any data from the data source,  **TimeRefreshed** returns zero.
+If you successfully create a data recordset but it fails to retrieve any data from the data source, **TimeRefreshed** returns zero.
 
-The first time you execute a query against a data recordset,  **TimeRefreshed** is set to the time the query is executed. If, subsequently, the **[Refresh](Visio.DataRecordset.Refresh.md)** method is called, **TimeRefreshed** is set to the time the data recordset is refreshed.
+The first time you execute a query against a data recordset, **TimeRefreshed** is set to the time the query is executed. If, subsequently, the **[Refresh](Visio.DataRecordset.Refresh.md)** method is called, **TimeRefreshed** is set to the time the data recordset is refreshed.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

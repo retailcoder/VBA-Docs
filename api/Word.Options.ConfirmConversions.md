@@ -21,19 +21,19 @@ localization_priority: Normal
 
 _expression_. `ConfirmConversions`
 
- _expression_ A variable that represents a '[Options](Word.Options.md)' object.
+_expression_ A variable that represents a '[Options](Word.Options.md)' object.
 
 
 ## Example
 
-This example sets Word to display the  **Convert File** dialog box whenever a file that isn't a Word document or template is opened.
+This example sets Word to display the **Convert File** dialog box whenever a file that isn't a Word document or template is opened.
 
 
 ```vb
 Options.ConfirmConversions = True
 ```
 
-This example returns the current status of the  **Confirm conversion at Open** option on the **General** tab in the **Options** dialog box.
+This example returns the current status of the **Confirm conversion at Open** option on the **General** tab in the **Options** dialog box.
 
 
 

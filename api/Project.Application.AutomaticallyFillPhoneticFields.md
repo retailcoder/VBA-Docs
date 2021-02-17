@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `AutomaticallyFillPhoneticFields`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **AutomaticallyFillPhoneticFields** property produces tangible results only if the Japanese version of Project is used.
+The **AutomaticallyFillPhoneticFields** property produces tangible results only if the Japanese version of Project is used.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

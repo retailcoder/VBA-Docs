@@ -2,7 +2,7 @@
 title: DataSpace object and CreateObject method example (VBScript)
 ms.prod: access
 ms.assetid: 0132996b-e3e1-4dbe-95dc-4313824669b7
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -50,7 +50,7 @@ The <i>Query</i> Method of the RDSServer.DataFactory is used to bring back a Rec
 <Script Language="VBScript"> 
 Dim rdsDFDim strServer
 Dim strCnxnDim strSQL 
-strServer = "http://<%=Request.ServerVariables("SERVER_NAME")%>"strCnxn = "Provider='sqloledb';Data Source=" & _
+strServer = "https://<%=Request.ServerVariables("SERVER_NAME")%>"strCnxn = "Provider='sqloledb';Data Source=" & _
 "<%=Request.ServerVariables("SERVER_NAME")%>" & ";" & _"Integrated Security='SSPI';Initial Catalog='Northwind';"
 strSQL = "Select FirstName, LastName from Employees" 
 Sub Run_OnClick() 
@@ -63,14 +63,14 @@ End Sub</Script>
 <!-- EndDataSpaceVBS -->
 ```
 
-The following example shows how to use the  **CreateObject** method to create an instance of a custom business object, VbBusObj.VbBusObjCls. It also uses the Active Server Pages scripting to identify the Web server name.
+The following example shows how to use the **CreateObject** method to create an instance of a custom business object, VbBusObj.VbBusObjCls. It also uses the Active Server Pages scripting to identify the Web server name.
 
-To see the complete example, open the sample applications selector. In the  **Client Tier** column, select **VBScript in Internet Explorer**. In the **Middle Tier** column, select **Custom Visual Basic Business Object**.
+To see the complete example, open the sample applications selector. In the **Client Tier** column, select **VBScript in Internet Explorer**. In the **Middle Tier** column, select **Custom Visual Basic Business Object**.
 
 ```vb
  
 Sub Window_OnLoad() 
-   strServer = "http://<%=Request.ServerVariables("SERVER_NAME")%>" 
+   strServer = "https://<%=Request.ServerVariables("SERVER_NAME")%>" 
    Set BO = ADS1.CreateObject("VbBusObj.VbBusObjCls", strServer) 
    txtConnect.Value = "dsn=Pubs;uid=MyUserId;pwd=MyPassword;" 
    txtGetRecordset.Value = "Select * From authors for Browse" 
@@ -83,8 +83,8 @@ End Sub
 - [Access for developers forum](https://social.msdn.microsoft.com/Forums/office/home?forum=accessdev)
 - [Access help on support.office.com](https://support.office.com/search/results?query=Access)
 - [Access help on answers.microsoft.com](https://answers.microsoft.com/)
-- [Access forums on UtterAccess](http://www.utteraccess.com/forum/index.php?act=idx)
-- [Access developer and VBA programming help center (FMS)](http://www.fmsinc.com/MicrosoftAccess/developer/)
+- [Access forums on UtterAccess](https://www.utteraccess.com/forum/index.php?act=idx)
+- [Access developer and VBA programming help center (FMS)](https://www.fmsinc.com/MicrosoftAccess/developer/)
 - [Access posts on StackOverflow](https://stackoverflow.com/questions/tagged/ms-access)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

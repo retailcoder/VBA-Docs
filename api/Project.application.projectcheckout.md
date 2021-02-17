@@ -17,7 +17,7 @@ Checks out an open project if it is the active project.
 
 _expression_. `ProjectCheckOut` _(Name)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +35,7 @@ _expression_. `ProjectCheckOut` _(Name)_
 
 ## Remarks
 
-An open project must be active for the  **ProjectCheckOut** method to work. If the project is already checked out to you, Project shows a dialog box with the error message, ''This project is already checked out to you on a different computer or Project Web App session." If the project is checked out by another user, the error message is "To check out, _DOMAIN\UserName_ must close the project in their session or contact your administrator to check in the project."
+An open project must be active for the **ProjectCheckOut** method to work. If the project is already checked out to you, Project shows a dialog box with the error message, ''This project is already checked out to you on a different computer or Project Web App session." If the project is checked out by another user, the error message is "To check out, _DOMAIN\UserName_ must close the project in their session or contact your administrator to check in the project."
 
 
 ## Example

@@ -21,14 +21,14 @@ Returns or sets the number of categories or series between tick marks. Read/writ
 
 _expression_. `TickMarkSpacing`
 
- _expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
+_expression_ A variable that represents an **[Axis](Word.Axis.md)** object.
 
 
 ## Remarks
 
 This property applies only to category and series axes. It can be a value from 1 through 31999. 
 
-Use the  **[MajorUnit](Word.Axis.MajorUnit.md)** and **[MinorUnit](Word.Axis.MinorUnit.md)** properties to set tick-mark spacing on the value axis.
+Use the **[MajorUnit](Word.Axis.MajorUnit.md)** and **[MinorUnit](Word.Axis.MinorUnit.md)** properties to set tick-mark spacing on the value axis.
 
 
 ## Example

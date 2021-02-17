@@ -21,7 +21,7 @@ Sets the format of details in a usage view.
 
 _expression_. `DetailStylesProperties`( `_AlignCellData_`, `_RepeatRowLabel_`, `_ShortLabels_`, `_DisplayDetailsColumn_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -42,7 +42,7 @@ _expression_. `DetailStylesProperties`( `_AlignCellData_`, `_RepeatRowLabel_`, `
 
 ## Remarks
 
-Using the  **DetailStylesProperties** method without specifying any arguments displays the **Detail Styles** dialog box with the **Usage Properties** tab selected.
+Using the **DetailStylesProperties** method without specifying any arguments displays the **Detail Styles** dialog box with the **Usage Properties** tab selected.
 
 
 ## Example

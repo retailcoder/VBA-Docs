@@ -19,7 +19,7 @@ A collection of all the  **[ColorScheme](PowerPoint.ColorScheme.md)** objects in
 
 ## Example
 
-Use the [ColorSchemes](PowerPoint.Presentation.ColorSchemes.md)property to return the  **ColorSchemes** collection. Use **ColorSchemes** (index), where index is the color scheme index number, to return a single **ColorScheme** object. The following example deletes color scheme two from the active presentation.
+Use the [ColorSchemes](PowerPoint.Presentation.ColorSchemes.md)property to return the  **ColorSchemes** collection. Use **ColorSchemes** (_index_), where _index_ is the color scheme index number, to return a single **ColorScheme** object. The following example deletes color scheme two from the active presentation.
 
 
 ```vb
@@ -41,7 +41,7 @@ With ActivePresentation.ColorSchemes.Add
 End With
 ```
 
-Set the [ColorScheme](PowerPoint.Slide.ColorScheme.md)property of a  **Slide**, **SlideRange**, or **Master** object to return the color scheme for one slide, a set of slides, or a master, respectively. The following example sets the color scheme for all the slides in the active presentation to the third color scheme in the presentation.
+Set the [ColorScheme](PowerPoint.Slide.ColorScheme.md)property of a **Slide**, **SlideRange**, or **Master** object to return the color scheme for one slide, a set of slides, or a master, respectively. The following example sets the color scheme for all the slides in the active presentation to the third color scheme in the presentation.
 
 
 

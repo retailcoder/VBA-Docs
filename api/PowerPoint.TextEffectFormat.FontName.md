@@ -21,7 +21,7 @@ Returns or sets the name of the font in the specified WordArt. Read/write.
 
 _expression_. `FontName`
 
- _expression_ A variable that represents a [TextEffectFormat](./PowerPoint.TextEffectFormat.md) object.
+_expression_ A variable that represents a [TextEffectFormat](PowerPoint.TextEffectFormat.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ String
 
 ## Example
 
-This example sets the font name to "Courier New" for shape three on  _myDocument_ if the shape is WordArt.
+This example sets the font name to "Courier New" for shape three on _myDocument_ if the shape is WordArt.
 
 
 ```vb

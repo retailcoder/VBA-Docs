@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.PivotTable.CommitChanges
 ms.assetid: f64031c6-8309-7c8a-5786-949d2ec10dea
-ms.date: 06/08/2017
+ms.date: 05/08/2019
 localization_priority: Normal
 ---
 
@@ -19,9 +19,9 @@ Performs a commit operation on the data source of a PivotTable report based on a
 
 ## Syntax
 
-_expression_. `CommitChanges`
+_expression_.**CommitChanges**
 
-_expression_ A variable that represents a '[PivotTable](Excel.PivotTable.md)' object.
+_expression_ A variable that represents a **[PivotTable](Excel.PivotTable.md)** object.
 
 
 ## Return value
@@ -31,12 +31,9 @@ Nothing
 
 ## Remarks
 
-The  **CommitChanges** method sends a **COMMIT TRANSACTION** statement to the OLAP server, and clears all cells that were edited by entering a value, but will not clear formulas in value cells. This method generates a run-time error if it is executed on a PivotTable report based on a non-OLAP data source.
+The **CommitChanges** method sends a **COMMIT TRANSACTION** statement to the OLAP server, and clears all cells that were edited by entering a value, but will not clear formulas in value cells. This method generates a run-time error if it is executed on a PivotTable report based on a non-OLAP data source.
 
 
-## See also
 
-
-[PivotTable Object](Excel.PivotTable.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

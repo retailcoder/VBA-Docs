@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Point.Explosion property (PowerPoint)
 
-Returns or sets the explosion value for a pie-chart or doughnut-chart slice. Read/write  **Long**.
+Returns or sets the explosion value for a pie-chart or doughnut-chart slice. Read/write **Long**.
 
 
 ## Syntax
 
-_expression_. `Explosion`
+_expression_.**Explosion**
 
- _expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
+_expression_ A variable that represents a '[Point](PowerPoint.Point.md)' object.
 
 
 ## Remarks
@@ -31,7 +31,8 @@ This property returns 0 (zero) if there is no explosion (the tip of the slice is
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the explosion value for point two of the first chart in the active document. You should run the example on a pie chart.
 

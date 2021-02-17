@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # WeekDays.Count property (Project)
 
-Gets the number of items in the  **WeekDays** collection. Read-only **Integer**.
+Gets the number of items in the **WeekDays** collection. Read-only **Integer**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'WeekDays' object.
+_expression_ A variable that represents a 'WeekDays' object.
 
 
 ## Example

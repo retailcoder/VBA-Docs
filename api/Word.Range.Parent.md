@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Range.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Range** object.
+Returns an **Object** that represents the parent object of the specified **Range** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## See also

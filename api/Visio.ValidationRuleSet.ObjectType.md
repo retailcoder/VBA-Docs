@@ -19,9 +19,9 @@ Returns  **visObjTypeValidationRuleSet**, the type of this object. Read-only.
 
 ## Syntax
 
-_expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a '[ValidationRuleSet](Visio.ValidationRuleSet.md)' object.
+_expression_ A variable that represents a **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object.
 
 
 ## Return value

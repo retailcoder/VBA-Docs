@@ -19,7 +19,7 @@ Ungroups any grouped shapes in the specified range of shapes, disassembles pictu
 
 ## Syntax
 
-_expression_. `Ungroup`
+_expression_.**Ungroup**
 
 _expression_ Required. A variable that represents a **[ShapeRange](Word.shaperange.md)** object.
 
@@ -31,7 +31,7 @@ ShapeRange
 
 ## Remarks
 
-Because a group of shapes is treated as a single object, grouping and ungrouping shapes changes the number of items in the  **Shapes** collection and changes the index numbers of items that come after the ungrouped shapes in the collection.
+Because a group of shapes is treated as a single object, grouping and ungrouping shapes changes the number of items in the **Shapes** collection and changes the index numbers of items that come after the ungrouped shapes in the collection.
 
 
 ## See also

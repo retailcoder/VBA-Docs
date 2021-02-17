@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # StartDriver.ActualStartDrivers property (Project)
 
-Gets the  **[ActualStartDrivers](Project.actualstartdrivers.md)** collection for the task start driver. Read-only **ActualStartDrivers**.
+Gets the **[ActualStartDrivers](Project.actualstartdrivers.md)** collection for the task start driver. Read-only **ActualStartDrivers**.
 
 
 ## Syntax
 
 _expression_. `ActualStartDrivers`
 
- _expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
+_expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
 
 
 ## See also

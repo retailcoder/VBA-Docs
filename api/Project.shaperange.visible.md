@@ -14,12 +14,12 @@ Gets or sets a value that determines whether all of the shapes in the shape rang
 
 _expression_.**Visible**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Remarks
 
-The value of the  **Visible** property can be **msoTrue** or **msoFalse**.
+The value of the **Visible** property can be **msoTrue** or **msoFalse**.
 
 
 ## Property value

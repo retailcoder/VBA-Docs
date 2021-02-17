@@ -19,9 +19,9 @@ Sets or returns a value that represents the pattern applied to the specified lin
 
 ## Syntax
 
-_expression_. `Pattern`
+_expression_.**Pattern**
 
- _expression_ A variable that represents a [LineFormat](./PowerPoint.LineFormat.md) object.
+_expression_ A variable that represents a [LineFormat](PowerPoint.LineFormat.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ _expression_. `Pattern`
 
 ## Example
 
-This example adds a patterned line to  _myDocument_.
+This example adds a patterned line to _myDocument_.
 
 
 ```vb

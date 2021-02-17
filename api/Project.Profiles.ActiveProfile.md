@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Profiles.ActiveProfile property (Project)
 
-Gets the  **[Profile](Project.Profile.md)** object of the current account. Read-only **Profile**.
+Gets the **[Profile](Project.Profile.md)** object of the current account. Read-only **Profile**.
 
 
 ## Syntax
 
 _expression_. `ActiveProfile`
 
- _expression_ A variable that represents a 'Profiles' object.
+_expression_ A variable that represents a 'Profiles' object.
 
 
 ## Remarks

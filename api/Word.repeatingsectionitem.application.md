@@ -19,14 +19,12 @@ Returns an  **[Application](Word.Application.md)** object that represents the Mi
 
 _expression_.**Application**
 
- _expression_ A variable that represents a '[RepeatingSectionItem](Word.repeatingsectionitem.md)' object.
+_expression_ A variable that represents a '[RepeatingSectionItem](Word.repeatingsectionitem.md)' object.
 
 
 ## Property value
 
  **APPLICATION**
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

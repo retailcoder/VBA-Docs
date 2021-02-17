@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.HeadersFooters property (PowerPoint)
 
-Returns a  **[HeadersFooters](PowerPoint.HeadersFooters.md)** collection that represents the header, footer, date and time, and slide number associated with the specified custom layout.
+Returns a **[HeadersFooters](PowerPoint.HeadersFooters.md)** collection that represents the header, footer, date and time, and slide number associated with the specified custom layout.
 
 
 ## Syntax
 
 _expression_. `HeadersFooters`
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

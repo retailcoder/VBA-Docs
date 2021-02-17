@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Paragraph.ID property (Word)
 
-Returns or sets the identifying label for the specified object when the current document is saved as a Web page. Read/write  **String**.
+Returns or sets the identifying label for the specified object when the current document is saved as a webpage. Read/write  **String**.
 
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
 _expression_ Required. A variable that represents a '[Paragraph](Word.Paragraph.md)' object.
 

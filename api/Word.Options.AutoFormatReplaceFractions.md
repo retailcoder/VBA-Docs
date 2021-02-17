@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatReplaceFractions`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +34,7 @@ Options.AutoFormatReplaceFractions = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Fractions (1/2) with fraction character (½)** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Fractions (1/2) with fraction character (½)** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

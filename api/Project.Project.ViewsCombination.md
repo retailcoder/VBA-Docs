@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Project.ViewsCombination property (Project)
 
-Gets a  **[ViewsCombination](Project.ViewCombination.md)** collection representing the combination views of the project. Read-only **ViewsCombination**.
+Gets a **[ViewsCombination](Project.ViewCombination.md)** collection representing the combination views of the project. Read-only **ViewsCombination**.
 
 
 ## Syntax
 
 _expression_. `ViewsCombination`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

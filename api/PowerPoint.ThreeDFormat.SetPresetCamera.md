@@ -21,7 +21,7 @@ Specifies the effects camera type and rotation to use for the specified  **Three
 
 _expression_. `SetPresetCamera`( `_PresetCamera_` )
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `SetPresetCamera`( `_PresetCamera_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _PresetCamera_|Required|**[MsoLightRigType](Office.MsoLightRigType.md)**|The  **ThreeDFormat** object's effects camera type and rotation.|
+| _PresetCamera_|Required|**[MsoLightRigType](Office.MsoLightRigType.md)**|The **ThreeDFormat** object's effects camera type and rotation.|
 
 ## See also
 

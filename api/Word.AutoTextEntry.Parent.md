@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AutoTextEntry.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **[AutoTextEntries](Word.autotextentries.md)** collection.
+Returns an **Object** that represents the parent object of the specified **[AutoTextEntries](Word.autotextentries.md)** collection.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an '[AutoTextEntry](Word.AutoTextEntry.md)' object.
+_expression_ A variable that represents an '[AutoTextEntry](Word.AutoTextEntry.md)' object.
 
 
 ## See also

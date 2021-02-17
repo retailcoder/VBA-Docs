@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ItemSend event (Outlook)
 
-Occurs whenever an Microsoft Outlook item is sent, either by the user through an  **[Inspector](Outlook.Inspector.md)** (before the inspector is closed, but after the user clicks the **Send** button) or when the **[Send](Outlook.MailItem.Send(method).md)** method for an Outlook item, such as **[MailItem](Outlook.MailItem.md)**, is used in a program.
+Occurs whenever an Microsoft Outlook item is sent, either by the user through an **[Inspector](Outlook.Inspector.md)** (before the inspector is closed, but after the user clicks the **Send** button) or when the **[Send](Outlook.MailItem.Send(method).md)** method for an Outlook item, such as **[MailItem](Outlook.MailItem.md)**, is used in a program.
 
 
 ## Syntax
 
 _expression_. `ItemSend`( `_Item_` , `_Cancel_` )
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters

@@ -28,20 +28,20 @@ Dim R As Long, Names As String
 
 For R = 1 To ActiveProject.Resources.Count 
 
- Names = ActiveProject.Resources(R).Name &amp; ", " &amp; Names 
+ Names = ActiveProject.Resources(R).Name & ", " & Names 
 
 Next R 
 
  
 
-Names = Left$(Names, Len(Names) - Len(ListSeparator &amp; " ")) 
+Names = Left$(Names, Len(Names) - Len(ListSeparator & " ")) 
 
 MsgBox Names
 ```
 
  **Using the Resources Collection**
 
-Use the  **[Resources](./Project.Project.Resources.md)** property to return a **Resources** collection. The following example generates the same list as the previous example, but does so by setting an object reference to `ActiveProject.Resources` , and then using `R` where `ActiveProject.Resources` is used.
+Use the **[Resources](./Project.Project.Resources.md)** property to return a **Resources** collection. The following example generates the same list as the previous example, but does so by setting an object reference to `ActiveProject.Resources` , and then using `R` where `ActiveProject.Resources` is used.
 
 
 
@@ -57,18 +57,18 @@ Set R = ActiveProject.Resources
 
 For Temp = 1 To R.Count 
 
- Names = R(Temp).Name &amp; ", " &amp; Names 
+ Names = R(Temp).Name & ", " & Names 
 
 Next Temp 
 
  
 
-Names = Left$(Names, Len(Names) - Len(ListSeparator &amp; " ")) 
+Names = Left$(Names, Len(Names) - Len(ListSeparator & " ")) 
 
 MsgBox Names
 ```
 
-Use the  **[Add](./Project.Resources.Add.md)** method to add a **Resource** object to the **Resources** collection. The following example adds a new resource named Matilda to the active project.
+Use the **[Add](./Project.Resources.Add.md)** method to add a **Resource** object to the **Resources** collection. The following example adds a new resource named Matilda to the active project.
 
 
 

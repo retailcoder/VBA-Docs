@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # BuildingBlockEntries.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **BuildingBlockEntries** object.
+Returns an **Object** that represents the parent object of the specified **BuildingBlockEntries** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[BuildingBlockEntries](Word.BuildingBlockEntries.md)' object.
+_expression_ A variable that represents a '[BuildingBlockEntries](Word.BuildingBlockEntries.md)' object.
 
 
 ## See also

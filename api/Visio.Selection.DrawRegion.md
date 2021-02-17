@@ -21,7 +21,7 @@ Draws a new shape that represents the region containing a given point.
 
 _expression_. `DrawRegion`( `_Tolerance_` , `_Flags_` , `_x_` , `_y_` , `_ResultsMaster_` )
 
- _expression_ A variable that represents a [Selection](./Visio.Selection.md) object.
+_expression_ A variable that represents a **[Selection](Visio.Selection.md)** object.
 
 
 ## Parameters
@@ -71,6 +71,6 @@ If the  **DrawRegion** method is passed a _ResultsMaster_ of type VT_EMPTY or VT
 
 If the  **DrawRegion** method is passed a reference to a **Master** object in _ResultsMaster_ (type VT_UNKNOWN or VT_DISPATCH), the **DrawRegion** method instances that **Master** object and adds geometry computed given the **Selection** object.
 
-The new  **Shape** object has no text other than text already in _ResultsMaster_.
+The new **Shape** object has no text other than text already in _ResultsMaster_.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

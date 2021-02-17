@@ -21,12 +21,12 @@ Returns a  **[DropDown](Word.DropDown.md)** object that represents a drop-down f
 
 _expression_. `DropDown`
 
- _expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
+_expression_ A variable that represents a '[FormField](Word.FormField.md)' object.
 
 
 ## Remarks
 
-If the  **DropDown** property is applied to a **FormField** object that isn't a drop-down form field, the property won't fail, but the **Valid** property for the returned object will be **False**.
+If the **DropDown** property is applied to a **FormField** object that isn't a drop-down form field, the property won't fail, but the **Valid** property for the returned object will be **False**.
 
 
 ## Example

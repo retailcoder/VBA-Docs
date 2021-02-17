@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CustomLayout.Hyperlinks property (PowerPoint)
 
-Returns a  **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all hyperlinks on the slide associated with the specified custom layout. Read-only.
+Returns a **[Hyperlinks](PowerPoint.Hyperlinks.md)** collection that represents all hyperlinks on the slide associated with the specified custom layout. Read-only.
 
 
 ## Syntax
 
 _expression_.**Hyperlinks**
 
-_expression_ A variable that represents a [CustomLayout](./PowerPoint.CustomLayout.md) object.
+_expression_ A variable that represents a [CustomLayout](PowerPoint.CustomLayout.md) object.
 
 
 ## Return value

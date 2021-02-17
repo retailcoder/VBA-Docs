@@ -26,12 +26,13 @@ _expression_. `Warnings`
 If there are no warnings for a task, the value of  **Warnings** is 0. Because the value of **pjTaskWarningResourceBeyondMaxUnit** is 64 and the value of **pjTaskWarningResourceOverallocated** is 128, if **Warnings** is 192, the task has both of the problems.
 
 
- **Note**  The  **PjTaskWarnings** enumeration can be used with both the **[Suggestions](Project.StartDriver.Suggestions.md)** property and the **Warnings** property.
+> [!NOTE] 
+> The **PjTaskWarnings** enumeration can be used with both the **[Suggestions](Project.StartDriver.Suggestions.md)** property and the **Warnings** property.
 
 
 ## Example
 
-In the following example, if the value of the  **Warnings** property for task 5 is 128, the message box shows **The resource is overallocated.**. If the value is 68, the message box shows:
+In the following example, if the value of the **Warnings** property for task 5 is 128, the message box shows **The resource is overallocated.**. If the value is 68, the message box shows:
 
 
 -  **The assignment is more than the maximum resource units available.**

@@ -19,9 +19,9 @@ Saves a document.
 
 ## Syntax
 
-_expression_. `Save`
+_expression_.**Save**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Integer
 
 ## Remarks
 
-To save and name a new document, use the  **SaveAs** method. Until a document has been saved, the **Save** method generates an error.
+To save and name a new document, use the **SaveAs** method. Until a document has been saved, the **Save** method generates an error.
 
 
 ## Example

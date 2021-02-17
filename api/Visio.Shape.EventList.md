@@ -19,9 +19,9 @@ Returns the  **EventList** collection of an object or the **EventList** collecti
 
 ## Syntax
 
-_expression_. `EventList`
+_expression_.**EventList**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value

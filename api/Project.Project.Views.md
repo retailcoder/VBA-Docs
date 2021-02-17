@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Project.Views property (Project)
 
-Gets a  **[Views](Project.View.md)** collection representing the views of the project. Read-only **Views**.
+Gets a **[Views](Project.View.md)** collection representing the views of the project. Read-only **Views**.
 
 
 ## Syntax
 
 _expression_. `Views`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

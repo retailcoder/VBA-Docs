@@ -14,21 +14,22 @@ localization_priority: Normal
 
 # DataRecordsetChangedEvent.Application property (Visio)
 
-Returns the instance of Microsoft Visio associated with a  **DataRecordsetChangedEvent** object. Read-only.
+Returns the instance of Microsoft Visio associated with a **DataRecordsetChangedEvent** object. Read-only.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ An expression that returns a [DataRecordsetChangedEvent](./Visio.DataRecordsetChangedEvent.md) object.
+_expression_ An expression that returns a **[DataRecordsetChangedEvent](Visio.DataRecordsetChangedEvent.md)** object.
 
 
 ## Return value
 
-Application
+**[Application](visio.application.md)**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

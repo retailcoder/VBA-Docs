@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatPreserveStyles`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -39,7 +39,7 @@ End With
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Styles** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Styles** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

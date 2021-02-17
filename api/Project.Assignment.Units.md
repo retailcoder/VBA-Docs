@@ -11,18 +11,18 @@ localization_priority: Normal
 
 # Assignment.Units property (Project)
 
-Gets or sets the number of units completed for the assignment. Read-write  **Variant**.
+Gets or sets the number of units completed for the assignment. Read/write  **Variant**.
 
 
 ## Syntax
 
 _expression_. `Units`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Remarks
 
-If a resource has completed 80% of the assignment, for example, the  **Units** value is 0.8.
+If a resource has completed 80% of the assignment, for example, the **Units** value is 0.8.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

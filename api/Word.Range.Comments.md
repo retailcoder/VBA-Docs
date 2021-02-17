@@ -14,24 +14,21 @@ localization_priority: Normal
 
 # Range.Comments property (Word)
 
-Returns a  **[Comments](Word.comments.md)** collection that represents all the comments in the specified document, selection, or range. Read-only.
+Returns a **[Comments](Word.comments.md)** collection that represents all the comments in the specified document, selection, or range. Read-only.
 
 
 ## Syntax
 
-_expression_. `Comments`
+_expression_.**Comments**
 
- _expression_ A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
-## See also
 
-
-[Range Object](Word.Range.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

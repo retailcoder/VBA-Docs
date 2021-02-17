@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `InterceptIsAuto`
 
- _expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
+_expression_ A variable that represents a '[Trendline](Word.Trendline.md)' object.
 
 
 ## Remarks
 
-Setting the  **[Intercept](Word.Trendline.Intercept.md)** property sets this property to **False**.
+Setting the **[Intercept](Word.Trendline.Intercept.md)** property sets this property to **False**.
 
 
 ## Example

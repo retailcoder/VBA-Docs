@@ -21,7 +21,7 @@ Opens the specified Visual Reports template with the specified level of time.
 
 _expression_. `VisualReportsView`( `_strVisualReportTemplateFile_`, `_PjVisualReportsDataLevel_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_. `VisualReportsView`( `_strVisualReportTemplateFile_`, `_PjVisualRe
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _strVisualReportTemplateFile_|Optional|**String**|Full path and name of template file.|
-| _PjVisualReportsDataLevel_|Optional|**Long**|The time level of data, determined automatically or specified from days to years . Can be one of the  **[PjVisualReportsDataLevel](Project.PjVisualReportsDataLevel.md)** constants. The default value is **pjLevelAutomatic**.|
+| _PjVisualReportsDataLevel_|Optional|**Long**|The time level of data, determined automatically or specified from days to years . Can be one of the **[PjVisualReportsDataLevel](Project.PjVisualReportsDataLevel.md)** constants. The default value is **pjLevelAutomatic**.|
 
 ## Return value
 

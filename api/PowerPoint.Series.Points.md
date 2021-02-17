@@ -19,9 +19,9 @@ Returns a collection of all the points in the series.
 
 ## Syntax
 
-_expression_. `Points` (_Index_)
+_expression_.**Points** (_Index_)
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `Points` (_Index_)
 
 ## Return value
 
-A  **[Points](PowerPoint.Points.md)** object that represents all the points in the series.
+A **[Points](PowerPoint.Points.md)** object that represents all the points in the series.
 
 
 ## Example
@@ -42,7 +42,8 @@ A  **[Points](PowerPoint.Points.md)** object that represents all the points in t
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example applies a data label to point one in series one of the first chart in the active document.
 

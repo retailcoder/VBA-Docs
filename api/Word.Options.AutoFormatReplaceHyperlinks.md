@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatReplaceHyperlinks`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +39,7 @@ Options.AutoFormatReplaceHyperlinks = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Internet and network paths with hyperlinks** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Internet and network paths with hyperlinks** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

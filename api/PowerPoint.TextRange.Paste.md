@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.Paste method (PowerPoint)
 
-Pastes the text on the Clipboard into the specified text range, and returns a  **TextRange** object that represents the pasted text.
+Pastes the text on the Clipboard into the specified text range, and returns a **TextRange** object that represents the pasted text.
 
 
 ## Syntax
 
 _expression_.**Paste**
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Return value

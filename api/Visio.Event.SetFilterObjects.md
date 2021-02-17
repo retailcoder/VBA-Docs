@@ -21,7 +21,7 @@ Specifies an array of object types and a  **True** or **False** value indicating
 
 _expression_. `SetFilterObjects`( `_Objects()_` )
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Nothing
 
 ## Remarks
 
-When an  **Event** object created with the **AddAdvise** method is added to the **EventList** collection of a source object, the default behavior is that all occurrences of that event are passed to the event sink. The **SetFilterObjects** method provides a way to ignore selected events based on object type.
+When an **Event** object created with the **AddAdvise** method is added to the **EventList** collection of a source object, the default behavior is that all occurrences of that event are passed to the event sink. The **SetFilterObjects** method provides a way to ignore selected events based on object type.
 
 The  _Objects()_ parameter passed to **SetFilterObjects** is an array defined in the following manner.
 

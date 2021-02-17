@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Rows.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Rows** object.
+Returns an **Object** that represents the parent object of the specified **Rows** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ Required. A variable that represents a '[Rows](Word.rows.md)' collection.
+_expression_ Required. A variable that represents a **[Rows](Word.Rows.md)** object.
 
 
 ## See also

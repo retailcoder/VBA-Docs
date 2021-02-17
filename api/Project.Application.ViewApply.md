@@ -21,7 +21,7 @@ Applies a view to the active window.
 
 _expression_. `ViewApply`( `_Name_`, `_SinglePane_`, `_Toggle_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_. `ViewApply`( `_Name_`, `_SinglePane_`, `_Toggle_` )
 
 ## Remarks
 
-To apply a view where the change can be one of the built-in views and can be applied to a specified pane in a split view, use the  **[ViewApplyEx](Project.Application.ViewApplyEx.md)** method.
+To apply a view where the change can be one of the built-in views and can be applied to a specified pane in a split view, use the **[ViewApplyEx](Project.Application.ViewApplyEx.md)** method.
 
 
 ## Example

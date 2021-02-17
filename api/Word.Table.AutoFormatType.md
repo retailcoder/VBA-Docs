@@ -21,12 +21,12 @@ Returns the type of automatic formatting that's been applied to the specified ta
 
 _expression_. `AutoFormatType`
 
- _expression_ A variable that represents a '[Table](Word.Table.md)' object.
+_expression_ A variable that represents a '[Table](Word.Table.md)' object.
 
 
 ## Remarks
 
-This property can be one of the  **WdTableFormat** constants. Use the **AutoFormat** method to apply automatic formatting to a table.
+This property can be one of the **WdTableFormat** constants. Use the **AutoFormat** method to apply automatic formatting to a table.
 
 
 ## Example

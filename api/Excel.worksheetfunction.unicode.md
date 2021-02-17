@@ -5,7 +5,7 @@ f1_keywords:
 - vbaxl10.chm137454
 ms.prod: excel
 ms.assetid: 7a590cba-cc17-6acb-96ce-24b4e317f622
-ms.date: 06/08/2017
+ms.date: 05/25/2019
 localization_priority: Normal
 ---
 
@@ -17,14 +17,12 @@ Returns the number (code point) corresponding to the first character of the text
 
 ## Syntax
 
-_expression_. `Unicode`_(Arg1)_
+_expression_.**Unicode** (_Arg1_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -32,12 +30,9 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
- **DOUBLE**
+**Double**
 
 
-## See also
 
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

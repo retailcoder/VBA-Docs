@@ -49,9 +49,9 @@ For Each R In ActiveSelection.Resources()
 
  End With 
 
- MsgBox "There are " &amp; WorkingDays &amp; " working days in " _ 
+ MsgBox "There are " & WorkingDays & " working days in " _ 
 
- &amp; R.Name &amp; "'s calendar." 
+ & R.Name & "'s calendar." 
 
 Next R
 ```
@@ -60,7 +60,7 @@ Next R
  
 
  
-Use the  **[Days](Project.Month.Days.md)** property to return a **Days** collection. The following example counts the number of days in the month of September 2002.
+Use the **[Days](Project.Month.Days.md)** property to return a **Days** collection. The following example counts the number of days in the month of September 2002.
  
 
  

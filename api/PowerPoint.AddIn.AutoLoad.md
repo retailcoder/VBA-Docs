@@ -19,9 +19,9 @@ Determines whether the specified add-in is automatically loaded each time PowerP
 
 ## Syntax
 
-_expression_. `AutoLoad`
+_expression_.**AutoLoad**
 
-_expression_ A variable that represents an [AddIn](./PowerPoint.AddIn.md) object.
+_expression_ A variable that represents an [AddIn](PowerPoint.AddIn.md) object.
 
 
 ## Return value

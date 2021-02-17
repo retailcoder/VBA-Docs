@@ -21,7 +21,7 @@ Determines whether large toolbar buttons are shown. Read/write.
 
 _expression_. `LargeButtons`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Return value
@@ -32,7 +32,8 @@ Boolean
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 You can use any  **UIObject** object to get or set this property.
 

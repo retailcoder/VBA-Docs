@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.RulerGuides.Item
 ms.assetid: e0c49279-4fd4-fe61-636c-c29399fdc404
-ms.date: 06/08/2017
+ms.date: 06/13/2019
 localization_priority: Normal
 ---
 
@@ -19,23 +19,20 @@ Returns an individual object from a specified collection. Read-only.
 
 ## Syntax
 
-_expression_.**Item**(**_Index_**)
+_expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a  **RulerGuides** object.
+_expression_ A variable that represents a **[RulerGuides](Publisher.RulerGuides.md)** object.
 
 
 ## Parameters
 
-
-
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-|Item|Required| **Long**|The number of the object to return.|
+|_Item_|Required| **Long**|The number of the object to return.|
 
 ## Example
 
 This example sets the position of the first ruler guide to 3 inches from the edge of the publication.
-
 
 ```vb
 ActiveDocument.Pages(1).RulerGuides _ 

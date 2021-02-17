@@ -21,7 +21,7 @@ Returns a presentation from a local computer to a server, and sets the local fil
 
 _expression_. `CheckIn`( `_SaveChanges_`, `_Comments_`, `_MakePublic_` )
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ To take advantage of the collaboration features built into Microsoft PowerPoint,
 
 ## Example
 
-This example checks the server to see if the specified presentation can be checked in and, if so, closes the presentation and checks it back into server.
+This example checks the server to see if the specified presentation can be checked in, and if so, closes the presentation and checks it back into server.
 
 
 ```vb

@@ -19,9 +19,9 @@ Returns  **visObjTypeValidationIssues**, the type of this object. Read-only.
 
 ## Syntax
 
-_expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a '[ValidationIssues](Visio.ValidationIssues.md)' object.
+_expression_ A variable that represents a **[ValidationIssues](Visio.ValidationIssues.md)** object.
 
 
 ## Return value

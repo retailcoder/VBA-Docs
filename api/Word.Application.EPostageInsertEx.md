@@ -21,7 +21,7 @@ Occurs when a user inserts electronic postage into a document.
 
 _expression_. `EPostageInsertEx`( `_Doc_` , `_cpDeliveryAddrStart_` , `_cpDeliveryAddrEnd_` , `_cpReturnAddrStart_` , `_cpReturnAddrEnd_` , `_xaWidth_` , `_yaHeight_` , `_bstrPrinterName_` , `_bstrPaperFeed_` , `_fPrint_` , `_fCancel_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using Events with the Application Object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
+_expression_ A variable that represents an '[Application](Word.Application.md)' object that has been declared with events in a class module. For information about using events with the **Application** object, see [Using events with the Application object](../word/Concepts/Objects-Properties-Methods/using-events-with-the-application-object-word.md).
 
 
 ## Parameters
@@ -31,14 +31,14 @@ _expression_. `EPostageInsertEx`( `_Doc_` , `_cpDeliveryAddrStart_` , `_cpDelive
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Doc_|Required| **Document**|The document to which electronic postage is being added.|
-| _cpDeliveryAddrStart_|Required| **Long**|The starting position in the document for the delivery address. Positioning corresponds to the value of the  **Start** property for a **Range** object.|
-| _cpDeliveryAddrEnd_|Required| **Long**|The ending position in the document for the delivery address. Positioning corresponds to the value of the  **End** property for a **Range** object.|
-| _cpReturnAddrStart_|Required| **Long**|The starting position in the document for the return address. Positioning corresponds to the value of the  **Start** property for a **Range** object.|
-| _cpReturnAddrEnd_|Required| **Long**|The ending position in the document for the return address. Positioning corresponds to the value of the  **End** property for a **Range** object.|
+| _cpDeliveryAddrStart_|Required| **Long**|The starting position in the document for the delivery address. Positioning corresponds to the value of the **Start** property for a **Range** object.|
+| _cpDeliveryAddrEnd_|Required| **Long**|The ending position in the document for the delivery address. Positioning corresponds to the value of the **End** property for a **Range** object.|
+| _cpReturnAddrStart_|Required| **Long**|The starting position in the document for the return address. Positioning corresponds to the value of the **Start** property for a **Range** object.|
+| _cpReturnAddrEnd_|Required| **Long**|The ending position in the document for the return address. Positioning corresponds to the value of the **End** property for a **Range** object.|
 | _xaWidth_|Required| **Long**|The width of the envelope in 1/1440-inch units.|
 | _yaHeight_|Required| **Long**|The height of the envelope in 1/1440-inch units.|
-| _bstrPrinterName_|Required| **String**|The name of the printer as specified on the  **Printing Options** tab of the **Envelope Options** dialog box.|
-| _bstrPaperFeed_|Required| **String**|The feed method as specified on the  **Printing Options** tab of the **Envelope Options** dialog box.|
+| _bstrPrinterName_|Required| **String**|The name of the printer as specified on the **Printing Options** tab of the **Envelope Options** dialog box.|
+| _bstrPaperFeed_|Required| **String**|The feed method as specified on the **Printing Options** tab of the **Envelope Options** dialog box.|
 | _fPrint_|Required| **Boolean**| **True** if the user has specified to print the envelope. **False** if the user has specified to insert the envelope into the document.|
 | _fCancel_|Required| **Boolean**| **True** cancels inserting the postage.|
 

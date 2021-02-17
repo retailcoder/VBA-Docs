@@ -21,7 +21,7 @@ Returns  **True** if Microsoft PowerPoint can check in a specified presentation 
 
 _expression_. `CanCheckIn`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ To take advantage of the collaboration features built into PowerPoint, you must 
 
 ## Example
 
-This example checks the server to see if the specified presentation can be checked in and, if it can be, closes the presentation and checks it back into server.
+This example checks the server to see if the specified presentation can be checked in, and if it can be, closes the presentation and checks it back into server.
 
 
 ```vb

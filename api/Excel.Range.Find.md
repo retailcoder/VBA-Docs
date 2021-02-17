@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Range.Find
 ms.assetid: d9585265-8164-cb4d-a9e3-262f6e06b6b8
-ms.date: 04/19/2019
+ms.date: 08/14/2019
 localization_priority: Priority
 ---
 
@@ -15,6 +15,8 @@ localization_priority: Priority
 # Range.Find method (Excel)
 
 Finds specific information in a range.
+
+[!include[Add-ins note](~/includes/addinsnote.md)]
 
 ## Syntax
 
@@ -29,10 +31,10 @@ _expression_ A variable that represents a **[Range](excel.range(object).md)** ob
 |:-----|:-----|:-----|:-----|
 | _What_|Required| **Variant**|The data to search for. Can be a string or any Microsoft Excel data type.|
 | _After_|Optional| **Variant**|The cell after which you want the search to begin. This corresponds to the position of the active cell when a search is done from the user interface.<br/><br/>Notice that _After_ must be a single cell in the range. Remember that the search begins after this cell; the specified cell isn't searched until the method wraps back around to this cell.<br/><br/>If you do not specify this argument, the search starts after the cell in the upper-left corner of the range.|
-| _LookIn_|Optional| **Variant**|Can be one of the following **[XlFindLookIn](excel.xlfindlookin.md)** constants: **xlFormulas**, **xlValues**, or **xlComments**.|
+| _LookIn_|Optional| **Variant**|Can be one of the following **[XlFindLookIn](excel.xlfindlookin.md)** constants: **xlFormulas**, **xlValues**, **xlComments**, or **xlCommentsThreaded**.|
 | _LookAt_|Optional| **Variant**|Can be one of the following **[XlLookAt](excel.xllookat.md)** constants: **xlWhole** or **xlPart**.|
 | _SearchOrder_|Optional| **Variant**|Can be one of the following **[XlSearchOrder](excel.xlsearchorder.md)** constants: **xlByRows** or **xlByColumns**.|
-| _SearchDirection_|Optional| **[XlSearchDirection](Excel.xlSearchDirection.md)** |The search direction.|
+| _SearchDirection_|Optional| **Variant** |Can be one of the following **[XlSearchDirection](Excel.xlSearchDirection.md)** constants: **xlNext** or **xlPrevious**.|
 | _MatchCase_|Optional| **Variant**| **True** to make the search case-sensitive. The default value is **False**.|
 | _MatchByte_|Optional| **Variant**|Used only if you have selected or installed double-byte language support. **True** to have double-byte characters match only double-byte characters. **False** to have double-byte characters match their single-byte equivalents.|
 | _SearchFormat_|Optional| **Variant**|The search format.|
@@ -59,24 +61,54 @@ For Each c In [A1:C5] If c.Font.Name Like "Cour*" Then c.Font.Name = "Times New 
 
 ```
 
-## Example
+## Examples
 
-This example finds all cells in the range A1:A500 on worksheet one that contain the value 2, and changes it to 5.
+This example finds all cells in the range A1:A500 in worksheet one that contain the value 2, and changes the entire cell value to 5. That is, the values 1234 and 99299 both contain 2 and both cell values will become 5.
 
 ```vb
-With Worksheets(1).Range("a1:a500") 
-    Set c = .Find(2, lookin:=xlValues) 
-    If Not c Is Nothing Then 
-        firstAddress = c.Address 
-        Do 
-            c.Value = 5 
-            Set c = .FindNext(c) 
-        Loop While Not c Is Nothing
-    End If 
-End With
+Sub FindValue()
+    
+    Dim c As Range
+    Dim firstAddress As String
+
+    With Worksheets(1).Range("A1:A500") 
+        Set c = .Find(2, lookin:=xlValues) 
+        If Not c Is Nothing Then 
+            firstAddress = c.Address 
+            Do 
+                c.Value = 5 
+                Set c = .FindNext(c) 
+            Loop While Not c Is Nothing
+        End If 
+    End With
+    
+End Sub
 ```
 
-<!-- ******Removed this sample by request in this issue: https://github.com/MicrosoftDocs/VBA-Docs/issues/133******
+This example finds all cells in the range A1:A500 on worksheet one that contain the substring "abc" and then replaces "abc" with "xyz".
+
+```vb
+Sub FindString()
+
+    Dim c As Range
+    Dim firstAddress As String
+
+    With Worksheets(1).Range("A1:A500")
+        Set c = .Find("abc", LookIn:=xlValues)
+        If Not c Is Nothing Then
+            firstAddress = c.Address
+            Do
+                c.Value = Replace(c.Value, "abc", "xyz")
+                Set c = .FindNext(c)
+            Loop While Not c Is Nothing
+        End If
+    End With
+
+End Sub
+```
+
+
+<!-- ******Removed this sample by request in this Issue: https://github.com/MicrosoftDocs/VBA-Docs/issues/133******
 
 **Sample code provided by:** Holy Macro! Books, [Holy Macro! It's 2,500 Excel VBA Examples](https://www.mrexcel.com/store/index.php?l=product_detail&p=1).
 
@@ -103,7 +135,7 @@ Sub FindAddress()
     
     'If an error occurs, use the error handling routine at the end of this file.
     On Error GoTo ErrorHandler
-    
+   
     'Turn off screen updating, and then open the target workbook.
     Application.ScreenUpdating = False
     Workbooks.Open FileName:=MyPath & MyWB

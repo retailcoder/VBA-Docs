@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Project.TaskGroups property (Project)
 
-Gets a  **[TaskGroups](Project.taskgroups(object).md)** collection representing all the task-based **Group** definitions in the project. Read-only **TaskGroups**.
+Gets a **[TaskGroups](Project.taskgroups(object).md)** collection representing all the task-based **Group** definitions in the project. Read-only **TaskGroups**.
 
 
 ## Syntax
 
 _expression_. `TaskGroups`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks

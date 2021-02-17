@@ -19,14 +19,14 @@ Returns a  **Single** that represents the brightness of a specified shape color.
 
 ## Syntax
 
-_expression_. `Brightness`
+_expression_.**Brightness**
 
- _expression_ A variable that represents a '[ColorFormat](Word.ColorFormat.md)' object.
+_expression_ A variable that represents a '[ColorFormat](Word.ColorFormat.md)' object.
 
 
 ## Remarks
 
-You can enter a number from -1 (darkest) to 1 (lightest) for the  **Brightness** property, 0 (zero) being neutral.
+You can enter a number from -1 (darkest) to 1 (lightest) for the **Brightness** property, 0 (zero) being neutral.
 
 
 ## Example

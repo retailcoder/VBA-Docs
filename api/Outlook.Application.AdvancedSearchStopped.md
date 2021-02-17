@@ -21,7 +21,7 @@ Occurs when a specified  **[Search](Outlook.Search.md)** object's **[Stop](Outlo
 
 _expression_. `AdvancedSearchStopped`( `_SearchObject_` )
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Parameters
@@ -30,11 +30,11 @@ _expression_ A variable that represents an [Application](Outlook.Application.md)
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _SearchObject_|Required| **Search**|The  **[Search](Outlook.Search.md)** object returned by the **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method.|
+| _SearchObject_|Required| **Search**|The **[Search](Outlook.Search.md)** object returned by the **[AdvancedSearch](Outlook.Application.AdvancedSearch.md)** method.|
 
 ## Remarks
 
-After this event is fired, the  **Search** object?s **[Results](Outlook.Results.md)** collection will no longer be updated. This event can only be triggered programmatically.
+After this event is fired, the  **Search** object's **[Results](Outlook.Results.md)** collection will no longer be updated. This event can only be triggered programmatically.
 
 
 ## Example

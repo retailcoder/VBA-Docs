@@ -21,7 +21,7 @@ Sets up headers for printing.
 
 _expression_. `FilePageSetupHeader`( `_Name_`, `_Alignment_`, `_Text_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -71,7 +71,7 @@ _expression_. `FilePageSetupHeader`( `_Name_`, `_Alignment_`, `_Text_` )
 
 ## Remarks
 
-Using the  **FilePageSetupHeader** method without specifying any arguments displays the **Page Setup** dialog box with the **Header** tab selected.
+Using the **FilePageSetupHeader** method without specifying any arguments displays the **Page Setup** dialog box with the **Header** tab selected.
 
 
 ## Example

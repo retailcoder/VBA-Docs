@@ -21,7 +21,7 @@ Activates or deactivates the AutoFilter feature for the active project.
 
 _expression_. `AutoFilter`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,8 +31,8 @@ _expression_. `AutoFilter`
 
 ## Remarks
 
-The  **AutoFilter** method toggles the AutoFilter feature on and off. It has the same effect as the **AutoFilter** command on the filter drop-down menu on the **View** tab for **Gantt Chart Tools** in the Ribbon. If column headings show the AutoFilter drop-down menu, executing the AutoFilter method hides the AutoFilter menus for columns in all sheet views in the active project.
+The **AutoFilter** method toggles the AutoFilter feature on and off. It has the same effect as the **AutoFilter** command on the filter drop-down menu on the **View** tab for **Gantt Chart Tools** in the Ribbon. If column headings show the AutoFilter drop-down menu, executing the AutoFilter method hides the AutoFilter menus for columns in all sheet views in the active project.
 
-To set an AutoFilter, see the  **[SetAutoFilter](Project.Application.SetAutoFilter.md)** method.
+To set an AutoFilter, see the **[SetAutoFilter](Project.Application.SetAutoFilter.md)** method.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

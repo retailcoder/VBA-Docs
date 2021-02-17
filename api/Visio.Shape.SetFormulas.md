@@ -21,7 +21,7 @@ Sets the formulas of one or more cells.
 
 _expression_. `SetFormulas`( `_SRCStream()_` , `_formulaArray()_` , `_Flags_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -68,7 +68,7 @@ The  _Flags_ argument should be a bitmask of the following values.
 | **visSetTestCircular**|&H4|Test for establishment of circular cell references.|
 | **visSetUniversalSyntax**|&H8|Formulas are in universal syntax.|
 
-The value returned by the  **SetFormulas** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i_ < _n_ entries process correctly, but an error occurs on the _i_ + 1st entry, the **SetFormulas** method raises an exception and returns _i_ . Otherwise, _n_ is returned.
+The value returned by the  **SetFormulas** method is the number of entries in _SID_SRCStream()_ that were successfully processed. If _i_ < _n_ entries process correctly, but an error occurs on the _i_ + 1st entry, the **SetFormulas** method raises an exception and returns _i_. Otherwise, _n_ is returned.
 
 
 ## Example

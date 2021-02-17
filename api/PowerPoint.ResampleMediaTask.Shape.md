@@ -19,9 +19,9 @@ Returns the shape that is associated with the specified media asset. Read-only.
 
 ## Syntax
 
-_expression_. `Shape`
+_expression_.**Shape**
 
- _expression_ A variable that represents a [ResampleMediaTask](./PowerPoint.ResampleMediaTask.md) object.
+_expression_ A variable that represents a [ResampleMediaTask](PowerPoint.ResampleMediaTask.md) object.
 
 
 ## Return value

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.AlternativeText property (Word)
 
-Returns or sets the alternative text associated with a shape in a Web page. Read/write  **String**.
+Returns or sets the alternative text associated with a shape in a webpage. Read/write  **String**.
 
 
 ## Syntax
 
-_expression_. `AlternativeText`
+_expression_.**AlternativeText**
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## See also

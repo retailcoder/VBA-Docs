@@ -21,7 +21,7 @@ Synchronizes task dependencies in the active project with changes in deliverable
 
 _expression_. `TaskDependencySync`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `TaskDependencySync`
 
 ## Remarks
 
-The  **TaskDependencySync** method is equivalent to the **Sync Dependencies** command on the **Deliverable** drop-down menu on the **TASK** ribbon.
+The **TaskDependencySync** method is equivalent to the **Sync Dependencies** command on the **Deliverable** drop-down menu on the **TASK** ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

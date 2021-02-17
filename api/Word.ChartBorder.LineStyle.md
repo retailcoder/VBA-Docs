@@ -21,12 +21,12 @@ Returns or sets the line style for the border. Read/write  **[XlLineStyle](Word.
 
 _expression_.**LineStyle**
 
- _expression_ A variable that represents a '[ChartBorder](Word.ChartBorder.md)' object.
+_expression_ A variable that represents a '[ChartBorder](Word.ChartBorder.md)' object.
 
 
 ## Remarks
 
-The  **xlDouble** and **xlSlantDashDot** constants of the **xlLineStyle** enumeration do not apply to charts.
+The **xlDouble** and **xlSlantDashDot** constants of the **xlLineStyle** enumeration do not apply to charts.
 
 
 ## Example

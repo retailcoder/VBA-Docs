@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `Enterprise`
 
- _expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
+_expression_ A variable that represents a [Calendar](./Project.Calendar.md) object.
 
 
 ## Remarks
 
-The  **Enterprise** property is available only in Project Professional.
+The **Enterprise** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

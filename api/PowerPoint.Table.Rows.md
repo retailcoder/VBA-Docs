@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Table.Rows property (PowerPoint)
 
-Returns a  **[Rows](PowerPoint.Rows.md)** collection that represents all the rows in a table. Read-only.
+Returns a **[Rows](PowerPoint.Rows.md)** collection that represents all the rows in a table. Read-only.
 
 
 ## Syntax
 
-_expression_. `Rows`
+_expression_.**Rows**
 
- _expression_ A variable that represents a [Table](./PowerPoint.Table.md) object.
+_expression_ A variable that represents a [Table](PowerPoint.Table.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Rows
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../powerpoint/How-to/return-objects-from-collections.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../powerpoint/How-to/return-objects-from-collections.md).
 
 
 ## Example

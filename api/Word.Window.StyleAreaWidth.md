@@ -21,12 +21,12 @@ Returns or sets the width of the style area in points. Read/write  **Single**.
 
 _expression_. `StyleAreaWidth`
 
- _expression_ An expression that returns a '[Window](Word.Window.md)' object.
+ _expression_ An expression that returns a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-When the  **StyleAreaWidth** property is greater than 0 (zero), style names are displayed to the left of the text. The style area isn't visible in print layout or Web layout view.
+When the **StyleAreaWidth** property is greater than 0 (zero), style names are displayed to the left of the text. The style area isn't visible in print layout or Web layout view.
 
 
 ## Example

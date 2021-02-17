@@ -21,12 +21,12 @@ Returns or sets the distance (in points) between the left edge of the page and t
 
 _expression_.**LeftMargin**
 
- _expression_ An expression that returns a '[PageSetup](Word.PageSetup.md)' object.
+ _expression_ An expression that returns a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Remarks
 
-If the  **[MirrorMargins](Word.PageSetup.MirrorMargins.md)** property is set to **True**, the LeftMargin property controls the setting for inside margins and the **[RightMargin](Word.PageSetup.RightMargin.md)** property controls the setting for outside margins.
+If the **[MirrorMargins](Word.PageSetup.MirrorMargins.md)** property is set to **True**, the LeftMargin property controls the setting for inside margins and the **[RightMargin](Word.PageSetup.RightMargin.md)** property controls the setting for outside margins.
 
 
 ## Example

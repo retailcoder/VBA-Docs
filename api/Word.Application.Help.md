@@ -21,7 +21,7 @@ Displays installed Help information.
 
 _expression_. `Help`( `_HelpType_` )
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `Help`( `_HelpType_` )
 
 ## Example
 
-This example displays the  **Help Topics** dialog box.
+This example displays the **Help Topics** dialog box.
 
 
 ```vb

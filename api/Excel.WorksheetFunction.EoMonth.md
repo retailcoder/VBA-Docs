@@ -7,26 +7,24 @@ ms.prod: excel
 api_name:
 - Excel.WorksheetFunction.EoMonth
 ms.assetid: 46ffb33b-2992-88d4-59ed-5c0660fbbf5d
-ms.date: 06/08/2017
+ms.date: 05/22/2019
 localization_priority: Normal
 ---
 
 
 # WorksheetFunction.EoMonth method (Excel)
 
-Returns the serial number for the last day of the month that is the indicated number of months before or after start_date. Use EOMONTH to calculate maturity dates or due dates that fall on the last day of the month.
+Returns the serial number for the last day of the month that is the indicated number of months before or after start_date. Use **EoMonth** to calculate maturity dates or due dates that fall on the last day of the month.
 
 
 ## Syntax
 
-_expression_. `EoMonth`( `_Arg1_` , `_Arg2_` )
+_expression_.**EoMonth** (_Arg1_, _Arg2_)
 
-_expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFunction.md) object.
+_expression_ A variable that represents a **[WorksheetFunction](Excel.WorksheetFunction.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,25 +33,20 @@ _expression_ A variable that represents a [WorksheetFunction](Excel.WorksheetFun
 
 ## Return value
 
-Double
+**Double**
 
 
 ## Remarks
 
-
-
-
-- Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default.
+Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default.
     
-     **Note**  Visual Basic for Applications (VBA) calculates serial dates differently than Excel. In VBA, serial number 1 is December 31, 1899, rather than January 1, 1900. 
-- If start_date is not a valid date, EOMONTH returns the #NUM! error value.
+> [!NOTE] 
+> Visual Basic for Applications (VBA) calculates serial dates differently than Excel. In VBA, serial number 1 is December 31, 1899, rather than January 1, 1900. 
+
+If start_date is not a valid date, **EoMonth** returns the #NUM! error value.
     
-- If start_date plus months yields an invalid date, EOMONTH returns the #NUM! error value.
+If start_date plus months yields an invalid date, **EoMonth** returns the #NUM! error value.
     
 
-## See also
-
-
-[WorksheetFunction Object](Excel.WorksheetFunction.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

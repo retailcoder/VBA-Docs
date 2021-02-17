@@ -21,7 +21,7 @@ Specifies an array of cell ranges and a  **True** or **False** value indicating 
 
 _expression_. `SetFilterSRC`( `_SRCStream()_` )
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ Nothing
 
 ## Remarks
 
-When an  **Event** object created with the **AddAdvise** method is added to the **EventList** collection of a source object, the default behavior is that all occurrences of that event are passed to the event sink. The **SetFilterSRC** method provides a way to ignore selected events based on a range of cells.
+When an **Event** object created with the **AddAdvise** method is added to the **EventList** collection of a source object, the default behavior is that all occurrences of that event are passed to the event sink. The **SetFilterSRC** method provides a way to ignore selected events based on a range of cells.
 
 The  _SRCStream()_ parameter passed to **SetFilterSRC** is an array defined in the following manner:
 

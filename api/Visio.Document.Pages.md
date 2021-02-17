@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Document.Pages property (Visio)
 
-Returns the  **Pages** collection for a document. Read-only.
+Returns the **Pages** collection for a document. Read-only.
 
 
 ## Syntax
 
-_expression_. `Pages`
+_expression_.**Pages**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -31,15 +31,15 @@ Pages
 
 ## Remarks
 
-If your Visual Studio solution includes the  **Microsoft.Office.Interop.Visio** reference, this property maps to the following types:
+If your Visual Studio solution includes the [Microsoft.Office.Interop.Visio](https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2019) reference, this property maps to the following types:
 
 
--  **Microsoft.Office.Interop.Visio.IVDocument.Pages**
+- **Microsoft.Office.Interop.Visio.IVDocument.Pages**
     
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **Pages** property to print the names of a document's pages.
+This Microsoft Visual Basic for Applications (VBA) macro shows how to use the **Pages** property to print the names of a document's pages.
 
 
 ```vb

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Slides.InsertFromFile method (PowerPoint)
 
-Inserts slides from a file into a presentation, at the specified location. Returns an  **Integer** that represents the number of slides inserted.
+Inserts slides from a file into a presentation, at the specified location. Returns an **Integer** that represents the number of slides inserted.
 
 
 ## Syntax
 
 _expression_. `InsertFromFile`( `_FileName_`, `_Index_`, `_SlideStart_`, `_SlideEnd_` )
 
- _expression_ A variable that represents a [Slides](./PowerPoint.Slides.md) object.
+_expression_ A variable that represents a [Slides](PowerPoint.Slides.md) object.
 
 
 ## Parameters

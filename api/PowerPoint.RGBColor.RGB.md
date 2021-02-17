@@ -14,26 +14,26 @@ localization_priority: Normal
 
 # RGBColor.RGB property (PowerPoint)
 
-Returns or sets the red-green-blue (RGB) value of a specified color-scheme color or extra color when used with a  **PpColorSchemeIndex** constant. Read/write.
+Returns or sets the red-green-blue (RGB) value of a specified color-scheme color or extra color when used with a **PpColorSchemeIndex** constant. Read/write.
 
 
 ## Syntax
 
 _expression_. `RGB`
 
- _expression_ A variable that represents a [RGBColor](./PowerPoint.RGBColor.md) object.
+_expression_ A variable that represents a [RGBColor](PowerPoint.RGBColor.md) object.
 
 
 ## Return value
 
-MsoRGBType
+**[MsoThemeColorSchemeIndex](office.msothemecolorschemeindex.md)**
 
 
 ## Remarks
 
-Use the  **Colors** method to return a **RGBColor** object.
+Use the **Colors** method to return a **RGBColor** object.
 
-The value of the  **RGB** property can be one of these **PpColorSchemeIndex** constants.
+The value of the **RGB** property can be one of these **PpColorSchemeIndex** constants.
 
 
 ||

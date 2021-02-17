@@ -21,12 +21,12 @@ Returns or sets the text orientation. Read/write  **Long**.
 
 _expression_.**Orientation**
 
- _expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
+_expression_ A variable that represents a '[TickLabels](Word.TickLabels.md)' object.
 
 
 ## Remarks
 
-The value of this property can be an integer from -90 through 90 degrees or one of the  **[XlTickLabelOrientation](Word.xlticklabelorientation.md)** constants.
+The value of this property can be an integer from -90 through 90 degrees or one of the **[XlTickLabelOrientation](Word.xlticklabelorientation.md)** constants.
 
 
 ## See also

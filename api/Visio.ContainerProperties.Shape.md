@@ -14,18 +14,18 @@ localization_priority: Normal
 
 # ContainerProperties.Shape property (Visio)
 
-Returns the Microsoft Visio  **[Shape](Visio.Shape.md)** object that is associated with the container. Read-only.
+Returns the Microsoft Visio **[Shape](Visio.Shape.md)** object that is associated with the container. Read-only.
 
 
 ## Syntax
 
-_expression_. `Shape`
+_expression_.**Shape**
 
- _expression_ An expression that returns a '[ContainerProperties](Visio.ContainerProperties.md)' object.
+ _expression_ An expression that returns a **[ContainerProperties](Visio.ContainerProperties.md)** object.
 
 
 ## Return value
 
- **Shape**
+**Shape**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

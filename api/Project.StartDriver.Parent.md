@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # StartDriver.Parent property (Project)
 
-Gets the parent of the  **StartDriver** object. Read-only **Task**.
+Gets the parent of the **StartDriver** object. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
+_expression_ A variable that represents a [StartDriver](./Project.StartDriver.md) object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

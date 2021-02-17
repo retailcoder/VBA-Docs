@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Slide.Background property (PowerPoint)
 
-Returns a  **[ShapeRange](PowerPoint.ShapeRange.md)** object that represents the slide background.
+Returns a **[ShapeRange](PowerPoint.ShapeRange.md)** object that represents the slide background.
 
 
 ## Syntax
 
-_expression_. `Background`
+_expression_.**Background**
 
- _expression_ A variable that represents a [Slide](./PowerPoint.Slide.md) object.
+_expression_ A variable that represents a [Slide](PowerPoint.Slide.md) object.
 
 
 ## Return value

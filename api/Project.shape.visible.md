@@ -14,12 +14,12 @@ Gets or sets a value that determines whether the shape is visible. Read/write  *
 
 _expression_.**Visible**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Remarks
 
-The value of the  **Visible** property can be **msoTrue** or **msoFalse**.
+The value of the **Visible** property can be **msoTrue** or **msoFalse**.
 
 
 ## Property value

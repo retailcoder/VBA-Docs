@@ -19,12 +19,12 @@ Represents an entire frames page or a single frame on a frames page.
 
 ## Remarks
 
-Use the  **Frameset** property of a **Document** or **Pane** object to return a **Frameset** object.
+Use the **Frameset** property of a **Document** or **Pane** object to return a **Frameset** object.
 
 
 -  For properties or methods that affect all frames on a frames page, use the **Frameset** object from the **Document** object ( `ActiveWindow.Document.Frameset`).
     
-- For properties or methods that affect individual frames on a frames page, use the  **Frameset** object from the **Pane** object ( `ActiveWindow.ActivePane.Frameset`).
+- For properties or methods that affect individual frames on a frames page, use the **Frameset** object from the **Pane** object ( `ActiveWindow.ActivePane.Frameset`).
     
 This example opens a file named "Proposal.doc," creates a frames page based on the file, and adds a frame (on the left side of the page) containing a table of contents for the file.
 
@@ -57,7 +57,7 @@ ActiveWindow.Document.Frameset _
  .ChildFramesetItem(3).FrameName = "BottomFrame"
 ```
 
-This example links the specified frame to a local file called "Order.htm." It sets the frame to be resizable, to appear with scrollbars in a Web browser, and to be 25% as high as the active window.
+This example links the specified frame to a local file called "Order.htm." It sets the frame to be resizable, to appear with scrollbars in a web browser, and to be 25% as high as the active window.
 
 
 
@@ -96,7 +96,8 @@ End With
 ```
 
 
- **Note**  For more information on creating frames pages, see [Creating frames pages](../word/Concepts/Customizing-Word/creating-frames-pages.md).
+> [!NOTE] 
+> For more information on creating frames pages, see [Creating frames pages](../word/Concepts/Customizing-Word/creating-frames-pages.md).
 
 
 ## See also

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Comment.Top property (PowerPoint)
 
-Returns a  **Single** that represents the distance in points from the left edge of the comment to the left edge of the slide. Read-only.
+Returns a **Single** that represents the distance in points from the left edge of the comment to the left edge of the slide. Read-only.
 
 
 ## Syntax
 
 _expression_.**Top**
 
-_expression_ A variable that represents a [Comment](./PowerPoint.Comment.md) object.
+_expression_ A variable that represents a [Comment](PowerPoint.Comment.md) object.
 
 
 ## See also

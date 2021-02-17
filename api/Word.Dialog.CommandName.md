@@ -21,7 +21,7 @@ Returns the name of the procedure that displays the specified built-in dialog bo
 
 _expression_. `CommandName`
 
- _expression_ A variable that represents a '[Dialog](Word.Dialog.md)' object.
+_expression_ A variable that represents a '[Dialog](Word.Dialog.md)' object.
 
 
 ## Remarks
@@ -31,7 +31,7 @@ For more information about working with built-in Word dialog boxes, see [Display
 
 ## Example
 
-This example displays the name of the procedure that displays the  **Save As** dialog box (**File** menu): **FileSaveAs**.
+This example displays the name of the procedure that displays the **Save As** dialog box (**File** menu): **FileSaveAs**.
 
 
 ```vb

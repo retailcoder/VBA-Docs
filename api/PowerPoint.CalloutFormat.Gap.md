@@ -21,7 +21,7 @@ Returns or sets the horizontal distance (in points) between the end of the callo
 
 _expression_.**Gap**
 
-_expression_ A variable that represents a [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents a [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Single
 
 ## Example
 
-This example sets the distance between the callout line and the text bounding box to 3 points for shape one on  _myDocument_. For the example to work, shape one must be a callout.
+This example sets the distance between the callout line and the text bounding box to 3 points for shape one on _myDocument_. For the example to work, shape one must be a callout.
 
 
 ```vb

@@ -21,7 +21,7 @@ Returns or sets the way certain alerts and messages are handled while a macro is
 
 _expression_. `DisplayAlerts`
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets Word to display all alerts and message boxes when it is runnin
 Application.DisplayAlerts = wdAlertsAll
 ```
 
-This example returns the current setting of the  **DisplayAlerts** property.
+This example returns the current setting of the **DisplayAlerts** property.
 
 
 

@@ -21,7 +21,7 @@ Renumbers work breakdown structure (WBS) codes for either the active project or 
 
 _expression_. `WBSCodeRenumber`( `_All_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `WBSCodeRenumber`( `_All_` )
 
 ## Remarks
 
-Using the  **WBSCodeRenumber** method without specifying any arguments brings up the **WBS Renumber** dialog box, where you can choose whether to renumber selected tasks or the entire project.
+Using the **WBSCodeRenumber** method without specifying any arguments brings up the **WBS Renumber** dialog box, where you can choose whether to renumber selected tasks or the entire project.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -19,19 +19,19 @@ Returns a  **[List](Word.List.md)** object that represents the first formatted l
 
 ## Syntax
 
-_expression_. `List`
+_expression_.**List**
 
  _expression_ An expression that returns a '[ListFormat](Word.ListFormat.md)' object.
 
 
 ## Remarks
 
-If the first paragraph in the range for the  **ListFormat** object is not formatted as a list, the **List** property returns nothing.
+If the first paragraph in the range for the **ListFormat** object is not formatted as a list, the **List** property returns nothing.
 
 
 ## Example
 
-This example returns the first list in the selection, and then it applies the first list template (excluding None) on the  **Numbered** tab in the **Bullets and Numbering** dialog box (**Format** menu). The selection can only contain one list.
+This example returns the first list in the selection, and then it applies the first list template (excluding None) on the **Numbered** tab in the **Bullets and Numbering** dialog box (**Format** menu). The selection can only contain one list.
 
 
 ```vb

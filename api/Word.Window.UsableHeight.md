@@ -19,9 +19,9 @@ Returns the height (in points) of the active working area in the specified docum
 
 ## Syntax
 
-_expression_. `UsableHeight`
+_expression_.**UsableHeight**
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Remarks

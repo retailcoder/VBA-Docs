@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Range.AutoFormat method (Word)
 
-Automatically formats a document. Use the  **Kind** property to specify a document type.
+Automatically formats a document. Use the **Kind** property to specify a document type.
 
 
 ## Syntax
 
 _expression_. `AutoFormat`
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Example

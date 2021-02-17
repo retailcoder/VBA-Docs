@@ -19,7 +19,7 @@ Returns or sets the end style for the error bars. Read/write  **Long**.
 
 ## Syntax
 
-_expression_. `EndStyle`
+_expression_.**EndStyle**
 
 _expression_ A variable that represents an '[ErrorBars](PowerPoint.ErrorBars.md)' object.
 
@@ -41,7 +41,8 @@ The value of this property can be one of the following  **[XlEndStyleCap](PowerP
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the end style for the error bars for series one of the first chart in the active document. You should run the example on a 2D line chart that has Y error bars for the first series.
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Undo method (Project)
 
-Executes an undo action on items in the  **Undo** list.
+Executes an undo action on items in the **Undo** list.
 
 
 ## Syntax
 
 _expression_.**Undo**( `_HowManyUndos_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_.**Undo**( `_HowManyUndos_` )
 
 ## Remarks
 
-Many actions you perform in Project, such as adding a task, add items to the  **Undo** list. To redo one or more actions after using the **Undo** method, you can use the **[Redo](Project.Application.Redo.md)** method or click **Redo** in the Quick Access Toolbar.
+Many actions you perform in Project, such as adding a task, add items to the **Undo** list. To redo one or more actions after using the **Undo** method, you can use the **[Redo](Project.Application.Redo.md)** method or click **Redo** in the Quick Access Toolbar.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

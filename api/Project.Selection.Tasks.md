@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Selection.Tasks property (Project)
 
-Gets a  **[Tasks](Project.Task.md)** collection representing the tasks in the selection. Read-only **Tasks**.
+Gets a **[Tasks](Project.Task.md)** collection representing the tasks in the selection. Read-only **Tasks**.
 
 
 ## Syntax
 
 _expression_. `Tasks`
 
- _expression_ A variable that represents a [Selection](./Project.Selection.md) object.
+_expression_ A variable that represents a [Selection](./Project.Selection.md) object.
 
 
 ## Example

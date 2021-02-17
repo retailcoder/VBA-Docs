@@ -21,7 +21,7 @@ Returns or sets the number of degrees the specified shape is rotated around the 
 
 _expression_.**Rotation**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value
@@ -38,7 +38,7 @@ To set the rotation of a three-dimensional shape around the x-axis or the y-axis
 
 ## Example
 
-This example matches the rotation of all shapes on  _myDocument_ to the rotation of shape one.
+This example matches the rotation of all shapes on _myDocument_ to the rotation of shape one.
 
 
 ```vb

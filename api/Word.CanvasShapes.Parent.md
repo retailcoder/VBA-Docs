@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CanvasShapes.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **CanvasShapes** object.
+Returns an **Object** that represents the parent object of the specified **CanvasShapes** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasShapes.md)' collection.
+_expression_ Required. A variable that represents a **[CanvasShapes](Word.CanvasShapes.md)** object.
 
 
 ## See also

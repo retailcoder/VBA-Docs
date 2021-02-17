@@ -19,9 +19,9 @@ Gets or sets the description of a hyperlink. Read/write.
 
 ## Syntax
 
-_expression_. `Description`
+_expression_.**Description**
 
- _expression_ A variable that represents a [Hyperlink](./Visio.Hyperlink.md) object.
+_expression_ A variable that represents a **[Hyperlink](Visio.Hyperlink.md)** object.
 
 
 ## Return value

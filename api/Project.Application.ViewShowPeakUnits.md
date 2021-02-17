@@ -21,7 +21,7 @@ Displays peak units information in the active Resource Graph view.
 
 _expression_. `ViewShowPeakUnits`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `ViewShowPeakUnits`
 
 ## Remarks
 
-The  **ViewShowPeakUnits** method has no effect unless the active window contains the Resource Graph view.
+The **ViewShowPeakUnits** method has no effect unless the active window contains the Resource Graph view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

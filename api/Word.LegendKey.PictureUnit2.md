@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # LegendKey.PictureUnit2 property (Word)
 
-Returns or sets the unit for each picture on the chart if the  **[PictureType](Word.LegendKey.PictureType.md)** property is set to **xlStackScale**; otherwise, this property is ignored. Read/write **Double**.
+Returns or sets the unit for each picture on the chart if the **[PictureType](Word.LegendKey.PictureType.md)** property is set to **xlStackScale**; otherwise, this property is ignored. Read/write **Double**.
 
 
 ## Syntax
 
-_expression_. `PictureUnit2`
+_expression_.**PictureUnit2**
 
- _expression_ A variable that represents a '[LegendKey](Word.LegendKey.md)' object.
+_expression_ A variable that represents a '[LegendKey](Word.LegendKey.md)' object.
 
 
 ## See also

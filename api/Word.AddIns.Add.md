@@ -19,14 +19,12 @@ Returns an  **[AddIn](Word.AddIn.md)** object that represents an add-in added to
 
 ## Syntax
 
-_expression_.**Add**( `_FileName_` , `_Install_` )
+_expression_.**Add** (_FileName_, _Install_)
 
 _expression_ Required. A variable that represents an '[AddIns](Word.addins.md)' collection.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -35,12 +33,12 @@ _expression_ Required. A variable that represents an '[AddIns](Word.addins.md)' 
 
 ## Remarks
 
-Use the  **[Installed](Word.AddIn.Installed.md)** property of an add-in to see whether it is already installed.
+Use the **[Installed](Word.AddIn.Installed.md)** property of an add-in to see whether it is already installed.
 
 
 ## Example
 
-This example installs a template named MyFax.dot and adds it to the list of add-ins in the  **Templates and Add-ins** dialog box.
+This example installs a template named MyFax.dot and adds it to the list of add-ins in the **Templates and Add-ins** dialog box.
 
 
 ```vb

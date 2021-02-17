@@ -21,7 +21,7 @@ Zooms in on or out from the Calendar.
 
 _expression_. `ZoomCalendar`( `_NumWeeks_`, `_StartDate_`, `_EndDate_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -41,7 +41,7 @@ _expression_. `ZoomCalendar`( `_NumWeeks_`, `_StartDate_`, `_EndDate_` )
 
 ## Remarks
 
-Using the  **ZoomCalendar** method without specifying any arguments displays the **Zoom** dialog box.
+Using the **ZoomCalendar** method without specifying any arguments displays the **Zoom** dialog box.
 
 
 ## Example

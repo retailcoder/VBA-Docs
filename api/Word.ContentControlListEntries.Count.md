@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ContentControlListEntries.Count property (Word)
 
-Returns the number of items in the  **ContentControlListEntries** collection. Read-only **Long**.
+Returns the number of items in the **ContentControlListEntries** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[ContentControlListEntries](Word.ContentControlListEntries.md)' object.
+_expression_ A variable that represents a '[ContentControlListEntries](Word.ContentControlListEntries.md)' object.
 
 
 ## See also

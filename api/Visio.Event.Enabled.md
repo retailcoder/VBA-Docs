@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Event.Enabled property (Visio)
 
-Determines whether or not an  **Event** object is currently enabled. Read/write.
+Determines whether or not an **Event** object is currently enabled. Read/write.
 
 
 ## Syntax
 
 _expression_.**Enabled**
 
- _expression_ A variable that represents an [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Return value

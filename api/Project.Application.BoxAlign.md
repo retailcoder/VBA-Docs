@@ -21,7 +21,7 @@ Aligns the specified part of the selected boxes in the active Network Diagram vi
 
 _expression_. `BoxAlign`( `_Alignment_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `BoxAlign`( `_Alignment_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Alignment_|Required|**Long**|Specifies which side or portion of a box to use for the alignment. Can be one of the  **[PjAlign](Project.PjAlign.md)** constants.|
+| _Alignment_|Required|**Long**|Specifies which side or portion of a box to use for the alignment. Can be one of the **[PjAlign](Project.PjAlign.md)** constants.|
 
 ## Return value
 
@@ -39,6 +39,6 @@ _expression_. `BoxAlign`( `_Alignment_` )
 
 ## Remarks
 
-If only one box is selected, the  **BoxAlign** method has no effect.
+If only one box is selected, the **BoxAlign** method has no effect.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

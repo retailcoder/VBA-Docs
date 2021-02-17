@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.Top property (PowerPoint)
 
-Returns or sets a  **Single** that represents the distance from the top edge of the topmost shape in the shape range to the top edge of the document. Read/write.
+Returns or sets a **Single** that represents the distance from the top edge of the topmost shape in the shape range to the top edge of the document. Read/write.
 
 
 ## Syntax
 
 _expression_.**Top**
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

@@ -19,14 +19,14 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `PrintComments`
+_expression_.**PrintComments**
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-Setting the  **PrintComments** property to **True** automatically sets the **[PrintHiddenText](Word.Options.PrintHiddenText.md)** property to **True**. However, setting the **PrintComments** property to **False** has no effect on the setting of the **PrintHiddenText** property.
+Setting the **PrintComments** property to **True** automatically sets the **[PrintHiddenText](Word.Options.PrintHiddenText.md)** property to **True**. However, setting the **PrintComments** property to **False** has no effect on the setting of the **PrintHiddenText** property.
 
 
 ## Example

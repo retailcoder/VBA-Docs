@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatAsYouTypeDefineStyles`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets Word to automatically create styles as you type.
 Options.AutoFormatAsYouTypeDefineStyles = True
 ```
 
-This example returns the status of the  **Define styles based on your formatting** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Define styles based on your formatting** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

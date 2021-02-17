@@ -21,7 +21,7 @@ Selects all assignments for a selected task in the Team Planner view.
 
 _expression_. `SelectTaskAssns`
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ _expression_. `SelectTaskAssns`
 
 ## Remarks
 
-If a task is assigned to more than one resource, and one assignment is selected, the  **SelectTaskAssns** method selects all assignments in the Team Planner view.
+If a task is assigned to more than one resource, and one assignment is selected, the **SelectTaskAssns** method selects all assignments in the Team Planner view.
 
 
 ## Example

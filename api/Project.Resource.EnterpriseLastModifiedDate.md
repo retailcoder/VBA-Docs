@@ -21,11 +21,11 @@ Gets the date and time when the resource was last checked in to the enterprise r
 
 _expression_. `EnterpriseLastModifiedDate`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **EnterpriseLastModifiedDate** property is available only in Project Professional.
+The **EnterpriseLastModifiedDate** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

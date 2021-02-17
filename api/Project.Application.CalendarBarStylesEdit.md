@@ -21,7 +21,7 @@ Changes the style of the specified type of bar in the Calendar view.
 
 _expression_. `CalendarBarStylesEdit`( `_Item_`, `_Bar_`, `_Pattern_`, `_Color_`, `_Align_`, `_Wrap_`, `_Shadow_`, `_Field1_`, `_Field2_`, `_Field3_`, `_Field4_`, `_Field5_`, `_SplitPattern_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,8 +32,8 @@ _expression_. `CalendarBarStylesEdit`( `_Item_`, `_Bar_`, `_Pattern_`, `_Color_`
 |:-----|:-----|:-----|:-----|
 | _Item_|Required|**Long**|The type of calendar bar style to edit. Can be one of the following  **[PjBarItem](Project.PjBarItem.md)** constants: **pjBarNonCritical**, **pjBarCritical**, **pjBarSummary**, **pjBarMilestone**, **pjBarMarked**, **pjBarHighlighted**, **pjBarProjectSummary**, or **pjBarExternalTask**.|
 | _Bar_|Optional|**Long**|The bar type. Can be one of the following  **[PjCalendarBarType](Project.PjCalendarBarType.md)** constants: **pjNormalBar**, **pjLineBar**, or **pjNoBar**.|
-| _Pattern_|Optional|**Long**|The bar pattern. Can be one of the  **[PjFillPattern](Project.PjFillPattern.md)** constants.|
-| _Color_|Optional|**Long**|The bar color. Can be one of the  **[PjColor](Project.PjColor.md)** constants.|
+| _Pattern_|Optional|**Long**|The bar pattern. Can be one of the **[PjFillPattern](Project.PjFillPattern.md)** constants.|
+| _Color_|Optional|**Long**|The bar color. Can be one of the **[PjColor](Project.PjColor.md)** constants.|
 | _Align_|Optional|**Long**|The justification of text in the bar. Can be one of the following  **[PjAlignment](Project.PjAlignment.md)** constants: **pjLeft**, **pjCenter**, or **pjRight**.|
 | _Wrap_|Optional|**Boolean**|**True** if Project wraps text in the bar; otherwise, **False**.|
 | _Shadow_|Optional|**Boolean**|**True** if the bar has a shadow; otherwise, **False**.|
@@ -54,7 +54,8 @@ _expression_. `CalendarBarStylesEdit`( `_Item_`, `_Bar_`, `_Pattern_`, `_Color_`
 Specifying a value for any of  _Field1_ through _Field5_ requires that all preceding _Field_ arguments also be specified. For example, specifying _Field3_ also requires _Field1_ and _Field2_ to be specified.
 
 
- **Note**  The  _Field1_ to _Field5_ parameters cannot use the **PjFields** constants. To see the field names that you can add to calendar bars, open the Calendar view, click the **Format** tab in the **Calendar Tools** group. Click **Bar Styles** on the Ribbon, and then click the **Field(s)** drop-down list.
+> [!NOTE] 
+> The  _Field1_ to _Field5_ parameters cannot use the **PjFields** constants. To see the field names that you can add to calendar bars, open the Calendar view, click the **Format** tab in the **Calendar Tools** group. Click **Bar Styles** on the Ribbon, and then click the **Field(s)** drop-down list.
 
 To edit calendar bar styles where  _Color_ can be an RGB value, use the **[CalendarBarStylesEditEx](Project.Application.CalendarBarStylesEditEx.md)** method.
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Event.Index property (Visio)
 
-Gets the ordinal position of an  **Event** object in the **EventList** collection. Read-only.
+Gets the ordinal position of an **Event** object in the **EventList** collection. Read-only.
 
 
 ## Syntax
 
 _expression_.**Index**
 
- _expression_ A variable that represents a [Event](./Visio.Event.md) object.
+_expression_ A variable that represents an **[Event](Visio.Event.md)** object.
 
 
 ## Return value

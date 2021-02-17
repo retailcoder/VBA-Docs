@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `Flag17`
 
- _expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
+_expression_ A variable that represents an [Assignment](./Project.Assignment.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

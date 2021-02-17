@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Characters.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Characters** object.
+Returns an **Object** that represents the parent object of the specified **Characters** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[Characters](Word.characters.md)' collection.
+_expression_ A variable that represents a '[Characters](Word.characters.md)' collection.
 
 
 ## See also

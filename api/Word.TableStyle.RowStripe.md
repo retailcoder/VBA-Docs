@@ -21,12 +21,12 @@ Returns or sets a  **Long** that represents the number of rows to include in the
 
 _expression_. `RowStripe`
 
- _expression_ A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
+_expression_ A variable that represents a '[TableStyle](Word.TableStyle.md)' object.
 
 
 ## Remarks
 
-Use the  **[Condition](Word.TableStyle.Condition.md)** method to set odd- or even-column banding for a table style.
+Use the **[Condition](Word.TableStyle.Condition.md)** method to set odd- or even-column banding for a table style.
 
 
 ## Example

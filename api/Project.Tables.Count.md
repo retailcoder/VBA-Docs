@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # Tables.Count property (Project)
 
-Gets the number of items in the  **Tables** collection. Read-only **Long**.
+Gets the number of items in the **Tables** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'Tables' object.
+_expression_ A variable that represents a 'Tables' object.
 
 
 ## Remarks
 
-Use of the  **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
+Use of the **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
 
 
 ## See also

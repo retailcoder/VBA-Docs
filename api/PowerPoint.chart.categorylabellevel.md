@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Chart.CategoryLabelLevel property (PowerPoint)
 
-Returns or sets an [XlCategoryLabel](./Word.xlcategorylabellevel.md) constant that specifies the source level of the chart category labels. Read-write.
+Returns or sets an [XlCategoryLabel](./Word.xlcategorylabellevel.md) constant that specifies the source level of the chart category labels. Read/write.
 
 
 ## Syntax
 
 _expression_. `CategoryLabelLevel`
 
-_expression_ A variable that represents a [Chart](./PowerPoint.Chart.md) object.
+_expression_ A variable that represents a [Chart](PowerPoint.Chart.md) object.
 
 
 ## Property value

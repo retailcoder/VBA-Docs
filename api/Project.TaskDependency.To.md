@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # TaskDependency.To property (Project)
 
-Gets a  **[Task](Project.Task.md)** object that is the successor in the task dependency. Read-only **Task**.
+Gets a **[Task](Project.Task.md)** object that is the successor in the task dependency. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_. `To`
 
- _expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
+_expression_ A variable that represents a [TaskDependency](./Project.TaskDependency.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

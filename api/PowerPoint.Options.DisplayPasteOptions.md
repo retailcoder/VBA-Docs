@@ -21,7 +21,7 @@ Determines whether Microsoft PowerPoint displays the  **Paste Options** button, 
 
 _expression_. `DisplayPasteOptions`
 
- _expression_ A variable that represents a [Options](./PowerPoint.Options.md) object.
+_expression_ A variable that represents a [Options](PowerPoint.Options.md) object.
 
 
 ## Return value
@@ -37,7 +37,7 @@ The value of the  **DisplayPasteOptions** property can be one of these **MsoTriS
 
 |Constant|Description|
 |:-----|:-----|
-|**msoFalse**|The  **PasteOptions** button is not displayed.|
+|**msoFalse**|The **PasteOptions** button is not displayed.|
 |**msoTrue**| The **PasteOptions** button is displayed.|
 
 ## Example

@@ -21,12 +21,12 @@ Returns or sets data in an ADDIN field. Read/write  **String**.
 
 _expression_. `Data`
 
- _expression_ A variable that represents a '[Field](Word.Field.md)' object.
+_expression_ A variable that represents a '[Field](Word.Field.md)' object.
 
 
 ## Remarks
 
-The data is not visible in the field code or result; it is only accessible by returning the value of the  **Data** property. If the field isn't an ADDIN field, this property will cause an error.
+The data is not visible in the field code or result; it is only accessible by returning the value of the **Data** property. If the field isn't an ADDIN field, this property will cause an error.
 
 
 ## Example

@@ -18,11 +18,11 @@ Gets the time separator character. Read-only  **String**.
 
 _expression_. `TimeSeparator`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project internally sets the  **TimeSeparator** property equal to the value shown in the **Regional and Language Options** dialog box in the Microsoft Windows Control Panel. The value for U.S. English is a colon (":").
+Project internally sets the **TimeSeparator** property equal to the value shown in the **Regional and Language Options** dialog box in the Microsoft Windows Control Panel. The value for U.S. English is a colon (":").
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

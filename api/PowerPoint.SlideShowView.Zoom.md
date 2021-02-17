@@ -19,9 +19,9 @@ Returns the zoom setting of the specified slide show window view as a percentage
 
 ## Syntax
 
-_expression_. `Zoom`
+_expression_.**Zoom**
 
- _expression_ A variable that represents a [SlideShowView](./PowerPoint.SlideShowView.md) object.
+_expression_ A variable that represents a [SlideShowView](PowerPoint.SlideShowView.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Integer
 
 ## Remarks
 
-The  **Zoom** property value can be from 10 to 400 percent.
+The **Zoom** property value can be from 10 to 400 percent.
 
 
 ## See also

@@ -21,7 +21,7 @@ Gets or sets the index of a master or master shortcut object within its stencil.
 
 _expression_. `IndexInStencil`
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -38,6 +38,7 @@ Use the  **IndexInStencil** property to maintain the relative order of **Master*
 
 
 
- **Note**  Beginning with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable.
+> [!NOTE] 
+> Beginning with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

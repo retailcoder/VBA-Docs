@@ -7,27 +7,26 @@ ms.prod: excel
 api_name:
 - Excel.PivotTable.CubeFields
 ms.assetid: 043d6946-4d78-ba59-bef7-5aa4d000041d
-ms.date: 06/08/2017
+ms.date: 05/08/2019
 localization_priority: Normal
 ---
 
 
 # PivotTable.CubeFields property (Excel)
 
-Returns the  **[CubeFields](Excel.CubeFields.md)** collection. Each **[CubeField](Excel.CubeField.md)** object contains the properties of the cube field element. Read-only.
+Returns the **[CubeFields](Excel.CubeFields.md)** collection. Each **[CubeField](Excel.CubeField.md)** object contains the properties of the cube field element. Read-only.
 
 
 ## Syntax
 
-_expression_. `CubeFields`
+_expression_.**CubeFields**
 
-_expression_ A variable that represents a [PivotTable](Excel.PivotTable.md) object.
+_expression_ A variable that represents a **[PivotTable](Excel.PivotTable.md)** object.
 
 
 ## Example
 
 This example creates a list of cube field names for the data fields in the first OLAP-based PivotTable report on Sheet1.
-
 
 ```vb
 Set objNewSheet = Worksheets.Add 
@@ -42,9 +41,6 @@ Next objCubeFld
 ```
 
 
-## See also
 
-
-[PivotTable Object](Excel.PivotTable.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

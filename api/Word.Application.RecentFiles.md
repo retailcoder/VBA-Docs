@@ -21,24 +21,24 @@ Returns a  **[RecentFiles](Word.recentfiles.md)** collection that represents the
 
 _expression_.**RecentFiles**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
-This example opens the first item in the  **RecentFiles** collection (the first document name listed on the **File** menu).
+This example opens the first item in the **RecentFiles** collection (the first document name listed on the **File** menu).
 
 
 ```vb
 If RecentFiles.Count >= 1 Then RecentFiles(1).Open
 ```
 
-This example displays the name of each file in the  **RecentFiles** collection.
+This example displays the name of each file in the **RecentFiles** collection.
 
 
 

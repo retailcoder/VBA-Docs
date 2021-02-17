@@ -21,13 +21,13 @@ localization_priority: Normal
 
 _expression_. `EnterpriseAllowLocalBaseCalendars`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
 To enable projects to use local calendars, click  **Allow projects to use local base calendars** on the Additional Server Settings page in Project Web App.
 
-The  **EnterpriseAllowLocalBaseCalendars** property is available only in Project Professional.
+The **EnterpriseAllowLocalBaseCalendars** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

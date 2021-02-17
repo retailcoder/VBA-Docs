@@ -21,7 +21,7 @@ Gets or sets the title of the field in a table. Read/write  **String**.
 
 _expression_.**Title**
 
- _expression_ A variable that represents a [TableField](./Project.TableField.md) object.
+_expression_ A variable that represents a [TableField](./Project.TableField.md) object.
 
 
 ## Remarks
@@ -29,12 +29,13 @@ _expression_.**Title**
  **Title** is the default property of the **TableField** object.
 
 
- **Note**  Many of the fields in a table do not have a default title, so the  **Title** property is an empty string ("").
+> [!NOTE] 
+> Many of the fields in a table do not have a default title, so the **Title** property is an empty string ("").
 
 
 ## Example
 
-The following statement prints "Task Name" in the  **Immediate** pane.
+The following statement prints "Task Name" in the **Immediate** pane.
 
 
 ```vb

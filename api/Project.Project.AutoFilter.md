@@ -18,12 +18,12 @@ Gets or sets whether the AutoFilter feature is turned on for a project. Read/wri
 
 _expression_. `AutoFilter`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks
 
-The  **AutoFilter** setting is in the **Filter** drop-down list on the **View** tab of the Ribbon.
+The **AutoFilter** setting is in the **Filter** drop-down list on the **View** tab of the Ribbon.
 
 
 ## Example

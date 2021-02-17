@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ProductCode property (Outlook)
 
-Returns a  **String** specifying the Microsoft Outlook globally unique identifier (GUID). Read-only.
+Returns a **String** specifying the Microsoft Outlook globally unique identifier (GUID). Read-only.
 
 
 ## Syntax
 
 _expression_. `ProductCode`
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## See also

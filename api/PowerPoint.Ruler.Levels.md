@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Ruler.Levels property (PowerPoint)
 
-Returns a  **[RulerLevels](PowerPoint.RulerLevels.md)** object that represents outline indent formatting. Read-only.
+Returns a **[RulerLevels](PowerPoint.RulerLevels.md)** object that represents outline indent formatting. Read-only.
 
 
 ## Syntax
 
 _expression_. `Levels`
 
- _expression_ A variable that represents a [Ruler](./PowerPoint.Ruler.md) object.
+_expression_ A variable that represents a [Ruler](PowerPoint.Ruler.md) object.
 
 
 ## See also

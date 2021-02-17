@@ -16,14 +16,14 @@ Gets or sets the logon name of the current account profile. Read/write  **String
 
 ## Syntax
 
-_expression_. `UserName`
+_expression_.**UserName**
 
- _expression_ A variable that represents a [Profile](./Project.Profile.md) object.
+_expression_ A variable that represents a [Profile](./Project.Profile.md) object.
 
 
 ## Remarks
 
-The  **UserName** property of the **Profile** object shows the logon name. By comparison, the **[UserName](Project.Application.UserName.md)** property of the **Application** object shows the local user name.
+The **UserName** property of the **Profile** object shows the logon name. By comparison, the **[UserName](Project.Application.UserName.md)** property of the **Application** object shows the local user name.
 
 
 ## Example

@@ -11,7 +11,7 @@ localization_priority: Normal
 
 # Month object (Project)
 
-Represents a month in a year. The  **Month** object is a member of the **[Months](Project.months.md)** collection.
+Represents a month in a year. The **Month** object is a member of the **[Months](Project.months.md)** collection.
  
 
 
@@ -44,8 +44,8 @@ For Each R In ActiveSelection.Resources()
                 End If 
             Next D 
 
-            MsgBox "There are " &amp; WorkingDays &amp; " working days in " &amp; _
-                .Months(M).Name &amp; " for " &amp; R.Name &amp; "." 
+            MsgBox "There are " & WorkingDays & " working days in " & _
+                .Months(M).Name & " for " & R.Name & "." 
         Next M 
     End With 
 Next R
@@ -55,7 +55,7 @@ Next R
  
 
  
-Use the  **[Months](Project.Year.Months.md)** property to return a **Months** collection. The following example counts the number of months in 2012.
+Use the **[Months](Project.Year.Months.md)** property to return a **Months** collection. The following example counts the number of months in 2012.
  
 
  

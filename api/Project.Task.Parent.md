@@ -11,20 +11,20 @@ localization_priority: Normal
 
 # Task.Parent property (Project)
 
-Gets the parent of the  **Task** object. Read-only **Object**.
+Gets the parent of the **Task** object. Read-only **Object**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Remarks
 
-The parent of a  **Task** object can be a **Project** or a **Selection** object.
+The parent of a **Task** object can be a **Project** or a **Selection** object.
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

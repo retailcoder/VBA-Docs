@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ChartFont.Underline property (Word)
 
-Returns or sets the type of underline applied to the font. Can be one of the  **[XlUnderlineStyle](Word.xlunderlinestyle.md)** constants. Read/write **Variant**.
+Returns or sets the type of underline applied to the font. Can be one of the **[XlUnderlineStyle](Word.xlunderlinestyle.md)** constants. Read/write **Variant**.
 
 
 ## Syntax
 
-_expression_. `Underline`
+_expression_.**Underline**
 
- _expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
+_expression_ A variable that represents a '[ChartFont](Word.ChartFont.md)' object.
 
 
 ## Example

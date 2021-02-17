@@ -19,14 +19,14 @@ Returns or sets the distance, in [points](../language/glossary/vbe-glossary.md#p
 
 ## Syntax
 
-_expression_. `InsideLeft`
+_expression_.**InsideLeft**
 
- _expression_ A variable that represents a '[PlotArea](PowerPoint.PlotArea.md)' object.
+_expression_ A variable that represents a '[PlotArea](PowerPoint.PlotArea.md)' object.
 
 
 ## Remarks
 
-The plot area used for this measurement does not include the axis labels. The  **[Left](PowerPoint.PlotArea.Left.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
+The plot area used for this measurement does not include the axis labels. The **[Left](PowerPoint.PlotArea.Left.md)** property for the plot area uses the bounding rectangle that includes the axis labels.
 
 
 ## Example
@@ -34,7 +34,8 @@ The plot area used for this measurement does not include the axis labels. The  *
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example draws a dotted rectangle around the inside of the plot area for the first chart in the active document.
 

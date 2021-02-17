@@ -19,9 +19,9 @@ Adds a new, empty **[ValidationRuleSet](Visio.ValidationRuleSet.md)** object to 
 
 ## Syntax
 
-_expression_.**Add**( `_NameU_` )
+_expression_.**Add** (_NameU_)
 
- _expression_ A variable that represents a [ValidationRuleSet](./Visio.ValidationRuleSet.md) object.
+_expression_ A variable that represents a **[ValidationRuleSets](Visio.ValidationRuleSets.md)** object.
 
 
 ## Parameters

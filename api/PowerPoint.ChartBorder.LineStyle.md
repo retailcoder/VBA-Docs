@@ -26,7 +26,7 @@ _expression_ A variable that represents a '[ChartBorder](PowerPoint.ChartBorder.
 
 ## Remarks
 
-The  **xlDouble** and **xlSlantDashDot** constants of the **xlLineStyle** enumeration do not apply to charts.
+The **xlDouble** and **xlSlantDashDot** constants of the **xlLineStyle** enumeration do not apply to charts.
 
 
 ## Example
@@ -34,7 +34,8 @@ The  **xlDouble** and **xlSlantDashDot** constants of the **xlLineStyle** enumer
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example puts a border around the chart area and the plot area of the first chart in the active document.
 

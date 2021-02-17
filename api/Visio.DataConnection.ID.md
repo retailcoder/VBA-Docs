@@ -14,17 +14,18 @@ localization_priority: Normal
 
 # DataConnection.ID property (Visio)
 
-Gets the unique identifier of the  **DataConnection** object assigned by Visio. Read-only.
+Gets the unique identifier of the **DataConnection** object assigned by Visio. Read-only.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
- _expression_ A variable that represents a [DataConnection](./Visio.DataConnection.md) object.
+_expression_ A variable that represents a **[DataConnection](Visio.DataConnection.md)** object.
 
 
 ## Return value

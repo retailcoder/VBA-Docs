@@ -19,7 +19,7 @@ Represents a user-defined category by which Outlook items can be grouped.
 
 ## Remarks
 
-Microsoft Outlook provides a categorization system with which Outlook items can be easily identified and grouped into user-defined categories. The  **Category** object represents a user-defined category.
+Microsoft Outlook provides a categorization system with which Outlook items can be easily identified and grouped into user-defined categories. The **Category** object represents a user-defined category.
 
 Use the  **[Add](Outlook.Categories.Add.md)** method of the **[Categories](Outlook.NameSpace.Categories.md)** property for the **[NameSpace](Outlook.NameSpace.md)** object to create a new **Category** object, adding the category to the Master Category List for that namespace.
 
@@ -83,9 +83,9 @@ Private Sub ListCategoryIDs()
  
  ' the output string. 
  
- strOutput = strOutput &amp; objCategory.Name &amp; _ 
+ strOutput = strOutput & objCategory.Name & _ 
  
- ": " &amp; objCategory.CategoryID &amp; vbCrLf 
+ ": " & objCategory.CategoryID & vbCrLf 
  
  Next 
  

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.Coauthoring property (PowerPoint)
 
-Returns a  **Coauthoring** object in the current **Presentation** object. Read-only.
+Returns a **Coauthoring** object in the current **Presentation** object. Read-only.
 
 
 ## Syntax
 
 _expression_. `Coauthoring`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## See also

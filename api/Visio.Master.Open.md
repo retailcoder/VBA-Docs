@@ -19,9 +19,9 @@ Opens an existing master so that it can be edited.
 
 ## Syntax
 
-_expression_. `Open`
+_expression_.**Open**
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -39,18 +39,19 @@ You can use the  **Open** method for a **Master** object in conjunction with the
 
 
 
-1. Open the  **Master** object for editing by using _masterObjCopy_ = _masterObj_ . **Open**. This code fails if there is a drawing window open into _masterObj_ or if other programs already have _masterObj_ open. If the **Open** method succeeds, _masterObjCopy_ is a copy of _masterObj_ .
+1. Open the  **Master** object for editing by using _masterObjCopy_ = _masterObj_. **Open**. This code fails if there is a drawing window open into _masterObj_ or if other programs already have _masterObj_ open. If the **Open** method succeeds, _masterObjCopy_ is a copy of _masterObj_.
     
-2. Change any shapes and cells in  _masterObjCopy_ , not _masterObj_ .
+2. Change any shapes and cells in  _masterObjCopy_ , not _masterObj_.
     
-3. Close the  **Master** object by using _masterObjCopy_ . **Close**. The **Close** method fails if _masterObjCopy_ isn't a **Master** object that resulted from a prior _masterObj_ . **Open** call. Otherwise, the **Close** method merges the changes made in step 2 from _masterObjCopy_ back into _masterObj_ . It also updates all instances of _masterObj_ to reflect the changes and update information cached in _masterObj_ . If _masterObj_ . **IconUpdate** isn't **visManual** (0), the **Close** method updates the icon shown in the stencil window for _masterObj_ to depict an image of _masterObjCopy_ .
+3. Close the  **Master** object by using _masterObjCopy_. **Close**. The **Close** method fails if _masterObjCopy_ isn't a **Master** object that resulted from a prior _masterObj_. **Open** call. Otherwise, the **Close** method merges the changes made in step 2 from _masterObjCopy_ back into _masterObj_. It also updates all instances of _masterObj_ to reflect the changes and update information cached in _masterObj_. If _masterObj_. **IconUpdate** isn't **visManual** (0), the **Close** method updates the icon shown in the stencil window for _masterObj_ to depict an image of _masterObjCopy_.
     
 If you change the shapes and cells of a master directly, as opposed to opening and closing the master as described in the procedure above, the effects listed in step 3 don't occur.
 
 A program that creates a copy of a  _masterObj_ for editing should both close and release the copy. Microsoft Visual Basic typically releases it automatically. However, when you are coding in C or C++, you must explicitly release the copy, just as you would for any other object.
 
 
- **Note**  Starting with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable. 
+> [!NOTE] 
+> Starting with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable. 
 
 
 ## Example

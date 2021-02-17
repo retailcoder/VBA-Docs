@@ -21,7 +21,7 @@ Deletes the specified custom field.
 
 _expression_. `CustomFieldDelete`( `_Field_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `CustomFieldDelete`( `_Field_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Field_|Required|**Long**|A value representing a  **[PjField](Project.PjField.md)** constant.|
+| _Field_|Required|**Long**|A value representing a **[PjField](Project.PjField.md)** constant.|
 
 ## Return value
 

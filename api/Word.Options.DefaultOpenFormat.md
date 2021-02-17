@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Options.DefaultOpenFormat property (Word)
 
-Returns or sets the default file converter used to open documents. Can be a number returned by the  **OpenFormat** property, or one of the following **WdOpenFormat** constants.
+Returns or sets the default file converter used to open documents. Can be a number returned by the **OpenFormat** property, or one of the following **WdOpenFormat** constants.
 
 
 ## Syntax
 
 _expression_. `DefaultOpenFormat`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example

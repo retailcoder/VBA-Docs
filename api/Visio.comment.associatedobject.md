@@ -14,9 +14,9 @@ Returns the object associated with the specified comment. Read-only  **Object**.
 
 ## Syntax
 
-_expression_. `AssociatedObject`
+_expression_.**AssociatedObject**
 
- _expression_ A variable that represents a 'Comment' object.
+_expression_ A variable that represents a **[Comment](Visio.Comment.md)** object.
 
 
 ## Property value

@@ -19,14 +19,14 @@ Returns or sets a  **[WdLanguageID](Word.WdLanguageID.md)** constant that repres
 
 ## Syntax
 
- _expression_**LanguageID**
+ _expression_.**LanguageID**
 
 _expression_ Required. An expression that returns a '[Dictionary](Word.Dictionary.md)' object.
 
 
 ## Remarks
 
-For a custom dictionary, you must first set the  **[LanguageSpecific](Word.Dictionary.LanguageSpecific.md)** property to **True** before specifying the **LanguageID** property. Custom dictionaries that are language-specific check only text that is formatted for that language.
+For a custom dictionary, you must first set the **[LanguageSpecific](Word.Dictionary.LanguageSpecific.md)** property to **True** before specifying the **LanguageID** property. Custom dictionaries that are language-specific check only text that is formatted for that language.
 
 Some  **WdLanguageID** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
 

@@ -21,7 +21,7 @@ Returns or sets the angle of the callout line. If the callout line contains more
 
 _expression_.**Angle**
 
-_expression_ A variable that represents an [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents an [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -46,7 +46,7 @@ The value of the  **Angle** property can be one of these **MsoCalloutAngleType**
 
 ## Example
 
-This example sets to 90 degrees the callout angle for a callout named "co1" on  _myDocument_.
+This example sets to 90 degrees the callout angle for a callout named "co1" on _myDocument_.
 
 
 ```vb

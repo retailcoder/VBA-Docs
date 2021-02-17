@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.SheetSelectionChange
 ms.assetid: a3829af1-2917-9526-1d64-91eeb6c198ce
-ms.date: 06/08/2017
+ms.date: 05/29/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Occurs when the selection changes on any worksheet (doesn't occur if the selecti
 
 ## Syntax
 
-_expression_. `SheetSelectionChange`( `_Sh_` , `_Target_` )
+_expression_.**SheetSelectionChange** (_Sh_, _Target_)
 
- _expression_ An expression that returns a **[Workbook](Excel.Workbook.md)** object.
+_expression_ An expression that returns a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,7 +35,6 @@ _expression_. `SheetSelectionChange`( `_Sh_` , `_Target_` )
 
 This example displays the sheet name and address of the selected range in the status bar.
 
-
 ```vb
 Private Sub Workbook_SheetSelectionChange(ByVal Sh As Object, _ 
  ByVal Target As Excel.Range) 
@@ -46,9 +43,5 @@ End Sub
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

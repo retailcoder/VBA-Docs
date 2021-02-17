@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Breaks.Count property (Word)
 
-Returns the number of items in the  **Breaks** collection. Read-only **Long**.
+Returns the number of items in the **Breaks** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[Breaks](Word.Breaks.md)' object.
+_expression_ A variable that represents a '[Breaks](Word.Breaks.md)' object.
 
 
 ## See also

@@ -21,7 +21,7 @@ Sets options for a value list for a custom field.
 
 _expression_. `CustomFieldValueList`( `_FieldID_`, `_ListDefault_`, `_DefaultValue_`, `_RestrictToList_`, `_AppendNew_`, `_PromptOnNew_`, `_DisplayOrder_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `CustomFieldValueList`( `_FieldID_`, `_ListDefault_`, `_DefaultVal
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|The custom field. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|The custom field. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _ListDefault_|Optional|**Boolean**|**True** if a value in the list functions as the default for the custom field.|
 | _DefaultValue_|Optional|**String**|The item in the value list that is the default for the custom field. If  **ListDefault** is **False**, **DefaultValue** is ignored.|
 | _RestrictToList_|Optional|**Boolean**|**True** if the only values allowed in the custom field are those from the value list.|

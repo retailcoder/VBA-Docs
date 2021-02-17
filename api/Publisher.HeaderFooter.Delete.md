@@ -7,7 +7,7 @@ ms.prod: publisher
 api_name:
 - Publisher.HeaderFooter.Delete
 ms.assetid: e656928f-188e-e029-a256-ef703c57d8f3
-ms.date: 06/08/2017
+ms.date: 06/08/2019
 localization_priority: Normal
 ---
 
@@ -21,7 +21,7 @@ Deletes the specified object.
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a  **HeaderFooter** object.
+_expression_ A variable that represents a **[HeaderFooter](Publisher.HeaderFooter.md)** object.
 
 
 ## Remarks

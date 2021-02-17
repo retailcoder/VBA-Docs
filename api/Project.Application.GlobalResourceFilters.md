@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.GlobalResourceFilters property (Project)
 
-Gets or sets a  **[Filters](Project.Filter.md)** collection representing the resource filters of the Global.mpt file. Read/write **Filters**.
+Gets or sets a **[Filters](Project.Filter.md)** collection representing the resource filters of the Global.mpt file. Read/write **Filters**.
 
 
 ## Syntax
 
 _expression_. `GlobalResourceFilters`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks

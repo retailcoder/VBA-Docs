@@ -19,9 +19,9 @@ Returns the index of the row in the Paragraph section of a ShapeSheet window tha
 
 ## Syntax
 
-_expression_. `ParaPropsRow`( `_BiasLorR_` )
+_expression_.**ParaPropsRow** (_BiasLorR_)
 
- _expression_ A variable that represents a [Characters](./Visio.Characters.md) object.
+_expression_ A variable that represents a **[Characters](Visio.Characters.md)** object.
 
 
 ## Parameters
@@ -47,7 +47,7 @@ If the  **Characters** object represents an insertion point rather than a sequen
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visBiasLetVisioChoose**|0 |
 | **visBiasLeft**|1 |

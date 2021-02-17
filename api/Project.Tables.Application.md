@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Tables.Application property (Project)
 
-Gets the  **[Application](Project.Application.md)** object. Read-only **Application**.
+Gets the **[Application](Project.Application.md)** object. Read-only **Application**.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ A variable that represents a 'Tables' object.
+_expression_ A variable that represents a 'Tables' object.
 
 
 ## See also

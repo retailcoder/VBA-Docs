@@ -19,14 +19,12 @@ Pastes the current contents of the Clipboard into the view represented by the  *
 
 ## Syntax
 
-_expression_. `PasteSpecial`( `_DataType_`, `_DisplayAsIcon_`, `_IconFileName_`, `_IconIndex_`, `_IconLabel_`, `_Link_` )
+_expression_.**PasteSpecial** (_DataType_, _DisplayAsIcon_, _IconFileName_, _IconIndex_, _IconLabel_, _Link_)
 
- _expression_ A variable that represents a [View](./PowerPoint.View.md) object.
+_expression_ A variable that represents a [View](PowerPoint.View.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -41,7 +39,7 @@ _expression_. `PasteSpecial`( `_DataType_`, `_DisplayAsIcon_`, `_IconFileName_`,
 
 An error occurs if there is no data on the Clipboard when the  **PasteSpecial** method is called.
 
- Valid views for the **PasteSpecial** method are the same as those for the **Paste** method. If the data type can?t be pasted into the view (for example, if you try to paste a picture into **Slide Sorter View**), an error occurs. 
+ Valid views for the **PasteSpecial** method are the same as those for the **Paste** method. If the data type can't be pasted into the view (for example, if you try to paste a picture into **Slide Sorter View**), an error occurs. 
 
 The DataType parameter can be one of these  **PpPasteDataType** constants
 

@@ -14,9 +14,9 @@ Returns  **visObjTypeComment**, the type of a  **Comment** object. Read-only.
 
 ## Syntax
 
-_expression_. `ObjectType`
+_expression_.**ObjectType**
 
- _expression_ A variable that represents a 'Comment' object.
+_expression_ A variable that represents a **[Comment](Visio.Comment.md)** object.
 
 
 ## Remarks

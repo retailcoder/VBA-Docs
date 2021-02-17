@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Comment.ProviderID property (PowerPoint)
 
-Returns a  **String** that represents ID of the service providing contact information. Read-only.
+Returns a **String** that represents ID of the service providing contact information. Read-only.
 
 
 ## Syntax
 
 _expression_. `ProviderID`
 
-_expression_ A variable that represents a [Comment](./PowerPoint.Comment.md) object.
+_expression_ A variable that represents a [Comment](PowerPoint.Comment.md) object.
 
 
 ## Property value

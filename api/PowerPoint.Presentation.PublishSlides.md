@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.PublishSlides method (PowerPoint)
 
-Creates a Web presentation (in HTML format) containing slides from any loaded presentation. You can view the published presentation in a Web browser.
+Creates a Web presentation (in HTML format) containing slides from any loaded presentation. You can view the published presentation in a web browser.
 
 
 ## Syntax
 
 _expression_. `PublishSlides`( `_SlideLibraryUrl_`, `_Overwrite_` )
 
- _expression_ An expression that returns a [Presentation](./PowerPoint.Presentation.md) object.
+ _expression_ An expression that returns a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Parameters

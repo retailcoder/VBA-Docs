@@ -21,12 +21,12 @@ Returns or sets the text orientation. Read/write  **Long**.
 
 _expression_.**Orientation**
 
- _expression_ A variable that represents a '[DisplayUnitLabel](Word.DisplayUnitLabel.md)' object.
+_expression_ A variable that represents a '[DisplayUnitLabel](Word.DisplayUnitLabel.md)' object.
 
 
 ## Remarks
 
-The value of this property can be an integer value from -90 through 90 degrees or one of the  **[XlOrientation](Word.xlorientation.md)** constants.
+The value of this property can be an integer value from -90 through 90 degrees or one of the **[XlOrientation](Word.xlorientation.md)** constants.
 
 
 ## See also

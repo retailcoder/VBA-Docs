@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Series.InvertIfNegative
 ms.assetid: 06c963ac-6e81-5f45-b8b9-8c61bf0c02b6
-ms.date: 06/08/2017
+ms.date: 05/11/2019
 localization_priority: Normal
 ---
 
@@ -19,24 +19,19 @@ localization_priority: Normal
 
 ## Syntax
 
-_expression_. `InvertIfNegative`
+_expression_.**InvertIfNegative**
 
-_expression_ A variable that represents a [Series](Excel.Series-graph-object.md) object.
+_expression_ A variable that represents a **[Series](Excel.Series(object).md)** object.
 
 
 ## Example
 
-This example inverts the pattern for negative values in series one in Chart1. The example should be run on a 2D column chart.
-
+This example inverts the pattern for negative values in series one on Chart1. The example should be run on a 2D column chart.
 
 ```vb
 Charts("Chart1").SeriesCollection(1).InvertIfNegative = True
 ```
 
 
-## See also
-
-
-[Series Object](Excel.Series(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

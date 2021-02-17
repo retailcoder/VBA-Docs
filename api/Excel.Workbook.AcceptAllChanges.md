@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.AcceptAllChanges
 ms.assetid: 8d8572a9-1231-c8ef-0707-72b8b5109066
-ms.date: 06/08/2017
+ms.date: 05/25/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Accepts all changes in the specified shared workbook.
 
 ## Syntax
 
-_expression_. `AcceptAllChanges`( `_When_` , `_Who_` , `_Where_` )
+_expression_.**AcceptAllChanges** (_When_, _Who_, _Where_)
 
 _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -38,15 +36,11 @@ _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** obje
 
 This example accepts all changes in the active workbook.
 
-
 ```vb
 ActiveWorkbook.AcceptAllChanges
 ```
 
 
-## See also
 
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

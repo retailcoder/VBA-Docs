@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shapes.Title property (PowerPoint)
 
-Returns a  **[Shape](PowerPoint.Shape.md)** object that represents the slide title. Read-only.
+Returns a **[Shape](PowerPoint.Shape.md)** object that represents the slide title. Read-only.
 
 
 ## Syntax
 
 _expression_.**Title**
 
- _expression_ A variable that represents a [Shapes](./PowerPoint.Shapes.md) object.
+_expression_ A variable that represents a **[Shapes](PowerPoint.Shapes.md)** object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ You can also use the  **[Item](PowerPoint.Placeholders.Item.md)** method of the 
 
 ## Example
 
-This example sets the title text on  _myDocument_.
+This example sets the title text on _myDocument_.
 
 
 ```vb

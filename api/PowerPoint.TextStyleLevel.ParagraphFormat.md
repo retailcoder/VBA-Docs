@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextStyleLevel.ParagraphFormat property (PowerPoint)
 
-Returns a  **[ParagraphFormat](PowerPoint.ParagraphFormat.md)** object that represents paragraph formatting for the specified text. Read-only.
+Returns a **[ParagraphFormat](PowerPoint.ParagraphFormat.md)** object that represents paragraph formatting for the specified text. Read-only.
 
 
 ## Syntax
 
 _expression_. `ParagraphFormat`
 
- _expression_ A variable that represents a [TextStyleLevel](./PowerPoint.TextStyleLevel.md) object.
+_expression_ A variable that represents a [TextStyleLevel](PowerPoint.TextStyleLevel.md) object.
 
 
 ## Return value

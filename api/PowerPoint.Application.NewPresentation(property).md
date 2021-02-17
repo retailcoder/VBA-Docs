@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.NewPresentation property (PowerPoint)
 
-Returns a  **NewFile** object that represents a presentation listed on the **New Presentation** task pane. Read-only.
+Returns a **NewFile** object that represents a presentation listed on the **New Presentation** task pane. Read-only.
 
 
 ## Syntax
 
 _expression_. `NewPresentation`
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

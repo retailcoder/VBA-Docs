@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathMatRows.Count property (Word)
 
-Returns the number of items in the  **OMathMatRows** collection. Read-only **Long**.
+Returns the number of items in the **OMathMatRows** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[OMathMatRows](Word.OMathMatRows.md)' object.
+_expression_ A variable that represents a '[OMathMatRows](Word.OMathMatRows.md)' object.
 
 
 ## See also

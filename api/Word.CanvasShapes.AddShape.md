@@ -21,7 +21,7 @@ Adds an AutoShape to a drawing canvas. Returns a  **[Shape](Word.Shape.md)** obj
 
 _expression_. `AddShape`( `_Type_` , `_Left_` , `_Top_` , `_Width_` , `_Height_` )
 
-_expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasShapes.md)' collection.
+_expression_ Required. A variable that represents a **[CanvasShapes](Word.CanvasShapes.md)** object.
 
 
 ## Parameters
@@ -38,7 +38,7 @@ _expression_ Required. A variable that represents a '[CanvasShapes](Word.CanvasS
 
 ## Remarks
 
-To change the type of an AutoShape that you've added, set the  **AutoShapeType** property.
+To change the type of an AutoShape that you've added, set the **AutoShapeType** property.
 
 
 ## Example

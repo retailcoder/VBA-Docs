@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # HTMLDivisions.Add method (Word)
 
-Returns an  **HTMLDivision** object that represents a new HTML division added to a Web document.
+Returns an  **HTMLDivision** object that represents a new HTML division added to a web document.
 
 
 ## Syntax
 
-_expression_.**Add**( `_Range_` )
+_expression_.**Add** (_Range_)
 
 _expression_ Required. A variable that represents an '[HTMLDivisions](Word.HTMLDivisions.md)' collection.
 

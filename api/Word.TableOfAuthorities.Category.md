@@ -19,14 +19,14 @@ Returns or sets the category of entries to be included in a table of authorities
 
 ## Syntax
 
-_expression_. `Category`
+_expression_.**Category**
 
- _expression_ A variable that represents a '[TableOfAuthorities](Word.TableOfAuthorities.md)' collection.
+_expression_ A variable that represents a '[TableOfAuthorities](Word.TableOfAuthorities.md)' collection.
 
 
 ## Remarks
 
-This property corresponds to the \c switch for a TOA field. Values 1 through 16 correspond to the items in the  **Category** list on the **Table of Authorities** tab in the **Index and Tables** dialog box. The number 0 (zero), which corresponds to all categories, cannot be used with this property. You can, however, use 0 to specify all categories when you are inserting a table of authorities.
+This property corresponds to the \c switch for a TOA field. Values 1 through 16 correspond to the items in the **Category** list on the **Table of Authorities** tab in the **Index and Tables** dialog box. The number 0 (zero), which corresponds to all categories, cannot be used with this property. You can, however, use 0 to specify all categories when you are inserting a table of authorities.
 
 
 ## Example

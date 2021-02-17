@@ -21,7 +21,7 @@ Sorts the tasks or resources in the active pane.
 
 _expression_.**Sort** ( `_Key1_`, `_Ascending1_`, `_Key2_`, `_Ascending2_`, `_Key3_`, `_Ascending3_`, `_Renumber_`, `_Outline_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_.**Sort** ( `_Key1_`, `_Ascending1_`, `_Key2_`, `_Ascending2_`, `_Ke
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _Key1_|Optional|**String**|The name of a primary field to sort. If Key1 is omitted, Project displays the  **Sort** dialog box.|
+| _Key1_|Optional|**String**|The name of a primary field to sort. If Key1 is omitted, Project displays the **Sort** dialog box.|
 | _Ascending1_|Optional|**Boolean**|**True** if the primary field will be sorted in ascending order. The default value is **True**.|
 | _Key2_|Optional|**String**|The name of a secondary field to sort.|
 | _Ascending2_|Optional|**Boolean**|**True** if the secondary field will be sorted in ascending order. The default value is **True.**|

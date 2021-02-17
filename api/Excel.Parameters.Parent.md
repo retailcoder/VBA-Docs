@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Parameters.Parent
 ms.assetid: 4c88da76-7176-96de-449a-bb529f292a93
-ms.date: 06/08/2017
+ms.date: 05/03/2019
 localization_priority: Normal
 ---
 
@@ -21,12 +21,9 @@ Returns the parent object for the specified object. Read-only.
 
 _expression_.**Parent**
 
-_expression_ A variable that represents a [Parameters](Excel.Parameters.md) object.
+_expression_ A variable that represents a **[Parameters](Excel.Parameters.md)** object.
 
 
-## See also
 
-
-[Parameters Object](Excel.Parameters.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

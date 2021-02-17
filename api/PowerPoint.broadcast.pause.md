@@ -19,7 +19,7 @@ Pauses the specified broadcast.
 
 _expression_. `Pause`
 
-_expression_ A variable that represents a [Broadcast](./PowerPoint.Broadcast.md) object.
+_expression_ A variable that represents a [Broadcast](PowerPoint.Broadcast.md) object.
 
 
 ## Return value
@@ -29,6 +29,6 @@ _expression_ A variable that represents a [Broadcast](./PowerPoint.Broadcast.md)
 
 ## Remarks
 
-If the specified broadcast is not in progress,  **Pause** returns runtime error 4702.
+If the specified broadcast is not in progress,  **Pause** returns run-time error 4702.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

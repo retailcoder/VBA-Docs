@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # AutoTextEntries.Count property (Word)
 
-Returns the number of items in the  **[AutoTextEntries](Word.autotextentries.md)** collection. Read-only **Long**.
+Returns the number of items in the **[AutoTextEntries](Word.autotextentries.md)** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[AutoTextEntries](Word.autotextentries.md)' object.
+_expression_ A variable that represents a '[AutoTextEntries](Word.autotextentries.md)' object.
 
 
 ## See also

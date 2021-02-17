@@ -19,9 +19,9 @@ Returns the version number of the operating system. Read-only  **String**.
 
 ## Syntax
 
-_expression_. `Version`
+_expression_.**Version**
 
- _expression_ A variable that represents a '[System](Word.System.md)' object.
+_expression_ A variable that represents a '[System](Word.System.md)' object.
 
 
 ## Example

@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.TextFrame
 ms.assetid: 2dbb7fb4-3ae4-d4c1-8b7e-3e087e32a96f
-ms.date: 06/08/2017
+ms.date: 06/14/2019
 localization_priority: Normal
 ---
 
 
 # ShapeRange.TextFrame property (Publisher)
 
-Returns a  **[TextFrame](Publisher.TextFrame.md)** object that represents the text in a shape and the properties that control the margins and orientation of the text.
+Returns a **[TextFrame](Publisher.TextFrame.md)** object that represents the text in a shape and the properties that control the margins and orientation of the text.
 
 
 ## Syntax
 
 _expression_.**TextFrame**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Example
 
-The following example adds text to the text frame of shape one in the active publication, and then formats the new text. This example assumes there is at least one shape on the first page of the active publication.
-
+The following example adds text to the text frame of shape one in the active publication, and then formats the new text. This example assumes that there is at least one shape on the first page of the active publication.
 
 ```vb
 Sub AddTextToTextFrame() 

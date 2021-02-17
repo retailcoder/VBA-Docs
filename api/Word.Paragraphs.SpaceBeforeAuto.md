@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SpaceBeforeAuto`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
@@ -33,7 +33,7 @@ If  **SpaceBeforeAuto** is set to **True**, the **SpaceBefore** property is igno
 
 ## Example
 
-This example displays a report showing the  **SpaceBeforeAuto** settings for the active document.
+This example displays a report showing the **SpaceBeforeAuto** settings for the active document.
 
 
 ```vb

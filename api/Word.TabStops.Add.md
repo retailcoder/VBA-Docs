@@ -19,7 +19,7 @@ Returns a  **TabStop** object that represents a custom tab stop added to a docum
 
 ## Syntax
 
-_expression_.**Add**( `_Position_` , `_Alignment_` , `_Leader_` )
+_expression_.**Add** (_Position_, _Alignment_, _Leader_)
 
 _expression_ Required. A variable that represents a '[TabStops](Word.tabstops.md)' collection.
 
@@ -31,8 +31,8 @@ _expression_ Required. A variable that represents a '[TabStops](Word.tabstops.md
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Position_|Required| **Single**|The position of the tab stop (in points) relative to the left margin.|
-| _Alignment_|Optional| **Variant**|The alignment of the tab stop. Can be one of the  **WdTabAlignment** constants.|
-| _Leader_|Optional| **Variant**|The type of leader for the tab stop. Can be one of the  **WdTabLeader** constants. If this argument is omitted, **wdTabLeaderSpaces** is used.|
+| _Alignment_|Optional| **Variant**|The alignment of the tab stop. Can be one of the **WdTabAlignment** constants.|
+| _Leader_|Optional| **Variant**|The type of leader for the tab stop. Can be one of the **WdTabLeader** constants. If this argument is omitted, **wdTabLeaderSpaces** is used.|
 
 ## Return value
 

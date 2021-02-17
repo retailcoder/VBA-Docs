@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.WindowActivate event (Project)
 
-Occurs when any window within Project is activated. The  **WindowActivate** event does not occur when the application window is activated.
+Occurs when any window within Project is activated. The **WindowActivate** event does not occur when the application window is activated.
 
 
 ## Syntax
 
 _expression_. `WindowActivate`( `_activatedWindow_`, )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_. `WindowActivate`( `_activatedWindow_`, )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

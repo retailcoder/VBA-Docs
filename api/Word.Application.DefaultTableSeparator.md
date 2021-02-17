@@ -21,12 +21,12 @@ Returns or sets the single character used to separate text into cells when text 
 
 _expression_. `DefaultTableSeparator`
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Remarks
 
-The value of the  **DefaultTableSeparator** property is used if the Separator argument is omitted from the **ConvertToTable** method or the **[Range](Word.Range.md)** or **[Selection](Word.Selection.md)** object.
+The value of the **DefaultTableSeparator** property is used if the Separator argument is omitted from the **ConvertToTable** method or the **[Range](Word.Range.md)** or **[Selection](Word.Selection.md)** object.
 
 
 ## Example

@@ -21,7 +21,7 @@ Shows or hides the critical tasks style on the active Gantt chart.
 
 _expression_. `GanttBarStyleCritical`( `_Show_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `GanttBarStyleCritical`( `_Show_` )
 
 ## Remarks
 
-On the Ribbon, the  **GanttBarStyleCritical** method corresponds to the **Critical Tasks** check box in the **Bar Styles** group on the **Format** tab for **Gantt Chart Tools**.
+On the Ribbon, the **GanttBarStyleCritical** method corresponds to the **Critical Tasks** check box in the **Bar Styles** group on the **Format** tab for **Gantt Chart Tools**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

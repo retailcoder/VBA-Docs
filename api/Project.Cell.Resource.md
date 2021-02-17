@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Cell.Resource property (Project)
 
-Gets a  **[Resource](Project.Resource.md)** object representing the resource in the active cell. Read-only **Resource**.
+Gets a **[Resource](Project.Resource.md)** object representing the resource in the active cell. Read-only **Resource**.
 
 
 ## Syntax
 
 _expression_. `Resource`
 
- _expression_ A variable that represents a [Cell](./Project.Cell.md) object.
+_expression_ A variable that represents a [Cell](./Project.Cell.md) object.
 
 
 ## Example

@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Project.TaskFilters property (Project)
 
-Gets a  **[Filters](Project.Filter.md)** collection of the task filters in the project. Read-only **Filters**.
+Gets a **[Filters](Project.Filter.md)** collection of the task filters in the project. Read-only **Filters**.
 
 
 ## Syntax
 
 _expression_. `TaskFilters`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

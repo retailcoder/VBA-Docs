@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Project.ResourceGroups property (Project)
 
-Gets a  **[ResourceGroups](Project.resourcegroups(object).md)** collection that contains all the resource-based group definitions in the project. Read-only **ResourceGroups**.
+Gets a **[ResourceGroups](Project.resourcegroups(object).md)** collection that contains all the resource-based group definitions in the project. Read-only **ResourceGroups**.
 
 
 ## Syntax
 
 _expression_. `ResourceGroups`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Remarks

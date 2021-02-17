@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Series.DataLabels method (PowerPoint)
 
-Returns an object that represents either a single data label (a  **[DataLabel](PowerPoint.DataLabel.md)** object) or a collection of all the data labels for the series (a **[DataLabels](PowerPoint.DataLabels.md)** collection).
+Returns an object that represents either a single data label (a **[DataLabel](PowerPoint.DataLabel.md)** object) or a collection of all the data labels for the series (a **[DataLabels](PowerPoint.DataLabels.md)** collection).
 
 
 ## Syntax
 
-_expression_. `DataLabels` (_Index_)
+_expression_.**DataLabels** (_Index_)
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_. `DataLabels` (_Index_)
 
 ## Return value
 
-An object that represents either a single data label (a  **DataLabel** object) or a collection of all the data labels for the series (a **DataLabels** collection).
+An object that represents either a single data label (a **DataLabel** object) or a collection of all the data labels for the series (a **DataLabels** collection).
 
 
 ## Remarks
@@ -49,7 +49,8 @@ If the series is on an area chart and has the  **Show Label** option turned on f
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the data labels for series one for the first chart in the active document to show their key, assuming that their values are visible when the example runs.
 

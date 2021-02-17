@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # CalloutFormat.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **CalloutFormat** object.
+Returns an **Object** that represents the parent object of the specified **CalloutFormat** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents an '[CalloutFormat](Word.CalloutFormat.md)' object.
+_expression_ A variable that represents an '[CalloutFormat](Word.CalloutFormat.md)' object.
 
 
 ## See also

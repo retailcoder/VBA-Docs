@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Range.PrintOut
 ms.assetid: 42d36dbb-5910-530f-5aea-3793a36dc82b
-ms.date: 06/08/2017
+ms.date: 05/11/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Prints the object.
 
 ## Syntax
 
-_expression_. `PrintOut`( `_From_` , `_To_` , `_Copies_` , `_Preview_` , `_ActivePrinter_` , `_PrintToFile_` , `_Collate_` , `_PrToFileName_` )
+_expression_.**PrintOut** (_From_, _To_, _Copies_, _Preview_, _ActivePrinter_, _PrintToFile_, _Collate_, _PrToFileName_)
 
 _expression_ A variable that represents a **[Range](excel.range(object).md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -37,7 +35,7 @@ _expression_ A variable that represents a **[Range](excel.range(object).md)** ob
 | _ActivePrinter_|Optional| **Variant**|Sets the name of the active printer.|
 | _PrintToFile_|Optional| **Variant**| **True** to print to a file. If _PrToFileName_ is not specified, Microsoft Excel prompts the user to enter the name of the output file.|
 | _Collate_|Optional| **Variant**| **True** to collate multiple copies.|
-| _PrToFileName_|Optional| **Variant**|If  _PrintToFile_ is set to **True**, this argument specifies the name of the file you want to print to.|
+| _PrToFileName_|Optional| **Variant**|If _PrintToFile_ is set to **True**, this argument specifies the name of the file that you want to print to.|
 
 ## Return value
 
@@ -46,22 +44,18 @@ Variant
 
 ## Remarks
 
-"Pages" in the descriptions of  _From_ and _To_ refers to printed pages ? not overall pages in the sheet or workbook.
+"Pages" in the descriptions of _From_ and _To_ refers to printed pages, and not to overall pages in the sheet or workbook.
 
 
 ## Example
 
 This example prints the active sheet.
 
-
 ```vb
 ActiveSheet.PrintOut
 ```
 
 
-## See also
 
-
-[Range Object](Excel.Range(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

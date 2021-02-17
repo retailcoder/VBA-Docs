@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # SlideShowView.Slide property (PowerPoint)
 
-Returns a  **[Slide](PowerPoint.Slide.md)** object that represents the slide that's currently displayed in the specified slide show window view. Read-only.
+Returns a **[Slide](PowerPoint.Slide.md)** object that represents the slide that's currently displayed in the specified slide show window view. Read-only.
 
 
 ## Syntax
 
 _expression_. `Slide`
 
- _expression_ A variable that represents a [SlideShowView](./PowerPoint.SlideShowView.md) object.
+_expression_ A variable that represents a [SlideShowView](PowerPoint.SlideShowView.md) object.
 
 
 ## Return value

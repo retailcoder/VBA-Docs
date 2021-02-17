@@ -19,14 +19,14 @@ If the specified node is a vertex, this property returns a value that indicates 
 
 ## Syntax
 
-_expression_. `EditingType`
+_expression_.**EditingType**
 
-_expression_ Required. A variable that represents a '[ShapeNode](Word.ShapeNode.md)' object.
+_expression_ Required. A variable that represents a **[ShapeNode](Word.ShapeNode.md)** object.
 
 
 ## Remarks
 
-If the node is a control point for a curved segment, this property returns the editing type of the adjacent vertex. This property is read-only. Use the  **SetEditingType** method to set the value of this property.
+If the node is a control point for a curved segment, this property returns the editing type of the adjacent vertex. This property is read-only. Use the **SetEditingType** method to set the value of this property.
 
 
 ## Example

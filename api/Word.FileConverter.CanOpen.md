@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `CanOpen`
 
- _expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
+_expression_ A variable that represents a '[FileConverter](Word.FileConverter.md)' object.
 
 
 ## Remarks
 
-The  **[CanSave](Word.FileConverter.CanSave.md)** property returns **True** if the specified file converter can be used to save (export) files.
+The **[CanSave](Word.FileConverter.CanSave.md)** property returns **True** if the specified file converter can be used to save (export) files.
 
 
 ## Example

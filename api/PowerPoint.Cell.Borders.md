@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Cell.Borders property (PowerPoint)
 
-Returns a  **[Borders](PowerPoint.Borders.md)** collection that represents the borders and diagonal lines for the specified **Cell** object or **CellRange** collection. Read-only.
+Returns a **[Borders](PowerPoint.Borders.md)** collection that represents the borders and diagonal lines for the specified **Cell** object or **CellRange** collection. Read-only.
 
 
 ## Syntax
 
 _expression_.**Borders**
 
-_expression_ A variable that represents a [Cell](./PowerPoint.Cell.md) object.
+_expression_ A variable that represents a [Cell](PowerPoint.Cell.md) object.
 
 
 ## Return value

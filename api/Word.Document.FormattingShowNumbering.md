@@ -21,12 +21,12 @@ localization_priority: Normal
 
 _expression_. `FormattingShowNumbering`
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Example
 
-This example enables displaying number formatting in the  **Styles and Formatting** task pane.
+This example enables displaying number formatting in the **Styles and Formatting** task pane.
 
 
 ```vb

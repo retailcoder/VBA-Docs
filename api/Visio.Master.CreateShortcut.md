@@ -21,7 +21,7 @@ Creates a shortcut for a master.
 
 _expression_. `CreateShortcut`
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Return value
@@ -36,7 +36,8 @@ The new master shortcut is created in the same document as the target master and
 
 
 
- **Note**  Starting with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable. 
+> [!NOTE] 
+> Starting with Microsoft Office Visio 2003, only user-created stencils are editable. By default, Visio stencils are not editable. 
 
 The new shortcut's name is "Shortcut to X", where "X" is the name of the target master. The shortcut's  **TargetDocumentName** and **TargetMasterName** properties identify the target master. So once a shortcut has been created, it can be moved or copied into other documents.
 

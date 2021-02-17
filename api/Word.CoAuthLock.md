@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # CoAuthLock object (Word)
 
-Represents a lock within the document. The  **CoAuthLock** object is a member of the **[CoAuthLocks](Word.CoAuthLocks.md)** collection.
+Represents a lock within the document. The **CoAuthLock** object is a member of the **[CoAuthLocks](Word.CoAuthLocks.md)** collection.
 
 
 ## Remarks
 
-Use  **Locks** (index), where index is the index number, to return a **CoAuthLock** object. When adding a **CoAuthLock** object, use the **[WdLockType](Word.WdLockType.md)** enumeration to specify the type of lock.
+Use  **Locks** (_index_), where _index_ is the index number, to return a **CoAuthLock** object. When adding a **CoAuthLock** object, use the **[WdLockType](Word.WdLockType.md)** enumeration to specify the type of lock.
 
 
 ## Example

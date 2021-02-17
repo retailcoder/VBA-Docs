@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Folder.Description property (Outlook)
 
-Returns or sets a  **String** representing the description of the folder. Read/write.
+Returns or sets a **String** representing the description of the folder. Read/write.
 
 
 ## Syntax
 
-_expression_. `Description`
+_expression_.**Description**
 
 _expression_ A variable that represents a [Folder](Outlook.Folder.md) object.
 

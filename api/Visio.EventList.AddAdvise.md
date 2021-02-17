@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # EventList.AddAdvise method (Visio)
 
-Adds an  **Event** object to the **EventList** collection of the source object whose events you want to receive. When selected events occur, the source object notifies your sink object.
+Adds an **Event** object to the **EventList** collection of the source object whose events you want to receive. When selected events occur, the source object notifies your sink object.
 
 
 ## Syntax
 
 _expression_. `AddAdvise`( `_EventCode_` , `_SinkIUnkOrIDisp_` , `_IIDSink_` , `_TargetArgs_` )
 
- _expression_ A variable that represents an [EventList](./Visio.EventList.md) object.
+_expression_ A variable that represents an **[EventList](Visio.EventList.md)** object.
 
 
 ## Parameters
@@ -48,7 +48,7 @@ The source object whose  **EventList** collection contains the **Event** object 
 
 Creating  **Event** objects is a common way to handle events from C++ or other non-Microsoft Visual Basic solutions. When you use the Visual Basic **WithEvents** keyword to handle events, all the events in a source object's event set fire. When you create **Event** objects to handle events, however, your program will only be notified of the events you select. Depending on your solution, this may result in improved performance.
 
-The  _EventCode_ argument is often a combination of constants. For example, **visEvtMod** + **visEvtCell** is the event code for the **CellChanged** event. Event constants are declared by the Visio type library and are prefixed with **visEvt**. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md). 
+The  _EventCode_ argument is often a combination of constants. For example, **visEvtMod** + **visEvtCell** is the event code for the **CellChanged** event. Event constants are declared by the Visio type library and are prefixed with **visEvt**. To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md). 
 
 The arguments passed to the  **AddAdvise** method set the initial values of the **Event** object's **Event**, **Action** (**visCodeRunAddAdvise**), and **TargetArgs** properties.
 
@@ -60,7 +60,7 @@ The source object whose  **EventList** collection contains the **Event** object 
 
 Creating  **Event** objects is a common way to handle events from C++ or other non-Microsoft Visual Basic solutions. When you use the Visual Basic **WithEvents** keyword to handle events, all the events in a source object's event set fire. When you create **Event** objects to handle events, however, your program will only be notified of the events you select. Depending on your solution, this may result in improved performance.
 
-The  _EventCode_ argument is often a combination of constants. For example, **visEvtMod** + **visEvtCell** is the event code for the **CellChanged** event. Event constants are declared by the Visio type library and are prefixed with **visEvt**. To find an event code for the event you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md). 
+The  _EventCode_ argument is often a combination of constants. For example, **visEvtMod** + **visEvtCell** is the event code for the **CellChanged** event. Event constants are declared by the Visio type library and are prefixed with **visEvt**. To find an event code for the event that you want to create, see [Event codes](../visio/Concepts/event-codesvisio.md). 
 
 The arguments passed to the  **AddAdvise** method set the initial values of the **Event** object's **Event**, **Action** (**visCodeRunAddAdvise**), and **TargetArgs** properties.
 
@@ -105,7 +105,7 @@ pSourceObj .EventList.ItemFromID(nEventID )
 |
 | nEventSeqNum| The ordinal position of the event with respect to the sequence of events that have occurred in the calling instance of the application. The first event that occurs in a Visio instance has a sequence number of 1, the second event 2, and so forth. In some cases, you can use the sequence number in conjunction with the **EventInfo** property to obtain more information about the event.|
 | pSubjectObj| The object that the event is about. For example, the subject of a **ShapeAdded** event is a **Shape** object representing the shape that was just added, while the subject of a **BeforeSelectionDelete** event is a **Selection** object in which the shapes that are about to be deleted are selected.|
-| vMoreInfo| Additional information about the subject of the event. For many events, it is a string similar to the command line the application passes the add-ons it executes. If the notification does not include additional information, this parameter is set to **Nothing**. For details about notification parameters for a particular event, see the particular event topic in this Automation Reference.|
+| vMoreInfo| Additional information about the subject of the event. For many events, it is a string similar to the command line the application passes the add-ons it executes. If the notification does not include additional information, this parameter is set to **Nothing**. For details about notification parameters for a particular event, see the particular event topic in this reference.|
 
 If nEventCode identifies a query event (events prefixed with  **Query**), return **True** to cancel the event, and **False** to allow it to happen. The value is arbitrary for other events. If no explicit value is returned, Microsoft Visual Basic for Applications (VBA) returns an empty **Variant**, which Visio interprets as **False**.
 

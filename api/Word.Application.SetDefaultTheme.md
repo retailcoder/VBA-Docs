@@ -14,7 +14,7 @@ localization_priority: Normal
 
 # Application.SetDefaultTheme method (Word)
 
-Sets a default theme for Word to use with new documents, email messages, or web pages.
+Sets a default theme for Word to use with new documents, email messages, or webpages.
 
 ## Syntax
 
@@ -36,7 +36,7 @@ _expression_ Required. A variable that represents an **[Application](Word.Applic
 
 |**String**|**Description**|
 |:-----|:-----|
-|theme|The name of the folder that contains the data for the requested theme. (The default location for theme data folders is C:\Program Files\Common Files\Microsoft Shared\Themes.) You must use the folder name for the theme rather than the display name that appears in the  **Theme** dialog box (**Theme** command, **Format** menu).|
+|theme|The name of the folder that contains the data for the requested theme. (The default location for theme data folders is C:\Program Files\Common Files\Microsoft Shared\Themes.) You must use the folder name for the theme rather than the display name that appears in the **Theme** dialog box (**Theme** command, **Format** menu).|
 |nnn|A three-digit string that indicates which theme formatting options to activate (1 to activate, 0 to deactivate). The digits correspond to the **Vivid Colors**, **Active Graphics**, and **Background Image** check boxes in the **Theme** dialog box (**Theme** command, **Format** menu). If this string is omitted, the default value for _nnn_ is "011" (Active Graphics and Background Image are activated).|
 
 <br/>
@@ -56,7 +56,7 @@ This example specifies that Word use the Blueprint theme for all new email messa
 Application.SetDefaultTheme "blueprnt", wdEmailMessage
 ```
 
-This example specifies that Word use the Expedition theme with Active Graphics for all new web pages.
+This example specifies that Word use the Expedition theme with Active Graphics for all new webpages.
 
 ```vb
 Application.SetDefaultTheme "expeditn 010", wdWebPage

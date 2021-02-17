@@ -21,7 +21,7 @@ Returns or set the bottom bevel type. Read/write.
 
 _expression_. `BevelBottomType`
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ MsoBevelType
 
 ## Remarks
 
-The  **BevelBottomType** property value can be one of the **[MsoBevelType](Office.MsoBevelType.md)** constants.
+The **BevelBottomType** property value can be one of the **[MsoBevelType](Office.MsoBevelType.md)** constants.
 
 
 ## See also

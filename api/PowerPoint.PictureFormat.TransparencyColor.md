@@ -19,9 +19,9 @@ Returns or sets the transparent color for the specified picture as a red-green-b
 
 ## Syntax
 
-_expression_. `TransparencyColor`
+_expression_.**TransparencyColor**
 
- _expression_ A variable that represents a [PictureFormat](./PowerPoint.PictureFormat.md) object.
+_expression_ A variable that represents a [PictureFormat](PowerPoint.PictureFormat.md) object.
 
 
 ## Return value
@@ -40,7 +40,7 @@ If you want to be able to see through the transparent parts of the picture all t
 
 ## Example
 
-This example sets the color that has the RGB value returned by the function RGB(0, 0, 255) as the transparent color for shape one on  _myDocument_. For the example to work, shape one must be a bitmap.
+This example sets the color that has the RGB value returned by the function RGB(0, 0, 255) as the transparent color for shape one on _myDocument_. For the example to work, shape one must be a bitmap.
 
 
 ```vb

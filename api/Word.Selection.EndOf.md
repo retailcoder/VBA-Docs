@@ -21,7 +21,7 @@ Moves or extends the ending character position of a range or selection to the en
 
 _expression_. `EndOf`( `_Unit_` , `_Extend_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Unit_|Optional| **Variant**|The unit by which to move the ending character position.  **WdUnits**.|
-| _Extend_|Optional| **Variant**|Can be either of the  **WdMovementType** constants. If **wdMove**, both ends of the range or selection object are moved to the end of the specified unit. If **wdExtend** is used, the end of the range or selection is extended to the end of the specified unit. The default value is **wdMove**.|
+| _Extend_|Optional| **Variant**|Can be either of the **WdMovementType** constants. If **wdMove**, both ends of the range or selection object are moved to the end of the specified unit. If **wdExtend** is used, the end of the range or selection is extended to the end of the specified unit. The default value is **wdMove**.|
 
 ## Remarks
 

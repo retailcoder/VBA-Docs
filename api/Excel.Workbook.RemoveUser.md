@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Workbook.RemoveUser
 ms.assetid: f0a978a0-7bcf-3af4-a01a-831c6c854989
-ms.date: 06/08/2017
+ms.date: 05/29/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,12 @@ Disconnects the specified user from the shared workbook.
 
 ## Syntax
 
-_expression_. `RemoveUser` (_Index_)
+_expression_.**RemoveUser** (_Index_)
 
 _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
@@ -36,15 +34,10 @@ _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** obje
 
 This example disconnects user two from the shared workbook.
 
-
 ```vb
 Workbooks(2).RemoveUser 2
 ```
 
 
-## See also
-
-
-[Workbook Object](Excel.Workbook.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

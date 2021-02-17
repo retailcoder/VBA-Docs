@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ActiveWindow property (PowerPoint)
 
-Returns a  **[DocumentWindow](PowerPoint.DocumentWindow.md)** object that represents the active document window. Read-only.
+Returns a **[DocumentWindow](PowerPoint.DocumentWindow.md)** object that represents the active document window. Read-only.
 
 
 ## Syntax
 
-_expression_. `ActiveWindow`
+_expression_.**ActiveWindow**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

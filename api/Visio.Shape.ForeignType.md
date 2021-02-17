@@ -21,7 +21,7 @@ Returns the subtype of a  **Shape** object that represents a foreign object. Rea
 
 _expression_. `ForeignType`
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value
@@ -35,7 +35,7 @@ If the  **Type** property of a **Shape** object returns any value other than **v
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visTypeMetafile**|&H0010|
 | **visTypeBitmap**|&H0020|

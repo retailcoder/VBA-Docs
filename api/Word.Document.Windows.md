@@ -19,19 +19,19 @@ Returns a  **[Windows](Word.windows.md)** collection that represents all windows
 
 ## Syntax
 
-_expression_. `Windows`
+_expression_.**Windows**
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
-This example displays the number of windows for the active document, both before and after the  **NewWindow** method is run.
+This example displays the number of windows for the active document, both before and after the **NewWindow** method is run.
 
 
 ```vb

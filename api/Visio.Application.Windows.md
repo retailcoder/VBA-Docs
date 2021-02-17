@@ -19,9 +19,9 @@ Returns the  **Windows** collection for a Microsoft Visio instance or window. Re
 
 ## Syntax
 
-_expression_. `Windows`
+_expression_.**Windows**
 
- _expression_ A variable that represents an [Application](./Visio.Application.md) object.
+_expression_ A variable that represents an **[Application](Visio.Application.md)** object.
 
 
 ## Return value

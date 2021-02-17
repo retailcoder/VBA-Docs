@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.Paragraphs method (PowerPoint)
 
-Returns a  **TextRange** object that represents the specified subset of text paragraphs.
+Returns a **TextRange** object that represents the specified subset of text paragraphs.
 
 
 ## Syntax
 
 _expression_. `Paragraphs`( `_Start_`, `_Length_` )
 
- _expression_ An expression that returns a [TextRange](./PowerPoint.TextRange.md) object.
+ _expression_ An expression that returns a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

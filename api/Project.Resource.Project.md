@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.Project property (Project)
 
-Gets the name of the project containing the  **Resource**. Read-only **String**.
+Gets the name of the project containing the **Resource**. Read-only **String**.
 
 
 ## Syntax
 
 _expression_. `Project`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

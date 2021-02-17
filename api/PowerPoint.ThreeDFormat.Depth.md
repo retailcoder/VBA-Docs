@@ -19,9 +19,9 @@ Returns or sets the depth of the shape's extrusion. Read/write.
 
 ## Syntax
 
-_expression_. `Depth`
+_expression_.**Depth**
 
- _expression_ A variable that represents a [ThreeDFormat](./PowerPoint.ThreeDFormat.md) object.
+_expression_ A variable that represents a [ThreeDFormat](PowerPoint.ThreeDFormat.md) object.
 
 
 ## Return value
@@ -31,12 +31,12 @@ Single
 
 ## Remarks
 
-The  **Depth** property value can be from - 600 through 9600 (positive values produce an extrusion whose front face is the original shape; negative values produce an extrusion whose back face is the original shape).
+The **Depth** property value can be from - 600 through 9600 (positive values produce an extrusion whose front face is the original shape; negative values produce an extrusion whose back face is the original shape).
 
 
 ## Example
 
-This example adds an oval to  _myDocument_, and then specifies that the oval be extruded to a depth of 50 points and that the extrusion be purple.
+This example adds an oval to _myDocument_, and then specifies that the oval be extruded to a depth of 50 points and that the extrusion be purple.
 
 
 ```vb

@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Category.ShortcutKey property (Outlook)
 
-Returns or sets an  **[OlCategoryShortcutKey](Outlook.OlCategoryShortcutKey.md)** constant that specifies the shortcut key used by the **[Category](Outlook.Category.md)** object. Read/write.
+Returns or sets an **[OlCategoryShortcutKey](Outlook.OlCategoryShortcutKey.md)** constant that specifies the shortcut key used by the **[Category](Outlook.Category.md)** object. Read/write.
 
 
 ## Syntax
 
-_expression_. `ShortcutKey`
+_expression_.**ShortcutKey**
 
 _expression_ A variable that represents a [Category](Outlook.Category.md) object.
 

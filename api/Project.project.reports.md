@@ -14,12 +14,12 @@ Gets the collection of custom reports in the project. Read-only  **Reports**.
 
 _expression_. `Reports`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example
 
-The  **Reports** object is the collection of custom reports in a project. It does not include the built-in reports, such as **Project Overview**,  **Critical Tasks**, or  **Milestone Report**. Use the  **Project.Reports** property to get the **Reports** collection object, as in the following example:
+The **Reports** object is the collection of custom reports in a project. It does not include the built-in reports, such as **Project Overview**,  **Critical Tasks**, or  **Milestone Report**. Use the **Project.Reports** property to get the **Reports** collection object, as in the following example:
 
 
 ```vb

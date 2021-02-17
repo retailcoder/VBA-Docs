@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextFrame.TextRange property (PowerPoint)
 
-Returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents the text in the specified text frame. Read-only.
+Returns a **[TextRange](PowerPoint.TextRange.md)** object that represents the text in the specified text frame. Read-only.
 
 
 ## Syntax
 
-_expression_. `TextRange`
+_expression_.**TextRange**
 
- _expression_ A variable that represents a [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents a **[TextFrame](PowerPoint.TextFrame.md)** object.
 
 
 ## Return value

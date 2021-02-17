@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.WindowMoreWindows method (Project)
 
-Displays the  **Activate** dialog box, which prompts the user to activate a window.
+Displays the **Activate** dialog box, which prompts the user to activate a window.
 
 
 ## Syntax
 
 _expression_. `WindowMoreWindows`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

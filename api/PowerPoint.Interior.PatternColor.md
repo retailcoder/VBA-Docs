@@ -19,9 +19,9 @@ Returns or sets the color of the interior pattern as an RGB value. Read/write  *
 
 ## Syntax
 
-_expression_. `PatternColor`
+_expression_.**PatternColor**
 
- _expression_ A variable that represents an '[Interior](PowerPoint.Interior.md)' object.
+_expression_ A variable that represents an '[Interior](PowerPoint.Interior.md)' object.
 
 
 ## Example
@@ -29,7 +29,8 @@ _expression_. `PatternColor`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example enables up and down bars, then adds a criss-cross pattern to the down bars and sets the pattern color to blue, for the first chart group of the first chart in the active document.
 

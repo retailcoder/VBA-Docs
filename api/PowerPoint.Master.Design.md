@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Master.Design property (PowerPoint)
 
-Returns a  **Design** object representing a design.
+Returns a **Design** object representing a design.
 
 
 ## Syntax
 
 _expression_. `Design`
 
- _expression_ A variable that represents a [Master](./PowerPoint.Master.md) object.
+_expression_ A variable that represents a [Master](PowerPoint.Master.md) object.
 
 
 ## Return value

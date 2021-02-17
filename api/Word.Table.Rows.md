@@ -19,20 +19,19 @@ Returns a  **Rows** collection that represents all the table rows within a table
 
 ## Syntax
 
-_expression_. `Rows`
+_expression_.**Rows**
 
- _expression_ A variable that represents a '[Table](Word.Table.md)' object.
+_expression_ A variable that represents a '[Table](Word.Table.md)' object.
 
 
 ## Remarks
 
-For information about returning a single member of a collection, see [Returning an Object from a Collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
+For information about returning a single member of a collection, see [Returning an object from a collection](../word/Concepts/Miscellaneous/returning-an-object-from-a-collection-word.md).
 
 
 ## Example
 
 This example deletes the second row from the first table in the active document.
-
 
 ```vb
 ActiveDocument.Tables(1).Rows(2).Delete

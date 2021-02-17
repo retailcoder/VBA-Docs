@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.Object property (Visio)
 
-Returns an  **IDispatch** interface on the ActiveX control or embedded or linked OLE 2.0 object represented by a **Shape** object or an **OLEObject** object. Read-only.
+Returns an **IDispatch** interface on the ActiveX control or embedded or linked OLE 2.0 object represented by a **Shape** object or an **OLEObject** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**Object**
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Return value

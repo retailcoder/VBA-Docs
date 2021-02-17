@@ -21,7 +21,7 @@ Returns a  **Range** object that refers to the start position of the next item o
 
 _expression_. `GoToNext`( `_What_` )
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Parameters
@@ -37,7 +37,8 @@ _expression_ Required. A variable that represents a '[Selection](Word.Selection.
 
 
 
- **Note**  When you use this method with the  **wdGoToGrammaticalError**, **wdGoToProofreadingError**, or **wdGoToSpellingError** constant, the **Range** object that's returned includes any grammar error text or spelling error text.
+> [!NOTE] 
+> When you use this method with the **wdGoToGrammaticalError**, **wdGoToProofreadingError**, or **wdGoToSpellingError** constant, the **Range** object that's returned includes any grammar error text or spelling error text.
 
 
 ## See also

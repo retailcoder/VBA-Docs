@@ -21,7 +21,7 @@ Represents a chart axis title.
 
 Use the  **[AxisTitle](PowerPoint.Axis.AxisTitle.md)** property to return an **AxisTitle** object.
 
-The  **AxisTitle** object does not exist and cannot be used unless the **[HasTitle](PowerPoint.Axis.HasTitle.md)** property for the axis is **True**.
+The **AxisTitle** object does not exist and cannot be used unless the **[HasTitle](PowerPoint.Axis.HasTitle.md)** property for the axis is **True**.
 
 
 ## Example
@@ -29,7 +29,8 @@ The  **AxisTitle** object does not exist and cannot be used unless the **[HasTit
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the caption, sets the font to Bookman 10 point, and formats the word "millions" as italic for the axis title of the value axis for the first chart in the active document.
 

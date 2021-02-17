@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # GroupCriteria.Count property (Project)
 
-Gets the number of items in the  **GroupCriteria** collection. Read-only **Long**.
+Gets the number of items in the **GroupCriteria** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'GroupCriteria' object.
+_expression_ A variable that represents a 'GroupCriteria' object.
 
 
 ## Example

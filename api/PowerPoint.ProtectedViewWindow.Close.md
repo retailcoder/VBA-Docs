@@ -19,9 +19,9 @@ Closes the specified window.
 
 ## Syntax
 
-_expression_. `Close`
+_expression_.**Close**
 
- _expression_ A variable that represents a [ProtectedViewWindow](./PowerPoint.ProtectedViewWindow.md) object.
+_expression_ A variable that represents a [ProtectedViewWindow](PowerPoint.ProtectedViewWindow.md) object.
 
 
 ## See also

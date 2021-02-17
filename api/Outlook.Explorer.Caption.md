@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Caption property (Outlook)
 
-Returns a  **String** representing the title. Read-only.
+Returns a **String** representing the title. Read-only.
 
 
 ## Syntax
 
 _expression_.**Caption**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## See also

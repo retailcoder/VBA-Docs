@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Shape.AnimationSettings property (PowerPoint)
 
-Returns an  **[AnimationSettings](PowerPoint.AnimationSettings.md)** object that represents all the special effects you can apply to the animation of the specified shape. Read-only.
+Returns an **[AnimationSettings](PowerPoint.AnimationSettings.md)** object that represents all the special effects you can apply to the animation of the specified shape. Read-only.
 
 
 ## Syntax
 
 _expression_. `AnimationSettings`
 
- _expression_ A variable that represents a [Shape](./PowerPoint.Shape.md) object.
+_expression_ A variable that represents a **[Shape](PowerPoint.Shape.md)** object.
 
 
 ## Return value

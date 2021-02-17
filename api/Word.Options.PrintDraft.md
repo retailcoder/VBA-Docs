@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `PrintDraft`
 
- _expression_ An expression that returns an '[Options](Word.Options.md)' object.
+ _expression_ An expression that returns an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
@@ -39,7 +39,7 @@ Options.PrintDraft = True
 ActiveDocument.PrintOut
 ```
 
-This example returns the current status of the  **Draft output** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
+This example returns the current status of the **Draft output** option on the **Print** tab in the **Options** dialog box (**Tools** menu).
 
 
 

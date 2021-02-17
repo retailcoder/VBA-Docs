@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.HandoutMaster property (PowerPoint)
 
-Returns a  **[Master](PowerPoint.Master.md)** object that represents the handout master. Read-only.
+Returns a **[Master](PowerPoint.Master.md)** object that represents the handout master. Read-only.
 
 
 ## Syntax
 
 _expression_. `HandoutMaster`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

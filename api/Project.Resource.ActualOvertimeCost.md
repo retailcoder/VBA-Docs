@@ -18,11 +18,11 @@ Gets the actual overtime cost for a resource. Read-only  **Variant**.
 
 _expression_. `ActualOvertimeCost`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Remarks
 
-The  **ActualOvertimeCost** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
+The **ActualOvertimeCost** property does not return any meaningful information for material resources. Setting a value returns a trappable error (error code 1101) when applied to material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

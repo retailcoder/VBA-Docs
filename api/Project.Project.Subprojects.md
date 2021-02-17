@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Project.Subprojects property (Project)
 
-Gets a  **[Subprojects](Project.Subproject.md)** collection representing subprojects in the master project. Read-only **Subprojects**.
+Gets a **[Subprojects](Project.Subproject.md)** collection representing subprojects in the master project. Read-only **Subprojects**.
 
 
 ## Syntax
 
 _expression_. `Subprojects`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

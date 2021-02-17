@@ -16,7 +16,7 @@ Returns a single  **[Axis](PowerPoint.Axis.md)** object from an **Axes** collect
 
 ## Syntax
 
-_expression_. `Item`( `_Type_`, `_AxisGroup_` )
+_expression_.**Item** (_Type_, _AxisGroup_)
 
 _expression_ A variable that represents an '[Axes](PowerPoint.Axes.md)' object.
 
@@ -35,7 +35,8 @@ _expression_ A variable that represents an '[Axes](PowerPoint.Axes.md)' object.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the title text for the category axis for the first chart in the active document.
 

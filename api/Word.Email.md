@@ -19,7 +19,7 @@ Represents an email message.
 
 ## Remarks
 
-Use the  **[Email](Word.Document.Email.md)** property to return the **Email** object. The **Email** object and its properties are valid only if the active document is an unsent forward, reply, or new email message.
+Use the **[Email](Word.Document.Email.md)** property to return the **Email** object. The **Email** object and its properties are valid only if the active document is an unsent forward, reply, or new email message.
 
 This example displays the name of the style associated with the current email author.
 
@@ -31,10 +31,11 @@ MsgBox ActiveDocument.Email _
  .CurrentEmailAuthor.Style.NameLocal
 ```
 
-The author style name is the same as the value returned by the  **[UserName](Word.Application.UserName.md)** property.
+The author style name is the same as the value returned by the **[UserName](Word.Application.UserName.md)** property.
 
 
- **Note**   There is no Emails collection; each **Document** object contains only one **Email** object.
+> [!NOTE] 
+>  There is no Emails collection; each **Document** object contains only one **Email** object.
 
 
 ## See also

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Border object (Word)
 
-Represents a border of an object. The  **Border** object is a member of the **[Borders](Word.borders.md)** collection.
+Represents a border of an object. The **Border** object is a member of the **[Borders](Word.borders.md)** collection.
 
 
 ## Remarks
 
 Use  **Borders** (index), where index identifies the border, to return a single **Border** object. Index can be one of the **[WdBorderType](Word.WdBorderType.md)** constants. Some of the **WdBorderType** constants may not be available to you, depending on the language support (U.S. English, for example) that you have selected or installed.
 
-Use the  **[LineStyle](Word.Border.LineStyle.md)** property to apply a border line to a **Border** object. The following example applies a double-line border below the first paragraph in the active document.
+Use the **[LineStyle](Word.Border.LineStyle.md)** property to apply a border line to a **Border** object. The following example applies a double-line border below the first paragraph in the active document.
 
 
 
@@ -59,30 +59,26 @@ For Each aBorder In ActiveDocument.Sections(1).Borders
 Next aBorder
 ```
 
- **Border** objects cannot be added to the **[Borders](Word.borders.md)** collection. The number of members in the **[Borders](Word.borders.md)** collection is finite and varies depending on the type of object. For example, a table has six elements in the **[Borders](Word.borders.md)** collection, whereas a paragraph has four.
+**Border** objects cannot be added to the **Borders** collection. The number of members in the **Borders** collection is finite and varies depending on the type of object. For example, a table has six elements in the **Borders** collection, whereas a paragraph has four.
 
 
 ## Properties
 
+- [Application](Word.Border.Application.md)
+- [ArtStyle](Word.Border.ArtStyle.md)
+- [ArtWidth](Word.Border.ArtWidth.md)
+- [Color](Word.Border.Color.md)
+- [ColorIndex](Word.Border.ColorIndex.md)
+- [Creator](Word.Border.Creator.md)
+- [Inside](Word.Border.Inside.md)
+- [LineStyle](Word.Border.LineStyle.md)
+- [LineWidth](Word.Border.LineWidth.md)
+- [Parent](Word.Border.Parent.md)
+- [Visible](Word.Border.Visible.md)
 
-
-|Name|
-|:-----|
-|[Application](Word.Border.Application.md)|
-|[ArtStyle](Word.Border.ArtStyle.md)|
-|[ArtWidth](Word.Border.ArtWidth.md)|
-|[Color](Word.Border.Color.md)|
-|[ColorIndex](Word.Border.ColorIndex.md)|
-|[Creator](Word.Border.Creator.md)|
-|[Inside](Word.Border.Inside.md)|
-|[LineStyle](Word.Border.LineStyle.md)|
-|[LineWidth](Word.Border.LineWidth.md)|
-|[Parent](Word.Border.Parent.md)|
-|[Visible](Word.Border.Visible.md)|
 
 ## See also
 
-
-[Word Object Model Reference](overview/Word/object-model.md)
+- [Word Object Model Reference](overview/Word/object-model.md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -17,14 +17,15 @@ localization_priority: Normal
 Returns an array of all shapes on the active page linked to data in the specified data row in the specified data recordset.
 
 
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
 _expression_. `GetShapesLinkedToDataRow`( `_DataRecordsetID_` , `_DataRowID_` , `_ShapeIDs()_` )
 
- _expression_ An expression that returns a [Page](./Visio.Page.md) object.
+ _expression_ An expression that returns a **[Page](Visio.Page.md)** object.
 
 
 ## Parameters
@@ -51,7 +52,7 @@ To determine the IDs of all the data rows in a data recordset, use the  **[DataR
 
 ## Example
 
-The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **GetShapesLinkedToDataRow** method to determine the shape IDs of the shapes on the page linked to data in the data row with ID number 1 in the data recordset most recently added to the **DataRecordsets** collection of the current document. It prints the shape IDs in the **Immediate** window.
+The following Microsoft Visual Basic for Applications (VBA) macro shows how to use the  **GetShapesLinkedToDataRow** method to determine the shape IDs of the shapes on the page linked to data in the data row with ID number 1 in the data recordset most recently added to the **DataRecordsets** collection of the current document. It prints the shape IDs in the Immediate window.
 
 Before running this macro, use the  **[DataRecordsets.Add](Visio.DataRecordsets.Add.md)** method or another means to add at least one data recordset to the **DataRecordsets** collection, and make sure there is at least one shape on the active page linked to data in the data row with ID number 1 in the data recordset.
 

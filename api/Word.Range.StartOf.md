@@ -21,7 +21,7 @@ Moves or extends the start position of the specified range or selection to the b
 
 _expression_. `StartOf`( `_Unit_` , `_Extend_` )
 
-_expression_ Required. A variable that represents a '[Range](Word.Range.md)' object.
+_expression_ Required. A variable that represents a **[Range](Word.Range.md)** object.
 
 
 ## Parameters
@@ -45,7 +45,7 @@ char = Selection.StartOf(Unit:=wdLine, Extend:=wdMove)
 
 ## Example
 
-This example selects the text from the insertion point to the beginning of the line. The number of characters selected is stored in  _charmoved_ .
+This example selects the text from the insertion point to the beginning of the line. The number of characters selected is stored in  _charmoved_.
 
 
 ```vb
@@ -61,7 +61,7 @@ This example moves the selection to the beginning of the paragraph.
 Selection.StartOf Unit:=wdParagraph, Extend:=wdMove
 ```
 
-This example moves  _myRange_ to the beginning of the second sentence in the document ( _myRange_ is collapsed and positioned at the beginning of the second sentence). The example uses the **Select** method to show the location of _myRange_ .
+This example moves  _myRange_ to the beginning of the second sentence in the document ( _myRange_ is collapsed and positioned at the beginning of the second sentence). The example uses the **Select** method to show the location of _myRange_.
 
 
 

@@ -21,12 +21,12 @@ Returns a collection of legend entries for the legend.
 
 _expression_. `LegendEntries`
 
- _expression_ A variable that represents a '[Legend](Word.Legend.md)' object.
+_expression_ A variable that represents a '[Legend](Word.Legend.md)' object.
 
 
 ## Return value
 
-A  **[LegendEntries](Word.LegendEntries.md)** object that represents the legend entries for the legend.
+A **[LegendEntries](Word.LegendEntries.md)** object that represents the legend entries for the legend.
 
 
 ## Example

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Top property (PowerPoint)
 
-Returns or sets a  **Single** that represents the distance in points from the top edge of the document, application, and slide show window to the top edge of the application window's client area. Read/write.
+Returns or sets a **Single** that represents the distance in points from the top edge of the document, application, and slide show window to the top edge of the application window's client area. Read/write.
 
 
 ## Syntax
 
 _expression_.**Top**
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

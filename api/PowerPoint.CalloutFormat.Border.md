@@ -21,7 +21,7 @@ Determines whether the text in the specified callout is surrounded by a border. 
 
 _expression_.**Border**
 
-_expression_ A variable that represents a [CalloutFormat](./PowerPoint.CalloutFormat.md) object.
+_expression_ A variable that represents a [CalloutFormat](PowerPoint.CalloutFormat.md) object.
 
 
 ## Return value
@@ -42,7 +42,7 @@ The value of the  **Border** property can be one of these **MsoTriState** consta
 
 ## Example
 
-This example adds to  _myDocument_ an oval and a callout that points to the oval. The callout text does not have a border, but it does have a vertical accent bar that separates the text from the callout line.
+This example adds to _myDocument_ an oval and a callout that points to the oval. The callout text does not have a border, but it does have a vertical accent bar that separates the text from the callout line.
 
 
 ```vb

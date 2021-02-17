@@ -21,7 +21,7 @@ Shows or hides the related summary rows.
 
 _expression_. `FilterShowSummaryRows`( `_On_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,7 +39,7 @@ _expression_. `FilterShowSummaryRows`( `_On_` )
 
 ## Remarks
 
-The  **FilterShowSummaryRows** method corresponds to the following command on the ribbon: on the **View** tab, click the **Filter** drop-down list box in the **Data** section, and then click **Show Related Summary Rows**.
+The **FilterShowSummaryRows** method corresponds to the following command on the ribbon: on the **View** tab, click the **Filter** drop-down list box in the **Data** section, and then click **Show Related Summary Rows**.
 
 
 ## Example

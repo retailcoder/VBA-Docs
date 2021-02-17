@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Broadcast.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Broadcast** object.
+Returns an **Object** that represents the parent object of the specified **Broadcast** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'Broadcast' object.
+_expression_ A variable that represents a **[Broadcast](Word.broadcast.md)** object.
 
 
 ## Property value

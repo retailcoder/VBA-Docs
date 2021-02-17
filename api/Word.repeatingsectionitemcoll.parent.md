@@ -12,21 +12,19 @@ localization_priority: Normal
 
 # RepeatingSectionItemColl.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **RepeatingSectionItemColl** object.
+Returns an **Object** that represents the parent object of the specified **RepeatingSectionItemColl** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'RepeatingSectionItemColl' object.
+_expression_ A variable that represents a 'RepeatingSectionItemColl' object.
 
 
 ## Property value
 
  **OBJECT**
 
-
-## See also
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

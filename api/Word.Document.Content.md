@@ -21,7 +21,7 @@ Returns a  **[Range](Word.Range.md)** object that represents the main document s
 
 _expression_.**Content**
 
- _expression_ A variable that represents a **[Document](Word.Document.md)** object.
+_expression_ A variable that represents a **[Document](Word.Document.md)** object.
 
 
 ## Remarks
@@ -48,7 +48,7 @@ With myRange.Font
 End With
 ```
 
-This example inserts text at the end of the document named "Changes.doc." The  **For Each...Next** statement is used to determine whether the document is open.
+This example inserts text at the end of the document named "Changes.doc." The **For Each...Next** statement is used to determine whether the document is open.
 
 
 

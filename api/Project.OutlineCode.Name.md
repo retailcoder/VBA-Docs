@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # OutlineCode.Name property (Project)
 
-Gets the name of the  **OutlineCode** object. Read/write **String**.
+Gets the name of the **OutlineCode** object. Read/write **String**.
 
 
 ## Syntax
 
 _expression_.**Name**
 
- _expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
+_expression_ A variable that represents an [OutlineCode](./Project.OutlineCode.md) object.
 
 
 ## Remarks
 
-For a code example that uses the  **Task** object, see **[Name](Project.Task.Name.md)**.
+For a code example that uses the **Task** object, see **[Name](Project.Task.Name.md)**.
 
 
 ## Example

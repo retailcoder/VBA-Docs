@@ -21,7 +21,7 @@ Returns or sets the language for the specified text range. Read/write.
 
 _expression_. `LanguageID`
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ MsoLanguageID
 
 ## Remarks
 
-The  **LanguageID** property is used for tagging portions of text written in a different language than the **[DefaultLanguageID](PowerPoint.Presentation.DefaultLanguageID.md)** property specifies. This allows Microsoft PowerPoint to check spelling and grammar according to the language for each text range. This property is not related to the application interface language.
+The **LanguageID** property is used for tagging portions of text written in a different language than the **[DefaultLanguageID](PowerPoint.Presentation.DefaultLanguageID.md)** property specifies. This allows Microsoft PowerPoint to check spelling and grammar according to the language for each text range. This property is not related to the application interface language.
 
 The value of the  **LanguageID** property can be one of these **MsoLanguageID** constants.
 

@@ -21,7 +21,7 @@ Changes the rotation of the specified shape around the z-axis by the specified n
 
 _expression_. `IncrementRotation`( `_Increment_` )
 
-_expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ Required. A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Parameters
@@ -34,12 +34,12 @@ _expression_ Required. A variable that represents a '[Shape](Word.Shape.md)' obj
 
 ## Remarks
 
-Use the  **[Rotation](Word.Shape.Rotation.md)** property to set the absolute rotation of the shape. To rotate a three-dimensional shape around the x-axis or the y-axis, use the **[IncrementRotationX](Word.ThreeDFormat.IncrementRotationX.md)** or **[IncrementRotationY](Word.ThreeDFormat.IncrementRotationY.md)** method of the **[ThreeDFormat](Word.ThreeDFormat.md)** object.
+Use the **[Rotation](Word.Shape.Rotation.md)** property to set the absolute rotation of the shape. To rotate a three-dimensional shape around the x-axis or the y-axis, use the **[IncrementRotationX](Word.ThreeDFormat.IncrementRotationX.md)** or **[IncrementRotationY](Word.ThreeDFormat.IncrementRotationY.md)** method of the **[ThreeDFormat](Word.ThreeDFormat.md)** object.
 
 
 ## Example
 
-This example duplicates shape one on  _myDocument_ , sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
+This example duplicates shape one on _myDocument_ , sets the fill for the duplicate, moves it 70 points to the right and 50 points up, and rotates it 30 degrees clockwise.
 
 
 ```vb

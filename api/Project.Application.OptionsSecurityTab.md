@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.OptionsSecurityTab method (Project)
 
-Displays a specific tab of the  **Trust Center** dialog box in Project.
+Displays a specific tab of the **Trust Center** dialog box in Project.
 
 
 ## Syntax
 
 _expression_. `OptionsSecurityTab`( `_DefaultTab_` )
 
- _expression_ An expression that returns an [Application](./Project.Application.md) object.
+ _expression_ An expression that returns an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `OptionsSecurityTab`( `_DefaultTab_` )
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _DefaultTab_|Optional|**PjOptionsSecurityTab**|Specifies the tab to open in the  **Trust Center** dialog box. Can be one of the **[PjOptionsSecurityTab](Project.PjOptionsSecurityTab.md)** constants. The default is **pjOptionsSecurityTabPublishers** for the **Trusted Publishers** tab.|
+| _DefaultTab_|Optional|**PjOptionsSecurityTab**|Specifies the tab to open in the **Trust Center** dialog box. Can be one of the **[PjOptionsSecurityTab](Project.PjOptionsSecurityTab.md)** constants. The default is **pjOptionsSecurityTabPublishers** for the **Trusted Publishers** tab.|
 
 ## Return value
 

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Sequence.ConvertToAnimateBackground method (PowerPoint)
 
-Determines whether the background will be animated separately from, or in addition to, its accompanying text. Returns an  **[Effect](PowerPoint.Effect.md)** object representing the newly-modified animation effect.
+Determines whether the background will be animated separately from, or in addition to, its accompanying text. Returns an **[Effect](PowerPoint.Effect.md)** object representing the newly-modified animation effect.
 
 
 ## Syntax
 
 _expression_. `ConvertToAnimateBackground`( `_Effect_`, `_AnimateBackground_` )
 
- _expression_ A variable that represents a [Sequence](./PowerPoint.Sequence.md) object.
+_expression_ A variable that represents a [Sequence](PowerPoint.Sequence.md) object.
 
 
 ## Parameters

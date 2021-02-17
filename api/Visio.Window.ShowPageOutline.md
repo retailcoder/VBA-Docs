@@ -21,7 +21,7 @@ Determines whether the drawing page outline is displayed in the Microsoft Visio 
 
 _expression_. `ShowPageOutline`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Boolean
 
 ## Remarks
 
-The default value is  **True** (the page outline is displayed), which is also the default Visio behavior. You can use the **ShowPageOutline** property to prevent display of the page outline in any Visio drawing window, including page, master, and group windows. Attempting to set **ShowPageOutline** for other windows, including stencil windows, ShapeSheet windows, and icon windows, will throw an exception.
+The default value is **True** (the page outline is displayed), which is also the default Visio behavior. You can use the **ShowPageOutline** property to prevent display of the page outline in any Visio drawing window, including page, master, and group windows. Attempting to set **ShowPageOutline** for other windows, including stencil windows, ShapeSheet windows, and icon windows, will throw an exception.
 
 Setting  **ShowPageOutline** to **False** does not hide the page grid. To hide the grid, use the **Window.ShowGrid** property.
 

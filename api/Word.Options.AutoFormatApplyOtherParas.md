@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatApplyOtherParas`
 
- _expression_ A variable that represents an '[Options](Word.Options.md)' object.
+_expression_ A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Example
@@ -34,7 +34,7 @@ Options.AutoFormatApplyOtherParas = True
 Selection.Range.AutoFormat
 ```
 
-This example returns the status of the  **Other paragraphs** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Other paragraphs** option on the **AutoFormat** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

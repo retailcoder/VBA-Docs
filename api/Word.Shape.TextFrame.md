@@ -19,14 +19,14 @@ Returns a  **TextFrame** object that contains the text for the specified shape.
 
 ## Syntax
 
-_expression_. `TextFrame`
+_expression_.**TextFrame**
 
- _expression_ A variable that represents a '[Shape](Word.Shape.md)' object.
+_expression_ A variable that represents a **[Shape](Word.Shape.md)** object.
 
 
 ## Example
 
-This example adds a rectangle to  _myDocument_ , adds text to the rectangle, and sets the margins for the text frame.
+This example adds a rectangle to _myDocument_, adds text to the rectangle, and sets the margins for the text frame.
 
 
 ```vb

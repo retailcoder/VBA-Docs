@@ -18,11 +18,11 @@ localization_priority: Normal
 
 _expression_. `UserControl`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-Project sets the  **UserControl** property internally.
+Project sets the **UserControl** property internally.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

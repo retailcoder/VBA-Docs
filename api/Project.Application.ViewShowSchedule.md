@@ -21,7 +21,7 @@ Displays the schedule fields in a resource or task form.
 
 _expression_. `ViewShowSchedule`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `ViewShowSchedule`
 
 ## Remarks
 
-The  **ViewShowSchedule** method has no effect unless the active view contains a resource or task form.
+The **ViewShowSchedule** method has no effect unless the active view contains a resource or task form.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

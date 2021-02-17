@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # Account.UserName property (Outlook)
 
-Returns a  **String** representing the user name for the **[Account](Outlook.Account.md)**. Read-only.
+Returns a **String** representing the user name for the **[Account](Outlook.Account.md)**. Read-only.
 
 
 ## Syntax
 
-_expression_. `UserName`
+_expression_.**UserName**
 
 _expression_ A variable that represents an [Account](Outlook.Account.md) object.
 

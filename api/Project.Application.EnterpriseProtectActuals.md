@@ -21,11 +21,11 @@ localization_priority: Normal
 
 _expression_. `EnterpriseProtectActuals`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Remarks
 
-The  **EnterpriseProtectActuals** property is available only in Project Professional.
+The **EnterpriseProtectActuals** property is available only in Project Professional.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

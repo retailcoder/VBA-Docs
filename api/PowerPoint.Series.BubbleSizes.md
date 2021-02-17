@@ -19,9 +19,9 @@ Returns or sets a string that refers to the worksheet cells that contain the x-v
 
 ## Syntax
 
-_expression_. `BubbleSizes`
+_expression_.**BubbleSizes**
 
- _expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
+_expression_ A variable that represents a '[Series](PowerPoint.Series.md)' object.
 
 
 ## Remarks
@@ -29,7 +29,8 @@ _expression_. `BubbleSizes`
  When you return the cell reference, it will return a string that describes the cells in A1-style notation. To set the size data for the bubble chart, you must use R1C1-style notation.
 
 
- **Note**  This property applies only to bubble charts.
+> [!NOTE] 
+> This property applies only to bubble charts.
 
 
 ## Example
@@ -37,7 +38,8 @@ _expression_. `BubbleSizes`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example displays the cell reference for the cells that contain the bubble chart x-value, y-value, and size data for the first chart in the active document.
 
@@ -59,7 +61,8 @@ End With
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 This example shows how to set this property using R1C1-style notation.
 

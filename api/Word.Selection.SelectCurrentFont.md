@@ -21,12 +21,12 @@ Extends the selection forward until text in a different font or font size is enc
 
 _expression_. `SelectCurrentFont`
 
-_expression_ Required. A variable that represents a '[Selection](Word.Selection.md)' object.
+_expression_ Required. A variable that represents a **[Selection](Word.Selection.md)** object.
 
 
 ## Example
 
-This example extends the selection until text in a different font or font size is encountered. The example uses the  **Grow** method to increase the size of the selected text to the next available font size.
+This example extends the selection until text in a different font or font size is encountered. The example uses the **Grow** method to increase the size of the selected text to the next available font size.
 
 
 ```vb

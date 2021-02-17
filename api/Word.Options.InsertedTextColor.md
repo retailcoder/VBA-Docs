@@ -21,12 +21,12 @@ Returns or sets the color of text that is inserted while change tracking is enab
 
 _expression_. `InsertedTextColor`
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## Remarks
 
-If the  **InsertedTextColor** property is set to **wdByAuthor**, Microsoft Word automatically assigns a unique color to each of the first eight authors who revise a document.
+If the **InsertedTextColor** property is set to **wdByAuthor**, Microsoft Word automatically assigns a unique color to each of the first eight authors who revise a document.
 
 
 ## Example
@@ -38,7 +38,7 @@ This example sets the color of inserted text to dark red.
 Options.InsertedTextColor = wdDarkRed
 ```
 
-This example returns the current status of the  **Color** option under **Track Changes** options on the **Track Changes** tab in the **Options** dialog box.
+This example returns the current status of the **Color** option under **Track Changes** options on the **Track Changes** tab in the **Options** dialog box.
 
 
 

@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # AppointmentItem.Start property (Outlook)
 
-Returns or sets a  **Date** indicating the starting date and time for the Outlook item. Read/write.
+Returns or sets a **Date** indicating the starting date and time for the Outlook item. Read/write.
 
 
 ## Syntax
 
-_expression_. `Start`
+_expression_.**Start**
 
 _expression_ A variable that represents an [AppointmentItem](Outlook.AppointmentItem.md) object.
 

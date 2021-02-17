@@ -18,7 +18,7 @@ Occurs before Project exits.
 
 _expression_. `ApplicationBeforeClose`( `_Info_`, )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_. `ApplicationBeforeClose`( `_Info_`, )
 
 ## Return value
 
-nothing
+**Nothing**
 
 
 ## Remarks

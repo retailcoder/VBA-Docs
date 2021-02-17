@@ -7,27 +7,26 @@ ms.prod: publisher
 api_name:
 - Publisher.Column.Cells
 ms.assetid: 6c8b33f9-61f0-086c-1ceb-996221aa3a02
-ms.date: 06/08/2017
+ms.date: 06/06/2019
 localization_priority: Normal
 ---
 
 
 # Column.Cells property (Publisher)
 
-Returns a  **[CellRange](Publisher.CellRange.md)** object that represents the cell or cells in a column of a table.
+Returns a **[CellRange](Publisher.CellRange.md)** object that represents the cell or cells in a column of a table.
 
 
 ## Syntax
 
 _expression_.**Cells**
 
- _expression_ A variable that represents a  **Column** object.
+_expression_ A variable that represents a **[Column](Publisher.Column.md)** object.
 
 
 ## Example
 
 This example merges the first and second cells in the first column of the specified table.
-
 
 ```vb
 Sub MergeCell() 
@@ -37,10 +36,9 @@ Sub MergeCell()
 End Sub
 ```
 
+<br/>
+
 This example applies a thick border outline to the first cell in the second column of the specified table.
-
-
-
 
 ```vb
 Sub OutlineBorderCell() 

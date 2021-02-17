@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ProjectStatistics method (Project)
 
-Displays the  **Project Statistics** dialog box.
+Displays the **Project Statistics** dialog box.
 
 
 ## Syntax
 
 _expression_. `ProjectStatistics`( `_Project_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `ProjectStatistics`( `_Project_` )
 
 ## Remarks
 
-The  **ProjectStatistics** method has the same effect as clicking **Project Information** on the **Project** tab of the Ribbon, and then clicking **Statistics**.
+The **ProjectStatistics** method has the same effect as clicking **Project Information** on the **Project** tab of the Ribbon, and then clicking **Statistics**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

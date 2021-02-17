@@ -21,7 +21,7 @@ Appends items to the lookup table of a custom outline code definition.
 
 _expression_. `LookUpTableAddEx`( `_FieldID_`, `_Level_`, `_Code_`, `_Description_`, `_Phonetic_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -30,7 +30,7 @@ _expression_. `LookUpTableAddEx`( `_FieldID_`, `_Level_`, `_Code_`, `_Descriptio
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
-| _FieldID_|Required|**Long**|Specifies the custom outline code to edit. Can be one of the  **[PjCustomField](Project.PjCustomField.md)** constants.|
+| _FieldID_|Required|**Long**|Specifies the custom outline code to edit. Can be one of the **[PjCustomField](Project.PjCustomField.md)** constants.|
 | _Level_|Optional|**Long**|Specifies the level of the new code. The default value is the level of the last item in the lookup table.|
 | _Code_|Optional|**String**|The code to be added to the lookup table.|
 | _Description_|Optional|**String**|A description for the field specified in the Code argument.|
@@ -43,7 +43,7 @@ _expression_. `LookUpTableAddEx`( `_FieldID_`, `_Level_`, `_Code_`, `_Descriptio
 
 ## Remarks
 
-If only the FieldID argument is specified, the  **LookUpTableAddEx** method displays the **Lookup Table** dialog box for the specified custom outline code.
+If only the FieldID argument is specified, the **LookUpTableAddEx** method displays the **Lookup Table** dialog box for the specified custom outline code.
 
 
 ## Example

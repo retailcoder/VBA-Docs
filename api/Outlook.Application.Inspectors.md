@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Inspectors property (Outlook)
 
-Returns an  **[Inspectors](Outlook.Inspectors.md)** collection object that contains the **[Inspector](Outlook.Inspector.md)** objects representing all open inspectors. Read-only.
+Returns an **[Inspectors](Outlook.Inspectors.md)** collection object that contains the **[Inspector](Outlook.Inspector.md)** objects representing all open inspectors. Read-only.
 
 
 ## Syntax
 
 _expression_. `Inspectors`
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Example

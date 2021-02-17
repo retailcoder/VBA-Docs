@@ -7,26 +7,23 @@ ms.prod: excel
 api_name:
 - Excel.PageSetup.CenterHeader
 ms.assetid: 8c928648-c501-bad6-d5b4-ec77fd832538
-ms.date: 06/08/2017
+ms.date: 05/03/2019
 localization_priority: Normal
 ---
 
 
 # PageSetup.CenterHeader property (Excel)
 
-Center aligns the header information in the  **PageSetup** object. Read/write **String**.
+Center aligns the header information in the **PageSetup** object. Read/write **String**.
 
 
 ## Syntax
 
-_expression_. `CenterHeader`
+_expression_.**CenterHeader**
 
-_expression_ A variable that represents a [PageSetup](Excel.PageSetup.md) object.
-
-
-## See also
+_expression_ A variable that represents a **[PageSetup](Excel.PageSetup.md)** object.
 
 
-[PageSetup Object](Excel.PageSetup.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

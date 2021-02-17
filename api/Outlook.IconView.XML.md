@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # IconView.XML property (Outlook)
 
-Returns or sets a  **String** value that specifies the XML definition of the view. Read/write.
+Returns or sets a **String** value that specifies the XML definition of the view. Read/write.
 
 
 ## Syntax
 
-_expression_. `XML`
+_expression_.**XML**
 
 _expression_ A variable that represents an [IconView](Outlook.IconView.md) object.
 

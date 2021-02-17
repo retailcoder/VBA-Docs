@@ -21,12 +21,12 @@ Returns or sets the distance (in points) between the footer and the bottom of th
 
 _expression_. `FooterDistance`
 
- _expression_ A variable that represents a '[PageSetup](Word.PageSetup.md)' object.
+_expression_ A variable that represents a **[PageSetup](Word.PageSetup.md)** object.
 
 
 ## Example
 
-This example sets the distance between the footer and the bottom of the page to 0.5 inch. The  **[InchesToPoints](Word.Application.InchesToPoints.md)** method is used to convert inches to points.
+This example sets the distance between the footer and the bottom of the page to 0.5 inch. The **[InchesToPoints](Word.Application.InchesToPoints.md)** method is used to convert inches to points.
 
 
 ```vb

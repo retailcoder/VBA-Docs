@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ResourceCalendars method (Project)
 
-Displays the  **Change Working Time** dialog box, which prompts the user to manage calendars.
+Displays the **Change Working Time** dialog box, which prompts the user to manage calendars.
 
 
 ## Syntax
 
 _expression_. `ResourceCalendars`( `_Index_`, `_Locked_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -40,6 +40,6 @@ _expression_. `ResourceCalendars`( `_Index_`, `_Locked_` )
 
 ## Remarks
 
-The  **ResourceCalendars** method returns a trappable error (error code 1101) when applied to material resources.
+The **ResourceCalendars** method returns a trappable error (error code 1101) when applied to material resources.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

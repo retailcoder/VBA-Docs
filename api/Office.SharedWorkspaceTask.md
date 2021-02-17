@@ -26,7 +26,7 @@ Use the **SharedWorkspaceTask** object to manage tasks assigned to the members w
 
 Use the **Item** (_index_) property of the **SharedWorkspaceTasks** collection to return a specific **SharedWorkspaceTask** object.
 
-Use the **Title** property to set the text of the task that appears on the **Tasks** tab of the **Shared Workspace** task pane and on the shared workspace web page. Use the **Description** property to supply additional information about the task.
+Use the **Title** property to set the text of the task that appears on the **Tasks** tab of the **Shared Workspace** task pane and on the shared workspace webpage. Use the **Description** property to supply additional information about the task.
 
 Assign the task to a member of the workspace by using the **AssignedTo** property and the member's domain user name. Specify a due date for the task by using the **DueDate** property.
 
@@ -45,15 +45,15 @@ The following example returns the number of tasks in the shared workspace and in
 ```vb
     Dim swsTask As Office.SharedWorkspaceTask 
     Dim strTaskInfo As String 
-    strTaskInfo = "The shared workspace contains " &amp; _ 
-    ActiveWorkbook.SharedWorkspace.Tasks.Count &amp; " Task(s)." &amp; vbCrLf 
+    strTaskInfo = "The shared workspace contains " & _ 
+    ActiveWorkbook.SharedWorkspace.Tasks.Count & " Task(s)." & vbCrLf 
     For Each swsTask In ActiveWorkbook.SharedWorkspace.Tasks 
-        strTaskInfo = strTaskInfo &amp; swsTask.Title &amp; vbCrLf &amp; _ 
-            " - Description: " &amp; swsTask.Description &amp; vbCrLf &amp; _ 
-            " - Assigned to: " &amp; swsTask.AssignedTo &amp; vbCrLf &amp; _ 
-            " - Due date: " &amp; swsTask.DueDate &amp; vbCrLf &amp; _ 
-            " - Priority: " &amp; swsTask.Priority &amp; vbCrLf &amp; _ 
-            " - Status: " &amp; swsTask.Status &amp; vbCrLf 
+        strTaskInfo = strTaskInfo & swsTask.Title & vbCrLf & _ 
+            " - Description: " & swsTask.Description & vbCrLf & _ 
+            " - Assigned to: " & swsTask.AssignedTo & vbCrLf & _ 
+            " - Due date: " & swsTask.DueDate & vbCrLf & _ 
+            " - Priority: " & swsTask.Priority & vbCrLf & _ 
+            " - Status: " & swsTask.Status & vbCrLf 
     Next 
     MsgBox strTaskInfo, vbInformation + vbOKOnly, _ 
         "Tasks in Shared Workspace" 

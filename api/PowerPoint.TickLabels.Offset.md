@@ -19,9 +19,9 @@ Returns or sets the distance between the levels of labels, and the distance betw
 
 ## Syntax
 
-_expression_. `Offset`
+_expression_.**Offset**
 
- _expression_ A variable that represents a '[TickLabels](PowerPoint.TickLabels.md)' object.
+_expression_ A variable that represents a '[TickLabels](PowerPoint.TickLabels.md)' object.
 
 
 ## Remarks
@@ -34,7 +34,8 @@ _expression_. `Offset`
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the label spacing of the category axis for the first chart in the active document to twice the current setting, if the offset is less than 500.
 

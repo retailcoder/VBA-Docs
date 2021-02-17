@@ -21,7 +21,7 @@ Updates the selected tasks.
 
 _expression_. `UpdateTasks`( `_PercentComplete_`, `_ActualDuration_`, `_RemainingDuration_`, `_ActualStart_`, `_ActualFinish_`, `_Notes_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -35,7 +35,7 @@ _expression_. `UpdateTasks`( `_PercentComplete_`, `_ActualDuration_`, `_Remainin
 | _RemainingDuration_|Optional|**Variant**|The remaining duration of the selected tasks.|
 | _ActualStart_|Optional|**Variant**|The actual start date of the selected tasks.|
 | _ActualFinish_|Optional|**Variant**|The actual finish date of the selected tasks.|
-| _Notes_|Optional|**String**|Comments in the Notes field for the selected tasks. The value can be text only, not Rich Text Format (RTF) as in the  **Notes** dialog box.|
+| _Notes_|Optional|**String**|Comments in the Notes field for the selected tasks. The value can be text only, not Rich Text Format (RTF) as in the **Notes** dialog box.|
 
 ## Return value
 
@@ -44,7 +44,7 @@ _expression_. `UpdateTasks`( `_PercentComplete_`, `_ActualDuration_`, `_Remainin
 
 ## Remarks
 
-Using the  **UpdateTasks** method without specifying any arguments displays the **Update Tasks** dialog box.
+Using the **UpdateTasks** method without specifying any arguments displays the **Update Tasks** dialog box.
 
 
 ## Example

@@ -21,7 +21,7 @@ Moves the specified shape range in front of or behind other shapes in the collec
 
 _expression_.**ZOrder** (_ZOrderCmd_)
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Parameters
@@ -46,7 +46,7 @@ The  _ZOrderCmd_ parameter value can be one of these **MsoZOrderCmd** constants.
 |**msoSendBehindText**|
 |**msoSendToBack**|
 
-The  **msoBringInFrontOfText** and **msoSendBehindText** constants should be used only in Microsoft Office Word.
+The **msoBringInFrontOfText** and **msoSendBehindText** constants should be used only in Microsoft Office Word.
 
 Use the  **ZOrderPosition** property to determine a shape's current position in the z-order.
 

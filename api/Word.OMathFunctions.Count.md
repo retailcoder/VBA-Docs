@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathFunctions.Count property (Word)
 
-Returns the number of items in the  **OMathFunctions** collection. Read-only **Long**.
+Returns the number of items in the **OMathFunctions** collection. Read-only **Long**.
 
 
 ## Syntax
 
 _expression_.**Count**
 
- _expression_ A variable that represents a '[OMathFunctions](Word.OMathFunctions.md)' object.
+_expression_ A variable that represents a '[OMathFunctions](Word.OMathFunctions.md)' object.
 
 
 ## See also

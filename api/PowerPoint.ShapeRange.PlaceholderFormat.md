@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.PlaceholderFormat property (PowerPoint)
 
-Returns a  **[PlaceholderFormat](PowerPoint.PlaceholderFormat.md)** object that contains the properties that are unique to placeholders. Read-only.
+Returns a **[PlaceholderFormat](PowerPoint.PlaceholderFormat.md)** object that contains the properties that are unique to placeholders. Read-only.
 
 
 ## Syntax
 
 _expression_. `PlaceholderFormat`
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

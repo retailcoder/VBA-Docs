@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Application.SaveCompletedToServer event (Project)
 
-Occurs when Project Professional successfully puts the  **Project Save** job in the Project Server Queue.
+Occurs when Project Professional successfully puts the **Project Save** job in the Project Server Queue.
 
 
 ## Syntax
 
 _expression_. `SaveCompletedToServer`( `_bstrName_`, `_bstrprojGuid_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,6 +32,6 @@ _expression_. `SaveCompletedToServer`( `_bstrName_`, `_bstrprojGuid_` )
 
 ## Return value
 
-nothing
+**Nothing**
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

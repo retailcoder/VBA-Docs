@@ -21,7 +21,7 @@ Returns a  **Selection** object whose shapes meet certain criteria in relation t
 
 _expression_. `SpatialSearch`( `_x_` , `_y_` , `_Relation_` , `_Tolerance_` , `_Flags_` )
 
- _expression_ A variable that represents a [Master](./Visio.Master.md) object.
+_expression_ A variable that represents a **[Master](Visio.Master.md)** object.
 
 
 ## Parameters
@@ -55,6 +55,7 @@ Beginning with Microsoft Visio 2002, if  _flags_ contains **visSpatialFrontToBac
 
 
 
- **Note**   When it compares two shapes, the **SpatialSearch** property does not consider the width of a shape's line, shadows, line ends, control points, or connection points.
+> [!NOTE] 
+>  When it compares two shapes, the **SpatialSearch** property does not consider the width of a shape's line, shadows, line ends, control points, or connection points.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

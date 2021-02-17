@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Chart.SeriesNameLevel property (PowerPoint)
 
-Returns or sets an [XlSeriesNameLevel](./Word.xlseriesnamelevel.md) constant that specifies the source level of the series names. Read-write.
+Returns or sets an [XlSeriesNameLevel](./Word.xlseriesnamelevel.md) constant that specifies the source level of the series names. Read/write.
 
 
 ## Syntax
 
 _expression_.**SeriesNameLevel**
 
-_expression_ A variable that represents a [Chart](./PowerPoint.Chart.md) object.
+_expression_ A variable that represents a [Chart](PowerPoint.Chart.md) object.
 
 
 ## Property value

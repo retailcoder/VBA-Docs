@@ -21,17 +21,17 @@ Returns or sets the color for the specified  **Font** object in a right-to-left 
 
 _expression_. `ColorIndexBi`
 
-_expression_ Required. A variable that represents a '[Font](Word.Font.md)' object.
+_expression_ Required. A variable that represents a **[Font](Word.Font.md)** object.
 
 
 ## Remarks
 
-The  **wdByAuthor** constant is not valid for **Font** objects.
+The **wdByAuthor** constant is not valid for **Font** objects.
 
 
 ## Example
 
-This example sets the color of the  **Font** object to teal.
+This example sets the color of the **Font** object to teal.
 
 
 ```vb

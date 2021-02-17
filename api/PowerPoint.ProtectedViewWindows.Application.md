@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ProtectedViewWindows.Application property (PowerPoint)
 
-Returns an  **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
+Returns an **[Application](PowerPoint.Application.md)** object that represents the creator of the specified object.
 
 
 ## Syntax
 
 _expression_.**Application**
 
- _expression_ A variable that represents a [ProtectedViewWindows](./PowerPoint.ProtectedViewWindows.md) object.
+_expression_ A variable that represents a [ProtectedViewWindows](PowerPoint.ProtectedViewWindows.md) object.
 
 
 ## See also

@@ -19,9 +19,9 @@ Returns or sets the fill color for negative data points in a series. Read/write.
 
 ## Syntax
 
-_expression_. `InvertColorIndex`
+_expression_.**InvertColorIndex**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Return value
@@ -31,7 +31,7 @@ Integer
 
 ## Remarks
 
-The  **InvertColorIndex** property enables you to set the fill color for negative data points as a color index value from 0 to 56. Instead of using the **InvertColorIndex** property, you can use the **[InvertColor](Word.Series.InvertColor.md)** property, which enables you to set the color as a specific numeric, hexadecimal, octal, or RGB color value.
+The **InvertColorIndex** property enables you to set the fill color for negative data points as a color index value from 0 to 56. Instead of using the **InvertColorIndex** property, you can use the **[InvertColor](Word.Series.InvertColor.md)** property, which enables you to set the color as a specific numeric, hexadecimal, octal, or RGB color value.
 
 
 ## See also

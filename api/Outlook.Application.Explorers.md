@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Explorers property (Outlook)
 
-Returns an  **[Explorers](Outlook.Explorers.md)** collection object that contains the **[Explorer](Outlook.Explorer.md)** objects representing all open explorers. Read-only.
+Returns an **[Explorers](Outlook.Explorers.md)** collection object that contains the **[Explorer](Outlook.Explorer.md)** objects representing all open explorers. Read-only.
 
 
 ## Syntax
 
 _expression_. `Explorers`
 
-_expression_ A variable that represents an [Application](Outlook.Application.md) object.
+_expression_ A variable that represents an **[Application](Outlook.Application.md)** object.
 
 
 ## Example

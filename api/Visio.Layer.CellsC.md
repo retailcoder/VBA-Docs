@@ -21,7 +21,7 @@ Returns a  **Cell** object that represents a ShapeSheet cell in a row in the Lay
 
 _expression_. `CellsC`( `_Column_` )
 
- _expression_ An expression that returns a [Layer](./Visio.Layer.md) object.
+ _expression_ An expression that returns a **[Layer](Visio.Layer.md)** object.
 
 
 ## Parameters
@@ -43,7 +43,7 @@ The following constants for the cell index are declared by the Microsoft Visio t
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visLayerName**|0 |
 | **visLayerColor**|2 |

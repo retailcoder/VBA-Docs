@@ -12,9 +12,9 @@ Gets the number of connection sites on the shape range. Read-only  **Long**.
 
 ## Syntax
 
-_expression_. `ConnectionSiteCount`
+_expression_.**ConnectionSiteCount**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

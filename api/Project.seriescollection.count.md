@@ -14,12 +14,12 @@ Gets the number of  **Series** objects in the collection. Read-only **Long**.
 
 _expression_.**Count**
 
- _expression_ A variable that represents a 'SeriesCollection' object.
+_expression_ A variable that represents a 'SeriesCollection' object.
 
 
 ## Remarks
 
-For an example that uses the  **SeriesCollection.Count** property, see the [SeriesCollection](Project.seriescollection.md) object.
+For an example that uses the **SeriesCollection.Count** property, see the [SeriesCollection](Project.seriescollection.md) object.
 
 
 ## See also

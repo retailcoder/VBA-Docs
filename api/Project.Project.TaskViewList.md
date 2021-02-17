@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Project.TaskViewList property (Project)
 
-Gets a  **[List](Project.List.md)** object representing all task views in the project. Read-only **List**.
+Gets a **[List](Project.List.md)** object representing all task views in the project. Read-only **List**.
 
 
 ## Syntax
 
 _expression_. `TaskViewList`
 
- _expression_ A variable that represents a [Project](./Project(enumerations).md) object.
+_expression_ A variable that represents a **[Project](project.project.md)** object.
 
 
 ## Example

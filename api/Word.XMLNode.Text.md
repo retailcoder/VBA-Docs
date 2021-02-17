@@ -21,12 +21,12 @@ Returns or sets the text contained within the XML element. Read/write  **String*
 
 _expression_.**Text**
 
- _expression_ A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
+_expression_ A variable that represents a '[XMLNode](Word.XMLNode.md)' object.
 
 
 ## Remarks
 
-The  **Text** property returns the plain, unformatted text that is contained within the XML element. Setting this property, replaces the existing text.
+The **Text** property returns the plain, unformatted text that is contained within the XML element. Setting this property, replaces the existing text.
 
 
 ## See also

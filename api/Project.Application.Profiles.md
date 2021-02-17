@@ -14,13 +14,13 @@ localization_priority: Normal
 
 # Application.Profiles property (Project)
 
-Gets a  **[Profiles](Project.Profile.md)** collection representing the log on profiles defined for the Project application. Read-only **Profiles**.
+Gets a **[Profiles](Project.Profile.md)** collection representing the log on profiles defined for the Project application. Read-only **Profiles**.
 
 
 ## Syntax
 
 _expression_. `Profiles`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

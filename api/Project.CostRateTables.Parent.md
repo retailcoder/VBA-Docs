@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # CostRateTables.Parent property (Project)
 
-Gets the parent of the  **CostRateTables** object. Read-only **Resource**.
+Gets the parent of the **CostRateTables** object. Read-only **Resource**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'CostRateTables' object.
+_expression_ A variable that represents a 'CostRateTables' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

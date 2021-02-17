@@ -12,9 +12,9 @@ Copies the formatting of the shape range.
 
 ## Syntax
 
-_expression_. `PickUp`
+_expression_.**PickUp**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Return value
@@ -24,7 +24,7 @@ _expression_. `PickUp`
 
 ### Remarks
 
-Use the  **[Apply](Project.shaperange.apply.md)** method to apply copied formatting to another shape or shape range.
+Use the **[Apply](Project.shaperange.apply.md)** method to apply copied formatting to another shape or shape range.
 
 
 ## Example

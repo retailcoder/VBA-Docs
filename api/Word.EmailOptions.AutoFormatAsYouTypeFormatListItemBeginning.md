@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatAsYouTypeFormatListItemBeginning`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Example
@@ -33,7 +33,7 @@ This example sets Word to automatically repeat character formatting at the begin
 Options.AutoFormatAsYouTypeFormatListItemBeginning = True
 ```
 
-This example returns the status of the  **Format beginning of list item like the one before it** option in the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Options** menu).
+This example returns the status of the **Format beginning of list item like the one before it** option in the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Options** menu).
 
 
 

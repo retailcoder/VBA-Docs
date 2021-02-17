@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Options.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **Options** object.
+Returns an **Object** that represents the parent object of the specified **Options** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
-_expression_ Required. A variable that represents an '[Options](Word.Options.md)' collection.
+_expression_ Required. A variable that represents an **[Options](Word.Options.md)** object.
 
 
 ## See also

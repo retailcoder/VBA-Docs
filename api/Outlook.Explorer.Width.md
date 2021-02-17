@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Explorer.Width property (Outlook)
 
-Returns or sets a  **Long** indicating the width (in pixels) of the specified object. Read/write.
+Returns or sets a **Long** indicating the width (in pixels) of the specified object. Read/write.
 
 
 ## Syntax
 
 _expression_.**Width**
 
-_expression_ A variable that represents an [Explorer](Outlook.Explorer.md) object.
+_expression_ A variable that represents an **[Explorer](Outlook.Explorer.md)** object.
 
 
 ## See also

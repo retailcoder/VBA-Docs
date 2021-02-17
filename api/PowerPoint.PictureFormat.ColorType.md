@@ -19,9 +19,9 @@ Returns or sets the type of color transformation applied to the specified pictur
 
 ## Syntax
 
-_expression_. `ColorType`
+_expression_.**ColorType**
 
- _expression_ A variable that represents a [PrintOptions](./PowerPoint.PrintOptions.md) object.
+_expression_ A variable that represents a [PrintOptions](PowerPoint.PrintOptions.md) object.
 
 
 ## Return value
@@ -44,7 +44,7 @@ The value of the  **ColorType** property can be one of these **MsoPictureColorTy
 
 ## Example
 
-This example sets the color transformation to grayscale for shape one on  _myDocument_. Shape one must be either a picture or an OLE object.
+This example sets the color transformation to grayscale for shape one on _myDocument_. Shape one must be either a picture or an OLE object.
 
 
 ```vb

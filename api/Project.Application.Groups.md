@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Groups method (Project)
 
-Displays the  **More Groups** dialog box, which prompts the user to apply a grouping.
+Displays the **More Groups** dialog box, which prompts the user to apply a grouping.
 
 
 ## Syntax
 
 _expression_. `Groups`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value
@@ -31,6 +31,6 @@ _expression_. `Groups`
 
 ## Remarks
 
-The  **Groups** method corresponds to the following command on the Ribbon: In the **View** tab, click the **Group by** drop-down list in the **Data** group, and then click **More Groups**.
+The **Groups** method corresponds to the following command on the Ribbon: In the **View** tab, click the **Group by** drop-down list in the **Data** group, and then click **More Groups**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.ColumnEdit method (Project)
 
-Displays the  **Column Definition** dialog box for the specified column.
+Displays the **Column Definition** dialog box for the specified column.
 
 
 ## Syntax
 
 _expression_. `ColumnEdit`( `_Column_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters

@@ -18,12 +18,12 @@ Gets the number of  **[Exception](Project.exceptions.md)** objects in the calend
 
 _expression_.**Count**
 
- _expression_ A variable that represents an 'Exceptions' object.
+_expression_ A variable that represents an 'Exceptions' object.
 
 
 ## Remarks
 
-Use of the  **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
+Use of the **Count** property in most collection objects is similar. For an example, see the **[Assignments.Count](Project.Assignments.Count.md)** property.
 
 
 ## See also

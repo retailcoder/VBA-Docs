@@ -28,7 +28,7 @@ Use the  **[Remove](Outlook.Views.Remove.md)** method to remove a view from the 
 
 ## Example
 
-The following example returns a  **View** object of type **olTableView** called Table View. Before running this example, make sure a view by the name 'Table View' exists.
+The following example returns a **View** object of type **olTableView** called Table View. Before running this example, make sure a view by the name 'Table View' exists.
 
 
 ```vb
@@ -58,7 +58,8 @@ End Sub
 The following example adds a new view of type  **olIconView** in the user's Notes folder.
 
 
- **Note**  The  **Add** method will fail if a view with the same name already exists.
+> [!NOTE] 
+> The **Add** method will fail if a view with the same name already exists.
 
 
 

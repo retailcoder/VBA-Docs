@@ -19,14 +19,14 @@ Returns a  **String** that represents the XPath for the XML mapping, which evalu
 
 ## Syntax
 
-_expression_. `XPath`
+_expression_.**XPath**
 
  _expression_ An expression that returns an '[XMLMapping](Word.XMLMapping.md)' object.
 
 
 ## Remarks
 
-To set mapping for a content control, use the  **[SetMapping](Word.XMLMapping.SetMapping.md)** method or the **[SetMappingByNode](Word.XMLMapping.SetMappingByNode.md)** method. If the mapping is not active, using this property returns an error.
+To set mapping for a content control, use the **[SetMapping](Word.XMLMapping.SetMapping.md)** method or the **[SetMappingByNode](Word.XMLMapping.SetMappingByNode.md)** method. If the mapping is not active, using this property returns an error.
 
 
 ## Example

@@ -12,14 +12,14 @@ Gets or sets the shape used with the 3D bar chart or 3D column chart. Read/write
 
 ## Syntax
 
-_expression_. `BarShape`
+_expression_.**BarShape**
 
 _expression_ A variable that represents a **[Chart](Project.Chart.md)** object.
 
 
 ## Remarks
 
-To see the  **xlBarShape** enumeration in the Object Browser, show the hidden members in the **Office** library.
+To see the **xlBarShape** enumeration in the Object Browser, show the hidden members in the **Office** library.
 
 
 ## Property value

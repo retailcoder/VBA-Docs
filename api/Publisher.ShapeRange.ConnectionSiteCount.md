@@ -7,32 +7,31 @@ ms.prod: publisher
 api_name:
 - Publisher.ShapeRange.ConnectionSiteCount
 ms.assetid: f830739d-08be-562c-83fc-7f7a6f8e047c
-ms.date: 06/08/2017
+ms.date: 06/14/2019
 localization_priority: Normal
 ---
 
 
 # ShapeRange.ConnectionSiteCount property (Publisher)
 
-Returns a  **Long** indicating the count of connection sites on the current **Shape** object. Read-only.
+Returns a **Long** indicating the count of connection sites on the current **Shape** object. Read-only.
 
 
 ## Syntax
 
 _expression_.**ConnectionSiteCount**
 
- _expression_ A variable that represents a  **ShapeRange** object.
+_expression_ A variable that represents a **[ShapeRange](Publisher.ShapeRange.md)** object.
 
 
 ## Remarks
 
-The number of connection sites varies depending on the shape geometry. Rectangular objects including tables and Web controls will most likely have four connection sites, one centered on each edge of the shape.
+The number of connection sites varies depending on the shape geometry. Rectangular objects including tables and web controls will most likely have four connection sites, one centered on each edge of the shape.
 
 
 ## Example
 
-This example adds two rectangles to the active publication and joins them with two connectors. The beginnings of both connectors attach to connection site one on the first rectangle; the ends of the connectors attach to the first and last connection sites of the second rectangle. Then it counts the number of connections on the first rectangle.
-
+This example adds two rectangles to the active publication and joins them with two connectors. The beginnings of both connectors attach to connection site one on the first rectangle; the ends of the connectors attach to the first and last connection sites of the second rectangle. It then counts the number of connections on the first rectangle.
 
 ```vb
 Sub Connections() 

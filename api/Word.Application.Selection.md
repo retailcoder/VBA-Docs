@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.Selection property (Word)
 
-Returns the  **[Selection](Word.Selection.md)** object that represents a selected range or the insertion point. Read-only.
+Returns the **[Selection](Word.Selection.md)** object that represents a selected range or the insertion point. Read-only.
 
 
 ## Syntax
 
 _expression_.**Selection**
 
- _expression_ A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Example

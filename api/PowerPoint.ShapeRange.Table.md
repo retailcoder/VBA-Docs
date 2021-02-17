@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # ShapeRange.Table property (PowerPoint)
 
-Returns a  **[Table](PowerPoint.Table.md)** object that represents a table in a shape or in a shape range. Read-only.
+Returns a **[Table](PowerPoint.Table.md)** object that represents a table in a shape or in a shape range. Read-only.
 
 
 ## Syntax
 
 _expression_. `Table`
 
- _expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
+_expression_ A variable that represents a **[ShapeRange](PowerPoint.ShapeRange.md)** object.
 
 
 ## Return value

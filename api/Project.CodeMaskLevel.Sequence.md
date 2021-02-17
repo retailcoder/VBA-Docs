@@ -18,11 +18,11 @@ Gets or sets the type of character sequence in a code mask. Read/write  **PjCust
 
 _expression_. `Sequence`
 
- _expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
+_expression_ A variable that represents a [CodeMaskLevel](./Project.CodeMaskLevel.md) object.
 
 
 ## Remarks
 
-The  **Sequence** property can be one of the following **[PjCustomOutlineCodeSequence](Project.PjCustomOutlineCodeSequence.md)** constants: **pjCustomOutlineCodeCharacters**, **pjCustomOutlineCodeLowercaseLetters**, **pjCustomOutlineCodeNumbers**, or **pjCustomOutlineCodeUppercaseLetters**.
+The **Sequence** property can be one of the following **[PjCustomOutlineCodeSequence](Project.PjCustomOutlineCodeSequence.md)** constants: **pjCustomOutlineCodeCharacters**, **pjCustomOutlineCodeLowercaseLetters**, **pjCustomOutlineCodeNumbers**, or **pjCustomOutlineCodeUppercaseLetters**.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

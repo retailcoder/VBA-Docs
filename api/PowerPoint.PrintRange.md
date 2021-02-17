@@ -26,7 +26,7 @@ You can set print ranges in the  **PrintRanges** collection independent of the *
 
 ## Example
 
-Use  **Ranges** (index), where index is the print range index number, to return a single **PrintRange** object. The following example displays a message that indicates the starting and ending slide numbers for print range one in the active presentation.
+Use  **Ranges** (_index_), where _index_ is the print range index number, to return a single **PrintRange** object. The following example displays a message that indicates the starting and ending slide numbers for print range one in the active presentation.
 
 
 ```vb
@@ -40,7 +40,7 @@ With ActivePresentation.PrintOptions.Ranges
 End With
 ```
 
-Use the [Add](PowerPoint.PrintRanges.Add.md)method to create a  **PrintRange** object and add it to the **PrintRanges** collection. The following example defines three print ranges that represent slide 1, slides 3 through 5, and slides 8 and 9 in the active presentation and then prints the slides in these ranges.
+Use the [Add](PowerPoint.PrintRanges.Add.md)method to create a **PrintRange** object and add it to the **PrintRanges** collection. The following example defines three print ranges that represent slide 1, slides 3 through 5, and slides 8 and 9 in the active presentation and then prints the slides in these ranges.
 
 
 

@@ -21,7 +21,7 @@ Loads a Microsoft Visio application  **UIObject** object from a file.
 
 _expression_. `LoadFromFile`( `_FileName_` )
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Parameters
@@ -40,7 +40,8 @@ Nothing
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 You must use the  **SaveToFile** method to save a **UIObject** object in a file that the **LoadFromFile** method can load.
 
@@ -49,7 +50,7 @@ You must use the  **SaveToFile** method to save a **UIObject** object in a file 
 
 This Microsoft Visual Basic for Applications (VBA) macro shows how to save and then load a custom user interface file (.vsu). It does not manipulate any menus or menu items.
 
-Before running this code, replace  _path\filename_ with the full path to and name of a valid .vsu file on your computer.
+Before running this code, replace `path\filename` with the full path to and name of a valid .vsu file on your computer.
 
 
 
@@ -65,14 +66,14 @@ Public Sub LoadFromFile_Example()
  Set vsoUIObject = Visio.Application.BuiltInMenus 
  
  'Save Menus object to a file. 
- strPath = "path\filename.vsu " 
+ strPath = "path\filename.vsu" 
  vsoUIObject.SaveToFile (strPath) 
- MsgBox ("Menus successfully saved to " & strPath) 
+ MsgBox ("Menus successfully saved to" & strPath) 
  
  'Load menus from the file. 
  vsoUIObject.LoadFromFile (strPath) 
  Visio.Application.SetCustomMenus vsoUIObject 
- MsgBox ("Menus successfully loaded from " & strPath) 
+ MsgBox ("Menus successfully loaded from" & strPath) 
  
 End Sub
 ```

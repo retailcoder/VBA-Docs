@@ -18,12 +18,12 @@ localization_priority: Normal
 
 _expression_. `Flag16`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 
 ## Example
 
-The following example deletes all the tasks that have the  **Flag1** set to **True**.
+The following example deletes all the tasks that have the **Flag1** set to **True**.
 
 
 ```vb

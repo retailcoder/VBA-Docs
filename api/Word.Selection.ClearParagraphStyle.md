@@ -21,15 +21,16 @@ Removes paragraph formatting that has been applied through paragraph styles from
 
 _expression_. `ClearParagraphStyle`
 
- _expression_ An expression that returns a '[Selection](Word.Selection.md)' object.
+ _expression_ An expression that returns a **[Selection](Word.Selection.md)** object.
 
 
 ## Remarks
 
-This method does not remove paragraph formatting that a user has applied manually. To remove manually applied paragraph formatting, use the  **[ClearParagraphDirectFormatting](Word.Selection.ClearParagraphDirectFormatting.md)** method. To remove all paragraph formatting, both style and manual formatting, use the **[ClearParagraphAllFormatting](Word.Selection.ClearParagraphAllFormatting.md)** method.
+This method does not remove paragraph formatting that a user has applied manually. To remove manually applied paragraph formatting, use the **[ClearParagraphDirectFormatting](Word.Selection.ClearParagraphDirectFormatting.md)** method. To remove all paragraph formatting, both style and manual formatting, use the **[ClearParagraphAllFormatting](Word.Selection.ClearParagraphAllFormatting.md)** method.
 
 
- **Note**  To remove character formatting, see the  **[ClearCharacterAllFormatting](Word.Selection.ClearCharacterAllFormatting.md)**, **[ClearCharacterDirectFormatting](Word.Selection.ClearCharacterDirectFormatting.md)**, or **[ClearCharacterStyle](Word.Selection.ClearCharacterStyle.md)** method.
+> [!NOTE] 
+> To remove character formatting, see the **[ClearCharacterAllFormatting](Word.Selection.ClearCharacterAllFormatting.md)**, **[ClearCharacterDirectFormatting](Word.Selection.ClearCharacterDirectFormatting.md)**, or **[ClearCharacterStyle](Word.Selection.ClearCharacterStyle.md)** method.
 
 
 ## See also

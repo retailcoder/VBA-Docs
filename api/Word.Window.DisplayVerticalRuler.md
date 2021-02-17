@@ -21,17 +21,17 @@ localization_priority: Normal
 
 _expression_. `DisplayVerticalRuler`
 
- _expression_ A variable that represents a '[Window](Word.Window.md)' object.
+_expression_ A variable that represents a **[Window](Word.Window.md)** object.
 
 
 ## Remarks
 
-A vertical ruler appears only in print layout view, and only if the  **DisplayRulers** property is set to **True**.
+A vertical ruler appears only in print layout view, and only if the **DisplayRulers** property is set to **True**.
 
 
 ## Example
 
-This example switches each window in the  **Windows** collection to print layout view and displays the horizontal and vertical rulers.
+This example switches each window in the **Windows** collection to print layout view and displays the horizontal and vertical rulers.
 
 
 ```vb

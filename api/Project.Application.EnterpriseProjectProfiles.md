@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.EnterpriseProjectProfiles method (Project)
 
-Displays the  **Project Server Accounts** dialog box. Available in Project Professional only.
+Displays the **Project Server Accounts** dialog box. Available in Project Professional only.
 
 
 ## Syntax
 
 _expression_. `EnterpriseProjectProfiles`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

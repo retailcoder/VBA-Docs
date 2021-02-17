@@ -19,9 +19,9 @@ Returns or sets a value that indicates whether the size of the specified shape i
 
 ## Syntax
 
-_expression_. `AutoSize`
+_expression_.**AutoSize**
 
- _expression_ A variable that represents an [TextFrame](./PowerPoint.TextFrame.md) object.
+_expression_ A variable that represents an [TextFrame](PowerPoint.TextFrame.md) object.
 
 
 ## Return value

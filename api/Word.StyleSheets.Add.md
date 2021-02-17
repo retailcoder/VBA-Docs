@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # StyleSheets.Add method (Word)
 
-Returns a  **StyleSheet** object that represents a new style sheet added to a Web document.
+Returns a  **StyleSheet** object that represents a new style sheet added to a web document.
 
 
 ## Syntax
 
-_expression_.**Add**( `_FileName_` , `_LinkType_` , `_Title_` , `_Precedence_` )
+_expression_.**Add** (_FileName_, _LinkType_, _Title_, _Precedence_)
 
 _expression_ Required. A variable that represents a '[StyleSheets](Word.StyleSheets.md)' collection.
 
@@ -31,9 +31,9 @@ _expression_ Required. A variable that represents a '[StyleSheets](Word.StyleShe
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _FileName_|Required| **String**|The path and file name of the cascading style sheet.|
-| _LinkType_|Required| **WdStyleSheetLinkType**|Indicates whether the style sheet should be added as a link or imported into the Web document.|
+| _LinkType_|Required| **WdStyleSheetLinkType**|Indicates whether the style sheet should be added as a link or imported into the web document.|
 | _Title_|Required| **String**|The name of the style sheet.|
-| _Precedence_|Required| **WdStyleSheetPrecedence**|Indicates the level of importance compared with other cascading style sheets attached to the Web document.|
+| _Precedence_|Required| **WdStyleSheetPrecedence**|Indicates the level of importance compared with other cascading style sheets attached to the web document.|
 
 ## Return value
 

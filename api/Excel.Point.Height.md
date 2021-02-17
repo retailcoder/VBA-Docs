@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.Point.Height
 ms.assetid: 450a3805-bd5a-f0c1-3854-d61e6079286d
-ms.date: 06/08/2017
+ms.date: 05/09/2019
 localization_priority: Normal
 ---
 
@@ -21,7 +21,7 @@ Returns the height, in [points](../language/glossary/vbe-glossary.md#point), of 
 
 _expression_.**Height**
 
-_expression_ A variable that represents a [Point](Excel.Point-graph-object.md) object.
+_expression_ A variable that represents a **[Point](Excel.Point(object).md)** object.
 
 
 ## Return value
@@ -29,9 +29,6 @@ _expression_ A variable that represents a [Point](Excel.Point-graph-object.md) o
 Double
 
 
-## See also
 
-
-[Point Object](Excel.Point(object).md)
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

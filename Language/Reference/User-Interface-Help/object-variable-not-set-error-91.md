@@ -5,18 +5,20 @@ f1_keywords:
 - vblr6.chm1000091
 ms.prod: office
 ms.assetid: db8be8b0-9437-d53e-18b9-1d646b40ea66
-ms.date: 06/08/2017
+ms.date: 08/14/2019
 localization_priority: Normal
 ---
 
 
 # Object variable not set (Error 91)
 
-There are two steps to creating an [object variable](../../Glossary/vbe-glossary.md#object-variable). First you must declare the object variable. Then you must assign a valid reference to the object variable using the **Set** statement. Similarly, a **With...End With** block must be initialized by executing the **With** statement entry point. This error has the following causes and solutions:
+There are two steps to creating an [object variable](../../Glossary/vbe-glossary.md#object-variable). First you must declare the object variable. Then you must assign a valid reference to the object variable using the **Set** statement.
+
+Similarly, a **With...End With** block must be initialized by executing the **With** statement entry point. This error has the following causes and solutions:
 
 - You attempted to use an object variable that isn't yet referencing a valid object.
     
-  Specify or respecify a reference for the object variable. For example, if the **Set** statement is omitted in the following code, an error would be generated on the reference to `MyObject`:
+  Specify or respecify a reference for the object variable. For example, if the **Set** statement is omitted in the following code, an error would be generated on the reference to _MyObject_:
     
   ```vb
     Dim MyObject As Object    ' Create object variable. 
@@ -47,5 +49,7 @@ There are two steps to creating an [object variable](../../Glossary/vbe-glossary
     
 
 For additional information, select the item in question and press F1 (in Windows) or HELP (on the Macintosh).
+
+[!include[Add-ins note](~/includes/addinsnote.md)]
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

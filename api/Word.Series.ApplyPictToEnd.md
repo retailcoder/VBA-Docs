@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Series.ApplyPictToEnd property (Word)
 
- **True** if a picture is applied to the end of the point or all points in the series. Read/write **Boolean**.
+**True** if a picture is applied to the end of the point or all points in the series. Read/write **Boolean**.
 
 
 ## Syntax
 
-_expression_. `ApplyPictToEnd`
+_expression_.**ApplyPictToEnd**
 
- _expression_ A variable that represents a '[Series](Word.Series.md)' object.
+_expression_ A variable that represents a '[Series](Word.Series.md)' object.
 
 
 ## Example

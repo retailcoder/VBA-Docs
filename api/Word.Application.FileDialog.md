@@ -21,7 +21,7 @@ Returns a  **FileDialog** object which represents a single instance of a file di
 
 _expression_. `FileDialog`( `_FileDialogType_` )
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -34,7 +34,7 @@ _expression_ Required. A variable that represents an '[Application](Word.Applica
 
 ## Example
 
-This example displays the  **Save As** dialog box.
+This example displays the **Save As** dialog box.
 
 
 ```vb
@@ -46,7 +46,7 @@ Sub ShowSaveAsDialog()
 End Sub
 ```
 
-This example displays the  **Open** dialog box and allows a user to select multiple files to open.
+This example displays the **Open** dialog box and allows a user to select multiple files to open.
 
 
 

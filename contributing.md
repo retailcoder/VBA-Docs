@@ -6,6 +6,7 @@ Thank you for your interest in our documentation!
 * [Contribute using GitHub](#contribute-using-github)
 * [Contribute using Git](#contribute-using-git)
 * [How to use Markdown to format your topic](#how-to-use-markdown-to-format-your-topic)
+* [Markup conventions & rules specifically for this repository](#markup-conventions--rules-specifically-for-this-repository)
 * [FAQ](#faq)
 * [More resources](#more-resources)
 
@@ -71,13 +72,14 @@ Pull requests are typically reviewed within 10 business days.
 3.	Create your own fork of this repository. To do this, at the top of the page,  choose the **Fork** button.
 4.	Copy your fork to your computer. To do this, open Git Bash. At the command prompt enter:
 
-        git clone https://github.com/<your user name>/<repo name>.git
+        `git clone https://github.com/<your user name>/<repo name>.git`
 
     Next, create a reference to the root repository by entering these commands:
-
+```git
         cd <repo name>
         git remote add upstream https://github.com/OfficeDev/<repo name>.git
         git fetch upstream
+```
 
 Congratulations! You've now set up your repository. You won't need to repeat these steps again.
 
@@ -112,10 +114,10 @@ You navigate to the repository on your computer by using File Explorer. The repo
 To edit files, open them in an editor of your choice and modify them. To create a new file, use the editor of your choice and save the new file in the appropriate location in your local copy of the repository. While working, save your work frequently.
 
 The files in `C:\Users\<yourusername>\<repo name>` are a working copy of the new branch that you created in your local repository. Changing anything in this folder doesn't affect the local repository until you commit a change. To commit a change to the local repository, type the following commands in GitBash:
-
+```git
     git add .
     git commit -v -a -m "<Describe the changes made in this commit>"
-
+```
 The `add` command adds your changes to a staging area in preparation for committing them to the repository. The period after the `add` command specifies that you want to stage all of the files that you added or modified, checking subfolders recursively. (If you don't want to commit all of the changes, you can add specific files. You can also undo a commit. For help, type `git add -help` or `git status`.)
 
 The `commit` command applies the staged changes to the repository. The switch `-m` means you are providing the commit comment in the command line. The -v and -a switches can be omitted. The -v switch is for verbose output from the command, and -a does what you already did with the add command.
@@ -143,14 +145,14 @@ One of the site administrators will process your pull request. Your pull request
 After a branch is successfully merged (that is, your pull request is accepted), don't continue working in that local branch. This can lead to merge conflicts if you submit another pull request. To do another update, create a new local branch from the successfully merged upstream branch, and then delete your initial local branch.
 
 For example, if your local branch X was successfully merged into the OfficeDev/microsoft-graph-docs master branch and you want to make additional updates to the content that was merged. Create a new local branch, X2, from the OfficeDev/microsoft-graph-docs master branch. To do this, open GitBash and execute the following commands:
-
+```git
     cd microsoft-graph-docs
     git pull upstream master:X2
     git push origin X2
-
+```
 You now have local copies (in a new local branch) of the work that you submitted in branch X. The X2 branch also contains all the work other writers have merged, so if your work depends on others' work (for example, shared images), it is available in the new branch. You can verify that your previous work (and others' work) is in the branch by checking out the new branch...
 
-    git checkout X2
+    `git checkout X2`
 
 ...and verifying the content. (The `checkout` command updates the files in `C:\Users\<yourusername>\microsoft-graph-docs` to the current state of the X2 branch.) Once you check out the new branch, you can make updates to the content and commit them as usual. However, to avoid working in the merged branch (X) by mistake, it's best to delete it (see the following **Delete a branch** section).
 
@@ -172,6 +174,10 @@ Congratulations, you have successfully contributed to the project!
 
 All of the articles in this repository use Markdown. A complete introduction (and listing of all the syntax) can be found at [Daring Fireball - Markdown].
  
+## Markup conventions & rules specifically for this repository
+
+SECTION TO BE COMPLETED. SEE https://github.com/MicrosoftDocs/VBA-Docs/issues/999 FOR GUIDANCE.
+
 ## FAQ
 
 ### How do I get a GitHub account?

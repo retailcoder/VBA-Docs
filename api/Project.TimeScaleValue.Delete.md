@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # TimeScaleValue.Delete method (Project)
 
-Deletes the  **TimeScaleValue** object from a **TimeScaleValues** collection.
+Deletes the **TimeScaleValue** object from a **TimeScaleValues** collection.
 
 
 ## Syntax
 
 _expression_.**Delete**
 
- _expression_ A variable that represents a [TimeScaleValue](./Project.TimeScaleValue.md) object.
+_expression_ A variable that represents a [TimeScaleValue](./Project.TimeScaleValue.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

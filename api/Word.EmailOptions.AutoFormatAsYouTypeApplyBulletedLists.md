@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `AutoFormatAsYouTypeApplyBulletedLists`
 
- _expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
+_expression_ A variable that represents an '[EmailOptions](Word.EmailOptions.md)' collection.
 
 
 ## Remarks
@@ -38,7 +38,7 @@ This example causes characters to be replaced with bullets when typed in a list.
 Options.AutoFormatAsYouTypeApplyBulletedLists = True
 ```
 
-This example returns the status of the  **Automatic bulleted lists** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
+This example returns the status of the **Automatic bulleted lists** option on the **AutoFormat As You Type** tab in the **AutoCorrect** dialog box (**Tools** menu).
 
 
 

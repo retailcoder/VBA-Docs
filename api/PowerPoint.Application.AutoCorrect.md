@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.AutoCorrect property (PowerPoint)
 
-Returns an  **[AutoCorrect](PowerPoint.AutoCorrect.md)** object that represents the AutoCorrect functionality in Microsoft PowerPoint.
+Returns an **[AutoCorrect](PowerPoint.AutoCorrect.md)** object that represents the AutoCorrect functionality in Microsoft PowerPoint.
 
 
 ## Syntax
 
 _expression_. `AutoCorrect`
 
-_expression_ A variable that represents an [Application](./PowerPoint.Application.md) object.
+_expression_ A variable that represents an **[Application](PowerPoint.Application.md)** object.
 
 
 ## Return value

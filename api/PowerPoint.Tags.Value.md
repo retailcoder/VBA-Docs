@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Tags.Value method (PowerPoint)
 
-Returns the value of the specified tag as a  **String**.
+Returns the value of the specified tag as a **String**.
 
 
 ## Syntax
 
 _expression_.**Value** (_Index_)
 
- _expression_ A variable that represents a [Tags](./PowerPoint.Tags.md) object.
+_expression_ A variable that represents a [Tags](PowerPoint.Tags.md) object.
 
 
 ## Parameters

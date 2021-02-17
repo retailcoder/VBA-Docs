@@ -21,12 +21,12 @@ Returns the line formatting properties for the specified chart element. Read-onl
 
 _expression_.**Line**
 
- _expression_ A variable that represents a '[ChartFormat](Word.ChartFormat.md)' object.
+_expression_ A variable that represents a '[ChartFormat](Word.ChartFormat.md)' object.
 
 
 ## Remarks
 
-For a line, the  **LineFormat** object represents the line itself; for a chart with a border, the **LineFormat** object represents the border.
+For a line, the **LineFormat** object represents the line itself; for a chart with a border, the **LineFormat** object represents the border.
 
 
 ## See also

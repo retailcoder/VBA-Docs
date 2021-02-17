@@ -19,9 +19,9 @@ Returns an index value that is used internally to associate series formatting wi
 
 ## Syntax
 
-_expression_. `PlotColorIndex`
+_expression_.**PlotColorIndex**
 
- _expression_ A variable that represents a [Series](./PowerPoint.Series.md) object.
+_expression_ A variable that represents a [Series](PowerPoint.Series.md) object.
 
 
 ## Return value

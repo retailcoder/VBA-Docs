@@ -14,17 +14,17 @@ localization_priority: Normal
 
 # DataRecordset.ID property (Visio)
 
-Gets the unique identifier of the  **DataRecordset** object assigned by Visio. Read-only.
+Gets the unique identifier of the **DataRecordset** object assigned by Visio. Read-only.
 
-
- **Note**  This Visio object or member is available only to licensed users of Visio Professional 2013.
+> [!NOTE] 
+> This Visio object or member is available only to licensed users of Visio Professional 2013.
 
 
 ## Syntax
 
-_expression_. `ID`
+_expression_.**ID**
 
- _expression_ A variable that represents a [DataRecordset](./Visio.DataRecordset.md) object.
+_expression_ A variable that represents a **[DataRecordset](Visio.DataRecordset.md)** object.
 
 
 ## Return value
@@ -34,8 +34,8 @@ Long
 
 ## Remarks
 
- **DataRecordset** IDs are never recycled for a particular document.
+**DataRecordset** IDs are never recycled for a particular document.
 
- **ID** is the default property of the **DataRecordset** object.
+**ID** is the default property of the **DataRecordset** object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

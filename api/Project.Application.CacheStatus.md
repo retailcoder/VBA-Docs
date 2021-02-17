@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.CacheStatus method (Project)
 
-Displays the  **Cache Status** dialog box. Available in Project Professional only.
+Displays the **Cache Status** dialog box. Available in Project Professional only.
 
 
 ## Syntax
 
 _expression_. `CacheStatus`
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Return value

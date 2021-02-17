@@ -11,14 +11,14 @@ localization_priority: Normal
 
 # Task.SplitParts property (Project)
 
-Gets a  **[SplitParts](Project.SplitPart.md)** collection that represents the portions of a split task. Read-only **SplitParts**.
+Gets a **[SplitParts](Project.SplitPart.md)** collection that represents the portions of a split task. Read-only **SplitParts**.
 
 
 ## Syntax
 
 _expression_. `SplitParts`
 
- _expression_ A variable that represents a [Task](./Project.Task.md) object.
+_expression_ A variable that represents a [Task](./Project.Task.md) object.
 
 
 ## Example

@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # ShapeRange.Top property (Project)
-Gets or sets the vertical distance, in [points](../language/glossary/vbe-glossary.md#point), from the top of the report pane to the top edge of the shape range. Read-write  **Single**.
+Gets or sets the vertical distance, in [points](../language/glossary/vbe-glossary.md#point), from the top of the report pane to the top edge of the shape range. Read/write  **Single**.
 
 ## Syntax
 
 _expression_.**Top**
 
- _expression_ A variable that represents a 'ShapeRange' object.
+_expression_ A variable that represents a 'ShapeRange' object.
 
 
 ## Property value

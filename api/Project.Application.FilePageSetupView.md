@@ -21,7 +21,7 @@ Sets up view-specific options for printing.
 
 _expression_. `FilePageSetupView`( `_Name_`, `_AllSheetColumns_`, `_RepeatColumns_`, `_PrintNotes_`, `_PrintBlankPages_`, `_BestPageFitTimescale_`, `_PrintColumnTotals_`, `_PrintRowTotals_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -46,6 +46,6 @@ _expression_. `FilePageSetupView`( `_Name_`, `_AllSheetColumns_`, `_RepeatColumn
 
 ## Remarks
 
-Using the  **FilePageSetupView** method without specifying any arguments displays the **Page Setup** dialog box with the **View** tab selected.The **FilePageSetupView** method is not available when the Calendar is the active view.
+Using the **FilePageSetupView** method without specifying any arguments displays the **Page Setup** dialog box with the **View** tab selected.The **FilePageSetupView** method is not available when the Calendar is the active view.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

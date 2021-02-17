@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # Theme.ThemeVariants property (PowerPoint)
 
-Returns a  **[ThemeVariants](PowerPoint.themevariant.md)** collection that represents the variations in the theme.
+Returns a **[ThemeVariants](PowerPoint.themevariant.md)** collection that represents the variations in the theme.
 
 
 ## Syntax
 
 _expression_. `ThemeVariants`
 
- _expression_ A variable that represents a 'Theme' object.
+_expression_ A variable that represents a 'Theme' object.
 
 
 ## Example

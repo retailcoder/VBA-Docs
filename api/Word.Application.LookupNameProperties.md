@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Application.LookupNameProperties method (Word)
 
-Looks up a name in the global address book list and displays the  **Properties** dialog box, which includes information about the specified name.
+Looks up a name in the global address book list and displays the **Properties** dialog box, which includes information about the specified name.
 
 
 ## Syntax
 
 _expression_. `LookupNameProperties`( `_Name_` )
 
-_expression_ Required. A variable that represents an '[Application](Word.Application.md)' object.
+_expression_ Required. A variable that represents an **[Application](Word.Application.md)** object. 
 
 
 ## Parameters
@@ -34,12 +34,12 @@ _expression_ Required. A variable that represents an '[Application](Word.Applica
 
 ## Remarks
 
-If this method finds more than one match, it displays the  **Check Names** dialog box.
+If this method finds more than one match, it displays the **Check Names** dialog box.
 
 
 ## Example
 
-This example looks up the name Don Funk in the address book and displays the  **Properties** dialog box for Don Funk.
+This example looks up the name Don Funk in the address book and displays the **Properties** dialog box for Don Funk.
 
 
 ```vb

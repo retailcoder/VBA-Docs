@@ -18,7 +18,7 @@ Returns a single object from a collection.
 
 _expression_.**Item** (_Index_)
 
- _expression_ A variable that represents a '[SeriesCollection](PowerPoint.SeriesCollection.md)' object.
+_expression_ A variable that represents a '[SeriesCollection](PowerPoint.SeriesCollection.md)' object.
 
 
 ## Parameters
@@ -31,7 +31,7 @@ _expression_.**Item** (_Index_)
 
 ## Return value
 
-A  **[Series](PowerPoint.Series.md)** object contained by the collection.
+A **[Series](PowerPoint.Series.md)** object contained by the collection.
 
 
 ## Example
@@ -39,7 +39,8 @@ A  **[Series](PowerPoint.Series.md)** object contained by the collection.
 
 
 
- **Note**  Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
+> [!NOTE] 
+> Although the following code applies to Microsoft Word, you can readily modify it to apply to PowerPoint.
 
 The following example sets the number of units that the trendline on the first chart in the active document extends forward and backward. The example should be run on a 2D column chart that contains a single series with a trendline.
 

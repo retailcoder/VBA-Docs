@@ -21,12 +21,12 @@ Returns or sets the amount of space (in points) to add above the contents of a s
 
 _expression_.**TopPadding**
 
- _expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
+_expression_ A variable that represents a '[Cell](Word.Cell.md)' object.
 
 
 ## Remarks
 
-The setting of the  **TopPadding** property for a single cell overrides the setting of the **TopPadding** property for the entire table.
+The setting of the **TopPadding** property for a single cell overrides the setting of the **TopPadding** property for the entire table.
 
 
 ## Example

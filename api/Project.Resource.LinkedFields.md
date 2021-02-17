@@ -11,13 +11,13 @@ localization_priority: Normal
 
 # Resource.LinkedFields property (Project)
 
-Indicates whether the  **Resource** object contains fields that are linked to other applications through OLE. Read-only **Boolean**.
+Indicates whether the **Resource** object contains fields that are linked to other applications through OLE. Read-only **Boolean**.
 
 
 ## Syntax
 
 _expression_. `LinkedFields`
 
- _expression_ A variable that represents a [Resource](./Project.Resource.md) object.
+_expression_ A variable that represents a [Resource](./Project.Resource.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

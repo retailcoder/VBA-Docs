@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Presentation.VBProject property (PowerPoint)
 
-Returns a  **VBProject** object that represents the individual Visual Basic project for the presentation. Read-only.
+Returns a **VBProject** object that represents the individual Visual Basic project for the presentation. Read-only.
 
 
 ## Syntax
 
 _expression_. `VBProject`
 
- _expression_ A variable that represents a [Presentation](./PowerPoint.Presentation.md) object.
+_expression_ A variable that represents a [Presentation](PowerPoint.Presentation.md) object.
 
 
 ## Return value

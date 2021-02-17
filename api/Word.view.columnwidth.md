@@ -12,14 +12,14 @@ localization_priority: Normal
 
 # View.ColumnWidth property (Word)
 
-Returns or gets a constant that determines the column width in reading mode. Read-write [WdColumnWidth](Word.wdcolumnwidth.md)
+Returns or gets a constant that determines the column width in reading mode. Read/write [WdColumnWidth](Word.wdcolumnwidth.md)
 
 
 ## Syntax
 
 _expression_.**ColumnWidth**
 
- _expression_ A variable that represents a [View](./Word.View.md) object.
+_expression_ A variable that represents a [View](./Word.View.md) object.
 
 
 ## Property value

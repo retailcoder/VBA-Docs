@@ -19,7 +19,7 @@ Represents an individual schema that is attached to a document.
 
 ## Remarks
 
-Use the  **XMLSchemaReference** property to return an **XMLSchemaReference** object for a **ChildNodeSuggestion** object. The following example inserts the suggested XML child element if the XML schema referenced is the SimpleSample schema.
+Use the **XMLSchemaReference** property to return an **XMLSchemaReference** object for a **ChildNodeSuggestion** object. The following example inserts the suggested XML child element if the XML schema referenced is the SimpleSample schema.
 
 
 ```vb
@@ -36,7 +36,8 @@ Next
 ```
 
 
- **Note**  The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
+> [!NOTE] 
+> The SimpleSample schema is included in the Smart Document Software Development Kit (SDK). For more information, refer to the Smart Document SDK on the Microsoft Developer Network (MSDN) Web site.
 
 
 ## See also

@@ -19,9 +19,9 @@ Sets or returns the background style of the specified object. Read/write.
 
 ## Syntax
 
-_expression_. `BackgroundStyle`
+_expression_.**BackgroundStyle**
 
- _expression_ An expression that returns a [Master](./PowerPoint.Master.md) object.
+ _expression_ An expression that returns a [Master](PowerPoint.Master.md) object.
 
 
 ## Remarks

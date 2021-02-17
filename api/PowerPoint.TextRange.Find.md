@@ -14,19 +14,17 @@ localization_priority: Normal
 
 # TextRange.Find method (PowerPoint)
 
-Finds the specified text in a text range, and returns a  **[TextRange](PowerPoint.TextRange.md)** object that represents the first text range where the text is found. Returns **Nothing** if no match is found.
+Finds the specified text in a text range, and returns a **[TextRange](PowerPoint.TextRange.md)** object that represents the first text range where the text is found. Returns **Nothing** if no match is found.
 
 
 ## Syntax
 
-_expression_. `Find`( `_FindWhat_`, `_After_`, `_MatchCase_`, `_WholeWords_` )
+_expression_.**Find** (_FindWhat_, _After_, _MatchCase_, _WholeWords_)
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters
-
-
 
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|

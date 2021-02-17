@@ -21,7 +21,7 @@ Enters the interactive task split mode, enabling the user to manually create tas
 
 _expression_. `SplitTask`( `_Lock_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `SplitTask`( `_Lock_` )
 
 ## Remarks
 
-The  **SplitTask** method requires user interaction before additional code can be executed. The **SplitTask** method is only available in Gantt views; it corresponds to the **Split Task** icon on the **Task** tab of the Ribbon.
+The **SplitTask** method requires user interaction before additional code can be executed. The **SplitTask** method is only available in Gantt views; it corresponds to the **Split Task** icon on the **Task** tab of the Ribbon.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

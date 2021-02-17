@@ -19,14 +19,14 @@ A collection that represents a notes page or a slide range, which is a set of sl
 
 ## Remarks
 
-You can include whichever slides you want — chosen from all the slides in the presentation or from all the slides in the selection — to construct a slide range. For example, you could construct a  **SlideRange** collection that contains the first three slides in a presentation, all the selected slides in the presentation, or all the title slides in the presentation.
+You can include whichever slides you want — chosen from all the slides in the presentation or from all the slides in the selection — to construct a slide range. For example, you could construct a **SlideRange** collection that contains the first three slides in a presentation, all the selected slides in the presentation, or all the title slides in the presentation.
 
-Just as you can work with several slides at the same time in the user interface by selecting them and applying a command, you can work with several slides at the same time programmatically by constructing a  **SlideRange** collection and applying properties or methods to it. And just as some commands in the user interface that work on single slides aren't valid when multiple slides are selected, some properties and methods that work on a **Slide** object or on a **SlideRange** collection that contains only one slide will fail if they're applied to a **SlideRange** collection that contains more than one slide. In general, if you can't do something manually when more than one slide is selected (such as return the individual shapes on one of the slides), you can't do it programmatically by using a **SlideRange** collection that contains more than one slide.
+Just as you can work with several slides at the same time in the user interface by selecting them and applying a command, you can work with several slides at the same time programmatically by constructing a **SlideRange** collection and applying properties or methods to it. And just as some commands in the user interface that work on single slides aren't valid when multiple slides are selected, some properties and methods that work on a **Slide** object or on a **SlideRange** collection that contains only one slide will fail if they're applied to a **SlideRange** collection that contains more than one slide. In general, if you can't do something manually when more than one slide is selected (such as return the individual shapes on one of the slides), you can't do it programmatically by using a **SlideRange** collection that contains more than one slide.
 
-For those operations that work in the user interface whether you have a single slide or multiple slides selected (such as copying the selection to the Clipboard or setting the slide background fill), the associated properties and methods will work on a  **SlideRange** collection that contains more than one slide. Here are some general guidelines for how these properties and methods behave when they're applied to multiple slides.
+For those operations that work in the user interface whether you have a single slide or multiple slides selected (such as copying the selection to the Clipboard or setting the slide background fill), the associated properties and methods will work on a **SlideRange** collection that contains more than one slide. Here are some general guidelines for how these properties and methods behave when they're applied to multiple slides.
 
 
-- Applying a method to a  **SlideRange** collection is equivalent to applying the method to all the **Slide** objects in that range as a group.
+- Applying a method to a **SlideRange** collection is equivalent to applying the method to all the **Slide** objects in that range as a group.
     
 - Setting the value of a property of the  **SlideRange** collection is equivalent to setting the value of the property in each slide in that range individually (for a property that takes an enumerated type, setting the value to the "Mixed" value has no effect).
     
@@ -50,7 +50,7 @@ The following examples describe how to:
 
 ## Example
 
-Use  **Slides.Range** (index), where index is the name or index number of the slide or an array that contains either names or index numbers of slides, to return a **SlideRange** collection that represents a set of slides in a presentation. You can use the **Array** function to construct an array of names or index numbers. The following example sets the background fill for slides one and three in the active presentation.
+Use  **Slides.Range** (_index_), where _index_ is the name or index number of the slide or an array that contains either names or index numbers of slides, to return a **SlideRange** collection that represents a set of slides in a presentation. You can use the **Array** function to construct an array of names or index numbers. The following example sets the background fill for slides one and three in the active presentation.
 
 
 ```vb
@@ -95,7 +95,7 @@ With Windows(1).Selection.SlideRange
 End With
 ```
 
-Use  **Selection.SlideRange** (index), where index is the slide name or index number, to return a single slide from the selection. The following example sets the background fill for slide two in the collection of selected slides in window one, assuming that there are at least two slides selected.
+Use  **Selection.SlideRange** (_index_), where _index_ is the slide name or index number, to return a single slide from the selection. The following example sets the background fill for slide two in the collection of selected slides in window one, assuming that there are at least two slides selected.
 
 
 

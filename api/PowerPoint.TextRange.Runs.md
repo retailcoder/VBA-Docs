@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TextRange.Runs method (PowerPoint)
 
-Returns a  **TextRange** object that represents the specified subset of text runs. A text run consists of a range of characters that share the same font attributes.
+Returns a **TextRange** object that represents the specified subset of text runs. A text run consists of a range of characters that share the same font attributes.
 
 
 ## Syntax
 
 _expression_. `Runs`( `_Start_`, `_Length_` )
 
- _expression_ A variable that represents a [TextRange](./PowerPoint.TextRange.md) object.
+_expression_ A variable that represents a [TextRange](PowerPoint.TextRange.md) object.
 
 
 ## Parameters

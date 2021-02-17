@@ -17,7 +17,7 @@ Shows an empty Office Add-ins task pane.
 
 _expression_. `ShowOSFTaskPane` _(Name)_
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -27,7 +27,8 @@ _expression_. `ShowOSFTaskPane` _(Name)_
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Name_|Optional|**String**|The name of the task pane app.
- **Note**  Not implemented in Project.
+> [!NOTE] 
+> Not implemented in Project.
 
 |
 
@@ -40,7 +41,7 @@ _expression_. `ShowOSFTaskPane` _(Name)_
 
 ## Remarks
 
-The  **ShowOSFTaskPane** method is not fully implemented in Project. If another task pane app has been loaded, the **ShowOSFTaskPane** method displays an empty Office Add-ins task pane with an **APP ERROR** message. If another task pane app has not previously been loaded, the **ShowOSFTaskPane** method does nothing.
+The **ShowOSFTaskPane** method is not fully implemented in Project. If another task pane app has been loaded, the **ShowOSFTaskPane** method displays an empty Office Add-ins task pane with an **APP ERROR** message. If another task pane app has not previously been loaded, the **ShowOSFTaskPane** method does nothing.
 
 
 ## See also

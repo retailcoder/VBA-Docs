@@ -21,7 +21,7 @@ Sets the value of a local custom field or enterprise custom field for the select
 
 _expression_. `SetField`( `_Field_`, `_Value_`, `_Create_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -32,7 +32,7 @@ _expression_. `SetField`( `_Field_`, `_Value_`, `_Create_` )
 |:-----|:-----|:-----|:-----|
 | _Field_|Required|**String**| The name of the field to set.|
 | _Value_|Required|**String**|The value of the field.|
-| _Create_|Optional|**Boolean**|**True** if a new value is created; otherwise **false**. The default value is **true**.|
+| _Create_|Optional|**Boolean**|**True** if a new value is created; otherwise, **False**. The default value is **True**.|
 
 ## Return value
 
@@ -43,12 +43,12 @@ _expression_. `SetField`( `_Field_`, `_Value_`, `_Create_` )
 
 If the custom field uses a lookup table that does not allow additional items to be entered, the specified Value must match a predefined value in the lookup table.
 
-If the value of the Field argument does not exist as a custom field name for the selected items, the  **SetField** method results in run-time error 1101.
+If the value of the Field argument does not exist as a custom field name for the selected items, the **SetField** method results in run-time error 1101.
 
 
 ## Example
 
-The following example sets the value of an enterprise task text custom field to one of the valid values in the lookup table for the custom field. To use the example, create a lookup table in Project Web App that includes the value  **Value 3**, and then create a task custom text field that uses that lookup table. Select a task in the active project and run the command in the  **Immediate** window in the Visual Basic Editor.
+The following example sets the value of an enterprise task text custom field to one of the valid values in the lookup table for the custom field. To use the example, create a lookup table in Project Web App that includes the value  **Value 3**, and then create a task custom text field that uses that lookup table. Select a task in the active project and run the command in the Immediate window in the Visual Basic Editor.
 
 
 ```vb

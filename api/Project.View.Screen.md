@@ -18,11 +18,11 @@ Gets the screen type for the view. Read-only  **PjViewScreen**.
 
 _expression_. `Screen`
 
- _expression_ A variable that represents a [View](./Project.View.md) object.
+_expression_ A variable that represents a [View](./Project.View.md) object.
 
 
 ## Remarks
 
-The  **Screen** property can be one of the **[PjViewScreen](Project.PjViewScreen.md)** constants.
+The **Screen** property can be one of the **[PjViewScreen](Project.PjViewScreen.md)** constants.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

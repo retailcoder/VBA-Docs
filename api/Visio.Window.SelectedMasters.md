@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SelectedMasters`
 
- _expression_ A variable that represents a [Window](./Visio.Window.md) object.
+_expression_ A variable that represents a **[Window](Visio.Window.md)** object.
 
 
 ## Return value
@@ -36,7 +36,7 @@ The  **SelectedMasters** property applies only to stencil windows. If you try to
 
 ## Example
 
-This Microsoft Visual Basic for Applications (VBA) macro uses the  **SelectedMasters** property to get the number of masters and master shortcuts selected in a stencil window and then prints the name of the stencil and the selected masters and master shortcuts in the **Immediate** window.
+This Microsoft Visual Basic for Applications (VBA) macro uses the  **SelectedMasters** property to get the number of masters and master shortcuts selected in a stencil window and then prints the name of the stencil and the selected masters and master shortcuts in the Immediate window.
 
 Before running this macro, make sure that at least one master or master shortcut is selected in a docked stencil in the active Visio window.
 

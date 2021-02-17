@@ -21,7 +21,7 @@ localization_priority: Normal
 
 _expression_. `SpaceAfterAuto`
 
- _expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
+_expression_ A variable that represents a '[Paragraphs](Word.paragraphs.md)' collection.
 
 
 ## Remarks
@@ -33,7 +33,7 @@ If  **SpaceAfterAuto** is set to **True**, the **SpaceAfter** property is ignore
 
 ## Example
 
-This example displays a report showing the  **SpaceAfterAuto** settings for the active document.
+This example displays a report showing the **SpaceAfterAuto** settings for the active document.
 
 
 ```vb

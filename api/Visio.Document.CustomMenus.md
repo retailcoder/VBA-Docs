@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # Document.CustomMenus property (Visio)
 
-Gets a  **UIObject** object that represents the current custom menus and accelerators of a **Document** object. Read-only.
+Gets a **UIObject** object that represents the current custom menus and accelerators of a **Document** object. Read-only.
 
 
 ## Syntax
 
-_expression_. `CustomMenus`
+_expression_.**CustomMenus**
 
- _expression_ A variable that represents a [Document](./Visio.Document.md) object.
+_expression_ A variable that represents a **[Document](Visio.Document.md)** object.
 
 
 ## Return value
@@ -32,9 +32,10 @@ UIObject
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
-If Microsoft Visio menus and accelerators have not been customized, either programmatically, by a Visio solution, or in the user interface, the  **CustomMenus** property returns **Nothing**.
+If Microsoft Visio menus and accelerators have not been customized, either programmatically, by a Visio solution, or in the user interface, the **CustomMenus** property returns **Nothing**.
 
 
 ## Example

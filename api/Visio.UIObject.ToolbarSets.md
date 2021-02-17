@@ -21,7 +21,7 @@ Returns the  **ToolbarSets** collection of a **UIObject** object. Read-only.
 
 _expression_. `ToolbarSets`
 
- _expression_ A variable that represents a [UIObject](./Visio.UIObject.md) object.
+_expression_ A variable that represents a **[UIObject](Visio.UIObject.md)** object.
 
 
 ## Return value
@@ -32,7 +32,8 @@ ToolbarSets
 ## Remarks
 
 
- **Note**  Starting with Visio, the Microsoft Office Fluent user interface (UI) replaces the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
+> [!NOTE] 
+> Starting with Visio 2010, the Microsoft Office Fluent user interface (UI) replaced the previous system of layered menus, toolbars, and task panes. VBA objects and members that you used to customize the user interface in previous versions of Visio are still available in Visio, but they function differently.
 
 If a  **UIObject** object represents toolbars (for example, if the object was retrieved by using the **BuiltInToolbars** property of an **Application** object), its **ToolbarSets** collection represents all of the toolbars for that **UIObject** object.
 
@@ -45,7 +46,7 @@ This Microsoft Visual Basic macro shows how to use the  **ToolbarSets** property
 
 
 
-Before running this code, replace  _path\filename_ with the full path to and name of a valid icon (.ico) file on your computer.
+Before running this code, replace `path\filename` with the full path to and name of a valid icon (.ico) file on your computer.
 
 To restore the built-in Visio toolbars after you run this macro, call the  **ThisDocument.ClearCustomToolbars** method.
 
@@ -80,7 +81,7 @@ Public Sub ToolbarSets_Example()
  vsoToolbarItem.CmdNum = visCmdPanZoom 
  
  'Set the toolbar button icon. 
- vsoToolbarItem.IconFileName "path\filename " 
+ vsoToolbarItem.IconFileName "path\filename" 
  
  'Use the new custom UI. 
  ThisDocument.SetCustomToolbars vsoUIObject 

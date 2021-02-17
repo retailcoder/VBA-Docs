@@ -7,7 +7,7 @@ ms.prod: excel
 api_name:
 - Excel.RTD.RestartServers
 ms.assetid: ae3b3b50-63a3-1e7e-7f34-4d50770020ee
-ms.date: 06/08/2017
+ms.date: 05/11/2019
 localization_priority: Normal
 ---
 
@@ -19,14 +19,11 @@ Reconnects to a real-time data server (RTD).
 
 ## Syntax
 
-_expression_. `RestartServers`
+_expression_.**RestartServers**
 
-_expression_ A variable that represents a '[RTD](Excel.RTD.md)' object.
-
-
-## See also
+_expression_ A variable that represents an **[RTD](Excel.RTD.md)** object.
 
 
-[RTD Object](Excel.RTD.md)
+
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

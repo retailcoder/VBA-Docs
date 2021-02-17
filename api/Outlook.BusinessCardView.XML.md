@@ -14,12 +14,12 @@ localization_priority: Normal
 
 # BusinessCardView.XML property (Outlook)
 
-Returns or sets a  **String** value that specifies the XML definition of the current view. Read/write.
+Returns or sets a **String** value that specifies the XML definition of the current view. Read/write.
 
 
 ## Syntax
 
-_expression_. `XML`
+_expression_.**XML**
 
  _expression_ An expression that returns a [BusinessCardView](Outlook.BusinessCardView.md) object.
 

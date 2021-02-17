@@ -21,7 +21,7 @@ Fills the selected cells or columns with the values in the specified cell or col
 
 _expression_. `FillAcross`( `_Right_` )
 
- _expression_ A variable that represents an [Application](./Project.Application.md) object.
+_expression_ A variable that represents an **[Application](Project.Application.md)** object.
 
 
 ## Parameters
@@ -39,6 +39,6 @@ _expression_. `FillAcross`( `_Right_` )
 
 ## Remarks
 
-The  **FillAcross** method is only available in timephased cells of usage views.
+The **FillAcross** method is only available in timephased cells of usage views.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]

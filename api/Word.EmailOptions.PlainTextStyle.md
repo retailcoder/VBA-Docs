@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # EmailOptions.PlainTextStyle property (Word)
 
-Returns the  **[Style](Word.Style.md)** object that represents the text attributes for email messages that are sent or received using plain text.
+Returns the **[Style](Word.Style.md)** object that represents the text attributes for email messages that are sent or received using plain text.
 
 
 ## Syntax
 
 _expression_. `PlainTextStyle`
 
- _expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
+_expression_ A variable that represents a '[EmailOptions](Word.EmailOptions.md)' object.
 
 
 ## Example

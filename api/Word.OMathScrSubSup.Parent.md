@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # OMathScrSubSup.Parent property (Word)
 
-Returns an  **Object** that represents the parent object of the specified **OMathScrSubSup** object.
+Returns an **Object** that represents the parent object of the specified **OMathScrSubSup** object.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a '[OMathScrSubSup](Word.OMathScrSubSup.md)' object.
+_expression_ A variable that represents a '[OMathScrSubSup](Word.OMathScrSubSup.md)' object.
 
 
 ## See also

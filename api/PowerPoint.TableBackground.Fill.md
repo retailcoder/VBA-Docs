@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # TableBackground.Fill property (PowerPoint)
 
-Returns a  **[FillFormat](PowerPoint.FillFormat.md)** object that represents the formatting of the fill associated with the table background. Read-only.
+Returns a **[FillFormat](PowerPoint.FillFormat.md)** object that represents the formatting of the fill associated with the table background. Read-only.
 
 
 ## Syntax
 
-_expression_. `Fill`
+_expression_.**Fill**
 
- _expression_ An expression that returns a [TableBackground](./PowerPoint.TableBackground.md) object.
+ _expression_ An expression that returns a [TableBackground](PowerPoint.TableBackground.md) object.
 
 
 ## Return value

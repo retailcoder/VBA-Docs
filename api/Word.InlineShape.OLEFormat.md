@@ -14,14 +14,14 @@ localization_priority: Normal
 
 # InlineShape.OLEFormat property (Word)
 
-Returns an  **OLEFormat** object that represents the OLE characteristics (other than linking) for the specified inline shape. Read-only.
+Returns an **OLEFormat** object that represents the OLE characteristics (other than linking) for the specified inline shape. Read-only.
 
 
 ## Syntax
 
-_expression_. `OLEFormat`
+_expression_.**OLEFormat**
 
- _expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
+_expression_ A variable that represents an '[InlineShape](Word.InlineShape.md)' object.
 
 
 ## See also

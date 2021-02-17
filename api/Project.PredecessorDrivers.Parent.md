@@ -11,19 +11,19 @@ localization_priority: Normal
 
 # PredecessorDrivers.Parent property (Project)
 
-Gets the parent of the  **PredecessorDrivers** object. Read-only **Task**.
+Gets the parent of the **PredecessorDrivers** object. Read-only **Task**.
 
 
 ## Syntax
 
 _expression_.**Parent**
 
- _expression_ A variable that represents a 'PredecessorDrivers' object.
+_expression_ A variable that represents a 'PredecessorDrivers' object.
 
 
 ## Remarks
 
-Use the  **Parent** property to access the properties or methods of the parent of an object.
+Use the **Parent** property to access the properties or methods of the parent of an object.
 
 
 ## See also

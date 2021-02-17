@@ -21,7 +21,7 @@ Creates a new shape whose path follows a given sequence of points.
 
 _expression_. `DrawSpline`( `_xyArray()_` , `_Tolerance_` , `_Flags_` )
 
- _expression_ A variable that represents a [Shape](./Visio.Shape.md) object.
+_expression_ A variable that represents a **[Shape](Visio.Shape.md)** object.
 
 
 ## Parameters
@@ -51,7 +51,7 @@ The  _Flags_ parameter is a bitmask that specifies options for drawing the new s
 
 
 
-|**Constant**|**Value**|
+|Constant|Value|
 |:-----|:-----|
 | **visSplinePeriodic**|1(&H1)|
 | **visSplineDoCircles**|2(&H2)|

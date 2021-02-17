@@ -4,6 +4,10 @@
             "redirect_url": "/office/vba/api/overview",
             "source_path": "index.md" 
         },
+         {
+            "source_path": "excel/Concepts/Excel-Performance/excel-improving-calcuation-performance.md",
+            "redirect_url": "/office/vba/excel/Concepts/Excel-Performance/excel-improving-calculation-performance.md"
+        },
         {
             "source_path": "access/Concepts/Miscellaneous/alter-microsoft-access-sql-reserved-word.md",
             "redirect_url": "/office/vba/access/concepts/structured-query-language/alter-microsoft-access-sql-reserved-word"
@@ -143,10 +147,6 @@
         {
             "source_path": "access/Concepts/Settings/activex-data-objects-ado.md",
             "redirect_url": "/office/vba/api/overview/access"
-        },
-        {
-            "source_path": "library-reference/concepts/office-vba-object-library-reference.md",
-            "redirect_url": "/office/vba/api/overview/library-reference"
         },
         {
             "source_path": "access/concepts/miscellaneous/data-access-in-access.md",
@@ -2619,6 +2619,54 @@
           {
             "source_path": "language/reference/user-interface-help/close-method-filesystemobject-object.md",
             "redirect_url": "/office/vba/language/reference/user-interface-help/close-method-textstream-object"
-          }
+          },
+          {
+            "source_path": "api/Excel.XlSubtototalLocationType.md",
+            "redirect_url": "/office/vba/api/Excel.XlSubtotalLocationType"
+          },
+          {
+            "source_path": "api/Publisher.Field.FieldType.md",
+            "redirect_url": "/office/vba/api/publisher.mailmergedatafield.FieldType"
+          },
+          {
+            "source_path": "access/Concepts/Miscellaneous/and-operator.md",
+            "redirect_url": "/office/vba/access/concepts/miscellaneous/between-and-operator"
+          },
+          {
+            "source_path": "api/Visio.enumerations.visio.save.md",
+            "redirect_url": "/office/vba/api/Visio.VisSaveAsWeb.visweb-disp-res-enumeration"
+          },
+          {
+            "source_path": "visio/Concepts/viewer-events-visio-viewer.md",
+            "redirect_url": "/office/vba/api/Visio.Viewer"
+          },
+          {
+            "source_path": "visio/Concepts/viewer-methods-visio-viewer.md",
+            "redirect_url": "/office/vba/api/Visio.Viewer"
+          },
+          {
+            "source_path": "visio/Concepts/viewer-properties-visio-viewer.md",
+            "redirect_url": "/office/vba/api/Visio.Viewer"
+          },
+          {
+            "source_path": "visio/Concepts/vissaveasweb-methods-visio-save-as-web.md",
+            "redirect_url": "/office/vba/api/Visio.VisSaveAsWeb"
+          },
+          {
+            "source_path": "visio/Concepts/vissaveasweb-properties-visio-save-as-web.md",
+            "redirect_url": "/office/vba/api/Visio.VisSaveAsWeb"
+          },
+          {
+            "source_path": "visio/Concepts/viswebpagesettings-methods-visio-save-as-web.md",
+            "redirect_url": "/office/vba/api/Visio.VisWebPageSettings"
+          },
+          {
+            "source_path": "visio/Concepts/viswebpagesettings-properties-visio-save-as-web.md",
+            "redirect_url": "/office/vba/api/Visio.VisWebPageSettings"
+          },
+          {
+            "source_path": "office/vba/api/Access.Application.CompactRepair",
+            "redirect_url": "/office/vba/api/access.application"
+          }       
     ]
 }

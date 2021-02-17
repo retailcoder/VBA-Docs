@@ -12,9 +12,9 @@ Gets a single  **Report** object from the **Reports** collection. Read-only **Re
 
 ## Syntax
 
-_expression_. `Item`
+_expression_.**Item**
 
- _expression_ A variable that represents a 'Reports' object.
+_expression_ A variable that represents a 'Reports' object.
 
 
 ## Parameters
@@ -27,7 +27,7 @@ _expression_. `Item`
 
 ## Remarks
 
-To get the index number of a report, you can use the [Report.Index](Project.report.index.md) property. For example, create a report namedReport 1, and then run the following statement in the  **Immediate** window of the VBE:
+To get the index number of a report, you can use the [Report.Index](Project.report.index.md) property. For example, create a report namedReport 1, and then run the following statement in the Immediate window of the VBE:
 
 
 ```vb

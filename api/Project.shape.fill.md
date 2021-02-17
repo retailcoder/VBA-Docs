@@ -8,13 +8,13 @@ localization_priority: Normal
 
 
 # Shape.Fill property (Project)
-Gets a  **FillFormat** object for the shape, if the shape contains fill formatting properties. Read-only **[FillFormat](https://msdn.microsoft.com/library/office/ff838198%28v=office.15%29)**.
+Gets a **FillFormat** object for the shape, if the shape contains fill formatting properties. Read-only **[FillFormat](https://msdn.microsoft.com/library/office/ff838198%28v=office.15%29)**.
 
 ## Syntax
 
-_expression_. `Fill`
+_expression_.**Fill**
 
- _expression_ A variable that represents a 'Shape' object.
+_expression_ A variable that represents a **[Shape](Project.Shape.md)** object.
 
 
 ## Property value

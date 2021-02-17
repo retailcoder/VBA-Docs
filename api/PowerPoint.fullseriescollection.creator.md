@@ -12,13 +12,13 @@ localization_priority: Normal
 
 # FullSeriesCollection.Creator property (PowerPoint)
 
-Returns a  **Long** that represents the four-character creator code for the application in which the specified object was created. For example, if the object was created in PowerPoint, this property returns the hexadecimal number 50575054. Read-only.
+Returns a **Long** that represents the four-character creator code for the application in which the specified object was created. For example, if the object was created in PowerPoint, this property returns the hexadecimal number 50575054. Read-only.
 
 
 ## Syntax
 
 _expression_.**Creator**
 
- _expression_ A variable that represents a [FullSeriesCollection](PowerPoint.fullseriescollection.md) object.
+_expression_ A variable that represents a [FullSeriesCollection](PowerPoint.fullseriescollection.md) object.
 
 [!include[Support and feedback](~/includes/feedback-boilerplate.md)]
